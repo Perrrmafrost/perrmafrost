@@ -1,0 +1,384 @@
+asset_id,type,description,source_or_parent,version,status,used_in_shots,tags
+CHR-MILES-01,character,Miles - locked face/identity,reference/miles_reference_source.jpg,v1.0,APPROVED,163 shots,character;locked;face-lock
+CHR-MILES-01-L1,look,Miles look 1 - WRD-M-A,CHR-MILES-01,v1.0,APPROVED,156 shots,character;locked;face-lock
+CHR-MILES-01-L2,look,"Miles look 2 - WRD-M-B (jacket, boots)",CHR-MILES-01,v1.0,APPROVED,7 shots,character;locked;face-lock
+CHR-LAUREN-01,character,Lauren - locked face/identity,reference/lauren_reference_source.jpg,v1.0,APPROVED,173 shots,character;locked;face-lock
+CHR-LAUREN-01-L1,look,Lauren look 1 - WRD-L-A,CHR-LAUREN-01,v1.0,APPROVED,144 shots,character;locked;face-lock
+CHR-LAUREN-01-L2,look,Lauren look 2 - WRD-L-B (cardigan),CHR-LAUREN-01,v1.0,APPROVED,29 shots,character;locked;face-lock
+CHR-LAUREN-02,character,"The double - CHR-LAUREN-01 + scar, stillness, hair down",CHR-LAUREN-01,v1.0,APPROVED,19 shots,character;locked;face-lock
+CHR-LAUREN-02-L1,look,Double look 1 - WRD-D-A,CHR-LAUREN-02,v1.0,APPROVED,19 shots,character;locked;face-lock
+CHR-FIGURE-01,character,The figure (tag + street) - never a face,-,v1.0,APPROVED,4 shots,character;locked;face-lock
+VOX-MILES,voice,Miles voice profile,production/01-bible/character-bible.md,v1.0,APPROVED,-,voice;locked
+VOX-LAUREN,voice,Lauren voice profile,production/01-bible/character-bible.md,v1.0,APPROVED,-,voice;locked
+VOX-DOUBLE,voice,"Double voice profile - unprocessed, no breath",production/01-bible/character-bible.md,v1.0,APPROVED,-,voice;locked
+VOX-DOOR,voice,"The voice at the door - warm, muffled, gender unclear",-,v1.0,APPROVED,-,voice;locked
+VOX-SYSTEM,voice,"Tag system voice - flat, pleasant",-,v1.0,APPROVED,-,voice;locked
+PRP-LEAF-01,prop,The leaf - hero prop,production/05-assets/locations-and-props.md,v1.0,APPROVED,95 shots,prop;locked;continuity-tracked
+PRP-BOX-01,prop,The package,production/05-assets/locations-and-props.md,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-LABEL-01,prop,"The shipping label - crossed seven, 14 Oct",production/05-assets/locations-and-props.md,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-CAL-01,prop,Wall calendar - one circled date,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-HOOKS-01,prop,Four bare picture hooks,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-DETECTOR-01,prop,Smoke detector - single chirp recording,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-BOLT-01,prop,Brass deadbolt,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-BAGS-01,prop,Two dusty canvas duffels,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-PHOTO-01,prop,The photograph - NEVER SEEN,-,v1.0,LOCKED-HIDDEN,-,prop;locked;continuity-tracked
+PRP-PENDANT-01,prop,Lauren's pendant,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-IRON-01,prop,Fire iron,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-PHONE-01,prop,Lauren's phone,-,v1.0,APPROVED,-,prop;locked;continuity-tracked
+PRP-SHEET-01,prop,The tag's sheet - same object as the leaf,PRP-LEAF-01,v1.0,APPROVED,-,prop;locked;continuity-tracked
+LOC-EXT_STREET,location,"Cedar Row: an ordinary North American residential street of low single-storey 1950s houses, chain-li",production/05-assets/locations-and-props.md,v1.0,APPROVED,6 shots,location;locked
+LOC-PORCH,location,"the Ward house front porch: concrete step, dark coir mat, aluminium screen door, a wall lamp with on",production/05-assets/locations-and-props.md,v1.0,APPROVED,1 shots,location;locked
+LOC-ENTRY,location,"the Ward house entry hall: narrow, warm, a coat hook, shoes lined against the skirting, a front door",production/05-assets/locations-and-props.md,v1.0,APPROVED,11 shots,location;locked
+LOC-HALL,location,"the Ward house hallway: narrow, inoffensive wallpaper, a cheap hardware-store wall calendar, and fou",production/05-assets/locations-and-props.md,v1.0,APPROVED,8 shots,location;locked
+LOC-KITCHEN,location,"the Ward house kitchen: small, warm, lived-in, mismatched wooden chairs, a scratched laminate table,",production/05-assets/locations-and-props.md,v1.0,APPROVED,103 shots,location;locked
+LOC-LIVING,location,"the Ward house living room: a worn fabric couch, one armchair, a low wooden coffee table, two table ",production/05-assets/locations-and-props.md,v1.0,APPROVED,181 shots,location;locked
+LOC-MOTEL,location,"a low two-storey motel beside a state highway at night in hard rain, external walkway, twelve doors,",production/05-assets/locations-and-props.md,v1.0,APPROVED,1 shots,location;locked
+LOC-PALE,location,"a room lit uniformly from every direction so that nothing casts a shadow and no corner is locatable,",production/05-assets/locations-and-props.md,v1.0,APPROVED,8 shots,location;locked
+LOC-ELSEWHERE,location,"an unidentifiable exterior at night in hard rain, harsh unmotivated light from off-frame, wet asphal",production/05-assets/locations-and-props.md,v1.0,APPROVED,1 shots,location;locked
+LGT-GOLDEN,lighting state,"late afternoon daylight, low warm sun, long soft shadows, gentle contrast",production/05-assets/lookbook.md,v1.0,APPROVED,20 shots,lighting;locked
+LGT-WARM,lighting state,"warm domestic tungsten practicals, two table lamps, soft falloff, cosy amber key, comfortable contra",production/05-assets/lookbook.md,v1.0,APPROVED,6 shots,lighting;locked
+LGT-WARM_LOW,lighting state,"a single warm table lamp, most of the room in soft shadow, faces modelled from one side",production/05-assets/lookbook.md,v1.0,APPROVED,83 shots,lighting;locked
+LGT-KITCHEN_OVERHEAD,lighting state,"a single warm overhead kitchen fixture, hard-ish top light, clean and slightly clinical against the ",production/05-assets/lookbook.md,v1.0,APPROVED,85 shots,lighting;locked
+LGT-COLD_PANE,lighting state,"the only light source is the flat cold blue-white pane, lighting faces from below and in front, warm",production/05-assets/lookbook.md,v1.0,APPROVED,76 shots,lighting;locked
+LGT-MIXED,lighting state,"warm practical lamp on one side of the face, cold pane light on the other, the two colours meeting o",production/05-assets/lookbook.md,v1.0,APPROVED,20 shots,lighting;locked
+LGT-BLACKOUT,lighting state,"total interior darkness except spill from the street through curtains, cool and low, faces barely mo",production/05-assets/lookbook.md,v1.0,APPROVED,6 shots,lighting;locked
+LGT-STREET_NIGHT,lighting state,"sodium street lighting, wet ground, warm windows in other houses, cool ambient sky",production/05-assets/lookbook.md,v1.0,APPROVED,6 shots,lighting;locked
+LGT-TV_ONLY,lighting state,"flickering low television light, otherwise dark, cool and unstable",production/05-assets/lookbook.md,v1.0,APPROVED,9 shots,lighting;locked
+LGT-PALE_FLAT,lighting state,"perfectly even shadowless illumination from all directions, no key, no fill, no modelling",production/05-assets/lookbook.md,v1.0,APPROVED,8 shots,lighting;locked
+LGT-DEGRADED,lighting state,"harsh unmotivated light in heavy rain, blown highlights, crushed shadows, degraded recovered-footage",production/05-assets/lookbook.md,v1.0,APPROVED,1 shots,lighting;locked
+M01,music cue,"Ordinary - solo felt piano, two notes, unresolved, very sparse",production/07-post/music-cue-sheet.md,v1.0,APPROVED,12 shots,music;cue
+M02,music cue,"Title - one sustained low synth tone, unresolved, no rhythm",production/07-post/music-cue-sheet.md,v1.0,APPROVED,1 shots,music;cue
+M03,music cue,"The Box - bowed double bass sub-harmonic, near-inaudible, rising",production/07-post/music-cue-sheet.md,v1.0,APPROVED,13 shots,music;cue
+M04,music cue,The Eye - silence - score OUT,production/07-post/music-cue-sheet.md,v1.0,APPROVED,5 shots,music;cue
+M05,music cue,"Signal - processed room tone and a single detuned string, breathing",production/07-post/music-cue-sheet.md,v1.0,APPROVED,5 shots,music;cue
+M06,music cue,Her Face - silence - score OUT,production/07-post/music-cue-sheet.md,v1.0,APPROVED,7 shots,music;cue
+M07,music cue,"Containment - low strings, slow, mechanical, no melody",production/07-post/music-cue-sheet.md,v1.0,APPROVED,6 shots,music;cue
+M08,music cue,"The Date - felt piano returns from M01, alone, slower, in a minor colour",production/07-post/music-cue-sheet.md,v1.0,APPROVED,7 shots,music;cue
+M09,music cue,The Fight - silence - score OUT,production/07-post/music-cue-sheet.md,v1.0,APPROVED,4 shots,music;cue
+M10,music cue,"Clause Three - sub-bass swell and a single high sine, no percussion",production/07-post/music-cue-sheet.md,v1.0,APPROVED,4 shots,music;cue
+M11,music cue,"Listening - pulse of filtered noise on the countdown's second, felt not heard",production/07-post/music-cue-sheet.md,v1.0,APPROVED,10 shots,music;cue
+M12,music cue,"Count Backwards - M01's two piano notes, alone, unbearably slow",production/07-post/music-cue-sheet.md,v1.0,APPROVED,7 shots,music;cue
+M13,music cue,"Nothing Whole - low strings and sub, tightening",production/07-post/music-cue-sheet.md,v1.0,APPROVED,9 shots,music;cue
+M14,music cue,"It's Me - everything drops out to a single tone, then nothing",production/07-post/music-cue-sheet.md,v1.0,APPROVED,6 shots,music;cue
+M15,music cue,"End Card - the M02 tone, resolved a semitone lower",production/07-post/music-cue-sheet.md,v1.0,APPROVED,1 shots,music;cue
+M16,music cue,"Tag - no music, room tone only",production/07-post/music-cue-sheet.md,v1.0,APPROVED,1 shots,music;cue
+SH0001,shot,"The street, flattened by a long lens. Nothing happens for six seconds. A sedan crosses frame left to",SC-01,v1,READY-TO-GENERATE,SH0001,shot;teaser;xwide
+SH0002,shot,The fourth house. Nothing distinguishes it. A kitchen window on the left side warms as a light is sw,SC-01,v1,READY-TO-GENERATE,SH0002,shot;teaser;wide
+SH0003,shot,"The kitchen entire. LAUREN at the stove with three pans going, none of them well, entirely happy. MI",SC-02,v1,READY-TO-GENERATE,SH0003,shot;teaser;wide-2s
+SH0004,shot,"MILES, holding up an envelope, not looking up.",SC-02,v1,READY-TO-GENERATE,SH0004,shot;teaser;mcu
+SH0005,shot,"LAUREN at the stove, over her shoulder.",SC-02,v1,READY-TO-GENERATE,SH0005,shot;teaser;mcu
+SH0006,shot,MILES turns the envelope over.,SC-02,v1,READY-TO-GENERATE,SH0006,shot;teaser;mcu
+SH0007,shot,"LAUREN, deadpan, still cooking.",SC-02,v1,READY-TO-GENERATE,SH0007,shot;teaser;mcu
+SH0008,shot,She reaches past him for the salt. Without looking up he shifts his weight out of her way at precise,SC-02,v1,READY-TO-GENERATE,SH0008,shot;teaser;med-2s
+SH0009,shot,LAUREN turns with a wooden spoon held out.,SC-02,v1,READY-TO-GENERATE,SH0009,shot;teaser;mcu
+SH0010,shot,"MILES, not moving.",SC-02,v1,READY-TO-GENERATE,SH0010,shot;teaser;mcu
+SH0011,shot,He gives in and tastes it off the spoon. He considers. He considers for noticeably longer than is fl,SC-02,v1,READY-TO-GENERATE,SH0011,shot;teaser;cu
+SH0012,shot,"MILES, diplomatic.",SC-02,v1,READY-TO-GENERATE,SH0012,shot;teaser;mcu
+SH0013,shot,"LAUREN, instantly.",SC-02,v1,READY-TO-GENERATE,SH0013,shot;teaser;mcu
+SH0014,shot,The two of them.,SC-02,v1,READY-TO-GENERATE,SH0014,shot;teaser;med-2s
+SH0015,shot,"Beat. Miles laughs - a short exhale through the nose. She goes back to the stove, pleased with herse",SC-02,v1,READY-TO-GENERATE,SH0015,shot;teaser;med-2s
+SH0016,shot,"LAUREN crosses to the fridge, takes a pen off a magnet, and adds a line to the notepad stuck there.",SC-02,v1,READY-TO-GENERATE,SH0016,shot;teaser;med
+SH0017,shot,The notepad. Her handwriting: 'bins - Thurs'. Below it she begins to write a time and forms the nume,SC-02,v1,READY-TO-GENERATE,SH0017,shot;teaser;ecu-insert
+SH0018,shot,She caps the pen without ceremony and puts it back on the magnet.,SC-02,v1,READY-TO-GENERATE,SH0018,shot;teaser;med
+SH0019,shot,The smoke detector on the kitchen ceiling. A single low chirp.,SC-02,v1,READY-TO-GENERATE,SH0019,shot;teaser;cu-insert
+SH0020,shot,Neither of them looks up.,SC-02,v1,READY-TO-GENERATE,SH0020,shot;teaser;med-2s
+SH0021,shot,"MILES carries the mail through the narrow hallway, camera following at his shoulder. He passes four ",SC-03,v1,READY-TO-GENERATE,SH0021,shot;teaser;med-track
+SH0022,shot,"LAUREN comes out of the kitchen behind him, drying her hands.",SC-03,v1,READY-TO-GENERATE,SH0022,shot;teaser;med
+SH0023,shot,"MILES, walking away, not slowing.",SC-03,v1,READY-TO-GENERATE,SH0023,shot;teaser;med
+SH0024,shot,LAUREN stops. She looks at the four bare nails for a moment. Then she follows him.,SC-03,v1,READY-TO-GENERATE,SH0024,shot;teaser;mcu
+SH0025,shot,The living room. Two lamps and a television playing an old black-and-white film with the sound low. ,SC-04,v1,READY-TO-GENERATE,SH0025,shot;teaser;wide-2s
+SH0026,shot,On the television: a woman in a coat stands on a railway platform in black and white.,SC-04,v1,READY-TO-GENERATE,SH0026,shot;teaser;insert-tv
+SH0027,shot,"MILES, quietly, to nobody.",SC-04,v1,READY-TO-GENERATE,SH0027,shot;teaser;mcu
+SH0028,shot,Three seconds later the detective on screen says something to precisely that effect.,SC-04,v1,READY-TO-GENERATE,SH0028,shot;teaser;insert-tv
+SH0029,shot,LAUREN turns her head to look at him.,SC-04,v1,READY-TO-GENERATE,SH0029,shot;teaser;mcu
+SH0030,shot,He shrugs it off. She doesn't buy it and doesn't press.,SC-04,v1,READY-TO-GENERATE,SH0030,shot;teaser;med-2s
+SH0031,shot,"LAUREN reaches for her phone, thumbs the camera open, and lifts it toward him.",SC-04,v1,READY-TO-GENERATE,SH0031,shot;teaser;med
+SH0032,shot,"MILES turns his face away - instantly, smoothly, into her shoulder. Played entirely as a joke. It is",SC-04,v1,READY-TO-GENERATE,SH0032,shot;teaser;med-2s
+SH0033,shot,"LAUREN lowers the phone, smiling. The smile stays one beat past where it should. Then she puts the p",SC-04,v1,READY-TO-GENERATE,SH0033,shot;teaser;mcu
+SH0034,shot,"Outside, distantly: music, and people laughing. A party two doors down.",SC-04,v1,READY-TO-GENERATE,SH0034,shot;teaser;med-2s
+SH0035,shot,,SC-04,v1,READY-TO-GENERATE,SH0035,shot;teaser;med-2s
+SH0036,shot,"LAUREN looks toward the window, and the noise, and the ordinary street.",SC-04,v1,READY-TO-GENERATE,SH0036,shot;teaser;mcu
+SH0037,shot,MILES looks at her. A quarter of a second too long.,SC-04,v1,READY-TO-GENERATE,SH0037,shot;teaser;mcu
+SH0038,shot,"She indicates the window, meaning the neighbours.",SC-04,v1,READY-TO-GENERATE,SH0038,shot;teaser;med-2s
+SH0039,shot,MILES holds the look a beat longer than the joke needs. Then he looks away.,SC-04,v1,READY-TO-GENERATE,SH0039,shot;teaser;mcu
+SH0040,shot,MILES at the front door. He turns the deadbolt. Solid. Done. He takes two steps away.,SC-05,v1,READY-TO-GENERATE,SH0040,shot;teaser;med
+SH0041,shot,He comes back and turns it again. Then tests it with the flat of his palm.,SC-05,v1,READY-TO-GENERATE,SH0041,shot;teaser;cu
+SH0042,shot,He leans in to the narrow window beside the door and looks down the street. Left. Then right. Then b,SC-05,v1,READY-TO-GENERATE,SH0042,shot;teaser;med
+SH0043,shot,LAUREN in the hall behind him with a glass of water. She says nothing. She has watched him do this a,SC-05,v1,READY-TO-GENERATE,SH0043,shot;teaser;med
+SH0044,shot,"She turns back toward the kitchen. As she passes the wall, the camera drifts off her and finds a che",SC-05,v1,READY-TO-GENERATE,SH0044,shot;teaser;med-track
+SH0045,shot,"The living room. The film plays. Lauren settles. Miles comes in and sits. For a moment, nothing at a",SC-06,v1,READY-TO-GENERATE,SH0045,shot;teaser;wide-2s
+SH0046,shot,THE DOORBELL. Neither of them moves.,SC-06,v1,READY-TO-GENERATE,SH0046,shot;teaser;med-2s
+SH0047,shot,They look at each other. The pause after the second question is far longer than the question deserve,SC-06,v1,READY-TO-GENERATE,SH0047,shot;teaser;med-2s
+SH0048,shot,MILES unlocks and opens the door on the chain first. Then all the way.,SC-06,v1,READY-TO-GENERATE,SH0048,shot;teaser;med
+SH0049,shot,"MILES' POV: the porch is empty. The street is empty. The mat is dark with rain. On the mat, dead cen",SC-06,v1,READY-TO-GENERATE,SH0049,shot;teaser;wide-pov
+SH0050,shot,"Black. A single low sustained tone, unresolved, more felt than heard. The main title resolves out of",TITLE,v1,READY-TO-GENERATE,SH0050,shot;title;title
+SH0051,shot,The entry hall. The box sits on the floor where Miles set it down. Neither of them has come closer t,SC-07,v1,READY-TO-GENERATE,SH0051,shot;act-one;wide
+SH0052,shot,MILES.,SC-07,v1,READY-TO-GENERATE,SH0052,shot;act-one;mcu
+SH0053,shot,LAUREN is already crouched beside it with her palm flat on the top. She always touches first. It is ,SC-07,v1,READY-TO-GENERATE,SH0053,shot;act-one;med
+SH0054,shot,,SC-07,v1,READY-TO-GENERATE,SH0054,shot;act-one;med-2s
+SH0055,shot,"Her thumb travels along an edge of the box. Every corner is sharp. No crush, no scuff, no thumbprint",SC-07,v1,READY-TO-GENERATE,SH0055,shot;act-one;ecu-insert
+SH0056,shot,He crouches beside her. Looks. Says nothing at all.,SC-07,v1,READY-TO-GENERATE,SH0056,shot;act-one;med-2s
+SH0057,shot,"The kitchen. They have put the box under the overhead light, on the table, on a folded tea towel - a",SC-08,v1,READY-TO-GENERATE,SH0057,shot;act-one;wide-2s
+SH0058,shot,LAUREN turns the box. On one face: a label.,SC-08,v1,READY-TO-GENERATE,SH0058,shot;act-one;med
+SH0059,shot,"THE LABEL. White, printed, correct in every visual respect and wrong in every specific one. Their ad",SC-08,v1,READY-TO-GENERATE,SH0059,shot;act-one;ecu-insert
+SH0060,shot,,SC-08,v1,READY-TO-GENERATE,SH0060,shot;act-one;med-2s
+SH0061,shot,"Lower on the label, in blue ballpoint, in a small neat hand: '1 of 1', and a six-digit consignment n",SC-08,v1,READY-TO-GENERATE,SH0061,shot;act-one;ecu-insert
+SH0062,shot,LAUREN leans closer. Her eyes travel down to the handwritten line. And she stops. Everything about h,SC-08,v1,READY-TO-GENERATE,SH0062,shot;act-one;cu
+SH0063,shot,,SC-08,v1,READY-TO-GENERATE,SH0063,shot;act-one;med-2s
+SH0064,shot,She puts her hand flat over the bottom of the label. Which is not nothing.,SC-08,v1,READY-TO-GENERATE,SH0064,shot;act-one;cu-insert
+SH0065,shot,MILES watches her hand. He does not ask again.,SC-08,v1,READY-TO-GENERATE,SH0065,shot;act-one;mcu
+SH0066,shot,"MILES, flat, already planning.",SC-08,v1,READY-TO-GENERATE,SH0066,shot;act-one;med
+SH0067,shot,,SC-08,v1,READY-TO-GENERATE,SH0067,shot;act-one;med-2s
+SH0068,shot,He has nothing.,SC-08,v1,READY-TO-GENERATE,SH0068,shot;act-one;mcu
+SH0069,shot,"LAUREN, reasonable, which is worse.",SC-08,v1,READY-TO-GENERATE,SH0069,shot;act-one;mcu
+SH0070,shot,A long moment. The refrigerator cycles on. Rain restarts against the window over the sink.,SC-08,v1,READY-TO-GENERATE,SH0070,shot;act-one;wide-2s
+SH0071,shot,,SC-08,v1,READY-TO-GENERATE,SH0071,shot;act-one;med-2s
+SH0072,shot,"LAUREN, softer than she was.",SC-08,v1,READY-TO-GENERATE,SH0072,shot;act-one;mcu
+SH0073,shot,She takes a knife from the block. The good one.,SC-08,v1,READY-TO-GENERATE,SH0073,shot;act-one;cu-insert
+SH0074,shot,The blade goes through the tape. It is a small sound and it is enormous.,SC-08,v1,READY-TO-GENERATE,SH0074,shot;act-one;ecu-insert
+SH0075,shot,She cuts the second seam. The third. Nobody speaks. The refrigerator hums. Rain. A car two streets o,SC-08,v1,READY-TO-GENERATE,SH0075,shot;act-one;med-2s
+SH0076,shot,"CHIRP. They both flinch, hard - and then immediately laugh at themselves, badly, with far too much a",SC-08,v1,READY-TO-GENERATE,SH0076,shot;act-one;med-2s
+SH0077,shot,She opens the flaps.,SC-09,v1,READY-TO-GENERATE,SH0077,shot;act-one;med
+SH0078,shot,"Inside: grey foam, cut to shape. No packing slip, no manual, no plastic, no desiccant. Set into the ",SC-09,v1,READY-TO-GENERATE,SH0078,shot;act-one;ecu-insert
+SH0079,shot,Neither of them says anything for a while. It does not look futuristic. It looks finished.,SC-09,v1,READY-TO-GENERATE,SH0079,shot;act-one;med-2s
+SH0080,shot,"MILES, quietly.",SC-09,v1,READY-TO-GENERATE,SH0080,shot;act-one;mcu
+SH0081,shot,LAUREN lifts it out of the foam. Two hands.,SC-09,v1,READY-TO-GENERATE,SH0081,shot;act-one;med
+SH0082,shot,"She holds it out. He takes it two-handed, the way you take something borrowed. It is far heavier tha",SC-09,v1,READY-TO-GENERATE,SH0082,shot;act-one;cu
+SH0083,shot,"He adjusts his grip. He tilts the pane slowly. The MASS SHIFTS ACROSS IT - unhurried, a beat behind ",SC-09,v1,READY-TO-GENERATE,SH0083,shot;act-one;ecu-insert
+SH0084,shot,"He sets it down flat on the table. Carefully. He takes his hand off, then puts two fingers back on i",SC-09,v1,READY-TO-GENERATE,SH0084,shot;act-one;med
+SH0085,shot,"She slides her hand underneath, palm up, against the other face.",SC-09,v1,READY-TO-GENERATE,SH0085,shot;act-one;med-2s
+SH0086,shot,They look at each other.,SC-09,v1,READY-TO-GENERATE,SH0086,shot;act-one;cu-2s
+SH0087,shot,Miles turns the pane over and sets it down again. Lauren touches the top face. Then the underside.,SC-09,v1,READY-TO-GENERATE,SH0087,shot;act-one;ecu-insert
+SH0088,shot,"LAUREN sits down. Slowly. Not because she is frightened - because she is thinking, and thinking is w",SC-09,v1,READY-TO-GENERATE,SH0088,shot;act-one;med
+SH0089,shot,"The kitchen is held in the pane. Dimly. The lamp, the cabinets, the shape of her own shoulder.",SC-09,v1,READY-TO-GENERATE,SH0089,shot;act-one;ecu-insert
+SH0090,shot,"She raises her hand. The hand in the pane raises - LATE. She lowers it. Raises it again, watching. D",SC-09,v1,READY-TO-GENERATE,SH0090,shot;act-one;ecu-insert
+SH0091,shot,,SC-09,v1,READY-TO-GENERATE,SH0091,shot;act-one;med-2s
+SH0092,shot,His voice has changed. Flattened. She looks up at him.,SC-09,v1,READY-TO-GENERATE,SH0092,shot;act-one;cu
+SH0093,shot,MILES has stopped moving. Completely. Both hands flat on the table. He is not looking at her. He is ,SC-09,v1,READY-TO-GENERATE,SH0093,shot;act-one;mcu
+SH0094,shot,LAUREN.,SC-09,v1,READY-TO-GENERATE,SH0094,shot;act-one;cu
+SH0095,shot,Nothing. He does not hear her.,SC-09,v1,READY-TO-GENERATE,SH0095,shot;act-one;mcu
+SH0096,shot,"THE PANE WAKES. Not an image, not a menu, not a logo. AN EYE - filling the whole surface. Wet. Livin",SC-09,v1,READY-TO-GENERATE,SH0096,shot;act-one;ecu-insert
+SH0097,shot,"The refrigerator hums. Lauren stares at the dead pane. Then, slowly, up at her husband.",SC-09,v1,READY-TO-GENERATE,SH0097,shot;act-one;med-2s
+SH0098,shot,"MILES has gone white. Absolutely white, from the collar up.",SC-09,v1,READY-TO-GENERATE,SH0098,shot;act-one;cu
+SH0099,shot,"LAUREN, watching him understand something.",SC-09,v1,READY-TO-GENERATE,SH0099,shot;act-one;cu
+SH0100,shot,He does not answer. SMASH TO BLACK.,SC-09,v1,READY-TO-GENERATE,SH0100,shot;act-one;mcu
+SH0101,shot,"MILES moves, fast. He has the box in one hand and is reaching for the pane with the other.",SC-10,v1,READY-TO-GENERATE,SH0101,shot;act-two;med
+SH0102,shot,,SC-10,v1,READY-TO-GENERATE,SH0102,shot;act-two;med-2s
+SH0103,shot,"He stops, one hand over the pane.",SC-10,v1,READY-TO-GENERATE,SH0103,shot;act-two;mcu
+SH0104,shot,LAUREN.,SC-10,v1,READY-TO-GENERATE,SH0104,shot;act-two;cu
+SH0105,shot,,SC-10,v1,READY-TO-GENERATE,SH0105,shot;act-two;mcu
+SH0106,shot,,SC-10,v1,READY-TO-GENERATE,SH0106,shot;act-two;cu
+SH0107,shot,,SC-10,v1,READY-TO-GENERATE,SH0107,shot;act-two;med-2s
+SH0108,shot,,SC-10,v1,READY-TO-GENERATE,SH0108,shot;act-two;med
+SH0109,shot,She does not raise her voice. She puts one hand flat on the pane and leaves it there and looks at hi,SC-10,v1,READY-TO-GENERATE,SH0109,shot;act-two;med-2s
+SH0110,shot,,SC-10,v1,READY-TO-GENERATE,SH0110,shot;act-two;mcu
+SH0111,shot,,SC-10,v1,READY-TO-GENERATE,SH0111,shot;act-two;mcu
+SH0112,shot,,SC-10,v1,READY-TO-GENERATE,SH0112,shot;act-two;cu
+SH0113,shot,"Back down, immediately.",SC-10,v1,READY-TO-GENERATE,SH0113,shot;act-two;med-2s
+SH0114,shot,"MILES, very quiet.",SC-10,v1,READY-TO-GENERATE,SH0114,shot;act-two;mcu
+SH0115,shot,"LAUREN says it flat and fast, without effort, the way you say a thing you have said ten thousand tim",SC-10,v1,READY-TO-GENERATE,SH0115,shot;act-two;cu
+SH0116,shot,,SC-10,v1,READY-TO-GENERATE,SH0116,shot;act-two;cu
+SH0117,shot,Something crosses him.,SC-10,v1,READY-TO-GENERATE,SH0117,shot;act-two;mcu
+SH0118,shot,,SC-10,v1,READY-TO-GENERATE,SH0118,shot;act-two;cu
+SH0119,shot,She takes her hand off the pane.,SC-10,v1,READY-TO-GENERATE,SH0119,shot;act-two;med-2s
+SH0120,shot,"She picks the leaf up. Both hands, careful, like a tray.",SC-10,v1,READY-TO-GENERATE,SH0120,shot;act-two;med
+SH0121,shot,"She puts it down. Flat on the coffee table, dead centre. She sits back on the couch.",SC-11,v1,READY-TO-GENERATE,SH0121,shot;act-two;wide
+SH0122,shot,"MILES stays standing in the doorway - which is exactly between Lauren and the front hall, and he doe",SC-11,v1,READY-TO-GENERATE,SH0122,shot;act-two;wide-2s
+SH0123,shot,Nothing happens. Nothing keeps happening. Lauren pulls a cushion into her lap. Miles shifts his weig,SC-11,v1,READY-TO-GENERATE,SH0123,shot;act-two;med-2s
+SH0124,shot,,SC-11,v1,READY-TO-GENERATE,SH0124,shot;act-two;mcu
+SH0125,shot,"THE LEAF WAKES. No sound, no boot, no logo. The light simply arrives, and it is on their faces. Mile",SC-11,v1,READY-TO-GENERATE,SH0125,shot;act-two;wide-2s
+SH0126,shot,"ON THE PANE: a face in darkness, lit from somewhere low and moving, so that light shifts across it s",SC-11,v1,READY-TO-GENERATE,SH0126,shot;act-two;ecu-insert
+SH0127,shot,LAUREN does not move. Neither does Miles.,SC-11,v1,READY-TO-GENERATE,SH0127,shot;act-two;cu
+SH0128,shot,,SC-11,v1,READY-TO-GENERATE,SH0128,shot;act-two;ecu-insert
+SH0129,shot,Lauren's hand has gone to her own mouth without her deciding to do it.,SC-11,v1,READY-TO-GENERATE,SH0129,shot;act-two;cu
+SH0130,shot,,SC-11,v1,READY-TO-GENERATE,SH0130,shot;act-two;ecu-insert
+SH0131,shot,,SC-11,v1,READY-TO-GENERATE,SH0131,shot;act-two;cu
+SH0132,shot,,SC-11,v1,READY-TO-GENERATE,SH0132,shot;act-two;ecu-insert
+SH0133,shot,Lauren's other hand closes over her own left wrist.,SC-11,v1,READY-TO-GENERATE,SH0133,shot;act-two;cu-insert
+SH0134,shot,,SC-11,v1,READY-TO-GENERATE,SH0134,shot;act-two;ecu-insert
+SH0135,shot,LAUREN makes a sound. Not a word.,SC-11,v1,READY-TO-GENERATE,SH0135,shot;act-two;cu
+SH0136,shot,MILES takes one step into the room.,SC-11,v1,READY-TO-GENERATE,SH0136,shot;act-two;med
+SH0137,shot,The face does not answer him. But she is looking at him. She has been looking at him this entire tim,SC-11,v1,READY-TO-GENERATE,SH0137,shot;act-two;ecu-insert
+SH0138,shot,To Lauren.,SC-11,v1,READY-TO-GENERATE,SH0138,shot;act-two;ecu-insert
+SH0139,shot,,SC-11,v1,READY-TO-GENERATE,SH0139,shot;act-two;cu
+SH0140,shot,,SC-11,v1,READY-TO-GENERATE,SH0140,shot;act-two;ecu-insert
+SH0141,shot,She talks over him without hurrying.,SC-11,v1,READY-TO-GENERATE,SH0141,shot;act-two;med-2s
+SH0142,shot,,SC-11,v1,READY-TO-GENERATE,SH0142,shot;act-two;cu
+SH0143,shot,,SC-11,v1,READY-TO-GENERATE,SH0143,shot;act-two;ecu-insert
+SH0144,shot,MILES crosses the room fast. He gets one hand flat on the pane - and stops. Because his hand is on i,SC-11,v1,READY-TO-GENERATE,SH0144,shot;act-two;med
+SH0145,shot,,SC-11,v1,READY-TO-GENERATE,SH0145,shot;act-two;ecu-insert
+SH0146,shot,"LAUREN, cutting across her.",SC-11,v1,READY-TO-GENERATE,SH0146,shot;act-two;cu
+SH0147,shot,"For the first time, the face hesitates. It is a small thing. Half a second. But it is the first huma",SC-11,v1,READY-TO-GENERATE,SH0147,shot;act-two;ecu-insert
+SH0148,shot,"THE FOOTAGE. Degraded, narrow, recovered-looking. Night, outdoors, hard rain in a hard light. MILES ",SC-11,v1,READY-TO-GENERATE,SH0148,shot;act-two;insert-footage
+SH0149,shot,"BLACK. The pane is dead. The room is dark except for the television, still playing its old film to n",SC-11,v1,READY-TO-GENERATE,SH0149,shot;act-two;wide-2s
+SH0150,shot,,SC-11,v1,READY-TO-GENERATE,SH0150,shot;act-two;cu
+SH0151,shot,,SC-11,v1,READY-TO-GENERATE,SH0151,shot;act-two;mcu
+SH0152,shot,,SC-11,v1,READY-TO-GENERATE,SH0152,shot;act-two;med-2s
+SH0153,shot,She turns and looks at him properly for the first time since it started.,SC-11,v1,READY-TO-GENERATE,SH0153,shot;act-two;cu
+SH0154,shot,He does not answer. He does not answer for a long time. Rain on the window. The film ends and the cr,SC-11,v1,READY-TO-GENERATE,SH0154,shot;act-two;mcu
+SH0155,shot,CHIRP. Cut to black and total silence.,SC-11,v1,READY-TO-GENERATE,SH0155,shot;act-two;wide-2s
+SH0156,shot,No music. Almost no sound. Just a man working. MILES slides the pane face-down into the bottom drawe,SC-12,v1,READY-TO-GENERATE,SH0156,shot;act-three;med
+SH0157,shot,He stands there. Then he reaches out and touches the brass drawer pull. It is cold. He takes his han,SC-12,v1,READY-TO-GENERATE,SH0157,shot;act-three;ecu-insert
+SH0158,shot,"He puts it in a camping cooler. Clips the lid. Stands back. Then, slowly, he puts his palm flat on t",SC-12,v1,READY-TO-GENERATE,SH0158,shot;act-three;med
+SH0159,shot,"He goes to the breaker panel in the hall closet and throws the main. The house dies - refrigerator, ",SC-12,v1,READY-TO-GENERATE,SH0159,shot;act-three;med
+SH0160,shot,He comes back to the living room in the dark. The pane is lying on the coffee table where Lauren has,SC-12,v1,READY-TO-GENERATE,SH0160,shot;act-three;wide
+SH0161,shot,The street. Every house has its lights on except one. A dog barks twice somewhere. A television flic,SC-13,v1,READY-TO-GENERATE,SH0161,shot;act-three;xwide
+SH0162,shot,"Power back on, one lamp. LAUREN sits in the armchair facing the coffee table. She has put Miles's ca",SC-14,v1,READY-TO-GENERATE,SH0162,shot;act-three;wide-2s
+SH0163,shot,She does not look up.,SC-14,v1,READY-TO-GENERATE,SH0163,shot;act-three;mcu
+SH0164,shot,,SC-14,v1,READY-TO-GENERATE,SH0164,shot;act-three;cu
+SH0165,shot,He does not answer.,SC-14,v1,READY-TO-GENERATE,SH0165,shot;act-three;mcu
+SH0166,shot,"LAUREN, not being generous. Filing it.",SC-14,v1,READY-TO-GENERATE,SH0166,shot;act-three;cu
+SH0167,shot,She looks up.,SC-14,v1,READY-TO-GENERATE,SH0167,shot;act-three;cu
+SH0168,shot,Miles opens his mouth. Nothing comes out.,SC-14,v1,READY-TO-GENERATE,SH0168,shot;act-three;mcu
+SH0169,shot,Lauren watches his hands go flat on the back of the couch. She has seen that before too.,SC-14,v1,READY-TO-GENERATE,SH0169,shot;act-three;cu-insert
+SH0170,shot,"She gets up, crosses to the table, lifts the jacket and takes the label out from under the pane wher",SC-14,v1,READY-TO-GENERATE,SH0170,shot;act-three;med
+SH0171,shot,LAUREN stops in front of the wall calendar. The circled date. Blue pen. Nothing written in it. She l,SC-14,v1,READY-TO-GENERATE,SH0171,shot;act-three;med
+SH0172,shot,She comes back in with the label held up between two fingers.,SC-14,v1,READY-TO-GENERATE,SH0172,shot;act-three;med
+SH0173,shot,,SC-14,v1,READY-TO-GENERATE,SH0173,shot;act-three;mcu
+SH0174,shot,,SC-14,v1,READY-TO-GENERATE,SH0174,shot;act-three;cu
+SH0175,shot,,SC-14,v1,READY-TO-GENERATE,SH0175,shot;act-three;cu
+SH0176,shot,She lowers the label.,SC-14,v1,READY-TO-GENERATE,SH0176,shot;act-three;med
+SH0177,shot,MILES sits down on the arm of the couch. It takes him a moment to do it.,SC-14,v1,READY-TO-GENERATE,SH0177,shot;act-three;med
+SH0178,shot,,SC-14,v1,READY-TO-GENERATE,SH0178,shot;act-three;mcu
+SH0179,shot,The room is very quiet.,SC-14,v1,READY-TO-GENERATE,SH0179,shot;act-three;wide-2s
+SH0180,shot,One syllable at a time.,SC-14,v1,READY-TO-GENERATE,SH0180,shot;act-three;med-2s
+SH0181,shot,,SC-14,v1,READY-TO-GENERATE,SH0181,shot;act-three;cu
+SH0182,shot,"LAUREN turns away from him. All the way around, hands on top of her head, looking at nothing.",SC-14,v1,READY-TO-GENERATE,SH0182,shot;act-three;med
+SH0183,shot,,SC-14,v1,READY-TO-GENERATE,SH0183,shot;act-three;med-2s
+SH0184,shot,MILES.,SC-14,v1,READY-TO-GENERATE,SH0184,shot;act-three;cu
+SH0185,shot,She turns back.,SC-14,v1,READY-TO-GENERATE,SH0185,shot;act-three;cu
+SH0186,shot,,SC-14,v1,READY-TO-GENERATE,SH0186,shot;act-three;mcu
+SH0187,shot,,SC-14,v1,READY-TO-GENERATE,SH0187,shot;act-three;med-2s
+SH0188,shot,He cannot. He physically cannot get it out. His mouth works and nothing comes.,SC-14,v1,READY-TO-GENERATE,SH0188,shot;act-three;cu
+SH0189,shot,"And Lauren - watching him fail - understands something, and goes absolutely still.",SC-14,v1,READY-TO-GENERATE,SH0189,shot;act-three;cu
+SH0190,shot,She looks down at the label in her hand. At the crossed seven. At the date.,SC-14,v1,READY-TO-GENERATE,SH0190,shot;act-three;ecu-insert
+SH0191,shot,THE TURN.,SC-14,v1,READY-TO-GENERATE,SH0191,shot;act-three;med-2s
+SH0192,shot,It rips out of her. It is the loudest thing in this house in six years and it is over in two seconds,SC-14,v1,READY-TO-GENERATE,SH0192,shot;act-three;cu
+SH0193,shot,Miles has not moved.,SC-14,v1,READY-TO-GENERATE,SH0193,shot;act-three;mcu
+SH0194,shot,Low.,SC-14,v1,READY-TO-GENERATE,SH0194,shot;act-three;mcu
+SH0195,shot,That stops him.,SC-14,v1,READY-TO-GENERATE,SH0195,shot;act-three;cu
+SH0196,shot,Miles puts his hand over his mouth and holds it there.,SC-14,v1,READY-TO-GENERATE,SH0196,shot;act-three;cu
+SH0197,shot,,SC-14,v1,READY-TO-GENERATE,SH0197,shot;act-three;cu
+SH0198,shot,Long silence.,SC-14,v1,READY-TO-GENERATE,SH0198,shot;act-three;wide-2s
+SH0199,shot,,SC-14,v1,READY-TO-GENERATE,SH0199,shot;act-three;med-2s
+SH0200,shot,,SC-14,v1,READY-TO-GENERATE,SH0200,shot;act-three;mcu
+SH0201,shot,,SC-14,v1,READY-TO-GENERATE,SH0201,shot;act-three;cu
+SH0202,shot,"She sits down on the coffee table, right beside the covered pane, because her legs have stopped bein",SC-14,v1,READY-TO-GENERATE,SH0202,shot;act-three;med
+SH0203,shot,Almost - almost - the ghost of the two people from the beginning of the evening. Then it is gone.,SC-14,v1,READY-TO-GENERATE,SH0203,shot;act-three;med-2s
+SH0204,shot,The thesis of the marriage.,SC-14,v1,READY-TO-GENERATE,SH0204,shot;act-three;cu
+SH0205,shot,He has no answer to that. There isn't one.,SC-14,v1,READY-TO-GENERATE,SH0205,shot;act-three;mcu
+SH0206,shot,"The room has just got colder. You can see it: her arms come in. She gets up, takes a grey cardigan o",SC-15,v1,READY-TO-GENERATE,SH0206,shot;act-three;med
+SH0207,shot,,SC-15,v1,READY-TO-GENERATE,SH0207,shot;act-three;med-2s
+SH0208,shot,"She looks at him. Six years of not asking, and now every single answer is a new injury.",SC-15,v1,READY-TO-GENERATE,SH0208,shot;act-three;cu
+SH0209,shot,She stops. He comes over. He does not touch her. He gets close enough to.,SC-15,v1,READY-TO-GENERATE,SH0209,shot;act-three;med-2s
+SH0210,shot,The only articulate thing Miles says all night.,SC-15,v1,READY-TO-GENERATE,SH0210,shot;act-three;cu
+SH0211,shot,"He raises his hand and puts it on her arm, just above the elbow. She lets him. Ten seconds of two pe",SC-15,v1,READY-TO-GENERATE,SH0211,shot;act-three;med-2s
+SH0212,shot,"LIGHT. The pane, under the jacket, comes on so brightly that the canvas glows from underneath.",SC-15,v1,READY-TO-GENERATE,SH0212,shot;act-three;wide-2s
+SH0213,shot,Miles pulls the jacket off.,SC-15,v1,READY-TO-GENERATE,SH0213,shot;act-three;med
+SH0214,shot,ON THE PANE: no face. A black field. Four words in thin white wide-tracked type. DO NOT GO BACK.,SC-15,v1,READY-TO-GENERATE,SH0214,shot;act-three;ecu-insert
+SH0215,shot,Lauren stares at it.,SC-15,v1,READY-TO-GENERATE,SH0215,shot;act-three;med
+SH0216,shot,She turns to him. MILES has taken a step BACK from the table. Not a flinch - a retreat. He has put d,SC-15,v1,READY-TO-GENERATE,SH0216,shot;act-three;med
+SH0217,shot,,SC-15,v1,READY-TO-GENERATE,SH0217,shot;act-three;med-2s
+SH0218,shot,"She looks at the screen. Then at him. And then she gets it, and it takes all the blood out of her to",SC-15,v1,READY-TO-GENERATE,SH0218,shot;act-three;cu
+SH0219,shot,,SC-15,v1,READY-TO-GENERATE,SH0219,shot;act-three;med-2s
+SH0220,shot,"Beneath the four words, small, precise, unhurried, a number appears. 11:00. It becomes 10:59. Then 1",SC-15,v1,READY-TO-GENERATE,SH0220,shot;act-three;ecu-insert
+SH0221,shot,Very quietly.,SC-15,v1,READY-TO-GENERATE,SH0221,shot;act-three;cu
+SH0222,shot,"Overhead light on. Everything visible. Two people working. There is no panic in this room, and that ",SC-16,v1,READY-TO-GENERATE,SH0222,shot;act-four;wide-2s
+SH0223,shot,Lauren has a pad and is writing a list in fast legible capitals. Miles is at the back door.,SC-16,v1,READY-TO-GENERATE,SH0223,shot;act-four;med-2s
+SH0224,shot,He says it the way you'd say the milk's off.,SC-16,v1,READY-TO-GENERATE,SH0224,shot;act-four;med-2s
+SH0225,shot,"He goes to the hall closet, reaches up past the coats, and takes down two canvas duffels. They are g",SC-16,v1,READY-TO-GENERATE,SH0225,shot;act-four;med
+SH0226,shot,Lauren stares at them.,SC-16,v1,READY-TO-GENERATE,SH0226,shot;act-four;med-2s
+SH0227,shot,She unzips hers. Cash in a band. A phone still in its box. Socks. A folding knife. A coat she does n,SC-16,v1,READY-TO-GENERATE,SH0227,shot;act-four;ecu-insert
+SH0228,shot,She turns it over. We do not see it. She looks at it for a long moment.,SC-16,v1,READY-TO-GENERATE,SH0228,shot;act-four;cu
+SH0229,shot,She puts it in her back pocket.,SC-16,v1,READY-TO-GENERATE,SH0229,shot;act-four;med
+SH0230,shot,Her phone buzzes on the counter. She picks it up. Reads it. Then stops.,SC-16,v1,READY-TO-GENERATE,SH0230,shot;act-four;med
+SH0231,shot,THE PHONE. A message from no one. Blank body. Received: 3:14 AM. The clock at the top of the screen ,SC-16,v1,READY-TO-GENERATE,SH0231,shot;act-four;ecu-insert
+SH0232,shot,She turns the phone around and shows him. He looks at it for two full seconds.,SC-16,v1,READY-TO-GENERATE,SH0232,shot;act-four;med-2s
+SH0233,shot,"He takes the phone, opens a drawer, puts it in, and closes it. It is such a calm, useless, human thi",SC-16,v1,READY-TO-GENERATE,SH0233,shot;act-four;med
+SH0234,shot,"The microwave clock. 11:26. It becomes 11:25. Then it sits there. And then, without hurrying, it goe",SC-16,v1,READY-TO-GENERATE,SH0234,shot;act-four;ecu-insert
+SH0235,shot,They both see it. Neither says anything. Lauren picks up her list. Her hand is not entirely steady. ,SC-16,v1,READY-TO-GENERATE,SH0235,shot;act-four;med-2s
+SH0236,shot,She goes to reach for her phone in the drawer - stops herself - takes it out anyway. She opens the c,SC-17,v1,READY-TO-GENERATE,SH0236,shot;act-four;med
+SH0237,shot,"THE PHONE. The most recent photograph: the living room of this house, tonight - the lamp in tonight'",SC-17,v1,READY-TO-GENERATE,SH0237,shot;act-four;ecu-insert
+SH0238,shot,Lauren holds the phone out to him without a word. Miles looks.,SC-17,v1,READY-TO-GENERATE,SH0238,shot;act-four;med-2s
+SH0239,shot,They look at each other.,SC-17,v1,READY-TO-GENERATE,SH0239,shot;act-four;cu-2s
+SH0240,shot,CHIRP. The smoke detector above them. Same as it has been all week.,SC-17,v1,READY-TO-GENERATE,SH0240,shot;act-four;cu-insert
+SH0241,shot,"And then, from the living room: CHIRP. The same tone. The same length. A half-beat late.",SC-17,v1,READY-TO-GENERATE,SH0241,shot;act-four;med-2s
+SH0242,shot,Miles goes to the doorway and looks through into the dark living room. The pane is lying face-up on ,SC-17,v1,READY-TO-GENERATE,SH0242,shot;act-four;med
+SH0243,shot,"CHIRP. It comes from the pane, while he is standing there looking at it, and there is nothing on it ",SC-17,v1,READY-TO-GENERATE,SH0243,shot;act-four;ecu-insert
+SH0244,shot,Lauren comes in behind him.,SC-18,v1,READY-TO-GENERATE,SH0244,shot;act-four;med-2s
+SH0245,shot,She crouches down in front of the coffee table. Level with the pane.,SC-18,v1,READY-TO-GENERATE,SH0245,shot;act-four;med
+SH0246,shot,,SC-18,v1,READY-TO-GENERATE,SH0246,shot;act-four;med-2s
+SH0247,shot,That lands. He stops.,SC-18,v1,READY-TO-GENERATE,SH0247,shot;act-four;mcu
+SH0248,shot,She looks at the black pane.,SC-18,v1,READY-TO-GENERATE,SH0248,shot;act-four;cu
+SH0249,shot,Nothing. Nothing.,SC-18,v1,READY-TO-GENERATE,SH0249,shot;act-four;wide-2s
+SH0250,shot,"THE STILL. Night, rain. A low, long two-storey motel beside a state highway. External walkway, twelv",SC-18,v1,READY-TO-GENERATE,SH0250,shot;act-four;insert-still
+SH0251,shot,Lauren is on her feet.,SC-18,v1,READY-TO-GENERATE,SH0251,shot;act-four;med
+SH0252,shot,"He is not looking at the pane. He is looking at the middle distance, and he has gone somewhere else ",SC-18,v1,READY-TO-GENERATE,SH0252,shot;act-four;mcu
+SH0253,shot,,SC-18,v1,READY-TO-GENERATE,SH0253,shot;act-four;cu
+SH0254,shot,He says the largest thing he has said all night the way you'd say a street name.,SC-18,v1,READY-TO-GENERATE,SH0254,shot;act-four;med-2s
+SH0255,shot,,SC-18,v1,READY-TO-GENERATE,SH0255,shot;act-four;cu
+SH0256,shot,He finally looks at her.,SC-18,v1,READY-TO-GENERATE,SH0256,shot;act-four;mcu
+SH0257,shot,Lauren stands in the middle of her own living room and feels the floor go.,SC-18,v1,READY-TO-GENERATE,SH0257,shot;act-four;wide
+SH0258,shot,The contradiction lands.,SC-18,v1,READY-TO-GENERATE,SH0258,shot;act-four;med-2s
+SH0259,shot,"THE PANE COMES ON. The face again, closer than before, filling more of the frame. Steady. Tired. Kin",SC-19,v1,READY-TO-GENERATE,SH0259,shot;act-four;ecu-insert
+SH0260,shot,Lauren does not answer her.,SC-19,v1,READY-TO-GENERATE,SH0260,shot;act-four;cu
+SH0261,shot,,SC-19,v1,READY-TO-GENERATE,SH0261,shot;act-four;ecu-insert
+SH0262,shot,,SC-19,v1,READY-TO-GENERATE,SH0262,shot;act-four;ecu-insert
+SH0263,shot,Lauren's face comes apart. It is not a scream and it is not tears. It is the specific and terrible e,SC-19,v1,READY-TO-GENERATE,SH0263,shot;act-four;cu
+SH0264,shot,She sits down on the floor. Her hand goes to the pendant at her throat and closes around it. A refle,SC-19,v1,READY-TO-GENERATE,SH0264,shot;act-four;med
+SH0265,shot,Barely audible.,SC-19,v1,READY-TO-GENERATE,SH0265,shot;act-four;cu
+SH0266,shot,She looks up at the screen.,SC-19,v1,READY-TO-GENERATE,SH0266,shot;act-four;cu
+SH0267,shot,The double's face does something small and very sad.,SC-19,v1,READY-TO-GENERATE,SH0267,shot;act-four;ecu-insert
+SH0268,shot,Her mouth makes a name. Two syllables. It is not Lauren. And where the sound should be there is a cl,SC-19,v1,READY-TO-GENERATE,SH0268,shot;act-four;ecu-insert
+SH0269,shot,Miles's head snaps around. He heard it. Or heard the shape of it.,SC-19,v1,READY-TO-GENERATE,SH0269,shot;act-four;mcu
+SH0270,shot,The double does not answer him. She never has. But she is looking at him.,SC-19,v1,READY-TO-GENERATE,SH0270,shot;act-four;ecu-insert
+SH0271,shot,"Lauren gets up, unsteady.",SC-19,v1,READY-TO-GENERATE,SH0271,shot;act-four;med
+SH0272,shot,BLACK. Every light in the house goes out at once. The refrigerator stops. The microwave clock dies. ,SC-20,v1,READY-TO-GENERATE,SH0272,shot;act-four;wide-2s
+SH0273,shot,Lauren freezes. Miles goes straight to the window and pulls the curtain aside two inches.,SC-20,v1,READY-TO-GENERATE,SH0273,shot;act-four;med
+SH0274,shot,MILES' POV: the street. Every porch light on. Every window lit. The party two doors down still going,SC-20,v1,READY-TO-GENERATE,SH0274,shot;act-four;wide-pov
+SH0275,shot,"Behind Miles, on the coffee table, the pane is glowing steadily. It is the only light in the house.",SC-20,v1,READY-TO-GENERATE,SH0275,shot;act-four;wide
+SH0276,shot,"Miles looks out along the street - left, right, and then back to the left. To the same spot he check",SC-20,v1,READY-TO-GENERATE,SH0276,shot;act-four;med
+SH0277,shot,There is a FIGURE standing at the edge of the streetlight's throw. Not close. Not moving.,SC-20,v1,READY-TO-GENERATE,SH0277,shot;act-four;wide-pov
+SH0278,shot,Miles turns his head fully to look at it directly.,SC-20,v1,READY-TO-GENERATE,SH0278,shot;act-four;mcu
+SH0279,shot,There is nobody there.,SC-20,v1,READY-TO-GENERATE,SH0279,shot;act-four;wide-pov
+SH0280,shot,He does not move for a long moment.,SC-20,v1,READY-TO-GENERATE,SH0280,shot;act-four;mcu
+SH0281,shot,"From the front hall, very clearly, in a completely silent house: THE DEADBOLT TURNS. One full revolu",SC-20,v1,READY-TO-GENERATE,SH0281,shot;act-four;ecu-insert
+SH0282,shot,Dark. The pane is the only light in the world and it is the wrong colour for a home. Neither of them,SC-21,v1,READY-TO-GENERATE,SH0282,shot;act-five;wide-2s
+SH0283,shot,"Miles crosses the room, takes the armchair by the back, and drags it - quietly, without hurry - into",SC-21,v1,READY-TO-GENERATE,SH0283,shot;act-five;med
+SH0284,shot,"Lauren shoulders her bag, picks up the pane, wraps it in the cardigan and puts it in the bag. Then s",SC-21,v1,READY-TO-GENERATE,SH0284,shot;act-five;med
+SH0285,shot,They move around each other in the dark like people who have done a drill. Because they have.,SC-21,v1,READY-TO-GENERATE,SH0285,shot;act-five;wide-2s
+SH0286,shot,,SC-21,v1,READY-TO-GENERATE,SH0286,shot;act-five;med-2s
+SH0287,shot,,SC-21,v1,READY-TO-GENERATE,SH0287,shot;act-five;cu
+SH0288,shot,That stops him dead.,SC-21,v1,READY-TO-GENERATE,SH0288,shot;act-five;med-2s
+SH0289,shot,"Gentler, and worse.",SC-21,v1,READY-TO-GENERATE,SH0289,shot;act-five;cu
+SH0290,shot,He looks at her in the light off the bag.,SC-21,v1,READY-TO-GENERATE,SH0290,shot;act-five;mcu
+SH0291,shot,She checks the pane through the fabric. The number is showing through the weave. 01:20. 01:19.,SC-21,v1,READY-TO-GENERATE,SH0291,shot;act-five;ecu-insert
+SH0292,shot,,SC-21,v1,READY-TO-GENERATE,SH0292,shot;act-five;med-2s
+SH0293,shot,,SC-21,v1,READY-TO-GENERATE,SH0293,shot;act-five;cu
+SH0294,shot,,SC-21,v1,READY-TO-GENERATE,SH0294,shot;act-five;med-2s
+SH0295,shot,"He is not trying to frighten her. He is telling her a load-bearing fact about the world, and he is t",SC-21,v1,READY-TO-GENERATE,SH0295,shot;act-five;cu
+SH0296,shot,,SC-21,v1,READY-TO-GENERATE,SH0296,shot;act-five;med-2s
+SH0297,shot,The number in the bag: 00:41.,SC-21,v1,READY-TO-GENERATE,SH0297,shot;act-five;ecu-insert
+SH0298,shot,Lauren stares at him in the dark.,SC-21,v1,READY-TO-GENERATE,SH0298,shot;act-five;cu
+SH0299,shot,,SC-21,v1,READY-TO-GENERATE,SH0299,shot;act-five;cu
+SH0300,shot,"Miles opens his mouth. He does not lie to her. He genuinely, visibly, does not lie to her. He also d",SC-21,v1,READY-TO-GENERATE,SH0300,shot;act-five;cu
+SH0301,shot,"That is the answer, and she takes it standing up.",SC-21,v1,READY-TO-GENERATE,SH0301,shot;act-five;cu
+SH0302,shot,"LIGHT. Inside the bag, through the cardigan, the pane brightens. Lauren pulls it out.",SC-22,v1,READY-TO-GENERATE,SH0302,shot;act-five;med
+SH0303,shot,THE DOUBLE. Closer than she has ever been. Her face nearly fills the pane. She is looking straight o,SC-22,v1,READY-TO-GENERATE,SH0303,shot;act-five;ecu-insert
+SH0304,shot,,SC-22,v1,READY-TO-GENERATE,SH0304,shot;act-five;cu
+SH0305,shot,"And for the first time in the entire episode, the double looks away from Miles. She looks at Lauren.",SC-22,v1,READY-TO-GENERATE,SH0305,shot;act-five;ecu-insert
+SH0306,shot,"The number, small, beneath her face. 00:04. 00:03. 00:02. 00:01. 00:00.",SC-22,v1,READY-TO-GENERATE,SH0306,shot;act-five;ecu-insert
+SH0307,shot,"Nothing happens. The house is silent. The pane holds her face, perfectly still, waiting with them.",SC-22,v1,READY-TO-GENERATE,SH0307,shot;act-five;wide-2s
+SH0308,shot,"KNOCK. KNOCK. KNOCK. A pause. KNOCK. KNOCK. Three, then two.",SC-22,v1,READY-TO-GENERATE,SH0308,shot;act-five;med-2s
+SH0309,shot,Miles's head comes up. And everything in his face falls apart at once - not fear. Not fear at all. R,SC-22,v1,READY-TO-GENERATE,SH0309,shot;act-five;cu
+SH0310,shot,Watching him.,SC-22,v1,READY-TO-GENERATE,SH0310,shot;act-five;cu
+SH0311,shot,"And from outside - through the door, muffled, unhurried, and warm.",SC-22,v1,READY-TO-GENERATE,SH0311,shot;act-five;med
+SH0312,shot,Miles closes his eyes.,SC-22,v1,READY-TO-GENERATE,SH0312,shot;act-five;cu
+SH0313,shot,"FINAL SHOT. The dark house. The two of them side by side at last, shoulder against shoulder, lit fro",SC-22,v1,READY-TO-GENERATE,SH0313,shot;act-five;xwide
+SH0314,shot,"Black. Silence. Then, thin and wide-tracked: WE'RE FROM THE FUTURE. Below it, smaller: END OF EPISOD",ENDCARD,v1,READY-TO-GENERATE,SH0314,shot;act-five;title
+SH0315,shot,"A room lit uniformly from everywhere, so that nothing casts a shadow and no corner can be located. A",SC-23,v1,READY-TO-GENERATE,SH0315,shot;tag;wide
+SH0316,shot,"They hold a flat unlit sheet, roughly the size and thickness of the pane. On it: two records side by",SC-23,v1,READY-TO-GENERATE,SH0316,shot;tag;ecu-insert
+SH0317,shot,"The figure touches it, once. LOST becomes LOCATED.",SC-23,v1,READY-TO-GENERATE,SH0317,shot;tag;cu-insert
+SH0318,shot,"They move to the second record. Its status field ALREADY reads LOCATED. Beside it, a date. It is nin",SC-23,v1,READY-TO-GENERATE,SH0318,shot;tag;ecu-insert
+SH0319,shot,The figure stops. Just stops. The only human thing that happens in this room.,SC-23,v1,READY-TO-GENERATE,SH0319,shot;tag;med
+SH0320,shot,,SC-23,v1,READY-TO-GENERATE,SH0320,shot;tag;wide

@@ -166,6 +166,10 @@ TOTAL = retime(SHOTS)
 for i, s in enumerate(SHOTS):
     s["id"] = f"SH{i+1:04d}"
     s["seed"] = seed_for(i, s)
+for s in SHOTS:
+    s["contact"] = any(m in s["action"] for m in D.CONTACT_MARKERS)
+_c = [s["id"] for s in SHOTS if s["contact"]]
+assert len(_c) == 3, f"contact discipline broken: expected 3 touches, found {len(_c)} ({_c})"
 ZERO_AT = SHOTS[KNOCK_I]["start"]
 CD_START = SHOTS[CD_I]
 for s in SHOTS:
@@ -180,12 +184,12 @@ with open(P("production", "04-previs", "shot-list.csv"), "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["shot_id", "scene_id", "act", "slugline", "tc_in", "tc_out", "runtime_in",
                 "dur_s", "assembly_s", "framing", "movement", "lens_mm", "subjects",
-                "location", "lighting", "device_in_frame", "countdown_reads",
+                "location", "lighting", "device_in_frame", "physical_contact", "countdown_reads",
                 "music_cue", "sound_cue", "dialogue", "action", "qc_note", "seed"])
     for s in SHOTS:
         w.writerow([s["id"], s["sc"], s["act"], s["slug"], tc(s["start"], 1), tc(s["end"], 1),
                     clock(s["start"]), s["dur"], s["assembly"], s["fr"], s["mv"], s["lens"],
-                    s["subj"], s["loc"], s["look"], "Y" if s.get("dev") else "",
+                    s["subj"], s["loc"], s["look"], "Y" if s.get("dev") else "", "CONTACT" if s["contact"] else "",
                     s["cd"], s["music"], s["audio"],
                     " | ".join(f"{c}: {l}" for c, l in s["dlg"]), s["action"], s["note"], s["seed"]])
 
@@ -221,23 +225,47 @@ with open(P("production", "06-shots", "shot-prompts.json"), "w") as f:
                "runtime": clock(TOTAL), "shots": prompts}, f, indent=1)
 
 # ------------------------------------------------------------------ 3. subtitles
-cues = []
-for s in SHOTS:
-    if not s["dlg"]:
+# Laid out the way a subtitle conform actually works: each cue is placed at its
+# proportional position inside its shot, given a duration from a reading-speed
+# model, then swept once to guarantee a readability floor and no overlaps.
+# Cues are allowed to cross a cut - real subtitles do - but never to collide.
+CPS = 15.0          # characters per second, broadcast-comfortable
+MIN_CUE = 0.9       # readability floor
+MAX_CUE = 6.0
+GAP = 0.08          # minimum blank between cues
+
+def label(char, line):
+    if char == "VOICE (O.S.)":
+        return f"[muffled, through the door] {line}"
+    if char == "DOUBLE":
+        return f"[her voice] {line}"
+    if char == "SYSTEM VOICE":
+        return f"[system voice] {line}"
+    return line
+
+raw = []
+for s_ in SHOTS:
+    if not s_["dlg"]:
         continue
-    weights = [max(len(l), 12) for _, l in s["dlg"]]
+    weights = [max(len(l), 12) for _, l in s_["dlg"]]
     tot = sum(weights)
-    usable = s["dur"] * 0.94
-    cur = s["start"] + s["dur"] * 0.03
-    for (char, line), wgt in zip(s["dlg"], weights):
-        d = max(1.0, usable * wgt / tot)
-        text = line if char in ("MILES", "LAUREN") else f"[{char}] {line}"
-        if char == "VOICE (O.S.)":
-            text = f"[muffled, through the door] {line}"
-        if char == "DOUBLE":
-            text = f"[her voice] {line}"
-        cues.append((cur, min(cur + d - 0.08, s["end"] - 0.02), f"- {char}: {line}", text))
-        cur += d
+    cur = s_["start"] + s_["dur"] * 0.03
+    span = s_["dur"] * 0.94
+    for (char, line), wgt in zip(s_["dlg"], weights):
+        raw.append({"t": cur, "d": min(MAX_CUE, max(MIN_CUE, len(line) / CPS)),
+                    "char": char, "text": label(char, line), "line": line})
+        cur += span * wgt / tot
+
+raw.sort(key=lambda c: c["t"])
+prev_end = -1.0
+for c in raw:                       # single forward sweep: floor, then de-overlap
+    c["t"] = max(c["t"], prev_end + GAP)
+    c["end"] = c["t"] + c["d"]
+    prev_end = c["end"]
+cues = [(c["t"], c["end"], c["char"], c["text"]) for c in raw]
+assert all(b - a >= MIN_CUE - 1e-6 for a, b, _, _ in cues), "subtitle below readability floor"
+assert all(cues[i][0] >= cues[i-1][1] for i in range(1, len(cues))), "subtitle overlap"
+
 with open(P("production", "07-post", "subtitles", "S01E01.srt"), "w") as f:
     for i, (a, b, _, text) in enumerate(cues, 1):
         f.write(f"{i}\n{srt_t(a)} --> {srt_t(b)}\n{text}\n\n")
@@ -245,16 +273,52 @@ with open(P("production", "07-post", "subtitles", "S01E01.vtt"), "w") as f:
     f.write("WEBVTT\n\n")
     for i, (a, b, _, text) in enumerate(cues, 1):
         f.write(f"{i}\n{vtt_t(a)} --> {vtt_t(b)}\n{text}\n\n")
-# SDH captions include speaker IDs and non-speech sound
-sdh = []
-for s in SHOTS:
-    if s["audio"] and any(k in s["audio"].upper() for k in ("CHIRP", "KNOCK", "DING", "DEADBOLT", "SILENCE", "BREAKER")):
-        sdh.append((s["start"] + 0.1, s["start"] + min(2.5, s["dur"] - 0.2), f"[{s['audio'].split('.')[0].strip()}]"))
+
+# SDH captions are viewer-facing, so non-speech events get authored caption text
+# rather than the production sound note. Anything without an authored caption is
+# omitted: a caption that describes the mix instead of the sound is worse than
+# no caption at all.
+def sdh_caption(shot):
+    a = (shot["audio"] or "")
+    u = a.upper()
+    act = shot["action"]
+    if "DING-DONG" in u:                       return "[doorbell]"
+    if "knuckle knocks" in a:                  return "[knocking - three, then two]"
+    if "CHIRP" in u and "coffee table" in a:    return "[the chirp again - from the device]"
+    if "CHIRP" in u and "off-screen" in a:      return "[the same chirp, from the living room]"
+    if "CHIRP" in u:                            return "[smoke alarm chirps]"
+    if "Breaker" in a:                          return "[the power cuts out]"
+    if "brass mechanism" in a:                  return "[the deadbolt turns by itself]"
+    if "Deadbolt, second" in a:                 return "[he locks the door again]"
+    if "Deadbolt" in a:                         return "[deadbolt]"
+    if "TOTAL SILENCE" in u or "absolute silence" in a:  return "[silence]"
+    if "the audio bed itself stops" in a:       return "[all sound stops]"
+    if "compressor stutters" in a:              return "[the refrigerator stutters]"
+    if "Tape parting" in a:                     return "[packing tape tearing]"
+    if "sound bed cuts" in a:                   return "[everything goes quiet]"
+    if "Phone buzz" in a:                       return "[phone buzzes]"
+    if "Rain begins" in a:                      return "[rain begins]"
+    if "shouting a name" in a:                  return "[someone shouting a name we don't catch]"
+    return None
+
+sdh_raw = []
+for s_ in SHOTS:
+    cap = sdh_caption(s_)
+    if cap:
+        sdh_raw.append({"t": s_["start"] + 0.15, "d": 1.5, "text": cap})
+
+sdh_all = sorted(
+    [{"t": a, "d": b - a, "text": (f"{c}: {t}" if c in ("MILES", "LAUREN") else t)}
+     for a, b, c, t in cues] + sdh_raw, key=lambda c: c["t"])
+prev_end = -1.0
+for c in sdh_all:
+    c["t"] = max(c["t"], prev_end + GAP)
+    c["end"] = c["t"] + c["d"]
+    prev_end = c["end"]
 with open(P("production", "07-post", "subtitles", "S01E01.sdh.vtt"), "w") as f:
     f.write("WEBVTT\n\n")
-    merged = sorted([(a, b, t) for a, b, _, t in cues] + sdh)
-    for i, (a, b, text) in enumerate(merged, 1):
-        f.write(f"{i}\n{vtt_t(a)} --> {vtt_t(b)}\n{text}\n\n")
+    for i, c in enumerate(sdh_all, 1):
+        f.write(f"{i}\n{vtt_t(c['t'])} --> {vtt_t(c['end'])}\n{c['text']}\n\n")
 
 # ------------------------------------------------------------------ 4. EDL
 with open(P("production", "07-post", "S01E01.edl"), "w") as f:
@@ -302,7 +366,7 @@ with open(P("production", "04-previs", "animatic.json"), "w") as f:
                "shots": [{"id": s["id"], "sc": s["sc"], "act": s["act"], "slug": s["slug"],
                           "t": round(s["start"], 2), "d": s["dur"], "fr": s["fr"],
                           "mv": s["mv"], "lens": s["lens"], "look": s["look"],
-                          "subj": s["subj"], "loc": s["loc"], "dev": bool(s.get("dev")),
+                          "subj": s["subj"], "loc": s["loc"], "dev": bool(s.get("dev")), "contact": s["contact"],
                           "cd": s["cd"], "action": s["action"], "dlg": s["dlg"],
                           "audio": s["audio"], "music": s["music"], "note": s["note"]}
                          for s in SHOTS]}, f, indent=1)
@@ -371,6 +435,75 @@ with open(P("production", "04-previs", "trim-log.md"), "w") as f:
         if s["trim"] == "protected" and s["note"]:
             f.write(f"| {s['id']} | {clock(s['start'])} | {s['dur']}s | {s['note'][:110]} |\n")
 
+# ------------------------------------------------------------------ 8b. asset manifest
+CHAR_ASSETS = [
+ ("CHR-MILES-01","character","Miles - locked face/identity","reference/miles_reference_source.jpg","v1.0","APPROVED"),
+ ("CHR-MILES-01-L1","look","Miles look 1 - WRD-M-A","CHR-MILES-01","v1.0","APPROVED"),
+ ("CHR-MILES-01-L2","look","Miles look 2 - WRD-M-B (jacket, boots)","CHR-MILES-01","v1.0","APPROVED"),
+ ("CHR-LAUREN-01","character","Lauren - locked face/identity","reference/lauren_reference_source.jpg","v1.0","APPROVED"),
+ ("CHR-LAUREN-01-L1","look","Lauren look 1 - WRD-L-A","CHR-LAUREN-01","v1.0","APPROVED"),
+ ("CHR-LAUREN-01-L2","look","Lauren look 2 - WRD-L-B (cardigan)","CHR-LAUREN-01","v1.0","APPROVED"),
+ ("CHR-LAUREN-02","character","The double - CHR-LAUREN-01 + scar, stillness, hair down","CHR-LAUREN-01","v1.0","APPROVED"),
+ ("CHR-LAUREN-02-L1","look","Double look 1 - WRD-D-A","CHR-LAUREN-02","v1.0","APPROVED"),
+ ("CHR-FIGURE-01","character","The figure (tag + street) - never a face","-","v1.0","APPROVED"),
+ ("VOX-MILES","voice","Miles voice profile","production/01-bible/character-bible.md","v1.0","APPROVED"),
+ ("VOX-LAUREN","voice","Lauren voice profile","production/01-bible/character-bible.md","v1.0","APPROVED"),
+ ("VOX-DOUBLE","voice","Double voice profile - unprocessed, no breath","production/01-bible/character-bible.md","v1.0","APPROVED"),
+ ("VOX-DOOR","voice","The voice at the door - warm, muffled, gender unclear","-","v1.0","APPROVED"),
+ ("VOX-SYSTEM","voice","Tag system voice - flat, pleasant","-","v1.0","APPROVED"),
+]
+PROP_ASSETS = [
+ ("PRP-LEAF-01","prop","The leaf - hero prop","production/05-assets/locations-and-props.md","v1.0","APPROVED"),
+ ("PRP-BOX-01","prop","The package","production/05-assets/locations-and-props.md","v1.0","APPROVED"),
+ ("PRP-LABEL-01","prop","The shipping label - crossed seven, 14 Oct","production/05-assets/locations-and-props.md","v1.0","APPROVED"),
+ ("PRP-CAL-01","prop","Wall calendar - one circled date","-","v1.0","APPROVED"),
+ ("PRP-HOOKS-01","prop","Four bare picture hooks","-","v1.0","APPROVED"),
+ ("PRP-DETECTOR-01","prop","Smoke detector - single chirp recording","-","v1.0","APPROVED"),
+ ("PRP-BOLT-01","prop","Brass deadbolt","-","v1.0","APPROVED"),
+ ("PRP-BAGS-01","prop","Two dusty canvas duffels","-","v1.0","APPROVED"),
+ ("PRP-PHOTO-01","prop","The photograph - NEVER SEEN","-","v1.0","LOCKED-HIDDEN"),
+ ("PRP-PENDANT-01","prop","Lauren's pendant","-","v1.0","APPROVED"),
+ ("PRP-IRON-01","prop","Fire iron","-","v1.0","APPROVED"),
+ ("PRP-PHONE-01","prop","Lauren's phone","-","v1.0","APPROVED"),
+ ("PRP-SHEET-01","prop","The tag's sheet - same object as the leaf","PRP-LEAF-01","v1.0","APPROVED"),
+]
+with open(P("production","05-assets","asset-manifest.csv"),"w",newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["asset_id","type","description","source_or_parent","version","status","used_in_shots","tags"])
+    for a in CHAR_ASSETS:
+        used = [s["id"] for s in SHOTS if a[0].startswith("CHR") and
+                {"CHR-MILES-01":("M","M_JKT","MB"),"CHR-MILES-01-L1":("M","MB"),
+                 "CHR-MILES-01-L2":("M_JKT",),"CHR-LAUREN-01":("L","L_CARD","MB"),
+                 "CHR-LAUREN-01-L1":("L","MB"),"CHR-LAUREN-01-L2":("L_CARD",),
+                 "CHR-LAUREN-02":("D",),"CHR-LAUREN-02-L1":("D",),
+                 "CHR-FIGURE-01":("FIG",)}.get(a[0],()) and s["subj"] in
+                {"CHR-MILES-01":("M","M_JKT","MB"),"CHR-MILES-01-L1":("M","MB"),
+                 "CHR-MILES-01-L2":("M_JKT",),"CHR-LAUREN-01":("L","L_CARD","MB"),
+                 "CHR-LAUREN-01-L1":("L","MB"),"CHR-LAUREN-01-L2":("L_CARD",),
+                 "CHR-LAUREN-02":("D",),"CHR-LAUREN-02-L1":("D",),
+                 "CHR-FIGURE-01":("FIG",)}.get(a[0],())]
+        w.writerow(list(a) + [f"{len(used)} shots" if used else "-",
+                              "character;locked;face-lock" if a[1]!="voice" else "voice;locked"])
+    for a in PROP_ASSETS:
+        used = [s["id"] for s in SHOTS if s.get("dev")] if a[0]=="PRP-LEAF-01" else []
+        w.writerow(list(a) + [f"{len(used)} shots" if used else "-", "prop;locked;continuity-tracked"])
+    for k, v in D.LOCATIONS.items():
+        used = [s["id"] for s in SHOTS if s["loc"]==k]
+        w.writerow([f"LOC-{k}","location",v[:100],"production/05-assets/locations-and-props.md",
+                    "v1.0","APPROVED",f"{len(used)} shots","location;locked"])
+    for k, v in D.LOOKS.items():
+        used = [s["id"] for s in SHOTS if s["look"]==k]
+        w.writerow([f"LGT-{k}","lighting state",v[:100],"production/05-assets/lookbook.md",
+                    "v1.0","APPROVED",f"{len(used)} shots","lighting;locked"])
+    for k, v in D.CUES.items():
+        if not k: continue
+        used = [s["id"] for s in SHOTS if s["music"]==k]
+        w.writerow([k,"music cue",f"{v[0]} - {v[1]}","production/07-post/music-cue-sheet.md",
+                    "v1.0","APPROVED",f"{len(used)} shots","music;cue"])
+    for s in SHOTS:
+        w.writerow([s["id"],"shot",s["action"][:100],s["sc"],"v1","READY-TO-GENERATE",
+                    s["id"],f"shot;{s['act'].lower().replace(' ','-')};{s['fr'].lower()}"])
+
 # ------------------------------------------------------------------ 9. workspace data
 with open(P("workspace", "data.js"), "w") as f:
     f.write("window.EPISODE = " + json.dumps({
@@ -383,7 +516,7 @@ with open(P("workspace", "data.js"), "w") as f:
         "shots": [{"id": s["id"], "sc": s["sc"], "act": s["act"], "slug": s["slug"],
                    "t": round(s["start"], 2), "d": s["dur"], "asm": s["assembly"],
                    "fr": s["fr"], "mv": s["mv"], "lens": s["lens"], "look": s["look"],
-                   "subj": s["subj"], "loc": s["loc"], "dev": bool(s.get("dev")),
+                   "subj": s["subj"], "loc": s["loc"], "dev": bool(s.get("dev")), "contact": s["contact"],
                    "cd": s["cd"], "action": s["action"], "dlg": s["dlg"],
                    "audio": s["audio"], "music": s["music"], "note": s["note"],
                    "seed": s["seed"], "prompt": build_prompt(s), "neg": build_neg(s),
@@ -397,6 +530,8 @@ print(f"assembly       {clock(asm)}")
 print(f"fine cut       {clock(TOTAL)}   ({len(TRIMLOG)} trimmed, "
       f"{sum(1 for s in SHOTS if s['trim']=='protected')} protected)")
 print(f"subtitle cues  {len(cues)}")
+print(f"contact        {len(_c)} touches in the episode: " +
+      ", ".join(f"{i} at {clock(next(x for x in SHOTS if x['id']==i)['start'])}" for i in _c))
 cal = sum(1 for s in SHOTS if s.get("calibrated"))
 print(f"countdown      starts {clock(CD_START['start'])} reading {CD_START['cd']}, "
       f"hits 00:00 at {clock(ZERO_AT)} on the knock  [OK, {cal} shots calibrated]")

@@ -172,9 +172,13 @@ I'd be the one who was surprised."* — is the thesis of their conflict and shou
 be the most quietly delivered line in the episode.
 
 ## Framing rule (see lookbook)
-Shared frames in the teaser. Separated frames from Act 2. **They do not appear in
-the same frame between 20:15 and 28:40** — through the fight and its aftermath —
-and the shot that finally re-unites them is the last shot of the episode.
+Shared frames in the teaser. Singles begin in Act Two. Through the fight they
+share frames only on the room's widest lens, at opposite ends of it.
+
+**The load-bearing rule is touch, not framing.** They make physical contact
+exactly three times: the teaser's photo-refusal, the interrupted near-repair in
+Act Three, and — twelve minutes later — the final shot. Nothing else in the
+episode does as much work for as little. The build asserts the count.
 
 ---
 

@@ -184,6 +184,18 @@ CUES = {
     "":    ("(no cue)", ""),
 }
 
+# ---------------------------------------------------------------- proximity
+# The episode's real framing discipline is not "no two-shots" - Act Four needs
+# them working together. It is PHYSICAL CONTACT. Miles and Lauren touch exactly
+# three times in thirty-six minutes, and the third one is the last shot of the
+# episode. Any shot whose action matches one of these is flagged CONTACT; the
+# build asserts there are exactly three, so a new touch cannot slip into the cut.
+CONTACT_MARKERS = (
+    "into her shoulder",                 # teaser: the photo refusal
+    "puts it on her arm",                # act three: the near-repair, interrupted
+    "shoulder against shoulder",         # act five: the final wide
+)
+
 # ---------------------------------------------------------------- shot records
 
 def S(sc, dur, fr, mv, lens, action, loc, look, subj="MB",
