@@ -1,0 +1,321 @@
+shot_id,runtime,scene,time_of_day,characters,wardrobe,miles_state,lauren_state,leaf_location,leaf_state,house_power,weather,device_temp_rule,photos_on_wall,flags
+SH0001,00:00,SC-01,late afternoon,NONE,-,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0002,00:09,SC-01,late afternoon,NONE,-,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0003,00:14,SC-02,late afternoon,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0004,00:21,SC-02,late afternoon,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0005,00:24,SC-02,late afternoon,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0006,00:27,SC-02,late afternoon,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0007,00:30,SC-02,late afternoon,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0008,00:33,SC-02,late afternoon,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0009,00:37,SC-02,late afternoon,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0010,00:41,SC-02,late afternoon,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0011,00:44,SC-02,late afternoon,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0012,00:48,SC-02,late afternoon,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0013,00:51,SC-02,late afternoon,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0014,00:54,SC-02,late afternoon,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0015,00:58,SC-02,late afternoon,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0016,01:01,SC-02,late afternoon,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0017,01:05,SC-02,late afternoon,NONE,-,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0018,01:12,SC-02,late afternoon,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0019,01:15,SC-02,late afternoon,NONE,-,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0020,01:18,SC-02,late afternoon,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,dry/clear,-,NONE - four bare hooks,
+SH0021,01:23,SC-03,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0022,01:29,SC-03,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0023,01:33,SC-03,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0024,01:36,SC-03,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0025,01:41,SC-04,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0026,01:48,SC-04,night,NONE,-,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0027,01:52,SC-04,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0028,01:55,SC-04,night,NONE,-,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0029,01:58,SC-04,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0030,02:01,SC-04,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0031,02:07,SC-04,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0032,02:10,SC-04,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0033,02:15,SC-04,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0034,02:20,SC-04,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0035,02:24,SC-04,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0036,02:30,SC-04,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0037,02:34,SC-04,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0038,02:37,SC-04,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0039,02:42,SC-04,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0040,02:45,SC-05,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0041,02:49,SC-05,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0042,02:54,SC-05,night,M,WRD-M-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0043,03:00,SC-05,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0044,03:05,SC-05,night,L,WRD-L-A,guarded,at ease,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0045,03:11,SC-06,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0046,03:16,SC-06,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0047,03:19,SC-06,night,MB,WRD-M-A + WRD-L-A,guarded,at ease,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0048,03:26,SC-06,night,M,WRD-M-A,guarded,at ease,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0049,03:30,SC-06,night,NONE,-,guarded,at ease,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0050,03:37,TITLE,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0051,03:57,SC-07,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0052,04:04,SC-07,night,M,WRD-M-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0053,04:07,SC-07,night,L,WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0054,04:12,SC-07,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0055,04:19,SC-07,night,NONE,-,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0056,04:25,SC-07,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0057,04:31,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0058,04:36,SC-08,night,L,WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0059,04:40,SC-08,night,NONE,-,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0060,04:50,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0061,04:55,SC-08,night,NONE,-,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0062,05:03,SC-08,night,L,WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0063,05:10,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0064,05:18,SC-08,night,NONE,-,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0065,05:24,SC-08,night,M,WRD-M-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0066,05:28,SC-08,night,M,WRD-M-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0067,05:35,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0068,05:41,SC-08,night,M,WRD-M-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0069,05:45,SC-08,night,L,WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0070,05:52,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0071,06:00,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0072,06:09,SC-08,night,L,WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0073,06:14,SC-08,night,NONE,-,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0074,06:18,SC-08,night,NONE,-,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0075,06:24,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0076,06:33,SC-08,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,in the box,dormant,on,light rain,-,NONE - four bare hooks,
+SH0077,06:36,SC-09,night,L,WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0078,06:41,SC-09,night,NONE,-,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0079,06:50,SC-09,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0080,06:57,SC-09,night,M,WRD-M-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0081,07:00,SC-09,night,L,WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0082,07:06,SC-09,night,M,WRD-M-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0083,07:13,SC-09,night,NONE,-,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0084,07:22,SC-09,night,M,WRD-M-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0085,07:27,SC-09,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0086,07:35,SC-09,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0087,07:39,SC-09,night,NONE,-,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0088,07:49,SC-09,night,L,WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0089,07:56,SC-09,night,NONE,-,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0090,08:04,SC-09,night,NONE,-,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0091,08:16,SC-09,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0092,08:23,SC-09,night,L,WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0093,08:28,SC-09,night,M,WRD-M-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0094,08:37,SC-09,night,L,WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0095,08:40,SC-09,night,M,WRD-M-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0096,08:43,SC-09,night,NONE,-,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0097,08:46,SC-09,night,MB,WRD-M-A + WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0098,08:52,SC-09,night,M,WRD-M-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0099,08:59,SC-09,night,L,WRD-L-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0100,09:07,SC-09,night,M,WRD-M-A,guarded,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0101,09:10,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0102,09:16,SC-10,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0103,09:23,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0104,09:27,SC-10,night,L,WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0105,09:31,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0106,09:34,SC-10,night,L,WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0107,09:42,SC-10,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0108,09:51,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0109,09:56,SC-10,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0110,10:05,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0111,10:10,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0112,10:18,SC-10,night,L,WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0113,10:24,SC-10,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0114,10:30,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0115,10:35,SC-10,night,L,WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0116,10:45,SC-10,night,L,WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0117,10:54,SC-10,night,M,WRD-M-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0118,10:59,SC-10,night,L,WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0119,11:09,SC-10,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0120,11:15,SC-10,night,L,WRD-L-A,exposed,escalating,kitchen table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0121,11:22,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0122,11:28,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0123,11:36,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0124,11:45,SC-11,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0125,11:48,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0126,11:52,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0127,12:04,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0128,12:09,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0129,12:13,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0130,12:20,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0131,12:25,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0132,12:28,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0133,12:37,SC-11,night,NONE,-,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0134,12:42,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0135,12:49,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0136,12:54,SC-11,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0137,12:58,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0138,13:05,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0139,13:10,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0140,13:13,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0141,13:22,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0142,13:30,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0143,13:33,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0144,13:40,SC-11,night,M,WRD-M-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0145,13:48,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0146,13:56,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0147,14:00,SC-11,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES
+SH0148,14:07,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0149,14:10,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0150,14:17,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0151,14:21,SC-11,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0152,14:24,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0153,14:31,SC-11,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0154,14:40,SC-11,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0155,14:50,SC-11,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0156,14:53,SC-12,night,M,WRD-M-A,exposed,escalating,drawer/cooler (failing),dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0157,14:59,SC-12,night,NONE,-,exposed,escalating,drawer/cooler (failing),dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0158,15:06,SC-12,night,M,WRD-M-A,exposed,escalating,drawer/cooler (failing),dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0159,15:13,SC-12,night,M,WRD-M-A,exposed,escalating,drawer/cooler (failing),dormant/cold,OUT (breaker),light rain,-,NONE - four bare hooks,
+SH0160,15:22,SC-12,night,M,WRD-M-A,exposed,escalating,drawer/cooler (failing),active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0161,15:32,SC-13,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0162,15:45,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0163,15:53,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0164,16:02,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0165,16:09,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0166,16:15,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0167,16:20,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0168,16:31,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0169,16:39,SC-14,night,NONE,-,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0170,16:46,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0171,16:53,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0172,17:07,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0173,17:12,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0174,17:15,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0175,17:25,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0176,17:37,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0177,17:43,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0178,17:50,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0179,17:57,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0180,18:02,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0181,18:12,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0182,18:18,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0183,18:26,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0184,18:33,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0185,18:42,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0186,18:50,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0187,18:56,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0188,19:03,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0189,19:12,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0190,19:21,SC-14,night,NONE,-,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0191,19:28,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0192,19:40,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0193,19:47,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0194,19:52,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0195,20:00,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0196,20:11,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0197,20:16,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0198,20:22,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0199,20:29,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0200,20:36,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0201,20:50,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0202,20:59,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0203,21:07,SC-14,night,MB,WRD-M-A + WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0204,21:16,SC-14,night,L,WRD-L-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0205,21:29,SC-14,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0206,21:35,SC-15,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0207,21:43,SC-15,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0208,21:51,SC-15,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0209,21:58,SC-15,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0210,22:03,SC-15,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0211,22:15,SC-15,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0212,22:24,SC-15,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0213,22:28,SC-15,night,M,WRD-M-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0214,22:32,SC-15,night,NONE,-,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0215,22:40,SC-15,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0216,22:51,SC-15,night,M,WRD-M-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0217,23:00,SC-15,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0218,23:09,SC-15,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0219,23:16,SC-15,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0220,23:25,SC-15,night,NONE,-,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=11:00
+SH0221,23:37,SC-15,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=10:48
+SH0222,23:42,SC-16,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=10:43
+SH0223,23:50,SC-16,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=10:35
+SH0224,23:59,SC-16,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=10:26
+SH0225,24:07,SC-16,night,M,WRD-M-A,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=10:18
+SH0226,24:14,SC-16,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=10:11
+SH0227,24:23,SC-16,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=10:02
+SH0228,24:32,SC-16,night,L_CARD,WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:53
+SH0229,24:41,SC-16,night,L_CARD,WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:44
+SH0230,24:45,SC-16,night,L_CARD,WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:40
+SH0231,24:50,SC-16,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:35
+SH0232,24:58,SC-16,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:27
+SH0233,25:07,SC-16,night,M,WRD-M-A,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:18
+SH0234,25:15,SC-16,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:10
+SH0235,25:24,SC-16,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=09:01
+SH0236,25:31,SC-17,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=08:54
+SH0237,25:38,SC-17,night,NONE,-,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=08:47
+SH0238,25:47,SC-17,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=08:38
+SH0239,25:57,SC-17,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=08:28
+SH0240,26:01,SC-17,night,NONE,-,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=08:24
+SH0241,26:04,SC-17,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=08:21
+SH0242,26:09,SC-17,night,M,WRD-M-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=08:16
+SH0243,26:18,SC-17,night,NONE,-,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=08:07
+SH0244,26:25,SC-18,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=08:00
+SH0245,26:33,SC-18,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=07:52
+SH0246,26:40,SC-18,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=07:45
+SH0247,26:49,SC-18,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=07:36
+SH0248,26:53,SC-18,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=07:32
+SH0249,27:02,SC-18,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=07:23
+SH0250,27:09,SC-18,night,NONE,-,exposed,escalating,coffee table,dormant/cold,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=07:16
+SH0251,27:17,SC-18,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=07:08
+SH0252,27:25,SC-18,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=07:00
+SH0253,27:32,SC-18,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=06:53
+SH0254,27:37,SC-18,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=06:48
+SH0255,27:46,SC-18,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=06:39
+SH0256,27:57,SC-18,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=06:28
+SH0257,28:05,SC-18,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=06:20
+SH0258,28:12,SC-18,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=06:13
+SH0259,28:22,SC-19,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=06:03
+SH0260,28:29,SC-19,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=05:56
+SH0261,28:33,SC-19,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=05:52
+SH0262,28:42,SC-19,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=05:43
+SH0263,28:48,SC-19,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=05:37
+SH0264,29:00,SC-19,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=05:25
+SH0265,29:08,SC-19,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=05:17
+SH0266,29:17,SC-19,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=05:08
+SH0267,29:26,SC-19,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=04:59
+SH0268,29:34,SC-19,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=04:51
+SH0269,29:41,SC-19,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=04:44
+SH0270,29:48,SC-19,night,D,WRD-D-A,exposed,escalating,coffee table,active,on,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=04:37
+SH0271,29:55,SC-19,night,L_CARD,WRD-L-B,exposed,escalating,coffee table,dormant/cold,on,light rain,-,NONE - four bare hooks,COUNTDOWN=04:30
+SH0272,30:02,SC-20,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=04:23
+SH0273,30:05,SC-20,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=04:20
+SH0274,30:11,SC-20,night,NONE,-,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=04:14
+SH0275,30:19,SC-20,night,M,WRD-M-A,exposed,escalating,coffee table,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=04:06
+SH0276,30:25,SC-20,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=04:00
+SH0277,30:33,SC-20,night,FIG,WRD-F-A,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=03:52
+SH0278,30:38,SC-20,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=03:47
+SH0279,30:42,SC-20,night,NONE,-,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=03:43
+SH0280,30:46,SC-20,night,M,WRD-M-A,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=03:39
+SH0281,30:53,SC-20,night,NONE,-,exposed,escalating,coffee table,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=03:32
+SH0282,31:00,SC-21,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=03:25
+SH0283,31:09,SC-21,night,M,WRD-M-A,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=03:16
+SH0284,31:18,SC-21,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=03:07
+SH0285,31:28,SC-21,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=02:57
+SH0286,31:35,SC-21,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=02:50
+SH0287,31:43,SC-21,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=02:42
+SH0288,31:51,SC-21,night,MB,WRD-M-A + WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=02:34
+SH0289,32:00,SC-21,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=02:25
+SH0290,32:08,SC-21,night,M_JKT,WRD-M-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=02:17
+SH0291,32:14,SC-21,night,NONE,-,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=02:11
+SH0292,32:21,SC-21,night,MB,WRD-M-B + WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=02:04
+SH0293,32:28,SC-21,night,M_JKT,WRD-M-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=01:57
+SH0294,32:37,SC-21,night,MB,WRD-M-B + WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=01:48
+SH0295,32:47,SC-21,night,M_JKT,WRD-M-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=01:38
+SH0296,32:56,SC-21,night,MB,WRD-M-B + WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=01:29
+SH0297,33:06,SC-21,night,NONE,-,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=01:19
+SH0298,33:10,SC-21,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=01:15
+SH0299,33:19,SC-21,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=01:06
+SH0300,33:26,SC-21,night,M_JKT,WRD-M-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=00:59
+SH0301,33:37,SC-21,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=00:48
+SH0302,33:42,SC-22,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=00:43
+SH0303,33:47,SC-22,night,D,WRD-D-A,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=00:38
+SH0304,33:57,SC-22,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=00:28
+SH0305,34:01,SC-22,night,D,WRD-D-A,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,DOUBLE EYELINE=MILES; COUNTDOWN=00:24
+SH0306,34:11,SC-22,night,NONE,-,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=00:14
+SH0307,34:18,SC-22,night,MB,WRD-M-B + WRD-L-B,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,COUNTDOWN=00:07
+SH0308,34:25,SC-22,night,MB,WRD-M-B + WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,COUNTDOWN=00:00
+SH0309,34:30,SC-22,night,M_JKT,WRD-M-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,
+SH0310,34:40,SC-22,night,L_CARD,WRD-L-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,
+SH0311,34:47,SC-22,night,M_JKT,WRD-M-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,
+SH0312,34:53,SC-22,night,M_JKT,WRD-M-B,exposed,escalating,in Lauren's bag,dormant/cold,OUT,light rain,-,NONE - four bare hooks,
+SH0313,34:57,SC-22,night,MB,WRD-M-B + WRD-L-B,exposed,escalating,in Lauren's bag,active,OUT,light rain,cold toward room / warm away,NONE - four bare hooks,
+SH0314,35:15,ENDCARD,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0315,35:27,SC-23,night,FIG,WRD-F-A,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0316,35:35,SC-23,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0317,35:43,SC-23,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0318,35:49,SC-23,night,NONE,-,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0319,35:57,SC-23,night,FIG,WRD-F-A,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
+SH0320,36:03,SC-23,night,FIG,WRD-F-A,exposed,escalating,-,dormant/cold,on,light rain,-,NONE - four bare hooks,
