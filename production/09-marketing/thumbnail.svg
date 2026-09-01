@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <radialGradient id="throw" cx="50%" cy="56%" r="58%">
+      <stop offset="0%"   stop-color="#5e6c78" stop-opacity="0.42"/>
+      <stop offset="42%"  stop-color="#1c2127" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0e1114"/>
+      <stop offset="50%"  stop-color="#0a0c0f"/>
+      <stop offset="100%" stop-color="#070809"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#7f8b96" stop-opacity="0.85"/>
+      <stop offset="50%"  stop-color="#3d454d" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8b96a1" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="tabletop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#171410" stop-opacity="1"/>
+      <stop offset="18%"  stop-color="#0b0908" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#030303" stop-opacity="1"/>
+    </linearGradient>
+    <!-- the pane's light falling on the wood immediately under it -->
+    <radialGradient id="tablelight" cx="50%" cy="0%" r="52%">
+      <stop offset="0%"   stop-color="#7d8894" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="warmdoor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#39332a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d1a16" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="g" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="11" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.10"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#040506"/>
+
+  <!-- the far wall, and the front door's frosted panel deep in frame -->
+  <rect x="1487" y="236" width="150" height="308" fill="url(#warmdoor)" filter="url(#soft)" opacity="0.85"/>
+  <rect x="1487" y="236" width="150" height="308" fill="none" stroke="#2a2620" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- the pane's light thrown into the room -->
+  <rect width="1920" height="1080" fill="url(#throw)"/>
+
+  <!-- coffee table edge -->
+  <path d="M 250 764 L 1670 764 L 1720 1080 L 200 1080 Z" fill="url(#tabletop)"/>
+  <path d="M 250 764 L 1670 764 L 1720 1080 L 200 1080 Z" fill="url(#tablelight)"/>
+  <path d="M 250 764 L 1670 764" stroke="#4a4234" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- THE LEAF, flat on the table, seen slightly from above -->
+  <g>
+    <ellipse cx="960" cy="742" rx="430" ry="70" fill="#6d7a86" opacity="0.20" filter="url(#soft)"/>
+    <path d="M 618 470 L 1302 470 L 1360 742 L 560 742 Z" fill="url(#pane)"/>
+    <path d="M 618 470 L 1302 470 L 1360 742 L 560 742 Z" fill="none" stroke="url(#edge)" stroke-width="2.5"/>
+
+    <!-- its entire display vocabulary: four words and a number -->
+    <text x="960" y="590" text-anchor="middle" fill="#e8edf2"
+          font-family="FreeSans, DejaVu Sans, Helvetica, Arial, sans-serif"
+          font-size="46" font-weight="300" letter-spacing="15">DO NOT GO BACK</text>
+    <text x="960" y="664" text-anchor="middle" fill="#aab4bd"
+          font-family="DejaVu Sans Mono, monospace"
+          font-size="27" letter-spacing="7">00:00</text>
+  </g>
+
+  <rect width="1920" height="1080" filter="url(#g)" opacity="0.9"/>
+
+  <text x="96" y="928" fill="#d6dbe1"
+        font-family="FreeSans, DejaVu Sans, Helvetica, Arial, sans-serif"
+        font-size="34" font-weight="300" letter-spacing="12">WE&#8217;RE FROM THE FUTURE</text>
+  <text x="96" y="972" fill="#727a83"
+        font-family="FreeSans, DejaVu Sans, Helvetica, Arial, sans-serif"
+        font-size="19" letter-spacing="7">S1 E1 &#183; THE PACKAGE</text>
+</svg>
