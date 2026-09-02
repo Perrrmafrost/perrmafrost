@@ -11,27 +11,67 @@ animatic.
 
 ## READ THIS FIRST
 
-**No picture, dialogue or score has been rendered, and none can be from here.**
+**Two things are true at once.**
 
-This repository was built in a Linux container with Python, Node, ffmpeg and git.
-There is no image model, no video model and no speech synthesis attached to it.
-A finished film was not produced and nothing in this repository pretends to be
-one.
-
-What *is* here is everything the film is made of, at a standard where a crew — or
-a generation pipeline — could execute it without asking a question:
+1. **No photographic frame has been rendered.** This repository was built in a
+   container with no image, video or speech model attached. The container's
+   egress policy blocks Perplexity, Runway, Replicate, fal, Luma and Kling
+   outright. The one video model it *can* reach is Google's Veo — which is
+   exactly what Perplexity's own video feature calls, at 8 seconds a clip.
+2. **Everything up to that frame exists and has been executed.** The render
+   pipeline is written against the real `google-genai` SDK source, dry-run
+   verified for all 320 shots, and priced. The conform has been proven
+   end-to-end on the real EDL by assembling a complete 36-minute previs master
+   with temp sound and subtitles. The moment a Gemini API key is present, the
+   same commands produce the picture master.
 
 | | |
 |---|---|
 | **Screenplay** | 6,900 words, v3.0, five documented revision passes |
 | **Shots** | 320, every one with framing, lens, movement, lighting state, sound cue, music cue, a composed generation prompt, a negative prompt and a seed |
 | **Runtime** | 36:08 fine cut (35:27 excluding the post-credit tag), inside the 28–38 minute brief |
+| **Previs master** | `deliverables/S01E01_previs_master.mp4` — the whole episode, boards, timed to the frame, temp track, burned subtitles |
+| **Render pipeline** | `tools/render.py` — Veo 3.1, reference plates on every shot with people, chained pieces for long shots, resume, cost ledger |
 | **Post** | CMX3600 EDL, SRT, VTT, SDH captions, sound design plan, music cue sheet, colour grade guide |
 | **Art** | Poster and 16:9 thumbnail, authored as vector and rasterised |
-| **QC** | 41 executed checks, all passing |
+| **QC** | 41 executed checks, all passing; pipeline adversarially reviewed against the SDK |
 
-The `Export` section of the workspace lists exactly what exists and exactly what
-does not, and why.
+---
+
+## RENDERING THE PICTURE — the runbook
+
+```bash
+export GEMINI_API_KEY=...                  # from https://aistudio.google.com/apikey
+
+python3 tools/render.py plan               # what it will cost, before spending anything
+python3 tools/render.py models             # free: lists the Veo models your key can see
+python3 tools/render.py smoke --shot SH0126   # ONE paid clip (~$1) - validates the key and the request
+python3 tools/render.py render --yes       # all 320 shots, 4 in parallel, resumable
+python3 tools/conform.py --source auto --audio clips --burn-subs
+```
+
+| | Veo 3.1 Fast | Veo 3.1 |
+|---|---|---|
+| Generated seconds | 2,478 (2,168 s of picture, rounded to 4/6/8 s pieces) | same |
+| List price | **~$372** | **~$991** |
+| Wall clock | ~2 h at 4 parallel operations | same |
+| Realistic first cut | ×1.3 for re-takes (face drift, burned captions, motion) | same |
+
+What the pipeline does that a chat box cannot: it attaches the two reference
+plates to **every shot with people** (272 of 320) so the leads are the leads;
+it splits the 79 shots longer than eight seconds into pieces chained from the
+previous piece's last frame; it hands Veo each line of dialogue and tells it
+not to draw captions; it records a hash, cost and status per shot so a
+re-run only renders what changed; and it feeds the identical conform that
+already built the previs master.
+
+**Vertex AI instead of a key** (`GOOGLE_GENAI_USE_VERTEXAI=true` + project +
+location) additionally honours the per-shot seeds and the explicit audio flag;
+the Gemini Developer API does not accept either — the SDK raises.
+
+**Quality ceiling, stated plainly:** Veo 3.1 with reference images is the best
+available path to consistent faces across 320 shots, and it will still drift.
+Budget curation. The manual QC checklist is the gate.
 
 ---
 
@@ -77,6 +117,14 @@ python3 tools/build_workspace.py  # assembles workspace/index.html
 3. **Subtitle conform.** Cues are placed by a reading-speed model and swept once
    for a readability floor and zero overlaps, both asserted.
 
+### The conform is proven, not promised
+`tools/conform.py` assembled the previs master from the 320 boards through the
+same code path the picture master will use: exact per-shot trims, 16:9 → 2.00:1
+centre crop, 24 fps, concat in EDL order, subtitles as a soft track and burned,
+and a synthesised temp track with the chirp, the doorbell, the knock pattern,
+the countdown pulse, the authored silences, and the half-second hole where her
+name is.
+
 ### The fine cut is a real editorial pass
 The assembly runs **41:32**. `build.py` applies a documented 14% compression to
 every shot except 24 protected ones — the reveal, the reflection lag, the
@@ -99,7 +147,9 @@ production/
   08-qc/        automated audit + the manual gate it cannot clear
   09-marketing/ poster, thumbnail, teaser and trailer cuts
 reference/      the supplied plates the leads are locked against
-tools/          the source of truth and the generators
+tools/          the source of truth, the generators, render.py and conform.py
+boards/         320 previs boards, 1920x960                          [generated]
+deliverables/   the previs master                                    [generated]
 workspace/      the production workspace (published as an Artifact)
 ```
 

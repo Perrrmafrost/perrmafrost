@@ -11140,13 +11140,16 @@ const DELIV=[
  ['Revision passes &mdash; five, documented','production/03-script/revision-passes.md','md','READY'],
  ['Storyboard','production/04-previs/storyboard.md','md','GENERATED'],
  ['Shot list','production/04-previs/shot-list.csv','csv','GENERATED'],
- ['Animatic timing data','production/04-previs/animatic.json','json','GENERATED'],
+ ['Previs boards &mdash; 320 frames at 1920&times;960','boards/','png','DELIVERED'],
+ ['Previs master &mdash; full episode, timed, temp sound, subtitles','deliverables/S01E01_previs_master.mp4','mp4','DELIVERED'],
  ['Fine cut trim log','production/04-previs/trim-log.md','md','GENERATED'],
  ['Lookbook','production/05-assets/lookbook.md','md','READY'],
  ['Location and prop bible','production/05-assets/locations-and-props.md','md','READY'],
  ['Continuity matrix','production/05-assets/continuity-matrix.csv','csv','GENERATED'],
  ['Asset manifest','production/05-assets/asset-manifest.csv','csv','GENERATED'],
  ['Shot prompts &mdash; prompt, negative, seed, QC','production/06-shots/shot-prompts.json','json','GENERATED'],
+ ['Veo render pipeline &mdash; plan / dry-run / smoke / render','tools/render.py','py','READY'],
+ ['Conform &mdash; EDL assembly, temp track, subtitles','tools/conform.py','py','PROVEN'],
  ['Edit decision list &mdash; CMX3600','production/07-post/S01E01.edl','edl','GENERATED'],
  ['Subtitles','production/07-post/subtitles/S01E01.srt','srt','GENERATED'],
  ['Captions &mdash; SDH','production/07-post/subtitles/S01E01.sdh.vtt','vtt','GENERATED'],
@@ -11161,16 +11164,17 @@ const DELIV=[
  ['Teaser &mdash; 30s cut sheet and EDL','production/09-marketing/teaser-30s.edl','edl','GENERATED'],
  ['Trailer &mdash; 60s cut sheet and EDL','production/09-marketing/trailer-60s.edl','edl','GENERATED'],
 ];
-const BLOCKED=[['4K master','no video model in this environment'],
- ['1080p master','same'],['Rendered teaser / trailer','same'],
- ['Dialogue recordings','no speech synthesis attached'],
- ['Score and stems','no audio generation attached'],
- ['Character reference plates as images','no image model attached']];
+const BLOCKED=[
+ ['Picture master (Veo clips)','needs a Gemini API key. The pipeline is written, dry-run verified, and priced: ~$372 on Veo 3.1 Fast, ~$991 on Veo 3.1. Perplexity, Runway, Replicate, fal, Luma and Kling are blocked by this org&rsquo;s egress policy; Google is not.'],
+ ['Dialogue performances','Veo 3.1 renders speech from the prompt; each line is passed in. Expect to re-take. No separate voice model is reachable from here.'],
+ ['Score and stems','no music model attached; the previs master carries a temp track only (room tone, rain, chirp, doorbell, knock, countdown pulse, authored silences)'],
+ ['Rendered teaser / trailer','cut sheets and EDLs exist; picture follows the master'],
+];
 function vExport(){
   return H('EXPORT','What exists, and what does not',
    'An honest manifest. Everything in the first table is a real file in the repository. Everything in the second requires a capability this environment does not have.')
   + `<div class="grid g4" style="margin-bottom:16px">
-      ${tile('DELIVERED',String(DELIV.length),'files in the repository')}
+      ${tile('DELIVERED',String(DELIV.length),'real files in the repository')}
       ${tile('BLOCKED',String(BLOCKED.length),'need a model not attached here')}
       ${tile('QC','41/41','automated checks passing')}
       ${tile('RUNTIME',E.runtime,'within the 28&ndash;38 min brief')}</div>
@@ -11182,10 +11186,17 @@ function vExport(){
     <div class="tblw"><table><thead><tr><th>Deliverable</th><th>Why not</th></tr></thead><tbody>
     ${BLOCKED.map(b=>`<tr><td>${b[0]}</td><td class="dim">${b[1]}</td></tr>`).join('')}
     </tbody></table></div>
-    <div class="note warn" style="margin-top:16px"><b>Nothing here is a rendered frame.</b>
-      The animatic in Review is drawn procedurally from the shot records. It is a previs
-      board with correct timing, not a film. Read it as a plan that can be executed, and
-      the plan is complete.</div>`;
+    <div class="note warn" style="margin-top:16px"><b>The previs master is boards, not photography.</b>
+      Every frame in it is drawn from the shot record. It exists to prove the conform
+      end-to-end on the real EDL: when Veo clips land in <span class="mono">renders/</span>,
+      <span class="mono">tools/conform.py --source auto</span> produces the picture master
+      through the identical code path. Only the source changes.</div>
+    <div class="note" style="margin-top:10px"><b>To render for real:</b>
+      <span class="mono">export GEMINI_API_KEY=&hellip;</span> then
+      <span class="mono">python3 tools/render.py models</span> (free, lists the Veo models your key can see),
+      <span class="mono">python3 tools/render.py smoke --shot SH0126</span> (one paid clip, ~$1),
+      <span class="mono">python3 tools/render.py render --yes</span>, then
+      <span class="mono">python3 tools/conform.py --source auto --audio clips</span>.</div>`;
 }
 
 /* ---------------- app ---------------- */

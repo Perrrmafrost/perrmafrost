@@ -174,3 +174,32 @@ for n, ok, d in rows:
     if not ok: print("FAIL:", n, "-", d)
 print(f"{passed}/{len(rows)} checks passing -> production/08-qc/automated-audit.md")
 sys.exit(0 if passed == len(rows) else 1)
+
+# ---- the master file, when one exists -------------------------------------
+# Appended check: if a conformed master is on disk, audit the container itself.
+def _probe(path):
+    import subprocess
+    ff = os.environ.get("FFMPEG", "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2")
+    return subprocess.run([ff, "-i", path], capture_output=True, text=True).stderr
+for _name in ("S01E01_previs_master.mp4", "S01E01_picture_master.mp4"):
+    _m = P("deliverables", _name)
+    if not os.path.exists(_m):
+        continue
+    _info = _probe(_m)
+    _dur = re.search(r"Duration: (\d+):(\d+):(\d+)\.(\d+)", _info)
+    _secs = int(_dur[1])*3600 + int(_dur[2])*60 + int(_dur[3]) + int(_dur[4])/100 if _dur else -1
+    _rows = [
+        (f"{_name}: duration matches the cut", abs(_secs - DUR) < 0.6, f"{_secs:.2f}s vs {DUR:.2f}s"),
+        (f"{_name}: 1920x960 at 24 fps", "1920x960" in _info and " 24 fps" in _info, ""),
+        (f"{_name}: 48 kHz stereo AAC", "48000 Hz, stereo" in _info, ""),
+        (f"{_name}: subtitle track present", "Subtitle:" in _info, ""),
+    ]
+    _out = [f"\n## Master file audit: {_name}\n", "| Check | Result | Detail |", "|---|---|---|"]
+    for n, ok, d in _rows:
+        _out.append(f"| {n} | {'PASS' if ok else '**FAIL**'} | {d} |")
+        if not ok: print("FAIL:", n, "-", d)
+    with open(P("production", "08-qc", "automated-audit.md"), "a") as f:
+        f.write("\n".join(_out) + "\n")
+    print(f"master audit: {sum(1 for _, ok, _ in _rows if ok)}/{len(_rows)} passing for {_name}")
+    if not all(ok for _, ok, _ in _rows):
+        sys.exit(1)
