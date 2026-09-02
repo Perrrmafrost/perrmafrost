@@ -46,7 +46,7 @@ MANIFEST = P("renders", "manifest.json")
 # The master is 2.00:1, so we generate 16:9 at 1080p and centre-crop to
 # 1920x960 in conform. The prompt tells the model where the crop will fall.
 DURATIONS = (4, 6, 8)
-ASPECT, RESOLUTION = "16:9", "1080p"
+ASPECT, RESOLUTION = "16:9", "1080p"   # --resolution overrides
 MAX_REFERENCE_IMAGES = 3       # SDK docstring: "up to 3 asset images or 1 style image"
 FRAMING_NOTE = (" Framed for 16:9 but composed for a 2.00:1 centre extraction: keep all "
                 "essential action inside the central 89% of the frame height, nothing "
@@ -54,8 +54,12 @@ FRAMING_NOTE = (" Framed for 16:9 but composed for a 2.00:1 centre extraction: k
 
 # List prices per generated second, audio included. Sept 2026 figures; confirm at
 # https://ai.google.dev/gemini-api/docs/pricing before a full run.
-RATES = {"veo-3.1-generate-preview": 0.40, "veo-3.1-fast-generate-preview": 0.15,
-         "veo-3.0-generate-001": 0.40, "veo-3.0-fast-generate-001": 0.15}
+RATES = {"veo-3.1-generate-preview": {"720p": 0.40, "1080p": 0.40},
+         "veo-3.1-fast-generate-preview": {"720p": 0.15, "1080p": 0.15},
+         "veo-3.1-lite-generate-preview": {"720p": 0.05, "1080p": 0.08},
+         "veo-3.0-generate-001": {"720p": 0.40, "1080p": 0.40},
+         "veo-3.0-fast-generate-001": {"720p": 0.15, "1080p": 0.15}}
+def rate_for(model, resolution): return RATES.get(model, {}).get(resolution, 0.40)
 DEFAULT_MODEL = "veo-3.1-fast-generate-preview"
 RETRYABLE = (408, 429, 500, 502, 503, 504)
 
@@ -323,8 +327,11 @@ def select(shots, frm, to):
 
 def cmd_render(a, only=None):
     c, T, vertex = client_and_types(); os.makedirs(RENDERS, exist_ok=True)
+    if getattr(a, "edl", None):                  # e.g. the 60s trailer: render only what it uses
+        import re
+        only = set(re.findall(r"SH\d{4}", open(a.edl).read()))
     shots = [s for s in load_shots() if s["shot_id"] in only] if only else select(load_shots(), a.frm, a.to)
-    man = load_manifest(); rate = RATES.get(a.model, 0.40); todo = []
+    man = load_manifest(); rate = rate_for(a.model, RESOLUTION); todo = []
     for s in shots:
         h = req_hash(s, a.model, vertex); rec = man["shots"].get(s["shot_id"], {})
         if rec.get("status") == "rendered" and rec.get("hash") == h and os.path.exists(rec.get("path", "")) and not a.force:
@@ -371,7 +378,9 @@ def cmd_render(a, only=None):
 
 # ------------------------------------------------------------- plan / dry-run / smoke
 def cmd_plan(a):
-    shots = load_shots(); rate = RATES.get(a.model, 0.40)
+    shots = load_shots(); rate = rate_for(a.model, RESOLUTION)
+    if a.edl:
+        import re; ids = set(re.findall(r"SH\d{4}", open(a.edl).read())); shots = [s for s in shots if s["shot_id"] in ids]
     pic = sum(s["duration_s"] for s in shots); gen = sum(sum(pieces_for(s["duration_s"])) for s in shots)
     greedy = 0
     for s in shots:
@@ -381,12 +390,12 @@ def cmd_plan(a):
     calls = sum(len(pieces_for(s["duration_s"])) for s in shots)
     chained = sum(1 for s in shots if len(pieces_for(s["duration_s"])) > 1)
     refs = sum(1 for s in shots if PLATES.get(s["subjects"]))
-    print(f"model                 {a.model}   (${rate:.2f}/s, audio included, list price)")
+    print(f"model                 {a.model} @ {RESOLUTION}   (${rate:.2f}/s, audio included, list price)")
     print(f"shots                 {len(shots)}   ({calls} paid calls; {chained} shots chained)")
     print(f"picture seconds       {pic:.0f}s  ({pic/60:.1f} min in the cut)")
     print(f"generated seconds     {gen}s   (optimal 4/6/8 cover; greedy would be {greedy}s)")
     print(f"shots with face lock  {refs}   (reference plates attached)")
-    print(f"estimated cost        ${gen*rate:,.0f}   ->  ${gen*0.40:,.0f} on Veo 3.1 standard")
+    print(f"estimated cost        ${gen*rate:,.0f}")
     print(f"wall clock            ~{calls*90/a.parallel/60:.0f} min at {a.parallel} parallel ops (~90s per call)")
     print("\nexpect to REGENERATE 20-40% of shots on a first pass (face drift, captions, motion).")
     print("a realistic first-cut budget is 1.3x the figure above.")
@@ -434,7 +443,7 @@ def cmd_smoke(a):
     calls = sum(len(pieces_for(s["duration_s"])) for s in chosen)
     gen = sum(sum(pieces_for(s["duration_s"])) for s in chosen)
     print(f"smoke test: {', '.join(pick)} -> {calls} paid call(s), {gen}s generated, "
-          f"~${gen*RATES.get(a.model,0.40):.2f} at {a.model}")
+          f"~${gen*rate_for(a.model, RESOLUTION):.2f} at {a.model}")
     a.force = True; a.frm = a.to = None
     cmd_render(a, only=set(pick))
 
@@ -446,6 +455,8 @@ if __name__ == "__main__":
     ap.add_argument("--from", dest="frm"); ap.add_argument("--to")
     ap.add_argument("--parallel", type=int, default=4)
     ap.add_argument("--op-timeout", type=int, default=1800, help="seconds to wait on one operation before leaving it in flight")
+    ap.add_argument("--resolution", choices=["720p", "1080p"], default="1080p")
+    ap.add_argument("--edl", default=None, help="render only the shots named in this EDL (e.g. the trailer)")
     ap.add_argument("--force", action="store_true"); ap.add_argument("--yes", action="store_true")
-    a = ap.parse_args()
+    a = ap.parse_args(); RESOLUTION = a.resolution
     {"plan": cmd_plan, "dry-run": cmd_dry_run, "models": cmd_models, "smoke": cmd_smoke, "render": cmd_render}[a.cmd](a)

@@ -57,7 +57,7 @@ _sleep = time.sleep; time.sleep = lambda s: None
 SHOTS = render.load_shots(); BY = {s["shot_id"]: s for s in SHOTS}
 def args(**kw):
     a = argparse.Namespace(model=render.DEFAULT_MODEL, shot=None, frm=None, to=None, parallel=4,
-                           force=False, yes=True, op_timeout=1800); a.__dict__.update(kw); return a
+                           force=False, yes=True, op_timeout=1800, edl=None); a.__dict__.update(kw); return a
 def man(): return json.load(open(render.MANIFEST))
 def posts(): return [b for m, p, b in LOG if m == "post"]
 def reset(): LOG.clear(); N["ops"] = 0; MODE.update(kind="bytes", pending=False, jitter=0.0)
