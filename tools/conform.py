@@ -88,10 +88,16 @@ def temp_track(shots, total, srt_path, out_wav, cd_first, cd_zero):
         i = int(t*SR); j = min(N, i+len(sig)); k = j - i
         if k <= 0: return
         L[i:j] += sig[:k] * (1 - max(0, pan)); R[i:j] += sig[:k] * (1 + min(0, pan))
-    # room tone: brown noise, quiet, everywhere
-    white = rng.standard_normal(N).astype(np.float32)
-    brown = np.cumsum(white); brown -= np.convolve(brown, np.ones(4800)/4800, "same"); brown /= np.abs(brown).max()
-    bed = brown * db(-44)
+    # room tone: 1/f noise (octave-summed white noise, Voss-McCartney), normalised
+    # by RMS so the level is what the number says it is. A random walk normalised
+    # by its peak - the previous version - collapses to -99 dB, which QC caught.
+    def pink(n, octaves=10):
+        acc = np.zeros(n, np.float64)
+        for k in range(octaves):
+            step = 2 ** k
+            acc += np.repeat(rng.standard_normal(n // step + 1), step)[:n]
+        return (acc / np.sqrt(np.mean(acc**2))).astype(np.float32)
+    bed = pink(N) * db(-40)
     # rain from 03:15, slow modulation
     rain_on = 195.0
     rain = rng.standard_normal(N).astype(np.float32) * db(-46)
@@ -107,13 +113,13 @@ def temp_track(shots, total, srt_path, out_wav, cd_first, cd_zero):
     for s in shots:
         a = (s["audio"] or ""); u = a.upper()
         if "DING-DONG" in u:
-            add(s["t"]+0.4, tone(659, 0.28, db(-16))); add(s["t"]+0.7, tone(523, 0.42, db(-16)))
+            add(s["t"]+0.4, tone(659, 0.28, db(-20))); add(s["t"]+0.7, tone(523, 0.42, db(-20)))
         if "CHIRP" in u:
             pan = 0.7 if ("off-screen" in a or "coffee table" in a) else 0.0
-            add(s["t"] + (1.2 if "off-screen" in a else 0.3), tone(3200, 0.08, db(-14)), pan)
+            add(s["t"] + (1.2 if "off-screen" in a else 0.3), tone(3200, 0.08, db(-18)), pan)
         if "knuckle knocks" in a:
             for k, off in enumerate([0, .38, .76, 1.7, 2.08]):
-                add(s["t"]+0.6+off, noise_burst(0.07, db(-10), lp=0.18))
+                add(s["t"]+0.6+off, noise_burst(0.07, db(-14), lp=0.18))
         if "Deadbolt" in a or "brass mechanism" in a:
             add(s["t"]+0.5, noise_burst(0.03, db(-18), lp=0.5)); add(s["t"]+0.62, noise_burst(0.05, db(-20), lp=0.35))
         if "Breaker" in a:
@@ -171,13 +177,17 @@ def main():
     cdf = next(s for s in shots if s["cd"]); cd_first = cdf["t"]
     cd_zero = cd_first + int(cdf["cd"].split(":")[0])*60 + int(cdf["cd"].split(":")[1])
     inputs = ["-i", picture]; maps = ["-map", "0:v"]
+    # The temp track is authored at delivery levels, so it is not normalised;
+    # clip audio from the model is. Either way the audio is padded and the output
+    # is cut to the picture's exact length: loudnorm's end-of-stream flush and
+    # -shortest between them took 2.65s off the first master, and QC caught it.
     if a.audio == "temp":
         wav = os.path.join(work, "temp_track.wav")
         temp_track(shots[:a.limit] if a.limit else shots, total, srt, wav, cd_first, cd_zero)
         inputs += ["-i", wav]; maps += ["-map", "1:a"]
-        afilter = ["-af", "loudnorm=I=-24:TP=-2:LRA=11,aresample=48000"]
+        afilter = ["-af", "apad"]
     elif a.audio == "clips":
-        maps += ["-map", "0:a?"]; afilter = ["-af", "loudnorm=I=-24:TP=-2:LRA=11,aresample=48000"]
+        maps += ["-map", "0:a?"]; afilter = ["-af", "loudnorm=I=-24:TP=-2:LRA=11,aresample=48000,apad"]
     else:
         afilter = []
     sub_in = ["-i", srt] if os.path.exists(srt) else []
@@ -189,7 +199,7 @@ def main():
     if sub_in:
         cmd += ["-map", f"{sub_idx}:s", "-c:s", "mov_text", "-metadata:s:s:0", "language=eng"]
     cmd += vf + (["-c:v", "libx264", "-preset", "veryfast", "-crf", "18"] if vf else ["-c:v", "copy"])
-    cmd += ["-c:a", "aac", "-b:a", "192k"] + afilter + ["-movflags", "+faststart", "-shortest", out]
+    cmd += ["-c:a", "aac", "-b:a", "192k"] + afilter + ["-movflags", "+faststart", "-t", f"{total:.3f}", out]
     run(cmd)
     r = subprocess.run([FF, "-i", out], capture_output=True, text=True).stderr
     dur = [l for l in r.splitlines() if "Duration" in l]

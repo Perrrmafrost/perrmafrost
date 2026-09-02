@@ -173,7 +173,7 @@ open(P("production", "08-qc", "automated-audit.md"), "w").write("\n".join(out) +
 for n, ok, d in rows:
     if not ok: print("FAIL:", n, "-", d)
 print(f"{passed}/{len(rows)} checks passing -> production/08-qc/automated-audit.md")
-sys.exit(0 if passed == len(rows) else 1)
+_exit_code = 0 if passed == len(rows) else 1
 
 # ---- the master file, when one exists -------------------------------------
 # Appended check: if a conformed master is on disk, audit the container itself.
@@ -202,4 +202,5 @@ for _name in ("S01E01_previs_master.mp4", "S01E01_picture_master.mp4"):
         f.write("\n".join(_out) + "\n")
     print(f"master audit: {sum(1 for _, ok, _ in _rows if ok)}/{len(_rows)} passing for {_name}")
     if not all(ok for _, ok, _ in _rows):
-        sys.exit(1)
+        _exit_code = 1
+sys.exit(_exit_code)

@@ -79,3 +79,12 @@ Honest limits. These require a human or a rendered picture:
 
 Those are listed in `production/08-qc/manual-qc-checklist.md` and are the
 gate that this file explicitly does not clear.
+
+## Master file audit: S01E01_previs_master.mp4
+
+| Check | Result | Detail |
+|---|---|---|
+| S01E01_previs_master.mp4: duration matches the cut | PASS | 2168.00s vs 2168.00s |
+| S01E01_previs_master.mp4: 1920x960 at 24 fps | PASS |  |
+| S01E01_previs_master.mp4: 48 kHz stereo AAC | PASS |  |
+| S01E01_previs_master.mp4: subtitle track present | PASS |  |
