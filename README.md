@@ -45,25 +45,33 @@ export GEMINI_API_KEY=...                  # from https://aistudio.google.com/ap
 
 python3 tools/render.py plan               # what it will cost, before spending anything
 python3 tools/render.py models             # free: lists the Veo models your key can see
-python3 tools/render.py smoke --shot SH0126   # ONE paid clip (~$1) - validates the key and the request
+python3 tools/render.py smoke              # three deliberate shots (~$4): a two-shot with dialogue, the double, a chained shot
 python3 tools/render.py render --yes       # all 320 shots, 4 in parallel, resumable
 python3 tools/conform.py --source auto --audio clips --burn-subs
 ```
 
 | | Veo 3.1 Fast | Veo 3.1 |
 |---|---|---|
-| Generated seconds | 2,478 (2,168 s of picture, rounded to 4/6/8 s pieces) | same |
-| List price | **~$372** | **~$991** |
-| Wall clock | ~2 h at 4 parallel operations | same |
+| Generated seconds | 2,356 (2,168 s of picture, optimal 4/6/8 s cover; 401 paid calls) | same |
+| List price | **~$353** | **~$942** |
+| Wall clock | ~2.5 h at 4 parallel operations | same |
 | Realistic first cut | ×1.3 for re-takes (face drift, burned captions, motion) | same |
 
-What the pipeline does that a chat box cannot: it attaches the two reference
-plates to **every shot with people** (272 of 320) so the leads are the leads;
-it splits the 79 shots longer than eight seconds into pieces chained from the
-previous piece's last frame; it hands Veo each line of dialogue and tells it
-not to draw captions; it records a hash, cost and status per shot so a
-re-run only renders what changed; and it feeds the identical conform that
-already built the previs master.
+What the pipeline does that a chat box cannot: it attaches the face-centred
+reference plates to **every shot with people** (272 of 320) so the leads are
+the leads; it splits the 79 shots longer than eight seconds into an optimal
+cover of pieces chained from the previous piece's last frame; it assigns each
+line of dialogue to the piece it falls in and to the person actually in frame,
+and tells Veo not to draw captions; it persists every paid operation the moment
+it is accepted, retries with backoff, and resumes, so a crash or a rate limit
+never pays twice; and it feeds the identical conform that already built the
+previs master.
+
+It was adversarially reviewed against the SDK source before being handed over:
+19 confirmed defects in the first version (two blockers) are fixed and covered
+by `tools/test_render.py`, an offline suite that runs the SDK's real converters
+and parsers against canned Veo responses. See
+`production/08-qc/pipeline-review.md`.
 
 **Vertex AI instead of a key** (`GOOGLE_GENAI_USE_VERTEXAI=true` + project +
 location) additionally honours the per-shot seeds and the explicit audio flag;

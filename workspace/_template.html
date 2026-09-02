@@ -815,7 +815,9 @@ const DELIV=[
  ['Continuity matrix','production/05-assets/continuity-matrix.csv','csv','GENERATED'],
  ['Asset manifest','production/05-assets/asset-manifest.csv','csv','GENERATED'],
  ['Shot prompts &mdash; prompt, negative, seed, QC','production/06-shots/shot-prompts.json','json','GENERATED'],
- ['Veo render pipeline &mdash; plan / dry-run / smoke / render','tools/render.py','py','READY'],
+ ['Veo render pipeline &mdash; plan / dry-run / smoke / render','tools/render.py','py','REVIEWED'],
+ ['Render pipeline offline test suite','tools/test_render.py','py','PASSING'],
+ ['Pipeline review &mdash; 19 confirmed findings, fixed','production/08-qc/pipeline-review.md','md','READY'],
  ['Conform &mdash; EDL assembly, temp track, subtitles','tools/conform.py','py','PROVEN'],
  ['Edit decision list &mdash; CMX3600','production/07-post/S01E01.edl','edl','GENERATED'],
  ['Subtitles','production/07-post/subtitles/S01E01.srt','srt','GENERATED'],
@@ -832,7 +834,7 @@ const DELIV=[
  ['Trailer &mdash; 60s cut sheet and EDL','production/09-marketing/trailer-60s.edl','edl','GENERATED'],
 ];
 const BLOCKED=[
- ['Picture master (Veo clips)','needs a Gemini API key. The pipeline is written, dry-run verified, and priced: ~$372 on Veo 3.1 Fast, ~$991 on Veo 3.1. Perplexity, Runway, Replicate, fal, Luma and Kling are blocked by this org&rsquo;s egress policy; Google is not.'],
+ ['Picture master (Veo clips)','needs a Gemini API key. The pipeline is written, dry-run verified, and priced: ~$353 on Veo 3.1 Fast, ~$942 on Veo 3.1 (401 calls). Perplexity, Runway, Replicate, fal, Luma and Kling are blocked by this org&rsquo;s egress policy; Google is not.'],
  ['Dialogue performances','Veo 3.1 renders speech from the prompt; each line is passed in. Expect to re-take. No separate voice model is reachable from here.'],
  ['Score and stems','no music model attached; the previs master carries a temp track only (room tone, rain, chirp, doorbell, knock, countdown pulse, authored silences)'],
  ['Rendered teaser / trailer','cut sheets and EDLs exist; picture follows the master'],
@@ -861,7 +863,7 @@ function vExport(){
     <div class="note" style="margin-top:10px"><b>To render for real:</b>
       <span class="mono">export GEMINI_API_KEY=&hellip;</span> then
       <span class="mono">python3 tools/render.py models</span> (free, lists the Veo models your key can see),
-      <span class="mono">python3 tools/render.py smoke --shot SH0126</span> (one paid clip, ~$1),
+      <span class="mono">python3 tools/render.py smoke</span> (three deliberate shots, ~$4),
       <span class="mono">python3 tools/render.py render --yes</span>, then
       <span class="mono">python3 tools/conform.py --source auto --audio clips</span>.</div>`;
 }
