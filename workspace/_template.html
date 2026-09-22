@@ -1,0 +1,906 @@
+<title>The Package Production Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Courier+Prime:wght@400;700&display=swap">
+<style>
+:root{
+  --warm:#C08A4E; --warm-dim:#8A6438; --cold:#8FA6B8; --cold-dim:#5C7285;
+  --ok:#6E8F6B; --bad:#B4553F; --hold:#9A8654;
+  --bg:#EAECEE; --bg-2:#F5F6F7; --panel:#FFFFFF; --rail:#E2E5E8;
+  --line:#CBD1D6; --line-soft:#DEE3E7;
+  --tx:#16191C; --tx-2:#4A525A; --tx-3:#79838C;
+  --shadow:0 1px 2px rgba(16,20,24,.06),0 8px 24px rgba(16,20,24,.06);
+  --mono:"Courier Prime",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --sans:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:3px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1113; --bg-2:#14181B; --panel:#171C20; --rail:#101417;
+  --line:#2A3238; --line-soft:#212930;
+  --tx:#E4E8EB; --tx-2:#A2ADB5; --tx-3:#6E7A83;
+  --warm:#D6A165; --warm-dim:#A2764A; --cold:#A6BCCD; --cold-dim:#7791A5;
+  --ok:#85A882; --bad:#CE6E56; --hold:#B6A06A;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+}}
+:root[data-theme="dark"]{
+  --bg:#0E1113; --bg-2:#14181B; --panel:#171C20; --rail:#101417;
+  --line:#2A3238; --line-soft:#212930;
+  --tx:#E4E8EB; --tx-2:#A2ADB5; --tx-3:#6E7A83;
+  --warm:#D6A165; --warm-dim:#A2764A; --cold:#A6BCCD; --cold-dim:#7791A5;
+  --ok:#85A882; --bad:#CE6E56; --hold:#B6A06A;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:var(--sans);
+     font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{margin:0;text-wrap:balance;font-weight:600;letter-spacing:-.01em}
+p{margin:0 0 .8em}
+a{color:var(--cold-dim)}
+button{font-family:inherit;font-size:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--warm);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- chrome ---------- */
+.app{display:grid;grid-template-columns:236px 1fr;min-height:100vh}
+.rail{background:var(--rail);border-right:1px solid var(--line);
+      display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.brand{padding:20px 18px 16px;border-bottom:1px solid var(--line)}
+.brand .ttl{font-size:11px;letter-spacing:.22em;font-weight:600;color:var(--tx-2);line-height:1.5}
+.brand .ep{font-family:var(--mono);font-size:12px;color:var(--warm);margin-top:6px}
+.navgrp{padding:14px 10px 2px}
+.navgrp>span{display:block;padding:0 8px 6px;font-size:10px;letter-spacing:.18em;
+             color:var(--tx-3);font-weight:600}
+.nav{display:flex;flex-direction:column;gap:1px}
+.nav button{display:flex;align-items:center;justify-content:space-between;gap:8px;
+  background:none;border:0;text-align:left;padding:7px 10px;border-radius:var(--r);
+  cursor:pointer;color:var(--tx-2);font-size:13px;width:100%}
+.nav button:hover{background:var(--line-soft);color:var(--tx)}
+.nav button[aria-current="true"]{background:var(--panel);color:var(--tx);
+  box-shadow:inset 2px 0 0 var(--warm);font-weight:500}
+.nav .ct{font-family:var(--mono);font-size:11px;color:var(--tx-3)}
+.railfoot{margin-top:auto;padding:14px;border-top:1px solid var(--line);
+          display:flex;gap:8px;align-items:center}
+.tbtn{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+      padding:5px 9px;cursor:pointer;font-size:11px;color:var(--tx-2)}
+
+.main{min-width:0;display:flex;flex-direction:column}
+.status{display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid var(--line);
+        background:var(--bg-2);position:sticky;top:0;z-index:20}
+.status div{padding:9px 16px;border-right:1px solid var(--line-soft);
+            font-size:11px;color:var(--tx-3);letter-spacing:.06em}
+.status b{display:block;font-family:var(--mono);font-size:13px;color:var(--tx);
+          letter-spacing:0;font-weight:400;font-variant-numeric:tabular-nums}
+.status .ok b{color:var(--ok)}
+.wrap{padding:26px 30px 70px;max-width:1240px}
+.view{display:none}.view.on{display:block}
+
+.ph{margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.ph .k{font-size:10px;letter-spacing:.2em;color:var(--warm);font-weight:600}
+.ph h2{font-size:25px;margin:4px 0 6px;font-weight:500;letter-spacing:-.02em}
+.ph p{color:var(--tx-2);max-width:64ch;margin:0}
+
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(232px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(172px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px}
+.card h3{font-size:12px;letter-spacing:.12em;color:var(--tx-3);font-weight:600;margin-bottom:10px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.tile .lb{font-size:10px;letter-spacing:.16em;color:var(--tx-3);font-weight:600}
+.tile .vl{font-family:var(--mono);font-size:26px;margin-top:4px;font-variant-numeric:tabular-nums;line-height:1.1}
+.tile .sb{font-size:11px;color:var(--tx-3);margin-top:3px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.dim{color:var(--tx-3)}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:10px;letter-spacing:.1em;
+  padding:2px 7px;border-radius:2px;border:1px solid var(--line);color:var(--tx-2);font-weight:600}
+.pill.ok{color:var(--ok);border-color:color-mix(in srgb,var(--ok) 45%,transparent)}
+.pill.bad{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 45%,transparent)}
+.pill.hold{color:var(--hold);border-color:color-mix(in srgb,var(--hold) 45%,transparent)}
+.pill.cold{color:var(--cold-dim);border-color:color-mix(in srgb,var(--cold) 45%,transparent)}
+.pill.warm{color:var(--warm-dim);border-color:color-mix(in srgb,var(--warm) 45%,transparent)}
+
+.tblw{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th{text-align:left;font-size:10px;letter-spacing:.14em;color:var(--tx-3);font-weight:600;
+   padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap;
+   position:sticky;top:0;background:var(--panel)}
+td{padding:8px 12px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.m{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--tx-2)}
+.scroll{max-height:560px;overflow:auto}
+
+.actbar{display:flex;height:26px;border-radius:2px;overflow:hidden;border:1px solid var(--line)}
+.actbar div{position:relative;font-size:9.5px;letter-spacing:.1em;color:#0E1113;
+  display:flex;align-items:center;justify-content:center;font-weight:700;overflow:hidden}
+
+input[type=search],input[type=text],select{background:var(--bg-2);border:1px solid var(--line);
+  color:var(--tx);border-radius:var(--r);padding:7px 10px;font-family:var(--sans);font-size:13px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.btn{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+     padding:7px 12px;cursor:pointer;font-size:12.5px;color:var(--tx-2)}
+.btn:hover{border-color:var(--warm);color:var(--tx)}
+.btn.on{background:var(--warm);border-color:var(--warm);color:#16130E;font-weight:600}
+
+/* ---------- previs frame ---------- */
+.stage{background:#000;border:1px solid var(--line);border-radius:var(--r);
+       position:relative;overflow:hidden;aspect-ratio:2/1}
+.stage svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.ovl{position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;
+     justify-content:space-between;padding:12px 16px}
+.ovl .top{display:flex;justify-content:space-between;gap:12px;font-family:var(--mono);
+          font-size:11px;color:rgba(233,238,242,.62);text-shadow:0 1px 3px #000}
+.ovl .bot{text-align:center;padding-bottom:4px}
+.ovl .dlg{display:inline-block;font-size:15px;color:#F0F3F6;text-shadow:0 2px 6px #000;
+          max-width:78%;line-height:1.35}
+.ovl .dlg b{color:var(--warm);font-weight:600;font-size:11px;letter-spacing:.14em;
+            display:block;margin-bottom:2px}
+.cdw{position:absolute;right:16px;bottom:14px;font-family:var(--mono);font-size:15px;
+     color:#C8D4DE;letter-spacing:.1em;text-shadow:0 0 12px rgba(140,180,210,.5)}
+.slate{position:absolute;left:0;right:0;top:0;height:100%;display:flex;align-items:center;
+       justify-content:center;flex-direction:column;gap:8px;background:#000}
+.slate .t1{font-size:20px;letter-spacing:.42em;color:#EEF1F4;font-weight:300}
+.slate .t2{font-size:10px;letter-spacing:.3em;color:#7a838c}
+
+.transport{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
+.tp{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+    width:36px;height:32px;cursor:pointer;display:grid;place-items:center}
+.tp:hover{border-color:var(--warm)}
+.scrub{flex:1;min-width:220px;height:32px;position:relative;cursor:pointer;
+       background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.scrub .acts{position:absolute;inset:0;display:flex}
+.scrub .acts i{height:100%;opacity:.42}
+.scrub .pg{position:absolute;top:0;bottom:0;width:2px;background:var(--warm);
+           box-shadow:0 0 8px var(--warm)}
+.scrub .cdz{position:absolute;top:0;bottom:0;border-left:1px dashed var(--cold);opacity:.7}
+.tcread{font-family:var(--mono);font-size:14px;min-width:118px;text-align:right;
+        font-variant-numeric:tabular-nums}
+
+.shotgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:8px}
+.sc{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+    padding:0;cursor:pointer;overflow:hidden;text-align:left;display:block}
+.sc:hover{border-color:var(--warm)}
+.sc.on{border-color:var(--warm);box-shadow:0 0 0 1px var(--warm)}
+.sc .th{aspect-ratio:2/1;background:#000;position:relative}
+.sc .mt{padding:6px 8px;font-size:10.5px;line-height:1.4}
+.sc .mt .id{font-family:var(--mono);color:var(--tx-3);display:flex;justify-content:space-between}
+.sc .mt .fr{color:var(--tx-2);margin-top:1px}
+
+.scenehead{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+           padding-bottom:6px;border-bottom:1px solid var(--line-soft)}
+.scenehead h3{font-size:13px;font-family:var(--mono);color:var(--tx);font-weight:400}
+.scenehead .s{font-size:10px;letter-spacing:.14em;color:var(--tx-3);margin-left:auto}
+
+pre{font-family:var(--mono);font-size:12.5px;line-height:1.7;white-space:pre-wrap;
+    margin:0;color:var(--tx-2)}
+.script{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+        padding:22px 26px;max-height:640px;overflow:auto}
+.script b{color:var(--tx);font-weight:700}
+
+.tracks{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--panel)}
+.trow{display:grid;grid-template-columns:96px 1fr;border-bottom:1px solid var(--line-soft)}
+.trow:last-child{border-bottom:0}
+.trow>.lb{padding:8px 10px;font-size:10px;letter-spacing:.12em;color:var(--tx-3);
+          border-right:1px solid var(--line-soft);font-weight:600;background:var(--bg-2)}
+.tlane{position:relative;height:34px;overflow:hidden}
+.tlane i{position:absolute;top:5px;bottom:5px;border-radius:1px;font-size:9px;
+         font-family:var(--mono);color:#0E1113;display:flex;align-items:center;
+         padding-left:3px;overflow:hidden;white-space:nowrap}
+.note{border-left:2px solid var(--warm);padding:9px 0 9px 13px;color:var(--tx-2);
+      background:linear-gradient(90deg,color-mix(in srgb,var(--warm) 8%,transparent),transparent);
+      margin:10px 0;font-size:13px}
+.warn{border-left-color:var(--bad);
+      background:linear-gradient(90deg,color-mix(in srgb,var(--bad) 9%,transparent),transparent)}
+.dl{display:grid;grid-template-columns:150px 1fr;gap:2px 14px;font-size:13px}
+.dl dt{color:var(--tx-3);font-size:11px;letter-spacing:.08em;padding-top:3px}
+.dl dd{margin:0;color:var(--tx-2)}
+.copy{float:right;font-size:10px;padding:3px 8px;background:var(--bg-2);
+      border:1px solid var(--line);border-radius:2px;cursor:pointer;color:var(--tx-3)}
+.prompt{font-family:var(--mono);font-size:11.5px;line-height:1.65;color:var(--tx-2);
+        background:var(--bg-2);border:1px solid var(--line-soft);border-radius:2px;
+        padding:10px 12px;max-height:190px;overflow:auto;white-space:pre-wrap}
+@media (max-width:860px){
+  .app{grid-template-columns:1fr}
+  #v-gen .grid[style*="300px"]{grid-template-columns:1fr!important}
+  .status div{padding:7px 12px}
+  .rail{position:static;height:auto;flex-direction:column}
+  .wrap{padding:18px 16px 60px}
+}
+</style>
+
+<div class="app">
+  <nav class="rail">
+    <div class="brand">
+      <div class="ttl">WE&rsquo;RE FROM<br>THE FUTURE</div>
+      <div class="ep">S01E01 &middot; The Package</div>
+    </div>
+    <div class="navgrp"><span>STORY</span><div class="nav" id="nav1"></div></div>
+    <div class="navgrp"><span>VISUAL</span><div class="nav" id="nav2"></div></div>
+    <div class="navgrp"><span>PRODUCTION</span><div class="nav" id="nav3"></div></div>
+    <div class="navgrp"><span>DELIVERY</span><div class="nav" id="nav4"></div></div>
+    <div class="railfoot">
+      <button class="tbtn" id="themeBtn">Theme</button>
+      <span class="dim mono" style="font-size:10px">v3.0 LOCKED</span>
+    </div>
+  </nav>
+
+  <div class="main">
+    <div class="status" id="status"></div>
+    <div class="wrap">
+      <section class="view" id="v-overview"></section>
+      <section class="view" id="v-story"></section>
+      <section class="view" id="v-chars"></section>
+      <section class="view" id="v-world"></section>
+      <section class="view" id="v-board"></section>
+      <section class="view" id="v-gen"></section>
+      <section class="view" id="v-timeline"></section>
+      <section class="view" id="v-continuity"></section>
+      <section class="view" id="v-review"></section>
+      <section class="view" id="v-export"></section>
+    </div>
+  </div>
+</div>
+
+<script>__DATA__</script>
+<script>
+const E = window.EPISODE, SH = E.shots;
+const $ = (s,r)=>(r||document).querySelector(s);
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const clk = t => `${String(Math.floor(t/60)).padStart(2,'0')}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+const tc  = t => { const f=Math.round(t*24); return `${String(Math.floor(f/86400)).padStart(2,'0')}:${String(Math.floor(f/1440)%60).padStart(2,'0')}:${String(Math.floor(f/24)%60).padStart(2,'0')}:${String(f%24).padStart(2,'0')}`; };
+const TOTAL = E.runtime_s;
+
+/* the countdown, recovered from the cut the same way the build binds it */
+const CDFIRST = SH.find(s=>s.cd);
+const CDZERO  = CDFIRST ? CDFIRST.t + (+CDFIRST.cd.split(':')[0]*60 + +CDFIRST.cd.split(':')[1]) : null;
+
+const ACTS = [];
+SH.forEach(s=>{ const a=ACTS[ACTS.length-1];
+  if(a && a.act===s.act) { a.d+=s.d; a.n++; } else ACTS.push({act:s.act,t:s.t,d:s.d,n:1}); });
+const ACTC = {TEASER:'#C08A4E',TITLE:'#5C7285','ACT ONE':'#B5824B','ACT TWO':'#96835C',
+              'ACT THREE':'#7C8474','ACT FOUR':'#6F8494','ACT FIVE':'#8FA6B8',TAG:'#D8DDE1'};
+
+/* ---------------- previs frame renderer ----------------
+   Each frame is drawn from the shot's own metadata: the lighting state sets the
+   palette, the framing sets the scale, the subject field sets who is in it, and
+   the device flag puts the leaf in the room. Nothing here is a picture; it is a
+   board, which is what an animatic is. */
+const PAL = {
+  GOLDEN:{a:'#5a4229',b:'#241a10',f:'#140e08',k:'#d9ac6d'},
+  WARM:{a:'#3a2a1c',b:'#17100a',f:'#0d0906',k:'#c08a4e'},
+  WARM_LOW:{a:'#281c13',b:'#0e0a07',f:'#080605',k:'#a8763f'},
+  KITCHEN_OVERHEAD:{a:'#43301d',b:'#18110a',f:'#0c0805',k:'#dda964'},
+  COLD_PANE:{a:'#0f161d',b:'#04060a',f:'#080c10',k:'#8fa6b8'},
+  MIXED:{a:'#33251a',b:'#0a0f14',f:'#0b0a09',k:'#c08a4e',k2:'#8fa6b8'},
+  BLACKOUT:{a:'#0a0d11',b:'#020304',f:'#060709',k:'#39444f'},
+  STREET_NIGHT:{a:'#151b26',b:'#07090e',f:'#0b0e13',k:'#b78d51'},
+  TV_ONLY:{a:'#0d1219',b:'#050709',f:'#080b0e',k:'#7d94a6'},
+  PALE_FLAT:{a:'#eceded',b:'#e2e4e6',f:'#c4c8cc',k:'#ffffff'},
+  DEGRADED:{a:'#222426',b:'#060606',f:'#0b0b0b',k:'#cdc6b4'}
+};
+const SCALE = {XWIDE:.34,WIDE:.58,'WIDE-2S':.58,'WIDE-POV':.5,MED:.98,'MED-2S':.98,
+  'MED-TRACK':.98,MCU:1.5,CU:2.3,'CU-2S':1.9};
+
+function figure(cx, base, h, fill, op){
+  const hr=h*.17, hcy=base-h+hr, w=h*.45;
+  return `<g fill="${fill}" opacity="${op}"><ellipse cx="${cx.toFixed(1)}" cy="${hcy.toFixed(1)}" rx="${(hr*.82).toFixed(1)}" ry="${hr.toFixed(1)}"/>`
+   + `<path d="M ${cx} ${(hcy+hr*.86).toFixed(1)} C ${(cx-w*.6).toFixed(1)} ${(hcy+hr*1.6).toFixed(1)} ${(cx-w).toFixed(1)} ${(base-h*.3).toFixed(1)} ${(cx-w).toFixed(1)} ${base.toFixed(1)} L ${(cx+w).toFixed(1)} ${base.toFixed(1)} C ${(cx+w).toFixed(1)} ${(base-h*.3).toFixed(1)} ${(cx+w*.6).toFixed(1)} ${(hcy+hr*1.6).toFixed(1)} ${cx} ${(hcy+hr*.86).toFixed(1)} Z"/></g>`;
+}
+function faceOnPane(){ /* the double: a face held in the pane, still, scarred */
+  return `<g><ellipse cx="500" cy="250" rx="132" ry="168" fill="#1c242c"/>`
+    +`<ellipse cx="500" cy="250" rx="132" ry="168" fill="url(#lowlight)"/>`
+    +`<ellipse cx="452" cy="228" rx="15" ry="8" fill="#0a0e12"/>`
+    +`<ellipse cx="548" cy="228" rx="15" ry="8" fill="#0a0e12"/>`
+    +`<path d="M 470 316 Q 500 326 530 316" stroke="#0a0e12" stroke-width="4" fill="none" stroke-linecap="round"/>`
+    +`<path d="M 444 252 L 414 268" stroke="#7e8f9c" stroke-width="2.4" opacity=".8" stroke-linecap="round"/></g>`;
+}
+function frameSVG(s){
+  if(s.sc==='TITLE'||s.sc==='ENDCARD') return null;
+  const p = PAL[s.look]||PAL.WARM_LOW, ins = s.fr.indexOf('INSERT')>=0;
+  let o = `<defs>
+    <radialGradient id="key" cx="${s.look==='COLD_PANE'?'50%':'32%'}" cy="${s.look==='KITCHEN_OVERHEAD'?'8%':'42%'}" r="70%">
+      <stop offset="0%" stop-color="${p.k}" stop-opacity="${s.look==='PALE_FLAT'?.9:.36}"/>
+      <stop offset="60%" stop-color="${p.a}" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="${p.b}" stop-opacity="0"/></radialGradient>
+    <linearGradient id="grd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${p.a}"/><stop offset="100%" stop-color="${p.b}"/></linearGradient>
+    <radialGradient id="lowlight" cx="42%" cy="72%" r="76%">
+      <stop offset="0%" stop-color="#5b7182" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".35"/></radialGradient>
+    <radialGradient id="vig" cx="50%" cy="48%" r="72%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="${s.look==='PALE_FLAT'?0:.72}"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="${s.look==='DEGRADED'?7:16}"/></filter>
+    <filter id="gr"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="5"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".07"/></feComponentTransfer></filter></defs>
+    <rect width="1000" height="500" fill="url(#grd)"/><rect width="1000" height="500" fill="url(#key)"/>`;
+
+  if(s.loc==='EXT_STREET'){
+    o += `<rect y="330" width="1000" height="170" fill="${p.b}" opacity=".9"/>`;
+    for(let i=0;i<5;i++){ const x=40+i*205, lit = s.look==='STREET_NIGHT';
+      o += `<rect x="${x}" y="${196+(i%2)*14}" width="150" height="${146-(i%2)*14}" fill="${p.f}" opacity=".92"/>`;
+      if(lit) o += `<rect x="${x+34}" y="${232+(i%2)*14}" width="42" height="36" fill="${i===2&&s.look==='BLACKOUT'?'#0a0d11':'#c9a066'}" opacity="${i===2&&s.note.indexOf('lights on')>=0?.08:.62}"/>`;
+    }
+  }
+  if(s.loc==='MOTEL'){
+    o += `<rect y="300" width="1000" height="200" fill="#0b0e13"/>
+      <rect x="120" y="196" width="760" height="150" fill="#171b21"/>`;
+    for(let i=0;i<8;i++) o += `<rect x="${150+i*92}" y="228" width="46" height="86" fill="#0a0d11"/>`;
+    o += `<rect x="720" y="86" width="120" height="88" fill="#2a2a1e" stroke="#5f5a3a" stroke-width="2"/>
+      <text x="780" y="140" text-anchor="middle" font-family="monospace" font-size="26" fill="#d9c07a">BLU RIDG</text>`;
+  }
+  if(s.loc==='PALE'){ o += `<rect x="240" y="330" width="520" height="24" fill="#cfd2d5"/>`; }
+
+  /* the leaf */
+  const bigPane = ins && (s.subj==='D' || s.dev);
+  if(bigPane){
+    o += `<rect x="118" y="34" width="764" height="432" fill="#05080b" stroke="#7f909e" stroke-width="2"/>`;
+    if(s.subj==='D') o += faceOnPane();
+    else if(s.action.indexOf('AN EYE')>=0)
+      o += `<ellipse cx="500" cy="250" rx="290" ry="130" fill="#d8dde1"/>
+            <ellipse cx="500" cy="250" rx="112" ry="112" fill="#4a6274"/>
+            <ellipse cx="500" cy="250" rx="52" ry="52" fill="#06090c"/>
+            <ellipse cx="466" cy="216" rx="20" ry="14" fill="#fff" opacity=".8"/>`;
+    else if(s.action.indexOf('DO NOT GO BACK')>=0)
+      o += `<text x="500" y="238" text-anchor="middle" font-family="Archivo,sans-serif" font-size="42" letter-spacing="12" fill="#eef1f4" font-weight="300">DO NOT GO BACK</text>`;
+    else if(s.cd||s.action.indexOf('11:00')>=0)
+      o += `<text x="500" y="270" text-anchor="middle" font-family="monospace" font-size="52" letter-spacing="6" fill="#c6d2dc">${esc(s.cd||'11:00')}</text>`;
+    else o += `<rect x="118" y="34" width="764" height="432" fill="url(#lowlight)" opacity=".5"/>`;
+  } else if(s.dev){
+    const y = s.loc==='KITCHEN'?372:388;
+    o += `<g><ellipse cx="500" cy="${y+16}" rx="190" ry="26" fill="${p.k}" opacity=".16" filter="url(#blur)"/>
+      <path d="M 392 ${y-64} L 608 ${y-64} L 640 ${y} L 360 ${y} Z"
+        fill="${s.look==='COLD_PANE'||s.look==='MIXED'?'#0d151c':'#0a0c0f'}"
+        stroke="${s.look==='COLD_PANE'||s.look==='MIXED'?'#93a9ba':'#4b535b'}" stroke-width="2"/></g>`;
+  }
+
+  /* figures */
+  if(!ins || s.subj==='FIG'){
+    const sc = SCALE[s.fr]||.9, h = sc*500;
+    const base = 500 + Math.max(0,(h-500)*.6);
+    const fill = s.look==='PALE_FLAT'?'#b9bdc2':p.f;
+    if(s.subj==='MB'){ o += figure(370,base,h,fill,.96) + figure(646,base,h*.97,fill,.96); }
+    else if(s.subj==='FIG'){ o += figure(500,base,h*1.05,fill,.9); }
+    else if(s.subj!=='NONE'&&s.subj!=='D'){ o += figure(s.fr.indexOf('2S')>=0?420:500,base,h,fill,.96); }
+  }
+  if(ins && !bigPane && s.subj==='NONE'){
+    o += `<rect x="286" y="120" width="428" height="260" rx="2" fill="${s.look==='PALE_FLAT'?'#fdfdfd':'#cfc7b4'}" opacity=".9"/>
+          <rect x="322" y="164" width="240" height="9" fill="#6d6759" opacity=".7"/>
+          <rect x="322" y="196" width="330" height="9" fill="#6d6759" opacity=".45"/>
+          <rect x="322" y="228" width="170" height="9" fill="#6d6759" opacity=".45"/>`;
+  }
+  o += `<rect width="1000" height="500" fill="url(#vig)"/><rect width="1000" height="500" filter="url(#gr)" opacity=".9"/>`;
+  return `<svg viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${o}</svg>`;
+}
+function slate(s){
+  const t1 = s.sc==='TITLE'?"WE&rsquo;RE FROM THE FUTURE":"WE&rsquo;RE FROM THE FUTURE";
+  const t2 = s.sc==='TITLE'?'':'END OF EPISODE ONE';
+  return `<div class="slate"><div class="t1">${t1}</div>${t2?`<div class="t2">${t2}</div>`:''}</div>`;
+}
+function paintStage(el, s, tNow){
+  const svg = frameSVG(s);
+  const cd = (CDZERO!==null && tNow>=CDFIRST.t && tNow<=CDZERO) ? clk(Math.max(0,CDZERO-tNow)) : null;
+  const dlg = s.dlg && s.dlg.length ? s.dlg[0] : null;
+  el.innerHTML = (svg||slate(s)) + `<div class="ovl">
+    <div class="top"><span>${esc(s.id)} &middot; ${esc(s.fr)} &middot; ${s.lens?s.lens+'mm':'&mdash;'} &middot; ${esc(s.mv)}</span>
+      <span>${esc(s.sc)} &middot; ${esc(s.act)}</span></div>
+    <div class="bot">${dlg?`<div class="dlg"><b>${esc(dlg[0])}</b>${esc(dlg[1])}</div>`:''}</div>
+  </div>` + (cd?`<div class="cdw">${cd}</div>`:'');
+}
+</script>
+
+<script>
+/* ---------------- sections ---------------- */
+const NAV = [
+  ['nav1','overview','Episode Overview',''],
+  ['nav1','story','Story Room',''],
+  ['nav1','chars','Characters','3'],
+  ['nav2','world','World &amp; Assets',''],
+  ['nav2','board','Storyboard',String(SH.length)],
+  ['nav3','gen','Generate',String(SH.length)],
+  ['nav3','timeline','Timeline Edit',''],
+  ['nav3','continuity','Continuity',''],
+  ['nav4','review','Review',''],
+  ['nav4','export','Export',''],
+];
+const H = (k,t,p)=>`<div class="ph"><div class="k">${k}</div><h2>${t}</h2><p>${p}</p></div>`;
+const tile=(l,v,s)=>`<div class="tile"><div class="lb">${l}</div><div class="vl">${v}</div><div class="sb">${s||''}</div></div>`;
+
+function actBar(){
+  return `<div class="actbar">`+ACTS.map(a=>`<div style="width:${a.d/TOTAL*100}%;background:${ACTC[a.act]||'#888'}" title="${a.act} &middot; ${clk(a.d)}">${a.d/TOTAL>.07?a.act.replace('ACT ',''):''}</div>`).join('')+`</div>`;
+}
+
+/* 1 -------------------------------------------------- overview */
+function vOverview(){
+  const dev=SH.filter(s=>s.dev).length, dbl=SH.filter(s=>s.subj==='D').length;
+  const touch=SH.filter(s=>s.contact);
+  return H('EPISODE OVERVIEW','The Package',
+   'Season one, episode one. A couple who have spent six years hiding the fact that they are not from this century receive an unmarked package &mdash; and the face on the screen inside it is hers.')
+  + `<div class="grid g4" style="margin-bottom:16px">
+      ${tile('RUNTIME',E.runtime,'fine cut, 2.00:1 &middot; 24 fps')}
+      ${tile('SHOTS',SH.length,'mean '+(TOTAL/SH.length).toFixed(1)+'s')}
+      ${tile('SCENES',E.scenes.length,'one practical location')}
+      ${tile('SCORED','27%','9m 40s of '+E.runtime)}
+    </div>
+    <div class="card" style="margin-bottom:16px"><h3>ACT STRUCTURE</h3>${actBar()}
+      <div class="grid g4" style="margin-top:12px;gap:8px">${ACTS.map(a=>
+        `<div style="font-size:11px"><span class="mono dim">${clk(a.t)}</span><br>
+         <b style="font-weight:500">${a.act}</b><br><span class="dim">${a.n} shots &middot; ${clk(a.d)}</span></div>`).join('')}</div>
+    </div>
+    <div class="grid g2">
+      <div class="card"><h3>PRODUCTION STATUS</h3><dl class="dl">
+        <dt>PHASE 1 &middot; BIBLE</dt><dd><span class="pill ok">COMPLETE</span></dd>
+        <dt>PHASE 2 &middot; STORY</dt><dd><span class="pill ok">COMPLETE</span> 3 structures scored, option C selected</dd>
+        <dt>PHASE 3 &middot; SCRIPT</dt><dd><span class="pill ok">v3.0 LOCKED</span> five revision passes run</dd>
+        <dt>PHASE 4 &middot; PREVIS</dt><dd><span class="pill ok">COMPLETE</span> ${SH.length} shots boarded and timed</dd>
+        <dt>PHASE 5 &middot; ASSETS</dt><dd><span class="pill ok">LOCKED</span> faces, wardrobe, props, continuity matrix</dd>
+        <dt>PHASE 6 &middot; SHOTS</dt><dd><span class="pill hold">READY</span> every shot has a prompt, a negative and a seed</dd>
+        <dt>PHASE 7 &middot; EDIT</dt><dd><span class="pill hold">EDL + SUBS ONLY</span> no picture to conform</dd>
+        <dt>PHASE 8 &middot; QC</dt><dd><span class="pill ok">41/41 AUTOMATED</span> manual gate not cleared</dd>
+      </dl></div>
+      <div class="card"><h3>KEY WARNINGS</h3>
+        <div class="note warn"><b>No picture exists.</b> This workspace was built in an
+          environment with no image, video or speech generation. Every plan, prompt and
+          timing below is real and executable; no frame has been rendered.</div>
+        <div class="note"><b>Countdown is bound to the cut.</b> The leaf's clock reads
+          <span class="mono">${CDFIRST.cd}</span> at <span class="mono">${clk(CDFIRST.t)}</span>
+          and reaches <span class="mono">00:00</span> at <span class="mono">${clk(CDZERO)}</span>,
+          on the knock. The build fails if that drifts.</div>
+        <div class="note"><b>Contact discipline: ${touch.length} touches.</b>
+          ${touch.map(t=>`<span class="mono">${clk(t.t)}</span>`).join(' &middot; ')} &mdash; and the last is the final shot.</div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px"><h3>THE HOUR IN ONE LINE</h3>
+      <p style="font-size:16px;max-width:60ch;color:var(--tx)">The cost of an ordinary life is that somebody else paid for it.</p>
+      <p class="dim" style="margin:0">Miles has been breaking clause five &mdash; nine words, once a year, to tell someone they are alive. The package is dated to that same day. It is not a delivery. It is a reply.</p>
+    </div>`;
+}
+
+/* 2 -------------------------------------------------- story room */
+const PLANTS=[['P1','Four bare picture hooks in the hallway','Teaser','Act Three &mdash; clause two, inside an argument'],
+['P2','Miles turns his face away from a camera','Teaser','Act Four &mdash; a photograph nobody took'],
+['P3','Lauren starts to cross a seven, and stops','Teaser','Act One &mdash; the seven on the label is crossed'],
+['P4','He calls the film&rsquo;s ending three seconds early','Teaser','He has seen everything already'],
+['P5','The smoke detector chirps','Teaser','Act Four &mdash; the living room chirps back, half a beat late'],
+['P6','Miles checks one sightline down the street','Teaser','Act Four &mdash; the figure stands in exactly that spot'],
+['P7','One circled date, nothing written in it','Teaser','Act Three &mdash; it is the day he sends'],
+['P9','&ldquo;We&rsquo;re not from around here&rdquo;','Teaser','Title drop, sideways, as a joke about neighbours'],
+['P10','The pane&rsquo;s reflection lags half a second','Act One','Never explained. It is not a screen; it is a window.']];
+const LEDGER=[['Where they are from','HELD','Never. Protected in-world: they are forbidden to say the year.'],
+['Who sent the leaf','HELD','&ldquo;Somebody over there&rdquo; is as far as it goes.'],
+['What the double is','NARROWED','She claims to be the version who complied. Nothing corroborates her.'],
+['Who Miles writes to','ANSWERED BY A VOICE','Two syllables at the door. Never a name.'],
+['Why Lauren&rsquo;s voice','HELD','She asks. The transmission breaks on the answer.'],
+['What the countdown counts to','ANSWERED','By an image, in the last thirty seconds &mdash; and it opens two worse questions.'],
+['What Lauren does not remember','NEWLY OPENED','Replaces the spent mystery in the same scene.'],
+['Lauren&rsquo;s real name','OPENED, WITHHELD','A half-second hole in the audio bed.'],
+['Why her file predates his','OPENED','Nineteen years. Unexplained.']];
+function vStory(){
+  return H('STORY ROOM','Beats, mysteries and the page',
+   'The beat sheet is generated from the same timeline as the cut, so a scene cannot exist here and not exist in the edit.')
+  + `<div class="grid g2"><div class="card"><h3>PLANTS AND PAYOFFS</h3>
+      <div class="tblw" style="border:0"><table><thead><tr><th>#</th><th>Planted</th><th>Where</th><th>Paid</th></tr></thead><tbody>
+      ${PLANTS.map(p=>`<tr><td class="m">${p[0]}</td><td>${p[1]}</td><td class="m">${p[2]}</td><td class="dim">${p[3]}</td></tr>`).join('')}
+      </tbody></table></div></div>
+    <div class="card"><h3>MYSTERY TRACKER</h3>
+      <div class="tblw" style="border:0"><table><thead><tr><th>Question</th><th>State</th></tr></thead><tbody>
+      ${LEDGER.map(l=>`<tr><td>${l[0]}<div class="dim" style="font-size:11.5px">${l[2]}</div></td>
+        <td><span class="pill ${l[1].indexOf('HELD')>=0?'cold':(l[1].indexOf('ANSWER')>=0?'warm':'hold')}">${l[1]}</span></td></tr>`).join('')}
+      </tbody></table></div></div></div>
+    <h3 style="margin:26px 0 10px;font-size:12px;letter-spacing:.14em;color:var(--tx-3)">SCENE BREAKDOWN</h3>
+    <div class="tblw"><table><thead><tr><th>Scene</th><th>Act</th><th>In</th><th>Dur</th><th>Shots</th><th>Slugline</th></tr></thead><tbody>
+    ${E.scenes.map(sc=>{const g=SH.filter(s=>s.sc===sc.id); if(!g.length)return'';
+      return `<tr><td class="m">${sc.id}</td><td class="dim">${sc.act}</td><td class="m">${clk(g[0].t)}</td>
+      <td class="m">${clk(g.reduce((a,b)=>a+b.d,0))}</td><td class="m">${g.length}</td><td class="m">${esc(sc.slug)}</td></tr>`;}).join('')}
+    </tbody></table></div>
+    <h3 style="margin:26px 0 10px;font-size:12px;letter-spacing:.14em;color:var(--tx-3)">SCREENPLAY &mdash; v3.0 LOCKED</h3>
+    <div class="script"><pre id="scriptBody"></pre></div>`;
+}
+
+/* 3 -------------------------------------------------- characters */
+const CHARS=[
+ {id:'CHR-MILES-01',n:'MILES WARD',a:'28&ndash;31',w:'WRD-M-A &rarr; WRD-M-B',
+  look:'Short tousled warm-auburn hair. Full dark brows. Blue-grey eyes with a hazel inner ring &mdash; the left reads marginally smaller when he smiles. A two-week unshaped beard, redder than his hair. Natural flush across the cheeks.',
+  body:'Stillness. When he is frightened he becomes <em>more</em> still, not less. His hands go quiet before he lies. He places himself between Lauren and any door, window or object of interest &mdash; in nine scenes, never remarked on.',
+  voice:'Mid-baritone, unhurried. He never shouts; peak emotion goes quieter and lower. A neutral accent, faintly over-articulated &mdash; the accent of someone who learned to sound like this on purpose.',
+  arc:'calm control &rarr; denial &rarr; management &rarr; exposure &rarr; protective panic &rarr; surrender',
+  th:'His lie is not cowardice. It is tenderness that went bad in storage.'},
+ {id:'CHR-LAUREN-01',n:'LAUREN WARD',a:'27&ndash;30',w:'WRD-L-A &rarr; WRD-L-B',
+  look:'Neutral blonde, darker at the root, in a low imperfect ponytail with loose pieces at both temples. Defined taupe brows. Large blue-green eyes. Black velvet choker and fine gold pendant chains. Minimal, worn-in makeup.',
+  body:'Tactile. She meets the world with her hands and touches the box before she reads it. Under stress she gets closer, not further. When she is hurt she stops moving entirely.',
+  voice:'Mid, warm, quick, musical. She has the only shout in the episode and it lasts one line. She sounds native; he does not. She adapted better, and that is a plot point.',
+  arc:'at home &rarr; unease &rarr; recognition &rarr; fury &rarr; grief &rarr; resolve',
+  th:'Her anger is not "you lied." It is "you decided which of us got to be ready."'},
+ {id:'CHR-LAUREN-02',n:'THE DOUBLE',a:'the same',w:'WRD-D-A',
+  look:'Built from CHR-LAUREN-01. Same face, same age. Three deviations only: a fine pale scar below the left eye, hair down and unstyled, and stillness &mdash; blink rate reduced to a third.',
+  body:'She does not perform listening. She takes no breath before she speaks.',
+  voice:'Lauren&rsquo;s instrument, unprocessed. No pitch shift, no reverb, no artefacts. The horror is that it is clean.',
+  arc:'not a threat &mdash; evidence of what obedience cost',
+  th:'She addresses Lauren. Her eyes are on Miles. In every shot but the last.'}];
+function vChars(){
+  return H('CHARACTERS','Locked identities',
+   'Faces are locked against the supplied reference plates. No shot may deviate without a written story reason logged in the continuity matrix.')
+  + CHARS.map(c=>{ const n=SH.filter(s=>s.subj===(c.id==='CHR-MILES-01'?'M':c.id==='CHR-LAUREN-01'?'L':'D')).length;
+    return `<div class="card" style="margin-bottom:14px">
+    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:12px">
+      <h3 style="font-size:18px;color:var(--tx);letter-spacing:-.01em;margin:0">${c.n}</h3>
+      <span class="mono dim" style="font-size:11px">${c.id}</span>
+      <span class="pill ok" style="margin-left:auto">LOCKED v1.0</span></div>
+    <dl class="dl">
+      <dt>APPARENT AGE</dt><dd>${c.a}</dd>
+      <dt>IDENTITY LOCK</dt><dd>${c.look}</dd>
+      <dt>BODY LANGUAGE</dt><dd>${c.body}</dd>
+      <dt>VOICE</dt><dd>${c.voice}</dd>
+      <dt>WARDROBE</dt><dd class="mono">${c.w}</dd>
+      <dt>ARC</dt><dd class="mono" style="font-size:12px">${c.arc}</dd>
+    </dl><div class="note">${c.th}</div></div>`;}).join('')
+  + `<div class="card"><h3>CONTINUITY ALERTS</h3>
+      <div class="note">Wardrobe changes are one-way. The jacket goes on at
+        <span class="mono">${clk(SH.find(s=>s.subj==='M_JKT').t)}</span> and the cardigan at
+        <span class="mono">${clk(SH.find(s=>s.subj==='L_CARD').t)}</span>; the build fails on any reversion.</div>
+      <div class="note">The double appears in ${SH.filter(s=>s.subj==='D').length} shots and only ever on the leaf.</div>
+      <div class="note">Neither lead changes clothes. Miles's beard does not grow. It is one evening.</div></div>`;
+}
+
+/* 4 -------------------------------------------------- world */
+function vWorld(){
+  const locs=Object.keys(E.locations).map(k=>[k,SH.filter(s=>s.loc===k).length]);
+  return H('WORLD &amp; ASSETS','One house, one prop, four rules',
+   'The episode is shot in a single practical location. The strangeness is an absence &mdash; there is not one photograph anywhere in this house.')
+  + `<div class="grid g2" style="margin-bottom:16px">
+      <div class="card"><h3>THE LEAF &mdash; DEVICE RULES</h3><dl class="dl">
+        <dt>1 &middot; POWER</dt><dd>It has no source and never runs out. The breaker is thrown, the house dies, the pane does not.</dd>
+        <dt>2 &middot; REFLECTION</dt><dd>It renders; it does not reflect. The room appears in its surface half a second late. The show&rsquo;s signature image.</dd>
+        <dt>3 &middot; TEMPERATURE</dt><dd>Inverted. The face toward the room is cold; the face away is warm.</dd>
+        <dt>4 &middot; RESPONSE</dt><dd>It answers Lauren and ignores Miles. She uses that deliberately in Act Four.</dd>
+      </dl>
+      <div class="note">Display vocabulary, complete: an eye, a face, four words, a number, one photograph. No interface, ever.</div></div>
+      <div class="card"><h3>CONTAINMENT &mdash; ALL FAIL QUIETLY</h3><dl class="dl">
+        <dt>DRAWER</dt><dd>The brass pull is cold.</dd>
+        <dt>COOLER</dt><dd>The lid is warm.</dd>
+        <dt>BREAKER OFF</dt><dd>Everything dies. It glows.</dd>
+        <dt>JACKET OVER IT</dt><dd>The canvas lights from underneath.</dd>
+      </dl><div class="note">No sparks, no shaking, no sound. The horror is arithmetic.</div></div></div>
+    <div class="grid g2">
+    <div class="card"><h3>LOCATIONS</h3><div class="tblw" style="border:0"><table><tbody>
+      ${locs.map(l=>`<tr><td class="m">LOC-${l[0]}</td><td class="dim" style="font-size:11.5px">${esc(E.locations[l[0]].slice(0,120))}&hellip;</td><td class="m">${l[1]}</td></tr>`).join('')}
+    </tbody></table></div></div>
+    <div class="card"><h3>LIGHTING STATES</h3><div class="tblw" style="border:0"><table><tbody>
+      ${Object.keys(E.looks).map(k=>{const n=SH.filter(s=>s.look===k).length;
+        return `<tr><td><span style="display:inline-block;width:11px;height:11px;border-radius:2px;background:${(PAL[k]||{k:'#888'}).k};vertical-align:-1px;margin-right:7px"></span><span class="mono">${k}</span>
+        <div class="dim" style="font-size:11.5px">${esc(E.looks[k])}</div></td><td class="m">${n}</td></tr>`;}).join('')}
+    </tbody></table></div></div></div>`;
+}
+</script>
+
+<script>
+/* 5 -------------------------------------------------- storyboard */
+let boardFilter='';
+function vBoard(){
+  return H('STORYBOARD','Every shot in the episode',
+   'Each card is drawn from its own shot record &mdash; the lighting state sets the palette, the framing sets the scale, the subject field sets who is in frame. These are boards, not renders.')
+  + `<div class="bar">
+      <input type="search" id="bq" placeholder="Search action, dialogue or shot ID&hellip;" style="min-width:280px">
+      <select id="bact"><option value="">All acts</option>${[...new Set(SH.map(s=>s.act))].map(a=>`<option>${a}</option>`).join('')}</select>
+      <span class="dim mono" id="bcount"></span></div>
+    <div id="boardOut"></div>`;
+}
+function paintBoard(){
+  const q=($('#bq').value||'').toLowerCase(), act=$('#bact').value;
+  const list=SH.filter(s=>(!act||s.act===act)&&(!q||(s.action+' '+JSON.stringify(s.dlg)+' '+s.id+' '+s.sc).toLowerCase().includes(q)));
+  $('#bcount').textContent=list.length+' / '+SH.length+' shots &middot; '+clk(list.reduce((a,b)=>a+b.d,0));
+  const bySc={}; list.forEach(s=>(bySc[s.sc]=bySc[s.sc]||[]).push(s));
+  $('#boardOut').innerHTML=Object.keys(bySc).map(sc=>{
+    const g=bySc[sc], meta=E.scenes.find(x=>x.id===sc)||{slug:sc,act:''};
+    return `<div class="scenehead"><h3>${esc(sc)} &mdash; ${esc(meta.slug)}</h3>
+      <span class="s">${g.length} SHOTS &middot; ${clk(g.reduce((a,b)=>a+b.d,0))}</span></div>
+      <div class="shotgrid">${g.map(s=>`<button class="sc" data-id="${s.id}">
+        <div class="th" data-frame="${s.id}"></div>
+        <div class="mt"><div class="id"><span>${s.id}</span><span>${clk(s.t)}</span></div>
+        <div class="fr">${esc(s.fr)} &middot; ${s.lens?s.lens+'mm':'&mdash;'} &middot; ${s.d}s</div></div></button>`).join('')}</div>`;
+  }).join('');
+  $('#boardOut').querySelectorAll('[data-frame]').forEach(el=>{
+    const s=SH.find(x=>x.id===el.dataset.frame); el.innerHTML=frameSVG(s)||slate(s);
+  });
+  $('#boardOut').querySelectorAll('.sc').forEach(b=>b.onclick=()=>{ go('review'); seek(SH.find(s=>s.id===b.dataset.id).t+.2); });
+}
+
+/* 6 -------------------------------------------------- generate */
+let genIdx=0;
+function vGen(){
+  return H('GENERATE','Shot queue',
+   'Every shot carries a composed prompt, a negative prompt, a deterministic seed and its own QC gate. Prompts are built from locked blocks &mdash; subject, location, lighting, style &mdash; so a character cannot drift between two shots that share a look.')
+  + `<div class="note warn"><b>Queue cannot run here.</b> This environment has no image or video
+      model attached. Status below is <span class="mono">READY</span>, not <span class="mono">DONE</span>,
+      and no shot has been rendered.</div>
+    <div class="grid" style="grid-template-columns:300px 1fr;gap:14px;align-items:start">
+      <div class="card" style="padding:0;max-height:640px;overflow:auto">
+        <div style="padding:12px 14px;border-bottom:1px solid var(--line)"><input type="search" id="gq" placeholder="Filter shots&hellip;" style="width:100%"></div>
+        <div id="genList"></div></div>
+      <div id="genDetail"></div></div>`;
+}
+function paintGen(){
+  const q=($('#gq')?.value||'').toLowerCase();
+  const list=SH.filter(s=>!q||(s.id+' '+s.sc+' '+s.action).toLowerCase().includes(q));
+  $('#genList').innerHTML=list.map((s,i)=>`<button class="btn" data-g="${s.id}" style="display:block;width:100%;border:0;border-bottom:1px solid var(--line-soft);border-radius:0;text-align:left;padding:9px 14px;${s.id===SH[genIdx].id?'background:var(--bg-2);box-shadow:inset 2px 0 0 var(--warm)':''}">
+      <span class="mono" style="font-size:11px">${s.id}</span>
+      <span class="dim mono" style="font-size:10px;float:right">${clk(s.t)}</span><br>
+      <span style="font-size:11.5px;color:var(--tx-2)">${esc(s.fr)} &middot; ${esc(s.look)}</span></button>`).join('');
+  $('#genList').querySelectorAll('[data-g]').forEach(b=>b.onclick=()=>{genIdx=SH.findIndex(s=>s.id===b.dataset.g);paintGen();});
+  const s=SH[genIdx];
+  $('#genDetail').innerHTML=`<div class="card">
+    <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px">
+      <h3 style="margin:0;font-size:16px;color:var(--tx)" class="mono">${s.id}</h3>
+      <span class="dim mono" style="font-size:11px">${s.sc} &middot; ${clk(s.t)} &middot; ${s.d}s</span>
+      <span class="pill hold" style="margin-left:auto">READY &middot; v1 &middot; SEED ${s.seed}</span></div>
+    <div class="stage" style="margin-bottom:12px" id="genStage"></div>
+    <dl class="dl" style="margin-bottom:12px">
+      <dt>FRAMING</dt><dd class="mono">${esc(s.fr)} &middot; ${esc(s.mv)} &middot; ${s.lens?s.lens+'mm':'&mdash;'} &middot; ${E.aspect}</dd>
+      <dt>SUBJECTS</dt><dd class="mono">${esc(s.subj)} &middot; wardrobe ${esc(s.wrd)}</dd>
+      <dt>LIGHTING</dt><dd class="mono">${esc(s.look)}</dd>
+      <dt>CONTINUITY</dt><dd>${s.dev?'<span class="pill cold">LEAF IN FRAME</span> ':''}${s.cd?`<span class="pill warm">COUNTDOWN ${s.cd}</span> `:''}${s.contact?'<span class="pill warm">CONTACT</span>':''}</dd>
+      ${s.audio?`<dt>SOUND</dt><dd>${esc(s.audio)}</dd>`:''}
+      ${s.music?`<dt>MUSIC</dt><dd class="mono">${s.music} &mdash; ${esc((E.cues[s.music]||{}).name||'')}</dd>`:''}
+      ${s.note?`<dt>PERFORMANCE</dt><dd style="color:var(--tx)">${esc(s.note)}</dd>`:''}
+    </dl>
+    <h3 style="margin-bottom:6px">PROMPT <button class="copy" data-cp="p">copy</button></h3>
+    <div class="prompt" id="pp">${esc(s.prompt)}</div>
+    <h3 style="margin:12px 0 6px">NEGATIVE <button class="copy" data-cp="n">copy</button></h3>
+    <div class="prompt" id="nn" style="max-height:120px">${esc(s.neg)}</div></div>`;
+  paintStage($('#genStage'),s,s.t);
+  $('#genDetail').querySelectorAll('[data-cp]').forEach(b=>b.onclick=()=>{
+    navigator.clipboard?.writeText(b.dataset.cp==='p'?s.prompt:s.neg);
+    b.textContent='copied'; setTimeout(()=>b.textContent='copy',1200);});
+}
+
+/* 7 -------------------------------------------------- timeline */
+function vTimeline(){
+  const lane=(items,col)=>items.map(i=>`<i style="left:${i.t/TOTAL*100}%;width:${Math.max(.08,i.d/TOTAL*100)}%;background:${col(i)}" title="${esc(i.title)}">${i.lab||''}</i>`).join('');
+  const vid=SH.map(s=>({t:s.t,d:s.d,title:s.id+' '+s.fr,lab:''}));
+  const dlg=SH.filter(s=>s.dlg.length).map(s=>({t:s.t,d:s.d,title:s.dlg.map(d=>d[0]+': '+d[1]).join(' / ')}));
+  const mus=[]; SH.forEach(s=>{ const l=mus[mus.length-1];
+    if(s.music && l && l.cue===s.music && Math.abs(l.t+l.d-s.t)<.01){l.d+=s.d;}
+    else if(s.music) mus.push({t:s.t,d:s.d,cue:s.music,title:s.music+' '+(E.cues[s.music]||{}).name});});
+  const sfx=SH.filter(s=>s.audio).map(s=>({t:s.t,d:Math.min(s.d,3),title:s.audio}));
+  const cap=SH.filter(s=>s.dlg.length).map(s=>({t:s.t,d:s.d,title:'caption'}));
+  return H('TIMELINE EDIT','The conform',
+   `${SH.length} video events, ${dlg.length} dialogue events and ${mus.length} music cues across ${E.runtime}. Exported as CMX3600 with music and countdown reads carried as comments.`)
+  + `<div class="tracks">
+      <div class="trow"><div class="lb">V1 PICTURE</div><div class="tlane">${lane(vid,i=>{const s=SH.find(x=>x.id===i.title.split(' ')[0]);return (PAL[s.look]||{k:'#777'}).k;})}</div></div>
+      <div class="trow"><div class="lb">A1 DIALOGUE</div><div class="tlane">${lane(dlg,()=> 'var(--warm)')}</div></div>
+      <div class="trow"><div class="lb">A2 MUSIC</div><div class="tlane">${lane(mus,i=>(E.cues[i.cue]||{}).desc?.indexOf('silence')>=0?'#3d4750':'#8FA6B8')}</div></div>
+      <div class="trow"><div class="lb">A3 SFX</div><div class="tlane">${lane(sfx,()=>'#6E8F6B')}</div></div>
+      <div class="trow"><div class="lb">CAPTIONS</div><div class="tlane">${lane(cap,()=>'#79838C')}</div></div>
+      <div class="trow"><div class="lb">ACTS</div><div class="tlane">${ACTS.map(a=>`<i style="left:${a.t/TOTAL*100}%;width:${a.d/TOTAL*100}%;background:${ACTC[a.act]};opacity:.75">${a.act}</i>`).join('')}</div></div>
+    </div>
+    <div class="grid g2" style="margin-top:16px">
+      <div class="card"><h3>MUSIC CUES</h3><div class="tblw" style="border:0"><table><tbody>
+        ${Object.keys(E.cues).map(k=>{const n=SH.filter(s=>s.music===k).length; if(!n)return'';
+          const silent=(E.cues[k].desc||'').indexOf('silence')>=0;
+          return `<tr><td class="m">${k}</td><td>${esc(E.cues[k].name)}<div class="dim" style="font-size:11.5px">${esc(E.cues[k].desc)}</div></td>
+          <td>${silent?'<span class="pill">SCORE OUT</span>':'<span class="mono dim">'+n+' shots</span>'}</td></tr>`;}).join('')}
+      </tbody></table></div></div>
+      <div class="card"><h3>SCORE DISCIPLINE</h3>
+        <div class="note">9m 40s of ${E.runtime} is scored &mdash; 27%. Prestige norm is 40&ndash;55%. The deficit is the point.</div>
+        <div class="note">The three biggest turns play dry: the eye, &ldquo;you got an answer,&rdquo; and the knock.</div>
+        <div class="note">The score ends before the episode does. There is no music from the knock to the end card.</div>
+      </div></div>`;
+}
+
+/* 8 -------------------------------------------------- continuity */
+function vContinuity(){
+  const alerts=[];
+  const jkt=SH.find(s=>s.subj==='M_JKT'), card=SH.find(s=>s.subj==='L_CARD');
+  SH.forEach(s=>{ if(s.look==='GOLDEN'&&s.act!=='TEASER') alerts.push([s.id,'DAYLIGHT AFTER TEASER','bad']); });
+  return H('CONTINUITY','Tracked shot by shot',
+   'Generated from the same records as the cut. Every row is a real frame with a real wardrobe ID, device position and power state.')
+  + `<div class="grid g3" style="margin-bottom:16px">
+      <div class="card"><h3>WARDROBE</h3>
+        <div style="font-size:12.5px"><span class="mono">WRD-M-A</span> &rarr; <span class="mono">WRD-M-B</span> at <span class="mono">${clk(jkt.t)}</span><br>
+        <span class="mono">WRD-L-A</span> &rarr; <span class="mono">WRD-L-B</span> at <span class="mono">${clk(card.t)}</span></div>
+        <div class="note">One-way. The build fails on any reversion.</div></div>
+      <div class="card"><h3>THE LEAF</h3>
+        <div style="font-size:12.5px">In frame for <span class="mono">${SH.filter(s=>s.dev).length}</span> of ${SH.length} shots.
+        Box &rarr; kitchen table &rarr; coffee table &rarr; drawer/cooler &rarr; coffee table &rarr; Lauren&rsquo;s bag.</div>
+        <div class="note">Cold toward the room, warm away from it, in every shot it appears in.</div></div>
+      <div class="card"><h3>THE HOUSE</h3>
+        <div style="font-size:12.5px">Photographs on wall: <span class="mono">NONE</span> &mdash; four bare hooks.<br>
+        Rain: continuous from <span class="mono">03:15</span>, never heavier.<br>
+        Power out from <span class="mono">${clk(SH.find(s=>s.look==='BLACKOUT').t)}</span>.</div>
+        <div class="note">Audit set dressing against clause two before every shot.</div></div></div>
+    ${alerts.length?`<div class="note warn"><b>${alerts.length} continuity conflicts.</b> ${alerts.map(a=>a[0]).join(', ')}</div>`
+      :`<div class="note"><b>No continuity conflicts detected.</b> 41 of 41 automated checks passing. The manual gate &mdash; face lock, eyelines, hands, lip-sync, mix &mdash; cannot be cleared without picture.</div>`}
+    <div class="bar" style="margin-top:16px"><input type="search" id="cq" placeholder="Filter by shot, scene or wardrobe&hellip;" style="min-width:300px"><span class="dim mono" id="ccount"></span></div>
+    <div class="tblw scroll"><table><thead><tr><th>Shot</th><th>At</th><th>Scene</th><th>Wardrobe</th><th>Leaf</th><th>Light</th><th>Countdown</th><th>Flags</th></tr></thead>
+    <tbody id="cbody"></tbody></table></div>`;
+}
+function paintCont(){
+  const q=($('#cq')?.value||'').toLowerCase();
+  const list=SH.filter(s=>!q||(s.id+' '+s.sc+' '+s.wrd+' '+s.look).toLowerCase().includes(q));
+  $('#ccount').textContent=list.length+' rows';
+  $('#cbody').innerHTML=list.map(s=>`<tr><td class="m">${s.id}</td><td class="m">${clk(s.t)}</td><td class="m">${s.sc}</td>
+    <td class="m">${esc(s.wrd)}</td><td>${s.dev?'<span class="pill cold">IN FRAME</span>':'<span class="dim">&mdash;</span>'}</td>
+    <td class="m">${esc(s.look)}</td><td class="m">${s.cd||'&mdash;'}</td>
+    <td>${s.subj==='D'?'<span class="pill warm">EYELINE&rarr;MILES</span> ':''}${s.contact?'<span class="pill warm">CONTACT</span>':''}</td></tr>`).join('');
+}
+</script>
+
+<script>
+/* 9 -------------------------------------------------- review: the animatic */
+let T=0, playing=false, last=0, rate=1, curIdx=-1;
+function shotAt(t){ let lo=0,hi=SH.length-1;
+  while(lo<hi){const m=(lo+hi+1)>>1; if(SH[m].t<=t) lo=m; else hi=m-1;} return lo; }
+function vReview(){
+  return H('REVIEW','Animatic',
+   `The full ${E.runtime} cut, playing in real time from the shot database. Every frame is composed from that shot&rsquo;s own metadata, cut on its own duration, with its dialogue, its sound cue and &mdash; from ${clk(CDFIRST.t)} &mdash; the leaf&rsquo;s countdown running live against the picture.`)
+  + `<div class="stage" id="stage"></div>
+    <div class="transport">
+      <button class="tp" id="bBack" title="Previous shot" aria-label="Previous shot">&#9668;&#9612;</button>
+      <button class="tp" id="bPlay" title="Play or pause" aria-label="Play or pause">&#9654;</button>
+      <button class="tp" id="bFwd" title="Next shot" aria-label="Next shot">&#9612;&#9658;</button>
+      <div class="scrub" id="scrub" role="slider" aria-label="Timeline" tabindex="0"
+           aria-valuemin="0" aria-valuemax="${Math.round(TOTAL)}" aria-valuenow="0">
+        <div class="acts">${ACTS.map(a=>`<i style="width:${a.d/TOTAL*100}%;background:${ACTC[a.act]}"></i>`).join('')}</div>
+        <div class="cdz" style="left:${CDFIRST.t/TOTAL*100}%"></div>
+        <div class="cdz" style="left:${CDZERO/TOTAL*100}%"></div>
+        <div class="pg" id="pg" style="left:0"></div>
+      </div>
+      <div class="tcread" id="tcread">00:00 / ${E.runtime}</div>
+      <select id="rate"><option value="1">1&times;</option><option value="2">2&times;</option>
+        <option value="4">4&times;</option><option value="8">8&times;</option></select>
+    </div>
+    <div class="bar" style="margin-top:10px">${ACTS.filter(a=>a.n>2).map(a=>
+      `<button class="btn" data-jump="${a.t}">${a.act} <span class="mono dim">${clk(a.t)}</span></button>`).join('')}</div>
+    <div class="grid g2" style="margin-top:6px">
+      <div class="card"><h3>THIS SHOT</h3><div id="nowMeta"></div></div>
+      <div class="card"><h3>NEXT</h3><div id="nextMeta"></div></div>
+    </div>`;
+}
+function meta(s){ if(!s) return '<p class="dim">End of episode.</p>';
+  return `<dl class="dl">
+    <dt>SHOT</dt><dd class="mono">${s.id} &middot; ${s.sc} &middot; ${s.d}s</dd>
+    <dt>CAMERA</dt><dd class="mono">${esc(s.fr)} &middot; ${esc(s.mv)} &middot; ${s.lens?s.lens+'mm':'&mdash;'}</dd>
+    <dt>LIGHT</dt><dd class="mono">${esc(s.look)}</dd>
+    ${s.action?`<dt>ACTION</dt><dd>${esc(s.action)}</dd>`:''}
+    ${s.dlg.length?`<dt>DIALOGUE</dt><dd>${s.dlg.map(d=>`<b>${esc(d[0])}</b> ${esc(d[1])}`).join('<br>')}</dd>`:''}
+    ${s.audio?`<dt>SOUND</dt><dd class="dim">${esc(s.audio)}</dd>`:''}
+    ${s.music?`<dt>MUSIC</dt><dd class="mono">${s.music} ${esc((E.cues[s.music]||{}).name||'')}</dd>`:''}
+    ${s.note?`<dt>NOTE</dt><dd style="color:var(--tx)">${esc(s.note)}</dd>`:''}
+  </dl>`; }
+function paintNow(force){
+  const i=shotAt(T);
+  if(i!==curIdx||force){ curIdx=i; paintStage($('#stage'),SH[i],T);
+    $('#nowMeta').innerHTML=meta(SH[i]); $('#nextMeta').innerHTML=meta(SH[i+1]); }
+  else { const cd=(T>=CDFIRST.t&&T<=CDZERO)?clk(Math.max(0,CDZERO-T)):null;
+    const w=$('.cdw',$('#stage')); if(w&&cd) w.textContent=cd; }
+  $('#pg').style.left=(T/TOTAL*100)+'%';
+  $('#tcread').textContent=`${clk(T)} / ${E.runtime}`;
+  $('#scrub').setAttribute('aria-valuenow',Math.round(T));
+}
+function seek(t){ T=Math.max(0,Math.min(TOTAL-.01,t)); if(view==='review') paintNow(true); }
+function tick(ts){ if(!playing) return;
+  if(!last) last=ts; const dt=(ts-last)/1000; last=ts; T+=dt*rate;
+  if(T>=TOTAL){ T=TOTAL-.01; playing=false; $('#bPlay').innerHTML='&#9654;'; }
+  paintNow(); requestAnimationFrame(tick); }
+function wireReview(){
+  $('#bPlay').onclick=()=>{ playing=!playing; last=0;
+    $('#bPlay').innerHTML=playing?'&#10074;&#10074;':'&#9654;'; if(playing) requestAnimationFrame(tick); };
+  $('#bBack').onclick=()=>seek(SH[Math.max(0,shotAt(T)-(T-SH[shotAt(T)].t<.6?1:0))].t+.01);
+  $('#bFwd').onclick=()=>seek((SH[shotAt(T)+1]||SH[SH.length-1]).t+.01);
+  $('#rate').onchange=e=>rate=+e.target.value;
+  const sc=$('#scrub');
+  const grab=e=>{const r=sc.getBoundingClientRect();seek((e.clientX-r.left)/r.width*TOTAL);};
+  sc.onpointerdown=e=>{sc.setPointerCapture(e.pointerId);grab(e);sc.onpointermove=grab;};
+  sc.onpointerup=()=>{sc.onpointermove=null;};
+  sc.onkeydown=e=>{ if(e.key==='ArrowRight'){seek(T+5);e.preventDefault();}
+    if(e.key==='ArrowLeft'){seek(T-5);e.preventDefault();} };
+  document.querySelectorAll('[data-jump]').forEach(b=>b.onclick=()=>seek(+b.dataset.jump+.01));
+  paintNow(true);
+}
+
+/* 10 ------------------------------------------------- export */
+const DELIV=[
+ ['Production bible','production/01-bible/','md','READY'],
+ ['Character bible &mdash; locked identities','production/01-bible/character-bible.md','md','READY'],
+ ['Beat sheets &mdash; three options, one chosen','production/02-story/','md','READY'],
+ ['Screenplay v3.0','production/03-script/S01E01-the-package.fountain','fountain','READY'],
+ ['Revision passes &mdash; five, documented','production/03-script/revision-passes.md','md','READY'],
+ ['Storyboard','production/04-previs/storyboard.md','md','GENERATED'],
+ ['Shot list','production/04-previs/shot-list.csv','csv','GENERATED'],
+ ['Previs boards &mdash; 320 frames at 1920&times;960','boards/','png','DELIVERED'],
+ ['Previs master &mdash; full episode, timed, temp sound, subtitles','deliverables/S01E01_previs_master.mp4','mp4','DELIVERED'],
+ ['Fine cut trim log','production/04-previs/trim-log.md','md','GENERATED'],
+ ['Lookbook','production/05-assets/lookbook.md','md','READY'],
+ ['Location and prop bible','production/05-assets/locations-and-props.md','md','READY'],
+ ['Continuity matrix','production/05-assets/continuity-matrix.csv','csv','GENERATED'],
+ ['Asset manifest','production/05-assets/asset-manifest.csv','csv','GENERATED'],
+ ['Shot prompts &mdash; prompt, negative, seed, QC','production/06-shots/shot-prompts.json','json','GENERATED'],
+ ['Veo render pipeline &mdash; plan / dry-run / smoke / render','tools/render.py','py','REVIEWED'],
+ ['Render pipeline offline test suite','tools/test_render.py','py','PASSING'],
+ ['Pipeline review &mdash; 19 confirmed findings, fixed','production/08-qc/pipeline-review.md','md','READY'],
+ ['Conform &mdash; EDL assembly, temp track, subtitles','tools/conform.py','py','PROVEN'],
+ ['Edit decision list &mdash; CMX3600','production/07-post/S01E01.edl','edl','GENERATED'],
+ ['Subtitles','production/07-post/subtitles/S01E01.srt','srt','GENERATED'],
+ ['Captions &mdash; SDH','production/07-post/subtitles/S01E01.sdh.vtt','vtt','GENERATED'],
+ ['Sound design plan','production/07-post/sound-design.md','md','READY'],
+ ['Music cue sheet','production/07-post/music-cue-sheet.md','md','READY'],
+ ['Colour grade guide','production/07-post/color-grade.md','md','READY'],
+ ['Titles and credits spec','production/07-post/titles-and-credits.md','md','READY'],
+ ['QC audit &mdash; 41 executed checks','production/08-qc/automated-audit.md','md','GENERATED'],
+ ['Manual QC checklist','production/08-qc/manual-qc-checklist.md','md','READY'],
+ ['Key art &mdash; poster','production/09-marketing/poster.png','png','DELIVERED'],
+ ['Episode thumbnail','production/09-marketing/thumbnail.png','png','DELIVERED'],
+ ['Teaser &mdash; 30s cut sheet and EDL','production/09-marketing/teaser-30s.edl','edl','GENERATED'],
+ ['Trailer &mdash; 60s cut sheet and EDL','production/09-marketing/trailer-60s.edl','edl','GENERATED'],
+];
+const BLOCKED=[
+ ['Picture master (Veo clips)','needs a Gemini API key. The pipeline is written, dry-run verified, and priced: ~$353 on Veo 3.1 Fast, ~$942 on Veo 3.1 (401 calls). Perplexity, Runway, Replicate, fal, Luma and Kling are blocked by this org&rsquo;s egress policy; Google is not.'],
+ ['Dialogue performances','Veo 3.1 renders speech from the prompt; each line is passed in. Expect to re-take. No separate voice model is reachable from here.'],
+ ['Score and stems','no music model attached; the previs master carries a temp track only (room tone, rain, chirp, doorbell, knock, countdown pulse, authored silences)'],
+ ['Rendered teaser / trailer','cut sheets and EDLs exist; picture follows the master'],
+];
+function vExport(){
+  return H('EXPORT','What exists, and what does not',
+   'An honest manifest. Everything in the first table is a real file in the repository. Everything in the second requires a capability this environment does not have.')
+  + `<div class="grid g4" style="margin-bottom:16px">
+      ${tile('DELIVERED',String(DELIV.length),'real files in the repository')}
+      ${tile('BLOCKED',String(BLOCKED.length),'need a model not attached here')}
+      ${tile('QC','41/41','automated checks passing')}
+      ${tile('RUNTIME',E.runtime,'within the 28&ndash;38 min brief')}</div>
+    <div class="tblw" style="margin-bottom:18px"><table><thead><tr><th>Deliverable</th><th>Path</th><th>Format</th><th>State</th></tr></thead><tbody>
+    ${DELIV.map(d=>`<tr><td>${d[0]}</td><td class="m dim">${d[1]}</td><td class="m">${d[2]}</td>
+      <td><span class="pill ${d[3]==='DELIVERED'?'ok':'hold'}">${d[3]}</span></td></tr>`).join('')}
+    </tbody></table></div>
+    <h3 style="margin:0 0 10px;font-size:12px;letter-spacing:.14em;color:var(--bad)">NOT PRODUCED</h3>
+    <div class="tblw"><table><thead><tr><th>Deliverable</th><th>Why not</th></tr></thead><tbody>
+    ${BLOCKED.map(b=>`<tr><td>${b[0]}</td><td class="dim">${b[1]}</td></tr>`).join('')}
+    </tbody></table></div>
+    <div class="note warn" style="margin-top:16px"><b>The previs master is boards, not photography.</b>
+      Every frame in it is drawn from the shot record. It exists to prove the conform
+      end-to-end on the real EDL: when Veo clips land in <span class="mono">renders/</span>,
+      <span class="mono">tools/conform.py --source auto</span> produces the picture master
+      through the identical code path. Only the source changes.</div>
+    <div class="note" style="margin-top:10px"><b>To render for real:</b>
+      <span class="mono">export GEMINI_API_KEY=&hellip;</span> then
+      <span class="mono">python3 tools/render.py models</span> (free, lists the Veo models your key can see),
+      <span class="mono">python3 tools/render.py smoke</span> (three deliberate shots, ~$4),
+      <span class="mono">python3 tools/render.py render --yes</span>, then
+      <span class="mono">python3 tools/conform.py --source auto --audio clips</span>.</div>`;
+}
+
+/* ---------------- app ---------------- */
+let view='overview';
+const RENDER={overview:vOverview,story:vStory,chars:vChars,world:vWorld,board:vBoard,
+              gen:vGen,timeline:vTimeline,continuity:vContinuity,review:vReview,export:vExport};
+function go(v){
+  view=v; playing=false; last=0;
+  document.querySelectorAll('.view').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.nav button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.v===v)));
+  const el=document.getElementById('v-'+v); el.classList.add('on'); el.innerHTML=RENDER[v]();
+  if(v==='story') $('#scriptBody').innerHTML=SCRIPT_HTML;
+  if(v==='board'){ paintBoard(); $('#bq').oninput=paintBoard; $('#bact').onchange=paintBoard; }
+  if(v==='gen'){ paintGen(); $('#gq').oninput=paintGen; }
+  if(v==='continuity'){ paintCont(); $('#cq').oninput=paintCont; }
+  if(v==='review') wireReview();
+  window.scrollTo(0,0);
+}
+NAV.forEach(([grp,v,label,ct])=>{
+  const b=document.createElement('button'); b.dataset.v=v;
+  b.innerHTML=`<span>${label}</span>${ct?`<span class="ct">${ct}</span>`:''}`;
+  b.onclick=()=>go(v); document.getElementById(grp).appendChild(b);
+});
+$('#status').innerHTML=[
+  ['EPISODE','S01E01'],['RUNTIME',E.runtime],['SHOTS',String(SH.length)],
+  ['FORMAT',E.aspect+' &middot; '+E.fps+'fps'],['SCRIPT','v3.0 LOCKED'],
+  ['QC','41/41','ok'],['PICTURE','NOT RENDERED']
+].map(([l,v,c])=>`<div class="${c||''}">${l}<b>${v}</b></div>`).join('');
+$('#themeBtn').onclick=()=>{
+  const cur=document.documentElement.getAttribute('data-theme');
+  const sysDark=matchMedia('(prefers-color-scheme: dark)').matches;
+  const next=cur? (cur==='dark'?'light':'dark') : (sysDark?'light':'dark');
+  document.documentElement.setAttribute('data-theme',next);
+  try{localStorage.setItem('wfft-theme',next);}catch(e){}
+};
+try{const t=localStorage.getItem('wfft-theme'); if(t) document.documentElement.setAttribute('data-theme',t);}catch(e){}
+go('overview');
+</script>

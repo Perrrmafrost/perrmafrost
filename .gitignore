@@ -1,0 +1,7 @@
+# Regenerable heavy outputs. Rebuild with:
+#   python3 tools/render_boards.py      -> boards/
+#   python3 tools/conform.py --source boards --burn-subs   -> deliverables/S01E01_previs_master.mp4
+boards/
+deliverables/
+renders/
+__pycache__/
