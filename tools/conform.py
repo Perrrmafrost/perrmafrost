@@ -21,12 +21,14 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
-FF = os.environ.get("FFMPEG", "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from platform_tools import find_ffmpeg, ffconcat_line
+FF = find_ffmpeg()
 W, H, FPS, SR = 1920, 960, 24, 48000
 VF = f"scale={W}:1080:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p"
 
 def run(cmd):
-    r = subprocess.run(cmd, capture_output=True, text=True)
+    r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
     if r.returncode:
         sys.exit(f"ffmpeg failed:\n{' '.join(cmd)}\n{r.stderr[-1500:]}")
 
@@ -44,11 +46,16 @@ def build_segments(shots, source, segdir, limit):
         if os.path.exists(seg) and os.path.getmtime(seg) > os.path.getmtime(clip if use_clip else board):
             used["clip" if use_clip else "board"] += 1; continue
         if use_clip:
-            cmd = [FF, "-y", "-loglevel", "error", "-ss", "0", "-t", str(s["d"]), "-i", clip]
+            # Clips can be shorter than their shot (Wan makes ~5s). Hold the last
+            # frame and pad the audio so every segment is exactly the EDL length;
+            # a short segment would push every later shot out of sync.
+            cmd = [FF, "-y", "-loglevel", "error", "-i", clip]
             if not has_audio(clip):
                 cmd += ["-f", "lavfi", "-t", str(s["d"]), "-i", f"anullsrc=r={SR}:cl=stereo"]
-            cmd += ["-vf", VF, "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
-                    "-c:a", "aac", "-ar", str(SR), "-ac", "2", "-shortest", seg]
+            cmd += ["-vf", VF + f",tpad=stop_mode=clone:stop_duration={s['d']}",
+                    "-af", "apad", "-t", str(s["d"]),
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+                    "-c:a", "aac", "-ar", str(SR), "-ac", "2", seg]
             used["clip"] += 1
         else:
             if not os.path.exists(board):
@@ -63,7 +70,7 @@ def build_segments(shots, source, segdir, limit):
 
 def concat(segs, out):
     lst = out + ".txt"
-    open(lst, "w").write("".join(f"file '{p}'\n" for _, p in segs))
+    open(lst, "w").write("".join(ffconcat_line(p) for _, p in segs))
     run([FF, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", out])
 
 # ------------------------------------------------------------- temp sound
@@ -171,7 +178,7 @@ def main():
     work = P("deliverables", "_work"); os.makedirs(work, exist_ok=True)
 
     segs, used = build_segments(shots, a.source, os.path.join(work, "seg"), a.limit)
-    print(f"segments: {used['clip']} Veo clips, {used['board']} boards")
+    print(f"segments: {used['clip']} rendered clips, {used['board']} boards")
     picture = os.path.join(work, "picture.mp4"); concat(segs, picture)
 
     cdf = next(s for s in shots if s["cd"]); cd_first = cdf["t"]
@@ -194,7 +201,8 @@ def main():
     sub_idx = 2 if a.audio == "temp" else 1
     vf = []
     if a.burn_subs and os.path.exists(srt):
-        vf = ["-vf", f"subtitles={srt}:force_style='FontName=FreeSans,FontSize=22,PrimaryColour=&H00F0F3F6,OutlineColour=&H80000000,Outline=1,MarginV=36'"]
+        srt_rel = os.path.relpath(srt, ROOT).replace("\\", "/")
+        vf = ["-vf", f"subtitles={srt_rel}:force_style='FontName=FreeSans,FontSize=22,PrimaryColour=&H00F0F3F6,OutlineColour=&H80000000,Outline=1,MarginV=36'"]
     cmd = [FF, "-y", "-loglevel", "error"] + inputs + sub_in + maps
     if sub_in:
         cmd += ["-map", f"{sub_idx}:s", "-c:s", "mov_text", "-metadata:s:s:0", "language=eng"]

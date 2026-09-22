@@ -179,7 +179,9 @@ _exit_code = 0 if passed == len(rows) else 1
 # Appended check: if a conformed master is on disk, audit the container itself.
 def _probe(path):
     import subprocess
-    ff = os.environ.get("FFMPEG", "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2")
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from platform_tools import find_ffmpeg
+    ff = find_ffmpeg()
     return subprocess.run([ff, "-i", path], capture_output=True, text=True).stderr
 for _name in ("S01E01_previs_master.mp4", "S01E01_picture_master.mp4"):
     _m = P("deliverables", _name)

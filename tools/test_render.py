@@ -13,7 +13,9 @@ and the request-shape rules (plates, person_generation, pane-text negatives).
 """
 import os, sys, json, base64, subprocess, tempfile, shutil, time, copy, random, argparse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FF = "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tools"))
+from platform_tools import find_ffmpeg
+FF = find_ffmpeg()
 os.environ["FFMPEG"] = FF; os.environ["GEMINI_API_KEY"] = "test-key"; os.environ.pop("GOOGLE_GENAI_USE_VERTEXAI", None)
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 import render

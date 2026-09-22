@@ -33,6 +33,7 @@ Nothing here has touched a live key. `dry-run` proves the wire shapes; `smoke` i
 first paid call and it tells you exactly how many calls it will make before it does.
 """
 import argparse, hashlib, json, os, sys, time, threading, functools, concurrent.futures as cf
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -260,14 +261,17 @@ def record(m, sid, **fields):
 def last_frame_png(mp4):
     import subprocess
     out = mp4 + ".last.png"
-    subprocess.run([os.environ.get("FFMPEG", "ffmpeg"), "-y", "-loglevel", "error", "-sseof", "-0.05",
+    from platform_tools import find_ffmpeg
+    subprocess.run([find_ffmpeg(), "-y", "-loglevel", "error", "-sseof", "-0.05",
                     "-i", mp4, "-frames:v", "1", out], check=True)
     return open(out, "rb").read()
 
 def concat(files, out):
     import subprocess
-    lst = out + ".txt"; open(lst, "w").write("".join(f"file '{p}'\n" for p in files))
-    subprocess.run([os.environ.get("FFMPEG", "ffmpeg"), "-y", "-loglevel", "error", "-f", "concat",
+    from platform_tools import ffconcat_line
+    lst = out + ".txt"; open(lst, "w").write("".join(ffconcat_line(p) for p in files))
+    from platform_tools import find_ffmpeg
+    subprocess.run([find_ffmpeg(), "-y", "-loglevel", "error", "-f", "concat",
                     "-safe", "0", "-i", lst, "-c", "copy", out], check=True)
 
 def wait_for(c, T, op, sid, i, timeout, log):

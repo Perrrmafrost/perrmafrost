@@ -9,8 +9,10 @@ that has no Veo clip yet, so the conform can run end-to-end today.
 import os, re, subprocess, json, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
-CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
-FF = os.environ.get("FFMPEG", "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from platform_tools import find_ffmpeg, find_browser
+import pathlib
+CHROME, FF = find_browser(), find_ffmpeg()
 W, H, PER = 1920, 960, 16
 OUT = P("boards"); os.makedirs(OUT, exist_ok=True)
 
@@ -40,7 +42,7 @@ for b in range(n_batches):
     subprocess.run([CHROME, "--headless", "--disable-gpu", "--no-sandbox", "--hide-scrollbars",
                     "--force-device-scale-factor=1", f"--window-size={W},{H*len(chunk)}",
                     "--virtual-time-budget=2500", f"--screenshot={sheet}",
-                    f"file://{hp}?batch={b}"], check=True, capture_output=True)
+                    pathlib.Path(hp).as_uri() + f"?batch={b}"], check=True, capture_output=True)
     for i, s in enumerate(chunk):
         subprocess.run([FF, "-y", "-loglevel", "error", "-i", sheet,
                         "-vf", f"crop={W}:{H}:0:{i*H}", P("boards", f"{s['id']}.png")], check=True)
