@@ -40,5 +40,11 @@
     "height": "14.height",
     "seed": "15.seed",
     "filename_prefix": "17.filename_prefix"
+  },
+  "upscale_workflow": "workflow_upscale_api.json",
+  "_upscale_model": "NVIDIA RTX Video Super Resolution (Comfy-Org/Nvidia_RTX_Nodes_ComfyUI, RTX GPUs only, no download), 24 fps in, 1920x1088 out.",
+  "upscale_nodes": {
+    "video": "1.video",
+    "filename_prefix": "3.filename_prefix"
   }
 }

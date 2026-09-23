@@ -5,7 +5,7 @@
 
 Approval: set  "approved": <take number>  for a shot in renders/status.json (default = the latest take).
 Shots with no render get a black slate of the right length, so timing stays correct while you work.
-Needs ffmpeg on PATH. Plain Lanczos scaling is used; swap in an AI upscaler pass first if you have one.
+Needs ffmpeg on PATH. Uses the take's 1080p version from upscale_takes.py when there is one; otherwise Lanczos.
 """
 import json, sys, argparse, pathlib, subprocess, tempfile, shutil
 
@@ -34,7 +34,8 @@ def main():
             takes = status.get(sid, {}).get("takes", [])
             pick = status.get(sid, {}).get("approved") or (takes[-1]["take"] if takes else None)
             files = next((t["files"] for t in takes if t["take"] == pick), [])
-            src = next((f for f in files if f.lower().endswith((".mp4", ".webm", ".mov", ".webp", ".gif"))), None)
+            src = status.get(sid, {}).get("upscaled", {}).get(str(pick)) or \
+                next((f for f in files if f.lower().endswith((".mp4", ".webm", ".mov", ".webp", ".gif"))), None)
             dst = work / f"{sid}.mp4"
             if src:
                 # a clip shorter than its shot (e.g. Wan's 5 s cap on a 7 s shot) holds its last frame, keeping the cut in sync
