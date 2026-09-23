@@ -1,34 +1,39 @@
 #!/usr/bin/env python3
 """Render HERE AM I shots through a local ComfyUI, one clip per shot, resumable.
 
-1. In ComfyUI, build/load a text-to-video or image-to-video workflow that works on your GPU,
-   then  Workflow > Export (API)  and save it as  workflow_api.json  next to this script.
-2. Copy config.example.json to config.json and set the node IDs (open workflow_api.json to find them).
+1. workflow_api.json (Wan 2.2 image-to-video) and config.json (its node IDs) ship with this kit. To use
+   another workflow: in ComfyUI  Workflow > Export (API), save it here and set the node IDs in config.json.
+2. Make the first frames: compose_first_frames.py (EXTEND children start from the parent's last frame).
 3. Run:  python render_queue.py ../../shots/seq_01_shots.jsonl  [--takes 2] [--only 01.02.003,01.02.004]
 
 Outputs go to renders/<shot id>/take_N.<ext>; progress is logged in renders/status.json so a crash
 or reboot just resumes. Nothing leaves your machine: it talks only to ComfyUI on 127.0.0.1.
 """
-import json, sys, time, uuid, random, argparse, pathlib, urllib.request, urllib.parse, mimetypes
+import json, time, random, argparse, pathlib, subprocess, urllib.parse
+from comfy_client import http, upload_image, set_input
 
 HERE = pathlib.Path(__file__).parent
 
-def http(url, data=None, headers=None):
-    req = urllib.request.Request(url, data=data, headers=headers or {})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return r.read()
-
-def upload_image(base, path):
-    boundary = uuid.uuid4().hex
-    body = (f"--{boundary}\r\nContent-Disposition: form-data; name=\"image\"; filename=\"{path.name}\"\r\n"
-            f"Content-Type: {mimetypes.guess_type(path.name)[0] or 'image/png'}\r\n\r\n").encode() + path.read_bytes() + \
-           f"\r\n--{boundary}\r\nContent-Disposition: form-data; name=\"overwrite\"\r\n\r\ntrue\r\n--{boundary}--\r\n".encode()
-    res = json.loads(http(f"{base}/upload/image", body, {"Content-Type": f"multipart/form-data; boundary={boundary}"}))
-    return res["name"]
-
-def set_input(wf, spec, value):
-    node, key = spec.split(".", 1)
-    wf[node]["inputs"][key] = value
+def start_frame(shot, stills, status, out_root):
+    """The composed first frame (compose_first_frames.py), or for an EXTEND child the parent take's last frame."""
+    own = stills / f"{shot['id']}.png"
+    if own.exists():
+        return own, None
+    parent = next((f.split(":", 1)[1] for f in shot.get("flags", []) if f.startswith("EXTEND:")), None)
+    if parent:
+        takes = status.get(parent, {}).get("takes", [])
+        pick = status.get(parent, {}).get("approved") or (takes[-1]["take"] if takes else None)
+        files = next((t["files"] for t in takes if t["take"] == pick), [])
+        src = next((f for f in files if f.lower().endswith((".mp4", ".webm", ".mov"))), None)
+        if not src:
+            return None, f"EXTEND of {parent}, which has no rendered take yet"
+        dst = out_root / "_chain" / f"{shot['id']}_from_{parent}_t{pick}.png"
+        if not dst.exists():
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-sseof", "-1", "-i", src, "-update", "1",
+                            "-frames:v", "1", str(dst)], check=True)
+        return dst, None
+    return None, f"no first frame: run compose_first_frames.py for {shot['id']} and approve one"
 
 def frames_for(seconds, cfg):
     n = max(1, round(seconds * cfg["model_fps"]))
@@ -76,11 +81,9 @@ def main():
             if n.get("length"): set_input(wf, n["length"], frames_for(shot["duration_s"], cfg))
             if n.get("filename_prefix"): set_input(wf, n["filename_prefix"], f"HEREAMI/{sid}_t{take}")
             if n.get("start_image"):
-                # image-to-video: first matching composed first frame or reference still, if you made one
-                cands = [stills / f"{sid}.png"] + [stills / f"{r}.png" for r in shot.get("refs", [])]
-                img = next((c for c in cands if c.exists()), None)
+                img, why = start_frame(shot, stills, status, out_root)
                 if img is None:
-                    print(f"{sid}: no start image found (looked for {cands[0].name} and refs) - skipping")
+                    print(f"{sid}: {why} - skipping")
                     break
                 set_input(wf, n["start_image"], upload_image(base, img))
             pid = json.loads(http(f"{base}/prompt", json.dumps({"prompt": wf, "client_id": "hereami"}).encode(),
