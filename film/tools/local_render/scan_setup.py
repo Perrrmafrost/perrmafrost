@@ -12,7 +12,7 @@ def run(cmd):
     except Exception as e:
         return f"(unavailable: {e.__class__.__name__})"
 
-RENDER_BUDGET_GB, MODEL_BUDGET_GB = 300, 60   # renders + ComfyUI output copies; video/image/upscale weights
+RENDER_BUDGET_GB, MODEL_BUDGET_GB = 300, 80   # renders + ComfyUI output copies; video/image/upscale weights (~70 GB)
 
 def list_drives():
     """Every mounted drive with its free space. Windows: all drive letters; Linux: real block devices."""

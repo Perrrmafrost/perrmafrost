@@ -10,7 +10,8 @@ Needs ffmpeg on PATH. Plain Lanczos scaling is used; swap in an AI upscaler pass
 import json, sys, argparse, pathlib, subprocess, tempfile, shutil
 
 HERE = pathlib.Path(__file__).parent
-VF = "scale=1920:1080:flags=lanczos:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,fps=24,format=yuv420p"
+# Fill the 16:9 frame (crop a few pixels rather than add bars), conform to 24 fps
+VF = "scale=1920:1080:flags=lanczos:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1,fps=24,format=yuv420p"
 
 def main():
     ap = argparse.ArgumentParser()
@@ -36,7 +37,9 @@ def main():
             src = next((f for f in files if f.lower().endswith((".mp4", ".webm", ".mov", ".webp", ".gif"))), None)
             dst = work / f"{sid}.mp4"
             if src:
-                cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-t", f"{dur}", "-vf", VF, "-an",
+                # a clip shorter than its shot (e.g. Wan's 5 s cap on a 7 s shot) holds its last frame, keeping the cut in sync
+                cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-t", f"{dur}",
+                       "-vf", f"tpad=stop_mode=clone:stop_duration={dur},{VF}", "-an",
                        "-c:v", "libx264", "-crf", "16", "-preset", "slow", str(dst)]
             else:
                 cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", f"color=c=black:s=1920x1080:r=24:d={dur}",
