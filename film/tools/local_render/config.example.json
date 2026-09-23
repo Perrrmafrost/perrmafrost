@@ -3,6 +3,7 @@
   "workflow_file": "workflow_api.json",
   "output_dir": "renders",
   "stills_dir": "stills",
+  "_storage_help": "output_dir and stills_dir may be absolute paths on another drive, e.g. \"E:/HERE_AM_I/renders\". Use the drive that scan_setup.py lists under storage_suggestion.",
 
   "render_width": 832,
   "render_height": 480,

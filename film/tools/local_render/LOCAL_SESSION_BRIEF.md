@@ -10,7 +10,8 @@ The user wants you to do everything end to end. They approve installs and downlo
 - `film/tools/local_render/` — `scan_setup.py`, `render_queue.py` (ComfyUI API batch renderer, resumable), `assemble_film.py` (upscale to 1920x1080 @ 24 fps and join in shot order), `README.md`.
 
 ## Do this, in order
-1. **Scan.** Run `python film/tools/local_render/scan_setup.py`. Confirm VRAM (3060 = 12 GB or 8 GB), free disk, ComfyUI path, installed models and custom nodes. Report a 5-line summary to the user.
+1. **Scan.** Run `python film/tools/local_render/scan_setup.py`. Confirm VRAM (3060 = 12 GB or 8 GB), free space on every drive, ComfyUI path, installed models and custom nodes. Report a 5-line summary to the user.
+   **Storage:** put the renders, ComfyUI's output folder and all new model downloads on the fixed drive with the most free space (`storage_suggestion` in the scan), even if the project and ComfyUI are on C:. Tell the user the drive and its free space before creating folders there, then set it up as in `README.md` §0b (`output_dir` in `config.json`, `--output-directory`, `extra_model_paths.yaml`).
 2. **Pick the model.** Choose the best current open video model that fits this GPU with **image-to-video** support (quantized/GGUF or small variants are fine; research what is current and well supported in ComfyUI). Also pick an image model for stills and, if it fits, a video upscaler. State your choice and the download sizes; **ask before downloading anything over ~5 GB**. Install required ComfyUI custom nodes via ComfyUI-Manager or git. Check there is enough disk (budget 300+ GB for renders).
 3. **Test clip.** Build a working image-to-video workflow, render one 5-second test at ~832x480 (raise to 720p only if it fits and is fast enough). Report seconds-per-clip and an honest estimate for ~1,200 shots x 2 takes.
 4. **Wire the batch renderer.** Export the workflow in API format to `film/tools/local_render/workflow_api.json`, write `config.json` from `config.example.json` with the real node IDs and the model's fps/frame rule, and dry-run `render_queue.py --only <one id>`.
@@ -21,5 +22,5 @@ The user wants you to do everything end to end. They approve installs and downlo
 ## Rules
 - Follow the production bible's safety staging: PG-13, no gore, remains shown with dignity, robots never touch a child, no real people or brand logos.
 - Never type look descriptions by hand; the JSONL prompts already contain the fixed wording.
-- Keep the user's machine healthy: don't delete their files, keep renders inside `film/tools/local_render/renders/`, and warn before anything that uses a lot of disk.
+- Keep the user's machine healthy: don't delete their files, keep renders inside the `output_dir` set in `config.json` (the storage folder on the roomiest drive, or `film/tools/local_render/renders/` by default), and warn before anything that uses a lot of disk.
 - Commit nothing large (videos, model weights) to git.

@@ -1,0 +1,10 @@
+# Local render outputs and weights stay on the user's machine
+renders/
+__pycache__/
+*.mp4
+*.webm
+*.mov
+*.safetensors
+*.gguf
+*.ckpt
+*.pth

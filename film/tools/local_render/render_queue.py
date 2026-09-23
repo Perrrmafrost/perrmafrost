@@ -48,10 +48,10 @@ def main():
     cfg = json.loads(pathlib.Path(a.config).read_text())
     base = cfg.get("comfy_url", "http://127.0.0.1:8188")
     template = json.loads((HERE / cfg["workflow_file"]).read_text())
-    out_root = HERE / cfg.get("output_dir", "renders"); out_root.mkdir(exist_ok=True)
+    out_root = HERE / cfg.get("output_dir", "renders"); out_root.mkdir(parents=True, exist_ok=True)
     status_path = out_root / "status.json"
     status = json.loads(status_path.read_text()) if status_path.exists() else {}
-    stills = pathlib.Path(cfg.get("stills_dir", HERE / "stills"))
+    stills = HERE / cfg.get("stills_dir", "stills")
     only = {s.strip() for s in a.only.split(",") if s.strip()}
     n = cfg["nodes"]
 
