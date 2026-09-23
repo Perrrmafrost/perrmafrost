@@ -63,7 +63,9 @@ def main():
         done = status.get(sid, {}).get("takes", [])
         for take in range(len(done) + 1, a.takes + 1):
             wf = json.loads(json.dumps(template))
-            set_input(wf, n["positive"], shot["prompt"])
+            # image-to-video gets the derived motion prompt (05 §5.5); text-to-video gets the master prompt
+            i2v = bool(n.get("start_image"))
+            set_input(wf, n["positive"], shot.get("motion_prompt") if i2v and shot.get("motion_prompt") else shot["prompt"])
             if n.get("negative"):
                 set_input(wf, n["negative"], shot["negative"])
             seed = random.randint(0, 2**31 - 1)
