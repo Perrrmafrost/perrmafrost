@@ -113,3 +113,40 @@ Checked against the writers' spec, bible v3 (§3–4, §6, §7 SEQ 6/7/8, §11 m
 **Added or retained [[verify]] items:** the nb → ḏsr recut on the Restoration Stela itself (new); cruise-ship moorings near Karnak (now marked in the script); the Sacred Lake's position; the First Pylon to river-landing layout; Faisal Street; "the West" (Amentet) as the land of the dead; ḫprw and the Faulkner/Budge readings; the RAMI hieroglyph spelling; "Allah yerhamo" (localisation); 1905 vs 1907 for the Restoration Stela's find date.
 
 **Unresolved (for the lead):** (a) Seq 9 uses the cue `THE REIS`, while Seq 3, 4 and 7 use `REIS`. (b) Tarek has two dry jokes in consecutive sequences ("withdrawing in good order" in Seq 7 and "Finally, honest work" in Seq 8). They are allowed only if Act IIA and Act IIB count as separate acts. (c) Between 21:00 and 00:31 no SUPER marks the long loom crossing. It is plausible, but the lead may want a time card in the Hall.
+
+## Editor pass (whole-script review)
+
+**Word count (`wc -w`, seq_07.fountain):** 2,732 before, **2,605 after** (−127). The pace reviewer's target was about 2,584, so ±5% allows 2,455–2,713. The result is 21 words (+0.8%) over the target. Of those, 11 are Tarek's line, which I kept (see the conflict ruling below), and 10 are net words added by the continuity, facts and voice fixes. Every cut is flab or repetition. No bible beat, robot-action set piece, mystery or ledger explanation, or key line was cut.
+
+**Applied: continuity**
+1. (must) "The shield is gone." is now "The shield is only as wide as he is now." After the flip, the jackals stop freezing on Tut and fire close past him, but they still do not fire *through* him. This keeps the shield usable in Seq 8, 9, 10 and 11.
+2. (should) "takes the Reis's hand" is now "takes the Reis's **right** hand". This matches these notes and the Seq 9 follow-up fix ("a clean white stump at its right wrist").
+
+**Applied: voice**
+3. (should) At the Third Pylon, "(beat) / This I know from it. He did not even need…" is now "(two fingers to his temple) / He did not even need…". This uses Tut's footnote gesture from Seq 2.
+4. (should) On the felucca, "This I know from it." is cut from "They left mine off the king lists, to finish me." The grief beat now runs straight into "It did not work." Seq 7 now has no "This I know from it" at all (audit item 14 above is superseded).
+5. (should) "For all of us, ya Malik. It costs the same." is now "For all of us. It costs the same." The closing "The west, ya Malik." goes with pace cut 9. Only one "ya Malik" is left in Seq 7, "I counted seven, ya Malik.", which is the joke.
+6. (could, applied) "Nour touches two fingers to her temple." is now "Nour rubs her thumb across her fingertips, the way she read the block." Two fingers to the temple is now Tut's gesture alone (item 3), and the new line matches Seq 10's echo (seq_10 l.47).
+
+**Applied: facts and production locks**
+7. (should) "Rami's handwriting, fast and slanted (COMP): 44…": the readable notebook text is now marked COMP.
+8. (could, applied) The kheperu sign under Tut's fingertips now reads "(COMP if seen; consultant-drawn)", because production lock 5 requires plot-critical glyphs to be COMP.
+
+**Applied: pace (must), eight of nine cuts**
+9. Cut 1: "Both banks black: a whole city with its power off."
+10. Cut 2: Tut's tremor-stilling at the open is cut. It repeated Seq 6's last image, and the tremor stays established there and in the end-state list.
+11. Cut 3: the French west-wing and east-wing lines are cut. Nour's line now ends "…as fill. Talatat."
+12. Cut 4: "Tut looks back…" and "I wrote here that the gods had stopped answering. I meant it as good news." are cut, because they repeated Seq 2's Restoration Stela "good news" payoff. The bible's Third Pylon line stays word for word.
+13. Cut 5: "Down the steps stands a line of SHABTI: a BUCKET-CHAIN." The shabti's look is already established.
+14. Cut 7: "The Reis does not come closer." Its reason, "It has lost the stone. It will not risk the copy.", is cut. The Reis's own line "Now you are the only copy… Please be careful with yourself" carries it.
+15. Cut 8: the dredge exchange is cut. SESHAT's "Now you are the only copy" and Seq 10's "The block is face down in the river. I cannot check it." (seq_10 l.58) cover the logic. Audit item 5 above is superseded.
+16. Cut 9: the closing Fathi and Tut "the West" exchange is cut, along with its `[[verify]]` note. The sequence now ends on "The felucca crosses toward it." The Karnak glow going out stays in Seq 7, because Seq 8's pace cut 1 removes its own "Karnak is dark again" and relies on this one.
+
+**Skipped: conflict ruling (continuity > pace)**
+- **Pace cut 6 (delete TAREK "We are not running. We are withdrawing in good order.") is skipped.** Two Seq 5 issues, one from the continuity lens and one from the voice lens, move Tarek's Seq 5 joke "Then we're making good time." to Fathi or Rami. Both say explicitly to *keep the Seq 7 line* ("it answers SESHAT and defines him"). The pace reviewer assumed Seq 5's line would be Tarek's Act II joke, and Seq 8's pace cut 5 removes "Finally, honest work." If all three changes were applied, Tarek would have no joke in Act II. Continuity outranks pace, so Seq 7 keeps his one Act II joke (bible: one joke per act). The 11 words stay in and are covered by the ±5% band. **Flag for the Seq 5 editor and the lead:** the Seq 5 reassignment must happen, or Tarek has two Act II jokes again.
+
+**[[verify]] notes (consolidated):** kept 7. These are the nb → ḏsr recut on this stela; the ḫprw transliteration (Faulkner or Budge); the Sacred Lake's position; the First Pylon-to-landing layout; Faisal Street; the cruise-ship moorings; and the RAMI hieroglyph spelling. Retired 1: "the West" (Amentet), because its line was cut. None were duplicated. Items that live only in these notes are unchanged: "Allah yerhamo" (localisation), and 1905 vs 1907.
+
+**Dependencies left unchanged:** 21:00 / 00:31 / 01:00 / 03:00 supers. Rami dies at the quay (kill grammar unchanged). The block is face down in the deep channel. Tut has Rami's notebook with RAMI written under Q44. Adaeze has the conservation kit. The launch is abandoned and marked, and the party of nine is on the felucca. The Reis has its right-hand stump and is last seen at the quay. Tut mouths the hymn "half a beat ahead" (Seq 9 l.540). The broadcast lines (SESHAT's announcement, the stance flip, 06:14, "Fifty-three hours") are word for word. The bracelets are on adult wrists only. The glow over Karnak goes out, which is the hand-off to Seq 8.
+
+**Lint (after the pass):** 10 scene headings. Every parenthetical is attached to a cue or sits inside a speech. `[[ ]]` notes are balanced (7). There are no triple blank lines. No banned vocabulary (shot, blood, killed, wound, organ, severed, open chest), and no «لبيك» or «الجنة».

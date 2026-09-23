@@ -177,3 +177,84 @@ Checked against the bible v3 (§3–4 rules, §7 SEQ 10, §11 motifs, §12 conti
 - **Travel time.** SEQ 9 places the quarry just north of Amarna (Dayr Abu Hinnis). Reaching Saqqara by the Fourth Hour (about 20:20) after leaving at sunset (about 16:55) means about 260 km in about 3.3 hours. That is plausible on the desert highway but tight. The quarry could be moved north, or the truck could leave before sunset.
 - **Census progression** is consistent across the script files: 22 → 23 → 31 → 61 → 79 (here) → 94%.
 - Still outstanding for verification: the `[[verify]]` items above and the list earlier in these notes.
+
+---
+
+## Editor pass (whole-script review)
+
+**Sources:** `screenplay/review_issues.json` (every issue with seq 10, from all four lenses: continuity, voice, pace, facts/rules), checked against bible v3 §3–4, §7 SEQ 10 and §12, the spec, and the hand-offs in `seq_09.fountain` (the quarry at dawn, PLAN A card, END OF ACT TWO) and `seq_11.fountain` (the truck north, two ID discs, "Seven hours to sunrise").
+
+**Length:** 2,425 → **2,234 words** (`wc -w`). The pace target is about 2,216, so the result is +0.8%, inside ±5% (2,105–2,327). Printable words, excluding the boneyard header and `[[ ]]` notes, went from 2,370 to 2,186. The pace reviewer asked that any added lines be offset. The added lines (SESHAT's verdict line and two temple taps, about 25 words) are covered by the one-for-one cuts listed below and by the "Recover him intact" trim. Its last-priority cut (item 14) was not needed.
+
+### Applied
+1. **Opening quarry (pace 1–2).** The four opening action paragraphs are now one: the tarp, Fathi's charges, and Tut buttoning in the notebook as he watches the sun. "The First Hour." / "Of what?" / "Of twelve." is merged into one Tut speech: "The First Hour of twelve." The hour-card device is still taught before the FOURTH HOUR card. Seq 11 and 12 depend on nothing from the cut lines: Tut's written answer, Tarek's fly watch and the pocketed PLAN A card. Seq 9 already ends on the PLAN A card, and "Plan A." still names it at the pit.
+2. **Sunrise `[[verify]]` removed from Tarek's line (facts, could).** It is consolidated into Seq 12's `SUPER: 06:14. [[verify: sunrise 06:14 EET, 8 Nov, Giza …]]`.
+3. **Interrogation (pace 3).** Cut the pylon exchange (a repeat of the SESHAT–Nour block exchange in Seq 7). SESHAT's next line becomes `SESHAT (V.O.) (CONT'D)`, so Nour's silent fingertip beat now answers "What did the block say?"
+4. **"Three on the stair" cut (pace 4).** The action line already shows the three jackals.
+5. **"This I know from it" reduced from 4 uses to 1 (continuity should; voice must).**
+   - The Persian box line is now `(taps his temple)`, reusing Seq 2's footnote gesture, as the continuity fix asked.
+   - "All this I know from it" at the Amasis box is cut (voice).
+   - The Apep English line is removed entirely (see item 10).
+   - The bible's "They ran out of centuries. This I know from it." is the only spoken instance left.
+6. **Fathi's du'a cut (continuity could; pace must; facts could; all three gave the same fix).** The line is now "At a crawl-gap, Fathi goes through first." His private du'a stays in Seqs 5, 7, 8, 11 and 12.
+7. **Serapeum figures (pace 6).** Now only "A stela says twenty-eight working days to bring one in." Hale gives the 24 boxes, 62 t and "robbed in antiquity" in Seq 2.3. The robbery is still on screen here ("lids shoved askew by robbers"), so ledger #14's facts stay in the film. The ⟂ decommissioning explanation, which is the ledger's Seq 10 payload, is untouched.
+8. **"It put that in me while I slept" cut (pace 7)**, along with its parenthetical.
+9. **"Boxes inside boxes. Nour's story." cut (pace 8).** The nested-casket image and "Sand between the parts" still carry the Setne echo.
+10. **Apep English gloss cut (pace 9).** "They said it every night, so the sun would rise" repeats Seq 8 ("Recited so the sun would rise"). The Middle Egyptian "…chained in one place" stays, and "After that, nobody said them at sunset" still plants the coda rite.
+11. **Thermal jackal POV cut (pace 10).** It repeated Seq 9. Adaeze's "It's learned. Four seconds --" carries the counter-move.
+12. **"It can't touch it" cut (pace 11).** The frozen shabti image sets up Fathi's "Then why are we still breathing?"
+13. **"Meaning?" cut (pace 12).** Tut's tunnel speech now runs on with `(beat)`.
+14. **Reis glimpse (pace 13)** is now just "Beside it walks THE REIS." This removes a re-description. Its damage state is still owned by Seqs 9 and 11. The continuity lens confirms it has the mast and one hand in 10–11, so nothing is contradicted.
+15. **Left knee (continuity should; facts should).** "Tut's left knee folds". This locks the 10.4 seam to the production bible's left side, matching the left wrist and left ceramic foot.
+16. **Halt-seal freeze (continuity could).** "The amber slit holds: a statue of reaching." This matches Seq 8, and the later "slit brightens" now reads correctly.
+17. **Pigment (continuity could).** "the half-empty jar of Egyptian blue". This matches Seq 4's single jar and Seq 9's "half the jar". The end state is unchanged: the pigment is spent.
+18. **Midpoint line (continuity could).** The hunt line is now "The others are residual risk. Thank you for your patience." This ends the third full use of the Seq 7 broadcast. The shield logic ("recover him intact") is already set up in Seqs 7 and 9 and still plays in action.
+19. **SESHAT's bible §3.1 line restored (voice should)**, after "At sunrise I act, weighed or not.": `(beat)` / "I asked the gods for a verdict. At sunrise I will have one: from the scale, or from myself." The bible reversal lines are still verbatim and in order.
+20. **"Ya Malik! Down!" is now "Down!" (voice should).** The exit line "I will, ya Malik. Until then, you walk." is kept, so Seq 10 has one "ya Malik".
+
+### Conflicts resolved (priority: continuity > rules > facts > pace > voice)
+- **Line 258, the Apep gloss.** The continuity lens would keep the line with a temple tap; pace would cut it; voice would keep it with no tag.
+  - I chose **pace (cut)**. The continuity issue is about the verbal tic, not continuity state, and cutting the line removes the tic instance entirely.
+  - A tap here would also break the bible §6 rule. Tut knows the Apep rite from his own life (Ay sealed the vessel with it in 1323 BC), so it must not be marked "from it". No continuity dependency is lost, because Seq 8 carries "so the sun would rise".
+- **The Amasis box marker.** Voice cut "All this I know from it" on the grounds that "It put that in me while I slept" would cover the passage, but pace cuts that line too (pace > voice).
+  - I applied both cuts and put `(taps his temple)` in front of the hidden-god line. That keeps the bible §6 rule ("anything from after 1323 BC he marks as learned"), which is a rules-level requirement.
+  - The ⟂ decommissioning is marked as SESHAT's knowledge, and "A king nearly eight hundred years after me" marks itself.
+- **Persian box parenthetical.** Continuity's "(taps his temple)" was chosen over voice's "(two fingers to his temple)". It matches Seq 2's three uses exactly.
+- **Serapeum figures (voice could against pace must).** I chose **pace**: "A stela says twenty-eight working days to bring one in." Voice's version would also keep "Robbed in what you call antiquity."; that line is dropped. It repeats Seq 2's "robbed in antiquity", and the robbery stays visible in the action line.
+
+### Skipped
+- **Hour cards against the clock (facts, could):** "Tonight I count them by the book, not by your clock."
+  - The bible §5 sets the hour-card scheme itself (sunset as the First Hour).
+  - The continuity lens deliberately left this "for the lead" as a cross-sequence decision; the reviewer's own alternative is renumbering the Seq 11–12 cards.
+  - It adds 11 words to the most over-length sequence, and the line reads as an apology to the audience. Not a clear improvement, so it is left for the lead.
+- **Pace item 14, "last priority" (the register exchange: "What was that?" / "It's taking the register." / "Tell it we're all present.").**
+  - It isn't needed: the sequence is already inside ±5% of the target.
+  - It gives Youssef his ironic line shortly before his death (Audit item 1).
+  - It is the sequence's only laugh during the shabti wave.
+
+### Unchanged (other sequences depend on these)
+- **Deaths:** Youssef and Karim, by the last boxes, clear of the sand. Kill grammar is intact.
+- **Props:** Tarek holds two ID discs (Seq 11 opens on them). The pigment is spent. The notebook is in Tut's jacket. The core goes north with the Reis.
+- **Wardrobe:** the torn hood and the knee, stated "bad knee straight out" at the exit, matching Seq 11's opening line.
+- **Time:** Saqqara runs 20:00–22:30.
+- **Census:** 79%.
+- **Cards:** FOURTH HOUR and FIFTH HOUR.
+
+### Superseded statements earlier in these notes
+- The **Word count** line and the Audit **Length** paragraph are superseded by the 2,234 above.
+- The scene-list and Beat-compliance mentions of "Tell it we're all present" still stand. The mentions of Fathi's du'a (scene 4), "Three on the stair", the 24 boxes / 62 t, "It put that in me while I slept", "Nour's story", "Meaning?" and the thermal POV no longer apply.
+- Compliance "Tut's rule" now reads as follows:
+  - a temple tap on the Cambyses box and on the hidden-god line;
+  - "They ran out of centuries. This I know from it." spoken;
+  - Bremner-Rhind unmarked, because Tut knows the rite himself.
+- Compliance "Units": SESHAT's hunt line is now "The others are residual risk. Thank you for your patience."
+- END STATE / Adaeze: she threw the **half-empty** (only) jar, and the pigment is spent.
+- END STATE / Tut: the seam cracked this sequence is the **left** knee.
+- Audit item 4: the Reis re-description was cut from this sequence (pace 13), and Seq 9's description governs.
+
+### Fountain and rules check after the edits
+- **Fountain syntax:** boneyard, headings, cues, the `(V.O.) (CONT'D)` extension, parentheticals, `SUPER:`, `>` transitions and `[[ ]]` notes are all valid.
+- **`[[verify]]` notes:** three remain, consolidated: the Amduat hours (on the FOURTH HOUR card), Philae AD 394, and the Giza sightline.
+- **Banned words:** none of shot, blood, wound, kill, organ or severed appears.
+- **Minors:** Layla appears only in the approved image, and no unit is in frame.
+- **Remains:** the heart still appears only as "the glow through his tunic" and "a heart in glass".

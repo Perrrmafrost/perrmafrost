@@ -243,3 +243,77 @@ PG-13 and kill grammar are unchanged and clean. No brands. The only real living 
 4. **Nebra as "a farmer's calendar"** is the bible's interpretive verdict. The research gives the Sun/Moon, crescent and Pleiades only.
 5. **"Aman Dawu" (Nobiin)** and **lantern night-fishing** are unverified and need the consultants.
 6. **A shabti climbing a hair-thin fibre** is physically implausible. It is bible-mandated and played as uncanny ("It should not hold. It holds.").
+
+---
+
+## Editor pass (whole-script review)
+
+This section is the latest record. Where it conflicts with anything above, this section wins.
+
+**Word count** (`wc -w` on the whole file, including the boneyard and `[[ ]]` notes):
+- **Before:** 2,332.
+- **After:** 2,295.
+- **Pace target:** about 2,267, with ±5% allowed (2,154–2,380). The result is +1.2% over target, inside the allowance.
+- Of the 28 words over target, 25 come from the consolidated ephemeris `[[verify]]` note. That note does not print. The printed text is within about 3 words of the pace reviewer's figure, so the lines added by the voice and facts reviews are offset one for one.
+- The file parses in screenplain and has 11 scene headings, the same as before.
+
+### Applied
+**Pace (must).** All nine cuts:
+1. Dagger: "gold hilt, rock-crystal pommel" cut. It now reads "the DAGGER: iron that fell out of the sky."
+2. COMP "LAYLA" on the pendant cut. The line is now "He gives it back. Looks up. Frowns." (two action lines merged).
+3. TAREK "Minimum force." deleted.
+4. The Set quotation removed from the adze line. See the conflict below for the final wording.
+5. The party-lights simile cut, leaving "blinking in the leaves." Rami's "My cousin's wedding." now carries the joke alone.
+6. Wardrobe line compressed: "Tut in the jacket over a cut-down tunic and Karim's spare cargo trousers." T-B is still complete.
+7. "Fathi nods, satisfied." deleted. Tut's reply and "Where is she?" are merged into one speech with a `(beat)`, which removes a back-to-back TUT (CONT'D) cue.
+8. TAREK "If it talks, we listen." deleted. "Tarek clips the handheld to his vest." stays, and so does SESHAT "(from Tarek's vest)".
+9. The last-priority cut: RAMI "I started this list when I was nine." / TUT "(hiding the trembling hand) A good age for questions. Ask." deleted. The tremor still shows at the cut and at Amarna.
+
+**Voice (must).** "From it" tics reduced; only "All of it, from it." remains:
+- Sopdet: "In your hours, from it:" became `(two fingers to his temple)` followed by "In your hours: …".
+- Orion: `(taps his temple)` added and "From it." cut.
+- Seventy days: "From it." cut.
+
+**Voice (should).** "Ya Malik" removed from "It's all sand in there!". "And our God, ya Malik?" is the one kept.
+
+**Facts (should).**
+- The adze line is corrected. See the conflict below.
+- Setne vs Naneferkaptah: "The prince who found it first was told it lay 'in the middle of the river at Koptos, in an iron box.'"
+- COMP rule: "Tarek's satellite watch won't settle (COMP): …".
+
+**Facts (could).** The duplicate `[[verify: ephemeris]]` notes are merged into one specific note under Sopdet. The second note, under the Meskhetiu shot, is deleted.
+
+**Extra flab cut** to pay for the added words:
+- "gone soft with age" (the paper chart);
+- Adaeze's "(quietly)".
+
+### Conflicts resolved
+- **Adze line: facts (should) vs pace cut 4.**
+  - The facts fix adds words: "bore its name, Meskha, and its blade was 'the iron that cometh forth from Set.'"
+  - The pace fix removes the Set quotation, its fourth use in the script.
+  - Facts outrank pace, but one line satisfies both: **"The adze they opened me with bore its name: Meskha."**
+  - The adze is now named correctly (Budge's Meskha instrument, named for the Great Bear [04 §2, §12]). The Set iron phrase is no longer mistaken for the name, and the repeated quotation is gone.
+  - Set is still carried by "Of Set. An adze of stars." and by Nour's Plutarch line.
+- **Ephemeris note wording: facts/continuity vs the reviewer's suggested text.**
+  - The suggested note said "the Great Bear low in the north".
+  - This file's audit (§2 above) computed Dubhe at about 40° and Alkaid at about 17°, in the NE–NNE, and dropped "low in the north" from the script for that reason.
+  - The note now asks to verify what the page actually claims: Sirius on the meridian c. 03:40, about 2.5 h before sunrise, and the Great Bear "standing on end" in the north-east before dawn.
+
+### Skipped
+None. Every seq 6 issue was applied, some as adapted above.
+
+### Not changed (other sequences depend on these)
+- SUPER times: 03:40, 05:10, 12:04.
+- The port-to-scar cut, the G0 stutter, the foot stall and the right-hand tremor stilled with the left (Seq 7's opening no longer repeats it).
+- The stopwatch goes to Tomas, the binoculars to Nour, the handset to Tarek's vest and the notebook stays with Rami. The pendant goes back to Nour.
+- SESHAT's "Units never harm the witness. They remove everyone around him." stays verbatim (bible §3.1). The Seq 11 review changes only Seq 11's echo of it.
+- The fibre-drone exposition stays here; Seq 9 drops its repeat.
+- No deaths. Kill grammar and PG-13 are unchanged, and no banned vocabulary appears.
+
+### [[verify]] notes now inline (6)
+- the Asyut lock;
+- the ephemeris, consolidated;
+- lantern night-fishing;
+- Fairall 1999;
+- the Nobiin name and its gloss;
+- the *itrw* transliteration.

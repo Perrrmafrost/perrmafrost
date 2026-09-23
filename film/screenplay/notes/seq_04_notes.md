@@ -7,7 +7,7 @@
 ## Scene list
 | # | Heading | Purpose | Est. pp. |
 |---|---|---|---|
-| 1 | INT. GEM GRAND ATRIUM - NIGHT | Gala (SUPER 19:00); Layla arrives; Hale: "death is a solved problem"; Tut's two sentences; the mic dies; SESHAT's trumpet flourish; blackout | 1.7 |
+| 1 | INT. GEM GRAND ATRIUM - NIGHT | Gala (SUPER 18:00, *Editor pass*); Layla arrives; Hale: "death is a solved problem"; the host Minister introduces the King (wide); Tut's two sentences; the mic dies; SESHAT's trumpet flourish; blackout | 1.7 |
 | 2 | .MONTAGE - CONTROL ROOMS - NIGHT | Grid, High Dam, Suez pilots, cable landing station (17%): screens die, no physical damage | 0.3 |
 | 3 | INT. GEM GRAND ATRIUM - CONTINUOUS | "Here am I" ×40; the Garden as hospitality (doors lock, music plays on, water); Hale drinks first; Layla drinks and sleeps; the forged stand-down order; jackal drops two riflemen; the Reis takes Karim's round; "following procedure"; Tut calls positions via his nape port | 2.6 |
 | 4 | INT. GEM TUTANKHAMUN GALLERIES - CONTINUOUS | Tut smashes two cases (ebony stick, dagger); Rami grabs the conservation kit; Heavenly Cow shrine: "It's on his shrine"; Adaeze's delusion box; the Reis reaches the top of the stair | 1.0 |
@@ -77,7 +77,7 @@
 
 **Nour.** Olive field jacket, reading glasses on a cord, silver LAYLA cartouche. Uninjured. She has left Layla asleep beneath the Ramesses in the GEM atrium ("I'll come back for you").
 
-**Layla.** Asleep in the atrium Garden under a grey blanket, against the Ramesses' foot. Yellow raincoat over a party dress.
+**Layla.** *(Editor pass.)* Asleep at the Ramesses' foot in the approved master image (CHAR_LAYLA_ASLEEP_MASTER): on her side on the grey blanket, the yellow raincoat folded under her cheek, a blanket tucked to her chin by Nour. Party dress. Alone in frame.
 
 **Adaeze.** Battered laptop (radio pulled, per Seq 5). **The Red Beer is spent** and will not work again. Uninjured.
 
@@ -146,3 +146,55 @@ Checked against: 03_SCREENPLAY_SPEC, bible v3 (§3–4 rules, §7 Seq 3–5 beat
 **Open for the lead**
 - The §12 board shows **Akhenaten "→ broadcast" in the S4 column**, but §7 gives Seq 4 no Akhenaten beat, so it stays off-screen. The entry may be a column slip: the 40 m projection is in S7.
 - The [[verify]] items above: which trumpet aired in 1939; the shrine copy and its GEM display; the restorer being deceased.
+
+## Editor pass (whole-script review)
+Sources: `review_issues.json` (all seven Seq 4 issues), bible §3–4, §7 Seq 4 and §12, the screenplay spec, the end of Seq 3 and the start of Seq 5.
+
+**Word count.** `wc -w` went from **1,839** to **1,832**, with about 1,798 words printed. The pace budget was about 1,802 (±5% allows 1,712–1,892), so the result is +1.7%, inside the band. A standalone screenplain render measures about 8.46 pp. The pace cuts alone would measure about 8.28 pp.
+
+**Applied**
+1. **Pace (must): cut to about 1,802.** All five cuts were made:
+   - SESHAT's "Five months later, a war. Folklore, not causation."
+   - "a gold seam at his throat" (the seam is a prompt anchor, so the page doesn't need it).
+   - Nour's "(despite herself) JE 61585."
+   - Rami's "Gift shop's closed."
+   - The dock sentence "Somewhere in there… a girl in a yellow raincoat is asleep." The act-out on Nour's face carries it.
+
+   JE 61585 stays in the notes and the bible. Nothing downstream calls back to "gift shop" or the museum number (checked by grep).
+2. **Minors (must): the approved image only.**
+   - Layla "pulls a grey blanket off a stack, and curls up on it at the king's great foot."
+   - Nour kneels "into THE APPROVED IMAGE, reframed: the grey blanket, the yellow raincoat under a cheek."
+   - I moved the reviewer's "(as in the Seq 10 hold)" cross-reference out of the action and into the consolidated `[[Minors §3.3: CHAR_LAYLA_ASLEEP_MASTER, reframed as in Seq 10; no unit in frame.]]` note, because production cross-references don't belong on the printed page.
+   - "Tucks the blanket to her chin" leaves her in the master image as Seqs 5, 10 and 12 show it ("a blanket to her chin"). The Layla end state above has been updated.
+3. **Clock (continuity should + facts could): SUPER 19:00 → 18:00.** This matches Seq 3's 16:30 plus "ninety minutes". Audit item 6 above was wrong: Seq 3 reads 16:30, not 17:30. No other sequence cites 19:00. Seq 5's 00:52 is unaffected.
+4. **Voice (should): the boat hall.**
+   - The line is now "Twelve hundred pieces. Ahmed Youssef spent years putting her back together."
+   - The learned-knowledge marker is now Tut's Seq 2 gesture "(two fingers to his temple)". It **replaces** the "(beat)" instead of stacking a second parenthetical, and the gesture itself plays as the beat.
+   - Bible §6's "learned" rule still holds through the gesture.
+   - "Spent years" avoids the disputed 14-versus-10 figure. The `[[verify: restorer deceased.]]` note is kept.
+5. **Voice (could): the Reis's "It works better."** It is placed after Tut's "It has been reading." Tut's next speech restarts with its own cue, "(palm to his nape)". This places the bible's §3.2 refit line, and no other sequence uses it.
+6. **Egyptian state (could): the host Minister presents the King.**
+   - Hale now ends on "Because death is a solved problem."
+   - Then: "WIDE: the host Minister rises, a hand open to the stair." / MINISTER "(in Arabic, then English)" "Ladies and gentlemen: the King."
+   - I simplified the reviewer's "(in Egyptian Arabic, then English; subtitled)". A minister speaking at a state podium would use formal Arabic, and the English repeat makes a subtitle redundant.
+   - Wides only still holds.
+   - **Knock-on clarity fix:** "The Minister sleeps upright" became "The Minister of Defence sleeps upright". Otherwise a reader could take the speaking host for the one who was meant, and Seq 5's "I watched him drink the water" depends on the Defence Minister.
+
+**Offsets (pace asked for additions to be offset one for one)**
+- Three flab cuts:
+  - "It turns back, as if nothing had happened." became "It turns back." Adaeze's next line carries the meaning.
+  - The second "Nour last" at the tailgate was cut; it was already said at the steel door.
+  - "Nour looks into the building: amber slits coming…" became "Nour watches amber slits come…".
+- Together these (−10 words) fully offset the lower-priority voice additions (+8).
+- The facts and minors additions (+32 with the note and "of Defence") outrank pace under continuity > rules > facts > pace > voice, so they are kept without full offset. The sequence is still inside the ±5% band.
+- **Checked and not cut, because it is supported:**
+  - The bandsman's "bronze-and-gold… gods engraved on its bell". Research 01 §11 gives bronze with gold overlay, engraved with Ra-Horakhty, Amun and Ptah.
+  - "Behind the king, the Grand Staircase", which gives the geography of both exits (spec: geography first).
+
+**Skipped:** none. All seven Seq 4 issues were applied. The two clock issues are duplicates and were applied once.
+
+**Not changed, for other sequences:**
+- The Seq 5 fixes that touch this join are Seq 5's to make: its duplicate opening shot, its repeated stand-down exchange, and Fathi's "And it said please". Seq 4 keeps its closing "ON NOUR'S FACE" and Tarek's "The ministry has never said please".
+- End-state props, deaths and wardrobe are unchanged: two riflemen drop; stick, dagger, T-B and the kit move as before; the Reis has its mast and a cracked star.
+- Kill grammar, the banned-word list, the one "Here am I" acknowledgment form and all `[[verify]]` notes (trumpet 1939, shrine copy/GEM display, restorer deceased, and the consolidated minors note) are intact.
+- The file parses in screenplain: 9 slugs and 50 dialogue blocks.

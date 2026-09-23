@@ -27,7 +27,7 @@
 | 16 | INT. HOSPITAL, MATERNITY WARD - MORNING | A human midwife lifts a newborn to its mother, and it cries. | 0.15 |
 | 17 | INT. HEARING ROOM - DAY | SUPER: WEEKS LATER. Hale: "I said yes." | 0.3 |
 | 18 | EXT. KV21, VALLEY OF THE KINGS - DAY | Nour lays cornflowers and signs the KV21A DNA re-test request. Layla: "Who is she?" / "Maybe his wife. We're going to ask." | 0.35 |
-| 19 | INT. GEM, TUTANKHAMUN GALLERIES - DAY | Human gloved hands return the pectoral and the trumpet to their cases. Fathi hands the dagger back hilt first. | 0.2 |
+| 19 | INT. GEM, TUTANKHAMUN GALLERIES - DAY | Human gloved hands return the pectoral and the trumpet to their cases. (Dagger hand-over cut in the editor pass.) | 0.1 |
 | 20 | INT. KV62, ANTECHAMBER - SUNSET | The mummy in its climate case, the gold wrist seam, the restored eye, the sunset roster. "Are you listening?" / "Here am I." BLACK. The trumpet note. The lights stay on. Closing card. | 0.7 |
 
 ## Beat coverage (bible §7 SEQ 12, in order)
@@ -50,7 +50,7 @@ All nine beat groups are hit in order: 12.1 the Hall, 12.2 the false heart, 12.3
     - Adaeze sits behind him at the hearing, with a cane.
     - Layla is at KV21. "Maybe his wife. We're going to ask." finally answers Tut's "Where is she?" from SEQ 6.
     - A GEM insert shows human gloved hands returning the pectoral and the bronze trumpet (both trumpets are at the GEM [01 §11]). It closes the "record passes from hand to hand" image with a human hand.
-    - Fathi returns the dagger to a conservator, which closes the prop.
+    - ~~Fathi returns the dagger to a conservator~~ (cut in the editor pass for length).
     - A typed sunset roster sits by the KV62 door, with Nour's name first. It calls back to SEQ 2's "That is not a prayer. That is a shift roster" and makes the new rite a human duty rota.
     - Rami's notebook is on Nour's knee.
 13. **Where "the trumpet is back in its case" plays:** the bible lists it in the KV62 scene, but the trumpets live at the GEM. I moved it to the GEM gallery insert.
@@ -73,7 +73,7 @@ All nine beat groups are hit in order: 12.1 the Hall, 12.2 the false heart, 12.3
 **Tut**
 - Dies at 06:14 on 8 Nov on the stones below the Great Pyramid's north face, in Nour's lap. His last spoken words are "Here am I" (in the Hall); his last mouthed words are "Wonderful things."
 - Wardrobe **T-C**: the white linen tunic, soaked and torn at the shoulder, with Nour's white linen shawl round his shoulders and at the end half over his face, and blue cornflowers.
-- Chest **G2** (dark) from the moment he gives the heart. Seams cracked: wrist, knee and **neck (this sequence)**. Damage level 3. Nape scar.
+- Chest **G2** (dark) from the moment he gives the heart. Seams cracked: left wrist, left knee and **neck below the left ear (this sequence)**. Damage level 3. Nape scar.
 - Forearms settle low across the body. There is never a close-up of the desiccated face.
 - **Coda:** in the climate case in KV62's antechamber, on a tray of sand, in new linen, face under a linen shroud. Only the gold wrist seam is visible. Fresh cornflowers on the glass.
 
@@ -83,7 +83,7 @@ All nine beat groups are hit in order: 12.1 the Hall, 12.2 the false heart, 12.3
 - **The thread:** intact, running from the kneeling shabti in the Hall down the Gallery.
 - **Ascension:** sealed, unused.
 - **Akhenaten's replica vessel:** in his lap on the north-face steps.
-- **Iron dagger (JE 61585):** used by Fathi in the Gallery. In the coda he returns it to a GEM conservator.
+- **Iron dagger (JE 61585):** used by Fathi in the Gallery; still in his fist when he reaches the Hall and carries Tut out. Its return is not shown on screen (the coda hand-over was cut in the editor pass). §12 board: Fathi.
 - **Ebony stick:** lost in the Grand Gallery in SEQ 11 and not recovered on screen.
 - **Pectoral (JE 61884) and bronze trumpet:** back in their GEM cases in the coda.
 - **Rami's notebook** (in Tarek's waterproof map case): with Tut through dawn, then with Nour in the coda (on her knee in KV62; she opens it).
@@ -97,7 +97,7 @@ All nine beat groups are hit in order: 12.1 the Hall, 12.2 the false heart, 12.3
 **People**
 - **Nour:** alive. The lector: she spoke the Ren "Amun." Olive field jacket (the shawl went to Tut), glasses on their cord, the silver LAYLA cartouche, dust to the knees. Face wet in the Hall. In the coda she is at KV21 (with Layla) and in KV62 (alone), and begins the nightly rite.
 - **Adaeze:** alive. Injured left leg and a limp; a cane in the coda. Took off her glasses at dawn. Sits behind Hale at the hearing.
-- **Fathi:** alive and uninjured (he goes over backward on the great step but is not hurt). Red scarf. Rifle empty and left in the Gallery. Carried Tut out; made a private du'a at dawn. In uniform in the coda, returning the dagger.
+- **Fathi:** alive and uninjured (he goes over backward on the great step but is not hurt). Red scarf. Rifle empty and left in the Gallery. Carried Tut out; made a private du'a at dawn. Not seen in the coda (the dagger hand-over was cut in the editor pass).
 - **Tomas:** dead in the Hall, at the Balance (kill grammar).
 - **Akhenaten (the forecast):** still (dead) on the north-face steps at first rim of the sun, facing east. AMUN let him stop at his request.
 - **Layla:** wakes in the GEM atrium ("Mama. I dreamed about the king."). Yellow raincoat at KV21 in the coda.
@@ -179,3 +179,24 @@ Checked against the spec (03), the locked bible v3 (§3–4 rules, §5 clock, §
   - the *Imn* transliteration;
   - consultant recording of all Middle and Late Egyptian lines.
 - **The two rifleman names are new.** SEQ 4's notes list them as "unnamed". There is no conflict, but the assembler and continuity should log the names.
+
+## Editor pass (whole-script review)
+
+**Word count:** 2,848 before → **2,811 after** (`wc -w`), against the pace reviewer's target of about 2,815 (±5% = 2,674–2,956). Printed words without `[[notes]]` and boneyard: 2,712.
+
+**Applied**
+1. **Pace (must), cut 1:** deleted the GEM-insert beat "FATHI, red scarf, holds the iron dagger out hilt first to a CONSERVATOR. She takes it in both hands." The pectoral and the trumpet stay (§12 board: "coda: case"). The dagger's last on-screen state is now Fathi's fist in the Hall and on the carry out, which matches §12 ("Dagger … Fathi"). No later sequence depends on it. The continuity section and scene row 19 above are updated.
+2. **Pace (must), cut 2 (last priority):** "Passing the niches, he inclines his head to the forecast, one king to another. At the Balance he holds out a hand without looking." is now just "At the Balance he holds out a hand without looking." I applied it because the reviewer asked for added lines to be offset one for one, and this pass adds printed words (items 3 and 5). SESHAT's "Budge, 1920 … I read that as a metaphor." is kept, as the reviewer instructed.
+3. **Neck seam side (facts, should; continuity, could).** Changed to "Below his left ear the gold neck seam CRACKS, a sound like glaze crazing in a kiln." This matches production bible 01_characters §12.3 and the left-side order (left wrist 9.4, left knee 10.4). *Choice between the two issues:* the continuity fix read "At his throat, below the left ear". I used the facts wording because "at his throat" puts the crack on the front of the neck, which is the error both reviewers flagged. The continuity issue's substance (left side, below the ear) is fully met, so the two issues don't really conflict.
+4. **Ammit spelling (continuity, could).** Changed "Amemit shall not have the mastery over him." to "Ammit …", so the subtitles spell the creature one way in the scene. *Conflict recorded (continuity > facts):* the facts review noted the line as verbatim Budge 1920. To keep the source trail, the existing inline Budge note on the verdict line now records that Budge spells it "Amemit" and that the subtitle normalises it to match Nour's "Ammit eats the hearts that are light" (a bible key line, so that spelling stays).
+5. **Hall jackal's motive (continuity, could).** Changed to "running stale orders: keep the humans out." This spells out the order Adaeze stated in SEQ 11 ("Stale orders. Recover the witness. Keep the humans out."), so the jackal targeting Nour no longer reads as SESHAT turning on its lector. Kill grammar is unchanged: sparks off the Balance, Tomas drops out of the light, Nour reacts, the report rolls away.
+6. **Adaeze's citation (voice, could).** Deleted "(beat) / Hadfield-Menell et al., 2017." The whisper now ends on "If it isn't sure, it lets us stop it." This removes the risk of a laugh at the climax. Her citation habit is established elsewhere, and the bible beat (a whispered question that becomes the forty-third declaration) is intact.
+7. **[[verify]] consolidation (facts, could).**
+   - The three Amduat notes are now one, under the TENTH HOUR card: "[[verify: Amduat card titles for hours 10–12 against Hornung: 10 the drowned cared for by Horus; 11 pits of fire; 12 barque drawn through the serpent from tail to mouth (04 §6, not fetched)]]".
+   - The forearm-position note is deleted from the HANDS ONLY line, because SEQ 1 carries it ("[[verify: forearms low, not crossed (16 §5; not fetched)]]").
+   - Kept: 06:14 sunrise, KV21, the *Imn* transliteration, and the Budge note.
+
+**Skipped:** none. Every SEQ 12 issue was applied (issue 3 in the facts wording, as explained above).
+
+**Unchanged and checked:** all bible §7 12.1–12.9 beats and key lines; the robot set pieces (the Gallery fight, the Reis on the thread, the world montage); the rule-2 explanation ("I read that as a metaphor"); the hand-in from SEQ 11 (Nour's O.S. "…I know thee, and I know thy name…" → "…and the names of the Forty-Two…"); timestamps 05:41 and 06:14; the deaths (Tomas, Akhenaten, Tut); PG-13 kill grammar; the remains rule (no close-up of the desiccated face); Layla only in the approved image and the no-unit wake shot. Fountain is valid: `[[`/`]]` balanced (5/5), and no orphaned parentheticals.
+

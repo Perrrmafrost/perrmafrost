@@ -257,3 +257,52 @@ Robot-action register items #8 (the rail yard), #9 (the night train), #10 (Deir 
 - Every `[[verify]]` item above and in the list earlier in these notes: the Ptolemaic "Scales" term; the Dayr Abu Hinnis wording and quarry stone; the KV55 20–25 figures; EA 16 against Moran 1992 (the bible names Moran, but research quotes a secondary source); the Deir Mawas station and ferry; ETCS behaviour; air-brake mechanics; the 06:14 ephemeris behind "Thirty-four hours".
 - Tarek's line "My father drove these, Aswan to Cairo" is invented backstory. Other writers should flag it if it clashes.
 - The 1332 BC bridging uses the disk's own arm up the Queen's Chamber shaft, so an arm about 63 m long. This is in-world fiction, not shown in full, and rhymes with SEQ 11's inch-worm. The SEQ 11 writer should confirm there is no clash.
+
+---
+
+## Editor pass (whole-script review, senior script editor)
+
+**Word count (`wc -w seq_09.fountain`):** 4,093 before, **3,861 after**. The pace reviewer's target is about 3,852 (±5%: 3,659–4,045), so this is on target. The pace cuts removed 241 words, and the voice and continuity fixes added back 9. Fountain lint: 26 headings (was 27), all with blank lines around them; no orphan parentheticals; `[[ ]]` notes balanced; one forced transition; centred end card. Scans find no shot, blood, kill, organ, severed, open chest or wound, and no "ya Malik".
+
+### Applied
+**Pace (must): the full 11-point cut list.**
+1. The Luxor East Bank landing scene is deleted. Seq 8 already hands off on the boat with "The railway yard." Seq 9 now opens directly in the rail yard at `SUPER: 6 NOVEMBER. 11:20.`
+2. Tarek: "My father drove these, Aswan to Cairo." is cut. This also resolves the open flag about invented Tarek backstory (deviation 16 and "Still open").
+3. Adaeze's fibre-drone line is cut (Seq 6 already explains it). The carriage scene keeps the fly holding station at Tut's face.
+4. Adaeze: "We're lanterns now." is cut, along with Tut looking down at the ember. SESHAT's "I have switched to thermal", after the thermal POV, now carries register #9's cost.
+5. At the derailment: "Nobody missing" stays, and Tarek's first shoulder-count is cut. The count is kept for Amarna ("Six.").
+6. The ferry's "house that has left its lights on" simile is cut.
+7. After the match cut: Nour's "Where were you?" and Tut's retelling of the memory are cut.
+8. "The numbers are right." is cut. "Tut has no answer." stays.
+9. SESHAT: "His were difficult." is cut. The Karnak lip-reading mechanism stays whole.
+10. At the quarry: "Ancient chisel marks, fine as combing" is cut, along with the whole non-bible Year 16 red-ochre inscription (Tut reading the pillar; "She was still his wife..."). Its `[[verify: Dayr Abu Hinnis...]]` note is gone with it, so verify item 2 above and deviation 13 are retired. The closing "first sun" image stands alone.
+11. Plan A: "Any shabti that touches that seal stops." is cut (Seq 8 shows the rule). "The serpent and the name. We seal the core the way they sealed him." stays, with the nod at the glow, so bible 9.9's "halt-seal shows the way" is still on the page.
+
+Also kept, as the pace reviewer instructed: SESHAT's "JAMA, 2010" rebuttal.
+
+**Voice.**
+- **Must.** SESHAT's parting line "You were sent to it." is now "Please take care of your heart." It is courteous, not a needle, and still implies SESHAT expects him at the Horizon, which is why it releases him. It also chills: it has just said "I will keep a second heart close". Deviation 7's last sentence is superseded.
+- **Should.** Akhenaten's numbers speech is rewritten as hymn: "The dead of my city were opened to the sun. Of every ten, nine had not seen twenty-five floods. Most had not seen fifteen. Children, carrying my stones up to the light." The figures are unchanged from research 02 §10 (>90% under 25, most under 15). Verify item 13 now refers to this phrasing.
+- **Should.** Fathi: "Ya Malik. Where?" is now "Where now?"
+
+**Continuity (could).** The Reis's stump now reads "at its right wrist", matching Seq 7's "takes the Reis's right hand".
+
+**Facts and rules (could).** Tut's crack now reads "the gold seam at his own left wrist", stating the locked LEFT wrist (9.4) on the page.
+
+### Skipped
+None. Every Seq 9 issue in every lens was applied.
+
+### Conflicts and choices
+- **Pace cut 8 vs the voice hymn rewrite.** The hymn diction makes the figures sound less like a report, so the reader cue "The numbers are right" becomes more useful. The two issues do not strictly conflict, and pace ranks above voice, so I applied the cut. The "right about the numbers" beat is still on the page: the speech keeps the real figures, Adaeze cites Dabbs & Stevens just before, and Tut is silent.
+- **Word budget.** The voice and continuity fixes added 9 words, all within the ±5% band, so nothing else needed offsetting.
+
+### What this pass did not change
+- No change to any beat, set piece (register #8–#11), key line, ledger explanation, death, prop, timestamp or end state.
+- The hand-offs hold. Seq 8's boat and "The railway yard" lead into the rail yard at 11:20. The quarry, the party of six, the truck under the tarp, the PLAN A card and Q.100 answered but not written lead into Seq 10.
+- The CONTINUITY AT END OF SEQ 9 section above is unchanged, except that the Reis's stump is now explicitly the RIGHT wrist.
+- Superseded bookkeeping above:
+  - the scene list row 1 (the landing scene) and the "Time span" start: the sequence now starts at 11:20 on 6 Nov;
+  - the scene list row 26, which quotes the old parting line; it is now "Please take care of your heart.";
+  - the scene 8 and 13 purposes (fibre line, "lanterns");
+  - the scene 27 purpose (Year 16 inscription);
+  - verify items 2 and 16, which are no longer on screen.

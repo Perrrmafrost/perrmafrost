@@ -128,3 +128,34 @@ All six bible beats for SEQ 3 are present, in order, with the verbatim lines. Th
 - **Seq 4 re-introduces the Reis** in the full first-appearance form ("THE REIS: a shabti built to two point two metres, a black band across its slit…"). It works as a refit reveal with Tut's "It has been reading". The Seq 4 writer or the lead may trim it to "THE REIS, refitted: …" so the two intros don't read as duplicates.
 - **[[verify]] items still open:** the Southampton key image, the Göbekli T-pillar arms and hands, the Atrahasis printed wording, and Cairo sunset on 4 Nov 2033 against the 16:30 Council and ~18:00 unveiling. Language lines need consultant recording.
 - **"Like a communion plate"** is the bible's own simile and is kept. The lead may want an image that isn't Christian for an Egyptian sacred object; one option is "like an offering tray".
+
+## Editor pass (whole-script review, senior script editor)
+
+Source: `screenplay/review_issues.json`, every issue with `seq == 3` (pace lens: 1 must; facts/rules lens: 1 must, 1 could). Checked against bible §7 SEQ 3, §3–4, §12 and §14.5, the spec, the end of Seq 2 and the start of Seq 4.
+
+**Word count (wc -w, whole file):** 1,829 before, **1,769 after**. The pace target is about 1,766, and the ±5% band is 1,678–1,854. Script words without the boneyard and `[[ ]]` notes: 1,792 before, 1,732 after.
+
+### Applied
+1. **Mouthed subtitles are now COMP (facts/rules lens, must; spec + §14.5).** All three of Tut's mouthed Late Egyptian lines are now `COMP (subtitle; mouthed Late Egyptian, no sound): …` action lines, not TUT dialogue blocks: "Do not let it read.", "It is leaving out the end." and "It asked the gods too." The close-ups around them stay (CLOSE ON HIS MOUTH / TUT'S MOUTH, CLOSE ON NOUR'S EYES, and "Tut's lips move, for her alone"). The `[[ADR: lip-sync…]]` note stays under the first. They can no longer be recorded as voiced ADR, which protects the lip channel and Seq 9's "he did not say he was tired".
+2. **Pace cuts (pace lens, must): all eight, applied as specified.**
+   - (1) "Nour doesn't blink. Nobody corrects it." is now "Nobody corrects it."
+   - (2) Nour's line is now "Then he rests. And JE 61884 stays in its case. It moves on my signature." "It belongs to the State." and the Hale "Then sign." / Nour "No." exchange are cut. Her refusal still reads through "It moves on my signature" and SESHAT's "Your objection is noted", so deviation #1 (the signature Tarek enforces) holds.
+   - (3) Nour's "Colonel. Nothing leaves the galleries." is cut, and "Nour grabs a radio." stays. Tarek's bible line in the tunnel now carries the order alone.
+   - (4) The `.INTERCUT - IMAGING LAB` / `.BACK TO THE TUNNEL` pair is gone. It is replaced by `NOUR (V.O.)` `(over Tarek's radio)` "It's not hurrying.", in the same `(over radio)` form Seqs 6–9 use. The Pectoral Walk now plays unbroken. The bible beat "Nour on the radio" is intact.
+   - (5) The two-image COMP now reads "Rami puts up two images (COMP): the Southampton disc's etched key, and the scarab under macro, …". The `[[verify: Southampton key image]]` note stays; it now covers the COMP approximation described in "Real facts used" above.
+   - (6) At the Council, SESHAT's "Dr. Lindqvist?" and "Dr. Kamel?" are cut. Tarek, Tomas and Nour now say their "No." in a quick roll. All bible votes, "You're logging", Hale's "…Yes." and "One is sufficient" are kept.
+   - (7) Rami's "It said please. (beat)" is cut, and the line is now "The tall one. It was waiting for me."
+   - (8) Nour "(low) Two sentences." / Tut "Two." is cut. The TUT. 2 SENTENCES card and Nour's two fingers carry the beat, and Seq 4 opens on Nour's "Two sentences." to Layla. The sequence now ends on "Tut plants the cane and stands. / CLACK. CLACK. He walks toward the music."
+3. **"Like a communion plate" is now "like an offering tray"** (facts/rules lens, could; §13 localisation). This was the alternative these notes had already offered the lead. It is a clear improvement: it is not a Christian liturgical image, and the count is unchanged. The bible's §7 wording is a simile, not a key line.
+
+### Skipped
+- Nothing from the Seq 3 issue list was skipped.
+
+### Conflicts and cross-sequence checks (priority: continuity > rules > facts > pace > voice)
+- **No issues conflicted.** The COMP change adds 3 words and the pace cuts take out 63, so the result is still inside the pace band.
+- **The "please" chain (lens 1, Seq 5 issue):** cutting Rami's "It said please" takes out the first of three uses. Seq 4's "The ministry has never said please." does not depend on it: it answers the staff officer's own "Please acknowledge." The Reis's "Please don't. It would increase suffering." stays, so its courtesy still shows on the page.
+- **The clock (lens 0 and lens 3, Seq 4 issues):** Seq 3 keeps "SUPER: 4 NOVEMBER. 16:30." and "ninety minutes" unchanged, which gives an 18:00 unveiling. The fix belongs to Seq 4 (19:00 becomes 18:00), and Seq 3 needs no edit.
+- **Timestamps, props, deaths and injuries are unchanged.** The pectoral goes from its case to the lab. The Reis has no mast and is undamaged. Rami's left hand has two fingers splinted. Tut is at G0 with his port, T-A, and the aluminium cane. Hale is gone to the lectern. The end-state table above still holds.
+- **Rules are unchanged.** No deaths. The only weapon is at the unit's back. The finger break is an off-screen crack. There are no minors, only empty cradles and a reed toy. No remains or organs are shown. The units never run. "Here am I" is untouched.
+- **Fountain:** two forced headings are removed. One forced heading (`.THE FIRST TIME - INSIDE THE GLASS`) and two transitions remain. The three COMP lines have mixed case, so they parse as action. No CONT'D is needed after the cue cuts. The three `[[verify]]` notes (Southampton, Göbekli, Atrahasis) and one `[[ADR]]` note are kept, with no duplicates.
+- **Payoffs re-checked:** Seq 7's "whoever would ascend must first be weighed", Seq 9's "he did not say he was tired" and Seq 11's reading glasses all still have their setups here.

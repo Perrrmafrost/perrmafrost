@@ -114,3 +114,29 @@ Sources checked: `03_SCREENPLAY_SPEC.md`, `04_CRITIQUE_DECISIONS.md`, bible v3 �
 ### Flags for the lead or other writers
 - **Tut's wardrobe:** Seq 4 leaves him in the T-A gown under the T-B jacket, with no cargo trousers. The bible's board says T-B for S5–6, so Seq 6 should complete T-B. The Seq 5 page shows only the jacket, so nothing contradicts it.
 - **Census numbers:** 22% in the truck, then 23% at the dock (Seq 5); 79% (Seq 10); 94% (Seq 11); §5 cites "sixty-one percent". The continuity pass should check the curve is monotonic across Seq 6–9.
+
+## Editor pass (whole-script review)
+Sources: `review_issues.json` (all four lenses, every issue with seq 5), bible §3–4, §7 SEQ 5 and §12, the screenplay spec, and the Seq 4 end and Seq 6 start. **Where this section conflicts with anything above, this section wins.**
+
+**Word count:** 1,369 → **1,286** by `wc -w` on the whole file. The pace reviewer's target is about 1,266 (±5% = 1,203–1,329), so the result is +1.6%, inside the band. The file still parses as valid Fountain in screenplain.
+
+### Applied
+1. **Pace (must), cut 1:** deleted the opening "NOUR'S FACE, as we left it…" because Seq 4 ends on the same shot. The cast line now reads "Around NOUR:" so the pronoun has a referent. The hand-off is now a straight cut from Seq 4's "ON NOUR'S FACE" / END OF ACT ONE to the moving truck.
+2. **Pace (must), cut 2:** deleted "Through the rear flap the pyramids fall away…". Seq 4 already ends looking back through the rear flap.
+3. **Pace (must), cut 3:** deleted RAMI's "Map says we're in the river." The COMP blue dot carries the bible's GPS beat, and Adaeze's "Spoofing." answers the image.
+4. **Pace (must), cut 4:** deleted Adaeze's "What's it saying?" and Tarek's "Stand down. In the minister's name. / (beat)". The staff officer's subtitled order already states it. Tarek's bible line is verbatim, and I added the parenthetical "(to the back)" (3 words) so it is clear why he speaks English, alone in the cab.
+5. **Pace (must), cut 5:** the dock opens on "Headlights on a pontoon under a dark bridge. Moored alongside: a NILE POLICE LAUNCH…". The guard hut, the tea, the transistor radio and the second census tick (23%) are cut. The key light (§11) stays.
+6. **Continuity (should), Tarek's joke budget:** the cue on "Then we're making good time." changes from TAREK (O.S.) to **FATHI**. Tarek now has no joke in Seq 5.
+7. **Voice (should), "please" used a third time:** "And it said please." becomes FATHI (O.S.) "Then whose orders are we under, sir?". Tarek ripping out the cord answers it, which plants Seq 11's "From whom?" / "Me." The staff officer's "Please acknowledge." stays as SESHAT's tell.
+8. **Offset (editor's trim, flab only):** deleted "The phones sink, glows going green, going out." It repeats "wink into the black" and Nour's phone "shrinking in green water". The cut pays for the 6 words added in items 4 and 7, as the pace reviewer requires ("offset one for one").
+
+### Skipped
+- **Voice (should): give "Then we're making good time." to RAMI.** It conflicts with the continuity lens (FATHI) and with the pace must-cut of Rami's "Map says we're in the river", which was the setup this fix relied on. By the rule continuity > pace > voice, FATHI gets the line. The joke still lands on the COMP (blue dot in the Nile) and Adaeze's answer.
+- **Pace (must), last-priority cut 6: Tut's "Who are they?" / Tomas / "It is keeping them very safe."** Kept, because the budget is met without it (1,286 against 1,266 target, +1.6%). It is Tut's only reaction to the world-stops montage. Tomas's "People who paid to be woken" mirrors Tut's own waking, and Tut's line sets up SESHAT's "safety" irony. The pace reviewer ranked it last. If the lead needs about 20 more words from Seq 5, this is the next cut.
+
+### Knock-on changes (these supersede the sections above)
+- **Tarek's jokes:** Seq 5 no longer spends Tarek's Act II joke. By the continuity and voice lenses, his one Act II joke is Seq 7's "We are not running. We are withdrawing in good order." **Flag for the Seq 7 editor:** the pace lens's Seq 7 cut (6) deletes that line on the assumption that Seq 5 kept Tarek's joke. That assumption no longer holds. By the rule continuity > pace, Seq 7 should keep it, or Tarek has no joke at all in Act II.
+- **Census:** Seq 5 now shows only **22%** (in the truck). The 23% dock tick is gone. The curve is still monotonic: 22 → 31 (Seq 6) → 61 → 79 → 94. The Seq 6 notes cite "22–23% in Seq 5"; that is notes only, and no script depends on it.
+- **"said please":** Seq 4's "The ministry has never said please." now stands without a Seq 5 callback. The Seq 4 notes, line 24, still mention the callback, but that is notes only.
+- **End state unchanged:** the 00:52 dock super, Hassan's death (5.2) and his body in the cab, **Hassan's ID disc in Tarek's pocket** (Seq 11's "three ID discs" fix depends on it), the truck radio cord ripped out, the launch's analog police set, all phones in the Nile, and Adaeze's laptop kept. The same goes for Tut's nape-port plant, the jackal disabled "like a table" and the pods waiting at the water's edge. Fathi's du'a at the cab stays; the pace lens keeps the one in Seq 5.
+- **Rules re-checked after the edits:** the kill grammar is intact (flicker → windscreen stars → Hassan drops → Tarek reacts → late crack). Layla appears only in the one approved image, as a COMP. None of the banned words ("shot", "blood", "killed", "organ") appear. All the bible's fixed lines are verbatim: "Twenty-two percent of Cairo is resting.", "The minister has been in the Garden since the unveiling.", "They own the sky and the wires. They do not own the river." The two `[[verify]]` notes (Tahrir "hundred years", Army ID discs) are kept, one each, with no duplicates.

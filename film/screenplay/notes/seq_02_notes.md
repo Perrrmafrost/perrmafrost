@@ -135,3 +135,86 @@ Checked against the bible v3 (§3–4, §6, §7 SEQ 2, §9, §11 motifs, §12 co
 ### Still open (for the lead)
 - The [[verify]] items above and in the list earlier in these notes.
 - The whole-file `wc -w` (2,518) sits close to the 2,530 ceiling. Any additions downstream should be matched by cuts, for example the curse exchange, which SEQ 8.3 can carry alone.
+
+---
+
+## Editor pass (whole-script review, 23 Sept 2026)
+
+**Word count:** `wc -w` went from **2,518 to 2,371**. The pace reviewer's target is about 2,279, so this is +4.0%, inside the ±5% band (2,165–2,393). Script text alone (boneyard and `[[ ]]` notes stripped) is 2,290 words. Words per scene: bay night 128 · bay morning 241 · corridor 68 · imaging lab 726 · galleries 804 · flat 110 · balcony 286.
+Why it sits above 2,279: the pace reviewer's cuts come to −239 words. This pass keeps the curse exchange (+10) and adds three things: two bible lines from the voice review (thesis +29, Nour's sceptic line +20) and pace's own "listener advances" (+25) and needle-tick (+10) inserts. Extra trims below claw back 18 words. What is left is bible beats, ledger verdicts, plants other sequences use, and set-up lines, so I stopped cutting there.
+
+### Applied
+**Voice review, must.** The **thesis line** (bible §0) is now Tut's answer to Nour's "...It's a marker.": "Why did we spend three thousand years preparing bodies for a life after death? / (beat) / Because once, we watched it done. And we remembered what came after." It appears nowhere else in the script.
+
+**Voice review, should.** **Nour's public persona** (bible §6) is now in the IMAGING LAB, after Hale's "Let's get it out of the way": NOUR (not looking up) "I got it out of the way on a podcast. Absence of Ice-Age machines is evidence of absence." The "(not looking up)" parenthetical moved here from her Tulli line so it is not used twice in a row.
+
+**Pace review, must.** The Seq 2 cuts, taken as listed except (9):
+1. Nour's "source rule" block and "SOURCE RULE: WRITTEN". This voids the third bullet of Deviation 1: the "from it" rule is now carried by bible §6 and the temple-tap footnote, not by an inspector's condition.
+2. "His first waking English surprises him."
+3. The Chinchorro line becomes "…apart and built them again on frames of stick and reed."
+4. The shoulder-seam tracing line.
+5. "Is that a great honour?" / "Enormous."
+6. Rami's "I open every door…"
+7. "The others line the wall."
+8. "Where is the papyrus?" / Hale's 1933 line, so Tut goes straight to "A copy of a copy…"
+10. "Two subtitles. On the wall, the Nine Bows are gone."
+11. Layla's "old one on your throne" line. Its [[verify]] is merged into the cartouche [[verify]].
+12. "Nour takes a step toward them. Stops."
+13. "She is nine?" / "Nine." / "I was nine when they made me king."
+14. Merer becomes "White limestone, by boat, to Akhet Khufu."
+15. SESHAT's Sandia citation.
+16. The bread-tin / Wi-Fi card line tightened.
+17. The evidence drive folded into the FOOTAGE line.
+18. "One. Two. Three. Four."
+19. The balcony becomes "Yesterday it dropped 'the Nine Bows'…", and Adaeze's "In front of you." and its (beat) are cut.
+20. "Adaeze sets her cup down, very carefully." This also matches SEQ 3's opening, where they come in with "paper cups still in hand".
+
+**Pace review, should (the gallery sag).**
+- The far-door shabti now "walks in, unhurried, and stops at the throne" at the shift-roster beat.
+- After the thesis: "The shabti has reached the next case, an arm's length from Layla. Nobody called it."
+- *Order choice:* the reviewer put the shabti line straight after Nour's "It's a marker". I put it one line later, after Tut's thesis, so the thesis answers Nour directly as the voice review asks. The shabti beat then turns Tut to the ceiling speaker (TUT (CONT'D)), so SESHAT's "Layla should be in bed" still lands with a body in the room.
+- Minors rule: the unit never touches the child.
+
+**Pace review, could (applied).** The WITNESS RELIABILITY needle is now a scoreboard: "The needle ticks right." after the Tulli "From it", and "The needle ticks right again. Hale relaxes." after the Saqqara Bird. The Dogū tremble and the final hard-right swing now pay off.
+
+**Extra trims to offset the additions** (−18 words, no beats touched):
+- "a small … at the nape of his neck" becomes "at his nape". SEQ 3's line "the gold port at his nape" still matches.
+- Rami's "(from the wall)", now orphaned.
+- The shabti turns its head "a few degrees": cut "a few degrees".
+- "suddenly" in "as if his legs decided for him".
+- The Dendera line becomes "Tut rises on the cane to read the column beside it."
+- "digs in her pocket and": cut.
+- "Forward, back.": cut.
+
+### Skipped (with reasons)
+**Pace review, must, cut (9): the curse exchange is kept** (RAMI "Now do the curse." / TUT "A maintenance notice."). This is a continuity-over-pace call:
+- Bible §9 ledger #3 places the curse verdict at **2.3 and 8.3**, so it is a bible placement, not flab.
+- The voice review's SEQ 8 "could" fix rewrites the seq 8 line as "I told Rami it was a maintenance notice", which depends on this exchange. Cutting it here would leave that callback pointing at nothing.
+- The voice review also names "A maintenance notice." as SEQ 2's laugh.
+- SEQ 8's full explanation (the Anubis brick) is untouched either way.
+- To pay for it, Rami's "(from the wall)" parenthetical is cut.
+
+**Continuity review, should: the balcony sunrise, left as written.** The issue assumes the pyramids lie **south-west** of the GEM. Research 07 E5 puts the GEM "2 km NW of the pyramids", so from the balcony the pyramids lie to the **south-east**, on a bearing of about 135–140°.
+- On 3 Nov at about 30°N the solar declination is about −15°, so the sunrise azimuth is about 107° (ESE).
+- The sun therefore rises about 30° to the left of the pyramids, in front of the two women, not behind them.
+- The current text ("dark against a sky going gold" and "The sun breaks the horizon, east of the pyramids") is right. The proposed fix ("Behind them, over the building…") would bring in the error it was meant to remove.
+- Facts outrank the fix, so the lines stay. The [[verify]] now records the computed check: "3 Nov sunrise az. ≈107°; pyramids lie SE of the GEM (07 E5)".
+- For the lead: if the production bible has the GEM–pyramid bearing the other way, that table is the thing to correct.
+
+### Hand-offs and continuity (re-checked)
+- **In:** SEQ 1 still ends on the title card and BLACK, and SEQ 2 opens at 03:12 on 2 Nov. Unchanged.
+- **Out:** the balcony at dawn on 3 Nov, paper cups in hand, the SESHAT summons and CUT TO:. This matches SEQ 3's EARLY MORNING lab: the cups, the aluminium cane across his knees, the nape lead.
+- **End state as listed above, unchanged:** T-A, G0, the port, no cracked seams, the ebony stick and dagger in their cases, the pectoral in its case, the keyring with Tut, Layla at home, and Akhenaten in the sealed bay.
+- The temple-tap "footnote from now on" line is kept, since SEQ 6, 8 and 10 now call back to it. So are Hale's Serapeum figures, which SEQ 10 now leans on after its own cuts.
+- Kill grammar is not in play in this sequence. The remains rule is untouched (the mirror is the one seam shot). Minors rule: Layla is not seen asleep, and no unit touches her.
+- Fountain: every cue and (CONT'D) was checked by script against the previous speaker. The (CONT'D) on LAYLA was removed along with her cut line. No action paragraph runs over four lines.
+
+### [[verify]] notes now in the file (consolidated, 5)
+1. Tulli signs vs Gardiner.
+2. Saqqara Bird c. 200 BC.
+3. twt-ꜥnḫ-jtn sign order, and the Tutankhaten form on the Golden Throne JE 62028 (merged).
+4. Nine Bows on the sandals and footstool.
+5. The sunrise azimuth, with the computed check.
+Not a [[verify]]: Nour's line "Absence of Ice-Age machines is evidence of absence" is the bible's own line (§6).
+
+The production notes [[COMP: AI approximations.]], [[Must match Seq 1's consultant recording.]] and [[COMP if legible: LAYLA.]] are unchanged.

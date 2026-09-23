@@ -152,3 +152,78 @@ Checked against the bible v3 (§3–4, §6, §7 SEQ 7/8/9, §11, §12, §13), `0
 ### Continuity additions at END of SEQ 8
 - The **third shabti** is cut off (possibly buried) behind Fathi's corridor collapse. The frozen shabti and the dead lattice core remain in the heart chamber.
 - Tomas is carried north beneath a **heavy-lift cargo drone** (not a "lifter").
+
+## Editor pass (whole-script review, senior script editor)
+
+**Word count (`wc -w seq_08.fountain`):** 2,516 before, **2,398 after** (2,372 without notes and boneyard). The pace reviewer's target is about 2,386, so ±5% allows 2,267–2,505. The result is +0.5% over target. I kept four lines the pace list would have cut (see "Partly applied" below) and added 8 words of language parentheticals. To offset them, I trimmed about 20 words of flab. None of the trims touches a bible beat, a set piece, a mystery explanation or a key line.
+
+**Priority when issues conflicted:** continuity > rules > facts > pace > voice.
+
+### Applied
+- **Pace (must):** the length cuts. Numbers follow the reviewer's list.
+  - (1) Cut "Behind them, Karnak is dark again." Seq 7 already ends on the Karnak glow going out.
+  - (2) SESHAT's line ends at "…I have not touched your painting." Nour's "Eleven thousand of us signed for this wall" carries the petition.
+  - (3) Cut Nour's cartouche touch.
+  - (6) Cut NOUR "Nothing in them."
+  - (7) "Reading glasses on. Nour translates." is gone. I went one step further than the reviewer and merged it into one NOUR speech with a `(reading glasses on)` parenthetical, so the next cue isn't an awkward NOUR / NOUR (CONT'D) back to back.
+  - (9) Cut "(in English) It is a good plan. Ay always made good plans." The beat now ends on "…anything that let me stay."
+  - (10) Cut Fathi's du'a at the foot of the stair. The four that remain are in Seq 5, 7, 11 and 12. His red scarf is already set up in Seq 4 and 5 for Seq 9.
+- **Continuity (should), Tarek's joke budget:** the digging line now goes to Karim: "KARIM (digging) Two years in the army. Finally, honest work."
+- **Continuity (should), vessel size:** changed to "barely bigger than a fist". It now fits the fist-sized linen bundle in Seq 1 and bible §3.4. The vessel sits behind the hinged sternum plate, so it no longer has to pass through the palm-sized port. That replaces my earlier note under "Deviations".
+- **Continuity (could), temple tap:** the Ramesses VI line is now "(taps his temple) / He did not ask." The Seq 2 gesture carries the rule that Tut marks what he learned after his death, and the "He did not ask." joke stays.
+- **Voice (should), curse answer:** deleted "This I know from it." "Your newspapers wrote that" already dates the claim.
+- **Voice (should), "The lure was the plan.":** deleted. That line stepped on the key line.
+- **Voice (should):** "Ya Malik. No." is now "No."
+- **Facts/localisation (could):** added "(in Egyptian Arabic; subtitled)" under both TAREK "Our exit?" and FATHI "Their entrance." at the rock narrows. Only Egyptians are present there, and the Seq 8 payoff line was already marked Arabic, so the setup now matches it.
+- **Flab trims** to offset what I kept:
+  - The KV21A tag is compressed into one TUT speech: "You would build me a guess of her. (hands it back) Sixty percent of my wife." The next line becomes "Halfway down the steps, the black ceramic foot STALLS…"
+  - Tomas's plaster touch is now a parenthetical: "(a palm on the plaster)".
+  - Cut "Torches probe them."
+  - Cut "hand to hand" from the bucket chain.
+  - Cut "lying face up" from the eye-fragment callback. The fragment is still set face up earlier in the sequence.
+  - Cut "ebony" from the stick.
+  - "He turns to the East Bank. The city is silent." is now "Ahead, the city is silent."
+
+### Partly applied or skipped (with reasons)
+- **Pace cut (4), "Sixty percent of my wife.": kept.** The voice review names it as this sequence's laugh. It is Tut's grief-in-understatement line, so I treated it as a key line. I cut the staging around it instead (−5 words). The bible line "You would build me a guess of her." still lands first.
+- **Pace cut (5), deleting Tarek's joke: replaced, not deleted.** This conflicted with the continuity reviewer's fix, which reassigns the line to Karim. Continuity wins over pace. Both fixes solve the joke-budget problem, and Tarek now has no Act II joke in Seq 8.
+- **Pace cut (8), the reaction beats around "They sent me to it.": applied except for four words.** I cut "The lure was the plan.", Tut's "witness / road" line and the (beat). I kept ADAEZE "The pectoral's second layer." (the voice reviewer's version of the line), for three reasons:
+  - It is the only line that ties the inscription's "second page in the glass" back to the scarab layer SESHAT read in Seq 3.
+  - Without it, "the glass" reads as the vessel standing in the niche in front of them.
+  - It counts as a mystery explanation (the lure, bible §2 Layer 2, ledger #27).
+  So the voice reviewer's wording wins here, on the rule that mystery explanations are not cut.
+- **Pace cut (11), last priority: not applied.** "The survey put a corridor right behind it." is the script's only reference to the real 2026 survey. That makes it the real-world anchor for ledger #28 ("the tomb was never the point") and for bible §7 SEQ 8.1. It is kept at 3 fewer words.
+- **Voice (could), "I told Rami it was a maintenance notice…": skipped.** It depends on Seq 2 keeping "Now do the curse." / "A maintenance notice.", and the pace reviewer's Seq 2 cut (9), a must, deletes that exchange. Continuity outranks voice. The line stays "Not a curse. A maintenance notice. He meant it literally." That works whether or not Seq 2 keeps the early joke.
+- **Conflict note on "This I know from it":**
+  - The voice reviewer wanted the tomb-entrance use kept, and the continuity reviewer's could turns it into the temple tap. I applied the tap, since continuity outranks voice.
+  - Seq 8 now has no spoken "This I know from it". The rule is still shown on screen by the tap and by "Your newspapers".
+  - Elsewhere in the script the spoken form is still used, as of this pass, in Seq 2, 9 and 10.
+
+### Unchanged (other sequences depend on these)
+- **Timestamps:** 03:05, 03:40, 05:10, 07:40, 09:20.
+- **Countdown:** "Fifty hours and twenty-four minutes".
+- **Head counts:** Nine, then Seven.
+- **Mina:** dies at the top of the stair, in kill grammar.
+- **Tomas:** taken and flown north under the heavy-lift cargo drone.
+- **Tut:** the vessel is seated with the wax serpent and papyrus band still on it; glow G0 → G1; he keeps Rami's notebook with Mina's line under Q.52.
+- **Heart chamber:** the frozen shabti, and the dead lattice core on the floor.
+- **KV62:** the corridor collapse.
+- **The valley road:** the rock narrows collapse on "Their entrance."
+- **The painted eye:** on the sarcophagus rim.
+- **Hand-off to Seq 9:** "The railway yard."
+- The end-of-sequence continuity block above still holds as written.
+
+### [[verify]] notes (consolidated; two in the file, no duplicates)
+1. The ochre-gold ground colour (sc. 5).
+2. The rock narrows on the valley access road, for the location scout (sc. 3).
+
+These stay in the notes only:
+- the countdown ephemeris;
+- Egyptologist sign-off on the heart-chamber inscription;
+- the petition, which is now only "Eleven thousand of us signed". The "Signature four hundred and nine" detail is cut, so that part of old item 3 is gone.
+
+### Rules check after edits
+- **PG-13 kill grammar:** unchanged (stone chips burst, then Mina drops out of frame, then Youssef reacts, then the late crack).
+- **Remains rule:** unchanged (the heart is a dark shape in the vessel; the chest is opened only under the linen, with light spilling through).
+- **Minors:** none in this sequence.
+- **Fountain syntax:** 13 scene headings. Every parenthetical is attached to a cue or to dialogue. The two `[[ ]]` notes are balanced. The boneyard header is intact.

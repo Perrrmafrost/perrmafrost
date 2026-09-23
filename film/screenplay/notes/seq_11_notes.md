@@ -177,3 +177,43 @@ All five beat groups are present and in bible order. The group 1 beats are the f
 - **Hour cards vs clock.** Reckoned from Cairo sunset (~16:58) to 06:14, each night hour runs about 66 min, so 04:00 would fall in hour 10 or 11. The bible nonetheless assigns SIXTH–NINTH to 00:00–05:20. The cards follow the bible; the lead should decide whether the cards mean "hours of the book" rather than clock hours.
 - **Seq 12** has Tut arrive "soaked to the thigh". He went fully under here about five hours earlier, so wardrobe should read as a damp tunic, not just wet trousers.
 - The remaining `[[verify]]` items in the Fountain file.
+
+---
+
+## Editor pass (whole-script review, `review_issues.json`, all seq 11 issues)
+
+**Word count:** 3,119 before and **2,947 after** by `wc -w`. The pace reviewer's target was about 2,947 (the ±5% band is 2,800–3,094). All 11 listed pace cuts are applied, most as written. No bible beat, robot-action set piece (#13, #14, #15), mystery explanation (#19, #23, #34, #47, #53) or key line was cut. Fountain lint is clean: 12 headings with blank lines around each, and the only cues are real characters. The PG-13 kill grammar and the remains and minors rules are unchanged (no "shot", "blood", "kill" or "organ").
+
+### Applied
+1. **Continuity, should: three ID discs.** Tarek now turns **three** discs (Hassan's from Seq 5, Youssef's and Karim's from Seq 10). This is merged into pace cut 1 below, since the disc beat moved to the Wall of the Crow. The end-state line "Youssef's and Karim's ID discs are presumably still on him" now reads: **Hassan's, Youssef's and Karim's discs are on Tarek at the bottom of the shaft.**
+2. **Continuity, could: "It has a jackal's head now" is now "It has a jackal's head."** The mast has been there since Seq 4.
+3. **Continuity, could: "Units never harm the witness" is now "It will not risk the heart."** It follows the post-midpoint stance ("Recover him intact"). See conflict A.
+4. **Continuity, could, and voice, should: "…weigh the wrong heart."** Both fixes stop the plan being said aloud in the Gallery. The line is now `Twenty minutes behind them. / (beat) / Long enough for them to start without me.` See conflict B.
+5. **Voice, should:** cut "This I know from it." from the Herodotus line.
+6. **Voice, should: Fathi makes his own tactical call.** FATHI (Arabic): "The last grenades go west, and loud. Then I take the relay at the robbers' tunnel. At four." TAREK (Arabic): "Not a minute before." The cue swap means Tarek no longer has to name Fathi on screen. See conflict C for "Fathi nods."
+7. **Voice, should: "Move, ya Malik!" is now "Move!"** The dagger handover's "Ya Malik..." stays.
+8. **Pace, must, cut 1:** deleted the DESERT ROAD (MOVING) scene. Seq 11 now opens on the GEM atrium intercut, straight after Seq 10's "CUT TO:". The Wall of the Crow opens with "…looking north. TAREK turns three ID discs over in his fingers." followed by TUT "Akhet Khufu. The Horizon of Khufu." Tarek's "Seven hours to sunrise." is gone, as the issue asks. The clock is still carried by SUPER 00:00 and the 94% census.
+9. **Pace, cut 2:** deleted TUT "The thread. One cord into the Hall, on the night." To keep the prop named on first sight, the spool shabti now "pays out THE THREAD, a line so fine…" (+2 words). The north-face mention is lowercase.
+10. **Pace, cut 3:** deleted "My hands are free. My leg isn't." and "Then we will limp together…" To keep clear that the free hands are Adaeze's, Tut's line now carries a mid-speech `(to Adaeze)` (+2 words).
+11. **Pace, cut 4:** deleted "Fathi nods."
+12. **Pace, cut 5:** the crawlway graffito exchange is cut. It now reads "Clean tool marks." followed by Tut's "(looking up the dark) The queen carried the lamp. I held her other hand." Ledger #41 belongs to 2.4, so nothing is lost. The earlier notes' claim that #41 is placed here, and the gang-graffito entry under "Real quotes used", no longer apply.
+13. **Pace, cut 6:** the Reis at the north face is now "cracked shell, one hand gone at the wrist. Not hurrying." Seq 10's last scene already gives the black band and the mast.
+14. **Pace, cut 7:** the Subterranean Chamber line is now just ADAEZE "The relay." Her split line already states the relay-versus-thread rule.
+15. **Pace, cut 8:** deleted "We're going to need more than three."
+16. **Pace, cut 9 (modified):** it reads "THE REIS, on its last orders. Its mast…", not "THE REIS. Its mast". Four words are kept so the bible §7 SEQ 11.4 beat ("the Reis … hunts on stale orders too") stays on the page.
+17. **Pace, cut 10:** covered by item 3 (see conflict A).
+18. **Pace, cut 11:** the dagger is now "draws the iron dagger and holds…". "You told Rami stars don't need a door…" and "They do not. Masons do." are kept (ledger #19).
+19. **Pace, could:** deleted TUT "Behind me. Both of you." The action line plays the shield. Tut's next cue loses its (CONT'D).
+20. **Facts, could:** the three Amduat notes are merged into one, after the SIXTH HOUR card: `[[verify: Amduat card titles for hours 6–9 against Hornung (6–7 per 04 §6; 8 and 9 not in research)]]`. The notes for hours 8 and 9 are deleted. The SUPER cards still stand alone with blank lines around them.
+
+### Conflicts resolved (priority: continuity > rules > facts > pace > voice)
+- **A. "Units never harm the witness."** Pace wanted to delete the sentence; continuity wanted it replaced. **Continuity wins:** "It will not risk the heart." The new sentence is the same length and also gives the next beat its reason (why the red line "finds no way past him").
+- **B. "Long enough for them to weigh the wrong heart."** Continuity offered "…to start without me"; voice offered "…for my father to go first". Both fix the secrecy problem, so this is a wording choice. **Continuity's wording wins.** I also took voice's `(beat)` split, since it answers voice's "on the nose" complaint at a cost of one word. "My father to go first" was declined.
+- **C. "Fathi nods."** The voice fix ended with it; pace cut 4 deletes it. **Pace wins** over voice. This is not a real clash: Fathi now speaks the plan himself, so the nod added nothing.
+- **D. The ID discs:** pace cut 1 said "two"; continuity said "three". **Continuity wins.**
+
+### Skipped
+- None. Every seq 11 issue is applied. Pace cut 9 is modified as described in item 16.
+
+### End state changes (for Seq 12 and later)
+- None to props, deaths or wardrobe. The only change is that Tarek has **three** ID discs (Hassan, Youssef, Karim). The removed "Seven hours to sunrise" line was a spoken countdown, not a SUPER. The SUPER stamps 00:00 and 05:20 and the 03:59 / 04:00 relay beat are unchanged. Hand-offs are checked: the opening follows Seq 10's "CUT TO:", and the closing leads into Seq 12's "HALL OF TWO TRUTHS - CONTINUOUS". Seq 12 calls back none of the cut lines.

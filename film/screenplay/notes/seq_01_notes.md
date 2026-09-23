@@ -128,3 +128,37 @@ Where this section conflicts with anything above, this section wins. Superseded 
 - **Vessel size clash with SEQ 8.** SEQ 8 calls the vessel "no bigger than a fist", while SEQ 1 lowers a fist-sized bundle into it. SEQ 1 now says only "small". SEQ 8 should read "barely bigger than a fist".
 - **Burton's flash:** confirm it is a plausible period method, or restage it as a lamp flare.
 - **All Egyptian lines** (Ay, the embalmer, the lector, Nour's rite, Tut's four syllables) must be recorded with the consultant before generation (§13).
+
+## Editor pass (whole-script review)
+
+Where this section conflicts with anything above, this section wins.
+
+**Issues addressed to Seq 1:** one. It is the pace lens's **must**: Seq 1 runs 8.2 pp against an 8-page target, so cut it to about 1,779 words by `wc -w`. No continuity, voice or rules/facts issue names Seq 1.
+
+**Length:** 1,836 → **1,780** by `wc -w` (whole file, including the boneyard header and six `[[ ]]` notes). That is target 1,779, inside the ±5% band of 1,690–1,868. With notes and boneyard removed, the script text is **1,720** words (was 1,776).
+
+### Applied (the pace reviewer's nine cuts)
+1. "His mask clips a lamp; the shadows swing." is cut. The embalmer's recoil stays ("lurches back"), and so do Ay's "He knew."
+2. "Her fingers linger." is cut. The wreath beat stays.
+3. The rubble line is now "Baskets of limestone chips pack the corridor to the ceiling." SEQ 8's "Rubble to the ceiling" still matches, and SEQ 8 shows the depth itself.
+4. "A spare brush between his teeth" is cut. The lector still paints the last EYE.
+5. "like tar spilled over treasure" is cut.
+6. "The face from the profile shadow." is cut. The two lines "A slight body… under linen/sheet to the collarbones" still rhyme 1323 with 2033.
+7. The Hale / Adaeze / Rami "Oversight? … It's green." exchange is cut. SEQ 2's empty write log makes the same point, and "You built its oversight" still reads there. Adaeze now has no line in SEQ 1; the bible needs her only behind the glass. Deviation 15 above is superseded on this point.
+8. "Quiet. Only for her." is cut, **but "quietly" is folded into the tap line**: "Her pen TAPS the enclosure glass, quietly. Once. Twice…". This saves 3 words where the reviewer's cut saved 4. The reason is that bible §7 1.5 specifies "quietly, to herself", and the quietness is what stops SESHAT registering the count. That was already an open risk (see "Left open" above). The choice is **rules > pace**.
+9. The Big Void line is now "Above the Gallery the tracks outline a black blade they cannot fill, thirty metres at least. It will not resolve." The "at least 30 m" fact [07 B2] and "will not resolve" stay.
+
+### Conflicts and choices
+- **Pace vs voice ("It's green.")**: the voice lens's summary names "It's green." as Seq 1's example laugh, but it raises no Seq 1 issue. The pace lens's must-cut wins (pace > voice). Seq 1 keeps its laughs: the robot face-planting at the gun ("The crowd laughs."), Rami's "'Not again'! He's got jokes!", and Tarek handing over the handkerchief without looking.
+- **Cut 8** is trimmed rather than taken whole, as recorded above (rules > pace).
+
+### Cross-sequence issues that touch Seq 1 but are fixed elsewhere (no Seq 1 change)
+- **Vessel size (continuity, filed as seq 8):** the fix is in SEQ 8 ("barely bigger than a fist"). SEQ 1 keeps the "fist-sized bundle" (bible §3.4) and the "small vessel".
+- **Duplicate forearms [[verify]] (facts, filed as seq 12):** SEQ 12 deletes its copy because **Seq 1 carries it**, so `[[verify: forearms low, not crossed (16 §5; not fetched)]]` is kept here.
+- **[[verify]] consolidation:** Seq 1's six notes (30B, forearms, Hamdi's age, Burton's flash, Liverpool plates, the Late Egyptian recording note) are all distinct. There is nothing to merge.
+
+### Not touched
+- Every bible §7 SEQ 1 beat and key line (30B; "He will be. Not by ours."; "Stand up. Be a witness."; the Budge Opening of the Mouth lines; Derry, Hamdi and Carter; the 1968 insert; "He says: 'Not again.'"; the four taps; "I can see inside everything now." / "Except this."; TITLE).
+- The halt-seal, the heartbeat through-line, G0, the §3.4 vocabulary, and "I'm reading, not praying" as the setup for SEQ 11.
+- **End state and hand-off:** unchanged. The heart vessel is in a far-chamber niche with its wax serpent and red-inked band. Tut is at G0 with the neck seam drawn. Everyone is alive. The sequence ends on the title card into SEQ 2 (2 Nov, 03:12).
+- **Fountain:** the notes are balanced (6/6), every cue sits after a blank line, and the transitions are unchanged.
