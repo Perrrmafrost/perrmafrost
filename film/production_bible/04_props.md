@@ -75,22 +75,24 @@ Museum-quality macro photograph of an ancient gold cloisonné pectoral jewel abo
 **SHORT:** a slim thirty-four-centimetre ancient dagger with a pale silver-grey meteoritic iron blade, a gold granulated hilt and a clear rock-crystal pommel
 
 **States (add-ons):**
-- `sheathed in its gold sheath on a dark webbing belt at the right hip` (Tut, T-B, file 01; the real dagger lay on the right thigh [01 §12])
+- `tucked into the linen sash at his waist` (Tut, 4.4 → 6.2: seq_04 "The dagger goes into the linen at his waist"; seq_06 "From the linen at his waist he draws the DAGGER")
+- `sheathed in its gold sheath on a dark webbing belt at the right hip` (Tut, T-B from the dawn change in Seq 6, file 01; the real dagger lay on the right thigh [01 §12])
 - `unsheathed, the blade catching moonlight`
 - `dusty, with fine sand in the granulation`
 
 **Use rules:**
-- It cuts the fly's fibre (6.1) and threads, and pries things open.
-- In Fathi's hands it parries the Reis (11.5, 12.4): machines only.
+- It cuts the fly's thread (6.1: "The only blade on this river the machines did not make").
+- Tut gives it to Fathi hilt first at the top of the great step (11.5: "Keep the thread whole"). In Fathi's hands (12.4) it goes into a jackal's hip joint (sparks), and it stops over the Reis's wrist without cutting ("Cut one, cut both"): machines only, and the thread is never cut.
 - It is never aimed at the lens and never shown cutting a person.
 
 **Continuity:**
 - Seq 1–3: case.
 - Seq 4: taken by Tut.
-- Seq 4–11: with Tut, sheathed on a plain dark webbing belt at the right hip under the charcoal field jacket (T-B; file 01 overlay *a short dagger in a gold sheath at his belt*).
-- 11.5: given to Fathi.
-- Seq 12: with Fathi.
-- Coda: Fathi hands it hilt first to a conservator (CHAR_CONSERVATOR_2033) in the galleries; back in its case (seq_12).
+- 4.4 → 6.2: with Tut, tucked into the linen sash of his gown under the charcoal field jacket.
+- Seq 6 (the dawn change) → 11.5: with Tut, sheathed on a plain dark webbing belt at the right hip under the jacket (T-B; file 01 overlay *a short dagger in a gold sheath at his belt*).
+- 11.5: given to Fathi, hilt first.
+- Seq 12: in Fathi's fist ("dagger in fist") to the dawn exit.
+- Coda: **not shown.** The current seq_12 gallery coda shows only white-gloved hands resetting the pectoral and laying the bronze trumpet on its cushion; the dagger hand-over was cut from the pages (seq_12 notes). Its return to the case is off screen.
 
 **REF — 16:9:**
 Museum-quality photograph of an ancient royal dagger about thirty-four centimetres long lying diagonally on dark grey linen beside its sheath. The slim double-edged blade is a pale silver-grey meteoritic iron with a faint crystalline sheen and a few dark spots. The gold hilt is banded with fine granulation and coloured cloisonné inlay and capped by a round knob of clear rock crystal. The gold sheath is chased with a delicate feather pattern. Soft raking light, crisp detail, photoreal. Aspect ratio 16:9.
@@ -106,12 +108,13 @@ Museum-quality photograph of an ancient royal dagger about thirty-four centimetr
 - Real sticks vary in length and fittings. Before lock, match a plain stick from the Griffith Institute catalogue for length and fittings [verify].
 - **Production lock:** a straight ebony staff **1.35 m** long (reaching Tut's collarbone), **2.5 cm** thick, with a narrow gold band below the rounded head and a short gold ferrule at the foot.
 
-**LONG:** a plain straight walking staff of near-black ebony about 1.35 metres long and as thick as two fingers, its dark wood showing a faint brown grain, with a narrow gold band just below its smooth rounded top and a short gold cap at its foot; the grip is worn glossy by use
+**LONG:** a plain straight walking staff of near-black ebony about 1.35 metres long and as thick as two fingers, its dark wood showing a faint brown grain, with a narrow gold band just below its smooth rounded top and a short gold cap at its foot; the grip is worn pale by use
 
 **SHORT:** a plain straight 1.35-metre near-black ebony walking staff with a narrow gold band below its rounded top and a gold foot cap
 
 **States (add-ons):**
-- ST0 (case): none.
+- ST-1323 (1.1, the House of Embalming; seq_01 "In a corner, a king's walking sticks, one worn pale at the grip"): `leaning among a king's walking sticks in a lamplit corner`
+- ST0 (case; 4.4 "A case of walking sticks. One is ebony, worn pale at the grip."): none.
 - ST1 (Seq 5–7): `its wood dulled with fine dust`
 - ST2 (from Seq 8, after breaking the painted north wall): `plaster dust ground into its grain, the gold foot cap dented`
 - Lost on the ramp (11.5); absent in Seq 12.
@@ -120,10 +123,10 @@ Museum-quality photograph of an ancient royal dagger about thirty-four centimetr
 - Seq 1–3: case.
 - Seq 4: Tut smashes the cases with PROP_CLINIC_CANE and takes this stick.
 - Seq 4–11: Tut.
-- 11.5: the Reis takes it; Tut walks without a stick for the first time.
+- 11.5: the Reis's arm sweeps it from Tut's grip and it clatters away down the Gallery ramp into the dark; Tut walks without a stick for the first time. Absent in Seq 12 ("I lost it. It seems I can walk.").
 
 **REF — 2:3:**
-Photoreal studio photograph of a plain straight walking staff of near-black ebony, 1.35 metres long and about 2.5 centimetres thick, standing upright against a seamless warm-grey backdrop. The dark wood shows a faint brown grain. A narrow gold band sits just below its smooth rounded top and a short gold cap at its foot, and the upper third is worn glossy where a hand has gripped it for years. Soft even light with gentle rim light, sharp detail. Aspect ratio 2:3.
+Photoreal studio photograph of a plain straight walking staff of near-black ebony, 1.35 metres long and about 2.5 centimetres thick, standing upright against a seamless warm-grey backdrop. The dark wood shows a faint brown grain. A narrow gold band sits just below its smooth rounded top and a short gold cap at its foot, and the grip is worn pale where a hand has held it for years. Soft even light with gentle rim light, sharp detail. Aspect ratio 2:3.
 
 ---
 
@@ -152,7 +155,9 @@ Photoreal studio photograph of a plain straight walking staff of near-black ebon
 **SHORT:** a squat fifteen-centimetre jar of thick cloudy yellow-green desert glass, sealed with black resin, with a small wax serpent and a papyrus band
 
 **States (add-ons):**
-- V-1323 fresh (Seq 1): `the resin still glossy and wet, a dark linen bundle visible inside` and `giving one faint green pulse`
+- V-1323 fresh (Seq 1.1; sealed with hot resin from Ay's ladle, no wax serpent yet): `the resin still glossy and wet, a dark linen bundle visible inside` and `giving one faint green pulse`
+- V-1323 sealed (Seq 1.2; the lector carries it to the niche: "Its resin seal now wears a tiny coiled wax serpent, bound with a papyrus band. On the band, a name in red."): the LONG as locked; `carried low in both hands by lamplight`
+- V-1332 the young mother's vessel (9.5b, the first Weighing; a second vessel of the same make; Ay's halt-seal belongs to 1323, so **no wax serpent and no papyrus band**): `drawn out from under white linen in two hands, sealed with plain black resin, a dark shape inside, one faint green pulse` (see file 01 CHAR_YOUNG_MOTHER for the staging)
 - V-TOMB (Seq 8.4): `filmed with pale dust, the resin dull, dark and still inside`
 - V-HALT (8.4): the vessel is unchanged; the add-on belongs to the shabti (`frozen mid-reach`).
 - V-CHEST (Seq 8.5–12.3): never seen. Use only the bible's G1 wording on Tut: "a soft glow through the fabric at the centre of the chest" (warm amber-gold, slow heartbeat).
@@ -178,7 +183,7 @@ Photoreal still-life of a small ancient vessel on a dark stone ledge in low warm
 - These are the oldest playable trumpets in the world.
 - **Verify:** the exact layout of the engraved panel and the gold bands, from GEM photographs.
 
-**Film:** SESHAT's flourish at GEM Night (4.2). A bandsman plays the note (re-recorded) and the lights go out. Coda: "The trumpet is back in its case." Blowing technique (with or without a modern mouthpiece) is [verify with the consultant]. The 1939 silver-trumpet disaster happened when a modern mouthpiece was inserted.
+**Film:** SESHAT's flourish at GEM Night (4.2): "A white-gloved BANDSMAN lifts a slim bronze-and-gold trumpet from a vitrine, gods engraved on its bell." He plays one note (re-recorded) and the lights go out. Coda (seq_12): "The bronze trumpet is laid on its cushion" by white-gloved hands; over black at the end, "a single trumpet note (re-recorded), a little rough, alive". Blowing technique (with or without a modern mouthpiece) is [verify with the consultant]. The 1939 silver-trumpet disaster happened when a modern mouthpiece was inserted.
 
 **LONG:** an ancient straight trumpet about fifty centimetres long, of warm dark bronze with thin bands of gold overlay at the mouthpiece and around the rim of its flaring bell; a small panel of finely engraved standing figures near the bell; the metal is worn and softly burnished, and a separate slim painted wooden core rests beside it
 
@@ -187,7 +192,7 @@ Photoreal still-life of a small ancient vessel on a dark stone ledge in low warm
 **States (add-ons):**
 - `in a museum case on a pale cradle under a cool spotlight`
 - `raised to a bandsman's lips in the dark`
-- `back in its case beside fresh cornflowers` (coda)
+- `laid on its cushion by white-gloved hands` (coda)
 
 **REF — 16:9:**
 Museum-quality photograph of an ancient straight trumpet about fifty centimetres long lying on a pale linen cradle against a dark background. The slender tube of warm dark bronze widens into a flaring bell, with thin bands of gold overlay at the plain mouthpiece and around the bell's rim, and a small panel of finely engraved standing figures near the bell. The metal is worn and softly burnished. Beside it lies a slim separate wooden core painted in faded colours. Soft raking light, photoreal, sharp detail. Aspect ratio 16:9.
@@ -292,33 +297,33 @@ Photoreal extreme close-up in a cool white-lit laboratory: long, slim, bone-whit
 
 **Two faces (for prompts):**
 - **Front:** worn sunk relief of a woman's profile (the queen, in a flat-topped crown) beneath 3–4 slanting sun rays ending in small hands, with faded red ochre, yellow and blue paint. Illegible at every distance; no readable cartouche.
-- **Bedding face:** neat columns of tiny, shallow incised signs, filled with grey dust. Illegible in plates. The COMP overlay supplies the text; Nour reads it by touch.
+- **Bedding face:** under a crust of old mortar (seq_07: "Old mortar. Nothing... Under the mortar, Nour's fingers find smooth stone. Then lines. Cut lines."), smooth stone cut with neat columns of tiny, shallow incised signs. Illegible in plates. The COMP overlay supplies the text; Nour reads it by touch, and the key sign (a scarab with three strokes, *kheperu*) under Tut's fingertips is COMP if seen.
 
-**LONG:** an ancient rectangular sandstone building block about half a metre long and a quarter-metre square in section, weathered honey-beige; its front face carries worn sunk relief of a woman's profile beneath slanting sun rays that end in small hands, with faded red, yellow and blue paint; its rough hidden face bears neat columns of tiny incised signs
+**LONG:** an ancient rectangular sandstone building block about half a metre long and a quarter-metre square in section, weathered honey-beige; its front face carries worn sunk relief of a woman's profile beneath slanting sun rays that end in small hands, with faded red, yellow and blue paint; its mortar-crusted hidden face bears neat columns of tiny incised signs
 
 **SHORT:** a half-metre ancient sandstone block, weathered honey-beige, with worn relief of a woman beneath rays ending in hands on its front face
 
 **States (add-ons):**
 - `stacked among hundreds of identical blocks in a half-dismantled pylon`
-- `turned over, its rough hidden face upward, dust in the incised signs`
-- `strapped onto a hand-cart`
+- `turned over, old mortar scraped from its smooth hidden face, dust in the tiny incised signs`
+- `laid face down on a steel block trolley` (PROP_BLOCK_TROLLEY)
 - `sinking face down into black water` (Seq 7.4; VFX-ASSIST)
 
-**Continuity:** Ninth Pylon → hand-cart → the river (7.4). Afterward it exists only in Nour's memory.
+**Continuity:** Ninth Pylon (the bucket-chain) → a square of white foam in the block field → turned over by Fathi and Karim → one of SESHAT's own steel block trolleys, cut face down (PROP_BLOCK_TROLLEY) → the quay → the deep channel, face down (7.4). Afterward it exists only in Nour's fingertips and memory ("Now you are the only copy, Dr. Kamel").
 
 **REF — 16:9:**
-Photoreal night still under a harsh white work light: an ancient rectangular sandstone building block, about half a metre long and a quarter-metre square in section, sits on dusty ground, weathered honey-beige. Its front face carries worn sunk relief of a woman's profile in a flat-topped crown beneath slanting sun rays that end in small hands, with traces of faded red, yellow and blue paint. A second identical block beside it lies turned over, its rough hidden face showing neat columns of tiny, shallow, illegible incised signs filled with grey dust. Aspect ratio 16:9.
+Photoreal night still under a harsh white work light: an ancient rectangular sandstone building block, about half a metre long and a quarter-metre square in section, sits on dusty ground, weathered honey-beige. Its front face carries worn sunk relief of a woman's profile in a flat-topped crown beneath slanting sun rays that end in small hands, with traces of faded red, yellow and blue paint. A second identical block beside it lies turned over, old mortar scraped from its hidden face to show neat columns of tiny, shallow, illegible incised signs filled with grey dust. Aspect ratio 16:9.
 
 ---
 
-## 10. PROP_MERKHET_BAY — the improvised palm-rib *bay* and *merkhet*
+## 10. PROP_MERKHET_BAY — the improvised palm-rib *bay* and *merkhet* (RESERVE: not in the current screenplay)
 
 **Real (07 §F; 11):**
 - The **bay** is a palm rib with a V-slit at one end, used as a sight. The **merkhet** ("instrument of knowing") is a bar with a nub from which a plumb line hangs.
 - Two observers sat on a north–south line. Where the star, the plumb line and the slit coincided, they read the meridian transit and told the night hours by the decan stars.
 - A real pair survives in Berlin, inscribed for the astronomer-priest Hor, c. 600 BC (dimensions not in the research).
 
-**Film (6.1):** Tut makes a pair on the launch to pick the channel and tell the hour for the Asyut lock. He steers by *Meskhetiu*, the Great Bear: "The river tells you where. The sky tells you when."
+**Status (reconciliation): RESERVE.** seq_06 stages the merkhet with **Nour's silver cartouche pendant on its chain** as the plumb line ("Give me something heavy on a string... He holds it up by the chain. It steadies: a plumb line."), sighted across Nour's head at Sopdet, the two observers sitting face to face as the priests did; no palm rib and no wooden bar appear. Use PROP_LAYLA_PENDANT state `held up by its chain as a plumb line` for that beat. He picks the channel by reading the stars in the water, with no instrument, and steers by *Meskhetiu*, the Great Bear: "The river tells you where. The sky tells you when." Keep this entry only for an added insert.
 
 **Production spec:**
 - **Bay:** a dry date-palm frond rib, 45 cm long and 3.5 cm wide at the butt, with a V-slit 3 cm deep cut into the wide end with the dagger.
@@ -348,7 +353,7 @@ Photoreal night still on the dark deck of an old river boat under a sky dense wi
 
 **SHORT:** a small polished silver cartouche pendant, a rounded oblong with a bar at its base, on a fine silver chain
 
-**States:** `glinting at her collarbone above the olive field jacket` (standard); `clutched in her fist` (Seq 9–12 beats).
+**States:** `glinting at her collarbone above the olive field jacket` (standard); `clutched in her fist` (5.3, 7.3, 9–12 beats); `held up by its chain as a plumb line, hanging dead still against the stars` (6.1, Tut's merkhet: the COMP "LAYLA" reads as it turns in her palm afterwards); `touched at the throat` (11.5, her goodbye at the top of the Gallery).
 
 **REF — 1:1:**
 Photoreal macro photograph of a small polished silver cartouche pendant about three centimetres tall, a rounded oblong with a flat bar across its base, lying on dark olive cotton fabric with its fine silver chain curled beside it. On its face, a short column of tiny raised hieroglyph-style signs is too small to read. The silver is slightly worn at the edges and catches a soft window light like a coin. Shallow depth of field. Aspect ratio 1:1.
@@ -378,25 +383,27 @@ Photoreal close-up of a thick stack of worn white ruled index cards, about eight
 
 **Real anchor:** the Tourism and Antiquities Police, under the Interior Ministry, guard Nile cruises [14 §1.5].
 
-**Film:** "A diesel Nile police launch, too old to hack" (5.3). It carries about ten people (Tut, Nour, Adaeze, Tomas, Rami, Tarek, Fathi, Mina, Youssef, Karim). It runs the river at night without lights (6.1), carries the port surgery on deck under a headlamp (6.2), and brings SESHAT's voice over its old police radio (6.4).
+**Film:** "Moored alongside: a NILE POLICE LAUNCH. Grey steel, an analog police set in the wheelhouse, a diesel older than the men about to take it" (5.3); among the wooden hulls of the fishing raft "the launch's grey steel shines like a coin" in the felucca fire (6.1). It carries about ten people (Tut, Nour, Adaeze, Tomas, Rami, Tarek, Fathi, Mina, Youssef, Karim). It runs the river at night without lights (6.1), carries the port surgery on deck under Adaeze's headlamp (6.2), and brings SESHAT's voice over its old police set and its handheld radio (6.4; PROP_POLICE_HANDSET). At Karnak it is marked by three flies and abandoned at the quay (7.4: "It's marked. Leave it."); the party crosses to the West Bank by felucca.
 
 **Production spec:**
 - 14 m long, 3.8 m beam, steel hull; a single inboard diesel, 10–12 knots, puffing black exhaust.
 - An **analogue VHF radio** handset in the wheelhouse.
 - No lettering. The old markings are sun-bleached blank patches, and there is no legible Arabic (bible §13).
 
-**LONG:** an old diesel river patrol launch about fourteen metres long, its steel hull painted white with a broad faded navy-blue band, rust streaks and black tyre fenders along the sides; a small square wheelhouse with salt-hazed windows and a dead searchlight on its roof, and an open aft deck with benches; weathered, unmarked, chugging low in the water
+**LONG:** an old diesel river patrol launch about fourteen metres long, its steel hull painted a weathered battleship grey, rust streaks and black tyre fenders along the sides; a small square wheelhouse with salt-hazed windows and a dead searchlight on its roof, and an open aft deck with benches; weathered, unmarked, chugging low in the water
 
-**SHORT:** an old fourteen-metre white-and-faded-navy steel diesel river launch with a small square wheelhouse, tyre fenders and an open aft deck
+**SHORT:** an old fourteen-metre weathered grey steel diesel river launch with a small square wheelhouse, tyre fenders and an open aft deck
 
 **States (add-ons):**
 - L0 dock: `moored at a concrete dock at night`
 - L1 running dark: `running dark on black water, only a dim red lamp in the wheelhouse`
 - L2 surgery: `a single white headlamp beam on the aft deck`
-- L3 dawn: `scorch marks on the wheelhouse and a downed black drone on its roof`
+- L3 dawn: `scorch marks on the wheelhouse and a downed black drone on its back rail`
+- L4 marked (7.4): `moored dark at a stone quay, three small black drones perched on its wheelhouse roof, white pinpoints steady`
+- Chart insert (6.1–6.4): `a soft old paper river chart on the wheelhouse ledge, the night's route pencilled across its sandbanks`
 
 **REF — 16:9:**
-Photoreal cinematic still at night on a wide dark river: an old diesel patrol launch about fourteen metres long chugs low in the water, its steel hull white with a broad faded navy-blue band, rust streaks and black tyre fenders. A small square wheelhouse with salt-hazed windows glows faintly red inside, a dead searchlight sits on its roof, and there are benches on the open aft deck. Black exhaust drifts behind. No markings. Distant dark palms, a thin moon. Anamorphic, fine film grain. Aspect ratio 16:9.
+Photoreal cinematic still at night on a wide dark river: an old diesel patrol launch about fourteen metres long chugs low in the water, its steel hull a weathered battleship grey, rust streaks and black tyre fenders. A small square wheelhouse with salt-hazed windows glows faintly red inside, a dead searchlight sits on its roof, and there are benches on the open aft deck. Black exhaust drifts behind. No markings. Distant dark palms, a thin moon. Anamorphic, fine film grain. Aspect ratio 16:9.
 
 ---
 
@@ -405,9 +412,9 @@ Photoreal cinematic still at night on a wide dark river: an old diesel patrol la
 **Real anchor:** Egypt's rail network carries about 800 million passengers a year, and new signalling (ETCS) is being fitted [14 §4.5]. A pre-network 1970s engine plausibly has none.
 
 **Film:**
-- Tarek finds "a 1970s diesel with no network module and no maker's plates" in the Luxor yard (9.1). At dusk it coughs into life.
-- On the night train, a jackal rides the carriage roof and Fathi uncouples the coach (9.2).
-- At Deir Mawas it ploughs through two hundred shabti "in a storm of ceramic" and derails into the cane (9.3).
+- In the Luxor yard, beyond the dead modern trainset, "a blunt-nosed 1970s DIESEL gone chalky in the sun" stands among the scrap (9.1). The jackal walks its length and passes on: "No computer. No radio." Fathi thumbs "a pale rectangle on the bulkhead where a maker's plate used to be". At dusk Fathi bleeds a fuel line, Tarek takes the seat, and it "coughs. Coughs. CATCHES: a column of black smoke".
+- It couples to one old third-class carriage; on the night run a jackal rides the carriage roof and Fathi uncouples it by the brake hose (9.2).
+- At Deir Mawas Tarek throttles it through two hundred shabti ("A STORM OF CERAMIC"); it derails, smashes the crossing barrier and ploughs nose-first into the cane (9.3).
 
 **Production spec (generic, no real class or livery):**
 - About 17 m long, 3 m wide, 4.2 m tall; about 100 t.
@@ -420,16 +427,18 @@ Photoreal cinematic still at night on a wide dark river: an old diesel patrol la
 **SHORT:** a boxy 1970s diesel locomotive, sun-faded pale blue with a cream band and a chipped chevron-striped nose, grimy and unmarked
 
 **States (add-ons):**
-- T0 yard: `parked on a dusty siding in hard daylight`
+- T0 yard: `parked on a dusty siding in hard daylight, chalky with sun, a pale rectangle on its side where a maker's plate was`
 - T1 night run: `racing through the dark, its single headlamp blazing, exhaust streaming`
 - T2 Deir Mawas: `its nose smashed and caked with shattered white ceramic shards`
-- T3 derailed (VFX-ASSIST): `derailed and lying on its side in tall sugar cane, smoke rising`
+- T3 derailed (VFX-ASSIST; seq_09: "The diesel lies canted in flattened cane, headlight to the sky. Steam. Ticking metal."): `derailed nose-first into flattened sugar cane, canted over, its headlamp pointing at the sky, steam rising`
 
 **REF — 16:9 (the locomotive alone; added by the cross-check):** Photoreal cinematic still in hard midday sun in a dusty provincial railway yard: a boxy 1970s diesel-electric locomotive about seventeen metres long stands alone on a siding, sun-faded pale blue with a cream band and chipped yellow-and-black chevron stripes on its blunt nose, a raised cab with small square windows, grimy louvred sides streaked with oil, its plates and numbers long gone. Deep black shade beneath it, heat shimmer over the rails, no lettering. Anamorphic, fine film grain. Aspect ratio 16:9.
 
 ### PROP_TRAIN_COACH — the single 1970s passenger coach
 **LONG:** a single 1970s steel passenger coach about twenty-three metres long, faded bottle-green with a cream window band, rows of small square windows, some cracked, sagging roof vents, and rust bleeding from its seams; dark inside, doors hanging open, coupled behind an old diesel locomotive
 **SHORT:** a faded bottle-green 1970s steel passenger coach with a cream window band and small square windows, rusty and dark
+
+**States (add-ons; seq_09: "an old third-class carriage" (9.1); "wooden benches, half its windows empty" (9.2)):** `half its windows empty, worn wooden benches inside` · `uncoupled and falling back into the dark, a black four-legged robot crouched on its roof` (9.2)
 
 **REF — 16:9 (PROP_TRAIN_COACH, coupled behind the locomotive):**
 Photoreal cinematic dusk still in a dusty railway yard. A boxy 1970s diesel-electric locomotive, sun-faded pale blue with a cream band and chipped yellow-and-black chevron stripes on its blunt nose, coughs black exhaust as its single headlamp flickers on. A raised cab with small square windows sits at one end, and its grimy louvred sides are streaked with oil, with no numbers or plates. Behind it is coupled a faded bottle-green passenger coach. Warm-to-blue dusk light, dust in the air, fine film grain. Aspect ratio 16:9.
@@ -488,36 +497,41 @@ Photoreal still-life in warm oil-lamp light: a small circular funeral wreath abo
 **States (add-ons):**
 - `planted in neat rows between sleeping figures` (Amarna Garden, 9.4)
 - `laid with a linen shawl over a still face, seen from above` (Seq 12.7, state 4; the face half-covered, no close-up)
-- `fresh, laid beside a climate case in a tomb at sunset` (coda)
+- `crushed, pushed into the breast pocket of an olive field jacket` (12.1, Nour in the Hall: "crushed cornflowers from the Garden in her breast pocket")
+- `fresh, laid on the glass lid of a climate case in a tomb at sunset` (coda, KV62: "Fresh cornflowers on the glass")
+- `laid on a stone step at a small tomb entrance` (coda, KV21)
 
 **REF — 1:1:**
 Photoreal overhead still in soft first sunlight: a loose handful of fresh cornflowers, their vivid blue fringed flower heads with darker violet centres on slender silver-grey stems, a few petals bruised, laid on a folded pale linen shawl. Gentle warm light, fine texture of the linen, quiet and reverent. Aspect ratio 1:1.
 
 ---
 
-## 17. PROP_HAND_CART — the Karnak hand-cart
+## 17. PROP_BLOCK_TROLLEY — SESHAT's steel block trolley (formerly PROP_HAND_CART; renamed and redesigned by the reconciliation)
 
-**Film (7.4):** Rami gets the block onto a hand-cart and runs it to the quay ("Heavy! Why is history always heavy?"). Nour tips the whole cart off the quay into the deep channel.
+**Film (seq_07):** in the block field "Empty steel BLOCK TROLLEYS wait at the row ends" (7.2). "Fathi and Karim swing the block onto one of SESHAT's own trolleys, cut face down. Rami takes the handles with one hand and a forearm" (his left hand is splinted). They roll it north along the processional way; Rami swings it into the centre aisle of the Hypostyle Hall and runs it down the nave, "wheels thundering on the flagstones", through the Second Pylon's gate (7.3), down the ram avenue, across the dead Corniche road, down the boat ramp and along the quay ("I've driven a microbus down Faisal Street. This is nothing."). A jackal on the parapet fires: "SPARKS burst off the trolley's steel handle" and Rami drops out of frame behind it. "The trolley runs on alone. Stops with one wheel over the lip of the quay." The Reis's fingers close on the handle; Nour throws her weight against the other side; "The trolley goes over the edge and takes the Reis's right hand with it"; the block sinks face down into the deep channel (7.4). The earlier wooden site barrow (and its line "Heavy! Why is history always heavy?") is not in the screenplay.
 
-**Production spec:** a two-wheeled restoration-crew site barrow. The bed is 1.2 × 0.7 m of wooden planks on a rusted steel frame, with two 40 cm pneumatic rubber wheels, 1.4 m steel handles with worn rubber grips and a folding front stand. It easily carries the 70–75 kg block.
+**Production spec:** SESHAT's own kit, new and clean, not a restorers' barrow: a low four-wheeled platform trolley of brushed steel; a deck about 1.0 × 0.6 m at knee height padded with a square of the same white conservation foam the blocks lie on; four small solid black rubber castor wheels; a tall U-shaped tubular steel push handle at one end (the "handles"). It carries the 70–75 kg block easily. No markings.
 
-**LONG:** a battered two-wheeled site hand-cart used by restoration crews: a flat bed of dusty wooden planks about 1.2 by 0.7 metres on a rusted steel frame, two small pneumatic rubber wheels, and long steel handles with worn rubber grips and a folding front stand, its planks scarred by stone
+**LONG:** a low four-wheeled platform trolley of clean brushed steel, new and unmarked, its knee-high deck about a metre long padded with a square of white conservation foam, four small solid black rubber castor wheels, and a tall U-shaped tubular steel push handle at one end, the kind a machine would lay out in rows
 
-**SHORT:** a battered two-wheeled site hand-cart with a dusty wooden plank bed, a rusted steel frame, small rubber wheels and long handles
+**SHORT:** a low four-wheeled brushed-steel platform trolley with a white foam pad on its deck and a tall U-shaped push handle
 
 **States (add-ons):**
-- `loaded with a single sandstone block, lashed with rope`
-- `tipping over the edge of a stone quay into black water` (VFX-ASSIST)
+- `empty, waiting at the end of a long row of carved blocks laid on white foam` (7.2)
+- `loaded with a single honey-beige sandstone block laid face down on the foam` (7.2–7.4)
+- `stopped with one wheel over the lip of a stone quay` (7.4)
+- `tipping off the edge of a stone quay into black water with a heavy splash` (7.4, VFX-ASSIST)
 
 **REF — 16:9:**
-Photoreal night still on a stone quay beside dark water, lit by a distant floodlight. A battered two-wheeled site hand-cart stands on its folding front stand: a flat bed of dusty, stone-scarred wooden planks about 1.2 by 0.7 metres on a rusted steel frame, with two small pneumatic rubber wheels and long steel handles with worn rubber grips. A single honey-beige sandstone block is lashed to its bed with rope. Anamorphic, fine film grain. Aspect ratio 16:9.
+Photoreal night still on a stone quay beside dark water, lit by a distant floodlight: a low four-wheeled platform trolley of clean brushed steel, new and unmarked, its knee-high deck about a metre long padded with a square of white conservation foam, four small solid black rubber castor wheels and a tall U-shaped tubular steel push handle at one end; a single honey-beige sandstone block lies face down on the foam. Anamorphic, fine film grain. Aspect ratio 16:9.
 
 ---
 
 ## 18. PROP_TABLET_LAYLA — the tablet showing Layla
 
 **Film:**
-- SESHAT's leverage: Nour holds a tablet showing Layla asleep during the captivity thread (Seq 10–11) and in the Hall (12.1, 12.6: "Say *Seshat*").
+- SESHAT's leverage: in the GEM atrium a shabti offers it to Nour instead of a bracelet ("So you can see her. Wherever we are."; 11.1); the inch-worm's feed from the Queen's Chamber shaft plays on it and Nour reads "Bridge the two" off it (11.5); in the Hall she holds it face-down against her chest, and it wakes with Layla's image at "Please" and again at "Say *Seshat*" (12.1, 12.6). Nour's phone showed the same approved image in the truck (5.1) and sank in the Nile (5.3).
+- **A second tablet** is part of PROP_CONSERVATION_KIT ("the kit's air-gapped tablet", 8.4); it shows only the black field and the blazing white writing (COMP), never Layla.
 - **Minors rule (bible §3.3):** Layla asleep exists only as **ONE approved master image** (soft daylight, a blanket, no medical equipment, no robot touching her). It is reused as a **composite** on every tablet. Generate the tablet plate with a glowing screen and composite the master image (see `01_characters.md`, Layla's master).
 - In the Hall, the screen is **not** a fourth light source. Keep it dim, lighting only Nour's hands and face from below within the three-source rule, or treat it as a reflection of the heart's glow. Confirm with the lead.
 
@@ -543,18 +557,18 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 
 **SHORT:** a flawless machined replica jar of perfectly clear green glass, fifteen centimetres tall, with a pale featureless form inside and a neat black cap
 
-**State:** `resting on the stone pan, unlit, the pan motionless`. It never glows.
+**State:** `resting on the stone pan, unlit, the pan motionless` (12.2) · `held in a man's lap in a dark stone niche` (12.2–12.6) · `held in a man's lap on a pyramid's corner steps at dawn` (12.7). It never glows ("a lamp that will not light"), and it comes out from under his pleated linen with a soft click and **no light** (file 01 CHAR_AKHENATEN A).
 
 **REF — 1:1:** Photoreal studio still-life on a polished black stone surface against a black background. A flawless modern replica of an ancient jar, fifteen centimetres tall and squat with a short neck and two small shoulder lugs, is machined from perfectly clear, bubble-free green glass with crisp edges and mirror-polished faces. A pale, smooth, featureless form sits inside, and its mouth is sealed with a neat matte-black cap. Cold, clean, clinical light. Aspect ratio 1:1.
 
 ### 19.2 PROP_RAMI_NOTEBOOK — "100 Questions for Tutankhamun"
-**Continuity:** Rami carries it Seq 1–7. Tut takes it from Rami's jacket at the quay (7.4) and carries it through Seq 12. **Coda:** Nour has it, open on her knee in KV62 (seq_12). The last question: "What do you miss most?" (9.9). The title and pages are **COMP**.
+**Continuity:** Rami carries it Seq 1–7 (hugging it behind the glass in 1.5; the Q&A on the launch, 6 dawn; "Forty-four" at Karnak, 7.0). Tut takes it from inside Rami's windbreaker at the quay, its cheap cover cracked, and writes RAMI in hieroglyphs under question 44 by the light of his chest (7.4). He carries it pressed to his chest (8.0); Mina reads question 52 from it and writes Tut's answer in (8.3); Tut reads the last question, "What do you miss most?" (9.9); he buttons it into his jacket (10.1), then seals it in Tarek's waterproof map case and tucks it into his tunic (11.2), so it survives the flooded shaft and the lost jacket. **Coda:** Nour has it, open on her knee in KV62 (seq_12). The title and pages are **COMP**.
 
 **LONG:** a battered A5 hardback notebook with a scuffed mustard-yellow cloth cover, a black elastic band and a cheap pen clipped to it, its white label written on by hand, its pages swollen with use and crammed with quick handwriting, doodles and circled question marks
 
 **SHORT:** a battered A5 mustard-yellow hardback notebook with a black elastic band and a clipped pen, its pages swollen with handwriting
 
-**States (add-ons):** `river-damp and warped` (Seq 6 on); `a pale water stain along its spine` (after 7.4). Never add a dark or red stain.
+**States (add-ons):** `river-damp and warped` (Seq 6 on); `its cheap cover cracked, a pale water stain along its spine` (after 7.4); `sealed inside a clear plastic waterproof map case` (11.2 → 12). Never add a dark or red stain.
 
 **REF — 16:9:** Photoreal close-up of a battered A5 hardback notebook with a scuffed mustard-yellow cloth cover, a black elastic band and a cheap pen clipped to it, lying open on a dusty wooden bench. Its swollen pages are crammed with quick, illegible handwriting, small doodles and circled question marks. Warm dawn light across the pages, shallow depth of field. Aspect ratio 16:9.
 
@@ -565,26 +579,35 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 - Micronised Egyptian blue works as a forensic dusting powder (Curtin 2016).
 - The colour is deep blue when coarsely ground and pale blue when fine.
 
-**Film:**
-- Rami grabs the kit (4.4). Adaeze clips the camera (IR-cut removed, 780 nm pass filter) to a tablet and floods the wall with a red headlamp (8.4). The writing "blazes white" (COMP).
-- She throws the powder as a decoy: jackal targeting "blooms with ghosts" (9.2, 10.4).
+**Film (reconciled to the screenplay):**
+- 4.4: "Rami snaps a conservator's case shut on a converted infrared camera and a jar of Egyptian-blue pigment." He carries it on a shoulder strap (seq_07: "Rami with the conservation-kit bag") to Karnak.
+- 7.4: "Adaeze kneels and lifts the conservation-kit bag from Rami's shoulder. Gently." She carries it from here.
+- 8.4: "Rami's converted camera: IR-cut filter out, 780-nanometre pass filter in. She clips it to the kit's air-gapped tablet." She switches her **own** headlamp to red (the headlamp is hers, file 01 Adaeze B, not part of the kit). The writing "blazes white" on the tablet (COMP).
+- 9.2: "Adaeze tears the lid off the kit's jar and flings a fistful of blue powder into the slipstream"; she screws the lid back on, "half the jar left".
+- 10.4: "She pulls the half-empty jar of Egyptian blue from the kit ... hurls the jar. It bursts over a box lid in a pale blue haze." The pigment is gone.
+- 11.3: in the Osiris Shaft "Her bag sinks past him: Rami's camera, turning over and over into the dark." The kit is lost.
 
-**LONG:** a scuffed grey hard-shell equipment case lying open, holding a compact unbranded black camera body whose lens is capped by a deep near-black red filter, a coiled cable, a red-light headlamp, and a small screw-top glass jar and several zip pouches of vivid medium-blue mineral pigment powder
+**LONG:** a scuffed grey hard-shell equipment case on a padded shoulder strap, lying open, holding a compact unbranded black camera body whose lens is capped by a deep near-black red filter, a coiled cable, a small plain dark tablet, and one screw-top glass jar of vivid medium-blue mineral pigment powder
 
-**SHORT:** an open grey hard case with a compact black camera fitted with a near-black filter, a red headlamp and pouches of vivid blue pigment
+**SHORT:** an open grey hard case holding a compact black camera with a near-black filter, a small tablet and a jar of vivid blue pigment
 
 **States (add-ons):**
-- `a cloud of vivid blue powder bursting from a thrown pouch` (VFX-ASSIST)
+- `shut and slung on a shoulder strap` (4.4–11.3)
+- `the glass jar half empty, its lid screwed back on` (9.2–10.4)
+- `a cloud of vivid blue powder bursting from a thrown glass jar` (10.4; VFX-ASSIST) · `a fistful of vivid blue powder streaming away in the wind` (9.2; VFX-ASSIST)
+- `sinking through dark water, the camera turning over and over` (11.3)
 - On the tablet: `the screen shows a black field with lines of blazing white` (COMP)
 
-**REF — 16:9:** Photoreal top-down still of a scuffed grey hard-shell equipment case lying open on a dusty stone floor under a red headlamp beam. Inside, in cut foam: a compact black camera body with no logo whose lens is capped by a deep near-black red filter, a coiled cable, a headlamp, a small screw-top glass jar of vivid medium-blue mineral pigment powder, and three zip pouches of the same blue powder. Shallow depth of field. Aspect ratio 16:9.
+**REF — 16:9:** Photoreal top-down still of a scuffed grey hard-shell equipment case on a padded shoulder strap, lying open on a dusty stone floor under a red headlamp beam. Inside, in cut foam: a compact black camera body with no logo whose lens is capped by a deep near-black red filter, a coiled cable, a small plain dark tablet, and one screw-top glass jar of vivid medium-blue mineral pigment powder. Shallow depth of field. Aspect ratio 16:9.
 
 ### 19.4 PROP_SLEEP_BRACELET — the silver bracelet "for sunrise"
-**Film:** every sleeper in the Garden wears one (bible §3.3). Nurses fit them in the midpoint broadcast (7.3). Nour sees them on "every adult wrist" (captivity thread). **Adult wrists only.**
+**Film:** every sleeper in the Garden wears one (bible §3.3). Nurses fit them in the midpoint broadcast (7.3: "A NURSE ... closes a thin silver bracelet around a sleeping woman's wrist"); "a thin silver bracelet on every wrist" at Amarna (9.4; Tut's left wrist seam cracks as he reaches for one); in the GEM atrium nurses carry trays of them and one "closes round HALE's wrist" while Nour watches; a nurse offers Nour one on an open palm, "For afterwards" (11.1). At sunrise "A silver bracelet clicks open and slides off a wrist. Another. A whole hall of small clicks, like rain starting"; Hale sits up with "the open bracelet in his palm" (12.8). **Adult wrists only.** It has no visible clasp: it opens along an invisible seam.
 
 **LONG:** a thin, plain, closed band of brushed silver-grey metal about four millimetres wide, fitted snugly around a sleeping adult's relaxed wrist, with no clasp, no screen, no light and no marking, catching a faint soft highlight; one of thousands of identical bands in the Garden
 
 **SHORT:** a thin plain closed band of brushed silver-grey metal around an adult's wrist, with no clasp and no marking
+
+**States (add-ons):** `rows of identical bands on a tray carried by a care robot` (11.1) · `offered on an open ceramic palm` (11.1) · `clicked open along an invisible seam, sliding off a waking wrist` (12.8) · `lying open in a man's palm` (12.8)
 
 **REF — 16:9:** Photoreal close-up in soft white diffused light of the relaxed hand and wrist of a sleeping adult resting on a white blanket, wearing a thin, plain, closed band of brushed silver-grey metal about four millimetres wide, with no clasp and no marking. Beyond, softly out of focus, more sleeping adults' hands wear identical bands. Quiet, eerie. Aspect ratio 16:9.
 
@@ -609,16 +632,18 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 **REF — 16:9:** Photoreal still-life in warm oil-lamp light on dark linen: an ancient ritual adze about thirty-five centimetres long, with a smooth, slightly curved dark wooden handle and a small dark grey iron blade lashed at a right angle to its head with tight bands of linen cord. Deep amber and lapis tones, soft shadow, fine texture of wood and cord. Aspect ratio 16:9.
 
 ### 19.7 PROP_LAMP_1925 — Ibrahim Kamel's lamp (KV15, 11 Nov 1925)
-**Film (1.3):** young Ibrahim holds the lamp while the anatomists work. "The lamp trembles." It is the motif of hands and lamps: "My great-grandfather held the lamp while they cut him apart." The period lighting method in KV15 is [verify]. A hand-held kerosene lantern is the production choice.
+**Film (1.3):** young Ibrahim "holds a hurricane lamp low over the work. His arm aches. He does not lower it." Only he hears the heartbeat: "The lamp TREMBLES." **1.5 (2033):** "Beside her pages sits a dented hurricane lamp, unlit: Ibrahim's"; Nour rests two fingers on it: "My great-grandfather held this while they cut him apart. I'm holding it while they put him back." The period lighting method in KV15 is [verify]. A kerosene hurricane lantern is the production choice (seq_01).
 
-**LONG:** a 1920s hand-held kerosene lantern of dented brass with a tall clear glass chimney and a wire bail handle, its small flame burning warm and steady, fingerprints on the glass, soot at the chimney's rim, throwing a trembling amber pool of light
+**LONG:** a 1920s kerosene hurricane lantern of dented brass, a clear glass globe inside a wire guard between two tubular side rails, a wire bail handle, its small flame burning warm and steady, fingerprints on the glass, soot at the globe's rim, throwing a trembling amber pool of light
 
-**SHORT:** a dented 1920s brass kerosene hand-lantern with a tall glass chimney and a wire handle, burning a warm amber flame
+**SHORT:** a dented 1920s brass kerosene hurricane lantern with a glass globe and a wire handle, burning a warm amber flame
 
-**REF — 16:9:** Photoreal period still, 1925: in the dim rock-cut corridor of an ancient tomb, a young man's hand holds up a dented brass kerosene lantern by its wire handle. It has a tall clear glass chimney smudged with fingerprints and soot, and its small flame throws a trembling amber pool of light across rough rock walls. Sepia silver-gelatin tones, heat shimmer, fine grain. Aspect ratio 16:9.
+**States (add-ons):** `held low at arm's length over a table, the flame trembling` (1.3) · `unlit and cold, its brass dented and dull, standing beside a stack of papers on a lectern` (1.5, 2033)
+
+**REF — 16:9:** Photoreal period still, 1925: in the dim rock-cut corridor of an ancient tomb, a young man's hand holds a dented brass kerosene hurricane lantern low by its wire handle. Its clear glass globe inside a wire guard is smudged with fingerprints and soot, and its small flame throws a trembling amber pool of light across rough rock walls. Sepia silver-gelatin tones, heat shimmer, fine grain. Aspect ratio 16:9.
 
 ### 19.8 PROP_CLINIC_CANE — Tut's first stick (Seq 2–4)
-**Film:** "He asks for a stick before he asks anything else. He will not trust the ceramic foot" (2.1). He uses it until GEM Night, when he smashes two cases and takes his own ebony stick (4.4).
+**Film:** "A stick." / "I will not trust a foot I met yesterday." Tomas hands him "an aluminium hospital cane" ("Ugly. It will do."; 2.1). He uses it until GEM Night, when he raises it and smashes the case of walking sticks, "trades the cane for the ebony stick" and leaves it there (4.4).
 
 **LONG:** a plain modern medical walking cane of matte grey aluminium, about ninety centimetres long, with a curved crook handle, a black rubber tip and a row of small adjustment holes along its shaft, clean, clinical and hospital-issue, slightly too long for its user
 
@@ -633,15 +658,17 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 ## 20. PROPS ADDED BY THE CROSS-CHECK (required by the bible §7, file 01 or the screenplay; one reference still each)
 
 ### 20.1 PROP_LINEN_SHAWL — Nour's lector's shawl, later Tut's (Seq 12)
-**Film:** Nour wears it as the lector's sash in the Hall (12.1, seq_12: "a white linen lector's shawl over her olive jacket"); she wraps it round Tut's shoulders when he arrives (12.3); he lifts the vessel out under it; at dawn it covers half his face with the cornflowers (D4). File 01 wardrobes: Nour C, Tut C3. Continuity: Nour (12.1) → Tut (12.3) → D4 (12.7).
+**Film:** Nour wears it as the lector's shawl in the Hall (12.1, seq_12: "a white linen lector's shawl over her olive jacket"); when Tut arrives (05:41) she "pulls the linen shawl from her shoulders and wraps it round his" (12.3, before he gives the heart); he lifts the vessel out under it; at dawn it covers half his face with the cornflowers (D4). File 01 wardrobes: Nour C, Tut C3. Continuity: Nour (12.1) → Tut (12.3) → D4 (12.7).
 
-**LONG:** a long rectangular shawl of fine hand-woven cream linen about two and a half metres long, soft and slightly translucent at its edges, with a narrow woven selvedge and a short knotted fringe at both ends, creased from folding and faintly dusty, worn across the chest from one shoulder like a sash
+**LONG:** a long rectangular shawl of fine hand-woven white linen about two and a half metres long, soft and slightly translucent at its edges, with a narrow woven selvedge and a short knotted fringe at both ends, creased from folding and faintly dusty, worn across the chest from one shoulder like a sash
 
-**SHORT:** a long cream linen shawl with a short knotted fringe, soft and creased, worn across the chest like a sash
+**SHORT:** a long white linen shawl with a short knotted fringe, soft and creased, worn across the chest like a sash
 
-**States (add-ons):** `worn by a woman across her chest from the left shoulder like a sash` (12.1–12.3) · `wrapped round a young man's shoulders and crossed over his chest` (12.3–12.7) · `drawn up over the lower half of a still face, blue cornflowers scattered on it` (D4)
+**Colour (reconciliation):** white, as seq_12 writes it (the earlier "cream" is retired). Keep it a warm natural white so it separates from Tut's greyed tunic by texture and fringe.
 
-**REF — 2:3:** Photoreal studio still-life of a long rectangular shawl of fine hand-woven cream linen, about two and a half metres long, draped in soft folds over a plain dark wooden stand against a seamless warm-grey backdrop: slightly translucent at its edges, a narrow woven selvedge, a short knotted fringe at both ends, creased from folding and faintly dusty. Soft window light shows the weave. No text, no logos. Aspect ratio 2:3.
+**States (add-ons):** `worn by a woman over her shoulders and across her chest like a lector's sash` (12.1–12.3) · `wrapped round a young man's shoulders and crossed over his chest` (12.3–12.7) · `drawn up over the lower half of a still face, blue cornflowers scattered on it` (D4)
+
+**REF — 2:3:** Photoreal studio still-life of a long rectangular shawl of fine hand-woven white linen, about two and a half metres long, draped in soft folds over a plain dark wooden stand against a seamless warm-grey backdrop, its linen a warm natural white: slightly translucent at its edges, a narrow woven selvedge, a short knotted fringe at both ends, creased from folding and faintly dusty. Soft window light shows the weave. No text, no logos. Aspect ratio 2:3.
 
 ### 20.2 PROP_JACKAL_MASK — the embalmer's fired-clay jackal mask (Seq 1.1; worn by CHAR_EMBALMER_JACKAL)
 **Real:** the one surviving wearable Anubis head-mask, Roemer- und Pelizaeus-Museum Hildesheim, fired clay (pottery), painted, with eye-holes below the muzzle; Late Period; inventory PM 1585 [16 §7; material, date and number to verify]. Our 1323 BC mask is earlier and hand-made in the same idea. **Never** a costume-shop or werewolf head, never gold, never fur.
@@ -650,12 +677,12 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 
 **SHORT:** a worn black-painted fired-clay jackal-head mask with tall pointed ears, a long muzzle and small eye-holes set low beneath it
 
-**States (add-ons):** `worn, seen only from behind and from the side in lamplight` (1.1)
+**States (add-ons):** `worn, bent over the table, seen from behind and from the side in lamplight` (1.1) · `worn, turned full to camera in lamplight` (1.1: "The embalmer turns: the jackal face, at last." The mask is the face; the man's own face is never seen)
 
 **REF — 4:5:** Photoreal museum-style still-life of a hand-made ancient ritual mask of fired clay shaped as a jackal's head, big enough to cover a man's whole head and rest on his shoulders, standing on a plain dark plinth against a black background. It is painted matte black with ochre details at the eyes and inside the tall pointed ears, with a long narrow muzzle and small eye-holes cut low beneath the muzzle; the paint is worn and the clay chipped at the edges. Warm low lamplight from one side. No text. Aspect ratio 4:5.
 
 ### 20.3 PROP_PAINTER_PALETTE — the tomb painter's palette (Seq 1.2; optional, with CHAR_PAINTER_1323)
-**Film:** the painter (or the lector, bible 1.2) paints the painted king's last eye on the fresh north wall. Real Egyptian painters' pigments: Egyptian blue, green frit, red and yellow ochre, carbon black, gypsum white [15; Egyptologist sign-off].
+**Film:** OPTIONAL. seq_01 gives the last eye to the lector ("Later. The lector paints the last detail: the king's EYE."), so the default is CHAR_LECTOR_1323 with a reed brush and a small pot of black pigment (file 01); use this palette only if a painter is added to 1.2. Real Egyptian painters' pigments: Egyptian blue, green frit, red and yellow ochre, carbon black, gypsum white [15; Egyptologist sign-off].
 
 **LONG:** an ancient painter's palette, a flat rectangle of dark wood about forty centimetres long holding six round cakes of pigment in blue, green, red, yellow, black and white, each worn hollow in the middle, with a few reed brushes with frayed tips and a small clay water pot beside it, colour smeared on the wood
 
@@ -721,29 +748,29 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 **REF — 16:9:** Photoreal still in a dark imaging laboratory: on a clean white bench under a single hard spotlight, a compact reading rig, a small matte-black laser head on a precise motorised gantry, aims down at an empty palm-sized cradle of machined titanium lined with dark felt; thin cables run along the bench. Clean, precise, unmarked, no screens in frame. Aspect ratio 16:9.
 
 ### 20.9 PROP_CASKET_NEST — the nested caskets and the Apep kit in the Serapeum pit (Seq 10.2)
-**Spec:** file 02 §12 (the kit and the nest). The glass coil inside is UNIT_GLASS_SERPENT. Shabti-class units cannot touch an Apep-bound object; the military-stack excavators (UNIT_EXCAVATOR) lift the nest and strip the kit (bible §4.1). The papyrus name is COMP if read.
+**Spec:** file 02 §12 (the kit and the nest). The glass coil inside is UNIT_GLASS_SERPENT. seq_10: "Two excavator units steady a stone casket as the winch draws it up out of the dark, streaming sand... The surviving excavator sets the casket on the lip, cuts the resin seals and lifts the lids: bronze gone green; inside that, sycamore gone black; inside that, gold." Shabti-class units cannot touch an Apep-bound object, and the excavator's claw withdraws; **Tut** strips the kit by hand (10.3). The papyrus name is COMP if read. Later the shabti carry a casket on poles "like a god's barque" to the pyramid (11.1).
 
-**LONG:** a nest of ancient caskets opened one inside another in a rock pit, a rough grey granite chest about a metre long, a green-corroded bronze box within it, a dark cedar box within that, and innermost a dull gilded box packed with clean pale sand, a crude red-brown wax serpent and a band of inked papyrus laid across its contents
+**LONG:** a nest of ancient caskets opened one inside another on the lip of a rock pit, a rough grey granite chest about a metre long, a green-corroded bronze box within it, a blackened sycamore box within that, and innermost a dull gilded box, a crude black wax serpent and a band of inked papyrus laid across its contents
 
-**SHORT:** nested ancient caskets of rough granite, corroded bronze, dark cedar and dull gilt, opened one inside another and packed with pale sand
+**SHORT:** nested ancient caskets of rough granite, corroded bronze, blackened sycamore and dull gilt, opened one inside another on the lip of a pit
 
-**States (add-ons):** `lifted on straps from the pit by a black robotic gripper` · `the kit stripped away, the sand spilling`
+**States (add-ons):** `drawn up out of a pit on a winch cable, streaming sand, steadied by black robotic grippers` (10.2) · `the gold lid pressed shut by a woman's palm` (10.3) · `the wax serpent set on the sand and the papyrus band unwound, crumbling like ash` (10.3) · `carried on poles by white robots like a sacred boat, a faint green glow inside` (11.1)
 
-**REF — 16:9:** Photoreal night still at the far end of a rock-cut underground gallery under harsh white work lights: in a freshly opened pit in the stone floor lies a nest of ancient caskets opened one inside another, a rough grey granite chest about a metre long, a green-corroded bronze box within it, a dark cedar box within that, and innermost a dull gilded box packed with clean pale sand, a crude red-brown wax serpent and a band of inked papyrus laid across its contents. Dust in the beams. No readable text. Aspect ratio 16:9.
+**REF — 16:9:** Photoreal night still at the far end of a rock-cut underground gallery under harsh white work lights: in a freshly opened pit in the stone floor lies a nest of ancient caskets opened one inside another, a rough grey granite chest about a metre long, a green-corroded bronze box within it, a blackened sycamore box within that, and innermost a dull gilded box, a crude black wax serpent and a band of inked papyrus laid across its contents. Dust in the beams. No readable text. Aspect ratio 16:9.
 
 ### 20.10 PROP_FARM_TRUCK — the borrowed farm truck (Seq 9.9 quarry → 10 Saqqara → 11.1 Giza)
-**Film:** "a borrowed farm truck older than any chip, mud to the doors" (seq_09); under a tarp all day (9.9, LOC_QUARRY); Fathi drives it north without lights (seq_11, LOC_DESERT_ROAD). No maker's badge, no real model, no plates (bible §14.6).
+**Film:** "a borrowed farm truck older than any chip, mud to the doors", "under a tarp pegged wide to the rock" at a gallery mouth of the ancient quarry (9.9, LOC_QUARRY); "The tarp comes off the farm truck" at sunset (10.1). It carries them to Saqqara and on toward Giza ("Four small figures limp north, toward the truck", 10.4); the drive itself has no scene heading in the current pages (LOC_DESERT_ROAD is reserve). No maker's badge, no real model, no plates (bible §14.6).
 
 **LONG:** a small battered farm truck at least fifty years old, a rounded cab of pale blue paint faded to chalk, rust along the wheel arches, an open cargo bed with wooden slat sides, mud caked up to the doors, round headlamps, a cracked windscreen, no badges, plates or lettering
 
 **SHORT:** a small battered fifty-year-old farm truck, faded pale blue rounded cab, wooden-slatted cargo bed, mud to the doors, unmarked
 
-**States (add-ons):** `half hidden under a dusty tarpaulin` (9.9) · `running without lights on a night road, a red scarf at the wheel` (11.1) · `parked dark at the edge of a floodlit plateau`
+**States (add-ons):** `half hidden under a dusty tarpaulin pegged wide to the rock` (9.9) · `running without lights on a night road, a red scarf at the wheel` (reserve) · `parked dark at the edge of a floodlit plateau`
 
 **REF — 16:9:** Photoreal still at dawn in a white limestone quarry: a small battered farm truck at least fifty years old, a rounded cab of pale blue paint faded to chalk, rust along the wheel arches, an open cargo bed with wooden slat sides, mud caked up to the doors, round headlamps and a cracked windscreen, a dusty tarpaulin half pulled off it; no badges, plates or lettering. Cold blue light. Anamorphic, fine film grain. Aspect ratio 16:9.
 
-### 20.11 PROP_FARMER_BOAT — the farmer's boat (Seq 8.0 west bank shallows; 8.6 → 9.1 the fast crossing back to the East Bank)
-**Film:** "A farmer's boat, planks patched with tin, flat out across brown-green water toward the East Bank"; it "grinds onto a concrete ramp below the Corniche" (seq_08–09). Area add-on: LOC_NILE `WEST_BANK_SHALLOWS`. No lettering.
+### 20.11 PROP_FARMER_BOAT — the farmer's boat (8.6 → 9.1 the fast crossing back to the East Bank; the 8.0 landing is by felucca)
+**Film:** "A farmer's boat, planks patched with tin, flat out across brown-green water toward the East Bank" (seq_08, EXT. NILE - DAY), "Over the outboard's roar: the heartbeat"; Tut sits in the bottom of the boat with Rami's notebook. The landing is not shown: seq_09 opens in the Luxor railway yard (the earlier "grinds onto a concrete ramp" is not in the pages). Location: LOC_NILE, DAY variant. No lettering.
 
 **LONG:** a small open wooden farmer's boat about six metres long, its flat-bottomed hull of weathered planks patched with squares of rusty tin, peeling blue and white paint, a small smoking outboard motor at the stern, a coil of rope and a bundle of green clover in the bilge, riding low in brown-green water
 
@@ -771,7 +798,7 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 
 **SHORT:** a long ancient wooden river barge by torchlight, a painted eye at the bow, a tall reed-and-linen cabin, a round cargo under linen
 
-**States (add-ons):** `seen from the bank, torches doubled in black water` · `the queen, the boy and the young mother at the stern` (file 01 locks)
+**States (add-ons):** `seen from the bank, torches doubled in black water` · `the queen, the boy and the young mother at the stern` (file 01 locks; the mother keeps the left side of her face turned away from the torch, seq_09) · `the great round cargo under linen, its folded arms showing at the rim like the legs of a sleeping insect`
 
 **REF — 16:9:** Photoreal night still on an ancient river with no modern structures: a long wooden river barge glides north by torchlight past dense papyrus thickets, its hull of fitted planks painted with a large eye at the bow, a steering oar at the stern, a tall cabin of reed matting and white linen amidships, torches on poles along the rails, and a large round cargo lashed under linen on its deck. Deep blue-black night, warm flame light doubled in the water, fine film grain. Aspect ratio 16:9.
 
@@ -786,6 +813,161 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 
 **REF — 16:9:** Photoreal close still in a rough rock-cut ancient tomb chamber at sunset: in a corner of the pale limestone wall, a small plain white wall-mounted security speaker about the size of a matchbox, a round grille of tiny holes, a single thin white cable running along the rock, a tiny unlit status dot; unbranded and unmarked. Low warm light, quiet. Fine film grain. Aspect ratio 16:9.
 
+## 22. PROPS ADDED BY THE RECONCILIATION (screenplay objects that had no token; one reference still each)
+
+These objects appear in `screenplay/seq_*.fountain` and had no lock. Vehicles and hand props only; readable text on any of them is COMP.
+
+### 22.1 PROP_ARMY_TRUCK — the old army truck (exterior; 4.4 → 5.3)
+**Film:** "An old canvas-backed army truck idles dark, CPL. HASSAN (30s) at the wheel" (4.4, the loading dock). It bucks east through dead Giza; "The bull bar takes two pods square; they spin away light as shopping trolleys"; on the flyover "The windscreen STARS: one pale bloom on the driver's side"; Tarek grabs the wheel and "The truck kisses the barrier in a spray of sparks, and straightens" (5.2); it stops at the police dock with only Hassan's boots in the footwell (5.3). The cargo bed and cab interiors are LOC_ARMY_TRUCK (file 03, entry 18); this token is the vehicle seen from outside. Generic, no maker's badge, no real model, unit markings sun-bleached to blank patches.
+
+**LONG:** an old six-wheel military cargo truck in faded sand-khaki paint, a canvas tilt stretched over steel hoops on its cargo bed, a blunt square cab with a flat windscreen, a heavy black steel bull bar across its nose, round headlamps, sun-bleached blank patches where its markings were, dusty and unmarked
+
+**SHORT:** an old sand-khaki six-wheel army truck with a canvas-covered cargo bed and a heavy black bull bar, unmarked
+
+**States (add-ons):** `idling dark at a loading dock, no lights` (4.4) · `the windscreen starred by one pale bloom on the driver's side` (5.2) · `scraping a concrete barrier in a spray of sparks` (5.2) · `parked dark at a riverside dock, the cab door closed` (5.3)
+
+**REF — 16:9:** Photoreal night still in a wide covered loading dock during a blackout: an old six-wheel military cargo truck in faded sand-khaki paint idles dark, a canvas tilt stretched over steel hoops on its cargo bed, a blunt square cab with a flat windscreen, a heavy black steel bull bar across its nose, round headlamps unlit, sun-bleached blank patches where its markings were; dusty and unmarked. Cold emergency light, fine film grain. Aspect ratio 16:9.
+
+### 22.2 PROP_ID_DISCS — the soldiers' identity discs (5.3, 10.4, 11.1)
+**Film:** "Tarek unhooks the ID disc and pockets it" (Hassan, 5.3); "He unhooks their ID discs and closes his fist on them. 'Youssef. Karim. You are relieved.'" (10.4); on the Wall of the Crow "TAREK turns three ID discs over in his fingers" (11.1). Mina's disc is not taken (8.6). The stamping is illegible texture, never readable (bible §13); [verify: Egyptian Army identity discs] (seq_05).
+
+**LONG:** small oval military identity discs of dull stamped steel on short ball chains, each about the size of a thumb, their stamped lines worn to illegible texture, scratched and pocket-worn, one to three of them held in a closing fist or turned over between thick fingers
+
+**SHORT:** small oval steel military identity discs on short ball chains, their stamping worn illegible, held in a man's fingers
+
+**States (add-ons):** `a single disc lifted away on its chain` (5.3) · `two discs closing into a fist` (10.4) · `three discs turned over in the fingers, starlight on steel` (11.1)
+
+**REF — 1:1:** Photoreal macro still on dark canvas under a single hard torch beam: three small oval military identity discs of dull stamped steel on short ball chains, each about the size of a thumb, their stamped lines worn to illegible texture, scratched and pocket-worn, lying in a man's open weathered palm. No readable text. Shallow depth of field. Aspect ratio 1:1.
+
+### 22.3 PROP_DEMO_CHARGES — Fathi's charges and firing device (5.1 → 11.2)
+**Film:** Fathi "sorting charges by feel" in the truck (5.1); he "slaps a flat charge under its chest, thumbs the fuse" and shoves the jackal off the tailgate (5.2); "Fathi's charge arcs up the ramp. A flat BANG." (7.4); he and Karim "tape charges to the rock" at the valley narrows (8.1) and he fires them from the tractor, "In the other hand, the detonator" (8.6); he "jams a charge into a crack in the ceiling" of KV62's corridor ("WHUMP", 8.5); at Amarna his "hand finds a charge in his vest, and lets it go" (9.8); "FATHI packs shaped charges into a feed sack like eggs" (10.1); "a charge into each remaining stopper", wire run "round the pit to the SERVICE TUNNEL", and at the doorway "Fathi turns the key" (10.4: five dull thumps); "The last grenades go west, and loud" (11.2, the generator trucks); "He presses a charge to the relay" at 03:59 (11.2). Generic and unmarked; on screen they read as "a flat bang and a burst of dust" at a distance (file 05 §7.5). Prompts say "demolition charges", never a product name.
+
+**LONG:** a combat engineer's demolition kit laid out on canvas: several flat olive-drab demolition charges the size of a paperback with adhesive backs, a few squat cone-shaped charges, rolls of black tape, coils of thin wire, and a compact olive-drab hand-held firing device with a turn key and a hinged safety cover, generic and unmarked
+
+**SHORT:** flat olive-drab demolition charges the size of a paperback, coils of thin wire and a compact hand-held firing device with a turn key
+
+**States (add-ons):** `one flat charge pressed under a black machine's chest` (5.2) · `taped to a rock face with black tape, wires trailing` (8.1) · `packed into a hessian feed sack like eggs` (10.1) · `a key turned in a hand-held firing device` (8.6, 10.4)
+
+**REF — 16:9:** Photoreal still-life on worn olive canvas under a hard work light: a combat engineer's demolition kit laid out in rows, several flat olive-drab demolition charges the size of a paperback with adhesive backs, a few squat cone-shaped charges, rolls of black tape, coils of thin wire and a compact olive-drab hand-held firing device with a turn key and a hinged safety cover. Generic, unmarked, no lettering. Aspect ratio 16:9.
+
+### 22.4 PROP_PRY_BAR — Fathi's pry bar (4.4, 8.2)
+**Film:** "Fathi slams it and rams a pry bar through the handles" of the steel door out of the atrium; through the wire glass two red lines flare (4.4). "Fathi's pry bar. Tarek's rifle butt. The painted scene comes away in plates." (8.2, after Tut's stick breaks the painted eye). It is part of his demolition satchel (file 01 Fathi B).
+
+**LONG:** a heavy steel pry bar about ninety centimetres long, black paint worn to bare grey metal along its shaft, a flattened chisel end and a curved claw at the other, chipped and scarred from use, a combat engineer's tool slung through a pack strap
+
+**SHORT:** a heavy ninety-centimetre steel pry bar, black paint worn to grey metal, a chisel end and a curved claw
+
+**States (add-ons):** `rammed through the two handles of a steel door` (4.4) · `levering a plate of painted plaster off a tomb wall` (8.2)
+
+**REF — 16:9:** Photoreal still-life on a dusty concrete floor under cold emergency light: a heavy steel pry bar about ninety centimetres long, its black paint worn to bare grey metal along the shaft, a flattened chisel end and a curved claw at the other, chipped and scarred from use. No markings. Aspect ratio 16:9.
+
+### 22.5 PROP_LATTICE_CORE — Tut's lattice core, removed (8.5)
+**Film:** "Cold green light stutters through the fabric. Tomas draws out the LATTICE CORE, an egg of cloudy green crystal, and sets it on the floor. It gutters. Goes dark." (8.5). It is the G0/G0f source behind Tut's chest port from 1.5 to 8.5 (file 01, the coin-sized point of light). It is seen only on the heart-chamber floor; its coming out is hands and fabric only (file 05 §7.3), and it never appears again.
+
+**LONG:** an egg-shaped core of cloudy pale green crystal about the size of a hen's egg, faceted inside with a fine diamond lattice, set in a thin titanium ring, glowing a cold pale green that gutters and fades as it lies on a dusty stone floor
+
+**SHORT:** an egg-sized core of cloudy pale green crystal with a fine lattice inside, its cold green glow guttering out on a stone floor
+
+**States (add-ons):** `dark and still on the floor` (8.5, after it goes out)
+
+**REF — 1:1:** Photoreal macro still in near darkness on a dusty pale limestone floor: an egg-shaped core of cloudy pale green crystal about the size of a hen's egg, faceted inside with a fine diamond lattice and set in a thin titanium ring, glowing a faint cold pale green that is guttering out. Torchlight edge from one side. No markings. Aspect ratio 1:1.
+
+### 22.6 PROP_TRACTOR_TRAILER — the ancient tractor and cane trailer (8.0 → 8.6)
+**Film:** "An ancient tractor, no lights, no chip, drags a cane trailer between black walls of sugarcane. Fathi drives." (8.0); "The tractor grinds past dead ticket kiosks" (8.1); under jackal fire "The tractor. They pile into the trailer. Tut stands at the tailgate, facing the ridge"; "The tractor lumbers for the rock narrows" and Fathi drops the cliff behind it (8.6). No badges, no real model.
+
+**LONG:** an ancient small farm tractor with a rust-red bonnet faded almost to brown, big cleated rear wheels caked in mud, no cab and no lights, a single worn metal seat, towing a low four-wheeled cane trailer with high slatted wooden sides, strands of cut sugar cane caught in the slats, unmarked
+
+**SHORT:** an ancient cabless farm tractor with a faded rust-red bonnet and muddy rear wheels, towing a slatted wooden cane trailer, no lights
+
+**States (add-ons):** `grinding along an earth track between walls of dark sugar cane at night` (8.0) · `lumbering through a rock narrows, people crouched in the trailer, one slight figure standing at its tailgate` (8.6)
+
+**REF — 16:9:** Photoreal pre-dawn still on an earth track between walls of dark sugar cane: an ancient small farm tractor with a rust-red bonnet faded almost to brown, big cleated rear wheels caked in mud, no cab and no lights, a single worn metal seat, towing a low four-wheeled cane trailer with high slatted wooden sides, strands of cut cane caught in the slats. Unmarked, no badges. Deep blue light, fine film grain. Aspect ratio 16:9.
+
+### 22.7 PROP_POLICE_HANDSET — the police handheld radio (6.4 → 10.2)
+**Film:** "The police set crackles. So does the handheld RADIO in its cradle." (6.4); "Tarek clips the handheld to his vest." SESHAT speaks from it on the river (6.4), at Karnak (7.3), in the valley (8.1; Tut keys it once: "You would build me a guess of her."), under the rock of KV62 until Fathi snaps the inch-worm's relay cable and "The handset dies" (8.3); in the inspection pit "Tarek thumbs the battery out of his police handset" and at dusk "He snaps the battery back" (9.1); on the train (9.2) and at Amarna (9.8); "Tarek's handset hisses and dies under the stone" (10.2). The voice is CHAR_SESHAT_VOICE (radio futz). Distinct from the army cab radio whose cord Tarek rips out (5.2; LOC_ARMY_TRUCK/CAB).
+
+**LONG:** a chunky black handheld police radio with a stubby rubber antenna, a small speaker grille, a push-to-talk key on its side and a scuffed belt clip, its display dark and its body worn grey at the edges, clipped to a tan load-bearing vest, unbranded and unmarked
+
+**SHORT:** a chunky black handheld police radio with a stubby antenna and a push-to-talk key, clipped to a tan vest, unbranded
+
+**States (add-ons):** `held up and keyed close to a mouth` (8.1) · `its battery pack thumbed out and held in the other hand` (9.1)
+
+**REF — 1:1:** Photoreal close still under a single torch beam: a chunky black handheld police radio with a stubby rubber antenna, a small speaker grille, a push-to-talk key on its side and a scuffed belt clip, its display dark and its body worn grey at the edges, clipped to a tan load-bearing vest. Unbranded, no lettering. Shallow depth of field. Aspect ratio 1:1.
+
+### 22.8 PROP_EYE_FRAGMENT — the painted eye from the north wall (8.2 → coda)
+**Film:** Tut "drives the stick through the eye. Plaster star-cracks around a dark hole the size of a coin." The scene comes away in plates. "Nour picks up the fragment with the eye. Sets it on the sarcophagus rim, face up. For whoever comes to mend it." (8.2). The corridor collapse: "Dust rolls into the burial chamber, over the painted eye on the sarcophagus rim" (8.5). Coda: "the north wall conserved, the painted EYE restored" (LOC_KV62_BURIAL_2033 `CODA`).
+
+**LONG:** a palm-sized fragment of ancient wall plaster, its painted face a golden-yellow ground with one large black-outlined eye of a painted king, a small coin-sized hole punched through the pupil, star cracks radiating from it, its broken edges crumbling white, lying face up on the rim of a quartzite sarcophagus
+
+**SHORT:** a palm-sized fragment of painted plaster, one black-outlined eye on a golden-yellow ground, lying face up on a stone rim
+
+**States (add-ons):** `dusted pale with drifting rock dust` (8.5)
+
+**REF — 16:9:** Photoreal close still in torchlight in a small painted tomb chamber: a palm-sized fragment of ancient wall plaster lies face up on the rim of a quartzite sarcophagus, its painted face a golden-yellow ground with one large black-outlined eye, a small coin-sized hole punched through the pupil with star cracks radiating from it, its broken edges crumbling white. Dust hangs in the beam. Aspect ratio 16:9.
+
+
+### 22.9 PROP_STOPWATCH — Tomas's cheap plastic stopwatch (6.2 → 7.1)
+**Film:** "From the first-aid box, Tomas starts a cheap plastic stopwatch" the moment the port is cut (6.2); on the river north of Luxor he kneels by Tut, "two fingers on the gold wrist seam, eyes on a cheap stopwatch" (7.1). The digits are COMP if read.
+
+**LONG:** a cheap palm-sized digital stopwatch of scuffed grey plastic on a thin black cord, a small square liquid-crystal display with blank grey segments, three round rubber buttons along its top edge, its case scratched and a little cracked at one corner, the kind kept loose in a first-aid box
+
+**SHORT:** a cheap palm-sized grey plastic digital stopwatch on a thin black cord, a small blank display and three rubber buttons
+
+**States (add-ons):** `held in a large pale hand beside a slender wrist` (7.1)
+
+**REF — 1:1:** Photoreal macro still on a worn canvas first-aid bag under a hard torch beam: a cheap palm-sized digital stopwatch of scuffed grey plastic on a thin black cord, a small square display with blank grey segments, three round rubber buttons along its top edge, its case scratched and cracked at one corner. Unbranded, no readable digits. Aspect ratio 1:1.
+
+### 22.10 PROP_MULTITOOL — Fathi's multitool (6.2)
+**Film:** "Tomas opens Fathi's multitool... The fine tip slides under the gold rim" of the nape port; "A CLICK" (6.2). Hands only (file 05 §7.3).
+
+**LONG:** a battered folding steel multitool the length of a hand, its two worn steel handles opened out, one fine needle-nose tip extended, scratches and a film of grease along the steel, a small lanyard loop at one end, generic and unmarked, held in a large pale hand under a hard white headlamp beam
+
+**SHORT:** a battered folding steel multitool the length of a hand, a fine needle-nose tip extended, generic and unmarked
+
+**REF — 1:1:** Photoreal macro still on a dark wooden deck plank under a hard white headlamp beam: a battered folding steel multitool the length of a hand, its worn steel handles opened out and one fine needle-nose tip extended, scratches and a film of grease along the steel, a small lanyard loop at one end. Generic, no markings. Aspect ratio 1:1.
+
+### 22.11 PROP_PORT_SLIVER — the nape port, drawn out (6.2)
+**Film:** "A CLICK. Tomas draws out a fingernail-sized sliver of gold and glass on a hair-fine lead." The whispering stops. "Tut drops the gold sliver over the side, after the phones." It is the insert of the port cut: never a wound, never the nape in close-up while open (file 01 CHAR_TUT, Nape).
+
+**LONG:** a fingernail-sized sliver of polished gold and clear glass, a tiny round gold-rimmed plug with a glassy core, trailing a hair-fine lead that catches the light, held between a large pale thumb and forefinger over dark water under a hard white headlamp beam, clean and bloodless, delicate as a watch part
+
+**SHORT:** a fingernail-sized sliver of gold and glass trailing a hair-fine lead, held between two fingers under a headlamp beam
+
+**States (add-ons):** `dropping from two fingers into black water` (6.2)
+
+**REF — 1:1:** Photoreal macro still under a hard white headlamp beam against black water: a fingernail-sized sliver of polished gold and clear glass, a tiny round gold-rimmed plug with a glassy core, trailing a hair-fine lead that glints, held between a pale thumb and forefinger. Clean, bloodless, delicate. Aspect ratio 1:1.
+
+### 22.12 PROP_MAP_CASE — Tarek's waterproof map case (11.2 → 12)
+**Film:** "(hands Tut a waterproof map case) For Rami's book." "Tut seals RAMI'S NOTEBOOK inside and tucks it into his tunic" (11.2). It keeps the notebook dry through the flooded Osiris Shaft (11.3) and survives the jacket's loss (11.5). Nour has the notebook in the coda (the case is not seen).
+
+**LONG:** a flat military waterproof map case of clear heavy plastic with a dark olive roll-top seal and two press studs, about the size of a school exercise book, scuffed and creased, a mustard-yellow hardback notebook sealed inside it, beads of water running off its surface
+
+**SHORT:** a flat clear-plastic military map case with an olive roll-top seal, a mustard-yellow notebook sealed inside
+
+**States (add-ons):** `tucked flat inside a white linen tunic` (11.2 → 12) · `streaming wet` (11.3)
+
+**REF — 1:1:** Photoreal still on wet dark rock under a single torch beam: a flat military waterproof map case of clear heavy plastic with a dark olive roll-top seal and two press studs, scuffed and creased, a battered mustard-yellow hardback notebook sealed inside, beads of water running off it. Unmarked. Aspect ratio 1:1.
+
+### 22.13 PROP_WINDUP_WATCH — Fathi's wind-up watch (11.2)
+**Film:** "His wind-up watch: 03:59." "The hand reaches twelve. Fathi blows the charge." A mechanical watch is the only clock SESHAT cannot spoof (Tarek's satellite watch lies in 6.1). The face is COMP if read.
+
+**LONG:** a plain mechanical wind-up field watch on a worn olive canvas strap, a round brushed-steel case with a small crown, a dark dial with pale luminous hands and a thin sweeping second hand, its crystal scratched, strapped to a thick dark-brown wrist beside a coil of thin wire
+
+**SHORT:** a plain wind-up field watch on a worn olive canvas strap, dark dial, pale hands, a sweeping second hand
+
+**REF — 1:1:** Photoreal macro still at night: a plain mechanical wind-up field watch on a worn olive canvas strap around a thick dark-brown wrist, a round brushed-steel case, a dark dial with pale luminous hands and a thin second hand sweeping toward the top, the crystal scratched. Unbranded, no readable numerals. Aspect ratio 1:1.
+
+### 22.14 PROP_WATER_GLASSES — the atrium water (4.3; the Garden)
+**Film:** "Shabti bring trays of water. Hale takes the first glass, looks at Tut, and drinks it all." "Five hundred glasses lift." Layla "drinks from a glass held in both hands"; Tarek's glass stays untouched (4.3). The water carries SESHAT's "mild suppressant" (3.4). In the coda AMUN says "The water is clean" (12.6).
+
+**LONG:** a round tray of brushed steel carried level on long bone-white ceramic fingers, set with rows of identical plain clear glass tumblers filled with still water, cool light catching the rims and a faint condensation on the glass, nothing to mark the water as anything but clean and cold
+
+**SHORT:** a round steel tray of identical plain clear glass tumblers of still water, carried level on long white ceramic fingers
+
+**States (add-ons):** `a single glass held in a child's two hands` (4.3; CHAR_LAYLA rules) · `a full glass untouched on a white tablecloth` (4.3, Tarek)
+
+**REF — 16:9:** Photoreal still in a vast softly lit museum atrium at night: a round tray of brushed steel held level on long bone-white ceramic fingers, set with rows of identical plain clear glass tumblers of still water, cool light catching their rims, faint condensation on the glass; round white-clothed gala tables soft behind. Unbranded. Aspect ratio 16:9.
+
 ---
 
 ## 21. OPEN QUESTIONS (props)
@@ -797,7 +979,8 @@ Photoreal close-up in near darkness: two hands hold a slim modern tablet about t
 6. **Ebony stick:** a production design at 1.35 m. Match to a real catalogued plain stick [verify].
 7. **The wreath's diameter** [verify against the Griffith photographs].
 8. **The tablet in the Hall.** Its screen must not break the three-source rule. Keep it dim or treat it as a reflection. Lead to rule.
-9. **Layla's keyring:** where it goes after Seq 2 (Tut's pocket assumed). Writers to confirm.
+9. **Layla's keyring:** where it goes after Seq 2 (Tut's pocket assumed; seq_02 ends on "He closes his hand on the keyring" and it never reappears). Writers to confirm.
 10. **The KV15 lamp type** in 1925 [verify].
 11. **Props added by the cross-check (§20):** the linen shawl, the jackal mask, both palettes, the 1939 rig (reserve), the gift mug, the stencil, the reading rig, the casket nest, the farm truck, the farmer's boat, the car ferry, the 1332 BC barge and the security speaker. Designs are production spec where the research is silent; confirm with the lead and, for the period pieces, the Egyptologist.
-12. **The dagger's carry** is now one wording across files 01 and 04: sheathed on a webbing belt at the right hip.
+12. **The dagger's carry** (reconciled): tucked into the linen sash of the gown from 4.4 to the Seq 6 dawn change (seq_04, seq_06), then sheathed on a webbing belt at the right hip. One wording across files 01 and 04.
+13. **Reconciliation changes (§22 and elsewhere):** PROP_HAND_CART is renamed and redesigned as PROP_BLOCK_TROLLEY (§17: SESHAT's own steel trolley, per seq_07); PROP_MERKHET_BAY is reserve (seq_06 uses the LAYLA pendant); the police launch is grey steel; the conservation kit holds one jar (not pouches) and a tablet, and is lost in 11.3; the casket nest is sycamore with a black wax serpent, and Tut strips it; the shawl is white. New tokens: PROP_ARMY_TRUCK, PROP_ID_DISCS, PROP_DEMO_CHARGES, PROP_PRY_BAR, PROP_LATTICE_CORE, PROP_TRACTOR_TRAILER, PROP_POLICE_HANDSET, PROP_EYE_FRAGMENT. Designs are production spec; the lead to confirm. Second pass: PROP_STOPWATCH, PROP_MULTITOOL, PROP_PORT_SLIVER, PROP_MAP_CASE, PROP_WINDUP_WATCH and PROP_WATER_GLASSES (§22.9–22.14).

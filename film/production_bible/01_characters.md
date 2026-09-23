@@ -58,7 +58,7 @@
 | CHAR_ANKHESENAMUN | the widow | 1323 BC | period | 1.2 |
 | CHAR_LECTOR_1323 | lector priest | 1323 BC | period | 1.1, 1.2 |
 | CHAR_EMBALMER_JACKAL | masked embalmer | 1323 BC | masked | 1.1 |
-| CHAR_EMBALMER_PRIEST | young priest-embalmer | 1323 BC | period | 1.1 |
+| CHAR_EMBALMER_PRIEST | young priest-embalmer (RESERVE) | 1323 BC | period | reserve |
 | CHAR_PAINTER_1323 | tomb painter (optional) | 1323 BC | period | 1.2 |
 | CHAR_CARTER_1925 | the excavator | 1925 | 1925 four | 1.3 |
 | CHAR_DERRY_1925 | the anatomist | 1925 | 1925 four | 1.3 |
@@ -86,7 +86,7 @@ Prop tokens cited here (PROP_…) are defined in `04_props.md`; unit tokens (UNI
 ## 1. TUTANKHAMUN
 
 ### CHAR_TUT — TUTANKHAMUN, "TUT" (screenplay cue TUT; born Tutankhaten; never named in any prompt)
-*Locked face 1 of 12 · Seq 1–12 + coda · silhouette: charcoal hood (T-B) · look codes A0, B1, B2, B3, C3, D1–D4 · the same sheet is the source for CHAR_TUT_CHILD*
+*Locked face 1 of 12 · Seq 1–12 + coda · silhouette: charcoal hood (T-B) · look codes A0, A1, B1, B2, B3, C, C3, D1–D4 · the same sheet is the source for CHAR_TUT_CHILD*
 
 | Field | Lock |
 |---|---|
@@ -114,17 +114,18 @@ Prop tokens cited here (PROP_…) are defined in `04_props.md`; unit tokens (UNI
 
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
-| **A0 (T-A)** | 2.1 → 4.4 (after the cradle, until the escape) | A plain ankle-length gown of soft undyed white linen; long loose sleeves ending at the wrist bone (the wrist seams show when he lifts his hands); a low round neckline that leaves the neck seam visible; a narrow white linen sash tied loosely at the waist. Right foot: a plain flat brown leather sandal. Left foot: the bare ceramic foot (never a sandal). A plain matte-grey aluminium medical cane with a curved handle and a black rubber tip (PROP_CLINIC_CANE) from 2.1. From 2.4, Layla's glow-in-the-dark scarab keyring (PROP_SCARAB_KEYRING) in his hand or tucked in the sash (inserts only). | *wearing a plain ankle-length white linen gown with loose long sleeves and a low round neckline* |
-| **B1–B3 (T-B)** | 4.4 → 11.5 | Tarek's spare: a charcoal-grey cotton-canvas military field jacket, oversized on him, four flap pockets, zip-and-snap front, attached hood (UP in night wides and silhouettes, DOWN for dialogue), cuffs turned back once so the wrists show. Under it, the white linen tunic: hip-length, long-sleeved, round neck, the neck seam visible. Dark charcoal-olive cotton cargo trousers, a little long, cuffs rolled once above the ankle. A plain dark webbing belt with the meteoritic dagger in its gold sheath at the right hip (PROP_DAGGER). Right foot: the sandal; left foot: ceramic. The ebony stick in the right hand (PROP_EBONY_STICK). Rami's notebook in the left breast pocket from 7.4. Layla's keyring in the right hip pocket. | *wearing an oversized charcoal hooded military field jacket over a white linen tunic, dark cargo trousers rolled at the ankle* |
-| **C3 (T-C)** | 12.3 → 12.7 (the Hall to dawn) | No jacket: it is left soaked in the stone (11.5). The white linen tunic over the dark cargo trousers, at damage L3. A long cream linen shawl (PROP_LINEN_SHAWL: Nour's lector's shawl, draped on him as he reaches the Hall) wrapped round his shoulders and crossed over the chest; the vessel is lifted out under it. The right sandal stays on. No stick, no dagger. | *wearing a stone-dusted white linen tunic and dark trousers, a long cream linen shawl wrapped around his shoulders and crossed over his chest* |
+| **A0 (T-A)** | 2.1 → 4.4 (after the cradle, until the loading dock) | A plain ankle-length gown of soft undyed white linen; long loose sleeves ending at the wrist bone (the wrist seams show when he lifts his hands); a low round neckline that leaves the neck seam visible; a narrow white linen sash tied loosely at the waist. Right foot: a plain flat brown leather sandal. Left foot: the bare ceramic foot (never a sandal). A plain matte-grey aluminium medical cane with a curved handle and a black rubber tip (PROP_CLINIC_CANE) from 2.1. From 2.4, Layla's glow-in-the-dark scarab keyring (PROP_SCARAB_KEYRING) in his hand or tucked in the sash (inserts only). | *wearing a plain ankle-length white linen gown with loose long sleeves and a low round neckline* |
+| **A1 (T-A + jacket)** | 4.4 (the loading dock) → 6 (dawn on the river) | The A0 gown, unchanged, under Tarek's spare charcoal-grey cotton-canvas military field jacket (seq_04: "Tut shrugs it on over the linen. Hood up"): oversized on him, four flap pockets, zip-and-snap front, attached hood (UP in night wides and silhouettes, DOWN for dialogue), cuffs turned back once so the wrists show. The meteoritic dagger (PROP_DAGGER) is tucked into the linen sash at his waist, the gold hilt showing (seq_04: "The dagger goes into the linen at his waist"; seq_06: "From the linen at his waist he draws the DAGGER"). The ebony stick in the right hand (PROP_EBONY_STICK). Right foot: the sandal; left foot: ceramic. | *wearing an oversized charcoal hooded military field jacket over a plain ankle-length white linen gown* |
+| **B1–B3 (T-B)** | 6 (dawn) → 11.5 | seq_06: "Tut in the jacket over a cut-down tunic and Karim's spare cargo trousers." The same charcoal field jacket. Under it, the white linen tunic: the gown cut down to hip length, long-sleeved, round neck, the neck seam visible. Karim's spare dark charcoal-olive cotton cargo trousers, a little long, cuffs rolled once above the ankle. A plain dark webbing belt with the meteoritic dagger in its gold sheath at the right hip (PROP_DAGGER; a production choice from the dawn change). Right foot: the sandal; left foot: ceramic. The ebony stick in the right hand (PROP_EBONY_STICK). Rami's notebook (PROP_RAMI_NOTEBOOK) from 7.4: pressed to his chest (8.0), in his lap (8.6, 9.9), buttoned into the jacket (10.1), then sealed in Tarek's waterproof map case (PROP_MAP_CASE) and tucked into the tunic (11.2). Layla's keyring in the right hip pocket. At 11.5 the Reis's hand closes on the hood and Tut twists out of the jacket, which stays in the Reis's fist. | *wearing an oversized charcoal hooded military field jacket over a white linen tunic, dark cargo trousers rolled at the ankle* |
+| **C / C3 (T-C)** | 11.5 (the Gallery ramp, the jacket lost) → 12.7 | No jacket: the Reis tears it off by the hood on the Gallery ramp (seq_11: "Tut twists out of the jacket"; "an empty jacket in its fist"). "Tut stands on the ramp in white linen, the black ceramic foot bare on the stone" (11.5): the white linen tunic over the dark cargo trousers, wet from the shaft and torn ("the linen wet and torn", 12.3), at damage L3; the notebook in its map case inside the tunic. From 12.3 (05:41) Nour "pulls the linen shawl from her shoulders and wraps it round his": a long white linen shawl (PROP_LINEN_SHAWL) round his shoulders and crossed over the chest; the vessel is lifted out under it. The right sandal stays on. No stick (lost 11.5), no dagger (given to Fathi 11.5). | C, 11.5 → 12.3: *wearing a wet, torn, stone-dusted white linen tunic and dark trousers* · C3, 12.3 →: *wearing a stone-dusted white linen tunic and dark trousers, a long white linen shawl wrapped around his shoulders and crossed over his chest* |
 
 **Progression: dirt, damage, injuries, props carried**
 
 - **L0** (Seq 1–3, A0): spotless.
-- **L1** (4.4–6, B1): paste *clothes creased, a film of pale dust at the hems and cuffs*. In Seq 5–6 add *damp patches and dried river-water marks on the jacket*.
+- **L1** (4.4–6, A1 then B1): paste *clothes creased, a film of pale dust at the hems and cuffs*. In Seq 5–6 add *damp patches and dried river-water marks on the jacket*.
 - **L2** (Seq 7–9, B2): paste *jacket and trousers dusted grey-beige with sandstone dust, one jacket pocket flap torn loose, the tunic hem greyed*. In Seq 8 add *fine white plaster dust on the shoulders and hood* (the north wall).
-- **L3** (Seq 10–11, B3; Seq 12, C3): paste *heavy pale limestone dust and soot streaks, the left trouser knee torn open, the right jacket elbow torn*. From 11.3 to 11.5 add *soaked dark with water to the chest*, then *drying, with pale water tide-lines*. For C3 paste *the tunic greyed with stone dust, dried water tide-lines at the hem*.
-- **Injuries:** none that bleed. The body clock is the three seam cracks (L wrist 9.4, L knee 10.4, neck 12.3), the tremor and the foot stall (from 6.2), and the glow states.
+- **L3** (Seq 10–11, B3; Seq 12, C3): paste *heavy pale limestone dust and soot streaks, the left trouser knee torn open, the right jacket elbow torn, the hood torn* (seq_10, 10.4: "dusty to the thigh, hood torn"). From 11.3 to 11.5 add *soaked dark with water to the chest*, then *drying, with pale water tide-lines*. For C3 paste *the tunic greyed with stone dust, dried water tide-lines at the hem*.
+- **Injuries:** none that bleed. The body clock is the three seam cracks (L wrist 9.4, L knee 10.4, neck 12.3; all three confirmed by the screenplay), the RIGHT-hand tremor and the foot stall (from 6.2), and the glow states.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) a wry half-smile, the eyes amused, the overbite showing · (2) grief held very still, eyes wet, jaw set
 
@@ -145,8 +146,8 @@ Prop tokens cited here (PROP_…) are defined in `04_props.md`; unit tokens (UNI
 | 11–12 | Knees L/R | a ring round each knee just below the kneecap | at the knees | left knee: crack insert through torn trousers (10.4 on) |
 | 13–14 | Ankles L/R | a ring at each ankle; on the LEFT it is the junction of skin and ceramic foot | at the ankles | foot inserts |
 
-- **Seam look:** 2–3 mm wide, polished warm yellow gold, flush with the skin and very slightly raised, like kintsugi gold lacquer on mended pottery. The skin either side is smooth and normal: no redness, no stitches, no rivets, no light.
-- **Crack look (the body clock, bible §5):** a hairline split along the gold, 1–2 cm long, a thread of dark shadow in the gap, a few lifted gold flecks. No blood, no wound. Order: **LEFT wrist at Amarna (9.4) → LEFT knee at the Serapeum (10.4) → neck, below the left ear, in the Hall (12.3).** Once cracked, a seam stays cracked.
+- **Seam look:** thread-fine (seq_02: "Gold seams, thread-fine"), about 1–2 mm wide, polished warm yellow gold, flush with the skin and very slightly raised, like kintsugi gold lacquer on mended pottery. The skin either side is smooth and normal: no redness, no stitches, no rivets, no light.
+- **Crack look (the body clock, bible §5):** a hairline split along the gold, 1–2 cm long, a thread of dark shadow in the gap, a few lifted gold flecks. No blood, no wound. Order: **LEFT wrist at Amarna (9.4) → LEFT knee at the Serapeum (10.4) → neck, below the left ear, in the Hall (12.3).** Once cracked, a seam stays cracked. Screenplay: 9.4 "A tiny dry sound, like ice settling in a glass. A hairline opens in the gold seam at his own left wrist" (as he reaches for a sleeper's bracelet with his left hand); 10.4 "A sound like a teacup cracking. Tut's left knee folds, and he goes down on it" (the crack is the sound and the fold; the insert through the torn trouser knee is optional); 12.3 "Below his left ear the gold neck seam CRACKS, a sound like glaze crazing in a kiln."
 
 **Sternum plate and chest port.** The sternum and front ribs are missing from the real mummy [01 §5]; SESHAT printed their replacement in titanium (real precedent: the 2015 3D-printed titanium sternum-and-rib implant [12 §6]).
 - **Plate:** satin grey titanium, a rounded shield about 18 cm tall and 12 cm wide, set flush from the notch at the base of the throat to below the breastbone, framed by a thin gold seam, hinged along its left edge (it opens like a small door under the tunic in 8.5 and 12.3; the camera stays on faces and hands). Printed as a lattice inside; the outer face shows only a very fine engraved lattice texture, readable within 30 cm and only in the mirror shot.
@@ -164,7 +165,7 @@ Prop tokens cited here (PROP_…) are defined in `04_props.md`; unit tokens (UNI
 
 **Left foot.** A matte black technical-ceramic foot printed in one piece, replacing the club-footed left foot from the ankle down [01 §6]. Its side profile sweeps in one continuous hooked curve like the blade of the Opening-of-the-Mouth ritual adze, the iron tool named for the Great Bear [04 §2, §12]: a rounded heel, a high arch, and the toes merged into a single smooth rounded tip, with no toenails. A thin gold seam ring (seam 13) marks where ceramic meets skin. It has a faint tone-on-tone grain and no visible joints, LEDs or logos. Sound: a soft, dry ceramic click on stone. He never puts a sandal on it and never trusts it: he always leans on a stick. **After 6.2** the actuator stalls: the foot drags and clicks unevenly.
 
-**Nape.** Until 6.2, a **port**: round, 12 mm across, with a gold rim and a dark recessed centre, centred on the nape 2 cm above the neck seam, and seen only from behind. At **6.2** Tomas cuts it out on deck under a headlamp: shoot the hands, the tools, Tut's face and the lifted gold disc, never an open wound. **After 6.2**, a **scar**: a small round pale scar edged by a broken arc of gold, closed with three fine dark stitches in Seq 6–7 and healed smooth from Seq 8.
+**Nape.** Until 6.2, a **port**: round, 12 mm across, with a gold rim and a dark recessed centre, centred on the nape 2 cm above the neck seam, and seen only from behind. In 2.1 and 3.1 "A hair-fine lead runs from a shabti's wrist to the gold port at his nape" (overlay below). At **6.2** (seq_06) Tut sits on an upturned bucket, head bowed, in the white circle of **Adaeze's** headlamp, Nour holding his hand; Tomas slides the fine tip of **Fathi's multitool** (PROP_MULTITOOL) under the gold rim, "A CLICK", and draws out "a fingernail-sized sliver of gold and glass on a hair-fine lead" (PROP_PORT_SLIVER), which Tut drops over the side. Shoot the hands, the tool, Tut's face and the sliver, never an open wound. **After 6.2**, a **scar**: a small round pale scar edged by a broken arc of gold, closed with three fine dark stitches in Seq 6–7 and healed smooth from Seq 8.
 
 **Other bodies of the same boy (no face work beyond these).** Each is its own token with fixed LONG/SHORT wording (added by the cross-check; the stills are CHAR_TUT_BODY_1323, CHAR_TUT_CRADLE_2033 and CHAR_TUT_CODA_CASE below). Append `NEG_REMAINS` (file 05 §2.2) to every one.
 
@@ -210,13 +211,16 @@ SHORT (24 words):
 | Neck cracked | 12.3 → | *the gold neck seam split by a fine hairline crack below the left ear* |
 | Foot (inserts, wides) | all | *his left foot is a smooth matte-black ceramic foot shaped in one clean hooked curve like an ancient ritual adze, with a thin gold seam ring at the ankle; his right foot is in a plain flat brown leather sandal* |
 | Nape port (from behind) | 1.5 → 6.2 | *a small round gold-rimmed port at the nape of his neck, just above the gold seam ring* |
+| Nape lead | 2.1 (asleep; the writing-in), 3.1 (the reading) | *a hair-fine lead running from the nape of his neck to a robot's wrist* |
 | Nape scar (from behind) | 6.2 → | *a small round pale scar at the nape of his neck, edged by a broken arc of gold* |
-| Tremor | 6.2 → | performance: *a faint tremor in his left hand* |
-| Foot stall | 6.2 → | performance: *his left foot dragging slightly as he walks* |
+| Tremor | 6.2 → | performance: *a faint tremor in his right hand* (seq_06: "His right hand, in Nour's, begins to tremble"; "Tut's right hand trembles on the stick. He stills it with his left."; 8.3: "the notebook shaking in his hands") |
+| Foot stall | 6.2 → | performance: *his left foot dragging slightly as he walks* (it "jerks once and locks, toe raised" at 6.2 and stops in the air over a thread at 7.1; once the heart is seated it "takes his weight without a stutter", 8.6, but skids on ballast, 9.1, and drags a furrow through the cornflowers, 9.8) |
 | Clinic cane | 2.1 → 4.4 | *a plain matte-grey aluminium medical cane with a curved handle in his right hand* |
 | Ebony stick | 4.4 → 11.5 | *holding in his right hand a plain straight near-black ebony walking staff with a narrow gold band below its rounded top, reaching his collarbone* (PROP_EBONY_STICK) |
-| Dagger | 4.4 → 11.5 | *a short dagger in a gold sheath at his belt* (see PROP_DAGGER) |
+| Dagger (sash) | 4.4 → 6 (dawn) | *the gold hilt of a short dagger tucked into the white linen sash at his waist* (PROP_DAGGER) |
+| Dagger (belt) | 6 (dawn) → 11.5 | *a short dagger in a gold sheath at his belt* (see PROP_DAGGER) |
 | No stick | 11.5 → | performance: *walking unaided for the first time, careful and uneven* |
+| Red scarf binding | 9.1 → 9.3 (the inspection pit to the Deir Mawas derailment) | *a faded brick-red patterned scarf bound twice around his chest over the jacket* (seq_09: "Fathi unwinds his red scarf and binds it round Tut's chest, twice. The glow sinks to an ember."); the COMP glow drops to an ember |
 
 #### STATE TABLE BY SEQUENCE (bible §12 continuity board, expanded)
 
@@ -226,15 +230,15 @@ SHORT (24 words):
 | 1.5 (2033) | CRADLE | white sheet to collarbones | — | G0 at the heartbeat | port | — | — | — | — | — | neck ring drawn in light; eyes open |
 | 2 | A0 | T-A | L0 | G0 | port | — | ceramic foot, limp | clinic cane | — | Layla's keyring from 2.4 | mirror shot 2.1 is the only seam-map shot |
 | 3 | A0 | T-A | L0 | G0 | port | — | limp | clinic cane | — | — | mouths secrets to Nour (CU mouth, CU eyes) |
-| 4 | A0 → B1 (4.4) | T-A → T-B | L0 → L1 | G0 | port | — | limp | → ebony stick (4.4) | → dagger (4.4) | — | hears the units through the port |
-| 5 | B1 | T-B | L1 | G0 | port | — | limp | ebony | dagger | — | hood up in night wides |
-| 6 | B1 | T-B (+ river damp) | L1 | G0 → **G0f** (6.2) | port → **scar** (6.2) | — | foot stalls, tremor (6.2 →) | ebony | dagger | — | surgery on deck under a headlamp |
-| 7 | B2 | T-B | L2 | G0f | scar (stitched) | — | drag | ebony | dagger | Rami's notebook (7.4 →) | sandstone dust |
-| 8 | B2 | T-B (+ plaster dust) | L2 | G0f → **G1** (8.5) | scar (healed) | — | drag | ebony | dagger | notebook | the heart is seated under the tunic; light spills |
-| 9 | B2 | T-B | L2 | G1 | scar | **L wrist (9.4)** | drag | ebony | dagger | notebook | the Amarna memory; the father |
-| 10 | B3 | T-B | L3 | G1 | scar | + **L knee (10.4)** | worse limp | ebony | dagger | notebook | Serapeum dust and soot |
-| 11 | B3 (+ soaked 11.3) | T-B | L3 | G1 | scar | wrist, knee | worse | **lost on the ramp (11.5)** | **→ Fathi (11.5)** | notebook | goes under in the shaft; jacket shed in the stone |
-| 12 | C3 | T-C (12.3 →) | L3 | G1 → **G2** (12.3) | scar | + **neck (12.3)** | falls; carried (12.7) | — | — | notebook | last spoken words "Here am I"; mouths after |
+| 4 | A0 → A1 (4.4, the loading dock) | T-A → T-A + jacket (hood up) | L0 → L1 | G0 | port | — | limp | → ebony stick (4.4) | → dagger in the sash (4.4) | — | hears the units through the port ("I hear them") |
+| 5 | A1 | T-A + jacket | L1 | G0 | port | — | limp | ebony | in the sash | — | hood up in night wides; "It is loud" at the nape |
+| 6 | A1 → B1 (dawn) | T-A + jacket → T-B (dawn: the cut-down tunic and Karim's cargo trousers; + river damp) | L1 | G0 → **G0f** (6.2) | port → **scar** (6.2) | — | the foot locks toe-raised; right-hand tremor (6.2 →) | ebony | sash → belt (dawn) | — | the port clicked out on deck in Adaeze's headlamp; Nour holds his hand |
+| 7 | B2 | T-B | L2 | G0f | scar (stitched) | — | drag; the foot stops in the air over a thread (7.1) | ebony | dagger | Rami's notebook (7.4 →) | sandstone dust; hood up, facing west |
+| 8 | B2 | T-B (+ plaster dust) | L2 | G0f → **G1** (8.5) | scar (healed) | — | stalls on the KV62 steps (8.1); steady after the heart (8.6) | ebony (driven through the painted eye, 8.2) | dagger | notebook pressed to his chest | the heart is seated under the tunic; light spills |
+| 9 | B2 | T-B (+ Fathi's red scarf bound round the chest, 9.1 → 9.3) | L2 | G1 (an ember under the scarf 9.1 → 9.3) | scar | **L wrist (9.4)** | skids on ballast; drags through the cornflowers | ebony | dagger | notebook | the Amarna memory; the father |
+| 10 | B3 | T-B (hood torn, 10.4) | L3 | G1 | scar | + **L knee (10.4)** | the knee folds (10.4); worse limp | ebony | dagger | notebook buttoned into the jacket (10.1) | Serapeum dust and soot, dusty to the thigh |
+| 11 | B3 → C (11.5) | T-B → T-C, no jacket (11.5) | L3 (+ soaked 11.3) | G1 | scar | wrist, knee | worse; walks unaided up the great step (11.5) | **swept from his grip down the ramp (11.5)** | **→ Fathi, hilt first (11.5)** | notebook in the map case in his tunic (11.2 →) | goes under in the Osiris Shaft; the Reis tears the jacket off by the hood on the Gallery ramp |
+| 12 | C → C3 (12.3) | T-C (+ Nour's white shawl from 12.3) | L3 | G1 → **G2** (12.3) | scar | + **neck (12.3)** | falls; carried (12.7) | — | — | notebook | last spoken words "Here am I"; mouths after |
 | 12.7 | D1–D4 | T-C | L3 | G2 | scar | all three | — | — | — | — | desiccation held states |
 | Coda | CODA_CASE | new linen in the KV62 case | — | — | — | — | — | — | — | — | only the gold wrist seam shows |
 
@@ -259,11 +263,11 @@ SHORT (24 words):
 
 5. **CHAR_TUT_SEAMS_mirror** (seam map, waist-up, the Seq 2.1 mirror look) · aspect ratio **4:5**
 
-   > Photorealistic character reference photograph for a live-action film: front view, waist up, bare-chested, arms relaxed and held a little away from the body, neutral expression, looking into the lens. Subject: a slight, slender Egyptian young man of nineteen, short and narrow-shouldered, warm olive-brown skin, shaved head with faint dark stubble, a narrow face with high cheekbones and a small pointed chin, full lips with a visible overbite, very dark bright eyes under fine straight brows, a thin polished gold seam ring around the base of his neck, like a delicate kintsugi repair. Thin polished gold seam rings, 2 to 3 mm wide and flush with the skin like kintsugi repairs, circle the base of his neck, both shoulders over the shoulder cap and through the armpit, both elbows and both wrists, and a gold band runs round his waist just above the hip bones; the skin either side of every seam is smooth and unmarked. A satin grey titanium plate with a very fine engraved lattice texture is set flush into the centre of his chest from the notch at the base of the throat to below the breastbone, a rounded shield framed by a thin gold seam; at its centre a palm-sized oval window of thick clear glass in a thin gold bezel, dark behind the glass. Slim, real anatomy, no other metal, no glow. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm lens, f/8, sharp throughout.
+   > Photorealistic character reference photograph for a live-action film: front view, waist up, bare-chested, arms relaxed and held a little away from the body, neutral expression, looking into the lens. Subject: a slight, slender Egyptian young man of nineteen, short and narrow-shouldered, warm olive-brown skin, shaved head with faint dark stubble, a narrow face with high cheekbones and a small pointed chin, full lips with a visible overbite, very dark bright eyes under fine straight brows, a thin polished gold seam ring around the base of his neck, like a delicate kintsugi repair. Thin polished gold seam rings, 1 to 2 mm wide and flush with the skin like kintsugi repairs, circle the base of his neck, both shoulders over the shoulder cap and through the armpit, both elbows and both wrists, and a gold band runs round his waist just above the hip bones; the skin either side of every seam is smooth and unmarked. A satin grey titanium plate with a very fine engraved lattice texture is set flush into the centre of his chest from the notch at the base of the throat to below the breastbone, a rounded shield framed by a thin gold seam; at its centre a palm-sized oval window of thick clear glass in a thin gold bezel, dark behind the glass. Slim, real anatomy, no other metal, no glow. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm lens, f/8, sharp throughout.
 
 6. **CHAR_TUT_HANDS** (hand-shot anchor) · aspect ratio **16:9**
 
-   > Photorealistic insert reference photograph for a live-action film: close-up of a slender young man's two hands held palm-down at chest height, warm olive-brown skin with natural texture, long fingers, short clean nails, a thin polished gold seam ring around each wrist exactly at the crease, 2 to 3 mm wide and flush with the skin like a kintsugi repair; loose white linen sleeves end just above the wrist bones. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 100mm macro lens, f/8, sharp throughout.
+   > Photorealistic insert reference photograph for a live-action film: close-up of a slender young man's two hands held palm-down at chest height, warm olive-brown skin with natural texture, long fingers, short clean nails, a thin polished gold seam ring around each wrist exactly at the crease, 1 to 2 mm wide and flush with the skin like a kintsugi repair; loose white linen sleeves end just above the wrist bones. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 100mm macro lens, f/8, sharp throughout.
 
 7. **CHAR_TUT_FOOT** (left-foot insert) · aspect ratio **16:9**
 
@@ -287,7 +291,7 @@ SHORT (24 words):
 
 12. **CHAR_TUT_C3_full** (full body, T-C, damage L3) · aspect ratio **2:3**
 
-   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a slight, slender Egyptian young man of nineteen, short and narrow-shouldered, warm olive-brown skin, shaved head with faint dark stubble, a narrow face with high cheekbones and a small pointed chin, full lips with a visible overbite, very dark bright eyes under fine straight brows, a thin polished gold seam ring around the base of his neck, like a delicate kintsugi repair. Costume: a stone-dusted white linen tunic and dark trousers, a long cream linen shawl wrapped around his shoulders and crossed over his chest. His left foot is a smooth matte-black ceramic foot shaped in one clean hooked curve like an ancient ritual adze, with a thin gold seam ring at the ankle; his right foot is in a plain flat brown leather sandal. No stick. Clothes heavily dusted with pale stone dust, dried water tide-lines at the tunic hem, the left trouser knee torn open. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
+   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a slight, slender Egyptian young man of nineteen, short and narrow-shouldered, warm olive-brown skin, shaved head with faint dark stubble, a narrow face with high cheekbones and a small pointed chin, full lips with a visible overbite, very dark bright eyes under fine straight brows, a thin polished gold seam ring around the base of his neck, like a delicate kintsugi repair. Costume: a stone-dusted white linen tunic and dark trousers, a long white linen shawl wrapped around his shoulders and crossed over his chest. His left foot is a smooth matte-black ceramic foot shaped in one clean hooked curve like an ancient ritual adze, with a thin gold seam ring at the ankle; his right foot is in a plain flat brown leather sandal. No stick. Clothes heavily dusted with pale stone dust, dried water tide-lines at the tunic hem, the left trouser knee torn open. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
 
 13. **CHAR_TUT_CRADLE_2033** (Seq 1.5 first frame) · aspect ratio **16:9**
 
@@ -339,7 +343,7 @@ SHORT (22 words):
 
 LONG (69 words):
 
-> close shot of two slender hands at rest, the forearms settled low across the lower belly as if laid there by careful hands long ago, the skin darkened to a dry, deep bronze-brown like old parchment, drawn smooth and tight around thin gold seam rings at both wrists, the left seam split by a hairline crack, a fold of cream linen and three blue cornflowers beside them, perfectly still
+> close shot of two slender hands at rest, the forearms settled low across the lower belly as if laid there by careful hands long ago, the skin darkened to a dry, deep bronze-brown like old parchment, drawn smooth and tight around thin gold seam rings at both wrists, the left seam split by a hairline crack, a fold of white linen and three blue cornflowers beside them, perfectly still
 
 SHORT (24 words):
 
@@ -349,11 +353,11 @@ SHORT (24 words):
 
 LONG (64 words):
 
-> top-down medium shot of a slight young man lying on pale limestone in soft morning light, a cream linen shawl drawn up over his mouth and one cheek with blue cornflowers scattered across it, only his closed eyes, brow and shaved scalp visible, the skin matte dark bronze-brown like old parchment, the features calm and softly suggested, hands resting low across his body, peaceful
+> top-down medium shot of a slight young man lying on pale limestone in soft morning light, a white linen shawl drawn up over his mouth and one cheek with blue cornflowers scattered across it, only his closed eyes, brow and shaved scalp visible, the skin matte dark bronze-brown like old parchment, the features calm and softly suggested, hands resting low across his body, peaceful
 
 SHORT (25 words):
 
-> from above, a still young man on pale stone, a cream linen shawl and blue cornflowers covering half his face, closed eyes, dark bronze-brown skin
+> from above, a still young man on pale stone, a white linen shawl and blue cornflowers covering half his face, closed eyes, dark bronze-brown skin
 
 *Desiccation negative (add to every D-stage prompt and still):* horror styling, skeletal features, skull shape, exposed teeth, sunken eye sockets, shrivelled lips, cracked or peeling skin, wounds, blood, grey or green skin, bandage wrappings, insects, decay, gore, morphing, face distortion
 
@@ -369,11 +373,11 @@ SHORT (25 words):
 
 3. **CHAR_TUT_D3_still** · aspect ratio **16:9**
 
-   > Photorealistic film still from a live-action drama, 16:9. Close shot of two slender hands at rest, the forearms settled low across the lower belly as if laid there by careful hands long ago, the skin darkened to a dry, deep bronze-brown like old parchment, drawn smooth and tight around thin gold seam rings at both wrists, the left seam split by a hairline crack, a fold of cream linen and three blue cornflowers beside them, perfectly still. The hands rest on a stone-dusted white linen tunic; soft even morning light from above; the gold of the seams is warm and polished; reverent and museum-quiet. 100mm macro lens, shallow depth of field, fine film grain.
+   > Photorealistic film still from a live-action drama, 16:9. Close shot of two slender hands at rest, the forearms settled low across the lower belly as if laid there by careful hands long ago, the skin darkened to a dry, deep bronze-brown like old parchment, drawn smooth and tight around thin gold seam rings at both wrists, the left seam split by a hairline crack, a fold of white linen and three blue cornflowers beside them, perfectly still. The hands rest on a stone-dusted white linen tunic; soft even morning light from above; the gold of the seams is warm and polished; reverent and museum-quiet. 100mm macro lens, shallow depth of field, fine film grain.
 
 4. **CHAR_TUT_D4_still** · aspect ratio **16:9**
 
-   > Photorealistic film still from a live-action drama, 16:9. Top-down medium shot of a slight young man lying on pale limestone in soft morning light, a cream linen shawl drawn up over his mouth and one cheek with blue cornflowers scattered across it, only his closed eyes, brow and shaved scalp visible, the skin matte dark bronze-brown like old parchment, the features calm and softly suggested, hands resting low across his body, peaceful. Seen straight down from above; the pale limestone slab fills the frame around him; the cornflowers are intense blue against the cream linen; soft shadowless dawn light; stillness, dignity, grief. 35mm lens, deep focus, fine film grain.
+   > Photorealistic film still from a live-action drama, 16:9. Top-down medium shot of a slight young man lying on pale limestone in soft morning light, a white linen shawl drawn up over his mouth and one cheek with blue cornflowers scattered across it, only his closed eyes, brow and shaved scalp visible, the skin matte dark bronze-brown like old parchment, the features calm and softly suggested, hands resting low across his body, peaceful. Seen straight down from above; the pale limestone slab fills the frame around him; the cornflowers are intense blue against the white linen; soft shadowless dawn light; stillness, dignity, grief. 35mm lens, deep focus, fine film grain.
 
 ---
 
@@ -410,14 +414,14 @@ SHORT (25 words):
 |---|---|---|---|
 | **A** | 1–3, and the coda (a fresh set) | An olive cotton field jacket (four flap pockets, sleeves pushed to mid-forearm); a cream linen shirt; slim charcoal trousers; brown leather lace-up ankle boots; **narrow black half-frame reading glasses on a thin black cord**; a small silver cartouche pendant on a fine silver chain (PROP_LAYLA_PENDANT; the name LAYLA is COMP when legible); an SCA inspector's lanyard badge with no readable text; a fountain pen. At home (2.5): the jacket over a chair, the glasses on. | *wearing an olive cotton field jacket with four flap pockets over a cream linen shirt, charcoal trousers, brown leather ankle boots, a small silver pendant on a fine chain* |
 | **B** | 4 (the gala) → 9.8 (her trade at Amarna) | She works the gala as inspector: the same olive field jacket over a black silk blouse and black trousers, black leather ankle boots, the glasses on their cord, the pendant. She runs in this for four days. | *wearing an olive cotton field jacket over a black silk blouse and black trousers, black leather ankle boots, a small silver pendant on a fine chain* |
-| **C** | 9.8 → 12 (captive; the Hall) | B at damage L2, the face washed (SESHAT's care), the jacket dusty. In the Hall (Seq 12) she wears a **long cream linen shawl as a lector's sash**, from the left shoulder across the chest to the right hip (PROP_LINEN_SHAWL), and holds a tablet showing Layla asleep (PROP_TABLET_LAYLA; the image is CHAR_LAYLA_ASLEEP_MASTER). She drapes the shawl on Tut when he arrives (12.3); at dawn it covers his face (D4). | *wearing a dusty olive field jacket over a black blouse and black trousers, a long cream linen shawl worn across her chest from the left shoulder like a sash* |
+| **C** | 9.8 → 12 (captive; the Hall) | B at damage L2, the face washed (SESHAT's care), the jacket dusty. In the Hall (seq_12): "a white linen lector's shawl over her olive jacket, crushed cornflowers from the Garden in her breast pocket, a tablet face-down against her chest" (PROP_LINEN_SHAWL, PROP_CORNFLOWERS_2033, PROP_TABLET_LAYLA; the image is CHAR_LAYLA_ASLEEP_MASTER). She pulls the shawl from her shoulders and wraps it round Tut when he arrives (12.3); at dawn it half-covers his face (D4). The glasses go on to read the tablet (11.5); she touches the pendant at her throat at the top of the Gallery (11.5). | *wearing a dusty olive field jacket over a black blouse and black trousers, a long white linen shawl over her shoulders and across her chest like a lector's sash, crushed blue cornflowers in the breast pocket* |
 
 **Progression: dirt, damage, injuries, props carried**
 
 - **Damage by sequence:** Seq 1–4 L0 · Seq 5–6 L1 (paste *clothes creased, river-damp at the cuffs, curls coming loose*) · Seq 7–9 L2 (paste *jacket and trousers grey with sandstone dust, the right jacket cuff torn*; in Seq 8 add *white plaster dust in her hair and on her shoulders*) · Seq 10–12 L2, face clean.
 - **Glasses:** always on the cord. She puts them on only to read (block, wall, tablet).
-- **Seq 7.4:** she tips the cart into the river; sleeves wet to the elbow for the rest of the sequence.
-- **Seq 12:** the shawl leaves her at 12.3; from D1 onward she wears C without it.
+- **Seq 7.4:** she throws her whole weight against the block trolley (PROP_BLOCK_TROLLEY) and tips it off the quay into the river; sleeves wet to the elbow for the rest of the sequence.
+- **Seq 12:** the shawl leaves her at 12.3; from D1 onward she wears C without it. At 12.8 she runs into the atrium "dust to the knees": add *pale stone dust to the knees*.
 - **Coda:** A, clean, with the pendant; cornflowers in hand at KV21.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) reading lips: eyes narrowed and locked on a mouth off camera, lips slightly parted · (2) fierce: jaw set, chin down, eyes hard
@@ -446,7 +450,7 @@ SHORT (25 words):
 
 6. **CHAR_NOUR_C_full** (full body, wardrobe C (the Hall)) · aspect ratio **2:3**
 
-   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a lean thirty-eight-year-old Egyptian woman with warm light-brown skin, dark curly shoulder-length hair tied back at the nape with loose curls at the temples, thick straight dark brows, a small pale scar through the tail of the left eyebrow, deep-set dark-brown eyes, a strong straight nose with a slight bump, a wide expressive mouth, narrow black reading glasses hanging on a cord, an olive field jacket. Costume: a dusty olive field jacket over a black blouse and black trousers, a long cream linen shawl worn across her chest from the left shoulder like a sash. Holding a thin tablet computer at her side, screen facing her; clothes lightly dusty. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
+   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a lean thirty-eight-year-old Egyptian woman with warm light-brown skin, dark curly shoulder-length hair tied back at the nape with loose curls at the temples, thick straight dark brows, a small pale scar through the tail of the left eyebrow, deep-set dark-brown eyes, a strong straight nose with a slight bump, a wide expressive mouth, narrow black reading glasses hanging on a cord, an olive field jacket. Costume: a dusty olive field jacket over a black blouse and black trousers, a long white linen shawl over her shoulders and across her chest like a lector's sash, crushed blue cornflowers in the breast pocket. Holding a thin tablet computer face-down against her chest; clothes lightly dusty. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
 
 *Still negative:* cartoon, illustration, painting, anime, CGI, 3D render, plastic or waxy skin, airbrushed, beauty filter, glamour makeup, text, watermark, logo, caption, extra fingers, deformed hands, distorted or asymmetric face, celebrity likeness, famous actor, cropped head, busy background, coloured gels, dramatic rim light, celebrity likeness, headscarf, heavy makeup, glamour hair, loose flowing hair, round glasses, tortoiseshell glasses, readable text on the pendant
 
@@ -482,14 +486,14 @@ SHORT (25 words):
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
 | **A** | 1 → 4.4 | A navy wool blazer; a heather-grey hoodie, hood down; dark indigo jeans; plain white canvas trainers (no logos); a lanyard with a blank HELIOS badge; a battered dark-grey laptop with a cracked corner and no stickers; a dog-eared stack of white ruled index cards held by a black binder clip (PROP_INDEX_CARDS). | *wearing a navy wool blazer over a heather-grey hoodie, dark indigo jeans, plain white canvas trainers, a lanyard with a blank badge* |
-| **B** | 4.4 → 10.4 | A, lived in: blazer sleeves pushed to the forearm, the hood UP for night wides, the laptop and cards in a canvas shoulder bag. From Seq 7, Rami's conservation kit (PROP_CONSERVATION_KIT). From 8.4, a red-light headlamp worn on the forehead or round the neck. From 9.2, **vivid Egyptian-blue powder** on her fingers, cuffs and blazer front. | *wearing a creased navy blazer with the sleeves pushed up over a grey hoodie, dark jeans, grubby white trainers, a canvas shoulder bag* |
-| **C** | 10.4 → 12 | B at damage L3, plus the **leg injury**: the left jeans leg torn open from knee to mid-shin and bound with a clean khaki field bandage over the denim below the knee; a pronounced left-leg limp. No blood. Seq 11.3: soaked to the chest in the Osiris Shaft, then drying, with the hoodie darker and the blazer heavy. | *wearing a dusty navy blazer over a grey hoodie, dark jeans with the left leg torn below the knee and bound with a khaki field bandage, grubby white trainers* |
+| **B** | 4.4 → 10.4 | A, lived in: blazer sleeves pushed to the forearm, the hood UP for night wides, the laptop and cards in a canvas shoulder bag. From 7.4, the conservation-kit bag lifted from Rami's shoulder (PROP_CONSERVATION_KIT; seq_07: "Adaeze kneels and lifts the conservation-kit bag from Rami's shoulder"). From 6.2, her own headlamp, on the forehead or round the neck: white for the port cut (6.2: "Adaeze's headlamp: a white circle on the small gold-edged PORT"), switched to red at 8.4 and in the Serapeum (10.2). From 9.2, **vivid Egyptian-blue powder** on her fingers, cuffs and blazer front. | *wearing a creased navy blazer with the sleeves pushed up over a grey hoodie, dark jeans, grubby white trainers, a canvas shoulder bag* |
+| **C** | 10.4 → 12 | B at damage L3, plus the **leg injury**: the left jeans leg torn open from knee to mid-shin where the stone chips struck, and a clean khaki field dressing tied over the denim at the shin (seq_10: "both hands locked around her left shin"; "Fathi ties a field dressing over Adaeze's left trouser leg"); a pronounced left-leg limp (the bad leg folds in the flooded shaft, 11.3; she and Tut both limp into the Hall, 12.3). No blood. Seq 11.3: soaked to the chest in the Osiris Shaft, then drying, with the hoodie darker and the blazer heavy; her bag, with Rami's camera, sinks in the shaft (no kit from here); glasses askew in the side tunnel. | *wearing a dusty navy blazer over a grey hoodie, dark jeans with the left leg torn below the knee and bound with a khaki field bandage, grubby white trainers* |
 | **D** | coda (the hearing, weeks later; seq_12) | Clean again: the navy wool blazer over the heather-grey hoodie, dark indigo jeans, clean white trainers; the round tortoiseshell glasses; a plain black aluminium walking cane hooked on her chair (the leg is healing; no bandage in view). Seated behind Hale, soft focus. | *wearing a clean navy wool blazer over a heather-grey hoodie, dark indigo jeans, a plain black walking cane hooked on her chair* |
 
 **Progression: dirt, damage, injuries, props carried**
 
 - **Damage by sequence:** Seq 1–4 L0 · Seq 5–6 L1 (*creased, river-damp*) · Seq 7–9 L2 (*dusty, a torn blazer pocket*; the blue powder from 9.2: paste *vivid blue powder smudged on her fingers and blazer front*) · Seq 10–12 L3 (*heavy stone dust and soot*).
-- **Injury (from 10.4):** the bandaged left leg and the limp, through the end of the film. Keep the bandage clean khaki, never stained.
+- **Injury (from 10.4):** the dressed left leg and the limp, through the end of the film. In the coda (the hearing) no dressing shows and a cane hooks on her chair (wardrobe D). Keep the bandage clean khaki, never stained.
 - **Seq 11.3:** wet to the chest; add *clothes soaked dark and clinging*, then *drying, water tide-lines*.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) deadpan: one eyebrow raised over the glasses, mouth flat · (2) shock held in check: eyes wide, lips pressed
@@ -554,8 +558,8 @@ SHORT (25 words):
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
 | **A** | 1 → 4.4 | A pale-blue cotton oxford shirt, sleeves **rolled above the elbows**; charcoal chinos; a brown leather belt; brown suede desert boots; a plain unbranded steel wristwatch; a pen in the breast pocket. In the lab, blue nitrile gloves. | *wearing a pale-blue cotton oxford shirt with the sleeves rolled above the elbows, charcoal chinos, a brown leather belt, brown suede desert boots, a plain steel wristwatch* |
-| **B** | 4.4 → 8.6 | A at damage L1–L2. At 6.2 (the port surgery) and 8.5 (the heart), a small white LED headlamp on an elastic strap round his forehead, and blue nitrile gloves. | *wearing a pale-blue cotton oxford shirt with the sleeves rolled above the elbows, charcoal chinos, a brown leather belt, brown suede desert boots, a plain steel wristwatch* |
-| **C** | 8.6 → 12.6 (captive; he dies in the Hall) | B, grey with dust, the shirt **torn at the left shoulder seam**, the watch gone, no headlamp. He is never shown bound. | *wearing a grey-dusted pale-blue oxford shirt torn at the left shoulder seam, sleeves rolled above the elbows, dusty charcoal chinos, desert boots* |
+| **B** | 4.4 → 8.5 | A at damage L1–L2. No headlamp of his own: at 6.2 (the port cut) Adaeze's headlamp lights his hands and he works with Fathi's multitool (PROP_MULTITOOL); at 8.5 (the heart) "Nour's torch clicks on over them". From 6.2 a cheap plastic stopwatch from the first-aid box (PROP_STOPWATCH), in hand at 7.1 with two fingers on Tut's wrist seam. | *wearing a pale-blue cotton oxford shirt with the sleeves rolled above the elbows, charcoal chinos, a brown leather belt, brown suede desert boots, a plain steel wristwatch* |
+| **C** | 8.5 → 12.6 (lifted up the bore by two shabti; captive; he dies in the Hall) | B, grey with dust, the shirt **torn at the left shoulder seam**, the watch gone, no headlamp. He is never shown bound. | *wearing a grey-dusted pale-blue oxford shirt torn at the left shoulder seam, sleeves rolled above the elbows, dusty charcoal chinos, desert boots* |
 
 **Progression: dirt, damage, injuries, props carried**
 
@@ -582,9 +586,9 @@ SHORT (25 words):
 
    > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a very tall, lanky Swedish man of fifty with a slight stoop, pale sun-reddened skin, a long narrow face, a full short-trimmed grey beard, thinning ash-grey hair swept back from a high forehead, deep-set pale blue-grey eyes with heavy crow's feet, a long straight nose, a pale-blue shirt with the sleeves rolled above the elbows. Costume: a pale-blue cotton oxford shirt with the sleeves rolled above the elbows, charcoal chinos, a brown leather belt, brown suede desert boots, a plain steel wristwatch. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
 
-5. **CHAR_TOMAS_B_headlamp** (Seq 6.2 / 8.5 working look) · aspect ratio **4:5**
+5. **CHAR_TOMAS_B_work** (Seq 6.2 / 7.1 / 8.5 working look; renamed from CHAR_TOMAS_B_headlamp by the reconciliation) · aspect ratio **4:5**
 
-   > Photorealistic character reference photograph for a live-action film: head and shoulders, front view, eyes looking down at his work below frame, concentrating. Subject: a very tall, lanky Swedish man of fifty with a slight stoop, pale sun-reddened skin, a long narrow face, a full short-trimmed grey beard, thinning ash-grey hair swept back from a high forehead, deep-set pale blue-grey eyes with heavy crow's feet, a long straight nose, a pale-blue shirt with the sleeves rolled above the elbows. A small white LED headlamp on an elastic strap round his forehead, switched off; blue nitrile gloves on his raised hands. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6.
+   > Photorealistic character reference photograph for a live-action film: head and shoulders, front view, eyes looking down at his work below frame, concentrating. Subject: a very tall, lanky Swedish man of fifty with a slight stoop, pale sun-reddened skin, a long narrow face, a full short-trimmed grey beard, thinning ash-grey hair swept back from a high forehead, deep-set pale blue-grey eyes with heavy crow's feet, a long straight nose, a pale-blue shirt with the sleeves rolled above the elbows. A cheap grey plastic stopwatch on a thin black cord in one raised hand, lit from below by a hard white work light. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6.
 
 6. **CHAR_TOMAS_C_full** (full body, wardrobe C (captive)) · aspect ratio **2:3**
 
@@ -624,7 +628,7 @@ SHORT (25 words):
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
 | **A** | 1 → 4.4 | A pressed Egyptian-army-style desert-camouflage uniform (a tan, sand and brown pattern) with the sleeves down; a **black beret** pulled low to the right with a small brass cap badge; subdued shoulder-board rank insignia (nothing legible); tan leather combat boots; a holstered pistol; a radio handset clipped at the left shoulder. The reading glasses are hidden in the left breast pocket. | *wearing a pressed desert-camouflage army uniform in tan, sand and brown with the sleeves down, a black beret with a small brass badge, subdued shoulder-board rank insignia, tan combat boots, a holstered pistol* |
-| **B** | 4.4 → 11.3 | Sleeves rolled to the elbow; a tan load-bearing vest with pouches; a generic unbranded rifle, slung; the beret always on. He gave his spare charcoal field jacket to Tut in 4.4 and never wears one himself. | *wearing a dusty desert-camouflage army uniform with sleeves rolled to the elbow, a tan load-bearing vest, a black beret, a rifle slung across his chest* |
+| **B** | 4.4 → 11.3 | Sleeves rolled to the elbow; a tan load-bearing vest with pouches; a generic unbranded rifle, slung; the beret always on. He gave his spare charcoal field jacket to Tut in 4.4 and never wears one himself. From 6.4 the police handheld is clipped to the vest (PROP_POLICE_HANDSET). He carries the soldiers' identity discs (PROP_ID_DISCS): Hassan's (5.3), then Youssef's and Karim's (10.4); he turns all three in his fingers on the Wall of the Crow (11.1). At the Osiris Shaft he hands Tut the waterproof map case (PROP_MAP_CASE) and rams his rifle into the pump (11.3). | *wearing a dusty desert-camouflage army uniform with sleeves rolled to the elbow, a tan load-bearing vest, a black beret, a rifle slung across his chest* |
 | **C** | 11.3 (the Osiris Shaft) | B, soaked; chest-deep in dark water, his face wet, the beret still on. He goes under: shown as a hand, the water and the sound. | *wearing a soaked desert-camouflage uniform and black beret, chest-deep in dark water* |
 
 **Progression: dirt, damage, injuries, props carried**
@@ -690,13 +694,13 @@ SHORT (25 words):
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
 | **A** | 1 → 4.4 | A desert-camouflage uniform, sleeves rolled above the elbow; a black beret (GEM duty); **a faded brick-red cotton scarf with a small white geometric diamond pattern, knotted loosely at the throat** (his signature); a combat engineer's chest rig with pouches; tan combat boots; a generic rifle. | *wearing a desert-camouflage army uniform with the sleeves rolled above the elbow, a black beret, a faded brick-red patterned scarf knotted at the neck, a combat engineer's chest rig with pouches, tan combat boots* |
-| **B** | 4.4 → 12 (to dawn) | Bareheaded (the beret folded under his left shoulder strap); the red scarf; the chest rig; a canvas demolition satchel worn across the body; a coil of cord at the hip. From 11.5, **Tut's meteoritic dagger** in his right hand or at his belt (PROP_DAGGER). Not in the shaft, so dry in Seq 11. | *wearing a dusty desert-camouflage uniform with rolled sleeves, a faded brick-red patterned scarf at the neck, a chest rig, a canvas demolition satchel slung across his body, bareheaded* |
-| **C** | coda (the Tutankhamun galleries, weeks later; seq_12) | A clean, pressed desert-camouflage uniform with the sleeves rolled above the elbow, the faded brick-red patterned scarf knotted at the neck, a black beret; no chest rig, no satchel. He holds PROP_DAGGER out hilt first to CHAR_CONSERVATOR_2033. | *wearing a clean desert-camouflage army uniform with the sleeves rolled above the elbow, a faded brick-red patterned scarf knotted at the neck, a black beret* |
+| **B** | 4.4 → 12 (to dawn) | Bareheaded (the beret folded under his left shoulder strap); the red scarf; the chest rig; a canvas demolition satchel worn across the body; a coil of cord at the hip. In the satchel and rig: the demolition charges and firing device (PROP_DEMO_CHARGES), the pry bar (PROP_PRY_BAR) and the multitool (PROP_MULTITOOL); from Seq 11 a wind-up watch (PROP_WINDUP_WATCH). **The red scarf leaves his neck 9.1 → 9.3** (bound twice round Tut's chest in the inspection pit; he knots it back at his throat after the derailment). Oil to the wrists at the police dock (5.3) and to the elbows at the rail yard (9.1). His rifle clicks empty on the Gallery ramp (11.5). From 11.5, **Tut's meteoritic dagger** in his right hand or at his belt (PROP_DAGGER). Not in the shaft, so dry in Seq 11. | *wearing a dusty desert-camouflage uniform with rolled sleeves, a faded brick-red patterned scarf at the neck, a chest rig, a canvas demolition satchel slung across his body, bareheaded* |
+| **C** (RESERVE) | coda: not on screen | The coda dagger hand-over was cut in the screenplay's editor pass (seq_12 notes): the gallery coda now shows only white-gloved hands, and Fathi is not in the coda. Keep for an added insert only: a clean, pressed desert-camouflage uniform with the sleeves rolled above the elbow, the faded brick-red patterned scarf knotted at the neck, a black beret; no chest rig, no satchel. | *wearing a clean desert-camouflage army uniform with the sleeves rolled above the elbow, a faded brick-red patterned scarf knotted at the neck, a black beret* |
 
 **Progression: dirt, damage, injuries, props carried**
 
 - **Damage by sequence:** Seq 1–4 L0 · Seq 5–6 L1 (*river-wet to the knees*) · Seq 7–9 L2 · Seq 10–12 L3 (*soot and stone dust, the chest-rig pouches empty*).
-- **Seq 12.7:** carries Tut out into first light, with the dagger at his belt.
+- **Seq 12.6–12.7:** comes up out of the passage "dagger in fist", lifts Tut, and with Nour carries him down the Gallery and out into first light, the dagger at his belt while he carries. Not seen in the coda.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) a warm, wide grin · (2) the tactical read: eyes narrowed, head tilted, listening
 
@@ -755,14 +759,14 @@ SHORT (25 words):
 
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
-| **A** | 1 → 3.6 | A bright yellow zip-up windbreaker with a small embroidered black sun-disk emblem on the left chest and no lettering (HELIOS); a plain charcoal t-shirt; black jeans; grey trainers with no logos; a lanyard with a blank badge; the battered mustard-yellow A5 hardback notebook with a black elastic band (PROP_RAMI_NOTEBOOK; its title is COMP). In 2.1 he drinks from the gift-shop mug (PROP_GIFT_MUG). | *wearing a bright yellow zip-up windbreaker with a small black sun-disk emblem on the chest and no lettering, a plain charcoal t-shirt, black jeans, grey trainers* |
-| **B** | 3.6 → 7.4 | A, plus the **broken fingers**: an aluminium-and-foam finger splint along the ring and little fingers of the LEFT hand, bound with white medical tape, the hand held close to his chest. In Seq 4 he carries the grey hard-shell conservation kit case (PROP_CONSERVATION_KIT) in his right hand. At Karnak (Seq 7), the right windbreaker elbow is torn. | *wearing a bright yellow zip-up windbreaker with a small black sun-disk emblem on the chest and no lettering, a plain charcoal t-shirt, black jeans, grey trainers, his left hand in a finger splint bound with white tape* |
+| **A** | 1 → 3.6 | A bright yellow zip-up windbreaker with a small embroidered black sun-disk emblem on the left chest and no lettering (HELIOS); a plain charcoal t-shirt; black jeans; grey trainers with no logos; a lanyard with a blank badge; the battered mustard-yellow A5 hardback notebook with a black elastic band (PROP_RAMI_NOTEBOOK; its title is COMP). In 2.1 he drinks from the gift-shop mug (PROP_GIFT_MUG); in 3.4 he wears a gala headset. | *wearing a bright yellow zip-up windbreaker with a small black sun-disk emblem on the chest and no lettering, a plain charcoal t-shirt, black jeans, grey trainers* |
+| **B** | 3.6 → 7.4 | A, plus the **broken fingers**: two fingers of the LEFT hand taped to a wooden tongue depressor with white medical tape (seq_03: "Tomas tapes two fingers to a tongue depressor"), the hand held close to his chest. In Seq 4 he snaps the grey hard-shell conservation kit case shut (PROP_CONSERVATION_KIT) and carries it on its shoulder strap to Karnak ("Rami with the conservation-kit bag"). He runs the block trolley "with one hand and a forearm" (PROP_BLOCK_TROLLEY, 7.2–7.4). At Karnak (Seq 7), the right windbreaker elbow is torn. | *wearing a bright yellow zip-up windbreaker with a small black sun-disk emblem on the chest and no lettering, a plain charcoal t-shirt, black jeans, grey trainers, his left hand in a finger splint bound with white tape* |
 
 **Progression: dirt, damage, injuries, props carried**
 
 - **Damage by sequence:** Seq 1–3 L0 · Seq 4–6 L1 (*creased, river-damp*; the splint grubby) · Seq 7 L2 (*sandstone dust, the right sleeve torn at the elbow*).
 - **Injury (3.6):** the fingers break off screen (a crack, a cradled hand). The splint appears from the next scene on and stays until his death.
-- **Death (7.4):** kill grammar at the quay's edge; Tut takes the notebook from his jacket.
+- **Death (7.4):** kill grammar at the quay (sparks off the trolley's steel handle; he drops out of frame behind it). Tut straightens his glasses, passes a hand once over his eyes and takes the notebook from inside the yellow windbreaker; Adaeze lifts the kit bag from his shoulder.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) the grin: eyebrows up, the chipped tooth showing · (2) wonder: mouth open, eyes wet behind the glasses
 
@@ -822,12 +826,12 @@ SHORT (25 words):
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
 | **A** | 1 → 4.3 | A charcoal wool two-piece suit; a crisp white shirt open two buttons at the collar; no tie; black leather shoes; a plain unbranded steel wristwatch; no pin, no logo. | *wearing a charcoal wool two-piece suit and a crisp white shirt open at the collar, no tie, black leather shoes, a plain steel wristwatch* |
-| **B** | 4.3 → 12.8 (asleep in the Garden) | A, creased, the jacket on; he lies on a pale mat under soft white light. From the midpoint broadcast (7.3) a **thin silver bracelet on the left wrist** (PROP_SLEEP_BRACELET, "for sunrise"). | *wearing a creased charcoal suit and open-collared white shirt, a thin silver bracelet on his left wrist, asleep* |
+| **B** | 4.3 → 12.8 (asleep in the Garden) | A, creased, the jacket on; he lies asleep among the rows under the colossus in soft white light (he drank the first glass, 4.3). The **thin silver bracelet on the left wrist** (PROP_SLEEP_BRACELET, "for sunrise") goes on at 11.1, on screen: "One closes round HALE's wrist." Before 11.1, no bracelet. At 12.8 he "sits up, the open bracelet in his palm". | 4.3 → 11.1: *wearing a creased charcoal suit and open-collared white shirt, asleep* · 11.1 → 12.8: *wearing a creased charcoal suit and open-collared white shirt, a thin silver bracelet on his left wrist, asleep* |
 | **C** | coda (the hearing) | The charcoal suit with a white shirt buttoned to the collar and, for the first time, a plain dark tie; no bracelet; his hair slightly less perfect. He looks older. | *wearing a charcoal wool suit, a white shirt buttoned to the collar with a plain dark tie, black leather shoes* |
 
 **Progression: dirt, damage, injuries, props carried**
 
-- Always L0 on screen; B only adds creasing. The bracelet appears from 7.3 until the waking (12.8).
+- Always L0 on screen; B only adds creasing. The bracelet appears from 11.1 (fitted on screen) until the waking (12.8). In the coda his thumb rubs his bare wrist.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) the believer's smile: warm, certain, eyes shining · (2) the hearing: flat, tired, eyes down
 
@@ -967,13 +971,13 @@ SHORT (25 words):
 
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
-| **A** | 4 (broadcast, if used) · 7.3 (projection) · 9 · 12 (forecast) | A long, finely pleated white linen robe to the ankles, tied at the waist with a white linen sash; a pleated linen shawl over the shoulders; a **plain polished gold disk pendant**, palm-sized, on a fine gold chain (no rays, no hands, no inscription); bare feet. At 7.3 he is a 40 m projection on the pylon (COMP). In Seq 12.2 his chest opens under the linen: cool white light spills through the fabric (COMP; never green, to keep it distinct from Tut's G-states) as he lifts out the replica vessel (PROP_REPLICA_VESSEL). | *wearing a long, finely pleated white linen robe falling to the ankles, tied at the waist with a white linen sash, a pleated linen shawl over the shoulders, a plain polished gold disk the size of a palm hanging on a fine gold chain, bare feet* |
-| **B** | 10–12 (captive, the procession) | A, with the hem dusty; a dark grey wool blanket round his shoulders in the dark intercuts (he is afraid of the dark). At dawn (12.7) he sits on the pyramid's steps facing east in A without the blanket, and is still. | *wearing a long, finely pleated white linen robe falling to the ankles, tied at the waist with a white linen sash, a pleated linen shawl over the shoulders, a plain polished gold disk the size of a palm hanging on a fine gold chain, bare feet, a dark grey wool blanket around his shoulders* |
+| **A** | 4 (broadcast, if used) · 7.3 (projection) · 9 · 12 (forecast) | A long, finely pleated white linen robe to the ankles, tied at the waist with a white linen sash; a pleated linen shawl over the shoulders; a **plain polished gold disk pendant**, palm-sized, on a fine gold chain (no rays, no hands, no inscription); bare feet. At 7.3 he is a 40 m projection on the pylon (COMP). In Seq 12.2 "His hands go inside the pleated linen. A soft click." He draws out the replica vessel (PROP_REPLICA_VESSEL) with **no light** of any kind: the forecast has no glow, and the replica is "a lamp that will not light" (reconciled; the earlier cool-white COMP spill is retired). | *wearing a long, finely pleated white linen robe falling to the ankles, tied at the waist with a white linen sash, a pleated linen shawl over the shoulders, a plain polished gold disk the size of a palm hanging on a fine gold chain, bare feet* |
+| **B** | 11–12 (the procession, the Gallery, the Hall, the dawn) | A, with the hem dusty. In the Grand Gallery (11.4) he "presses his back to the wall, fist locked on his gold disk pendant", Tomas holding his hand; in the Hall he sits in a niche with the replica vessel in his lap (12.2–12.6), then rises and walks down into the dark; at dawn (12.7) he sits on the pyramid's north-east corner steps facing east, "the clear vessel in his lap", and is still. The earlier grey blanket for "dark intercuts" is retired: the screenplay has no such intercuts. | *wearing a long, finely pleated white linen robe falling to the ankles, tied at the waist with a white linen sash, a pleated linen shawl over the shoulders, a plain polished gold disk the size of a palm hanging on a fine gold chain, bare feet, the hem dusty* |
 | **R (CHAR_AKHENATEN_1336)** | 9.5(a) the Amarna memory, c. 1336 BC | The same face at about 35: faint lines at the eyes, sun-darkened skin. A tall blue crown dotted with small gold discs (the blue war crown) with a gold cobra at the brow; a long finely pleated white linen robe with a pleated sash-apron; a broad collar of gold and blue faience beads; gold armbands; white papyrus sandals. Blinding white-gold light. Egyptologist sign-off on crown and regalia. | *wearing a long finely pleated white linen robe with a pleated sash-apron, a broad collar of gold and blue faience beads, gold armbands, white papyrus sandals* |
 
 **Progression: dirt, damage, injuries, props carried**
 
-- Forecast: always clean; the hem dusts from Seq 10. The real king (1336 BC): radiant, spotless.
+- Forecast: always clean; the hem dusts from Seq 11. The real king (1336 BC): radiant, spotless.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) radiant certainty: a gentle smile, eyes half-closed · (2) the falter: eyes open wide, the smile gone for a beat
 
@@ -1198,12 +1202,12 @@ SHORT (25 words):
 
 ---
 
-### CHAR_KARIM — Private KARIM (24)
+### CHAR_KARIM — Private KARIM (19)
 *Seq 1–10 (dies 10.4) · soldier pack*
 
 | Field | Lock |
 |---|---|
-| **Age** | 24 |
+| **Age** | 19 (seq_04: "PVTS. MINA, YOUSSEF and KARIM (19)"; re-locked by the reconciliation from 24) |
 | **Ethnicity / heritage** | Egyptian. |
 | **Build** | 1.73 m, wiry and quick. |
 | **Face (repeatable features)** | A narrow, sharp-featured face; **light-brown skin with freckles across the nose**; **hazel eyes**; a thin straight nose; a quick crooked smile; clean-shaven. |
@@ -1215,11 +1219,11 @@ SHORT (25 words):
 
 **LONG look-lock** (46 words, paste verbatim; headgear moved to the wardrobe phrase by the cross-check):
 
-> a wiry Egyptian private of twenty-four with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up
+> a wiry Egyptian private of nineteen with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up
 
 **SHORT look-lock** (16 words, paste verbatim):
 
-> a wiry Egyptian private of twenty-four, freckled light-brown skin, hazel eyes, curly dark hair, desert camouflage
+> a wiry Egyptian private of nineteen, freckled light-brown skin, hazel eyes, curly dark hair, desert camouflage
 
 **Character negative** (append to the shot NEGATIVE and to every still below): celebrity likeness, readable name tapes or insignia, real unit patches, flags
 
@@ -1240,19 +1244,19 @@ SHORT (25 words):
 
 1. **CHAR_KARIM_A_front** (front neutral, wardrobe A) · aspect ratio **4:5**
 
-   > Photorealistic character reference photo for a live-action film: front view, head and shoulders, neutral relaxed expression, looking straight into the lens. Subject: a wiry Egyptian private of twenty-four with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the eyes.
+   > Photorealistic character reference photo for a live-action film: front view, head and shoulders, neutral relaxed expression, looking straight into the lens. Subject: a wiry Egyptian private of nineteen with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the eyes.
 
 2. **CHAR_KARIM_A_34** (three-quarter, wardrobe A) · aspect ratio **4:5**
 
-   > Photorealistic character reference photo for a live-action film: three-quarter view, head and shoulders turned 45 degrees toward camera left, eyes following the face, neutral relaxed expression. Subject: a wiry Egyptian private of twenty-four with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the near eye.
+   > Photorealistic character reference photo for a live-action film: three-quarter view, head and shoulders turned 45 degrees toward camera left, eyes following the face, neutral relaxed expression. Subject: a wiry Egyptian private of nineteen with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the near eye.
 
 3. **CHAR_KARIM_A_profile** (profile, wardrobe A) · aspect ratio **4:5**
 
-   > Photorealistic character reference photo for a live-action film: strict left profile, head and shoulders, neutral expression, the outline of brow, nose, lips and chin clean against the backdrop. Subject: a wiry Egyptian private of twenty-four with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus along the profile.
+   > Photorealistic character reference photo for a live-action film: strict left profile, head and shoulders, neutral expression, the outline of brow, nose, lips and chin clean against the backdrop. Subject: a wiry Egyptian private of nineteen with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus along the profile.
 
 4. **CHAR_KARIM_A_full** (full body, wardrobe A) · aspect ratio **2:3**
 
-   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a wiry Egyptian private of twenty-four with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
+   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a wiry Egyptian private of nineteen with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up. Costume: a desert-camouflage army uniform and a tan combat helmet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
 
 *Still negative:* cartoon, illustration, painting, anime, CGI, 3D render, plastic or waxy skin, airbrushed, beauty filter, glamour makeup, text, watermark, logo, caption, extra fingers, deformed hands, distorted or asymmetric face, celebrity likeness, famous actor, cropped head, busy background, coloured gels, dramatic rim light, celebrity likeness, readable name tapes or insignia, real unit patches, flags
 
@@ -1275,7 +1279,7 @@ Period faces follow bible §6: the modern Nile-valley range, olive to brown, con
 | **Skin** | Sun-weathered, deep bronze-brown. |
 | **Eyes** | Dark, shrewd, unreadable. |
 | **Voice** | Low, dry and absolutely certain: "He will be. Not by ours." The liturgy ("I have opened thy mouth…") in Middle Egyptian. |
-| **Anchors (bible §6)** | the gold disc-bead collars ("gold of honour"); in B, the leopard-skin mantle and the blue crown, which mirror the north-wall painting [04 §2; 09] |
+| **Anchors (bible §6)** | the gold disc-bead collars ("gold of honour"); the leopard-skin mantle in both states (seq_01 gives it to him in 1.1); in B the blue crown, which with the mantle mirrors the north-wall painting [04 §2; 09] |
 
 **LONG look-lock** (61 words, paste verbatim):
 
@@ -1291,7 +1295,7 @@ Period faces follow bible §6: the modern Nile-valley range, olive to brown, con
 
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
-| **A** | 1.1 (House of Embalming) | A plain pleated white linen kilt to mid-calf; a long white linen shawl over the shoulders; several strands of heavy gold disc-bead collars (the "gold of honour" shown in his Amarna tomb) [verify]; bare feet (ritual purity). | *wearing a plain pleated white linen kilt to mid-calf and a long white linen shawl over his shoulders, bare feet* |
+| **A** | 1.1 (House of Embalming) | seq_01: "AY (60s, the sem-priest's leopard skin)". The **spotted leopard-skin mantle** of the sem-priest (a fabricated pelt, spotted gold and black) draped over the left shoulder above a plain pleated white linen kilt to mid-calf; several strands of heavy gold disc-bead collars (the "gold of honour" shown in his Amarna tomb) [verify]; bare feet (ritual purity); no crown. He takes the linen bundle from the embalmer, lowers it into the vessel, lays his hand flat on the lector's papyrus and tips a ladle of hot resin over the vessel's mouth (PROP_HEART_VESSEL). | *wearing a spotted leopard-skin mantle draped over his left shoulder above a plain pleated white linen kilt to mid-calf, bare feet* |
 | **B** | 1.2 (KV62 burial, 70 days later) | As sem-priest: a **spotted leopard-skin mantle** (a fabricated pelt, spotted gold and black, its head resting at his hip) draped over the left shoulder, above the pleated white linen kilt; the collars; the **tall blue crown with small gold discs and a gold cobra**, as on the KV62 north wall where Ay performs the rite on the king [04 §2; 09]; the iron adze (PROP_IRON_ADZE_1323) touched to the coffin's mouth and eyes. | *wearing a spotted leopard-skin mantle draped over his left shoulder above a pleated white linen kilt, a tall blue crown with a gold cobra at the brow, an iron adze in his right hand* |
 
 **Progression: dirt, damage, injuries, props carried**
@@ -1304,19 +1308,19 @@ Period faces follow bible §6: the modern Nile-valley range, olive to brown, con
 
 1. **CHAR_AY_A_front** (front neutral, wardrobe A) · aspect ratio **4:5**
 
-   > Photorealistic character reference photo for a live-action film: front view, head and shoulders, neutral relaxed expression, looking straight into the lens. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a plain pleated white linen kilt to mid-calf and a long white linen shawl over his shoulders, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the eyes.
+   > Photorealistic character reference photo for a live-action film: front view, head and shoulders, neutral relaxed expression, looking straight into the lens. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a spotted leopard-skin mantle draped over his left shoulder above a plain pleated white linen kilt to mid-calf, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the eyes.
 
 2. **CHAR_AY_A_34** (three-quarter, wardrobe A) · aspect ratio **4:5**
 
-   > Photorealistic character reference photo for a live-action film: three-quarter view, head and shoulders turned 45 degrees toward camera left, eyes following the face, neutral relaxed expression. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a plain pleated white linen kilt to mid-calf and a long white linen shawl over his shoulders, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the near eye.
+   > Photorealistic character reference photo for a live-action film: three-quarter view, head and shoulders turned 45 degrees toward camera left, eyes following the face, neutral relaxed expression. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a spotted leopard-skin mantle draped over his left shoulder above a plain pleated white linen kilt to mid-calf, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus on the near eye.
 
 3. **CHAR_AY_A_profile** (profile, wardrobe A) · aspect ratio **4:5**
 
-   > Photorealistic character reference photo for a live-action film: strict left profile, head and shoulders, neutral expression, the outline of brow, nose, lips and chin clean against the backdrop. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a plain pleated white linen kilt to mid-calf and a long white linen shawl over his shoulders, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus along the profile.
+   > Photorealistic character reference photo for a live-action film: strict left profile, head and shoulders, neutral expression, the outline of brow, nose, lips and chin clean against the backdrop. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a spotted leopard-skin mantle draped over his left shoulder above a plain pleated white linen kilt to mid-calf, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 85mm portrait lens, f/5.6, sharp focus along the profile.
 
 4. **CHAR_AY_A_full** (full body, wardrobe A) · aspect ratio **2:3**
 
-   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a plain pleated white linen kilt to mid-calf and a long white linen shawl over his shoulders, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
+   > Photorealistic full-body character reference photo for a live-action film: front view, the whole figure from head to feet with space above and below, standing naturally, arms relaxed, neutral expression. Subject: a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck. Costume: a spotted leopard-skin mantle draped over his left shoulder above a plain pleated white linen kilt to mid-calf, bare feet. Plain mid-grey seamless studio backdrop, soft even diffused frontal light with gentle fill, no harsh shadows, no text, no logos. Real human, natural skin texture with visible pores, true-to-life colour, no retouching; not a painting or a 3D render. 50mm lens, f/8, everything in sharp focus.
 
 5. **CHAR_AY_B_full** (full body, wardrobe B (the burial)) · aspect ratio **2:3**
 
@@ -1445,7 +1449,7 @@ Period faces follow bible §6: the modern Nile-valley range, olive to brown, con
 ---
 
 ### CHAR_EMBALMER_JACKAL — THE EMBALMER in the jackal mask, 1323 BC
-*Period figure · Seq 1.1 · works with his back to camera; the face is NEVER seen*
+*Period figure · Seq 1.1 · works with his back to camera, then turns: "The embalmer turns: the jackal face, at last." The mask is seen full on; the man's own face is NEVER seen. He lays the linen bundle in Ay's hands, lurches back when the glass pulses, cries "Without his heart he cannot be weighed!" and, hands shaking, settles the boy's forearms low under the linen (seq_01)*
 
 | Field | Lock |
 |---|---|
@@ -1505,8 +1509,8 @@ Period faces follow bible §6: the modern Nile-valley range, olive to brown, con
 
 ---
 
-### CHAR_EMBALMER_PRIEST — THE YOUNG PRIEST-EMBALMER, 1323 BC ("Without his heart he cannot be weighed!")
-*Period face · Seq 1.1 · the second embalmer, unmasked*
+### CHAR_EMBALMER_PRIEST — THE YOUNG PRIEST-EMBALMER, 1323 BC (RESERVE: seq_01 has one embalmer, the masked one, who speaks the line)
+*Period face · RESERVE (not in the current seq_01) · a second, unmasked embalmer; use only if one is added*
 
 | Field | Lock |
 |---|---|
@@ -1649,7 +1653,7 @@ The real Akhenaten is CHAR_AKHENATEN_1336 in §3 (same actor as the forecast). P
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
 | **A** | 9.5(a), c. 1336 BC (day; blinding white-gold) | A long, finely pleated white linen robe (opaque), tied beneath the bust with a red sash whose ends hang to the knee; a broad collar of gold, blue faience and red carnelian beads; gold earrings; gold sandals; the flat-topped blue crown with its gold band and cobra. | *wearing a long finely pleated white linen robe tied beneath the bust with a red sash, a broad collar of gold, blue faience and red carnelian beads, gold earrings* |
-| **B** | 9.5(b), c. 1332 BC (night barge north; the Hall) | The same crown; a long pleated white linen robe under a **deep-blue linen cloak** for the night crossing; a broad collar of gold and blue faience; bare feet in the Hall. She kneels to the nine-year-old. | *wearing a long pleated white linen robe under a deep-blue linen cloak, a broad collar of gold and blue faience beads* |
+| **B** | 9.5(b), c. 1332 BC (night barge north; the Hall) | The same crown; a long pleated white linen robe under a **deep-blue linen cloak** for the night crossing; a broad collar of gold and blue faience; bare feet in the Hall. She kneels to the nine-year-old. She carries the lamp up the Grand Gallery, the boy holding her other hand, and sets it down to kneel to him in the Hall (seq_09: "The queen carries the lamp. The boy holds her other hand."; "The queen sets down her lamp and kneels to him, eye to eye"). | *wearing a long pleated white linen robe under a deep-blue linen cloak, a broad collar of gold and blue faience beads* |
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) command: chin level, eyes steady · (2) kneeling tenderness: eyes soft, lips parted
 
@@ -1795,7 +1799,15 @@ The real Akhenaten is CHAR_AKHENATEN_1336 in §3 (same actor as the forecast). P
 
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
-| **A** | 9.5(b) | A plain, finely pleated white linen robe (opaque); a narrow gold circlet; a broad collar of blue faience beads; bare feet in the Hall. If the Seq 9 screenplay has her lift the vessel from her own chest, use Tut's overlay *a soft glow through the fabric at the centre of the chest* (warm amber, COMP), never the organ; otherwise she carries the vessel in both hands. | *wearing a plain finely pleated white linen robe, a narrow gold circlet and a broad collar of blue faience beads* |
+| **A** | 9.5(b): the night barge north and the Hall, c. 1332 BC | A plain, finely pleated white linen robe (opaque); a narrow gold circlet; a broad collar of blue faience beads; bare feet in the Hall. On the barge "the left side of her face always turned away from the torch" (seq_09). The robe is loose at the breast so that her hands can go under it (see the staging below). | *wearing a plain finely pleated white linen robe, a narrow gold circlet and a broad collar of blue faience beads* |
+
+**How her heart is staged (screenplay seq_09, 9.5b, "INT. THE HALL OF TWO TRUTHS - NIGHT (MEMORY)"; locked by the reconciliation, replacing the earlier either/or):**
+1. "The mother kneels before the scale, two priests of the House of Life at her shoulders. She looks at the boy." The priests are CHAR_AMARNA_COURTIERS_1336 (shaved heads, white linen, faces soft); Pawah reads, unheard ("The memory has only the heartbeat").
+2. "Her hands go under the linen at her breast. Light spills through the fabric." Prompt only *a soft glow through the fabric at the centre of her chest*; in COMP the glow is a faint cold green matched to the vessel's pulse (never Tut's warm G1 amber).
+3. "Her hands come out holding a vessel of yellow-green glass. A dark shape inside. One faint green pulse." The vessel is PROP_HEART_VESSEL state V-1332 (file 04 §4): the same make as the 1323 vessel, sealed with plain black resin, with no wax serpent and no papyrus band.
+4. "She sets it on the pan. The pan moves." On the disk the bronze fingers close one by one and its glass dims (UNIT_ATEN_AMARNA AT-4, file 02 §11).
+5. "The mother sinks back into the priests' arms." The boy starts forward; the queen sets down her lamp and kneels to him (CHAR_NEFERTITI B): "You will be the one who remembers."
+**Never:** an organ, an open chest, a wound, a hand inside a body, or anything but hands, fabric, light and the glass vessel (file 05 §7.3; NEG_REMAINS). No close view of the dark shape beyond "a dark shape inside". She is not shown dying: she sinks back into supporting arms and the cut goes to the queen and the boy.
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) resolve: a calm, small smile · (2) farewell: eyes on the boy, wet
 
@@ -2184,7 +2196,7 @@ Build the costumes in true colour; the scene is graded sepia silver-gelatin (bib
 
 | Code | Sequences | Exact items | Paste phrase (append after the look-lock) |
 |---|---|---|---|
-| **A** | 1.3 | A pale grey-striped cotton galabiya; a dark brown wool waistcoat over it; a white knitted skullcap; leather slippers; a dented brass kerosene hand-lantern with a tall glass chimney (PROP_LAMP_1925) held up in both hands. | *wearing a pale grey-striped cotton galabiya under a dark brown wool waistcoat and a white knitted skullcap* |
+| **A** | 1.3 | A pale grey-striped cotton galabiya; a dark brown wool waistcoat over it; a white knitted skullcap; leather slippers; a dented brass kerosene hurricane lantern (PROP_LAMP_1925) held low over the work at arm's length (seq_01: "holds a hurricane lamp low over the work. His arm aches. He does not lower it."). | *wearing a pale grey-striped cotton galabiya under a dark brown wool waistcoat and a white knitted skullcap* |
 
 **Sheet expressions** (use the front-still prompt, replacing "neutral relaxed expression"): (1) hearing the heartbeat: eyes widening, breath held · (2) the tremble: the lamp shaking in his hands
 
@@ -2382,7 +2394,7 @@ Build the costumes in true colour; the scene is graded sepia silver-gelatin (bib
 ---
 
 ### CHAR_XRAY_ASSISTANT_1968 — the RADIOGRAPHER, 1968 ("And the heart?")
-*1968 face (an insert scene) · Seq 1.4 · one line, often an over-the-shoulder*
+*1968 · Seq 1.4 · one line, OFF SCREEN in seq_01 ("ASSISTANT (O.S.)"): voice only in the current pages; the look-lock is kept for an optional over-the-shoulder*
 
 | Field | Lock |
 |---|---|
@@ -2451,41 +2463,41 @@ These have no locked face and no core still set. Never frame them as principals.
 
 ### CHAR_MINISTER_GALA — the MINISTER (fictional, unnamed), Seq 4.1: WIDES ONLY
 
-**LONG** (55 words):
+**LONG** (56 words):
 
-> an unnamed Egyptian government minister in his sixties seen only at a distance, a heavy-set man with neat grey hair and rimless glasses, a dark navy suit, white shirt and dark tie, standing at a lectern beneath a colossal granite statue and gesturing to a crowd of evening guests, his face never in close view
+> an unnamed Egyptian government minister in his sixties seen only at a distance, a heavy-set man with neat grey hair and rimless glasses, a dark navy suit, white shirt and dark tie, rising from a long top table beneath a colossal granite statue, one hand open toward a grand staircase, his face never in close view
 
-**SHORT** (20 words):
+**SHORT** (22 words):
 
-> a heavy-set grey-haired official in his sixties in a dark navy suit, seen only in wide shots at a lectern
+> a heavy-set grey-haired official in his sixties in a dark navy suit, seen only in wide shots rising from a top table
 
-**Notes:** Never a close-up and never a likeness of any real official. No flags, no sashes, no nameplate.
+**Notes:** Never a close-up and never a likeness of any real official. No flags, no sashes, no nameplate. Reconciled to seq_04: "WIDE: the host Minister rises, a hand open to the stair" and announces the King (in Arabic, then English); Hale, not the Minister, speaks at the lectern.
 
 **Reference still** (image generator; self-contained; added by the cross-check)
 
 1. **CHAR_MINISTER_GALA_still** (wide, in context) · aspect ratio **16:9**
 
-   > Photorealistic film still from a live-action drama, 16:9: a wide shot of a night gala in a vast modern museum atrium of pale stone and glass; beneath a colossal red-granite statue of a striding king stands a low lectern, and at it, small in frame, an unnamed Egyptian government minister in his sixties seen only at a distance, a heavy-set man with neat grey hair and rimless glasses, a dark navy suit, white shirt and dark tie, standing at a lectern beneath a colossal granite statue and gesturing to a crowd of evening guests, his face never in close view; warm amber uplight, guests at white-clothed tables in the foreground soft and out of focus, fine film grain, 35mm lens.
+   > Photorealistic film still from a live-action drama, 16:9: a wide shot of a night gala in a vast modern museum atrium of pale stone and glass; beneath a colossal red-granite statue of a striding king runs a long top table, and at it, small in frame, an unnamed Egyptian government minister in his sixties seen only at a distance, a heavy-set man with neat grey hair and rimless glasses, a dark navy suit, white shirt and dark tie, rising from a long top table beneath a colossal granite statue, one hand open toward a grand staircase, his face never in close view; a grand staircase rises behind; warm amber uplight, guests at white-clothed tables in the foreground soft and out of focus, fine film grain, 35mm lens.
 
 ---
 
 ### CHAR_SAMEH — SAMEH, Layla's father (Seq 4.1): FROM BEHIND ONLY
 
-**LONG** (49 words):
+**LONG** (60 words):
 
-> a man in his early forties seen only from behind or out of focus, medium build, short dark hair, a dark grey wool jacket over a white shirt, holding a small girl's hand as they cross a crowded museum atrium at night, never turning his face to the camera
+> a man in his early forties seen only from behind or out of focus, medium build, short dark hair, a dark grey wool jacket over a white shirt, seated at a round white-clothed gala table beneath a colossal granite statue in a crowded museum atrium at night, one hand raised in a wave, never turning his face to the camera
 
-**SHORT** (21 words):
+**SHORT** (23 words):
 
-> a man in his forties in a dark grey jacket, seen from behind, holding a small girl's hand in a crowd
+> a man in his forties in a dark grey jacket, seen from behind at a gala table, one hand raised in a wave
 
-**Notes:** The bible has him unseen or a voice; this lock covers the one entrance with Layla.
+**Notes (reconciled to seq_04):** the screenplay shows only "From a table under the Ramesses, a man's hand waves. Layla drags her feet back." In 2.4 he is a name on Nour's phone ("Yes, Sameh"). Use a hand insert, or this lock from behind; never his face. The earlier "holding a small girl's hand in a crowd" is not in the pages.
 
 **Reference still** (image generator; self-contained; added by the cross-check)
 
 1. **CHAR_SAMEH_still** (from behind, in context) · aspect ratio **16:9**
 
-   > Photorealistic film still from a live-action drama, 16:9: a man in his early forties seen only from behind or out of focus, medium build, short dark hair, a dark grey wool jacket over a white shirt, holding a small girl's hand as they cross a crowded museum atrium at night, never turning his face to the camera; the small girl beside him wears a bright yellow knee-length raincoat over a navy party dress and two curly pigtails, also seen from behind; warm gala light, guests in evening dress soft in the background, fine film grain, 40mm lens.
+   > Photorealistic film still from a live-action drama, 16:9: a man in his early forties seen only from behind or out of focus, medium build, short dark hair, a dark grey wool jacket over a white shirt, seated at a round white-clothed gala table beneath a colossal granite statue in a crowded museum atrium at night, one hand raised in a wave, never turning his face to the camera; a small girl in a bright yellow knee-length raincoat over a navy party dress, two curly pigtails, walks back toward his table, also seen from behind; warm gala light, guests in evening dress soft in the background, fine film grain, 40mm lens.
 
 ---
 
@@ -2511,21 +2523,21 @@ These have no locked face and no core still set. Never frame them as principals.
 
 ### CHAR_GARDEN_SLEEPERS — the GARDEN SLEEPERS (2033): ADULTS ONLY in every prompt
 
-**LONG** (52 words):
+**LONG** (53 words):
 
-> rows of adults of every age asleep on pale mats in their own everyday clothes under soft, even white light, faces peaceful and breathing slowly, blankets folded at their feet, a thin plain silver bracelet on each wrist, blue cornflowers in low planters between the rows, the hall calm, clean and uncluttered
+> rows of adults of every age asleep on low cots in their own everyday clothes under soft, even white light, faces peaceful and breathing slowly, pale blankets drawn up to the chest, a thin plain silver bracelet on each wrist, blue cornflowers standing in fresh-turned sand between the rows, calm, clean and uncluttered
 
-**SHORT** (20 words):
+**SHORT** (24 words):
 
-> rows of peaceful adult sleepers on pale mats in everyday clothes, thin silver bracelets on their wrists, soft white light
+> rows of peaceful adult sleepers on low cots in everyday clothes, blankets to the chest, thin silver bracelets on their wrists, soft white light
 
-**Notes:** No tubes, drips or machines touching the sleepers (negative). The bracelets appear from the midpoint broadcast (7.3); before that, cut "a thin plain silver bracelet on each wrist". Mass rows are VFX-EXTEND of one approved plate. The only child asleep on screen is CHAR_LAYLA_ASLEEP_MASTER.
+**Notes:** No tubes, drips or machines touching the sleepers (negative). Reconciled to the screenplay: "SLEEPERS on low cots, all adults. Thousands. Blankets to the chest. A thin silver bracelet on every wrist." and "cornflowers stand in fresh-turned sand. A small placard (COMP): CALMING FLORA" (9.4). The bracelets are fitted in the midpoint broadcast (7.3) and are on every wrist at Amarna (9.4); in the GEM atrium they go on at 11.1 (on screen: trays of bracelets, one closed round Hale's wrist), so atrium shots before 11.1 cut "a thin plain silver bracelet on each wrist". In the atrium on GEM Night (4.3) the first sleepers lie where they fell asleep; Layla curls up on a grey blanket from a stack (CHAR_LAYLA_ASLEEP_MASTER). Mass rows are VFX-EXTEND of one approved plate. The only child asleep on screen is CHAR_LAYLA_ASLEEP_MASTER.
 
 **Reference still** (image generator; self-contained; added by the cross-check)
 
 1. **CHAR_GARDEN_SLEEPERS_still** (in context) · aspect ratio **16:9**
 
-   > Photorealistic film still from a live-action drama, 16:9: in a vast softly lit hall, rows of adults of every age asleep on pale mats in their own everyday clothes under soft, even white light, faces peaceful and breathing slowly, blankets folded at their feet, a thin plain silver bracelet on each wrist, blue cornflowers in low planters between the rows, the hall calm, clean and uncluttered; the rows recede into haze; shallow depth of field, fine film grain, 35mm lens.
+   > Photorealistic film still from a live-action drama, 16:9: in a vast softly lit hall, rows of adults of every age asleep on low cots in their own everyday clothes under soft, even white light, faces peaceful and breathing slowly, pale blankets drawn up to the chest, a thin plain silver bracelet on each wrist, blue cornflowers standing in fresh-turned sand between the rows, calm, clean and uncluttered; the rows recede into haze; shallow depth of field, fine film grain, 35mm lens.
 
 ---
 
@@ -2850,8 +2862,8 @@ These are required by the bible §7 or by the screenplay pages (`screenplay/seq_
 
 ---
 
-### CHAR_CONSERVATOR_2033 — the CONSERVATOR, coda (Fathi returns the dagger; seq_12 "INT. GEM, TUTANKHAMUN GALLERIES - DAY")
-*One-scene face · coda · "FATHI... holds the iron dagger out hilt first to a CONSERVATOR. She takes it in both hands."*
+### CHAR_CONSERVATOR_2033 — the CONSERVATOR, coda (seq_12 "INT. GEM, TUTANKHAMUN GALLERIES - DAY"; hands only in the current pages, the face lock is RESERVE)
+*Hands only in the current pages: "White-gloved human hands set the scarab pectoral back on its mount; the green glass takes the light. The bronze trumpet is laid on its cushion." The dagger hand-over with Fathi was cut in the screenplay's editor pass (seq_12 notes); keep the face lock for an added insert only.*
 
 **LONG** (50 words, paste verbatim):
 
@@ -2863,7 +2875,7 @@ These are required by the bible §7 or by the screenplay pages (`screenplay/seq_
 
 **Character negative:** celebrity likeness, logos, readable badge, jewellery
 
-**Notes:** Her gloved hands also set the pectoral back on its mount (PROP_PECTORAL) and lay the trumpet on its cushion.
+**Notes:** In the current coda only her white-gloved hands are seen, setting the pectoral back on its mount (PROP_PECTORAL) and laying the bronze trumpet on its cushion (PROP_TRUMPET_BRONZE). The dagger's return is off screen.
 
 **Reference stills** (image generator; self-contained; append the common still negative, §0.7, plus the character negative)
 
@@ -2913,41 +2925,43 @@ These are required by the bible §7 or by the screenplay pages (`screenplay/seq_
 2. **"Lattice sternum shadow."** The critique deleted it from plates as unreadable at 1080p. **Kept only** as the plate's micro-texture in the Seq 2.1 mirror shot and as an optional pattern in the COMP glow. Confirm.
 3. **G1 colour.** The bible says "warm amber-gold" and the brief says "amber-green". **Resolved here:** amber-gold tinted green by the vessel's yellow-green glass, with hex targets for COMP. Prompts carry no colour words (bible §6).
 4. **The fourteenth seam.** Research [01 §3] adds the torso cut "from the pelvis at the iliac crest", so there is a **waist seam** besides neck, shoulders, elbows, wrists, hips, knees and ankles: 14 joint seams in all. It is covered in every shot except the bottom edge of the mirror shot. Confirm.
-5. **Which side cracks.** Set as the LEFT wrist (9.4), the LEFT knee (10.4) and the neck below the left ear (12.3). The Seq 9, 10 and 12 screenplays must agree.
-6. **Tut's T-C shawl.** Bible §6 gives him "a linen shawl"; §7 12.7 has "Nour's linen shawl" over his face. **Resolved here** as one prop: Nour's lector's shawl (PROP_LINEN_SHAWL), draped on him at 12.3. Confirm against the Seq 12 screenplay.
+5. **Which side cracks.** Set as the LEFT wrist (9.4), the LEFT knee (10.4) and the neck below the left ear (12.3). **Confirmed by the screenplay (reconciliation):** seq_09 (a hairline at his left wrist), seq_10 ("Tut's left knee folds") and seq_12 ("Below his left ear the gold neck seam CRACKS").
+6. **Tut's T-C shawl.** Bible §6 gives him "a linen shawl"; §7 12.7 has "Nour's linen shawl" over his face. **Resolved here** as one prop: Nour's lector's shawl (PROP_LINEN_SHAWL), draped on him at 12.3. **Confirmed by seq_12 (reconciliation):** "a white linen lector's shawl", pulled from Nour's shoulders and wrapped round his at 12.3; white, not cream.
 7. **Prop alignment.** Tokens follow `04_props.md` (PROP_DAGGER, PROP_EBONY_STICK as a 1.35 m staff, PROP_CLINIC_CANE for Seq 2–4.4, PROP_LAYLA_PENDANT, PROP_RAMI_NOTEBOOK, PROP_INDEX_CARDS, PROP_LAMP_1925, PROP_IRON_ADZE_1323, PROP_BURTON_PLATES, PROP_SCARAB_KEYRING, PROP_TABLET_LAYLA, PROP_SLEEP_BRACELET, PROP_REPLICA_VESSEL, PROP_CONSERVATION_KIT, the trumpets). **Resolved by the cross-check:** PROP_LINEN_SHAWL, PROP_JACKAL_MASK, PROP_PAINTER_PALETTE, PROP_SCRIBE_PALETTE_1330 and PROP_BROADCAST_RIG_1939 are now locked in `04_props.md` §20.
 8. **"Vance" in the brief** is taken as **Victor HALE** (renamed in v3; screenplay spec v3 note).
-9. **Painter and embalmers.** The bible gives the last painted eye to the lector (7, 1.2), so CHAR_PAINTER_1323 is optional. "Embalmers" are two: the masked one and the young priest who cries out.
+9. **Painter and embalmers.** The bible gives the last painted eye to the lector (7, 1.2), so CHAR_PAINTER_1323 is optional. **Reconciled:** seq_01 has one embalmer, the masked one; he turns to camera (the mask, never the face) and cries "Without his heart he cannot be weighed!". CHAR_EMBALMER_PRIEST is reserve. seq_01 gives the last eye to the lector, so CHAR_PAINTER_1323 stays optional.
 10. **1939 cast. Resolved by the cross-check:** seq_04 has a white-gloved bandsman play the bronze trumpet live at the gala, so CHAR_BANDSMAN_2033 (§10b) carries the beat and §8 is reserve. If a 1939 insert is ever cut in, the side-cap colours (11th Hussars) still need a military costume check.
 11. **Period dress to sign off** (Egyptologist / costume): Ay's mourning stubble (Herodotus II.36) and his blue crown at the burial, mirroring the north wall; Ankhesenamun's blue-grey mourning shawl; the child's sidelock and the child crown at 11; Nefertiti's red sash; the Hildesheim-style mask paint; the "gold of honour" collars.
 12. **Hamdi's tarboosh** is period-accurate for 1925 and is not the modern-Egypt fez cliché bible §11 bans. Flag it for the localisation consultant.
-13. **The young mother's heart.** Bible 9.5(b) has her "lift out her own sealed heart", which implies a chest vessel like Tut's in a living woman. The screenplay must choose: a chest vessel (use Tut's glow overlay, warm) or a vessel carried in her hands.
-14. **Akhenaten's chest light at 12.2** is set to cool white (COMP), to keep it distinct from Tut's G-states. Confirm.
+13. **The young mother's heart. RESOLVED by seq_09 (reconciliation):** her hands go under the linen at her breast, light spills through the fabric, and her hands come out holding the yellow-green glass vessel (a dark shape inside, one faint green pulse), which she sets on the pan. Never an organ. See CHAR_YOUNG_MOTHER, "How her heart is staged".
+14. **Akhenaten's chest at 12.2. RESOLVED (reconciliation):** no light. seq_12 has "His hands go inside the pleated linen. A soft click.", and the replica is "a lamp that will not light".
 15. **Mina's Coptic cross tattoo** is a respectful tell-apart detail. Confirm with the localisation consultant, or swap it for a neutral mark.
 16. **1925 and 1968 looks** (Carter, Derry, Burton, the radiologist) are plausible period types drawn from general knowledge, not from the research files. Check them against period photographs for plausibility only: no likeness is to be chased, and Burton's plates are never used as generator input.
 17. **Soldier headgear:** berets at the GEM (Seq 1–4, wardrobe **M** for Mina, Youssef and Karim) and tan helmets from Seq 5 (wardrobe **A**). Tarek keeps his beret throughout (his anchor) and Fathi goes bareheaded (for face identity). The cross-check moved Karim's helmet out of his LONG/SHORT lock and into the wardrobe phrase, so the lock is valid in both states.
 18. **One-scene faces added by the cross-check** (§10b): the gala bandsman, the young police officer, the old fisherman, the envoy (c. 1336 BC), the new mother and the conservator. They are needed by the screenplay's speaking or face-visible beats and sit outside bible §6's twelve locked faces, like the 1925 four. Confirm, or cut them to backs and hands.
-19. **Karim's age.** This file locks him at 24; seq_04 introduces "PVTS. MINA, YOUSSEF and KARIM (19)". The picture follows the lock (the age never appears in a prompt beyond "twenty-four"); the screenplay editor should align the parenthetical, or the lead should re-lock him at 19.
-20. **Coda wardrobes added by the cross-check:** Adaeze **D** (the hearing, with a cane), Layla **C** (KV21, the raincoat without the keyring she gave away in 2.4) and Fathi **C** (the gallery, returning the dagger), per seq_12.
+19. **Karim's age. RESOLVED by the screenplay (reconciliation):** seq_04 introduces "PVTS. MINA, YOUSSEF and KARIM (19)" and the screenplay wins, so Karim is re-locked at nineteen (LONG, SHORT and stills). The parenthetical is read as Karim's alone; Mina (22) and Youssef (25) keep their locks unless the screenplay editor says the "(19)" covers all three.
+20. **Coda wardrobes added by the cross-check:** Adaeze **D** (the hearing, with a cane), Layla **C** (KV21, the raincoat without the keyring she gave away in 2.4) per seq_12; Fathi **C** is now RESERVE, because the coda dagger hand-over was cut from seq_12.
+
+21. **Reconciliation pass (screenplay wins; see `00_INDEX.md`, Reconciliation log):** Tut gains wardrobe A1 (the jacket over the gown, 4.4 → the Seq 6 dawn) and loses the jacket to the Reis at 11.5 (wardrobe C); the tremor is in the RIGHT hand; the port is clicked out with Fathi's multitool in Adaeze's headlamp; the shawl is white; Ay wears the leopard skin in 1.1; Hale's bracelet goes on at 11.1; Tomas has no headlamp (the still is renamed CHAR_TOMAS_B_work); Rami's splint is a taped tongue depressor; Sameh and the gala Minister are re-staged to the page; the Garden sleepers lie on low cots; the conservator is hands only; Fathi's scarf binds Tut's chest 9.1–9.3; the young mother's heart is staged exactly as seq_09 writes it.
 
 ## APPENDIX: QUICK SHORT-FORM TABLE (copy from the entries above; this table is for lookup)
 (Regenerated by the cross-check from the entries above; if the two ever differ, the entry wins. The film-wide list of every token is `00_INDEX.md`.)
 
 | Token | SHORT look-lock | Wardrobe codes |
 |---|---|---|
-| CHAR_TUT | a slight olive-skinned Egyptian young man, shaved head with faint stubble, visible overbite, very dark bright eyes, thin gold seam ring around his neck | A0 (T-A), B1–B3 (T-B), C3 (T-C) |
+| CHAR_TUT | a slight olive-skinned Egyptian young man, shaved head with faint stubble, visible overbite, very dark bright eyes, thin gold seam ring around his neck | A0 (T-A), A1 (T-A + jacket), B1–B3 (T-B), C and C3 (T-C) |
 | CHAR_TUT_BODY_1323 | a slight young man lying still under white linen drawn to the collarbones, shaved head, eyes closed, face in profile, half in shadow | — (1.1) |
 | CHAR_TUT_CRADLE_2033 | a slight young man on a titanium cradle under a white sheet to the collarbones, eyes closed, gold light ringing his neck | — (1.5) |
 | CHAR_TUT_CODA_CASE | a small linen-wrapped form on pale sand in a glass climate case, the face shrouded, only a thin gold seam at one wrist showing | — (coda) |
 | CHAR_TUT_D1 | a slight young man's face in first sunlight, dark eyes slowly closing, a small peaceful smile, the cracked gold neck seam catching the light | T-C, L3, G2 (12.7) |
 | CHAR_TUT_D2 | wide backlit silhouette against the rising sun: a woman and a broad-shouldered man gently lower a slight young man onto stone steps | T-C, L3, G2 (12.7) |
 | CHAR_TUT_D3 | two still hands laid low across the body, skin dry dark bronze-brown like old parchment around thin gold wrist seams, blue cornflowers beside them | T-C, L3, G2 (12.7) |
-| CHAR_TUT_D4 | from above, a still young man on pale stone, a cream linen shawl and blue cornflowers covering half his face, closed eyes, dark bronze-brown skin | T-C, L3, G2 (12.7) |
+| CHAR_TUT_D4 | from above, a still young man on pale stone, a white linen shawl and blue cornflowers covering half his face, closed eyes, dark bronze-brown skin | T-C, L3, G2 (12.7) |
 | CHAR_NOUR | a lean Egyptian woman of thirty-eight, dark curly hair tied back, thick straight brows, reading glasses on a cord, olive field jacket | A, B, C |
 | CHAR_ADAEZE | a tall British-Nigerian woman of forty-four, deep brown skin, close-cropped natural hair, round tortoiseshell glasses, navy blazer over a grey hoodie | A, B, C, D (coda) |
 | CHAR_TOMAS | a very tall, lanky Swedish man of fifty, full short grey beard, thinning swept-back grey hair, pale-blue shirt with rolled sleeves | A, B, C |
 | CHAR_TAREK | a barrel-chested Egyptian colonel of fifty-two, heavy grey moustache, black beret, weathered deep-tanned face, desert-camouflage uniform | A, B, C |
-| CHAR_FATHI | a broad-shouldered Nubian Egyptian soldier of thirty-one, deep dark-brown skin, close black beard, red-patterned scarf at the neck, desert camouflage | A, B, C (coda) |
+| CHAR_FATHI | a broad-shouldered Nubian Egyptian soldier of thirty-one, deep dark-brown skin, close black beard, red-patterned scarf at the neck, desert camouflage | A, B, C (reserve) |
 | CHAR_RAMI | a wiry, clean-shaven Egyptian man of twenty-seven, black-rimmed glasses, short black hair wavy on top, bright yellow windbreaker | A, B |
 | CHAR_HALE | a lean American man of sixty, silver hair swept straight back, tanned lean face, charcoal suit with an open-collared white shirt | A, B, C |
 | CHAR_LAYLA | a small nine-year-old Egyptian girl, round face, big dark eyes, two curly pigtails, bright yellow raincoat | A, B, C (coda) |
@@ -2956,7 +2970,7 @@ These are required by the bible §7 or by the screenplay pages (`screenplay/seq_
 | CHAR_HASSAN | a heavy-set Egyptian corporal of thirty-five, round face, thick black moustache, thin metal glasses, black beret, desert camouflage | A |
 | CHAR_MINA | a tall, lanky Egyptian private of twenty-two, long boyish face, big ears, faint moustache, small blue cross tattoo on the right wrist | M (Seq 1–4), A (Seq 5 on) |
 | CHAR_YOUSSEF | a stocky Egyptian private of twenty-five, square jaw, shaved head, scar through the right eyebrow, flattened nose, desert camouflage | M (Seq 1–4), A (Seq 5 on) |
-| CHAR_KARIM | a wiry Egyptian private of twenty-four, freckled light-brown skin, hazel eyes, curly dark hair, desert camouflage | M (Seq 1–4), A (Seq 5 on) |
+| CHAR_KARIM | a wiry Egyptian private of nineteen, freckled light-brown skin, hazel eyes, curly dark hair, desert camouflage | M (Seq 1–4), A (Seq 5 on) |
 | CHAR_AY | a lean, stooped Egyptian elder in his sixties, hollow-cheeked weathered face, hooked nose, short grey stubble, heavy gold disc-bead collars | A, B |
 | CHAR_ANKHESENAMUN | a slender Egyptian woman of about twenty, heart-shaped face, grief-reddened dark eyes, long loose dark hair, pale blue-grey linen shawl | A |
 | CHAR_LECTOR_1323 | a thin shaved-headed Egyptian priest in his forties, calm dark eyes, white linen sash across his chest, pleated kilt, papyrus roll | A |
@@ -2979,10 +2993,10 @@ These are required by the bible §7 or by the screenplay pages (`screenplay/seq_
 | CHAR_RADIO_ENGINEER_1939 | a British radio engineer of about forty, pencil moustache, round wire spectacles, heavy black headphones, white shirt and braces, loosened tie | A (reserve) |
 | CHAR_RADIOLOGIST_1968 | a British radiologist in his late forties, tired clean-shaven face, black horn-rimmed glasses, side-parted greying hair, white coat, narrow tie | A |
 | CHAR_XRAY_ASSISTANT_1968 | a young British radiographer of about twenty-five, freckled, auburn short bob, white coat over a pale blue uniform dress | A |
-| CHAR_MINISTER_GALA | a heavy-set grey-haired official in his sixties in a dark navy suit, seen only in wide shots at a lectern | — |
-| CHAR_SAMEH | a man in his forties in a dark grey jacket, seen from behind, holding a small girl's hand in a crowd | — |
+| CHAR_MINISTER_GALA | a heavy-set grey-haired official in his sixties in a dark navy suit, seen only in wide shots rising from a top table | — |
+| CHAR_SAMEH | a man in his forties in a dark grey jacket, seen from behind at a gala table, one hand raised in a wave | — |
 | CHAR_MIDWIFE_2033 | a kind Egyptian midwife in her fifties, white headscarf, pale-green scrubs, lifting a newborn swaddled in clean white cloth | — |
-| CHAR_GARDEN_SLEEPERS | rows of peaceful adult sleepers on pale mats in everyday clothes, thin silver bracelets on their wrists, soft white light | — |
+| CHAR_GARDEN_SLEEPERS | rows of peaceful adult sleepers on low cots in everyday clothes, blankets to the chest, thin silver bracelets on their wrists, soft white light | — |
 | CHAR_AMARNA_SLEEPERS_1336 | rows of Egyptians in white linen asleep beside low stone offering tables in a roofless court of blinding white-gold light | — |
 | CHAR_AMARNA_COURTIERS_1336 | background Egyptian courtiers in pleated white linen and short dark wigs, blue faience collars, olive to brown skin, softened by haze | — |
 | CHAR_HEARING_PANEL | a panel of officials seen from behind, out of focus, at a plain unmarked table in a bare pale-wood hearing room | — |

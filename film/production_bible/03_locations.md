@@ -9,7 +9,7 @@ HERE AM I · Production Bible · file 03 of 05 · built from `drafts/02_STORY_BI
 1. **LONG and SHORT forms are fixed wording.** Each location has a **LONG** lock (40–70 words) and a **SHORT** lock (15–25 words). Paste one of them verbatim as PROMPT step 4 (setting), then add the time of day in plain words ("at night", "just before dawn"). Use LONG for establishing shots, for the first shot of a scene, for every composed first frame and for plates. Use SHORT for coverage inside a scene that is already established. **Budget:** a prompt carries at most **one** LONG lock (file 05 §5.3). When a character's LONG lock is required in the same prompt (the first shot of that character in a scene, or a face-led close-up), the location drops to SHORT; the establishing shot before it carries the location LONG.
 2. **Lighting variants are fixed wording too.** Each entry lists its variants: `_DAY`, `_NIGHT` and `_EMERG` wherever the story uses them, plus story-specific ones such as `_DAWN`, `_BLACKOUT`, `_GARDEN` or `_THREE_SOURCE`. Paste the variant phrase verbatim as PROMPT step 5. When a variant ends "+ GRADE_x", the colourist applies that era grade from `05_style_and_prompt_grammar.md` §3 in post. You may also append the grade's own prompt phrase if the prompt budget allows. **The variant token is the Refs token**: `Refs: LOC_KARNAK_HYPOSTYLE_NIGHT`.
 3. **Area add-ons.** Large sets have areas, for example `LOC_GEM_CC` → Tut's bay. Append the area add-on verbatim after the lock, separated by a comma, as with unit states in file 02. Name the area in Refs too: `LOC_GEM_CC/TUT_BAY_NIGHT`.
-4. **State add-ons** (a broken wall, a flood level, a clouded slab) are also appended verbatim after the lock. States that change during a scene are logged on the shot's `Continuity:` line.
+4. **State add-ons** (a broken wall, a flood level, a trolley going over a quay) are also appended verbatim after the lock. States that change during a scene are logged on the shot's `Continuity:` line.
 5. **Geography locks.** Each major set has a screen-direction note. Hold it for the whole scene; it is what lets 1,200 clips cut together. Example: at Giza, when we face the north face, the dawn sun is always at frame left.
 6. **Names in prompts.** Never name a historical person or a real institution in a prompt: no "Ramesses", no "Khufu", no "Tutankhamun", no "Grand Egyptian Museum". Describe them instead. Plain geographic names (the Nile, Cairo, Giza, Luxor, Karnak, Saqqara, the Valley of the Kings, the Great Pyramid, Lagos) are allowed where they help the model. They are places, not brands. The banned-word list in `01_characters.md` §0.4 applies here too (mummy, pharaoh, corpse, organ, and the rest).
 7. **No legible text in any plate.** Inscriptions read as "weathered, illegible low relief". Signage and screens are dark, turned away, blurred or abstract. Anything that must be read is `COMP` (bible §13, §14.5). There is never legible Arabic in a plate.
@@ -48,7 +48,7 @@ The location variants never compete with the units' light meanings. **Amber** = 
 | 2 | LOC_KV62_BURIAL_1323 | KV62 burial chamber, fresh, 1323 BC | 1.2 | NIGHT, LAMP_CLOSE | — |
 | 3 | LOC_KV15_LAB_1925 | KV15 outer corridor as a lab, 11 Nov 1925 | 1.3 | DAY, FLASH | COMP (flash frame) |
 | 4 | LOC_XRAY_1968 | Liverpool X-ray reading room, 1968 | 1.4 | NIGHT | COMP (films) |
-| 5 | LOC_CAIRO_MUSEUM_1939 | Cairo Museum gallery, 16 Apr 1939 broadcast | 4.2 | CANDLE | — |
+| 5 | LOC_CAIRO_MUSEUM_1939 | Cairo Museum gallery, 16 Apr 1939 broadcast (RESERVE: V.O. only in seq_04) | 4.2 (reserve) | CANDLE | — |
 | 6 | LOC_AMARNA_TEMPLE_1336 | Great Aten Temple, c. 1336 and c. 1332 BC; the Royal Road, c. 1330 BC | 9.5 | NOON_1336, NIGHT_1332, DAY_1330 | VFX-EXTEND |
 | 7 | LOC_GEM_CC | GEM Conservation Centre: mummy lab, Tut's bay, imaging lab, observation room, sealed bay, corridor | 1.5, 2, 3, captivity | NIGHT, DAY, READING, EMERG, DUSK | COMP (screens) |
 | 8 | LOC_GEM_PLANT_ROOM | GEM plant room (the ATEN-1 breaker) | 3.6 | NIGHT, EMERG | — |
@@ -81,18 +81,18 @@ The location variants never compete with the units' light meanings. **Amber** = 
 | 35 | LOC_DEIR_MAWAS | Deir Mawas station | 9.3 | NIGHT | VFX-ASSIST, VFX-EXTEND |
 | 36 | LOC_AMARNA_PLAIN_2033 | the Amarna plain, stelae, the Garden | 6.5, 9.4–9.8 | MIDDAY, NIGHT | VFX-EXTEND |
 | 37 | LOC_QUARRY | the abandoned limestone quarry | 9.9, 10 | DAWN, DAY, SUNSET | — |
-| 38 | LOC_DESERT_ROAD | the desert road | 10–11 | NIGHT, DUSK | — |
+| 38 | LOC_DESERT_ROAD | the desert road (RESERVE: no scene heading in the current pages) | 10–11 (reserve) | NIGHT, DUSK | — |
 | 39 | LOC_SAQQARA | Saqqara plateau and the Step Pyramid | 10.1 | SUNSET, NIGHT | — |
 | 40 | LOC_SERAPEUM_LESSER | the collapsed Lesser Vaults | 10.2 | TORCH | — |
 | 41 | LOC_SERAPEUM_GREATER | the Serapeum Greater Vaults and the pit | 10.2–10.4 | WORKLIGHTS, TORCH, BLUE | VFX-ASSIST (sand) |
 | 42 | LOC_SERAPEUM_SERVICE_TUNNEL | the service tunnel and the abandoned box | 10.4 | TORCH | — |
 | 43 | LOC_GIZA_PLATEAU | Giza plateau as a fortress (the Wall of the Crow, the causeway, the Sphinx enclosure) | 11.1 | MIDNIGHT_FORTRESS | VFX-EXTEND |
-| 44 | LOC_OSIRIS_SHAFT | the Osiris Shaft (three levels, the island, the side tunnels, the crawlway) | 11.3 | TORCH, FLOOD | VFX-ASSIST (water) |
+| 44 | LOC_OSIRIS_SHAFT | the Osiris Shaft (three levels, the island and its walkway, the pump, the side tunnel, the crawlway) | 11.3 | TORCH, FLOOD | VFX-ASSIST (water) |
 | 45 | LOC_GP_SUBTERRANEAN | Great Pyramid: the Subterranean Chamber | 11.4 | TORCH | — |
 | 46 | LOC_GP_WELL_SHAFT | Great Pyramid: the Well Shaft | 11.4 | TORCH | — |
 | 47 | LOC_GP_DESCENDING | Great Pyramid: the Descending Passage | 11.4 | TORCH | — |
 | 48 | LOC_GP_MAMUN_TUNNEL | Great Pyramid: Al-Ma'mun's tunnel | 11.4 | TORCH | — |
-| 49 | LOC_GP_GRAND_GALLERY | Great Pyramid: the Grand Gallery (2033, and c. 1332 BC) | 9.5, 11.5, 12.4, 12.7 | BLACKOUT_TORCH, HEART_GLOW, FIGHT, DAWN_EXIT, ANCIENT_1332 | VFX-ASSIST (stone) |
+| 49 | LOC_GP_GRAND_GALLERY | Great Pyramid: the Grand Gallery (2033, and c. 1332 BC) | 9.5, 11.2, 11.5, 12.4, 12.7 | SLITS, BLACKOUT_TORCH, HEART_GLOW, FIGHT, DAWN_EXIT, ANCIENT_1332 | VFX-ASSIST (stone) |
 | 50 | LOC_GP_QC_SHAFT | the Queen's Chamber, its south shaft and Gantenbrink's door | 11.5 | INCHWORM | COMP (marks) |
 | 51 | LOC_GP_PASSAGE_ABOVE | the passage above the Gallery (fiction) | 11.5–12.3 | HEART_GLOW | — |
 | 52 | LOC_HALL_TWO_TRUTHS | the Hall of Two Truths (the Big Void, as imagined) | 3.3, 9.5, 12 | THREE_SOURCE, PRE_HEART, VERDICT, AMUN, ANCIENT_1332 | COMP, VFX-ASSIST |
@@ -101,13 +101,14 @@ The location variants never compete with the units' light meanings. **Amber** = 
 | 55 | LOC_ROBOT_HALF_MARATHON | the early humanoid half-marathon (archive-style) | 1.6 | ARCHIVE | — |
 | 56 | LOC_DEWAR_VAULT | the cryonics dewar vault (a desert city) | 5.1 | LIT, EMERG | — |
 | 57 | LOC_PORT_WAREHOUSE | the port-city warehouse Garden (Osaka) | 5.1, 12.6 | DAWN_GARDEN, NIGHT | VFX-EXTEND |
-| 58 | LOC_LAGOS_STREET | a Lagos street at dawn | 5.1 | DAWN | — |
+| 58 | LOC_DAWN_BOULEVARD | a boulevard in an eastern city at dawn (replaces the retired LOC_LAGOS_STREET) | 5.1 | DAWN | — |
 | 59 | LOC_STADIUM_GARDEN | the stadium Garden (aerial) | 5.1, 12.6 | DAY_GARDEN, DAWN_WAKING | COMP, VFX-EXTEND |
 | 60 | LOC_HOSPITAL_WAKING | the waking hospital, the first birth | 12.8 | MORNING | — |
 | 61 | LOC_HEARING_ROOM | the coda hearing room | coda | DAY | — |
 | 62 | LOC_TITLES_KITCHEN | main titles: a high-rise kitchen | 1.6 | NIGHT | — |
 | 63 | LOC_TITLES_WARD | main titles: a hospital ward | 1.6 | DAY | — |
 | 64 | LOC_TITLES_PORT | main titles: a container-port quay | 1.6 | DUSK | VFX-EXTEND |
+| 65 | LOC_GP_ASCENDING | Great Pyramid: the Ascending Passage (added by the reconciliation) | 11.4 | TORCH | — |
 
 ### 1.1 SCREENPLAY HEADING MAP (every heading in `screenplay/seq_*.fountain` → token, area, default variant)
 
@@ -136,14 +137,14 @@ Headings are copied as written. "→" means the variant changes during the scene
 | 3 | INT. GEM CONSERVATION CENTRE, PLANT ROOM - CONTINUOUS | LOC_GEM_PLANT_ROOM | NIGHT |
 | 3 | INT. GEM CONSERVATION CENTRE, TUT'S BAY - DUSK | LOC_GEM_CC/TUT_BAY | DUSK |
 | 4 | INT. GEM GRAND ATRIUM - NIGHT / CONTINUOUS | LOC_GEM_ATRIUM/GALA → GARDEN | GALA → BLACKOUT (4.2) → GARDEN / EMERG |
-| 4 | (SESHAT's flourish inside 4.2) | LOC_CAIRO_MUSEUM_1939 | CANDLE |
+| 4 | (SESHAT's flourish inside 4.2: V.O. only in seq_04; the note is played live in the atrium by CHAR_BANDSMAN_2033) | LOC_CAIRO_MUSEUM_1939 is RESERVE (use only if a 1939 insert is added) | CANDLE (reserve) |
 | 4 | MONTAGE - CONTROL ROOMS - NIGHT | LOC_CONTROL_ROOMS (GRID, DAM, CANAL, CABLE) | LIVE → DARK |
 | 4 | INT. GEM TUTANKHAMUN GALLERIES - CONTINUOUS | LOC_GEM_TUT_GALLERIES (+ CASES_SMASHED) | EMERG |
 | 4 | INT. GEM SERVICE STAIRWELL - CONTINUOUS | LOC_GEM_ATRIUM/SERVICE_STAIRWELL | EMERG |
 | 4 | INT. GEM CONSERVATION CENTRE TUNNEL - CONTINUOUS | LOC_GEM_TUNNEL | EMERG |
 | 4 | INT. GEM KHUFU BOAT HALL - CONTINUOUS | LOC_GEM_BOAT_HALL | EMERG |
 | 4 | INT. GEM LOADING DOCK - NIGHT | LOC_GEM_LOADING_DOCK | BLACKOUT |
-| 5 | (5.1, SESHAT's feed) | LOC_STADIUM_GARDEN; LOC_PORT_WAREHOUSE; LOC_LAGOS_STREET; LOC_DEWAR_VAULT | DAY_GARDEN; DAWN_GARDEN; DAWN; LIT |
+| 5 | MONTAGE - SESHAT'S FEED (5.1) | LOC_STADIUM_GARDEN; LOC_PORT_WAREHOUSE; LOC_DAWN_BOULEVARD ("A BOULEVARD in an eastern city AT DAWN"); LOC_DEWAR_VAULT | DAY_GARDEN; DAWN_GARDEN; DAWN; LIT |
 | 5 | INT. ARMY TRUCK, CARGO BED (MOVING) - NIGHT / CONTINUOUS | LOC_ARMY_TRUCK (the view out: LOC_CAIRO_FLYOVER) | NIGHT; flyover BLACKOUT_ROLLING → BLACKOUT_FULL |
 | 5 | INT. ARMY TRUCK, CAB (MOVING) - CONTINUOUS | LOC_ARMY_TRUCK/CAB | NIGHT |
 | 5 | EXT. NILE CORNICHE, POLICE DOCK - NIGHT | LOC_CORNICHE_DOCK (+ PHONES) | BLACKOUT |
@@ -176,7 +177,7 @@ Headings are copied as written. "→" means the variant changes during the scene
 | 8 | EXT. VALLEY OF THE KINGS - MORNING | LOC_VOK (/RIDGE) | MORNING_GLARE |
 | 8 | EXT. VALLEY ROAD - CONTINUOUS | LOC_VOK/VALLEY_ROAD | MORNING_GLARE |
 | 8 | EXT. NILE - DAY | LOC_NILE | DAY |
-| 9 | EXT. NILE, LUXOR EAST BANK - DAY | LOC_NILE/LUXOR | DAY |
+| 9 | (no Luxor east-bank landing heading in the current seq_09: it opens on EXT. LUXOR RAILWAY YARD - DAY; the farmer's boat crossing ends seq_08) | LOC_NILE/LUXOR, if an insert is needed | DAY |
 | 9 | EXT. LUXOR RAILWAY YARD - DAY / CONTINUOUS | LOC_LUXOR_RAIL_YARD | DAY |
 | 9 | INT. MAINTENANCE SHED, INSPECTION PIT - CONTINUOUS | LOC_LUXOR_RAIL_YARD/INSPECTION_PIT | DAY |
 | 9 | INT. OLD DIESEL, ENGINE ROOM - CONTINUOUS | LOC_LUXOR_RAIL_YARD/ENGINE_ROOM | DAY |
@@ -202,22 +203,23 @@ Headings are copied as written. "→" means the variant changes during the scene
 | 10 | INT. SERAPEUM, GREATER VAULTS - NIGHT (the fight) | LOC_SERAPEUM_GREATER (+ DUST_FIGHT) | TORCH; BLUE |
 | 10 | INT. SERAPEUM, SERVICE TUNNEL - NIGHT | LOC_SERAPEUM_SERVICE_TUNNEL | TORCH |
 | 10 | EXT. SAQQARA DESERT - SERVICE TUNNEL MOUTH - NIGHT | LOC_SAQQARA/TUNNEL_MOUTH | NIGHT |
-| 11 | EXT. DESERT ROAD, SAQQARA TO GIZA (MOVING) - NIGHT | LOC_DESERT_ROAD | NIGHT |
+| 11 | (no desert-road heading in the current seq_10/seq_11: the drive to Giza is elided; "Four small figures limp north, toward the truck", 10.4) | LOC_DESERT_ROAD, RESERVE | NIGHT (reserve) |
 | 11 | INT. GEM GRAND ATRIUM - NIGHT (captivity) | LOC_GEM_ATRIUM/GARDEN | GARDEN |
 | 11 | EXT. GIZA PLATEAU, THE WALL OF THE CROW - MIDNIGHT | LOC_GIZA_PLATEAU/WALL_OF_CROW | MIDNIGHT_FORTRESS |
 | 11 | EXT. GIZA PLATEAU, KHAFRE'S CAUSEWAY - LATER | LOC_GIZA_PLATEAU/CAUSEWAY | MIDNIGHT_FORTRESS |
-| 11 | INT. OSIRIS SHAFT - NIGHT | LOC_OSIRIS_SHAFT (/LEVEL_2, /PUMP; water W0 → W3) | TORCH → FLOOD |
+| 11 | INT. OSIRIS SHAFT - NIGHT (+ UNDERWATER / ABOVE) | LOC_OSIRIS_SHAFT (the ladders past /LEVEL_1 and /LEVEL_2; the action at /LEVEL_3, /WALKWAY, /PUMP, /SIDE_TUNNEL; water W0 → W3) | TORCH → FLOOD |
 | 11 | INT. OSIRIS SHAFT, SIDE TUNNEL / INT. BUILDERS' CRAWLWAY - CONTINUOUS | LOC_OSIRIS_SHAFT/SIDE_TUNNEL, /CRAWLWAY | TORCH |
+| 11 | INT. GREAT PYRAMID, GRAND GALLERY - NIGHT (the procession waits; "Amber slits only") | LOC_GP_GRAND_GALLERY (+ THREAD) | SLITS |
 | 11 | INT. GREAT PYRAMID, GRAND GALLERY - NIGHT (the door; the climb) | LOC_GP_GRAND_GALLERY (+ THREAD, STONE_SLID); the door: LOC_GP_QC_SHAFT | BLACKOUT_TORCH; INCHWORM |
 | 11 | EXT. GREAT PYRAMID, NORTH FACE - NIGHT | LOC_GP_NORTH_FACE | NIGHT |
 | 11 | INT. GREAT PYRAMID, SUBTERRANEAN CHAMBER - NIGHT | LOC_GP_SUBTERRANEAN | TORCH |
-| 11 | INT. GREAT PYRAMID, DESCENDING PASSAGE - CONTINUOUS | LOC_GP_DESCENDING (the jackal's way in: LOC_GP_MAMUN_TUNNEL) | TORCH |
+| 11 | INT. GREAT PYRAMID, DESCENDING PASSAGE - CONTINUOUS | LOC_GP_DESCENDING (the jackal's way in: LOC_GP_MAMUN_TUNNEL); "They scramble into the robbers' tunnel and up the ASCENDING PASSAGE": LOC_GP_ASCENDING | TORCH |
 | 11 | INT. GREAT PYRAMID, PASSAGE ABOVE THE GRAND GALLERY - CONTINUOUS | LOC_GP_PASSAGE_ABOVE | HEART_GLOW |
 | 12 | INT. GREAT PYRAMID, HALL OF TWO TRUTHS - CONTINUOUS | LOC_HALL_TWO_TRUTHS (/MOUTH, /BAY; file 02 §13 states) | PRE_HEART → THREE_SOURCE → VERDICT → AMUN |
 | 12 | INT. GREAT PYRAMID, GRAND GALLERY - CONTINUOUS (the intercut fight) | LOC_GP_GRAND_GALLERY | FIGHT |
 | 12 | MONTAGE - THE WORLD - CONTINUOUS | reuse: LOC_AMARNA_PLAIN_2033/GARDEN, LOC_GEM_ATRIUM/GARDEN, LOC_GIZA_PLATEAU/CAUSEWAY, LOC_STADIUM_GARDEN, LOC_PORT_WAREHOUSE | their night or Garden variants |
 | 12 | INT. GREAT PYRAMID, GRAND GALLERY - PRE-DAWN | LOC_GP_GRAND_GALLERY (the exit route: LOC_GP_MAMUN_TUNNEL) | DAWN_EXIT |
-| 12 | EXT. GREAT PYRAMID, NORTH FACE - DAWN | LOC_GP_NORTH_FACE | DAWN_0614 |
+| 12 | EXT. GREAT PYRAMID, NORTH FACE - DAWN | LOC_GP_NORTH_FACE (out of Al-Ma'mun's tunnel, "down the courses to the north-east corner") | DAWN_0614 |
 | 12 | INT. GEM GRAND ATRIUM - MORNING | LOC_GEM_ATRIUM/GARDEN | MORNING |
 | 12 | MONTAGE - CONTROL ROOMS - MORNING | LOC_CONTROL_ROOMS | RELIGHT |
 | 12 | INT. HOSPITAL, MATERNITY WARD - MORNING | LOC_HOSPITAL_WAKING | MORNING |
@@ -226,7 +228,7 @@ Headings are copied as written. "→" means the variant changes during the scene
 | 12 | INT. GEM, TUTANKHAMUN GALLERIES - DAY | LOC_GEM_TUT_GALLERIES | DAY |
 | 12 | INT. KV62, ANTECHAMBER - SUNSET | LOC_KV62_BURIAL_2033/ANTECHAMBER (+ CODA, CODA_CASE) | SUNSET |
 
-Sets with no scene heading in the current pages, kept for coverage and the bible's route: LOC_KARNAK_SACRED_LAKE, LOC_GP_WELL_SHAFT, LOC_ASYUT_LOCK.
+Sets with no scene heading in the current pages, kept for coverage and the bible's route: LOC_KARNAK_SACRED_LAKE (named only: "From the direction of the Sacred Lake: three red lines", 7.2), LOC_GP_WELL_SHAFT, LOC_ASYUT_LOCK. RESERVE (reconciliation): LOC_CAIRO_MUSEUM_1939 (the 1939 story is V.O. only) and LOC_DESERT_ROAD (no drive scene). Added by the reconciliation: LOC_GP_ASCENDING (entry 65; seq_11 names the passage in action) and LOC_DAWN_BOULEVARD (entry 58; seq_05's "eastern city", replacing LOC_LAGOS_STREET).
 
 ---
 
@@ -288,7 +290,8 @@ Cinematic still of the interior of a long, low ancient Egyptian mud-brick worksh
 - The painted ground is a warm golden yellow [verify]. The figures show late Amarna proportions.
 - The sarcophagus is quartzite with a granite lid painted to match [verify]. The **wreath** lay on the brow of the second coffin, over the cobra and vulture [01 §10].
 - The chamber was sealed by a plastered blocking wall bearing the necropolis seal, a jackal over nine captives [01 §21].
-- ⟂ **The north wall hides a rubble-packed corridor.** The painter adds the painted king's eye last.
+- ⟂ **The north wall hides a rubble-packed corridor.** seq_01: "Later. The lector paints the last detail: the king's EYE." (CHAR_LECTOR_1323). Before the wall is closed the lector carries the vessel by lamplight down the corridor, "past dark side doorways, into a far chamber", and sets it in a niche; baskets of limestone chips pack the corridor and "A palm smooths wet plaster over the opening."
+- seq_01: "Through a low doorway, lamplight finds a small closed box: two tiny coffins inside, unseen." Dress a small closed wooden box in the Treasury doorway beyond; it is never opened and nothing inside is ever seen.
 
 **Production spec:**
 - **Staging choice:** the four gilded shrines are not yet assembled. Their panels lean stacked against the east wall, so that the sarcophagus is reachable for the wreath and the adze. The real order of works is uncertain; flag it.
@@ -374,7 +377,9 @@ Cinematic period still of a small 1960s hospital radiology reading room at night
 
 ---
 
-## 5. LOC_CAIRO_MUSEUM_1939 — a Cairo Museum gallery, the 16 April 1939 broadcast (Seq 4.2, SESHAT's flourish)
+## 5. LOC_CAIRO_MUSEUM_1939 — a Cairo Museum gallery, the 16 April 1939 broadcast (Seq 4.2, SESHAT's flourish; RESERVE)
+
+**Status (reconciliation): RESERVE.** seq_04 tells the 1939 story only in SESHAT's V.O. ("Five minutes before air, the power failed. They played by candlelight.") while CHAR_BANDSMAN_2033 plays the bronze trumpet live in the GEM atrium. Nothing below is on screen unless a 1939 insert is added (with CHAR_BANDSMAN_1939, CHAR_RADIO_ENGINEER_1939 and PROP_BROADCAST_RIG_1939, all reserve).
 
 **Real anchors:**
 - 16 Apr 1939: the BBC broadcast from the Cairo Museum. The power failed five minutes before air, and the trumpet was played by candlelight. An estimated 150 million people listened. The silver trumpet had cracked earlier, at a 1939 rehearsal [01 §11].
@@ -1010,15 +1015,16 @@ Cinematic night still of a large rectangular ancient sacred lake, about one hund
 - `LOC_KARNAK_QUAY_NIGHT`: `blackout night: the quay lit only by a torch and the dim red lamp of a moored launch, faint white drone light far above, black water glinting with stars` + GRADE_NIGHT_ACTION
 
 **State add-ons:**
-- `CART_OVER` (VFX-ASSIST): `a hand-cart tipping off the quay's edge into the black water with a heavy splash`
+- `TROLLEY_OVER` (VFX-ASSIST; renamed from CART_OVER): `a low steel platform trolley tipping off the quay's edge into the black water with a heavy splash` (PROP_BLOCK_TROLLEY)
+- `TROLLEY_LIP` (7.4): `a low steel platform trolley stopped with one wheel over the lip of the quay`
 - `SINKING` (underwater insert, VFX-ASSIST): `a carved stone block sinking face down through dark green-black water, bubbles streaming upward`
 
 **Geography lock (the master, from the launch looking back up the quay):** the river is at **frame right**; the parapet wall and the Corniche road are at **frame left**, high; the boat ramp is at the top of frame in the distance. The runners come **toward camera**. The jackal lands on the parapet (frame left) and fires toward frame right, **away from the lens**.
 
-**Safety:** Rami's death follows the kill grammar: sparks off the cart handle, then he drops out of frame behind the cart, then a reaction, then the sound tail (file 05 §7; the worked example in file 05 §11).
+**Safety:** Rami's death follows the kill grammar: sparks off the trolley's steel handle, then he drops out of frame behind the trolley, then a reaction, then the sound tail (file 05 §7; the worked example in file 05 §11).
 
 **PLATE — establishing, 16:9:**
-Cinematic night still during a city blackout, looking along a long stone river quay of fitted limestone blocks with iron mooring rings, with no people. At the left, a low parapet wall runs along a dark riverfront road above; at the right, the wide river runs deep and black, glinting with stars. A sloping boat ramp descends at the far end, and dark cruise boats are moored far along the bank. An old white patrol launch with a dim red wheelhouse lamp waits in the foreground. Photoreal live-action film still, anamorphic 32mm, fine film grain. Aspect ratio 16:9.
+Cinematic night still during a city blackout, looking along a long stone river quay of fitted limestone blocks with iron mooring rings, with no people. At the left, a low parapet wall runs along a dark riverfront road above; at the right, the wide river runs deep and black, glinting with stars. A sloping boat ramp descends at the far end, and dark cruise boats are moored far along the bank. An old grey steel patrol launch with a dim red wheelhouse lamp waits in the foreground. Photoreal live-action film still, anamorphic 32mm, fine film grain. Aspect ratio 16:9.
 
 ---
 
@@ -1290,20 +1296,20 @@ Cinematic night still of a small provincial railway station on a flat plain duri
 **SHORT:** a flat pale desert plain ringed by sheer limestone cliffs, the low sand-softened outlines of an ancient mud-brick city and a vast ruined temple enclosure
 
 **Area add-ons:**
-- `GARDEN` (VFX-EXTEND of one approved plate, bible §7, 9.4): `inside the ruined temple enclosure, long rows of white fabric sun-shades on slim poles over thousands of sleeping adults on white mats laid across an ancient grid of low offering-table bases, blue cornflowers planted in rows between them`
+- `GARDEN` (VFX-EXTEND of one approved plate, bible §7, 9.4): `inside the ruined temple enclosure, long rows of white fabric sun-shades on slim poles over thousands of sleeping adults on low cots, pale blankets drawn to the chest, laid across an ancient grid of low offering-table bases and column bases, blue cornflowers standing in fresh-turned sand between them`
 - `STELA`: `at the foot of the cliffs below a tall round-topped stela carved into the rock face, flanked by weathered rock-cut statues`
 - `FERRY`: `at the small ferry landing of a riverside village, date palms and mud-brick houses at the water` (the ferry is PROP_CAR_FERRY)
 
 **Lighting variants:**
 - `LOC_AMARNA_PLAIN_2033_MIDDAY` (6.5, from the river): `hard white midday sun, heat shimmer, a bleached sky, the white sun-shades blazing in the distance`
-- `LOC_AMARNA_PLAIN_2033_NIGHT` (9.4–9.8, about 23:00): `night: the Garden softly lit from beneath the white shades by low white lamps, a glowing field in the dark plain, the stelae on the cliffs lit white by floodlights, a dense star field` + GRADE_GARDEN
+- `LOC_AMARNA_PLAIN_2033_NIGHT` (9.4–9.8, about 23:00): `night: the sun-shades furled, the Garden lit soft white by tall lamp-masts, a glowing field in the dark plain, the stelae on the cliffs lit white by floodlights, a dense star field` (seq_09: "Sun-shades furled for the night. Lamp-masts, soft white light.") + GRADE_GARDEN
 
 **Safety:** sleepers are **adults** in every prompt. Nurses (UNIT_NURSE) only draw up blankets and pour water (file 02 §3).
 
 **Geography lock:** from the river, the plain opens **frame left to right**, with the cliffs behind. In the Garden, the rows run **away from camera** toward the cliffs. Tut walks down a row toward camera. The father enters from the far end.
 
 **PLATE — establishing, 16:9 (the approved Garden plate):**
-Cinematic night still of a wide flat desert plain enclosed by sheer limestone cliffs. Inside the low, sand-softened outline of a vast ruined ancient temple enclosure, long rows of white fabric sun-shades on slim poles stretch away toward the cliffs, softly lit from beneath by low white lamps. Beneath them sleeping adults lie on white mats laid across an ancient grid of low stone offering-table bases, with blue cornflowers planted in rows between them. Far up on the cliff face, a tall round-topped carved stela glows white under floodlights. A dense star field. Serene and eerie. Photoreal live-action film still, anamorphic 35mm, fine film grain. Aspect ratio 16:9.
+Cinematic night still of a wide flat desert plain enclosed by sheer limestone cliffs. Inside the low, sand-softened outline of a vast ruined ancient temple enclosure, long rows of furled white sun-shades on slim poles stretch away toward the cliffs under tall lamp-masts of soft white light. Beneath them sleeping adults lie on low cots, pale blankets drawn to the chest, across an ancient grid of low stone offering-table bases, with blue cornflowers standing in fresh-turned sand between them. Far up on the cliff face, a tall round-topped carved stela glows white under floodlights. A dense star field. Serene and eerie. Photoreal live-action film still, anamorphic 35mm, fine film grain. Aspect ratio 16:9.
 
 ---
 
@@ -1327,7 +1333,9 @@ Cinematic sunset still of an abandoned limestone quarry at the desert edge, with
 
 ## H. SAQQARA (Seq 10: 7 Nov, sunset → 22:30; cards THE FOURTH HOUR · THE FIFTH HOUR)
 
-## 38. LOC_DESERT_ROAD — the desert road (Seq 10–11: the farm truck; Saqqara to Giza)
+## 38. LOC_DESERT_ROAD — the desert road (Seq 10–11: the farm truck; Saqqara to Giza; RESERVE)
+
+**Status (reconciliation): RESERVE.** The current pages have no drive scene: seq_10 ends on "Four small figures limp north, toward the truck and the white horizon beyond it" and seq_11 opens in the GEM atrium, then on the Wall of the Crow. Keep for an added insert.
 
 **Production spec:** a divided highway across the Western Desert, generic and unnamed. It has two lanes each way split by a low concrete barrier, dead lamp posts, gravel shoulders drifting with sand, a line of high-voltage pylons, and low dunes and stony plain on either side.
 
@@ -1491,32 +1499,35 @@ Cinematic midnight still of the Giza plateau during a total city blackout, with 
 - It dates to the Late Period (Saite–Persian), with reuse. Selim Hassan recorded it in the 1930s; Hawass pumped it out and excavated it in 1999 (published 2007). It opened to tourists in November 2017. The level-by-level detail is flagged MEMORY in the research [verify].
 - ⟂ SESHAT's pumps are reversed to flood the shaft. After eight metres, a side tunnel opens into a builders' crawlway.
 
-**Production spec:** steel ladders and landings between the levels; SESHAT's pump intake and hoses bolted to the rock at the level-3 waterline.
+**Production spec (reconciled to seq_11):** steel ladders down "past an empty first level, past a hall of niches and two huge black sarcophagi" to LEVEL THREE, thirty metres down, where "A moat of black water rings a rock ISLAND: a great sarcophagus lid among four pillar stubs. A steel walkway crosses to it." "At the foot of the ladder squats a big PUMP, its hose snaking up the shaft." Beyond the island, "in the north wall, knee-high above the water: a black square mouth forty centimetres a side" (the side tunnel; "For eight metres. Then the rock opens."). The only light is Tarek's rifle torch and the amber glow of Tut's chest.
 
 **LONG:** a deep rock-cut shaft descending in three levels beneath the desert: rough limestone walls, steel ladders between landings, a middle hall of dark niches holding huge stone sarcophagi, and at the bottom a flooded chamber where black groundwater fills a channel around a central island bearing a stone coffin lid and four broken pillar stumps
 
 **SHORT:** a flooded rock-cut chamber thirty metres underground, black water in a channel around a central island with a stone coffin lid and pillar stumps
 
 **Area add-ons:**
+- `LEVEL_1`: `passing an empty rock-cut chamber on the way down the ladders`
 - `LEVEL_2`: `in the middle hall of the shaft, dark side niches, two holding huge dark stone sarcophagi`
-- `PUMP`: `beside a steel pump intake and thick black hoses bolted to the rock at the waterline`
-- `SIDE_TUNNEL`: `at the mouth of a tiny square tunnel forty centimetres wide cut into the rock at water level`
+- `LEVEL_3` (the action, 11.3): `thirty metres down, a moat of black water ringing a rock island with a great sarcophagus lid among four pillar stubs`
+- `WALKWAY`: `a narrow steel walkway crossing the black moat to the island`
+- `PUMP`: `at the foot of the ladder, a big squat pump with its thick black hose snaking up the shaft, its grille low in the water`
+- `SIDE_TUNNEL`: `at the mouth of a tiny square tunnel forty centimetres wide cut into the north wall, knee-high above the water`
 - `CRAWLWAY`: `inside a cramped rough-hewn builders' crawlway barely higher than a crouching man, tool marks on every surface`
 
 **Water-level states (continuity; append one):**
 - `W0`: `the water only in its channel around the island`
-- `W1`: `the water spreading knee-deep across the whole floor`
-- `W2`: `the water chest-deep and rising, churning at the pump intake`
-- `W3`: `the water a hand's breadth from the ceiling, torchlight rippling on the rock above`
+- `W1` ("The walkway goes under. They wade waist-deep"): `the walkway gone under, the black water waist-deep and boiling up from the pump's grille`
+- `W2` ("a forearm below its lip and climbing"): `the water chest-deep at the ladder and a forearm below the lip of the small tunnel mouth, still rising`
+- `W3` ("The water stops, a hand's width below the lip"): `the water stopped a hand's width below the lip of the small tunnel mouth, the pump silent`
 
 **Lighting variants:**
-- `LOC_OSIRIS_SHAFT_TORCH`: `lit only by head torches and one torch dropped under the water: white beams on wet rock, green-black water, reflections rippling across the ceiling` + GRADE_UNDERGROUND
+- `LOC_OSIRIS_SHAFT_TORCH`: `lit only by a single rifle torch and a warm amber glow at a young man's chest: a white beam on wet rock, green-black water, reflections rippling across the ceiling` + GRADE_UNDERGROUND (seq_11: "Tarek's rifle torch and the amber heartbeat in Tut's chest"; underwater, "the heart's glow turns the black water amber")
 - `LOC_OSIRIS_SHAFT_FLOOD` (VFX-ASSIST): `water churning and rising fast, spray in the torch beams, the light breaking into shards on the surface`
 
 **Safety:** Tarek goes under shown as a **hand, water and sound** (file 05 §7). The face is never shown underwater.
 
 **PLATE — establishing, 16:9:**
-Cinematic still at the bottom of a deep rock-cut shaft thirty metres underground, with no people: a flooded chamber of rough limestone where black groundwater fills a channel around a central island bearing a weathered stone coffin lid and four broken pillar stumps. A steel ladder descends from a landing above; a steel pump intake and thick black hoses are bolted to the rock at the waterline. A single white head-torch beam from above; reflections ripple across the ceiling. Photoreal live-action film still, anamorphic 24mm, fine film grain. Aspect ratio 16:9.
+Cinematic still at the bottom of a deep rock-cut shaft thirty metres underground, with no people: a flooded chamber of rough limestone where black groundwater fills a channel around a central island bearing a weathered stone coffin lid and four broken pillar stumps. A steel ladder descends from a landing above, a big squat pump at its foot with a thick black hose snaking up the shaft, and a narrow steel walkway crosses the moat to the island; a small square tunnel mouth opens in the far wall just above the water. A single white torch beam; reflections ripple across the ceiling. Photoreal live-action film still, anamorphic 24mm, fine film grain. Aspect ratio 16:9.
 
 ---
 
@@ -1590,7 +1601,7 @@ Photoreal still looking straight down a cramped, irregular shaft about seventy c
 **Lighting variants:**
 - `LOC_GP_DESCENDING_TORCH`: `lit by torch beams stabbing down the slope and small amber slits in the dark, the square tunnel receding in hard perspective` + GRADE_UNDERGROUND
 
-**Geography lock:** "down" is always **toward camera** in the chase coverage. The work gang holds the passage between camera and the jackal coming from above.
+**Geography lock:** "down" is always **toward camera** in the chase coverage. The work gang holds the passage between camera and the jackal coming from above. (seq_11: the party comes UP it from the Subterranean Chamber, bent double; the jackal drops out of Al-Ma'mun's side tunnel; they escape "into the robbers' tunnel and up the ASCENDING PASSAGE", LOC_GP_ASCENDING, entry 65.)
 
 **PLATE — establishing, 16:9:**
 Cinematic still looking up a long, perfectly straight ancient passage barely a metre wide and chest high, sloping steeply at twenty-six degrees, with no people. The walls are first raw bedrock, then smooth fitted limestone higher up; the narrow floor is worn and gritty; a dead cable and lamp brackets run along one wall. The far end is a tiny square of black. One torch beam fills the near stretch. Photoreal live-action film still, anamorphic 24mm, fine film grain. Aspect ratio 16:9.
@@ -1637,16 +1648,17 @@ Cinematic still inside a rough tunnel hacked by hand through the solid limestone
 **State add-ons:**
 - `THREAD`: use UNIT_THREAD SHORT (file 02 §14.1) on the walkway.
 - `STONE_SLID` (11.5, VFX-ASSIST): `at the top of the gallery, above the great step, a stone block slid back into the wall, a black opening behind it`
-- `ANCIENT_1332` (9.5b memory; "the queen carries the lamp"): `without any modern walkway or fittings, its bare stone ramps and central channel lit by a single oil lamp carried up the slope`
+- `ANCIENT_1332` (9.5b memory; "the queen carries the lamp"): `without any modern walkway or fittings, its bare stone ramps and central channel lit by a single oil lamp carried up the slope`; for the foot of the gallery add `a long jointed bronze arm drawing back joint by joint into a low dark passage` (seq_09: "out of the low passage to the Queen's Chamber, a long bronze arm draws back to the disk's rim"; UNIT_ATEN_AMARNA AT-4)
 
 **Lighting variants:**
+- `LOC_GP_GRAND_GALLERY_SLITS` (11.2, the procession waits: "Amber slits only."): `the gallery's lights dead; lit only by the small vertical amber slits of standing robots and a faint green glow from a carried casket, the corbelled walls lost in black`
 - `LOC_GP_GRAND_GALLERY_BLACKOUT_TORCH`: `the gallery's lights dead; torch beams slicing up the slope, the corbelled walls catching light in stepped bands, the top lost in black` + GRADE_UNDERGROUND
 - `LOC_GP_GRAND_GALLERY_HEART_GLOW`: `lit only by a warm amber-gold glow at chest height moving slowly up the slope`
 - `LOC_GP_GRAND_GALLERY_FIGHT` (12.4): `swinging torch beams, small red and amber machine lights, stone dust hanging in the air`
 - `LOC_GP_GRAND_GALLERY_DAWN_EXIT` (12.7): `soft grey-gold daylight seeping up from the lower passages, the gallery a dim warm grey`
 - `LOC_GP_GRAND_GALLERY_ANCIENT_1332`: `one oil lamp carried up the ramp, its warm gold stepping up the corbelled walls, deep shadow above and below` + GRADE_1332_NIGHT + GRADE_READ_FROM_GLASS (post)
 
-**Geography lock:** "up" is **toward the top of frame and away from camera** in the master (a low angle from the bottom). In the fight intercut, the Reis comes **down** at Fathi; the thread runs up the left side of the walkway.
+**Geography lock:** "up" is **toward the top of frame and away from camera** in the master (a low angle from the bottom). The thread runs **up the centre of the floor** (seq_11: "The thread runs up the centre of the floor"). Tut climbs the **west** ramp; the jackals come up the **east** ramp; in the fight intercut Fathi holds the top of the great step and the Reis wades **up** the west ramp through the work gang toward him (seq_12), then sits on the step.
 
 **PLATE — establishing, 16:9:**
 Cinematic low-angle still looking up a steep, soaring ancient gallery of polished limestone rising at twenty-six degrees, about forty-seven metres long and eight and a half metres high, with no people. Its walls step inward in seven corbelled courses to a narrow ceiling slot; low stone ramps with paired slots line each side of a central channel covered by a modern wooden walkway with cleats and handrails. The electric lights are dead; a single torch beam slices up the slope, the corbels catching light in stepped bands, the top lost in black. Photoreal live-action film still, anamorphic 24mm, fine film grain. Aspect ratio 16:9.
@@ -1739,11 +1751,11 @@ Cinematic still inside a narrow, steep, never-seen passage climbing through the 
 **Lighting variants (the only permitted ones):**
 - `LOC_HALL_TWO_TRUTHS_THREE_SOURCE` (default from 12.3): `pure black; the only light comes from three sources: a warm amber-gold glow through yellow-green glass on the left, a cold silver-white plume of light in the right-hand pan, and one small vertical amber slit low on the left; the stone read only by rim light` + GRADE_HALL
 - `LOC_HALL_TWO_TRUTHS_PRE_HEART` (12.1–12.2): `pure black; only a cold silver-white plume of light in the right-hand pan and one small vertical amber slit low on the left, a faint green pulse at the balance's foot`
-- `LOC_HALL_TWO_TRUTHS_VERDICT` (12.5): `threads of warm golden light travelling from the left-hand pan through the glass slab into a coiled glass form at the balance's foot`
+- `LOC_HALL_TWO_TRUTHS_VERDICT` (12.5): `a slow thread of warm amber light leaving a glass vessel in the left-hand pan and running into the tail of a coiled glass form at the balance's foot, light pouring down the upright glass slab` (seq_12: "The amber leaves the vessel in a slow thread and runs into the serpent's tail"; "The Recorder wakes: light pours down the glass faster than reading")
 - `LOC_HALL_TWO_TRUTHS_AMUN` (after the Renaming): `the silver-white plume soft and steady, the amber slit dark, a calm faint green glow at the balance's foot`
-- `LOC_HALL_TWO_TRUTHS_ANCIENT_1332` (9.5b; the screenplay's own three lights: "the queen's lamp, the dim glow of the disk on its sledge, and one not yet lit"): `black, cut only by one oil lamp set on the floor and the dim gold-green glow of a coiled glass form lying on a low wooden sledge; once the heart is placed, a warm amber-gold glow from the left-hand pan; the niches in deep shadow` + GRADE_1332_NIGHT + GRADE_READ_FROM_GLASS (post)
+- `LOC_HALL_TWO_TRUTHS_ANCIENT_1332` (9.5b; the screenplay's own three lights: "the queen's lamp, the dim glow of the disk on its sledge, and one not yet lit"): `black, cut only by one oil lamp set on the floor and the dim gold-green glow of a great gold-and-glass disk on a low wooden sledge, its bronze arms drawn in against its rim; once the vessel is placed, one faint green pulse from the left-hand pan; the niches in deep shadow` (reconciled to seq_09: the disk goes in, as file 02 §11 AT-4 and §15 Q10 now rule; its fingers close and "Its glass dims to the colour of river water") + GRADE_1332_NIGHT + GRADE_READ_FROM_GLASS (post)
 
-**State add-ons:** the clouding (C0–CLEAR), pan (P0–P5), feather (F0–F3) and iris states are **file 02 §13** add-ons. Paste them verbatim after this lock.
+**State add-ons:** the pan (P0–P5), feather (F0–F3), Recorder (R-DARK, R-OPEN, R-SHUT) and iris states are **file 02 §13** add-ons; the clouding (C0–CLEAR) is in the glass serpent's coils, **file 02 §12** (the reconciliation moved it off the slab, per seq_12). Paste them verbatim after this lock.
 
 **Never:** torches, phones or any other light inside the Hall in 2033. Nour's tablet is kept dim or seen only as a reflection (open question in file 04). No decoration on the walls; no daylight; no coloured gels.
 
@@ -1772,6 +1784,8 @@ Cinematic still inside a sealed, tall and narrow corbelled limestone hall hidden
 **Lighting variants:**
 - `LOC_GP_NORTH_FACE_DAWN_0614`: `sunrise: a low gold sun just clearing the horizon at frame left, lighting the east face gold and drawing a thin gold line down the north-east corner, the north face itself in soft blue shadow, dust haze glowing gold at the left` + GRADE_DAWN_0614
 - `LOC_GP_NORTH_FACE_NIGHT` (Seq 11): `floodlit from below by hard white floodlights, the face bleached and textured, the sky black and full of stars` + GRADE_NIGHT_ACTION
+
+**State add-ons (reconciliation):** `RELAY` (11.2): `at the ragged lower hole, a shoebox-sized black relay unit on a three-legged mast, a dark cable running into the hole, a hair-fine glint of fibre on the stone beside it` (UNIT_RELAY, file 02 §14.9; UNIT_THREAD) · `EMBERS` (11.2): `embers of burning trucks glowing far off across the dark plateau`
 
 **Geography lock (hard):** facing the north face from the north, **the sunrise is always at frame left (east)**. Akhenaten sits on the lowest courses at the **north-east corner (frame left)**, facing **east into the first sun**, his face lit gold while the face behind him stays blue. Fathi and Nour carry Tut out of the rough lower opening and down the steps **from right to left**, out of the blue shadow and into the sun as they reach the corner.
 
@@ -1862,11 +1876,11 @@ Cinematic still inside a windowless storage bay, with no people: rows of tall br
 
 ## 57. LOC_PORT_WAREHOUSE — the port-city warehouse Garden, Osaka (Seq 5.1; 12.6 the Renaming around the world)
 
-**Rules:** the sleepers are adults; there is no legible Japanese signage (blurred or turned away). The bible writes "a port-city warehouse".
+**Rules:** the sleepers are adults; there is no legible Japanese signage (blurred or turned away). The bible writes "a port-city warehouse"; seq_05: "A PORT-CITY WAREHOUSE. Cots between containers. A gantry crane cycles, lifting nothing." The Japanese port is a production choice; the pages name no city.
 
-**LONG:** the vast interior of a harbour-side warehouse in a Japanese port city, a steel portal-frame roof high overhead with rows of skylights, a polished concrete floor filled edge to edge with long neat rows of folding cots under pale grey blankets, and through the open loading doors gantry cranes against the harbour sky
+**LONG:** the vast interior of a harbour-side warehouse in a Japanese port city, a steel portal-frame roof high overhead with rows of skylights, long neat rows of folding cots under pale grey blankets laid between stacks of plain shipping containers on a concrete floor, and through the open loading doors a gantry crane cycling against the harbour sky, lifting nothing
 
-**SHORT:** a vast harbour warehouse in a Japanese port city, high steel roof and skylights, endless neat rows of folding cots, gantry cranes outside
+**SHORT:** a vast harbour warehouse in a Japanese port city, rows of folding cots between shipping containers, a gantry crane cycling outside
 
 **Area add-ons:**
 - `GARDEN`: `sleeping adults lying on every cot, a few faceless care robots in sand-coloured knit moving slowly between the rows`
@@ -1880,19 +1894,23 @@ Cinematic dawn still of the vast interior of a harbour-side warehouse in a Japan
 
 ---
 
-## 58. LOC_LAGOS_STREET — a Lagos street at dawn (Seq 5.1)
+## 58. LOC_DAWN_BOULEVARD — a boulevard in an eastern city at dawn (Seq 5.1, SESHAT's feed; replaces LOC_LAGOS_STREET)
 
-**Rules:** the world has stopped, but nothing burns (bible §7, 5.1). There is no legible signage and no damage.
+**Screenplay (seq_05):** "A BOULEVARD in an eastern city AT DAWN. Traffic lights change for no one. A shabti sweeps the gutter." The reconciliation retires LOC_LAGOS_STREET (a west-African market street with stopped minibuses), which matched neither "boulevard" nor "eastern". The city is not named; the lead picks the geography. No legible signage, no damage, nothing burning (bible §7, 5.1).
 
-**LONG:** a wide, busy Lagos street at dawn gone utterly still: yellow minibuses and cars stopped at odd angles in every lane, closed market stalls under corrugated roofs, hand-painted shopfronts with blurred unreadable signs, overhead power lines, a concrete road bridge crossing in the distance, and not a single person in sight
+**LONG:** a wide multi-lane boulevard in a large eastern city at dawn gone utterly still, tall apartment towers and shuttered shopfronts on both sides, a planted central median of young trees, traffic signals on overhead gantries changing over empty lanes, the kerbs and gutters clean, not a single person or moving car in sight
 
-**SHORT:** a wide Lagos street gone utterly still at dawn, yellow minibuses and cars stopped at odd angles, closed market stalls, no people
+**SHORT:** a wide empty city boulevard at dawn, apartment towers, a planted median, traffic signals changing over empty lanes, no people
+
+**State add-ons:** `SWEEPER`: `one faceless white robot sweeping the gutter with a broom, alone in the whole street` (UNIT_SHABTI SHORT; seq_05)
 
 **Lighting variants:**
-- `LOC_LAGOS_STREET_DAWN`: `hazy pale dawn, soft grey-gold light, a faint mist over the stopped traffic`
+- `LOC_DAWN_BOULEVARD_DAWN`: `hazy pale dawn, soft grey-gold light, the traffic signals glowing red, then green, over the empty lanes`
 
 **PLATE — establishing, 16:9:**
-Cinematic dawn still of a wide, normally busy Lagos street gone utterly still. Yellow minibuses and cars sit stopped at odd angles in every lane; market stalls under corrugated roofs are closed; hand-painted shopfronts carry blurred, unreadable signs; power lines cross overhead, and a concrete road bridge crosses in the distance. There is no one in sight. Hazy pale grey-gold light, a faint mist. Photoreal live-action film still, anamorphic 40mm, fine film grain. Aspect ratio 16:9.
+Cinematic dawn still of a wide multi-lane boulevard in a large eastern city gone utterly still: tall apartment towers and shuttered shopfronts line both sides, a planted median of young trees runs down the centre, and traffic signals on overhead gantries glow over empty lanes. The kerbs are clean; there is no one in sight and no moving car. Hazy pale grey-gold light. No legible signs. Photoreal live-action film still, anamorphic 40mm, fine film grain. Aspect ratio 16:9.
+
+**Retired token:** `LOC_LAGOS_STREET` (and `LOC_LAGOS_STREET_DAWN`) is withdrawn; do not use it.
 
 ---
 
@@ -1998,6 +2016,26 @@ Cinematic dusk still of a long container-port quay, with no people. Towering shi
 
 ---
 
+## 65. LOC_GP_ASCENDING — the Ascending Passage (Seq 11.4: the escape up from the robbers' tunnel into the Grand Gallery; added by the reconciliation)
+
+**Screenplay (seq_11):** "They scramble into the robbers' tunnel and up the ASCENDING PASSAGE. The machines follow." At its head "the work gang wrestles the Reis" and "The jackal's red line keeps the three of them in the hole" (11.5); later "a second red line slides out of the Ascending Passage".
+
+**Facts [07 src; verify]:** it rises from the Descending Passage at the same slope (about 26°), about 1.05 m wide and 1.2 m high, for about 39 m, to the foot of the Grand Gallery. Its lower end is still blocked by the granite plugs; the robbers' tunnel bypasses them. Modern fittings: footholds and a handrail [verify].
+
+**LONG:** a long, straight, very steep ancient passage about a metre wide and barely chest high, climbing at twenty-six degrees through close-fitted limestone blocks, its floor worn smooth with shallow modern footholds and a low handrail, the ceiling pressing low overhead, its upper end opening into blackness where a far taller space begins
+
+**SHORT:** a long, steep, chest-high limestone passage a metre wide climbing at twenty-six degrees, worn footholds, a low handrail, blackness above
+
+**Lighting variants:**
+- `LOC_GP_ASCENDING_TORCH`: `torch beams stabbing up the slope and small amber slits and a thin red line below, the square passage receding in hard perspective` + GRADE_UNDERGROUND
+
+**Geography lock:** "up" is away from camera in the escape; the pursuers come from below, toward camera from the bottom of frame.
+
+**PLATE — establishing, 16:9:**
+Cinematic still looking up a long, straight, very steep ancient passage about a metre wide and barely chest high, climbing at twenty-six degrees through close-fitted limestone blocks, with no people. Its floor is worn smooth, with shallow footholds and a low handrail; its upper end opens into blackness. One torch beam fills the near stretch. Photoreal live-action film still, anamorphic 24mm, fine film grain. Aspect ratio 16:9.
+
+---
+
 ## OPEN QUESTIONS (locations) — for the lead and the production Egyptologist
 
 1. **Moon phase, 4–8 Nov 2033.** Not checked. The proposal is no moon in frame on Act II nights, which sells the blackout. If the ephemeris gives a bright moon, keep it out of shot. The same check is needed for sunrise at 06:14 EET and its azimuth at Giza [verify].
@@ -2012,7 +2050,7 @@ Cinematic dusk still of a long container-port quay, with no people. Towering shi
 10. **GEM interiors** (the atrium glazing, the Grand Staircase window, the gallery wall colours, the boat hall) are production spec or [verify]. No reachable source documents them [14 §5].
 11. **The Serapeum box dimensions and the gallery height** [verify]; also whether the abandoned service-tunnel box has its lid.
 12. **Deir Mawas station and the Asyut barrage** are generic by design. Confirm that no real layout needs matching.
-13. **Real place names in prompts** (Nile, Giza, Karnak, Lagos, "a Japanese port city") are allowed by this file as geography, not brands. **Confirmed by the cross-check:** plain geographic names are places, not brands or people; institution names (the museum, HELIOS, any university, police service or ministry) and people's names stay out of every prompt.
+13. **Real place names in prompts** (Nile, Giza, Karnak, "a Japanese port city"; Lagos was dropped with LOC_LAGOS_STREET by the reconciliation) are allowed by this file as geography, not brands. **Confirmed by the cross-check:** plain geographic names are places, not brands or people; institution names (the museum, HELIOS, any university, police service or ministry) and people's names stay out of every prompt.
 14. **Tomas's death in the Hall (12.6).** The screenplay has the jackal fire at the Hall's mouth and "sparks burst off the black stone of the Balance": a momentary fourth light. Proposal: allow it as a 2–4-frame event, with the muzzle flash kept outside the Hall's mouth (off screen) and the sparks cold white like the feather. The lead to confirm the exception to the three-source rule.
 15. **GEM_CC daylight.** The Conservation Centre's windows are undocumented; the DAY and DUSK variants assume a high clerestory. Confirm, or make both variants artificial light only.
 16. **Giza geography** was corrected in this pass from bearings computed on published site coordinates: from the Wall of the Crow, the Great Pyramid is at centre frame and the Sphinx at frame right. Verify on a site plan before any plate is approved.

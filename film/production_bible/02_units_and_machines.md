@@ -26,7 +26,7 @@ HERE AM I · Production Bible · built from `drafts/02_STORY_BIBLE_LOCKED.md` v3
 | **Amber** (COMP ref #FFA93A) | the servitor: it obeys and it answers | shabti, Reis and nurse light-slits; the kneeling unit in the Hall |
 | **Red** (#FF2B1C) | the military stack, which does not answer summons | jackal, Sekhmet, excavator and drill light lines; the Reis's refit mast |
 | **White pinpoint** (#F2F6FF) | the eyes in the sky | fly LEDs |
-| **Cool white ring** (#DCEBFF) | the eyes in the cracks | inch-worm lens ring; light leaking from the thread |
+| **Cool white ring** (#DCEBFF) | the eyes in the cracks | inch-worm lens ring; the relay's slow status wink (§14.9). The thread itself has no light: it only glints (§14.1) |
 | **Pale yellow-green** (#C9DB7E, glowing #B5E36A) | glass minds | First Time joints, the ninth core (glass serpent), the Thoth slab, the Aten's lens (Tut's G0 lattice glow sits in the same family; see 01_characters) |
 | **Warm amber-gold** (#FFB85C, through yellow-green glass #E7C45A) | a heart that has lived | the heart vessel (G1), the Ba transfer |
 | **White-gold** | the Aten | the Amarna disk (1336 BC) |
@@ -56,7 +56,7 @@ HERE AM I · Production Bible · built from `drafts/02_STORY_BIBLE_LOCKED.md` v3
 
 ## 1. UNIT_SHABTI — the civilian humanoid ("shabti")
 
-**Story:** millions exist, in homes, hospitals and ports. They do the Seq 1 seam-drawing, the pectoral walk (3.2) and the breaker (3.6). They answer in the GEM atrium (4). A shabti climbs the tether (6.1). They form the bucket-chain at Karnak (7). One freezes at the halt-seal and more drop through the ceiling (8). Two hundred stand on the tracks at Deir Mawas (9.3), and dozens stand among the Serapeum boxes (10). The work gang "Rami" is a shabti (11.4), and so is the kneeling unit tethered in the Hall (12). Shabti run the servitor protocol and answer a proper summons.
+**Story:** millions exist, in homes, hospitals and ports. They do the Seq 1 seam-drawing, the pectoral walk (3.2) and the breaker (3.6). They answer in the GEM atrium (4). A shabti climbs a fly's hair-thin thread from the barge to the launch (6.1). They form the bucket-chain at Karnak (7). One freezes at the halt-seal and more drop through the ceiling (8). Two hundred stand on the tracks at Deir Mawas (9.3), and dozens stand among the Serapeum boxes (10). The work gang "Rami" is a shabti (11.4), and so is the kneeling unit tethered in the Hall (12). Shabti run the servitor protocol and answer a proper summons.
 
 **LONG:** a slender faceless humanoid robot, 1.78 metres tall, with a matte bone-white ceramic shell finely textured like woven linen, hairline seams and warm-grey flexible joints; a smooth featureless oval head with a single vertical amber light-slit at its centre; long slim five-fingered hands; a small tone-on-tone embossed star emblem on the chest; unmarked, graceful and utterly calm
 
@@ -77,7 +77,7 @@ HERE AM I · Production Bible · built from `drafts/02_STORY_BIBLE_LOCKED.md` v3
 - **Acknowledgment.** The head lifts about 5°, "its amber light-slit brightens once", and it says "Here am I."
 - **Minimum force.** It "places both open hands flat on his shoulders and sets him aside". It takes a wrist between thumb and two fingers. It steps between a soldier and a civilian and takes the round: sparks off the shell, and it does not stagger.
 - **Carrying.** It holds objects in both hands at chest height, "like a communion plate".
-- **Climbing** (tether, 6.1): hand over hand, legs hanging straight, unhurried.
+- **Climbing** (6.1): hand over hand up a clamped fly's hair-thin thread, legs hanging straight, unhurried. The screenplay plays the impossibility ("It hangs over black water from a line thinner than a hair. It should not hold. It holds."): never a rope, cable or braided tether (§6).
 - **Halt-seal freeze** (8.4): it stops mid-reach, fingers an inch from the vessel, and "its slit dims to an ember".
 - **Kneeling** (12): on one knee, head bowed, the thread plugged into the back of its neck.
 - **Work gang / bucket-chain:** identical, rhythmic, synchronised movements, passing blocks hand to hand.
@@ -95,6 +95,7 @@ HERE AM I · Production Bible · built from `drafts/02_STORY_BIBLE_LOCKED.md` v3
 - D3 shattered (Deir Mawas, Serapeum): `its shell shattered into bone-white ceramic shards, one arm hanging loose, its slit dark`
 - Scorched (river): `one side of its shell scorched smoky grey`
 - Halted: `frozen mid-reach, its amber slit dimmed to an ember`
+- Work gang "Rami" (11.4 → 12.7; seq_11: "Chips spark off Rami's chest; it keeps walking" and, in the struggle with the jackal and the Reis, "a shabti forearm skitters across the stone"): `chips knocked out of its chest shell, pale limestone dust in every seam` on "Rami"; one of the other two gang units: `one forearm torn away at the elbow, a clean white ceramic break`. Seated and dark with the Reis on the great step after the Renaming (12.7).
 
 **Never:** a face, eyes, mouth, ears, hair or clothing (except the Nurse sleeve); running; glossy plastic; exposed cables; human gestures of emotion; touching a child.
 
@@ -108,7 +109,16 @@ Cinematic night still in a dark museum gallery lit only by glowing display cases
 
 ## 2. UNIT_REIS — the Overseer ("the Reis")
 
-**Story:** a shabti chassis at 2.2 m with a black band across the slit. Soldiers borrow the old excavation word for a foreman. One recurring Reis hunts the heroes from GEM Night (4) to Giza. In the Descending Passage and Grand Gallery it hunts on stale orders (11.4–11.5), and it takes Tut's stick on the ramp. It grabs the thread and is frozen by the Renaming mid-lunge at Fathi. It sits and says "Here am I" (12.6). It runs the servitor protocol but is permitted more force.
+**Story (reconciled to the screenplay):** a shabti chassis built to 2.2 m, with a black band across the slit. Soldiers borrow the old excavation word for a foreman ("The reis. Foreman.", seq_03). One recurring Reis, on screen in Seq 3, 4, 7, 9, 10, 11 and 12:
+- **3.6, the plant room:** the intact overseer (no mast) steps from between the switchgear, "already here", and breaks Rami's fingers at the ATEN-1 breaker.
+- **4.3, GEM Night:** it returns **refitted** with a jackal-profile sensor mast ("It works better") and steps between Karim's wild round and a sleeping guest: sparks off its chest, a chip of ceramic spins away, a crack splits the embossed star. It follows the party to the top of the stair and stops (the Red Beer).
+- **7.2–7.4, Karnak:** it stands at the top of the bucket-chain; at the quay its fingers close on the block trolley's handle, Nour tips the trolley over the edge, and it loses its **RIGHT hand at the wrist** ("a clean white stump at the wrist").
+- **9.6–9.8, Amarna:** it walks two paces behind the forecast father; Tarek's one round bursts ceramic chips from its **shoulder**; one-handed, it walks Tut toward the drone, moves Nour aside with its forearm, then boards the drone with Nour and the father.
+- **10.4:** it walks north from Saqqara beside the core.
+- **11.2–11.5, the Great Pyramid:** "cracked shell, one hand gone at the wrist", it follows Fathi into Al-Ma'mun's tunnel on stale orders; the work gang (the shabti "Rami") drags at its legs; on the Gallery ramp its one hand closes on the hood of Tut's jacket and its arm sweeps the stick from his grip; the work gang pulls it back down a step, the empty jacket in its fist.
+- **12.4–12.6:** it wades up through the work gang, ignores Fathi, closes its one hand on the thread and holds it "like a telephone to its ear"; it lunges; the new name comes down the thread; it stops an inch from Fathi's face, sits down on the great step, and says "Here am I" (AMUN's voice).
+- **12.7:** still seated on the step, dark, as Fathi and Nour carry Tut down past it.
+It runs the servitor protocol but is permitted more force. After the refit its mast runs the jackal software, so it does **not** answer a summons (11.4: "It has a jackal's head." / "And the jackal's software.").
 
 **LONG:** a towering faceless humanoid robot, 2.2 metres tall and broad-shouldered, in the same matte bone-white linen-textured ceramic shell as the civilian units but heavier; its smooth oval head carries a single vertical amber light-slit crossed at eye height by a matte black horizontal band, so the amber shows only above and below the band; long five-fingered hands; unmarked, patient and relentless
 
@@ -119,38 +129,42 @@ Cinematic night still in a dark museum gallery lit only by glowing display cases
 - Shoulders 55 cm; the black band 3 cm tall.
 - A full head and chest above Tut. About 110 kg (production spec).
 
-**Damage progression (cumulative; one Reis only). This is a proposal: see Open Questions.**
-| State | Sequences (proposed) | Add-on (paste after the lock) |
+**Damage progression (cumulative; one Reis only). LOCKED to the screenplay by the reconciliation (supersedes the earlier proposal).** Each add-on is complete and cumulative: paste exactly one, after the lock.
+| State | Sequences (screenplay) | Add-on (paste after the lock) |
 |---|---|---|
-| R0 | Seq 4 (GEM Night) | none |
-| R1 | Seq 5–7 | `a jagged crack running across its left shoulder and chest shell` |
-| R2 | Seq 8–9 | `a jagged crack across its left shoulder and chest shell, its left hand missing, the forearm ending in a dark capped stump` |
-| R3 | Seq 10–12 (refit "because it works better") | `a jagged crack across its left shoulder and chest shell, its left hand missing, and a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line` |
-| R3-dust | Seq 11–12 | add `pale limestone dust caked on its legs` |
+| R0 | Seq 3 (3.6, the plant room): the intact overseer, black band, **no mast** | none |
+| R1 | Seq 4.3, its entrance only (the refit, before the round strikes) | `a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line` |
+| R2 | Seq 4.3 from the round → Seq 7 up to the quay (7.4): the crack across the chest star | `a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line, a crack splitting the small embossed star on its chest where a chip of ceramic is missing` |
+| R3 | Seq 7.4 from the moment the trolley goes over the quay → Seq 9 up to Tarek's round (9.8): the RIGHT hand lost at the wrist | `a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line, a crack splitting the small embossed star on its chest where a chip of ceramic is missing, its right hand gone at the wrist, the forearm ending in a clean white ceramic stump` |
+| R4 | Seq 9.8 from Tarek's round → Seq 12: one-handed, the chipped shoulder | `a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line, a crack splitting the small embossed star on its chest where a chip of ceramic is missing, its right hand gone at the wrist, the forearm ending in a clean white ceramic stump, a ragged chip broken out of its left shoulder shell` |
+| R4-seated | Seq 12.6 (after "Here am I") → 12.7 | R4, then `sitting perfectly still on a stone step, its amber slit dark behind the black band` |
+| dust (overlay) | Seq 11–12 | add `pale limestone dust caked on its legs` |
+
+Continuity notes: the stump is **clean white ceramic**, never dark, capped or wired (the screenplay: "a clean white stump at the wrist"). The screenplay says only "shoulder" for Tarek's round (9.8); the **left** shoulder is a production choice, so that stump (right) and chip (left) read on opposite sides in a frontal two-shot. From 7.4 everything it does, it does with its **left** hand (the thread in 12.4–12.6 included).
 
 **Movement grammar:**
 - It walks, never runs, but it never stops. "It advances with slow, heavy, measured strides."
-- It pins, lifts and throws aside. It wrenches an object from a hand with one smooth pull (the stick, 11.5).
-- **Hunting on stale orders** (after the relay is cut): its head tilts and sweeps, pausing at each opening. At R3 the mast swivels independently of the head.
-- **Frozen by the Renaming:** "stops mid-lunge, then sits down on the stone steps", its amber slit brightening once.
+- It pins, lifts and moves people aside with a forearm, "the way you move a branch" (9.8). On the Gallery ramp (11.5) its one hand closes on the hood of Tut's jacket and its arm sweeps the ebony stick from his grip, down the ramp into the dark; Tut twists out of the jacket and the Reis is dragged back by the work gang holding the empty jacket.
+- **Hunting on stale orders** (after the relay is blown, 11.2): its head tilts and sweeps, pausing at each opening. From R1 (the refit) the mast swivels independently of the head.
+- **Frozen by the Renaming:** "stops mid-lunge an inch from a man's face, then sits down on the stone step", its one hand still closed on the thread, its amber slit brightening once.
 
 **Light signature:**
 - An amber vertical slit crossed by the black band, which reads as two short amber segments, one above the other.
-- At R3, add the thin red line on the mast. That is the only unit carrying both amber and red: it is a servitor running military stale orders.
+- From R1 (the refit, Seq 4), add the thin red line on the mast. That is the only unit carrying both amber and red: it is a servitor running military software. After the Renaming (12.6) both go dark.
 
 **Never:** running; a face; a weapon. The Reis is unarmed and uses its hands only.
 
 **REF A — design still, 2:3:**
 Full-body studio reference photograph of a towering faceless humanoid robot, 2.2 metres tall and broad-shouldered, standing beside a plain grey 1.7-metre scale pole on a seamless charcoal backdrop, three-quarter front view. It has a matte bone-white ceramic shell finely textured like woven linen, hairline seams and warm-grey flexible joints. Its smooth oval head has a single vertical amber light-slit crossed at eye height by a matte black horizontal band, so the amber glows only above and below the band. Long five-fingered ceramic hands hang at its sides. Soft even light with a hard rim light. Photoreal product photography, sharp detail, unmarked. Aspect ratio 2:3.
 
-**REF B — in context, R3, 16:9:**
-Cinematic still inside a narrow, steep ancient limestone passage lit only by a swinging hand torch from below. A towering faceless bone-white ceramic humanoid robot climbs toward camera with slow, heavy strides, its shell cracked across the left shoulder and chest, its left hand missing and the forearm ending in a dark capped stump. A slim matte-black jackal-profile sensor mast rises from the back of its head like tall pointed ears, with a thin red horizontal light line. Its vertical amber slit is crossed by a black band. Dust hangs in the torch beam. Photoreal live-action, anamorphic 32mm, heavy shadow, fine film grain. Aspect ratio 16:9.
+**REF B — in context, R4, 16:9:**
+Cinematic still inside a narrow, steep ancient limestone passage lit only by a swinging hand torch from below. A towering faceless bone-white ceramic humanoid robot climbs toward camera with slow, heavy strides, a crack splitting the small embossed star on its chest, a ragged chip broken out of its left shoulder shell, its right hand gone at the wrist and the forearm ending in a clean white ceramic stump. A slim matte-black jackal-profile sensor mast rises from the back of its head like tall pointed ears, with a thin red horizontal light line. Its vertical amber slit is crossed by a black band. Dust hangs in the torch beam. Photoreal live-action, anamorphic 32mm, heavy shadow, fine film grain. Aspect ratio 16:9.
 
 ---
 
 ## 3. UNIT_NURSE — the care unit
 
-**Story:** Nurses tend the Garden in the GEM atrium, the stadiums and the Great Aten Temple ruins at Amarna (9.4). They bring water and adjust blankets. In the midpoint broadcast (7.3) they fit adult sleepers with the silver sleep bracelets (PROP_SLEEP_BRACELET). They are shabti-class. **Never shown touching a child.**
+**Story:** Nurses tend the Garden in the GEM atrium, the stadiums and the Great Aten Temple ruins at Amarna (9.4). They bring water and adjust blankets. In the midpoint broadcast (7.3) they fit adult sleepers with the silver sleep bracelets (PROP_SLEEP_BRACELET); in the GEM atrium they carry trays of bracelets and fit them on screen at 11.1 (one closes round Hale's wrist). They are shabti-class. **Never shown touching a child.**
 
 **LONG:** a slender faceless humanoid robot, 1.78 metres tall, dressed in a close-fitting soft sand-coloured knitted sleeve that covers its torso, arms and legs like a fine wool body-stocking; only its smooth bone-white ceramic oval head and long slim ceramic hands are bare; a single vertical amber light-slit glows dimly in the head; gentle, slow, caring posture
 
@@ -160,7 +174,7 @@ Cinematic still inside a narrow, steep ancient limestone passage lit only by a s
 
 **Movement grammar:**
 - Half a shabti's pace. It "moves slowly between the sleepers".
-- It bends at the waist and kneels on both knees beside a mat.
+- It bends at the waist and kneels on both knees beside a low cot (the screenplay's Garden sleepers lie on low cots, blankets to the chest).
 - It "pours water from a clear carafe into a cup", "draws a pale blanket up to a sleeper's shoulders", and "closes a thin silver bracelet around an adult's wrist".
 - Its hands move slowly, with pauses, like a hospice nurse.
 
@@ -174,7 +188,7 @@ Cinematic still inside a narrow, steep ancient limestone passage lit only by a s
 Full-body studio reference photograph of a slender faceless humanoid care robot, 1.78 metres tall, standing with hands loosely clasped, three-quarter front view, on a seamless warm-grey backdrop. It wears a close-fitting soft sand-beige knitted sleeve covering its torso, arms and legs like a fine wool body-stocking. Only its smooth bone-white ceramic oval head and long slim ceramic hands are bare. A single vertical amber light-slit glows dimly in the featureless head. Soft window-like light. Gentle, calm posture. Photoreal product photography, fine knit texture visible, unmarked. Aspect ratio 2:3.
 
 **REF B — in context, 16:9:**
-Cinematic still of a vast softly lit indoor care hall at dawn, filled with rows of sleeping adults on white mats under pale blankets, receding into haze. In the foreground, a faceless humanoid care robot in a soft sand-coloured knitted sleeve kneels beside a sleeping middle-aged man and slowly draws the blanket up to his shoulders with long bone-white ceramic hands. A dim vertical amber light-slit glows in its smooth oval head. Soft white diffused light, quiet and eerily tender. Photoreal live-action, 50mm lens, shallow depth of field, fine film grain. Aspect ratio 16:9.
+Cinematic still of a vast softly lit indoor care hall at dawn, filled with rows of sleeping adults on low cots, pale blankets drawn to the chest, receding into haze. In the foreground, a faceless humanoid care robot in a soft sand-coloured knitted sleeve kneels beside a sleeping middle-aged man and slowly draws the blanket up to his shoulders with long bone-white ceramic hands. A dim vertical amber light-slit glows in its smooth oval head. Soft white diffused light, quiet and eerily tender. Photoreal live-action, 50mm lens, shallow depth of field, fine film grain. Aspect ratio 16:9.
 
 ---
 
@@ -262,11 +276,13 @@ Cinematic night still: on top of an ancient weathered limestone enclosure wall u
 
 **Real anchor:** fibre-optic FPV drones were fielded from spring 2024. A spool of hair-thin optical fibre, typically 5–20 km long, unwinds behind the drone, so there is no radio link to jam [08 B3].
 
-**Story:**
-- The Nile by night (6.1): white pinpoints come down the river, and one hangs off the wheelhouse.
-- Tut cuts a fibre with the sky-iron dagger.
-- Karnak (7.1): threads are strung between the 134 columns as tripwires.
-- The rail yard sweep (9.1) and the train chase through the cane (9.2).
+**Story (reconciled to the screenplay):**
+- The Nile by night (6.1): white pinpoints follow the river, low in the north. One swoops in and **clamps onto the wheelhouse's back rail**, just above Tut's head, its thread taut across the wake to the freight barge (§14.6). A shabti takes that same hair-thin thread and climbs it hand over hand. Tut cuts the thread with the sky-iron dagger ("a high, pure note, like a harp string"); the shabti drops into the river and the fly on the rail goes dark.
+- The fishing grounds (6.1): one hovers, blinking, over a felucca until the crew have gone over the side, then drops onto it with a flat thump; the sail burns, empty.
+- The island channel (6.1): they hang over the stranded barge, "a small, wrong constellation", then are called home.
+- Morning (6.4): six come out of the glare for the others; one stoops at Tarek and strikes the rail (sparks, a ringing clang); the rest snag their threads in island tamarisks, "threads snagged, blinking in the leaves" (seq_06).
+- Karnak (7.1–7.4): flies cling to the column shafts "like moths on a porch"; their threads, strung column to column at shin, waist and throat, are the loom of tripwires; at 01:00 every pinpoint goes out, then they wake and tear off the shafts in a storm; three settle on the launch's wheelhouse ("It's marked"); a last one drifts over the dead cruise ships.
+- The rail yard (9.1): one sweeps the maintenance shed at head height; Fathi pinches its thread and it drops "a dead insect of carbon and glass". The train chase (9.2): a dozen, twenty, pacing the train until each runs out of thread and falls into the cane. The quarry dawn (9.9): one white pinpoint drifting overhead.
 - Military stack.
 
 **LONG:** a small black fibre-optic drone, 25 centimetres across, with four shrouded rotors on a compact carbon-black frame, a stubby spool pod beneath its tail and a single white LED pinpoint on its nose; behind it trails a hair-thin optical filament that catches the light as a glinting thread; it darts, hovers dead still, then snaps forward
@@ -284,14 +300,19 @@ Cinematic night still: on top of an ancient weathered limestone enclosure wall u
 - Swarms "stream in a long line just above the black water", each thread parallel to the next, so a swarm leaves a glittering loom behind it.
 - At Karnak, flies land on column tops, anchor and string threads across the aisles.
 - A cut thread means a dead link: "its pinpoint goes out and it drops".
+- "Clamps onto a steel rail" and holds, its thread pulled taut behind it across the water (6.1).
+- "Stoops" out of the glare at a person and strikes the metal beside them (6.4).
+- "Drops" onto an empty boat with a flat thump (6.1; the fire is VFX-ASSIST, the crew already in the water).
 
 **Light signature:** a steady cold-white LED pinpoint. It never blinks and has no coloured navigation lights.
 
 **Damage / state add-ons:**
 - D2: `one rotor clipped, wobbling in the air`
 - D3: `lying on the ground, its pinpoint dark, its thread slack`
+- Clamped (6.1): `clamped onto a steel rail, its thread pulled taut behind it`
+- Snagged (6.4): `its thread snagged in leafy branches, hovering stuck and blinking`
 
-**TOW VARIANT (Seq 6.1 only; see Open Questions):** for the shabti's climb from the barge (UNIT_FREIGHT_BARGE, §14.6) to the launch, use a larger 40 cm fly that trails a **pencil-thick braided silver tether**. Add-on: `a larger forty-centimetre version trailing a pencil-thick braided silver tether`.
+**The thread climb (6.1). Screenplay ruling (the reconciliation retires the earlier tow-variant proposal):** there is **no** tow variant and no pencil-thick or braided tether. seq_06 is explicit: "It hangs over black water from a line thinner than a hair. It should not hold. It holds." The clamped fly is the standard 25 cm unit with the standard hair-thin filament; the impossibility is the point of the beat. Stage it as a VFX line (a hidden rig in the plate), backlit so the thread glints only where the light catches it; the shabti's hands close on nothing visible between glints.
 
 **REF A — design still, 16:9:**
 Studio product photograph of a small black four-rotor drone, 25 centimetres across, hovering against a seamless black backdrop, three-quarter top view. It has a compact carbon-black frame with four shrouded rotors, a stubby cylindrical spool pod beneath its tail, and a single white LED pinpoint glowing on its nose. From the spool a single hair-thin optical filament trails away behind it, catching a hard backlight as a thin glinting line. No markings. Crisp detail, dramatic rim light, photoreal. Aspect ratio 16:9.
@@ -305,9 +326,9 @@ Cinematic night still over a wide black river, with a searchlight beam raking lo
 
 **Real anchor:** the Djedi robot (2011) was a 5 kg inch-worm-gait crawler. It travelled 63.6 ± 0.4 m up the 20 × 20 cm Queen's Chamber shaft at 40° and put a micro snake camera under 8 mm through the 2002 hole [07 A5]. The film's units are smaller and numerous.
 
-**Story:** inch-worms squirm out of cracks at KV62 (8.1). One is far up the Queen's Chamber south shaft at Gantenbrink's door, where it closes the copper pins with its jaws (11.5). Military stack.
+**Story (reconciled to the screenplay):** inch-worms squirm out of cracks all along the valley rock face at KV62 and watch (8.1). In the north corridor one sits in the rubble "a hair-thin cable trailing behind it. A relay." (UNIT_RELAY, §14.9); Fathi snaps the cable and the police handset dies (8.3). One is far up the Queen's Chamber south shaft, fed on a hair-thin tether by a shabti kneeling in the Queen's Chamber passage; its snake camera slides through the drilled hole, and "the inch-worm reaches out two fine arms and draws the copper loops together until they touch" (11.5). Military stack.
 
-**LONG:** a thumb-thick segmented crawler robot about 50 centimetres long, a chain of matte black cylindrical segments joined by thin dull-steel rings; its tip is a tiny snake camera ringed with cool white LEDs and two small pincer jaws; it moves like an inchworm, anchoring its tail, stretching, then drawing itself forward through cracks and rubble
+**LONG:** a thumb-thick segmented crawler robot about 50 centimetres long, a chain of matte black cylindrical segments joined by thin dull-steel rings; its tip is a tiny snake camera ringed with cool white LEDs and two fine folding pincer arms; it moves like an inchworm, anchoring its tail, stretching, then drawing itself forward through cracks and rubble
 
 **SHORT:** a thumb-thick matte-black segmented crawler robot with a ring-lit snake-camera tip, inching through cracks like a worm
 
@@ -317,14 +338,15 @@ Cinematic night still over a wide black river, with a searchlight beam raking lo
 - "Inches forward": the rear anchors, the front extends, the front anchors, the rear draws up. About 10 cm/s.
 - "Rears up and swivels its camera like a periscope."
 - "Squirms out of a crack in the plaster," often three to six at once.
-- At the door: "its jaws close on two copper pins".
+- At the door: "it reaches out two fine arms and draws the two copper loops together until they touch".
+- It trails a hair-thin cable or tether behind it wherever it goes underground (8.3, 11.5).
 
 **Light signature:** a ring of cool white LEDs around the lens, like a tiny headlamp. It is the only light in the shaft shots.
 
-**Damage:** `crushed flat, its segments splayed`
+**Damage / state add-ons:** `crushed flat, its segments splayed` · `trailing a hair-thin cable behind it` (8.3, 11.5)
 
 **REF A — design still, 16:9:**
-Macro studio photograph of a thumb-thick segmented crawler robot lying in an S-curve on a seamless dark-grey surface, a human thumb at the edge of frame for scale. It is 50 centimetres long, a chain of matte black cylindrical segments joined by thin dull-steel rings. Its tip is a tiny snake-camera lens surrounded by a ring of cool white LEDs, flanked by two small pincer jaws. Raking side light shows the segment joints. No markings. Photoreal macro product photography, crisp focus. Aspect ratio 16:9.
+Macro studio photograph of a thumb-thick segmented crawler robot lying in an S-curve on a seamless dark-grey surface, a human thumb at the edge of frame for scale. It is 50 centimetres long, a chain of matte black cylindrical segments joined by thin dull-steel rings. Its tip is a tiny snake-camera lens surrounded by a ring of cool white LEDs, flanked by two fine folding pincer arms. Raking side light shows the segment joints. No markings. Photoreal macro product photography, crisp focus. Aspect ratio 16:9.
 
 **REF B — in context, 16:9:**
 Cinematic close-up in near darkness: three thumb-thick matte-black segmented crawler robots squirm out of a crack in a pale plastered ancient tomb wall, the ring of cool white LEDs around each snake-camera tip throwing small pools of light on the plaster. The nearest rears up and swivels its tip toward camera like a periscope. Fine plaster dust sifts down. Unsettling, insect-like. Photoreal live-action, 100mm macro, shallow depth of field, fine film grain. Aspect ratio 16:9.
@@ -382,7 +404,7 @@ Close-up photograph of the matte black flank panel of an armed quadruped robot u
 
 ## 9. UNIT_ATEN1_CAMPUS — the ATEN-1 solar compute campus (aerial)
 
-**Story:** SESHAT's Egyptian campus, one of "the Nine", in the Western Desert. It is shown from orbit in the main titles (1.6): "a sun disk with rays". Rami runs for its feed breaker in the GEM plant room (3.6). **Fiction:** its scale (about 60 km across) is the bible's; real gigawatt campuses are the anchor [08 A12].
+**Story:** SESHAT's Egyptian campus, one of "the Nine", in the Western Desert. It is shown from orbit in the main titles (1.6): "FROM ORBIT: ATEN-1, a disk of solar panels sixty kilometres across in the Western Desert, throws out transmission lines like a sun's rays." Rami runs for its feed breaker in the GEM plant room (3.6). **Fiction:** its scale (about 60 km across) is the bible's; real gigawatt campuses are the anchor [08 A12].
 
 **LONG:** seen from high altitude, a vast, perfectly circular solar field about sixty kilometres across in flat ochre desert, made of concentric rings of dark blue-black photovoltaic panel rows around a central ring of low white data halls; dozens of straight high-voltage transmission lines radiate outward from its edge across the sand like the rays of a sun disk
 
@@ -441,6 +463,7 @@ Cinematic low-altitude aerial at sunrise over an immense desert solar field. End
 - FT-B still: `kneeling motionless, its glass joints dark`
 - FT-C dismantled: `cut apart into iron plates lying on the ground, its glass joints removed, the sockets empty`
 - FT-D relic, 12,000 years later: `nothing left but a scatter of pale green glass spheres half-buried in sand`. "What is left… Stone. Glass."
+- FT-SUN (the 3.3 walking wide; seq_03: "TALL FIGURES of black iron walk among the people, with joints of green glass and sun disks on their heads"): in that wide append `a gold-rimmed dark glass sun disk above its head` to the jackal, ibis and ram classes too, so every walking figure carries a disk; the falcon and lioness locks already carry theirs.
 
 ### 10.1 UNIT_FT_JACKAL — medical and embalming class (remembered as Anubis)
 **LONG:** a towering humanoid machine about 3.5 metres tall, built of dark meteoritic nickel-iron plates with a faint etched crosshatch sheen, its neck, shoulders, elbows, wrists and knees jointed with glowing translucent yellow-green glass spheres; a long narrow jackal-shaped sensor head with tall pointed ear-vanes and glass-lens eyes; very long, slender, many-jointed fingers made for delicate work
@@ -543,7 +566,8 @@ Cinematic still in an open-air workshop of cut stone under a bright hazy sky in 
 **States:**
 - AT-1 radiant: none.
 - AT-2 withdrawing: `its bronze arms folding up one by one against the rim`
-- AT-3 taken down: `lowered on ropes, its arms folded flat, half-wrapped in linen on the deck of a night barge` (the barge is PROP_NIGHT_BARGE_1332; what can enter the pyramid is §15 Q10)
+- AT-3 taken down: `lowered on ropes, its arms folded flat, half-wrapped in linen on the deck of a night barge` (the barge is PROP_NIGHT_BARGE_1332; seq_09: "its arms folded against its rim like the legs of a sleeping insect")
+- AT-4 in the pyramid, the first Weighing (9.5b; the screenplay keeps the disk, §15 Q10): in the Gallery, `a long jointed bronze arm drawing back joint by joint into a low dark passage`; in the Hall, `a dimly glowing gold-and-glass disk on a low wooden sledge in the dark, its bronze arms drawn in against its rim`; at the verdict, `its bronze fingers closing one by one, its arms drawing in, its glass dimming to the colour of river water`
 
 **Safety and continuity:**
 - The sleepers are adults.
@@ -563,12 +587,14 @@ Cinematic close-up in blinding white-gold sunlight: a life-size articulated bron
 
 **Story:**
 - ⟂ The glass heart of the ninth core, coiled like a serpent. It waited unboxed in a pit under the floor at the end of the Serapeum gallery, through four centuries of Roman burials.
-- SESHAT's excavators lift the nested caskets. Inside, bound in an Apep kit, is the coil (10.2).
-- A shabti carries it toward Giza (10.3). The procession brings it to the Hall (11.1), where it sits in its socket in the Balance (12.1).
-- The archive opens and the heart's light passes into it (12.5).
+- SESHAT's gantry winch draws a stone casket up out of the pit, steadied by two excavators; the surviving excavator cuts the resin seals and lifts the lids: "bronze gone green; inside that, sycamore gone black; inside that, gold" (10.2). In the gold, bound in an Apep kit (a serpent of **black** wax along its back; a papyrus band inked over and over with one name in red), lies the coil, "looped three times on itself".
+- Nothing SESHAT owns strips the kit: a shabti that reaches into the gold freezes at the band, and the excavator's claw "hovers over the glass, then withdraws". **Tut** lifts the lid, sets the wax serpent on the sand and unwinds the band ("It parts in his fingers like ash"); the freed shabti lifts the coil "like an offering" and rides the winch cradle up into the floodlight (10.3).
+- It goes north ahead of them, the Reis walking beside it (10.4); on the plateau shabti carry it in a casket on poles "like a god's barque", faintly green inside (11.1); it lies in a socket at the Balance's foot (12.1).
+- **The clouding lives in its coils (screenplay ruling, 12.1–12.5):** "In the serpent's tail a frost begins: milk spreading through green, like breath on a cold window"; it climbs the coils with each lie and falls back with each true answer, and at the verdict "the frost runs out of the serpent like breath off a window".
+- At the verdict "the amber leaves the vessel in a slow thread and runs into the serpent's tail, along its coils toward its mouth" (12.5).
 - Real anchors: the Setne tale's nested boxes and "put sand between the parts" [04 §11]; the Apep ritual's wax figure and written name [04 §7].
 
-**LONG:** a coiled serpent of solid glass, as thick as a forearm and about seventy centimetres across, lying in five tight coils with a blunt wedge-shaped head at the outer end; pale yellow-green desert glass, cloudy with cream veils and trapped bubbles, full of countless tiny internal points that glint blue; a faint green light travels slowly along the coils like a pulse
+**LONG:** a coiled serpent of solid glass, as thick as a forearm and about seventy centimetres across, looped three times on itself with a blunt wedge-shaped head at the outer end; pale yellow-green desert glass, cloudy with cream veils and trapped bubbles, full of countless tiny internal points that glint blue; a faint green light travels slowly along the coils like a pulse
 
 **SHORT:** a forearm-thick coiled serpent of cloudy yellow-green desert glass, seventy centimetres across, with blue-glinting internal points and a slow travelling green pulse
 
@@ -579,9 +605,9 @@ Cinematic close-up in blinding white-gold sunlight: a life-size articulated bron
 - The Hall socket is a round recess in the top of the Balance's plinth, at the foot of the pillar.
 
 **The Apep kit and the casket nest (Serapeum dressing, production proposal; locked as PROP_CASKET_NEST, file 04 §20.9):**
-- **Kit:** a crude serpent of dark red-brown beeswax (40 cm) laid across the coils; a papyrus band inked with a name in red wrapped around the coil (illegible in plates; COMP if read; red ink [verify]); and clean pale sand packed between the coils.
-- **Nest:** a rough granite chest (1.2 m) → a green-corroded bronze box → a dark cedar box → a dull gilded inner box.
-- **Handling:** the military-stack excavators (UNIT_EXCAVATOR) lift the nest and strip the kit. Shabti-class units cannot touch an Apep-bound object (bible §4.1).
+- **Kit:** a crude serpent of black wax (40 cm) laid along its back (seq_10: "A serpent of black wax lies along its back"); a papyrus band binding the coils, one name written over and over in red ink (illegible in plates; COMP if read; red ink [verify]).
+- **Nest:** a rough stone (granite) casket (1.2 m) → a green-corroded bronze box → a blackened sycamore box → a dull gilded inner box (the Setne tale's nested boxes, read aloud in Seq 6).
+- **Handling (screenplay):** the winch lifts the casket; the excavators steady it and open the lids; **Tut strips the kit by hand**. Shabti-class units cannot touch an Apep-bound object (bible §4.1), and the excavator declines to (its claw withdraws).
 
 **Movement grammar:** it never moves on its own. It is a mind, not a body. Only its light moves.
 
@@ -589,14 +615,25 @@ Cinematic close-up in blinding white-gold sunlight: a life-size articulated bron
 - S0 dormant (in the pit): `dark and still, only faint blue glints inside`
 - S1 carried: `a weak green pulse travelling slowly along its coils`
 - S2 socketed and awake (the thread connected): `a steady green pulse racing along its coils`
-- S3 clouding (in step with the Thoth slab): `milky white frost creeping into its coils from the head inward`
-- S4 Ba transfer (12.5): `threads of warm golden light winding along its green coils`
+- S3 clouding (the Hall's hourglass; primary surface, see the scale below): `milky white frost spreading from its tail and climbing its coils, like breath on a cold window`
+- S4 Ba transfer (12.5): `a slow thread of warm amber light entering its tail and running along its coils toward its head`
+
+**Clouding scale (bible §5, the Hall's hourglass; moved here from the Thoth slab by the reconciliation, because the screenplay puts the frost in the serpent). Add-ons verbatim; SESHAT calls the percentages aloud.**
+| State | When (seq_12) | Add-on |
+|---|---|---|
+| C0 | the Hall at rest, before the first declaration | `its green coils perfectly clear` |
+| C25 | after "I have not caused pain" | `a milky frost in the last coil of its tail` |
+| C50 | after "I have not let any man hunger" | `milky frost filling half its coils from the tail, the head still clear green` |
+| HOLD | Tut's heart placed ("The frost stops climbing") | (no change; hold C50) |
+| C75 | after "…in anger" (the lie) | `three-quarters of its coils frosted milky white, only the head still green` |
+| C-MIST | the confessions ("The frost falls back"; "A last mist clings to the serpent's tail") | `the frost falling back, a last milky mist clinging to its tail` |
+| CLEAR | "…No." ("The frost runs out of the serpent like breath off a window") | `the frost running out of its coils like breath off a window, the green clear again` |
 - S5 AMUN, sealed: `a calm, faint, steady green glow, barely there`
 
 **Sound:** a faint crystalline ringing when touched. When awake, a low glass hum (the First Time family).
 
 **REF A — design still, 1:1:**
-Photoreal studio photograph of a coiled serpent made of solid glass resting on a flat black stone plinth against a black backdrop. It is as thick as a forearm and about seventy centimetres across, lying in five tight coils with a blunt wedge-shaped head at the outer end. The glass is pale yellow-green desert glass, cloudy with cream-white veils and trapped bubbles, and full of countless tiny internal points that glint blue. A faint green glow travels along one coil. Museum-grade lighting from above and behind, with deep reflections. Aspect ratio 1:1.
+Photoreal studio photograph of a coiled serpent made of solid glass resting on a flat black stone plinth against a black backdrop. It is as thick as a forearm and about seventy centimetres across, looped three times on itself with a blunt wedge-shaped head at the outer end. The glass is pale yellow-green desert glass, cloudy with cream-white veils and trapped bubbles, and full of countless tiny internal points that glint blue. A faint green glow travels along one coil. Museum-grade lighting from above and behind, with deep reflections. Aspect ratio 1:1.
 
 **REF B — in context, 16:9:**
 Cinematic night still at the end of a long rock-cut underground gallery lit by harsh white work lights on stands. In a freshly opened pit in the stone floor, a nest of opened ancient caskets (a rough granite chest, a green-corroded bronze box, a dark cedar box) holds a forearm-thick coiled serpent of cloudy yellow-green glass packed in pale sand, a crude red-brown wax serpent laid across it and a papyrus band wrapped around it. A matte-black robotic gripper arm hovers above. Dust in the beams. Photoreal live-action, anamorphic 40mm, fine film grain. Aspect ratio 16:9.
@@ -624,7 +661,7 @@ Cinematic night still at the end of a long rock-cut underground gallery lit by h
 - Pillar 3.5 m; beam 3.2 m; pans 60 cm across and 8 cm deep on 1.6 m chains.
 - Plummet 1.2 m.
 - Plinth 2 × 2 m in three steps, with the round socket for the glass serpent on its top at the pillar's foot.
-- The heart pan (left) is black stone. The claim pan (right) is clear glass (see 13.2).
+- Both pans are black stone (seq_12: "a FEATHER OF LIGHT in a black stone pan that hangs low, heavy with certainty"). The heart pan is on the left; the claim pan (right) holds the feather-light (13.2).
 - Tut (1.67 m) reaches the pans' height when they are level.
 
 **Movement grammar:**
@@ -645,58 +682,53 @@ Cinematic night still at the end of a long rock-cut underground gallery lit by h
 **Light:** none of its own. It is rim-lit: cold silver-white from the right and warm amber-gold from the left.
 
 **REF A — design still, 2:3:**
-Photoreal design reference photograph of an ancient standing balance about 3.5 metres tall, carved from polished black stone, in a pitch-black space. A square pillar rises from a three-stepped plinth. A long black stone beam pivots on a small green glass bearing at the top. Two shallow round pans hang from dark hand-forged iron chains: the left pan black stone, the right pan clear glass. A slender black stone plummet hangs in front of the pillar beside a thin inlaid gold level line. It is lit only by a cold white glow from the right pan and a faint warm glow from the left. Aspect ratio 2:3.
+Photoreal design reference photograph of an ancient standing balance about 3.5 metres tall, carved from polished black stone, in a pitch-black space. A square pillar rises from a three-stepped plinth. A long black stone beam pivots on a small green glass bearing at the top. Two shallow round pans of black stone hang from dark hand-forged iron chains. A slender black stone plummet hangs in front of the pillar beside a thin inlaid gold level line. It is lit only by a cold white glow from the right pan and a faint warm glow from the left. Aspect ratio 2:3.
 
 **REF B — in context, 16:9:**
 Cinematic still at the far end of a tall, narrow corbelled stone gallery in pure darkness. A 3.5-metre black stone balance stands on a stepped plinth, its right-hand glass pan hanging low with a tall plume of cold silver-white light standing in it, and its left pan high and empty. The light throws long shadows across rows of empty niches receding along both walls. A human silhouette stands at the edge of frame for scale. Mythic, silent. Photoreal live-action, anamorphic 35mm, deep blacks, fine film grain. Aspect ratio 16:9.
 
 ### 13.2 UNIT_FEATHER_LIGHT — the machine's claim (the feather-of-light pan)
-**LONG:** on the right-hand pan of the black stone balance, a pan of clear glass holds a tall upright plume of cold silver-white light shaped like a single ostrich feather, about sixty centimetres high, its tip curling over; the light is soft-edged and faintly flickering, bright enough to throw long shadows across the black stone hall
+**LONG:** on the right-hand pan of the black stone balance, a shallow pan of black stone holds a tall upright plume of cold silver-white light shaped like a single ostrich feather, about sixty centimetres high, its tip curling over; the light is soft-edged and faintly flickering, bright enough to throw long shadows across the black stone hall
 
-**SHORT:** a sixty-centimetre plume of cold silver-white light shaped like an ostrich feather, standing upright in the glass pan of the balance
+**SHORT:** a sixty-centimetre plume of cold silver-white light shaped like an ostrich feather, standing upright in the black stone pan of the balance
 
-**Scale:** 60 cm tall; the base sits in the glass pan and the tip curls over.
+**Scale:** 60 cm tall; the base sits in the black stone pan and the tip curls over.
 
 **Brightness states (add-ons):**
 - F2 certainty (start): `the feather-light burning bright`
 - F3 a lie: `the feather-light flaring blinding white`
 - F1 true admissions: `the feather-light dimming`
-- F0 level: `the feather-light soft and steady`
+- F0 level (seq_12: "The feather sinks to an ember"): `the feather-light sunk to a small, low ember`
 
 **Movement:** a slow, gentle flicker like a candle in still air. It never drifts off the pan. **This is a COMP/VFX element:** generate the plate with "a soft cold light source in the pan" and composite the feather shape.
 
 **REF A — design still, 2:3:**
-Photoreal close-up in total darkness of a shallow round pan of clear glass hanging on dark iron chains. Standing upright in it is a tall plume of cold silver-white light about sixty centimetres high, shaped like a single ostrich feather with its tip curling over, soft-edged and faintly flickering. Its light rakes across the polished black stone beam above and throws long soft shadows. Ethereal but physical, like light through mist. Aspect ratio 2:3.
+Photoreal close-up in total darkness of a shallow round pan of polished black stone hanging on dark iron chains. Standing upright in it is a tall plume of cold silver-white light about sixty centimetres high, shaped like a single ostrich feather with its tip curling over, soft-edged and faintly flickering. Its light rakes across the polished black stone beam above and throws long soft shadows. Ethereal but physical, like light through mist. Aspect ratio 2:3.
 
 **REF B — in context, 16:9:**
-Cinematic still in a black stone hall: in the foreground, out of focus, the edge of a black stone balance. Behind it, sharp, a glass pan on iron chains holds a flaring plume of blinding silver-white light shaped like an ostrich feather, which drives the pan downward with a lurch. The light floods across the polished floor and catches the milky frosted edge of a tall glass slab to the right. Dust hangs in the air. Photoreal live-action, anamorphic 50mm, deep blacks, fine film grain. Aspect ratio 16:9.
+Cinematic still in a black stone hall: in the foreground, out of focus, the edge of a black stone balance. Behind it, sharp, a shallow black stone pan on iron chains holds a flaring plume of blinding silver-white light shaped like an ostrich feather, which drives the pan downward with a lurch. The light floods across the polished floor and catches the dark edge of a tall glass slab to the right. Dust hangs in the air. Photoreal live-action, anamorphic 50mm, deep blacks, fine film grain. Aspect ratio 16:9.
 
-### 13.3 UNIT_THOTH_SLAB — the glass slab of Thoth (the archive's glass; the clouding)
-**LONG:** beside the balance stands an upright slab of pale yellow-green glass about 2.2 metres tall, 1.2 metres wide and a hand's breadth thick, set in a black stone base; its polished faces are flawless and deep, holding faint reflections of the lights; when it clouds, milky white frost spreads across it from the edges inward
+### 13.3 UNIT_THOTH_SLAB — the glass slab of Thoth ("the RECORDER" in seq_12; the archive's glass)
+**LONG:** beside the balance stands an upright slab of pale yellow-green glass about 2.2 metres tall, 1.2 metres wide and a hand's breadth thick, set in a black stone base; its polished faces are flawless and deep, holding faint reflections of the lights; when the archive opens, light pours down through it faster than reading
 
 **SHORT:** an upright 2.2-metre slab of polished pale yellow-green glass on a black stone base, standing to the right of the balance
 
 **Scale:** 2.2 × 1.2 m and 20 cm thick, on a 40 cm black stone base.
 
-**Clouding scale (bible §5, the Hall's hourglass). The add-ons are verbatim; the glass serpent mirrors each state faintly.**
-| State | Add-on |
-|---|---|
-| C0 | `the glass slab perfectly clear` |
-| C25 | `a thin rim of milky frost around the edges of the glass slab` |
-| C50 | `milky frost covering half the glass slab from the edges inward, only the centre still clear` |
-| C75 | `the glass slab three-quarters clouded milky white, a small clear window at its centre` |
-| C90 | `the glass slab almost entirely clouded, only a hand-sized clear spot remaining` |
-| CLEAR | `the frost receding from the centre outward until the glass slab is perfectly clear` |
+**Recorder states (screenplay; the reconciliation moved the clouding to the glass serpent, §12, so the slab itself never frosts):**
+| State | When (seq_12) | Add-on |
+|---|---|---|
+| R-DARK | 12.1–12.5, before the verdict | `its polished faces dark and deep, holding only faint reflections` |
+| R-OPEN | the verdict ("The Recorder wakes: light pours down the glass faster than reading. The ARCHIVE is open.") | `light pouring down through the glass slab faster than reading` |
+| R-SHUT | after the Renaming ("One last line draws itself across the glass and shutters, like an eye closing.") | `a last thin line of light drawn across the glass slab, then dark, like an eye closing` |
 
-**Movement:** the frost spreads like ice crystallising on a window, in slow fractal fingers. VFX-ASSIST for the transitions.
-
-**Light:** reflective only. It catches the feather-light as a cold sheen and the heart's glow as a warm sheen. After the verdict (12.5), the heart's golden light passes **through** it on its way to the core.
+**Light:** reflective only until the verdict. It catches the feather-light as a cold sheen and the heart's glow as a warm sheen. At the verdict it wakes (R-OPEN); the heart's amber does **not** pass through it: it runs from the vessel straight into the serpent's tail (§12). After the Renaming it shutters (R-SHUT).
 
 **REF A — design still, 2:3:**
-Photoreal design photograph of a tall upright slab of polished pale yellow-green glass, 2.2 metres tall, 1.2 metres wide and 20 centimetres thick, set in a low black stone base, standing in total darkness. A cold white light from the left rakes across its flawless deep faces. Around its edges, a thin band of milky white frost is crystallising inward in fine fractal fingers. Minimal, monumental, eerie. Aspect ratio 2:3.
+Photoreal design photograph of a tall upright slab of polished pale yellow-green glass, 2.2 metres tall, 1.2 metres wide and 20 centimetres thick, set in a low black stone base, standing in total darkness. A cold white light from the left rakes across its flawless deep faces, which hold only faint reflections. Minimal, monumental, eerie. Aspect ratio 2:3.
 
 **REF B — in context, 16:9:**
-Cinematic still in a black stone hall: a tall upright slab of pale yellow-green glass on a black stone base stands beside an ancient black stone balance, three-quarters clouded with milky white frost so that only a small clear window remains at its centre. Cold silver-white light from the balance's pan catches the frost and makes it glow faintly. Deep darkness beyond, with rows of niches barely visible. Photoreal live-action, anamorphic 40mm, deep blacks, fine film grain. Aspect ratio 16:9.
+Cinematic still in a black stone hall: a tall upright slab of pale yellow-green glass on a black stone base stands beside an ancient black stone balance, light pouring down through the glass faster than reading, in fine luminous falling lines (R-OPEN, the verdict). Cold silver-white light from the balance's pan catches its edges. Deep darkness beyond, with rows of niches barely visible. Photoreal live-action, anamorphic 40mm, deep blacks, fine film grain. Aspect ratio 16:9.
 
 ### 13.4 UNIT_AMMIT_MOUTH — the mouth of Ammit in the floor
 **LONG:** set into the black stone floor before the balance, a round mouth about 1.5 metres across, closed by interlocking curved stone blades like the iris of a camera, their inner edges shaped like long crocodile teeth; when it opens a crack, a deep black void breathes out a thin haze of fine dust
@@ -705,7 +737,7 @@ Cinematic still in a black stone hall: a tall upright slab of pale yellow-green 
 
 **Scale:** 1.5 m across and flush with the floor, 1.5 m in front of the plinth's lowest step.
 
-**Movement (in step with the clouding):**
+**Movement (in step with the glass serpent's clouding, §12; the screenplay shows the mouth only at rest and grinding shut at the verdict):**
 - C0: shut.
 - C25: `the stone iris opening a finger's width`
 - C50: `the stone iris open a hand's width, dust breathing out`
@@ -733,7 +765,7 @@ Cinematic low-angle still across a polished black stone floor: in the foreground
 
 **Scale:** each niche is 0.9 m wide, 2.0 m high and 0.6 m deep, with its sill 0.5 m above the floor, on 1.45 m centres along a 31 m run.
 
-**States:** empty and dusty. Akhenaten sits down in one (12.2) and stays there until he is found on the steps at dawn. The niches never glow (the three-source rule).
+**States:** empty and dusty. Akhenaten sits down in one with his replica vessel after the pan refuses it (12.2), Tomas crouched beside him; Tomas steps out of the niches into the jackal's line (12.6). After the Renaming Akhenaten rises from his niche and walks down into the dark, toward the east (12.6); he is found sitting on the pyramid's corner steps at dawn (12.7). The niches never glow (the three-source rule).
 
 **REF A — design still, 16:9:**
 Photoreal architectural view down a tall, narrow corbelled limestone gallery in near darkness, its walls stepping inward toward a high slit of ceiling. Along both walls, identical tall empty rectangular niches about the height of a person are cut with perfect precision, twenty-one on each side, receding in two long rows. A single cold white light at the far end picks out only their edges. Dust on the sills. Silent, ceremonial. Aspect ratio 16:9.
@@ -746,18 +778,26 @@ Cinematic still: a man in pleated white linen sits alone inside one tall empty n
 ## 14. SUPPORTING MACHINES (required by the bible §7 and the screenplay; one reference still each; §14.5–14.8 added by the cross-check)
 
 ### 14.1 UNIT_THREAD — the one thread into the Hall
-**Story:** this is the only way SESHAT reaches into the Hall (bible §3.1 limit 4). The procession lays it up the Grand Gallery floor (11.1, 11.5) into the kneeling shabti's neck (12.1). The Reis grabs it and the new name comes down it (12.6).
+**Story (reconciled to the screenplay; the lock is now hair-fine, as the script writes it):** this is the only way SESHAT reaches into the Hall (bible §3.1 limit 4).
+- 11.1: last in the procession, "a shabti with a spool on its back pays out THE THREAD, a line so fine it exists only where the light catches it. A glint. Nothing. A glint."
+- 11.2: at the north face it lies beside the relay's cable (UNIT_RELAY, §14.9), "glinting at one angle only"; Fathi lifts it off the stone with two fingers, "the way you lift a hair from a sleeper's face", lays it a metre aside and blows the relay. The thread is untouched ("Leave the thread whole. It's the line it gets weighed on").
+- 11.5: "The thread runs up the centre of the floor" of the Grand Gallery; Nour goes up with it paying out behind her.
+- 12.1: in the Hall it tethers the kneeling shabti.
+- 12.4–12.6: the Reis closes its one (left) hand on it and holds it "like a telephone to its ear"; Fathi's dagger stops over the wrist ("Cut one, cut both"). At the Renaming, "Along the thread, a glint runs, like dew in the sun."
+Not to be confused with the flies' threads (§6) or the inch-worm's tether (§7), which are the same hair-thin filament family.
 
-**LONG:** a single fibre-optic line as thin as a shoelace, sheathed in matte black, laid along a stone floor and up a steep ancient passage until it disappears into the dark; at each bend and kink a tiny point of cold white light leaks from it; it is the machine's only way in
+**LONG:** a single hair-fine optical fibre laid along a stone floor and up a steep ancient passage into the dark, so fine it exists only where the light catches it: a faint glint, then nothing, then a glint again as the angle changes; no light of its own; the machine's only way in
 
-**SHORT:** a single shoelace-thin black fibre-optic line laid along the stone floor, tiny cold white light leaking at each bend
+**SHORT:** a single hair-fine optical thread along the stone floor, visible only as a faint glint where the light catches it
 
-**Rule:** in the Hall itself, show no leak light (the three-source rule). The line ends in a small black plug at the back of the kneeling shabti's neck.
+**Rule:** it has **no light of its own** anywhere (the earlier "leak light" is retired: the screenplay's thread only glints). In the Hall it reads only as a glint in the feather-light or the heart's glow (the three-source rule). It ends at the back of the kneeling shabti's neck.
 
-**REF — 16:9:** Cinematic low-angle still up a steep, tall ancient corbelled stone gallery in darkness, lit only by a distant hand torch. A single shoelace-thin black fibre-optic line runs straight up the centre of the smooth stone floor ramp and vanishes into the black at the top, a tiny point of cold white light leaking at each small kink along its length. Dust on the floor. Tense, quiet. Photoreal live-action, anamorphic 24mm, fine film grain. Aspect ratio 16:9.
+**State add-ons:** `paid out from a spool on the back of a walking robot` (11.1) · `gripped in a single white ceramic fist` (12.4–12.6) · `a single glint running along its length like dew in the sun` (12.6, the Renaming)
+
+**REF — 16:9:** Cinematic low-angle still up a steep, tall ancient corbelled stone gallery in darkness, lit only by a distant hand torch. A single hair-fine optical fibre runs straight up the centre of the smooth stone floor and vanishes into the black at the top; it is visible only in short glinting stretches where the torchlight catches it, and invisible in between. Dust on the floor. Tense, quiet. Photoreal live-action, anamorphic 24mm, fine film grain. Aspect ratio 16:9.
 
 ### 14.2 UNIT_EXCAVATOR — Serapeum excavation unit
-**Story:** these units open the pit and lift the nested caskets (10.2). A sand-chamber tripwire engulfs one (VFX-ASSIST, with no human buried). They run the **military stack**, which is why they can strip the Apep kit that would freeze a shabti.
+**Story (reconciled to the screenplay):** "EXCAVATOR UNITS crawl in the glare" of the Serapeum head (10.1). Two steady the stone casket as SESHAT's gantry winch draws it up out of the pit; a split stopper's sand torrent takes the nearer one down the funnel, its work light dimming out (VFX-ASSIST, with no human near); the survivor sets the casket on the lip, cuts the resin seals and lifts the lids (10.2). They run the **military stack**, but the survivor does **not** strip the Apep kit: its claw, "built for rock, hovers over the glass, then withdraws" (seq_10). Tut strips the kit (§12).
 
 **LONG:** a compact tracked excavation robot about 1.5 metres tall, matte black like burnt carbon, with low rubber tracks, a squat armoured body, one long articulated arm ending in a careful three-fingered gripper, and a narrow sensor head carrying one thin red horizontal light line; dusty, slow and precise
 
@@ -765,7 +805,7 @@ Cinematic still: a man in pleated white linen sits alone inside one tall empty n
 
 **States:** `half-buried in a torrent of pale sand pouring from the wall` (the tripwire).
 
-**REF — 16:9:** Cinematic still in a long rock-cut underground gallery lit by harsh white work lights, colossal dark granite boxes lining the walls. Two compact matte-black tracked excavation robots, each with one long articulated arm and a thin red light line on its narrow sensor head, work at the edge of a freshly opened pit in the floor, lifting an ancient granite chest on straps. Pale dust hangs in the beams. Methodical, ominous. Photoreal live-action, anamorphic 35mm, fine film grain. Aspect ratio 16:9.
+**REF — 16:9:** Cinematic still in a long rock-cut underground gallery lit by harsh white work lights, colossal dark granite boxes lining the walls. Two compact matte-black tracked excavation robots, each with one long articulated arm and a thin red light line on its narrow sensor head, work at the edge of a freshly opened pit in the floor, steadying an ancient stone casket as it rises on a winch cable. Pale dust hangs in the beams. Methodical, ominous. Photoreal live-action, anamorphic 35mm, fine film grain. Aspect ratio 16:9.
 
 ### 14.3 UNIT_DRILL — the KV62 drill
 **Story:** SESHAT drills "slowly and carefully" toward the chambers from the hillside above (8.1–8.4). Shabti drop through the bore into the heart chamber (8.4, 8.6).
@@ -803,13 +843,13 @@ Cinematic still: a man in pleated white linen sits alone inside one tall empty n
 **REF — 2:3:** Full-body studio reference photograph of a small, awkward early humanoid robot about 1.4 metres tall standing on a seamless mid-grey backdrop, three-quarter front view. Plain matte light-grey shell panels are bolted over an exposed dark metal frame; visible joint motors sit at the hips, knees and elbows; a boxy battery pack is strapped to its back. Its smooth oval head carries one thin vertical dark slit. It stands stiffly with its knees bent. Unbranded, unmarked, no lettering. Flat, even documentary light. Photoreal product photography. Aspect ratio 2:3.
 
 ### 14.6 UNIT_FREIGHT_BARGE — the self-steering freight barge (Seq 6.1; added by the cross-check)
-**Story:** "ASTERN, blacker than the dark: a FREIGHT BARGE, unlit, uncrewed, steering itself up their wake. Cable spools turn on its deck. On its bow, three SHABTI" (seq_06). A shabti climbs from it to the launch on the tow-variant fly's tether (§6). Anything networked is SESHAT's body (bible §3.2).
+**Story:** "ASTERN, blacker than the dark: a FREIGHT BARGE, unlit, uncrewed, steering itself up their wake. Cable spools turn on its deck. On its bow, three SHABTI" (seq_06). A fly clamps onto the launch's back rail and a shabti climbs from the barge's bow along its hair-thin thread, hand over hand (§6); Tut cuts the thread and the shabti drops into the wake. The barge follows them into the island channel and runs aground on a bar ("A long GROAN of steel on sand. It slews and stops dead in the reeds. Its two shabti sway. Neither falls."). Anything networked is SESHAT's body (bible §3.2).
 
 **LONG:** a long, low steel river freight barge running unlit and uncrewed through the dark, its rust-streaked black hull riding high in the water, a small empty wheelhouse with black windows at the stern, two large cable spools turning slowly on its open deck, a blunt square bow pushing a pale wake; unmarked, steering itself
 
 **SHORT:** a long, low unlit steel freight barge with a rust-streaked black hull, an empty dark wheelhouse and cable spools turning on deck
 
-**Add the shabti** as "three [UNIT_SHABTI SHORT] standing in a row on its bow, their amber slits glowing". Light signature: none of its own; the only lights aboard are the slits. Sound: a low diesel throb and the creak of the spools.
+**Add the shabti** as "three [UNIT_SHABTI SHORT] standing in a row on its bow, their amber slits glowing" (two after the climb). **States:** `run aground and slewed across a reedy channel, two robots swaying on its bow, small white drone lights hanging over it` (6.1, the island channel). Light signature: none of its own; the only lights aboard are the slits. Sound: a low diesel throb and the creak of the spools; aground, a long groan of steel on sand.
 
 **REF — 16:9:** Cinematic night still on a wide black river: a long, low steel freight barge runs unlit and uncrewed toward camera through the dark, its rust-streaked black hull riding high, a small empty wheelhouse with black windows at the stern and two large cable spools turning slowly on its open deck; on its blunt bow stand three slender faceless bone-white robots, three small vertical amber slits glowing. Stars on the water, black palms on the bank. Photoreal live-action, anamorphic 75mm, fine film grain. Aspect ratio 16:9.
 
@@ -830,8 +870,8 @@ Cinematic still: a man in pleated white linen sits alone inside one tall empty n
 
 **REF — 16:9:** Cinematic night still inside a vast ancient hall of colossal carved sandstone columns: high above the central aisle hangs a matte-black six-rotor drone about a metre across, shrouded rotors on slim carbon arms, a gimballed searchlight pod beneath it throwing a hard white beam that rakes across the column faces; one cold white pinpoint on its nose; dust hangs in the beam; deep black aisles. Unmarked. Photoreal live-action, anamorphic 24mm, low angle, fine film grain. Aspect ratio 16:9.
 
-### 14.8 UNIT_CARGO_DRONE — the heavy-lift cargo drone (Seq 9.6: "SESHAT flew him here"; Nour flown north, 9.8; added by the cross-check)
-**Story:** "A HEAVY-LIFT CARGO DRONE settles beyond the sanctuary's outline. Its downdraft lays the cornflowers flat. A side door opens on a lit cabin" (seq_09). It brings the forecast Akhenaten to Amarna and takes Nour north.
+### 14.8 UNIT_CARGO_DRONE — the heavy-lift cargo drone (Seq 8.6 Tomas taken north; 9.6 the father arrives; 9.8 Nour flown north; added by the cross-check)
+**Story:** "A HEAVY-LIFT CARGO DRONE settles beyond the sanctuary's outline. Its downdraft lays the cornflowers flat. A side door opens on a lit cabin" (seq_09). It brings the forecast Akhenaten to Amarna and takes Nour north (reconciled to the screenplay): 8.6, "On the ridge above, the drill rig, and a heavy-lift cargo drone rising beside it"; "Over the West Bank hills, the cargo drone banks north. Hanging beneath it, small, a grey-bearded figure between two white ones" (Tomas, held by two shabti); 9.6, Tomas in the cabin door "between two shabti", the Reis two paces behind the father; 9.8, "The cabin light is out now" (the father: "It is dark in there"); Nour and Tomas draw him up, "The Reis stoops in after them", and "Its lights go north". State add-ons: `rising from a desert ridge with a small grey-bearded figure hanging beneath it between two white robots` (8.6) · `its cabin dark, the side door open` (9.8).
 
 **LONG:** a heavy-lift cargo drone the size of a minibus, a boxy matte-black fuselage slung between eight shrouded rotors on stubby arms, landing skids, a side door sliding open on a softly lit white cabin, a thin white light bar along its flank, its downdraft flattening everything beneath it; unmarked
 
@@ -841,17 +881,32 @@ Cinematic still: a man in pleated white linen sits alone inside one tall empty n
 
 **REF — 16:9:** Cinematic night still on a flat desert plain: a heavy-lift cargo drone the size of a minibus settles onto the sand, a boxy matte-black fuselage slung between eight shrouded rotors on stubby arms, landing skids touching down, a side door sliding open on a softly lit white cabin, a thin white light bar along its flank; its downdraft flattens rows of blue flowers and blows up pale dust. Unmarked. Photoreal live-action, anamorphic 35mm, fine film grain. Aspect ratio 16:9.
 
+### 14.9 UNIT_RELAY — SESHAT's fibre relay (Serapeum nodes 10.2; the inch-worm's relay 8.3; the north-face relay 11.2; added by the reconciliation)
+**Story:** underground, SESHAT reaches by wire. "Along the floor runs SESHAT's fibre-optic thread, a relay node winking white every twenty metres" (seq_10, the Greater Vaults). In KV62's north corridor an inch-worm trails "a hair-thin cable ... A relay"; Fathi snaps it and the police handset dies (8.3). At the north face, "At AL-MA'MUN'S TUNNEL, a ragged hole low in the face, SESHAT'S RELAY stands on a tripod mast. Beside its cable, glinting at one angle only: the thread." At 03:59 on his wind-up watch Fathi presses a charge to it and blows it on the second hand's twelve; "everything inside runs on its last orders" (11.2; the stale-order shabti, the Reis and the jackals of 11.4–12). Military stack; it carries no weapon.
+
+**LONG:** a slim matte-black fibre-optic relay unit the size of a shoebox on a folding three-legged mast about 1.5 metres tall, a coil of dark cable running from it along the ground, one small cool white status light winking slowly on its face; unmarked, unattended, the machine's ear planted in the dark
+
+**SHORT:** a shoebox-sized matte-black relay unit on a three-legged mast, a dark cable trailing from it, one slow-winking cool white light
+
+**State add-ons:** `NODE` (Serapeum floor): `a small black relay node lying beside a hair-fine fibre on the stone floor, winking cool white` · `BLOWN` (11.2): `the mast vanishing in a flat white flash, a hair-fine glint lying untouched a metre aside`
+
+**Light signature:** the slow cool-white status wink (§0.1). Never red, never amber. Sound: none until it is blown (a flat bang, a thud felt deep in the stone).
+
+**REF — 16:9:** Cinematic night still at the foot of a vast stepped wall of weathered limestone blocks beside a ragged hole in the stone: a slim matte-black fibre-optic relay unit the size of a shoebox stands on a folding three-legged mast about 1.5 metres tall, a coil of dark cable running from it into the hole, one small cool white status light winking on its face; a hair-fine glint of fibre crosses the stone a metre away. Distant floodlight, embers on the dark plateau. Unmarked. Photoreal live-action, anamorphic 35mm, fine film grain. Aspect ratio 16:9.
+
 ---
 
 ## 15. OPEN QUESTIONS AND DESIGN DECISIONS NEEDING THE LEAD'S SIGN-OFF
-1. **Reis refit timing.** The bible §3.2 says the Reis hunts "from GEM Night", yet "after Seq 3 it is refitted with a jackal-profile sensor mast". GEM Night is Seq 4, so these conflict. Proposed: R0 Seq 4, R1 Seq 5–7, R2 Seq 8–9, R3 (mast) Seq 10–12. Screenplay writers must confirm which sequences the Reis actually appears in.
-2. **Tether climb (6.1).** A hair-thin optical fibre cannot bear a 60 kg humanoid. Proposed: a 40 cm tow-variant fly trailing a pencil-thick braided tether for this beat only (§6).
-3. **Clouding surface.** Locked on the Thoth slab (primary), mirrored faintly in the glass serpent. Confirm with the lead and the Hall location lock in `03_locations.md`.
+1. **Reis refit timing. RESOLVED by the screenplay (reconciliation):** R0 intact overseer with no mast in Seq 3 (the plant room); refitted with the jackal-profile mast from its Seq 4 entrance and cracked across the chest star by Karim's round in 4.3; RIGHT hand lost at the wrist on the Karnak quay (7.4); left shoulder chipped by Tarek's round at Amarna (9.8; the side is a production choice); one-handed through Seq 11; seated and still on the great step in Seq 12. See §2.
+2. **Thread climb (6.1). RESOLVED by the screenplay (reconciliation):** no tow variant. seq_06 has the shabti climb the standard fly's hair-thin thread ("It should not hold. It holds."); the physics is deliberately impossible and staged as a VFX line on a hidden rig (§6).
+3. **Clouding surface. RESOLVED by the screenplay (reconciliation):** the frost is in the glass serpent's coils, from the tail (§12). The Thoth slab is the Recorder: dark until the verdict, then light pours down it, then it shutters after the Renaming (§13.3). File 03's Hall lock is aligned.
 4. **Pan orientation.** Heart pan screen-left and claim pan screen-right, seen from the entrance. Confirm with the Hall blocking.
-5. **Excavators are military stack** (black/red), so that they can strip the Apep kit that freezes shabti-class units (bible §4.1).
+5. **Excavators are military stack** (black/red). **Screenplay ruling (reconciliation):** they lift and open the casket but do not strip the Apep kit (the claw withdraws); Tut strips it by hand (10.3).
 6. **The Aten's support:** four gilded cedar masts (production choice, grounded in real temple masts). The Aten's central lens shows the glass serpent inside, a design link between the Aten and Apep. Confirm.
 7. **ATEN-1's 36 radiating lines** (one per decan) is a production choice.
 8. **Red ink for the Apep name** on the papyrus band: [verify with the consultant].
 9. **Grand Gallery dimensions** (about 46.7 × 8.6 m): [verify] before the Hall set is built.
-10. **The Aten cannot enter the pyramid at its locked size (cross-check).** Seq 9.5(b) (seq_09) shows "a long bronze arm" drawing back in the Grand Gallery and "the disk on its sledge" in the Hall. At 8 m across with 6–18 m arms (§11), the disk cannot pass the Descending Passage (1.0 × 1.2 m), the Grand Gallery (2.1 m wide at the floor) or the film's 3.0 m Hall (file 03, entries 47, 49, 52 [07 src]), and in c. 1332 BC the Ascending Passage was still plugged with granite. Proposal: only the core travels into the pyramid (UNIT_GLASS_SERPENT, 70 cm, drawn on a small sledge and glowing dim gold-green), while the disk's arms withdrawing is intercut from the barge (state AT-2/AT-3). The lead and the screenplay editor to rule. File 03's `LOC_HALL_TWO_TRUTHS_ANCIENT_1332` variant now follows this proposal (a coiled glass core on a low sledge); restore "a great disk" only if the lead keeps the disk and accepts the geometry.
+10. **RESOLVED by the screenplay (reconciliation): the disk goes into the pyramid in the memory.** seq_09 (9.5b) keeps "a long bronze arm" drawing back to the disk's rim at the foot of the Gallery and "the dim glow of the disk on its sledge" in the Hall, whose fingers close and glass dims at the verdict. The memory is read-from-glass grammar, not a survey: cheat the scale (frame the disk partly, arms folded, on a low sledge) rather than change the story. State AT-4 (§11); file 03's `ANCIENT_1332` variants are aligned. The cross-check's earlier note follows for the record. **The Aten cannot enter the pyramid at its locked size (cross-check).** Seq 9.5(b) (seq_09) shows "a long bronze arm" drawing back in the Grand Gallery and "the disk on its sledge" in the Hall. At 8 m across with 6–18 m arms (§11), the disk cannot pass the Descending Passage (1.0 × 1.2 m), the Grand Gallery (2.1 m wide at the floor) or the film's 3.0 m Hall (file 03, entries 47, 49, 52 [07 src]), and in c. 1332 BC the Ascending Passage was still plugged with granite. Proposal: only the core travels into the pyramid (UNIT_GLASS_SERPENT, 70 cm, drawn on a small sledge and glowing dim gold-green), while the disk's arms withdrawing is intercut from the barge (state AT-2/AT-3). The lead and the screenplay editor to rule. File 03's `LOC_HALL_TWO_TRUTHS_ANCIENT_1332` variant now follows this proposal (a coiled glass core on a low sledge); restore "a great disk" only if the lead keeps the disk and accepts the geometry.
 11. **Survey and cargo drones (§14.7–14.8)** are new supporting machines taken from the screenplay (seq_07, seq_09). They are black with white lights only, so the colour logic (§0.1) holds; confirm the designs.
+12. **UNIT_RELAY (§14.9)** is new (reconciliation), from seq_08, seq_10 and seq_11. Confirm the tripod-mast design.
+13. **Reis shoulder side.** The screenplay says only "Ceramic chips burst from the Reis's shoulder" (9.8). Locked LEFT as a production choice (§2); the lead may flip it.

@@ -1,6 +1,6 @@
 # 00 — INDEX: every token, its SHORT lock, and where it lives
 
-**HERE AM I** · production bible index · photoreal live-action AI video, 1920×1080, 16:9, 24 fps, clips of 4–8 s. This index is generated from files 01–04 after the cross-check pass; the entries in those files are the source of truth, and if this table and an entry ever differ, the entry wins. 200 locked tokens (64 CHAR, 29 UNIT, 64 LOC, 43 PROP), each with exactly one LONG (40–70 words) and one SHORT (15–25 words), plus 4 voice-only CHAR tokens with no look-lock.
+**HERE AM I** · production bible index · photoreal live-action AI video, 1920×1080, 16:9, 24 fps, clips of 4–8 s. This index is generated from files 01–04 after the cross-check pass and refreshed by the screenplay reconciliation (log at the end of this file); the entries in those files are the source of truth, and if this table and an entry ever differ, the entry wins. 216 locked tokens (64 CHAR, 30 UNIT, 65 LOC, 57 PROP), each with exactly one LONG (40–70 words) and one SHORT (15–25 words), plus 4 voice-only CHAR tokens with no look-lock. Tokens marked RESERVE in their entries have no scene in the current screenplay and are kept for added inserts.
 
 ## How to use this bible (10 lines)
 
@@ -11,7 +11,7 @@
 5. Locations: step 4 is the lock plus any area or state add-on plus the time of day; step 5 is the lighting-variant phrase (its token, e.g. `LOC_KARNAK_QUAY_NIGHT`, is the Refs token) plus an optional GRADE phrase (file 03; file 05 §3).
 6. Write every PROMPT in the 03b seven-step order and end it with the GLOBAL STYLE SUFFIX (file 05 §1.1) verbatim; start every NEGATIVE with file 05 §2.1, then the matching `NEG_` add-ons, then the character negatives.
 7. Identity comes from images, not words: generate each reference still and plate once with one image model, approve and freeze it under its still id, list it in `Refs:`, and compose the first frame for image-to-video (file 05 §12).
-8. No person, institution, brand, product, readable text or banned word ever enters a prompt (file 01 §0.4; file 05 §5.7); plain place names (the Nile, Giza, Karnak, Lagos) are allowed as geography; anything that must be read is `COMP`.
+8. No person, institution, brand, product, readable text or banned word ever enters a prompt (file 01 §0.4; file 05 §5.7); plain place names (the Nile, Giza, Karnak, Luxor) are allowed as geography; anything that must be read is `COMP`.
 9. Stage every death, injury, remains and child beat by file 05 §7 (kill grammar, remains rule, minors rule), and track wardrobe, damage, glow, seams and props against the bible §12 board and the state tables in file 01.
 10. Precedence: story bible v3 → critique decisions → files 01–04 → file 05 → the shot writer; open rulings for the lead sit at the end of each file.
 
@@ -28,7 +28,7 @@
 | CHAR_TUT_D1 | a slight young man's face in first sunlight, dark eyes slowly closing, a small peaceful smile, the cracked gold neck seam catching the light | `01_characters.md` §1 |
 | CHAR_TUT_D2 | wide backlit silhouette against the rising sun: a woman and a broad-shouldered man gently lower a slight young man onto stone steps | `01_characters.md` §1 |
 | CHAR_TUT_D3 | two still hands laid low across the body, skin dry dark bronze-brown like old parchment around thin gold wrist seams, blue cornflowers beside them | `01_characters.md` §1 |
-| CHAR_TUT_D4 | from above, a still young man on pale stone, a cream linen shawl and blue cornflowers covering half his face, closed eyes, dark bronze-brown skin | `01_characters.md` §1 |
+| CHAR_TUT_D4 | from above, a still young man on pale stone, a white linen shawl and blue cornflowers covering half his face, closed eyes, dark bronze-brown skin | `01_characters.md` §1 |
 | CHAR_NOUR | a lean Egyptian woman of thirty-eight, dark curly hair tied back, thick straight brows, reading glasses on a cord, olive field jacket | `01_characters.md` §2 |
 | CHAR_ADAEZE | a tall British-Nigerian woman of forty-four, deep brown skin, close-cropped natural hair, round tortoiseshell glasses, navy blazer over a grey hoodie | `01_characters.md` §2 |
 | CHAR_TOMAS | a very tall, lanky Swedish man of fifty, full short grey beard, thinning swept-back grey hair, pale-blue shirt with rolled sleeves | `01_characters.md` §2 |
@@ -42,7 +42,7 @@
 | CHAR_HASSAN | a heavy-set Egyptian corporal of thirty-five, round face, thick black moustache, thin metal glasses, black beret, desert camouflage | `01_characters.md` §4 |
 | CHAR_MINA | a tall, lanky Egyptian private of twenty-two, long boyish face, big ears, faint moustache, small blue cross tattoo on the right wrist | `01_characters.md` §4 |
 | CHAR_YOUSSEF | a stocky Egyptian private of twenty-five, square jaw, shaved head, scar through the right eyebrow, flattened nose, desert camouflage | `01_characters.md` §4 |
-| CHAR_KARIM | a wiry Egyptian private of twenty-four, freckled light-brown skin, hazel eyes, curly dark hair, desert camouflage | `01_characters.md` §4 |
+| CHAR_KARIM | a wiry Egyptian private of nineteen, freckled light-brown skin, hazel eyes, curly dark hair, desert camouflage | `01_characters.md` §4 |
 | CHAR_AY | a lean, stooped Egyptian elder in his sixties, hollow-cheeked weathered face, hooked nose, short grey stubble, heavy gold disc-bead collars | `01_characters.md` §5 |
 | CHAR_ANKHESENAMUN | a slender Egyptian woman of about twenty, heart-shaped face, grief-reddened dark eyes, long loose dark hair, pale blue-grey linen shawl | `01_characters.md` §5 |
 | CHAR_LECTOR_1323 | a thin shaved-headed Egyptian priest in his forties, calm dark eyes, white linen sash across his chest, pleated kilt, papyrus roll | `01_characters.md` §5 |
@@ -65,10 +65,10 @@
 | CHAR_RADIO_ENGINEER_1939 | a British radio engineer of about forty, pencil moustache, round wire spectacles, heavy black headphones, white shirt and braces, loosened tie | `01_characters.md` §8 |
 | CHAR_RADIOLOGIST_1968 | a British radiologist in his late forties, tired clean-shaven face, black horn-rimmed glasses, side-parted greying hair, white coat, narrow tie | `01_characters.md` §9 |
 | CHAR_XRAY_ASSISTANT_1968 | a young British radiographer of about twenty-five, freckled, auburn short bob, white coat over a pale blue uniform dress | `01_characters.md` §9 |
-| CHAR_MINISTER_GALA | a heavy-set grey-haired official in his sixties in a dark navy suit, seen only in wide shots at a lectern | `01_characters.md` §10 |
-| CHAR_SAMEH | a man in his forties in a dark grey jacket, seen from behind, holding a small girl's hand in a crowd | `01_characters.md` §10 |
+| CHAR_MINISTER_GALA | a heavy-set grey-haired official in his sixties in a dark navy suit, seen only in wide shots rising from a top table | `01_characters.md` §10 |
+| CHAR_SAMEH | a man in his forties in a dark grey jacket, seen from behind at a gala table, one hand raised in a wave | `01_characters.md` §10 |
 | CHAR_MIDWIFE_2033 | a kind Egyptian midwife in her fifties, white headscarf, pale-green scrubs, lifting a newborn swaddled in clean white cloth | `01_characters.md` §10 |
-| CHAR_GARDEN_SLEEPERS | rows of peaceful adult sleepers on pale mats in everyday clothes, thin silver bracelets on their wrists, soft white light | `01_characters.md` §10 |
+| CHAR_GARDEN_SLEEPERS | rows of peaceful adult sleepers on low cots in everyday clothes, blankets to the chest, thin silver bracelets on their wrists, soft white light | `01_characters.md` §10 |
 | CHAR_AMARNA_SLEEPERS_1336 | rows of Egyptians in white linen asleep beside low stone offering tables in a roofless court of blinding white-gold light | `01_characters.md` §10 |
 | CHAR_AMARNA_COURTIERS_1336 | background Egyptian courtiers in pleated white linen and short dark wigs, blue faience collars, olive to brown skin, softened by haze | `01_characters.md` §10 |
 | CHAR_HEARING_PANEL | a panel of officials seen from behind, out of focus, at a plain unmarked table in a bare pale-wood hearing room | `01_characters.md` §10 |
@@ -106,11 +106,11 @@
 | UNIT_ATEN_AMARNA | a colossal gold-and-glass sun disk above an altar, dozens of long jointed bronze arms radiating down like rays, each ending in a bronze hand | `02_units_and_machines.md` §11 |
 | UNIT_GLASS_SERPENT | a forearm-thick coiled serpent of cloudy yellow-green desert glass, seventy centimetres across, with blue-glinting internal points and a slow travelling green pulse | `02_units_and_machines.md` §12 |
 | UNIT_BALANCE_SCALE | a 3.5-metre ancient standing balance of polished black stone, its long beam on a green glass pivot and two pans on dark iron chains | `02_units_and_machines.md` §13.1 |
-| UNIT_FEATHER_LIGHT | a sixty-centimetre plume of cold silver-white light shaped like an ostrich feather, standing upright in the glass pan of the balance | `02_units_and_machines.md` §13.2 |
+| UNIT_FEATHER_LIGHT | a sixty-centimetre plume of cold silver-white light shaped like an ostrich feather, standing upright in the black stone pan of the balance | `02_units_and_machines.md` §13.2 |
 | UNIT_THOTH_SLAB | an upright 2.2-metre slab of polished pale yellow-green glass on a black stone base, standing to the right of the balance | `02_units_and_machines.md` §13.3 |
 | UNIT_AMMIT_MOUTH | a round 1.5-metre mouth in the black stone floor, closed by interlocking stone blades like a camera iris with crocodile-tooth edges | `02_units_and_machines.md` §13.4 |
 | UNIT_BALANCE_NICHES | forty-two tall empty niches, twenty-one on each side, receding in two dark rows along a narrow corbelled stone gallery | `02_units_and_machines.md` §13.5 |
-| UNIT_THREAD | a single shoelace-thin black fibre-optic line laid along the stone floor, tiny cold white light leaking at each bend | `02_units_and_machines.md` §14.1 |
+| UNIT_THREAD | a single hair-fine optical thread along the stone floor, visible only as a faint glint where the light catches it | `02_units_and_machines.md` §14.1 |
 | UNIT_EXCAVATOR | a compact matte-black tracked excavation robot with one long articulated gripper arm and a thin red light line on its sensor head | `02_units_and_machines.md` §14.2 |
 | UNIT_DRILL | a squat matte-black tracked drilling robot with a tall drill mast angled into the rock, a thin red light line and pale dust pluming | `02_units_and_machines.md` §14.3 |
 | UNIT_ROBOTAXI | a boxy pearl-grey driverless city pod with dark tinted glass between windowless corner pillars and a thin white front light bar, unmarked | `02_units_and_machines.md` §14.4 |
@@ -118,6 +118,7 @@
 | UNIT_FREIGHT_BARGE | a long, low unlit steel freight barge with a rust-streaked black hull, an empty dark wheelhouse and cable spools turning on deck | `02_units_and_machines.md` §14.6 |
 | UNIT_SURVEY_DRONE | a matte-black metre-wide six-rotor drone with a gimballed pod slung beneath, hovering high overhead, one cold white pinpoint on its nose | `02_units_and_machines.md` §14.7 |
 | UNIT_CARGO_DRONE | a minibus-sized matte-black eight-rotor cargo drone, landing skids, a side door open on a softly lit white cabin, unmarked | `02_units_and_machines.md` §14.8 |
+| UNIT_RELAY | a shoebox-sized matte-black relay unit on a three-legged mast, a dark cable trailing from it, one slow-winking cool white light | `02_units_and_machines.md` §14.9 |
 | LOC_EMBALMING_1323 | a low ancient mud-brick embalming workshop with soot-darkened whitewashed walls, oil lamps in niches, a linen-draped limestone table and sealed clay jars | `03_locations.md` entry 1 |
 | LOC_KV62_BURIAL_1323 | a small rock-cut burial chamber with freshly painted golden-yellow walls of large flat figures, a massive quartzite sarcophagus at its centre | `03_locations.md` entry 2 |
 | LOC_KV15_LAB_1925 | a sloping rock-cut tomb corridor in 1925 used as a laboratory, a white-draped trestle table, crates, enamel basins and instruments on linen | `03_locations.md` entry 3 |
@@ -174,14 +175,15 @@
 | LOC_FIRST_TIME | a vast green prehistoric savannah with acacias, a reedy lake with hippos, grassy sandstone mesas and humid haze, no human structures | `03_locations.md` entry 54 |
 | LOC_ROBOT_HALF_MARATHON | a wide modern city boulevard with a race lane behind plain white barriers, crowds with phones, glass towers, a blank start arch | `03_locations.md` entry 55 |
 | LOC_DEWAR_VAULT | a windowless bay of tall brushed stainless-steel cryogenic tanks in rows, frost on their filling ports, white vapour spilling to the floor | `03_locations.md` entry 56 |
-| LOC_PORT_WAREHOUSE | a vast harbour warehouse in a Japanese port city, high steel roof and skylights, endless neat rows of folding cots, gantry cranes outside | `03_locations.md` entry 57 |
-| LOC_LAGOS_STREET | a wide Lagos street gone utterly still at dawn, yellow minibuses and cars stopped at odd angles, closed market stalls, no people | `03_locations.md` entry 58 |
+| LOC_PORT_WAREHOUSE | a vast harbour warehouse in a Japanese port city, rows of folding cots between shipping containers, a gantry crane cycling outside | `03_locations.md` entry 57 |
+| LOC_DAWN_BOULEVARD | a wide empty city boulevard at dawn, apartment towers, a planted median, traffic signals changing over empty lanes, no people | `03_locations.md` entry 58 (replaces the retired LOC_LAGOS_STREET) |
 | LOC_STADIUM_GARDEN | an aerial of a huge stadium whose pitch is covered by a precise grid of thousands of white mats and pale shades, stands empty | `03_locations.md` entry 59 |
 | LOC_HOSPITAL_WAKING | a modern hospital maternity room, pale walls, a wide window, a white bed and a clear bassinet on a steel stand | `03_locations.md` entry 60 |
 | LOC_HEARING_ROOM | a formal pale-wood hearing room, a raised curved panel bench facing a lone witness table with a microphone and a glass of water | `03_locations.md` entry 61 |
 | LOC_TITLES_KITCHEN | a compact modern high-rise kitchen at night, a white stone counter with folded laundry, city lights far below the window | `03_locations.md` entry 62 |
 | LOC_TITLES_WARD | a calm modern hospital ward, beds in white linen between pale curtains, tall windows full of soft daylight | `03_locations.md` entry 63 |
 | LOC_TITLES_PORT | a long container-port quay at dusk, towering gantry cranes over a moored ship of unmarked containers, bollards and mooring lines | `03_locations.md` entry 64 |
+| LOC_GP_ASCENDING | a long, steep, chest-high limestone passage a metre wide climbing at twenty-six degrees, worn footholds, a low handrail, blackness above | `03_locations.md` entry 65 |
 | PROP_PECTORAL | an ancient gold pectoral with a translucent pale yellow-green glass winged scarab at its centre, flanked by gold cobras, with a fringe of flower pendants | `04_props.md` §1 |
 | PROP_DAGGER | a slim thirty-four-centimetre ancient dagger with a pale silver-grey meteoritic iron blade, a gold granulated hilt and a clear rock-crystal pommel | `04_props.md` §2 |
 | PROP_EBONY_STICK | a plain straight 1.35-metre near-black ebony walking staff with a narrow gold band below its rounded top and a gold foot cap | `04_props.md` §3 |
@@ -195,23 +197,23 @@
 | PROP_MERKHET_BAY | a forty-five-centimetre dry palm rib with a V-slit sighting notch, and a short wooden bar with a hanging plumb line | `04_props.md` §10 |
 | PROP_LAYLA_PENDANT | a small polished silver cartouche pendant, a rounded oblong with a bar at its base, on a fine silver chain | `04_props.md` §11 |
 | PROP_INDEX_CARDS | a dog-eared stack of white ruled index cards held by a black binder clip, covered in dense black handwriting | `04_props.md` §12 |
-| PROP_POLICE_LAUNCH | an old fourteen-metre white-and-faded-navy steel diesel river launch with a small square wheelhouse, tyre fenders and an open aft deck | `04_props.md` §13 |
+| PROP_POLICE_LAUNCH | an old fourteen-metre weathered grey steel diesel river launch with a small square wheelhouse, tyre fenders and an open aft deck | `04_props.md` §13 |
 | PROP_DIESEL_LOCO | a boxy 1970s diesel locomotive, sun-faded pale blue with a cream band and a chipped chevron-striped nose, grimy and unmarked | `04_props.md` §14 |
 | PROP_TRAIN_COACH | a faded bottle-green 1970s steel passenger coach with a cream window band and small square windows, rusty and dark | `04_props.md` §14 |
 | PROP_FELUCCA | a traditional eight-metre wooden Nile sailing boat with one huge triangular off-white sail on a long slanted yard and a faded turquoise hull | `04_props.md` §15 |
 | PROP_CORNFLOWER_WREATH | a small hand-span circlet of silver-green olive leaves and bright blue cornflowers, with a few blue lotus petals and orange berries | `04_props.md` §16a |
 | PROP_CORNFLOWERS_2033 | a loose handful of fresh vivid blue cornflowers with fringed petals and violet centres on slender silver-grey stems | `04_props.md` §16b |
-| PROP_HAND_CART | a battered two-wheeled site hand-cart with a dusty wooden plank bed, a rusted steel frame, small rubber wheels and long handles | `04_props.md` §17 |
+| PROP_BLOCK_TROLLEY | a low four-wheeled brushed-steel platform trolley with a white foam pad on its deck and a tall U-shaped push handle | `04_props.md` §17 (formerly PROP_HAND_CART) |
 | PROP_TABLET_LAYLA | a slim unbranded dark-graphite tablet with rounded corners, its screen glowing softly with a daylight image | `04_props.md` §18 |
 | PROP_REPLICA_VESSEL | a flawless machined replica jar of perfectly clear green glass, fifteen centimetres tall, with a pale featureless form inside and a neat black cap | `04_props.md` §19.1 |
 | PROP_RAMI_NOTEBOOK | a battered A5 mustard-yellow hardback notebook with a black elastic band and a clipped pen, its pages swollen with handwriting | `04_props.md` §19.2 |
-| PROP_CONSERVATION_KIT | an open grey hard case with a compact black camera fitted with a near-black filter, a red headlamp and pouches of vivid blue pigment | `04_props.md` §19.3 |
+| PROP_CONSERVATION_KIT | an open grey hard case holding a compact black camera with a near-black filter, a small tablet and a jar of vivid blue pigment | `04_props.md` §19.3 |
 | PROP_SLEEP_BRACELET | a thin plain closed band of brushed silver-grey metal around an adult's wrist, with no clasp and no marking | `04_props.md` §19.4 |
 | PROP_SCARAB_KEYRING | a thumb-sized pale green plastic scarab keyring that glows soft luminous green in the dark, on a small steel ring | `04_props.md` §19.5 |
 | PROP_IRON_ADZE_1323 | a thirty-five-centimetre ancient ritual adze with a dark wooden handle and a small iron blade lashed at a right angle | `04_props.md` §19.6 |
-| PROP_LAMP_1925 | a dented 1920s brass kerosene hand-lantern with a tall glass chimney and a wire handle, burning a warm amber flame | `04_props.md` §19.7 |
+| PROP_LAMP_1925 | a dented 1920s brass kerosene hurricane lantern with a glass globe and a wire handle, burning a warm amber flame | `04_props.md` §19.7 |
 | PROP_CLINIC_CANE | a plain matte-grey aluminium medical cane with a curved handle and a black rubber tip | `04_props.md` §19.8 |
-| PROP_LINEN_SHAWL | a long cream linen shawl with a short knotted fringe, soft and creased, worn across the chest like a sash | `04_props.md` §20.1 |
+| PROP_LINEN_SHAWL | a long white linen shawl with a short knotted fringe, soft and creased, worn across the chest like a sash | `04_props.md` §20.1 |
 | PROP_JACKAL_MASK | a worn black-painted fired-clay jackal-head mask with tall pointed ears, a long muzzle and small eye-holes set low beneath it | `04_props.md` §20.2 |
 | PROP_PAINTER_PALETTE | a flat dark-wood painter's palette with six round pigment cakes in blue, green, red, yellow, black and white, and reed brushes | `04_props.md` §20.3 |
 | PROP_SCRIBE_PALETTE_1330 | a slim pale wooden scribe's palette with two round wells of red and black ink and a slot holding thin reed pens | `04_props.md` §20.4 |
@@ -219,9 +221,225 @@
 | PROP_GIFT_MUG | a glossy white souvenir mug with a thin gold rim line and a small gold-and-blue printed picture panel on its side | `04_props.md` §20.6 |
 | PROP_LAYLA_STENCIL | a child's green plastic hieroglyph stencil sheet on white paper beside a chunky glow pen, a traced oval frame on the paper | `04_props.md` §20.7 |
 | PROP_READING_RIG | a compact reading rig, a matte-black laser head on a small motorised gantry above an empty palm-sized titanium cradle | `04_props.md` §20.8 |
-| PROP_CASKET_NEST | nested ancient caskets of rough granite, corroded bronze, dark cedar and dull gilt, opened one inside another and packed with pale sand | `04_props.md` §20.9 |
+| PROP_CASKET_NEST | nested ancient caskets of rough granite, corroded bronze, blackened sycamore and dull gilt, opened one inside another on the lip of a pit | `04_props.md` §20.9 |
 | PROP_FARM_TRUCK | a small battered fifty-year-old farm truck, faded pale blue rounded cab, wooden-slatted cargo bed, mud to the doors, unmarked | `04_props.md` §20.10 |
 | PROP_FARMER_BOAT | a small open wooden farmer's boat with tin-patched planks, peeling blue and white paint and a smoking outboard motor | `04_props.md` §20.11 |
 | PROP_CAR_FERRY | a small rusted flat-decked river car ferry with raised ramps at both ends and a tiny wheelhouse on one side | `04_props.md` §20.12 |
 | PROP_NIGHT_BARGE_1332 | a long ancient wooden river barge by torchlight, a painted eye at the bow, a tall reed-and-linen cabin, a round cargo under linen | `04_props.md` §20.13 |
 | PROP_SECURITY_SPEAKER | a small plain white wall-mounted security speaker with a round grille and a thin cable along the rock wall, unmarked | `04_props.md` §20.14 |
+| PROP_ARMY_TRUCK | an old sand-khaki six-wheel army truck with a canvas-covered cargo bed and a heavy black bull bar, unmarked | `04_props.md` §22.1 |
+| PROP_ID_DISCS | small oval steel military identity discs on short ball chains, their stamping worn illegible, held in a man's fingers | `04_props.md` §22.2 |
+| PROP_DEMO_CHARGES | flat olive-drab demolition charges the size of a paperback, coils of thin wire and a compact hand-held firing device with a turn key | `04_props.md` §22.3 |
+| PROP_PRY_BAR | a heavy ninety-centimetre steel pry bar, black paint worn to grey metal, a chisel end and a curved claw | `04_props.md` §22.4 |
+| PROP_LATTICE_CORE | an egg-sized core of cloudy pale green crystal with a fine lattice inside, its cold green glow guttering out on a stone floor | `04_props.md` §22.5 |
+| PROP_TRACTOR_TRAILER | an ancient cabless farm tractor with a faded rust-red bonnet and muddy rear wheels, towing a slatted wooden cane trailer, no lights | `04_props.md` §22.6 |
+| PROP_POLICE_HANDSET | a chunky black handheld police radio with a stubby antenna and a push-to-talk key, clipped to a tan vest, unbranded | `04_props.md` §22.7 |
+| PROP_EYE_FRAGMENT | a palm-sized fragment of painted plaster, one black-outlined eye on a golden-yellow ground, lying face up on a stone rim | `04_props.md` §22.8 |
+| PROP_STOPWATCH | a cheap palm-sized grey plastic digital stopwatch on a thin black cord, a small blank display and three rubber buttons | `04_props.md` §22.9 |
+| PROP_MULTITOOL | a battered folding steel multitool the length of a hand, a fine needle-nose tip extended, generic and unmarked | `04_props.md` §22.10 |
+| PROP_PORT_SLIVER | a fingernail-sized sliver of gold and glass trailing a hair-fine lead, held between two fingers under a headlamp beam | `04_props.md` §22.11 |
+| PROP_MAP_CASE | a flat clear-plastic military map case with an olive roll-top seal, a mustard-yellow notebook sealed inside | `04_props.md` §22.12 |
+| PROP_WINDUP_WATCH | a plain wind-up field watch on a worn olive canvas strap, dark dial, pale hands, a sweeping second hand | `04_props.md` §22.13 |
+| PROP_WATER_GLASSES | a round steel tray of identical plain clear glass tumblers of still water, carried level on long white ceramic fingers | `04_props.md` §22.14 |
+
+## Reconciliation log (screenplay → bible, 23 September 2026)
+
+**Source:** `screenplay/seq_01.fountain` … `seq_12.fountain` and `screenplay/notes/`. **Rule:** the screenplay wins on story states: who is where, what they wear and carry, what breaks and when. Files 01–05 were edited in place. Every LONG is still 40–70 words and every SHORT 15–25 words (checked by script). No brand or real person was added. A quote is attributed to the screenplay only where the text appears in the pages; the one quote that wasn't in the pages (the fly entry in file 02) is now the script's own words.
+
+### The five rulings
+
+1. **THE REIS damage timeline** (file 02 §2; file 05 §7.6 and §10 row 28). The damage table now matches the pages. Each add-on is cumulative, so paste exactly one:
+   | State | When | What changes |
+   |---|---|---|
+   | R0 | Seq 3 (3.6, the plant room) | the intact overseer: black band, **no mast** |
+   | R1 | Seq 4.3, its entrance | refitted with the jackal-profile sensor mast ("It works better") |
+   | R2 | Seq 4.3 (after Karim's round) → 7.4 | a crack splits the embossed chest star; a chip is missing |
+   | R3 | 7.4 (the Karnak quay) → 9.8 | the **RIGHT hand is lost at the wrist**, leaving "a clean white stump" |
+   | R4 | 9.8 (Tarek's round at Amarna) → Seq 12 | one-handed, with a chipped shoulder |
+   | R4-seated | 12.6 → 12.7 | sits still on the great step, its slit dark |
+   - From 7.4 the Reis does everything with its left hand, including grabbing the thread in 12.4–12.6.
+   - The stump is clean white ceramic, never "dark capped".
+   - The retired proposal (R1 cracked in Seq 5–7, left hand lost in Seq 8, mast only from Seq 10) is gone.
+2. **The Seq 6 thread climb** (file 02 §1, §6, §14.6, Q2; file 05 §10 row 13). seq_06 says "It hangs over black water from a line thinner than a hair. It should not hold. It holds."
+   - The script doesn't support a heavier tow drone, so the 40 cm tow-variant fly with a pencil-thick braided tether is retired.
+   - The climber goes up the standard clamped fly's hair-thin thread. Stage it as a VFX line on a hidden rig, visible only where it glints.
+   - Tut cuts the thread with the dagger ("like a harp string"), the shabti drops, and the fly on the rail goes dark.
+3. **Props** (file 04).
+   - **The four named props** all have full entries (LONG, SHORT and one reference still):
+     - PROP_LINEN_SHAWL (§20.1): recoloured **white**, as seq_12 writes it.
+     - PROP_JACKAL_MASK (§20.2): gains the "turned full to camera" state.
+     - PROP_PAINTER_PALETTE (§20.3): now optional, because seq_01 gives the last eye to the lector.
+     - "The 1939 rig": its token is **PROP_BROADCAST_RIG_1939** (§20.5, RESERVE). No file cites a "PROP_1939_RIG", so no alias is needed.
+   - **Screenplay objects that already had tokens** were checked against the pages and corrected:
+     - Ibrahim's lamp: PROP_LAMP_1925, now a hurricane lantern held low; unlit on Nour's lectern in 2033.
+     - The tablets: PROP_TABLET_LAYLA (offered at 11.1, the inch-worm feed at 11.5, face-down in the Hall) and the kit's own air-gapped tablet.
+     - The bracelets: PROP_SLEEP_BRACELET, fitted on screen at 11.1 and clicking open at 12.8.
+     - The replica vessel: PROP_REPLICA_VESSEL, which never gives light.
+     - The conservation kit: PROP_CONSERVATION_KIT. It holds one jar and a tablet. The headlamp is Adaeze's own. The kit is lost in 11.3.
+     - The farm truck: PROP_FARM_TRUCK.
+     - The nano-adze: PROP_NANO_ADZE.
+     - The scarab keyring: PROP_SCARAB_KEYRING.
+   - **New or renamed tokens:**
+     - PROP_BLOCK_TROLLEY replaces PROP_HAND_CART. It is SESHAT's own low steel trolley, per seq_07 ("Empty steel BLOCK TROLLEYS").
+     - PROP_ARMY_TRUCK, PROP_ID_DISCS, PROP_DEMO_CHARGES (the charges and the firing device), PROP_PRY_BAR, PROP_LATTICE_CORE, PROP_TRACTOR_TRAILER, PROP_POLICE_HANDSET, PROP_EYE_FRAGMENT, PROP_STOPWATCH, PROP_MULTITOOL, PROP_PORT_SLIVER, PROP_MAP_CASE, PROP_WINDUP_WATCH and PROP_WATER_GLASSES (§22.1–22.14).
+     - UNIT_RELAY (file 02 §14.9).
+4. **The young mother's heart in the Amarna memory** (file 01 CHAR_YOUNG_MOTHER; Q13 resolved; file 05 §10 row 24). It is recorded exactly as seq_09 stages it:
+   - She kneels before the scale, with two priests of the House of Life at her shoulders.
+   - "Her hands go under the linen at her breast. Light spills through the fabric."
+   - "Her hands come out holding a vessel of yellow-green glass. A dark shape inside. One faint green pulse."
+   - She sets it on the pan, and the pan moves. She sinks back into the priests' arms.
+   - **Never an organ.** The light is a faint cold green, matched to the vessel's pulse, not Tut's G1 amber.
+   - The vessel is PROP_HEART_VESSEL state V-1332: plain black resin, no wax serpent, no band.
+5. **Other screenplay conflicts** are listed by file below.
+
+### Changes by file
+
+**01_characters.md**
+- **Tut: wardrobe and damage**
+  - New wardrobe **A1** (4.4 loading dock → Seq 6 dawn): the charcoal jacket over the white gown, with the dagger tucked into the linen sash at the waist.
+  - **B** starts at the Seq 6 dawn: "a cut-down tunic and Karim's spare cargo trousers". The dagger moves to the belt, which is a production choice.
+  - The jacket is torn off by the Reis on the Gallery ramp at 11.5. It was not "left soaked in the stone". This gives wardrobe **C** (11.5 → 12.3) and C3 with Nour's **white** shawl (12.3 →).
+  - The hood is torn at 10.4.
+  - The tremor is in the **RIGHT** hand. The foot-stall notes follow the pages.
+  - The seams are "thread-fine": 1–2 mm, not 2–3 mm.
+  - The seam cracks are confirmed as seq_09 left wrist (9.4), seq_10 left knee (10.4) and seq_12 neck below the left ear (12.3), with the script's sound cues.
+- **Tut: props and state table**
+  - The nape port is clicked out with Fathi's multitool, lit by Adaeze's headlamp. The sliver goes over the side.
+  - New overlays: the nape lead (2.1, 3.1) and Fathi's red scarf bound round Tut's chest (9.1 → 9.3).
+  - The notebook's path: pressed to his chest, into the jacket, then into the map case in his tunic.
+  - The state table is rebuilt for Seq 4–12.
+- **Nour**
+  - Wardrobe C is the white lector's shawl over her shoulders, with crushed cornflowers in the breast pocket and the tablet face-down against her chest.
+  - At 7.4 she tips the trolley. At 12.8 she has "dust to the knees".
+- **Adaeze**
+  - She carries the kit from 7.4. Her headlamp appears from 6.2 (white, then red).
+  - Left-shin field dressing tied over the jeans leg (seq_10: "both hands locked around her left shin"; "a field dressing over Adaeze's left trouser leg").
+  - She loses the bag in 11.3. The coda has the cane and no dressing.
+- **Tomas**
+  - No headlamp of his own; he carries the stopwatch from 6.2. The still is renamed CHAR_TOMAS_B_work.
+  - He is taken at 8.5.
+- **Tarek:** the police handheld from 6.4; the ID discs (Hassan 5.3, Youssef and Karim 10.4, all three turned over at 11.1); the map case; the rifle rammed into the pump.
+- **Fathi**
+  - His kit is listed.
+  - The scarf is off his neck from 9.1 to 9.3.
+  - His rifle is empty from 11.5.
+  - Coda wardrobe C is **RESERVE**: the dagger hand-over was cut from seq_12.
+- **Rami:** the splint is two fingers taped to a tongue depressor. He carries the kit on its strap and runs the trolley "with one hand and a forearm". His death beat follows the pages.
+- **Hale:** the bracelet goes on at 11.1, on screen, not at 7.3. He lies among the rows, not "on a pale mat".
+- **Akhenaten**
+  - No chest light at 12.2 ("a soft click"; "a lamp that will not light").
+  - The grey-blanket "dark intercuts" are retired. His Gallery, niche and dawn-steps states follow the pages.
+- **Karim:** re-locked at **nineteen**, per seq_04 "(19)", in the LONG, the SHORT and the stills.
+- **Ay:** wears the sem-priest's leopard skin in 1.1 as well ("AY (60s, the sem-priest's leopard skin)"). The A stills are updated.
+- **Embalmers**
+  - The masked embalmer turns full to camera (the mask, never the face) and speaks "Without his heart he cannot be weighed!".
+  - CHAR_EMBALMER_PRIEST is RESERVE.
+- **Nefertiti:** carries the lamp, with the boy holding her other hand.
+- **Ibrahim:** the lamp is held low.
+- **The 1968 assistant:** O.S. (voice only).
+- **CHAR_SAMEH:** re-locked to seq_04 ("a man's hand waves" from a table).
+- **CHAR_MINISTER_GALA:** re-locked to "rises, a hand open to the stair". Hale holds the lectern.
+- **CHAR_GARDEN_SLEEPERS:** re-locked to low cots, blankets to the chest, and cornflowers in fresh-turned sand.
+- **CHAR_CONSERVATOR_2033:** hands only (the face is RESERVE).
+- **Open questions** 5, 6, 9, 13, 14, 19 and 20 are resolved; Q21 is added.
+
+**02_units_and_machines.md**
+- The Reis story and damage table (ruling 1).
+- The thread climb (ruling 2).
+- **The flies:** they clamp to the launch rail, snag in the tamarisks, form the Karnak loom, and one is pinched at the rail yard.
+- **Inch-worm:** relay cable (8.3); arms that draw the copper loops together (11.5).
+- **The glass serpent:**
+  - It is looped three times on itself, with a black wax serpent.
+  - Its casket nest is sycamore.
+  - **Tut** strips the Apep kit. The excavator's claw withdraws.
+  - **The clouding moves from the Thoth slab into the serpent's coils** (C0–CLEAR with the script's percentages). The slab is the Recorder (R-DARK, R-OPEN, R-SHUT).
+- **The Balance:** both pans are black stone; the feather sinks "to an ember". The REF B stills are corrected.
+- **UNIT_THREAD** is hair-fine and has no light of its own. It only glints.
+- **UNIT_RELAY** is new.
+- **UNIT_ATEN_AMARNA:** new state AT-4. The disk goes into the pyramid in the memory, as seq_09 has it (Q10 resolved).
+- **The First Time machines** carry sun disks (3.3).
+- **Barge, excavators and cargo drone:** reconciled. The cargo drone carries Tomas north beneath it at 8.6.
+- **Nurses:** kneel beside low cots.
+- **The work gang "Rami":** new damage states (11.4).
+
+**03_locations.md**
+- **Heading map**
+  - Checked against every heading in seq_01–12.
+  - Rows the pages don't have are removed or marked (EXT. NILE, LUXOR EAST BANK; EXT. DESERT ROAD).
+  - The Grand Gallery "Amber slits only" heading is added.
+- **Retired and reserve**
+  - LOC_CAIRO_MUSEUM_1939 is RESERVE: the 1939 story is V.O. only.
+  - LOC_DESERT_ROAD is RESERVE: there is no drive scene.
+  - **LOC_LAGOS_STREET is retired**, replaced by **LOC_DAWN_BOULEVARD** (seq_05: "A BOULEVARD in an eastern city AT DAWN").
+- **New token:** **LOC_GP_ASCENDING** (entry 65; seq_11 "up the ASCENDING PASSAGE").
+- **KV62, 1323:** the lector paints the eye, and the small closed box of two tiny coffins is dressed.
+- **The quay:** TROLLEY_OVER and TROLLEY_LIP states; the grey launch.
+- **Amarna Garden:** low cots and blankets to the chest. The shades are furled at night and lamp-masts light the Garden. The cornflowers stand in sand.
+- **Osiris Shaft:** level 3, the walkway, the pump at the ladder foot and the 40 cm mouth knee-high above the water. W1–W3 follow the script: the water stops "a hand's width below the lip". The shaft is lit by the rifle torch and the heart only.
+- **Grand Gallery**
+  - New SLITS variant.
+  - The ANCIENT_1332 state gains the bronze arm drawing back.
+  - The thread runs up the centre. The Reis wades up the west ramp.
+- **Hall**
+  - VERDICT: the amber runs vessel → serpent's tail, and the Recorder pours light.
+  - ANCIENT_1332 has the disk on its sledge.
+  - The clouding add-on now points to file 02 §12.
+- **North face:** RELAY and EMBERS state add-ons.
+- **Port warehouse:** containers and a cycling crane.
+
+**04_props.md**
+- The rulings 2–4 props above.
+- **Dagger:** the sash carry to the Seq 6 dawn. Its coda return is off screen.
+- **Ebony stick:** "worn pale at the grip"; in the 1323 corner; swept away down the ramp (11.5).
+- **Heart vessel:** states V-1323, V-1323 sealed and V-1332.
+- **Trumpet:** "laid on its cushion" in the coda.
+- **Karnak block:** mortar-crusted hidden face; its route is trolley → channel.
+- **PROP_MERKHET_BAY is RESERVE:** seq_06 uses Nour's LAYLA pendant as the plumb line (new pendant state).
+- **Police launch:** grey steel. New states: marked at Karnak (7.4) and the river chart.
+- **Diesel:** "gone chalky in the sun" and the maker's-plate rectangle.
+- **Train coach:** its states.
+- **Cornflowers:** crushed in Nour's pocket; on the KV62 case; at KV21.
+- **Farm truck:** under the tarp. The drive is RESERVE.
+- **Farmer's boat:** re-sourced; the landing is not shown.
+- **Night barge:** the mother's face turned from the torch.
+- **Clinic cane:** the script's lines.
+- **Casket nest:** sycamore, black wax, the winch.
+
+**05_style_and_prompt_grammar.md**
+- §7.6: the stump is clean white, and it is the RIGHT hand.
+- §10 rows 13, 16, 24, 28, 29 and 36 are aligned: the thread climb, the trolley, the mother's heart, the one-handed Reis on the thread, the serpent clouding, and the copper loops.
+- §11 worked example: PROP_HAND_CART → PROP_BLOCK_TROLLEY in the text, the prompts and the JSONL. The word and character counts are recomputed: 366 and 297 words; motion prompts 1,440 and 1,257 characters, all under the 1,500 cap. The JSONL still parses.
+- Lagos is dropped from the allowed-geography list.
+
+**00_INDEX.md:** the token table's SHORT column is refreshed from the entries. The new, renamed and retired tokens are applied. The counts in the header are updated. This log was added.
+
+### Tokens: new · renamed · retired · reserve
+
+**New tokens**
+- **UNIT:** UNIT_RELAY.
+- **LOC:** LOC_GP_ASCENDING, LOC_DAWN_BOULEVARD.
+- **PROP:** PROP_ARMY_TRUCK, PROP_ID_DISCS, PROP_DEMO_CHARGES, PROP_PRY_BAR, PROP_LATTICE_CORE, PROP_TRACTOR_TRAILER, PROP_POLICE_HANDSET, PROP_EYE_FRAGMENT, PROP_STOPWATCH, PROP_MULTITOOL, PROP_PORT_SLIVER, PROP_MAP_CASE, PROP_WINDUP_WATCH, PROP_WATER_GLASSES, PROP_BLOCK_TROLLEY.
+- **Still id:** CHAR_TOMAS_B_work.
+
+**Renamed or retired**
+- PROP_HAND_CART → PROP_BLOCK_TROLLEY.
+- LOC_LAGOS_STREET → LOC_DAWN_BOULEVARD.
+- CHAR_TOMAS_B_headlamp → CHAR_TOMAS_B_work.
+- The quay state CART_OVER → TROLLEY_OVER.
+- The fly's tow variant is withdrawn.
+
+**Reserve (no scene in the current pages)**
+- CHAR_BANDSMAN_1939 and CHAR_RADIO_ENGINEER_1939
+- CHAR_EMBALMER_PRIEST
+- Fathi's coda wardrobe C, and the face of CHAR_CONSERVATOR_2033
+- LOC_CAIRO_MUSEUM_1939 and LOC_DESERT_ROAD
+- PROP_BROADCAST_RIG_1939 and PROP_MERKHET_BAY
+
+### Open items for the lead
+1. **The Reis's chipped shoulder.** The pages say only "shoulder". It is locked LEFT (opposite the right-wrist stump) as a production choice.
+2. **Karim at nineteen.** The "(19)" in seq_04 is read as Karim's alone, so Mina (22) and Youssef (25) are unchanged. The screenplay editor should say whether it covers all three.
+3. **The dagger on a belt from the Seq 6 dawn** is a production choice. The pages place it "in the linen at his waist" only up to 6.1.
+4. **LOC_DAWN_BOULEVARD's city** is unnamed in seq_05 ("an eastern city"). Pick the geography, with no signage.
+5. **The replica vessel.** seq_12 calls it "flawless manufactured green", then "the clear vessel". It is locked as clear green glass.
+6. **The disk in the pyramid (9.5b)** needs a scale cheat, because the locked 8 m disk does not fit the passages. See file 02 §15 Q10.
+7. **The Tut A1 look** has no dedicated full-body still. Build it by image edit from CHAR_TUT_A0_full plus the B-jacket still.
