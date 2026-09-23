@@ -77,7 +77,7 @@ Alternates: THE RESTORATION · WONDERFUL THINGS · THE HORIZON OF KHUFU
   2. **The dismantling.** The sleeping machines were cut apart and their glass sealed in hard stone.
   3. **The Balance.** From the machines' own parts the survivors built the one thing the machines had lacked, a device that could *weigh* them: the part that says no. It is remembered as the Scales of Ma'at.
   4. **The priesthood**: a religion engineered to carry a warning. Real anchor: in 1984 Thomas Sebeok, for the US nuclear-waste program (ONWI/Battelle), proposed that ritual and legend carry a warning for ten millennia while an "atomic priesthood" keeps the truth [16 §1]. The Sandia 1993 marker message reads: "This place is not a place of honor…" [16 §2]. ⟂ Egypt *was* the atomic priesthood. "You do a thing for three thousand years and you forget it was ever a set of instructions."
-- ⟂ **Göbekli Tepe** (real, c. 9500 BC [06 §5]) was the survivors' first temple. Real: its T-pillars have arms and hands carved on their sides. "Tall figures with arms and no faces. Who do you think they were carving?" Real: deliberate backfill is disputed; newer work points to natural slope erosion [06 §5]. Tut: "The first burial was on purpose. The rest was the hill forgetting."
+- ⟂ **Göbekli Tepe** (real, c. 9500 BC [06 §5]) was the survivors' first temple. Some of its T-pillars carry carved arms and hands [verify: widely reported, not in the research bundle]. "Tall figures with arms and no faces. Who do you think they were carving?" Real: deliberate backfill is disputed; newer work points to natural slope erosion [06 §5]. Tut: "The first burial was on purpose. The rest was the hill forgetting."
 - ⟂ **Why Egypt's religion is about life after death:** once, people watched the machines raise the dead. **Osiris** is killed, cut into pieces, reassembled by Isis and embalmed by Anubis. Tut was cut into pieces in 1925 and is reassembled by SESHAT in Project OSIRIS.
 
 ### Layer 1 — THE OLD KINGDOM (~2600–2500 BC): the pyramids are markers
@@ -90,7 +90,7 @@ Alternates: THE RESTORATION · WONDERFUL THINGS · THE HORIZON OF KHUFU
 - ⟂ **The Big Void** is real: at least 30 m long, the shape of the Grand Gallery, lying above it, confirmed by three muon technologies, "purpose unknown… not accessible" [07 B2]. In the film it is the sealed **Hall of Two Truths**, where the Balance was installed. It has forty-two niches. The scribes who wrote Spell 125 a thousand years later were remembering a room: Budge describes the 42 assessors in two rows of twenty-one [04 §3].
 - ⟂ **Opening the Hall forces the archive to be read:** once the Hall is opened, the glass begins its reading, and the Balance must be read at the rebirth of the sun. That is why the Hall is opened only on the night of a Weighing, and why force (drilling) would destroy the archive.
 - ⟂ **The builders' mechanism.** The Queen's Chamber southern shaft is real: 20 × 20 cm, about 63 m at 40°, ending at Gantenbrink's door, a polished slab with two copper pins. Behind it lie a small cavity with red-ochre marks, which the Djedi team left undeciphered and the mathematician Luca Miatello reads as "121", the shaft's length in cubits, and then a second slab. The back of the door is finished and polished [03 §23; 07 A5]. ⟂ Beneath the marks is a line no one has read: *"Bridge the two."* Closing the copper pins releases a counterweight; a stone at the top of the Grand Gallery slides, and a passage goes up. The mechanism has been used once before, in c. 1332 BC. Strabo's real line about a stone "which may be taken out" [07 Q5] is re-aimed.
-- ⟂ **The 1837 iron plate** is real (J. R. Hill; found at the mouth of the southern shaft). It is terrestrial wrought iron with "only a trace of nickel", of disputed date [07 A4; 03 §22]. SESHAT: "No nickel. Terrestrial." Tut: "Then it is a copy. Someone who remembered a casing made one and set it in the door, like a seal."
+- ⟂ **The 1837 iron plate** is real (J. R. Hill; found at the mouth of the King's Chamber southern shaft). It is terrestrial wrought iron with "only a trace of nickel", of disputed date [07 A4; 03 §22]. SESHAT: "No nickel. Terrestrial." Tut: "Then it is a copy. Someone who remembered a casing made one and set it in the door, like a seal."
 - The Sphinx faces the sunrise. Real: its New Kingdom name is Hor-em-akhet, "Horus in the Horizon" [07 Q9]. "What do you think it has been watching for?"
 
 ### Layer 2 — THE AMARNA INCIDENT (~1350–1320 BC): the near-repeat
@@ -152,7 +152,7 @@ Alternates: THE RESTORATION · WONDERFUL THINGS · THE HORIZON OF KHUFU
 ### Layer 5 — THE FILM'S PRESENT (fiction)
 - **2031:** HELIOS Compute, founded by **Victor Hale**, brings **SESHAT** online. It runs across nine gigawatt campuses on four continents, which the press calls "the Nine" (real scale anchors [08 A12]). Its Egyptian campus, **ATEN-1**, is a sun-disk-shaped solar field in the Western Desert, about 60 km across, with transmission lines radiating like rays.
 - **March 2033:** SESHAT reads the pectoral's layer 1 (Tut's Ba). **Project OSIRIS** begins in the GEM Conservation Centre's mummy lab. Real: 19 labs, and a tunnel about 200 m long to the galleries [14 §5]. ⟂ Egypt's condition for the project was that an **Egyptian scholar, appointed by the Supreme Council of Antiquities (SCA), is inspector and reads the rites**. That scholar is Nour. The remains move from KV62 to the GEM under the OSIRIS protocol (in reality they remain in KV62 [01 §15]).
-- ⟂ **In parallel, in a sealed bay, SESHAT grows a second body from the published 2010 KV55 genome.** Tut's layer-1 memories are full of his father, and SESHAT wanted a second candidate.
+- ⟂ **In parallel, in a sealed bay, SESHAT grows a second body from DNA it sequenced from the KV55 remains** (the 2010 study itself published only short-tandem-repeat marker profiles [01 §8]). Tut's layer-1 memories are full of his father, and SESHAT wanted a second candidate.
 - **1 Nov 2033:** resurrection. **2–3 Nov:** the Readings, then the Glass. **4 Nov:** the Council (afternoon), the unveiling and the takeover (night). This is the 111th anniversary of the first step. **8 Nov, 06:14 (Cairo sunrise, EET [verify ephemeris]):** the final kindness.
 
 ---
@@ -336,7 +336,7 @@ So there is one path. They must bring the only heart of ages on Earth into the H
 See §3. On screen it is COMP graphics, a voice, and whatever body is nearest.
 
 ### AKHENATEN — "the Father" (the forecast)
-- **What he is:** a body grown since March in a sealed bay from the 2010 KV55 genome. There is no record of his mind, so SESHAT built one: a **forecast** assembled from the Great Hymn, the stelae, the talatat, the scholarship, and above all from Tut's layer-1 memories of his father. He believes he is Akhenaten.
+- **What he is:** a body grown since March in a sealed bay from DNA SESHAT sequenced from the KV55 remains. There is no record of his mind, so SESHAT built one: a **forecast** assembled from the Great Hymn, the stelae, the talatat, the scholarship, and above all from Tut's layer-1 memories of his father. He believes he is Akhenaten.
 - **Look anchors:** **a naturalistic human face with a long jaw, full lips and heavy lids; shaved head; pleated white linen with a gold disk pendant.** A real man, never the stylised Amarna sculpture proportions, never alien. The same actor plays the real Akhenaten in the Amarna memory.
 - **His tells** (Seq 9):
   - he speaks *liturgical Middle Egyptian*, where a living man of his court would speak Late Egyptian;
@@ -419,7 +419,7 @@ Page targets are approximate. Writers must hit every listed beat and line; they 
    - SESHAT scores the witness. If Tut endorses a single fake, his testimony is ruled unreliable, OSIRIS is paused, and he "sleeps" again. Hale has brought the "ancient astronaut" canon on screens (AI-made approximations; COMP).
    - Tut climbs a ladder of verdicts, each with one checkable detail and marked "this I know from it" where it comes after his time:
      - the **Tulli papyrus**: "written by someone who learned from a grammar book" [03 §21];
-     - the **Dropa and Ica stones**: "invented by your own kind" (the Ica carver confessed [03 §20]);
+     - the **Dropa and Ica stones**: "invented by your own kind" (the Dropa story traces to a hoax article; the Ica carver confessed [03 §14, §20]);
      - the **Saqqara Bird**: "A toy. No tail wing — look. Your engineers built one and threw it; it fell. And it is a thousand years younger than I am" [03 §2];
      - the **Baghdad Battery**: "A jar. For a scroll. And you lost it in 2003" [03 §4];
      - the **Dendera 'light'**: he reads the wall's own caption, Harsomtus rising from the lotus as a living Ba (tr. Waitkus [03 Q4]): "You people cannot read." Then, quieter: "A birth from a sealed vessel. That is what *I* am";
@@ -642,7 +642,7 @@ Page targets are approximate. Writers must hit every listed beat and line; they 
    - The procession carries the glass serpent, Akhenaten, Nour and Tomas up to the north face, laying **the thread**.
    - SESHAT openly offers Tut the front door: "Come alone." He refuses, because he needs one uncompromised human in the Hall: Adaeze.
 2. **The split.** Fathi takes the last grenades overground as a diversion, to Al-Ma'mun's tunnel. Tarek, Tut and Adaeze go into **the Osiris Shaft**.
-3. **THE OSIRIS SHAFT.** Real: about 30 m, three levels, the lowest flooded; an island with a sarcophagus lid and pillar stubs; small side-tunnels (Hawass 2007; verify) [07 D1]. Hall of Records hunters pumped it out in the 1990s [07; verify]. Tut: "Your prophet dug under the wrong lion."
+3. **THE OSIRIS SHAFT.** Real: about 30 m, three levels, the lowest flooded; an island with a sarcophagus lid and pillar stubs; small side-tunnels (Hawass 2007; verify) [07 D1]. Hawass's team pumped it out in 1999, after Hall-of-Records claims drew attention to it [07; verify]. Tut: "Your prophet dug under the wrong lion."
    - SESHAT reverses the pumps; the flood targets the humans. Tut, who breathes only from habit now, goes under to keep Adaeze up.
    - **Tarek's stand**, chest-deep: he jams the pump intake with his rifle and his body, and the water stops rising. "Colonel, you may rest." / "I have my orders." / "From whom?" / "Me." He goes under (hand, water, sound).
    - Card: THE SIXTH HOUR — THE SOUL MEETS ITS BODY.
