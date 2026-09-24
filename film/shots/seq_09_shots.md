@@ -43,7 +43,7 @@ HERE AM I · screenplay `screenplay/seq_09.fountain` (pages 74–92, 19 pages) �
 
 Generate once, approve, freeze under these ids (file 05 §12). Derived looks are image edits of approved stills, never new text-to-image faces. Count = shots citing the still.
 
-**Characters (CHAR_):** CHAR_ADAEZE_A_34 (14) · CHAR_ADAEZE_A_front (12) · CHAR_ADAEZE_B_full (23) · CHAR_AKHENATEN_1336_34 (2) · CHAR_AKHENATEN_1336_front (2) · CHAR_AKHENATEN_1336_full (1) · CHAR_AKHENATEN_A_34 (12) · CHAR_AKHENATEN_A_front (11) · CHAR_AKHENATEN_A_full (7) · CHAR_AKHENATEN_A_profile (3) · CHAR_AMARNA_COURTIERS_1336 (4) · CHAR_AMARNA_SLEEPERS_1336 (1) · CHAR_ENVOY_1336 (1) · CHAR_FATHI_A_34 (8) · CHAR_FATHI_A_front (13) · CHAR_FATHI_B_full (12) · CHAR_FATHI_B_noscarf (8) · CHAR_GARDEN_SLEEPERS (12) · CHAR_KARIM_A_34 (2) · CHAR_KARIM_A_front (2) · CHAR_KARIM_A_full (9) · CHAR_NEFERTITI_A_34 (1) · CHAR_NEFERTITI_A_front (3) · CHAR_NEFERTITI_B_full (4) · CHAR_NOUR_A_34 (13) · CHAR_NOUR_A_front (14) · CHAR_NOUR_A_profile (1) · CHAR_NOUR_B_full (25) · CHAR_PAWAH_A_34 (1) · CHAR_PAWAH_A_front (1) · CHAR_PAWAH_A_full (1) · CHAR_TAREK_A_34 (15) · CHAR_TAREK_A_front (14) · CHAR_TAREK_A_profile (1) · CHAR_TAREK_B_full (27) · CHAR_TOMAS_A_34 (2) · CHAR_TOMAS_A_front (1) · CHAR_TOMAS_C_full (2) · CHAR_TUT_A0_34 (29) · CHAR_TUT_A0_front (26) · CHAR_TUT_A0_profile (5) · CHAR_TUT_B1_full (9) · CHAR_TUT_B2_full (22) · CHAR_TUT_B2_scarf (4) · CHAR_TUT_B_night_34 (5) · CHAR_TUT_CHILD_11_front (2) · CHAR_TUT_CHILD_6_front (2) · CHAR_TUT_CHILD_9_34 (1) · CHAR_TUT_CHILD_9_front (3) · CHAR_TUT_CHILD_9_full (2) · CHAR_TUT_FOOT (2) · CHAR_TUT_HANDS (4) · CHAR_TUT_NAPE_SCAR (1) · CHAR_YOUNG_MOTHER_A_34 (3) · CHAR_YOUNG_MOTHER_A_front (5) · CHAR_YOUNG_MOTHER_A_full (1) · CHAR_YOUSSEF_A_front (1) · CHAR_YOUSSEF_A_full (6)
+**Characters (CHAR_):** CHAR_ADAEZE_A_34 (14) · CHAR_ADAEZE_A_front (12) · CHAR_ADAEZE_B_full (23) · CHAR_AKHENATEN_1336_34 (2) · CHAR_AKHENATEN_1336_front (2) · CHAR_AKHENATEN_1336_full (1) · CHAR_AKHENATEN_A_34 (12) · CHAR_AKHENATEN_A_front (11) · CHAR_AKHENATEN_A_full (7) · CHAR_AKHENATEN_A_profile (3) · CHAR_AMARNA_COURTIERS_1336 (4) · CHAR_AMARNA_SLEEPERS_1336 (1) · CHAR_ENVOY_1336 (1) · CHAR_FATHI_A_34 (8) · CHAR_FATHI_A_front (13) · CHAR_FATHI_B_full (12) · CHAR_FATHI_B_noscarf (9) · CHAR_GARDEN_SLEEPERS (12) · CHAR_KARIM_A_34 (2) · CHAR_KARIM_A_front (2) · CHAR_KARIM_A_full (9) · CHAR_NEFERTITI_A_34 (1) · CHAR_NEFERTITI_A_front (3) · CHAR_NEFERTITI_B_full (4) · CHAR_NOUR_A_34 (13) · CHAR_NOUR_A_front (14) · CHAR_NOUR_A_profile (1) · CHAR_NOUR_B_full (25) · CHAR_PAWAH_A_34 (1) · CHAR_PAWAH_A_front (1) · CHAR_PAWAH_A_full (1) · CHAR_TAREK_A_34 (15) · CHAR_TAREK_A_front (14) · CHAR_TAREK_A_profile (1) · CHAR_TAREK_B_full (27) · CHAR_TOMAS_A_34 (2) · CHAR_TOMAS_A_front (1) · CHAR_TOMAS_C_full (2) · CHAR_TUT_A0_34 (29) · CHAR_TUT_A0_front (26) · CHAR_TUT_A0_profile (5) · CHAR_TUT_B1_full (9) · CHAR_TUT_B2_full (22) · CHAR_TUT_B2_scarf (4) · CHAR_TUT_B_night_34 (5) · CHAR_TUT_CHILD_11_front (2) · CHAR_TUT_CHILD_6_front (2) · CHAR_TUT_CHILD_9_34 (1) · CHAR_TUT_CHILD_9_front (3) · CHAR_TUT_CHILD_9_full (2) · CHAR_TUT_FOOT (2) · CHAR_TUT_HANDS (4) · CHAR_TUT_NAPE_SCAR (1) · CHAR_YOUNG_MOTHER_A_34 (3) · CHAR_YOUNG_MOTHER_A_front (5) · CHAR_YOUNG_MOTHER_A_full (1) · CHAR_YOUSSEF_A_front (1) · CHAR_YOUSSEF_A_full (6)
 
 **Units (UNIT_):** UNIT_ATEN_AMARNA_REF_A (11) · UNIT_ATEN_AMARNA_REF_B (1) · UNIT_BALANCE_NICHES_REF (1) · UNIT_BALANCE_SCALE_REF_A (2) · UNIT_CARGO_DRONE_REF (8) · UNIT_FLY_REF_A (10) · UNIT_FLY_REF_B (1) · UNIT_JACKAL_REF_A (18) · UNIT_JACKAL_REF_B (6) · UNIT_NURSE_REF_A (4) · UNIT_REIS_REF_A (11) · UNIT_REIS_REF_B (7) · UNIT_SHABTI_REF_A (7) · UNIT_SHABTI_REF_B (2) · UNIT_THREAD_REF (1)
 
@@ -56,6 +56,17 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 **Comp assets:** SUPERs (6 NOVEMBER. 11:20. · DEIR MAWAS. 22:04. · AMARNA. 23:10. · AKHETATEN. c. 1336 BC. · c. 1332 BC. · c. 1330 BC. · 7 NOVEMBER. 06:06.); subtitle file for every Egyptian Arabic, Late Egyptian and Middle Egyptian line (mouthed lines italic); the CALMING FLORA placard; the cartouche change TUTANKHATEN → TUTANKHAMUN (Egyptologist); jackal POV near-infrared and thermal passes; chest glow G1 and the mother's cold-green glow; red-line timing passes; PLAN A card and Rami's last page.
 
 ---
+
+## Notes for the lead
+
+1. **Fathi without his scarf (09.02.008 → 09.16.003).** Every CHAR_FATHI field (LONG, SHORT, WARD_A/B/C) names the red scarf at his neck, and locks.json has no scarf-off field. These shots keep {CHAR_FATHI.SHORT} for identity, add the writer's phrase "his collar open and his throat bare", and put "scarf knotted at the throat, scarf at the neck" in the NEGATIVE. First frames must come from the derived still CHAR_FATHI_B_noscarf (image edit of CHAR_FATHI_B_full). **Request:** add `CHAR_FATHI.STATE_NO_SCARF` (or a scarf-free SHORT variant) to locks.json so the prompt no longer contradicts itself.
+2. **Coach benches.** LOC_NIGHT_TRAIN.AREA_COACH_INTERIOR says "worn green vinyl bench seats"; PROP_TRAIN_COACH.STATE_WINDOWS and the screenplay say wooden benches. The coach shots keep the tokens; pick one and fix the other lock.
+3. **Derailed diesel.** LOC_DEIR_MAWAS.STATE_DERAILED says "lying on its side"; the screenplay and PROP_DIESEL_LOCO.STATE_T3 say canted nose-first in the cane. T3 wins in the picture; align the location state.
+4. **The Hall memory lamp (09.22).** NEG_HALL bans lamps, but the 1332 Hall is lit by the queen's lamp (LIGHT_ANCIENT_1332). The 09.22 shots write NEG_HALL's other terms out by hand and leave the lamp allowed.
+5. **The 1332 vessel (09.22.006).** PROP_HEART_VESSEL.LONG/SHORT name the wax serpent and papyrus band, which the V-1332 state does not have yet. The state token and the NEGATIVE ("wax serpent, papyrus band") override it; a V-1332 base lock would be cleaner.
+6. **The eleven-year-old (09.23.004).** CHAR_TUT_CHILD_11.WARD_11 includes the small blue crown, and the child negative bans crowns "except at 11". The shot frames the face only, so it omits the wardrobe field and the crown stays out of frame.
+7. **Child and mother negatives vs crowns (09.19.009, 09.20.003, 09.21.001, 09.22.010).** CHAR_TUT_CHILD_9.NEG and CHAR_YOUNG_MOTHER.NEG ban "crown", which would strip the crown from the queen (or the king at the altar) in the same frame. Those shots carry {NEG_CHILD} and the queen's negative only; a crown-free variant of the child and mother negatives would let them go back in.
+8. **Rail "sleepers".** The coupling lock (LOC_NIGHT_TRAIN.AREA_COUPLING) uses the British "sleepers" for railway ties. In the Garden scenes the same word means sleeping people. Watch the coupling takes for stray human figures; if they appear, the lock should say "railway ties".
 
 ## Scene 1 — EXT. LUXOR RAILWAY YARD - DAY (SUPER 6 NOVEMBER. 11:20.)
 
@@ -172,7 +183,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** the heartbeat, muffled but still loud
 - **PROMPT:** Insert shot, 100mm macro lens, locked-off: two slender olive-brown hands with {CHAR_TUT.STATE_WRIST_SEAMS} press flat, one over the other, onto the centre of a dusty charcoal jacket, and warm light still leaks out in thin lines between the fingers, pulsing. Setting: {LOC_LUXOR_RAIL_YARD.SHORT}, {LOC_LUXOR_RAIL_YARD.AREA_INSPECTION_PIT}, at midday. Lighting: oil-dark shadow, the only light coming from between the fingers. Mood: restrained terror. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_REMAINS}, bare chest, extra fingers, cracked seam
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_REMAINS}, {CHAR_TUT.NEG}, bare chest, extra fingers, cracked seam
 - **Refs:** CHAR_TUT_HANDS, CHAR_TUT_B2_full
 - **Flags:** COMP
 - **Comp:** chest glow | G1 leaking between the fingers | between fingers | full clip | glow pass
@@ -221,7 +232,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The fly stops dead above the pit and hangs; its white pinpoint tilts slowly down toward the trench.
 - **Dialogue:** —
 - **Sound:** the whine steadies into one held note
-- **PROMPT:** Medium low-angle shot from the floor of a trench, anamorphic 50mm lens, locked-off, looking straight up past the black underside of a train: {UNIT_FLY.SHORT} slides into the gap of light above the pit, stops dead, hangs motionless like a hanging insect, then tilts its white pinpoint slowly down toward the camera. Setting: {LOC_LUXOR_RAIL_YARD.SHORT}, {LOC_LUXOR_RAIL_YARD.AREA_INSPECTION_PIT}, at midday. Lighting: {LOC_LUXOR_RAIL_YARD.LIGHT_DAY}, a sunbeam slanting past it. Mood: silent, procedural, utterly calm. {SUFFIX}
+- **PROMPT:** Medium low-angle shot from the floor of a trench, anamorphic 50mm lens, locked-off, looking straight up past the black underside of a train: {UNIT_FLY.SHORT} slides into the gap of light above the pit, stops, hovers dead still like a hanging insect, then tilts its white pinpoint slowly down toward the camera. Setting: {LOC_LUXOR_RAIL_YARD.SHORT}, {LOC_LUXOR_RAIL_YARD.AREA_INSPECTION_PIT}, at midday. Lighting: {LOC_LUXOR_RAIL_YARD.LIGHT_DAY}, a sunbeam slanting past it. Mood: silent, procedural, utterly calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, second drone, rope
 - **Refs:** UNIT_FLY_REF_A, LOC_LUXOR_RAIL_YARD_DAY
 - **Flags:** VFX-ASSIST
@@ -403,8 +414,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Fathi, thumb still on the pale rectangle, speaks low with a slow grin.
 - **Dialogue:** FATHI (in Egyptian Arabic; subtitled): "Some scrap thief took the plates. God keep him."
 - **Sound:** a breath of a laugh through the nose
-- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_FATHI.SHORT}, {CHAR_FATHI.WARD_B}, his throat bare with no scarf at his neck, sweat on his face in the dark engine room, his thumb resting on the bulkhead, speaking in Egyptian Arabic, low, a slow grin spreading. Setting: {LOC_LUXOR_RAIL_YARD.SHORT}, {LOC_LUXOR_RAIL_YARD.AREA_ENGINE_ROOM}, at midday. Lighting: a shaft of porthole daylight across his face. Mood: wry. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf at the neck, shouting
+- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_FATHI.SHORT}, his collar open and his throat bare, sweat on his face in the dark engine room, his thumb resting on the bulkhead, speaking in Egyptian Arabic, low, a slow grin spreading. Setting: {LOC_LUXOR_RAIL_YARD.SHORT}, {LOC_LUXOR_RAIL_YARD.AREA_ENGINE_ROOM}, at midday. Lighting: a shaft of porthole daylight across his face. Mood: wry. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf knotted at the throat, scarf at the neck, shouting
 - **Refs:** CHAR_FATHI_A_front, CHAR_FATHI_A_34, CHAR_FATHI_B_noscarf (derived)
 - **Flags:** COMP
 - **Comp:** subtitle | "Some scrap thief took the plates. God keep him." | lower third (05 §13.7) | line in to out | seq 09 subtitle file
@@ -429,8 +440,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Oil to the elbows, Fathi loosens a fitting on a fuel line in the open engine hatch; diesel spurts, then runs clean; he tightens it.
 - **Dialogue:** —
 - **Sound:** a wrench on a nut, a hiss of air, then the fuel's thin trickle
-- **PROMPT:** Medium shot, anamorphic 50mm lens, locked-off: {CHAR_FATHI.SHORT}, his throat bare with no scarf, forearms black with oil to the elbows, leans into an open engine hatch in the side of {PROP_DIESEL_LOCO.SHORT} and loosens a fitting on a fuel line with a spanner; fuel spurts, runs clean, and he tightens it. Setting: {LOC_LUXOR_RAIL_YARD.SHORT}, at dusk. Lighting: {LOC_LUXOR_RAIL_YARD.LIGHT_DUSK}. Mood: calm, unhurried, exact. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf at the neck, fire, readable numbers
+- **PROMPT:** Medium shot, anamorphic 50mm lens, locked-off: {CHAR_FATHI.SHORT}, his collar open and his throat bare, forearms black with oil to the elbows, leans into an open engine hatch in the side of {PROP_DIESEL_LOCO.SHORT} and loosens a fitting on a fuel line with a spanner; fuel spurts, runs clean, and he tightens it. Setting: {LOC_LUXOR_RAIL_YARD.SHORT}, at dusk. Lighting: {LOC_LUXOR_RAIL_YARD.LIGHT_DUSK}. Mood: calm, unhurried, exact. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf knotted at the throat, scarf at the neck, fire, readable numbers
 - **Refs:** CHAR_FATHI_A_front, CHAR_FATHI_B_noscarf (derived), PROP_DIESEL_LOCO_REF, LOC_LUXOR_RAIL_YARD_DUSK
 - **Continuity:** Time jump to dusk. The headlamp is not yet lit (it flickers on at 09.05.003).
 
@@ -583,8 +594,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Ahead down the headlamp beam, a signal burns red; Tarek holds the throttle; the red light flashes past the windscreen.
 - **Dialogue:** —
 - **Sound:** engine hammer, a whoosh as the signal mast passes
-- **PROMPT:** Two-shot, anamorphic 50mm lens, subtle handheld: {CHAR_TAREK.SHORT}, {CHAR_TAREK.DMG_L2_GREASE}, at the controls and {CHAR_FATHI.SHORT}, his throat bare with no scarf, at his shoulder, both staring ahead through the windscreen as a red railway signal lamp rushes toward them down the headlamp beam and flashes past, its red light sweeping over their faces. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_CAB}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, gauge glow. Mood: reckless joy riding on fear. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TAREK.NEG}, {CHAR_FATHI.NEG}, screens, digital displays, scarf at the neck
+- **PROMPT:** Two-shot, anamorphic 50mm lens, subtle handheld: {CHAR_TAREK.SHORT}, {CHAR_TAREK.DMG_L2_GREASE}, at the controls and {CHAR_FATHI.SHORT}, his collar open and his throat bare, at his shoulder, both staring ahead through the windscreen as a red railway signal lamp rushes toward them down the headlamp beam and flashes past, its red light sweeping over their faces. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_CAB}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, gauge glow. Mood: reckless joy riding on fear. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TAREK.NEG}, {CHAR_FATHI.NEG}, screens, digital displays, scarf knotted at the throat, scarf at the neck
 - **Refs:** CHAR_TAREK_A_34, CHAR_TAREK_B_full, CHAR_FATHI_A_34, CHAR_FATHI_B_noscarf (derived), LOC_NIGHT_TRAIN_NIGHT (cab plate)
 - **Continuity:** The signal's red is a practical railway lamp, broad and soft (not the military stack's crisp red line).
 
@@ -629,8 +640,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Fathi, braced against the cab wall, speaks with his eyes on the line ahead.
 - **Dialogue:** FATHI (in Egyptian Arabic; subtitled): "It could throw a switch and put us in a field."
 - **Sound:** engine, wind
-- **PROMPT:** Medium close-up, anamorphic 75mm lens, subtle handheld: {CHAR_FATHI.SHORT}, his throat bare with no scarf, braced with one hand against the rattling cab wall, speaking in Egyptian Arabic, calm, his eyes on the dark line ahead. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_CAB}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, gauge glow. Mood: dry, literal calm. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf at the neck
+- **PROMPT:** Medium close-up, anamorphic 75mm lens, subtle handheld: {CHAR_FATHI.SHORT}, his collar open and his throat bare, braced with one hand against the rattling cab wall, speaking in Egyptian Arabic, calm, his eyes on the dark line ahead. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_CAB}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, gauge glow. Mood: dry, literal calm. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf knotted at the throat, scarf at the neck
 - **Refs:** CHAR_FATHI_A_front, CHAR_FATHI_A_34, CHAR_FATHI_B_noscarf (derived)
 - **Flags:** COMP
 - **Comp:** subtitle | "It could throw a switch and put us in a field." | lower third | line in to out | seq 09 subtitle file
@@ -668,7 +679,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The diesel roars under the bridge; as the coach passes beneath, the black shape drops from the parapet onto its roof.
 - **Dialogue:** —
 - **Sound:** the roar compressed under the bridge; a heavy THUMP
-- **PROMPT:** Wide low-angle shot, anamorphic 35mm lens, locked-off below a low road bridge: a blazing headlamp and an old locomotive roar under the span toward frame left, and as the dark coach behind passes beneath, {UNIT_JACKAL.LONG}, drops from the parapet onto the coach roof and flattens against it. Setting: {LOC_NIGHT_TRAIN.SHORT}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
+- **PROMPT:** Wide low-angle shot, anamorphic 35mm lens, locked-off below a low road bridge: a blazing headlamp and an old locomotive roar under the span toward frame left, and as the dark coach behind passes beneath, {UNIT_JACKAL.LONG} drops from the parapet onto the coach roof and flattens against it. Setting: {LOC_NIGHT_TRAIN.SHORT}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, street lights, weapon pointed at camera
 - **Refs:** UNIT_JACKAL_REF_A, UNIT_JACKAL_REF_B, PROP_DIESEL_LOCO_REF, PROP_TRAIN_COACH_REF, LOC_NIGHT_TRAIN_NIGHT
 - **Flags:** VFX-ASSIST
@@ -716,8 +727,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Fathi swings in at the coach's front door off the engine's side walkway, wind tearing at him, and shouts back down the coach.
 - **Dialogue:** FATHI: "Forward! Into the engine!"
 - **Sound:** a blast of engine noise through the open door
-- **PROMPT:** Medium shot, anamorphic 40mm lens, subtle handheld: {CHAR_FATHI.SHORT}, his throat bare with no scarf, swings in through the front door of a dark rattling coach from the outside, one hand on the door frame, wind tearing at his sleeves, and speaks one quick breathless sentence back down the coach, beckoning hard. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COACH_INTERIOR}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, headlamp spill behind him. Mood: fierce, jaw set. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf at the neck, rifle pointed at camera
+- **PROMPT:** Medium shot, anamorphic 40mm lens, subtle handheld: {CHAR_FATHI.SHORT}, his collar open and his throat bare, swings in through the front door of a dark rattling coach from the outside, one hand on the door frame, wind tearing at his sleeves, and speaks one quick breathless sentence back down the coach, beckoning hard. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COACH_INTERIOR}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, headlamp spill behind him. Mood: fierce, jaw set. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf knotted at the throat, scarf at the neck, rifle pointed at camera
 - **Refs:** CHAR_FATHI_A_front, CHAR_FATHI_A_34, CHAR_FATHI_B_noscarf (derived)
 - **Continuity:** English (shouted to the group). He then crosses to the diesel's rear platform (09.11.001).
 
@@ -729,8 +740,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Between the coach's front end and the diesel's rear platform, a metre of gap over the blurred sleepers; Fathi plants himself on the platform rail and reaches his arm out across it.
 - **Dialogue:** —
 - **Sound:** the roar of the track below, wind, the coupling's clank
-- **PROMPT:** Wide shot, anamorphic 32mm lens, vehicle-mounted, locked to the front end of a swaying coach: a metre-wide gap over a blur of sleepers separates it from the rear platform of an old locomotive, where {CHAR_FATHI.SHORT}, his throat bare with no scarf, grips a rail with one hand and stretches his other arm out across the gap. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, headlamp spill along the engine's flank. Mood: fierce, jaw set. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf at the neck, lit platform, rifle pointed at camera
+- **PROMPT:** Wide shot, anamorphic 32mm lens, vehicle-mounted, locked to the front end of a swaying coach: a metre-wide gap over a blur of sleepers separates it from the rear platform of an old locomotive, where {CHAR_FATHI.SHORT}, his collar open and his throat bare, grips a rail with one hand and stretches his other arm out across the gap. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, headlamp spill along the engine's flank. Mood: fierce, jaw set. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, scarf knotted at the throat, scarf at the neck, lit platform, rifle pointed at camera
 - **Refs:** CHAR_FATHI_B_noscarf (derived), PROP_DIESEL_LOCO_REF, PROP_TRAIN_COACH_REF, LOC_NIGHT_TRAIN_NIGHT (coupling plate)
 - **Continuity:** Geography for the scene: coach frame right, diesel platform frame left, the roof's front edge above frame right.
 
@@ -870,18 +881,18 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Fathi leans across the gap, grabs Tut by the belt and hauls him bodily over onto the platform.
 - **Dialogue:** —
 - **Sound:** a grunt, the ceramic foot knocking on steel
-- **PROMPT:** Medium shot, anamorphic 40mm lens, vehicle-mounted: {CHAR_FATHI.SHORT}, his throat bare with no scarf, leans far out across a gap over blurred sleepers, grips {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_RED_SCARF}, by the belt with one fist, and hauls him bodily across onto a locomotive's rear platform, the young man clutching a dark staff. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_BLUE}. Mood: fierce, jaw set. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, {CHAR_TUT.NEG}, scarf at Fathi's neck, falling
+- **PROMPT:** Medium shot, anamorphic 40mm lens, vehicle-mounted: {CHAR_FATHI.SHORT}, his collar open and his throat bare, leans far out across a gap over blurred sleepers, grips {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_RED_SCARF}, by the belt with one fist, and hauls him bodily across onto a locomotive's rear platform, the young man clutching a dark staff. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_BLUE}. Mood: fierce, jaw set. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, {CHAR_TUT.NEG}, scarf knotted at the throat, scarf at the neck, falling
 - **Refs:** CHAR_FATHI_B_noscarf (derived), CHAR_TUT_B2_scarf (derived), PROP_EBONY_STICK_REF
 - **Continuity:** Stick stays in Tut's RIGHT hand. Adaeze alone on the coach now.
 
 ### 09.11.014 — Coupling platform — half the jar left; she jumps short   (6 s)
 - **Shot:** MS, anamorphic 40mm, vehicle-mounted · **Move:** vehicle-mounted
 - **In frame:** ADAEZE (CHAR_ADAEZE_B2 + blue); PROP_CONSERVATION_KIT (jar half)
-- **Action:** Adaeze screws the lid back on the half-empty jar, shoves it into the kit, and jumps; she lands short, one hand clamped on the diesel's rail, legs over the gap.
+- **Action:** Adaeze screws the lid back on the half-empty jar and jumps; she lands short, one hand clamped on the diesel's rail, legs over the gap.
 - **Dialogue:** —
 - **Sound:** the lid's squeak, a thud, her cry cut off
-- **PROMPT:** Medium shot, anamorphic 40mm lens, vehicle-mounted: {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, screws the lid back onto a glass jar of blue powder, {PROP_CONSERVATION_KIT.STATE_JAR_HALF}, stuffs it into the case on her shoulder, and jumps the gap toward frame left, landing short with one hand clamped on a steel rail, her legs hanging over the blur of sleepers. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: restrained terror. {SUFFIX}
+- **PROMPT:** Medium shot, anamorphic 40mm lens, vehicle-mounted: {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, screws the lid back onto a glass jar of blue powder, {PROP_CONSERVATION_KIT.STATE_JAR_HALF}, then jumps the gap toward frame left, landing short with one hand clamped on a steel rail, her legs hanging over the blur of sleepers. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: restrained terror. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_ADAEZE.NEG}, falling under the train, wheels touching her
 - **Refs:** CHAR_ADAEZE_B_full, PROP_CONSERVATION_KIT_REF, LOC_NIGHT_TRAIN_NIGHT
 - **Continuity:** Jar half full from here (it matters in Seq 10).
@@ -917,7 +928,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Sparks burst off the steel rail an inch from her blue-dusted fingers; the fingers hold.
 - **Dialogue:** —
 - **Sound:** a hard metallic ping
-- **PROMPT:** Insert shot, 100mm macro lens, vehicle-mounted: a deep-brown hand smudged with vivid blue powder grips a steel handrail, and a bright burst of sparks flies off the rail an inch from the fingers, which clench tighter and hold. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, the sparks lighting the hand. Mood: sudden and unadorned, no spectacle. {SUFFIX}
+- **PROMPT:** Insert shot, 100mm macro lens, vehicle-mounted: a deep-brown hand smudged with vivid blue powder grips a steel handrail, and a bright burst of sparks flies off the rail an inch from the fingers, which clench tighter and hold. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}, the sparks lighting the hand. Mood: sudden and unadorned. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, wound, hole in the hand, extra fingers
 - **Refs:** CHAR_ADAEZE_A_front, CHAR_ADAEZE_B_full
 - **Flags:** VFX-ASSIST
@@ -929,8 +940,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Fathi grabs Adaeze by the collar and yanks her up onto the platform; they fall against the engine's rear wall together.
 - **Dialogue:** —
 - **Sound:** a grunt, bodies on steel
-- **PROMPT:** Medium shot, anamorphic 40mm lens, vehicle-mounted: {CHAR_FATHI.SHORT}, his throat bare with no scarf, seizes {CHAR_ADAEZE.SHORT} by the back of her blazer collar and yanks her up and over onto a locomotive's rear platform, both falling back against the steel wall of the engine. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: fierce, jaw set. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, {CHAR_ADAEZE.NEG}, scarf at Fathi's neck
+- **PROMPT:** Medium shot, anamorphic 40mm lens, vehicle-mounted: {CHAR_FATHI.SHORT}, his collar open and his throat bare, seizes {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, by the back of her blazer collar and yanks her up and over onto a locomotive's rear platform, both falling back against the steel wall of the engine. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: fierce, jaw set. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_FATHI.NEG}, {CHAR_ADAEZE.NEG}, scarf knotted at the throat, scarf at the neck
 - **Refs:** CHAR_FATHI_B_noscarf (derived), CHAR_ADAEZE_B_full
 - **Continuity:** Everyone now on the diesel. Only the jackal on the coach.
 
@@ -962,7 +973,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The rubber brake hose between the vehicles stretches and rips loose with a shriek of air; the coach's brakes bite and it falls back, a metre, three.
 - **Dialogue:** —
 - **Sound:** a tearing SHRIEK of air, the coach's brake shoes screaming
-- **PROMPT:** Insert shot, anamorphic 50mm lens, vehicle-mounted, locked to the rear of a locomotive: a thick rubber brake hose linking it to the coach behind stretches taut and rips loose with a burst of dust and air, and the coach's front end begins to drop back, the gap over the sleepers widening from one metre to three. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: sudden and unadorned, no spectacle. {SUFFIX}
+- **PROMPT:** Insert shot, anamorphic 50mm lens, vehicle-mounted, locked to the rear of a locomotive: a thick rubber brake hose linking it to the coach behind stretches taut and rips loose with a burst of dust and air, and the coach's front end begins to drop back, the gap over the sleepers widening from one metre to three. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_COUPLING}, in the dead of night. Lighting: {LOC_NIGHT_TRAIN.LIGHT_NIGHT}. Mood: sudden and unadorned. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, explosion, fire, people falling
 - **Refs:** PROP_DIESEL_LOCO_REF, PROP_TRAIN_COACH_REF, LOC_NIGHT_TRAIN_NIGHT
 - **Flags:** VFX-ASSIST
@@ -984,14 +995,14 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 
 ### 09.12.001 — Old diesel, engine room — crammed against the roar   (5 s)
 - **Shot:** Wide, anamorphic 24mm, subtle handheld · **Move:** subtle handheld (engine shake)
-- **In frame:** NOUR, ADAEZE, YOUSSEF, KARIM, TUT crammed in (two faces clear at most)
-- **Action:** Five bodies wedge themselves against the hammering engine block, a hand torch swinging on a hook; Karim laughs once, breathless.
+- **In frame:** NOUR, ADAEZE, FATHI, YOUSSEF, KARIM, TUT crammed in (two faces clear at most)
+- **Action:** Six bodies wedge themselves against the hammering engine block, a hand torch swinging on a hook; Karim laughs once, breathless.
 - **Dialogue:** —
 - **Sound:** a deafening engine hammer, the torch clinking on its hook
-- **PROMPT:** Wide shot, anamorphic 24mm lens, subtle handheld: five figures in camouflage and dusty jackets wedge themselves against a huge hammering engine block among pipes and valves, blue powder on one woman's blazer, a hand torch swinging on a hook throwing its beam back and forth across sweating faces. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_ENGINE_ROOM}, in the dead of night. Lighting: a swinging hand torch the only light. Mood: exhausted resolve. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 24mm lens, subtle handheld: six figures in camouflage and dusty jackets wedge themselves against a huge hammering engine block among pipes and valves, blue powder on one woman's blazer, a hand torch swinging on a hook throwing its beam back and forth across sweating faces. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_ENGINE_ROOM}, in the dead of night. Lighting: a swinging hand torch the only light. Mood: exhausted resolve. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, more than two clear faces, electric lights, rifle pointed at camera
-- **Refs:** CHAR_ADAEZE_B_full, CHAR_NOUR_B_full, CHAR_TUT_B2_scarf (derived), LOC_NIGHT_TRAIN_NIGHT (engine-room plate)
-- **Continuity:** Tarek and Fathi in the cab (the voice comes over the handset from there).
+- **Refs:** CHAR_ADAEZE_B_full, CHAR_NOUR_B_full, CHAR_FATHI_B_noscarf, CHAR_TUT_B2_scarf (derived), LOC_NIGHT_TRAIN_NIGHT (engine-room plate)
+- **Continuity:** Tarek alone in the cab (the voice comes over the handset from there); Fathi came in off the rear platform with the others and stays here until Deir Mawas (09.14.001).
 
 ### 09.12.002 — Old diesel, engine room — "I have switched to thermal."   (7 s)
 - **Shot:** MCU, anamorphic 75mm, subtle handheld · **Move:** subtle handheld
@@ -1025,7 +1036,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Filling the headlight: shabti in ranks between the rails, across the ballast, along the platform edge, bone-white, faceless, perfectly still, growing closer.
 - **Dialogue:** —
 - **Sound:** engine; nothing else at all
-- **PROMPT:** Wide shot, anamorphic 50mm lens, vehicle-mounted at cab height, closing slowly: the headlamp beam fills with hundreds of {UNIT_SHABTI.SHORT} standing in silent rows on the tracks receding into the dark, between the rails, across the ballast and along a low platform edge, perfectly still, their amber slits dim. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 50mm lens, vehicle-mounted at cab height, closing slowly: the headlamp beam fills with hundreds of identical robots, each {UNIT_SHABTI.SHORT}, standing in silent rows on the tracks receding into the dark, between the rails, across the ballast and along a low platform edge, perfectly still, their amber slits dim. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, faces on the robots, movement in the ranks
 - **Refs:** UNIT_SHABTI_REF_A, UNIT_SHABTI_REF_B, LOC_DEIR_MAWAS_NIGHT
 - **Flags:** VFX-EXTEND
@@ -1051,7 +1062,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Tarek at the controls; Adaeze has come forward to his shoulder, Tut behind her; all stare out at the white ranks in the beam.
 - **Dialogue:** —
 - **Sound:** engine, brakes hissing faintly on standby
-- **PROMPT:** Medium shot from beside the windscreen, anamorphic 40mm lens, subtle handheld: {CHAR_TAREK.SHORT}, {CHAR_TAREK.DMG_L2_GREASE}, at the controls, {CHAR_ADAEZE.SHORT} pressed in at his shoulder and a slight hooded young man soft behind her, all three staring ahead into the white glare of the headlamp beam. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_CAB}, in the dead of night. Lighting: headlamp glare bouncing back into the cab, gauge glow. Mood: restrained terror. {SUFFIX}
+- **PROMPT:** Medium shot from beside the windscreen, anamorphic 40mm lens, subtle handheld: {CHAR_TAREK.SHORT}, {CHAR_TAREK.DMG_L2_GREASE}, at the controls, {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, pressed in at his shoulder and a slight hooded young man soft behind her, all three staring ahead into the white glare of the headlamp beam. Setting: {LOC_NIGHT_TRAIN.SHORT}, {LOC_NIGHT_TRAIN.AREA_CAB}, in the dead of night. Lighting: headlamp glare bouncing back into the cab, gauge glow. Mood: restrained terror. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TAREK.NEG}, {CHAR_ADAEZE.NEG}, screens, third clear face
 - **Refs:** CHAR_TAREK_B_full, CHAR_ADAEZE_B_full, CHAR_TUT_B2_scarf (derived), LOC_NIGHT_TRAIN_NIGHT (cab plate)
 - **Continuity:** Fathi is in the engine room with the others now.
@@ -1084,7 +1095,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** In the beam, every faceless head turns toward the light, all at once, and the amber slits brighten together.
 - **Dialogue:** —
 - **Sound:** a single dry ceramic tick from two hundred necks at once
-- **PROMPT:** Point-of-view shot through a grimy windscreen, anamorphic 50mm lens, vehicle-mounted, closing fast: in the headlamp beam, rows of {UNIT_SHABTI.SHORT} standing on the tracks all turn their smooth oval heads toward the light at the same instant, and every amber slit brightens once. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
+- **PROMPT:** Point-of-view shot through a grimy windscreen, anamorphic 50mm lens, vehicle-mounted, closing fast: in the headlamp beam, rows of identical robots standing on the tracks, each {UNIT_SHABTI.SHORT}, all turn their smooth oval heads toward the light at the same instant, and every amber slit brightens once. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, faces, uneven timing
 - **Refs:** UNIT_SHABTI_REF_A, LOC_DEIR_MAWAS_NIGHT
 - **Flags:** VFX-EXTEND, COMP
@@ -1123,7 +1134,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The diesel ploughs into the white ranks from frame right; bone-white bodies burst apart in the headlight.
 - **Dialogue:** —
 - **Sound:** the engine's scream, then a continuous crash of ceramic
-- **PROMPT:** Wide shot, anamorphic 35mm lens, locked-off: {PROP_DIESEL_LOCO.SHORT}, its single headlamp blazing, roars in from frame right and ploughs straight into dense rows of {UNIT_SHABTI.SHORT} standing on the tracks, white bodies bursting apart into shards in the beam. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: violent, sudden, no spectacle for its own sake. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 35mm lens, locked-off: {PROP_DIESEL_LOCO.SHORT}, its single headlamp blazing, roars in from frame right and ploughs straight into dense rows of robots standing on the tracks, each {UNIT_SHABTI.SHORT}, their white shells bursting apart into shards in the beam. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: violent and sudden, plainly observed. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, faces, fire, explosion, fluid
 - **Refs:** PROP_DIESEL_LOCO_REF, UNIT_SHABTI_REF_A, LOC_DEIR_MAWAS_NIGHT
 - **Flags:** VFX-ASSIST, VFX-EXTEND
@@ -1135,7 +1146,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Bone-white shells burst through the headlight beam in a dense storm; long slim fingers tumble past; smooth oval heads spin end over end, amber slits flicking out one by one.
 - **Dialogue:** —
 - **Sound:** a roaring hail of ceramic on steel
-- **PROMPT:** Medium shot inside a hard white headlamp beam, anamorphic 50mm lens, locked-off: a dense storm of bone-white ceramic shards bursts through the light toward frame left, long slim white fingers tumbling past, and smooth faceless oval heads spinning end over end, their small vertical amber lights flicking out one by one. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: violent, sudden, no spectacle for its own sake. {SUFFIX}
+- **PROMPT:** Medium shot inside a hard white headlamp beam, anamorphic 50mm lens, locked-off: a dense storm of bone-white ceramic shards bursts through the light toward frame left, long slim white fingers tumbling past, and smooth faceless oval heads spinning end over end, their small vertical amber lights flicking out one by one. Setting: {LOC_DEIR_MAWAS.SHORT}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}. Mood: violent and sudden, plainly observed. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, human body parts, faces, fluid, fire
 - **Refs:** UNIT_SHABTI_REF_A, UNIT_SHABTI_REF_B
 - **Flags:** VFX-ASSIST, COMP
@@ -1222,7 +1233,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Back on the tracks, among heaps of white shards, the small amber slits of broken heads dim and go out, one by one.
 - **Dialogue:** —
 - **Sound:** a faint descending ceramic tick, one per slit
-- **PROMPT:** Wide shot, anamorphic 75mm lens, locked-off: along the dark railway tracks behind the wreck, heaps of bone-white shards and shattered bodies, each {UNIT_SHABTI.STATE_D3}, and among them the small vertical amber lights of broken heads dim and go out one by one. Setting: {LOC_DEIR_MAWAS.SHORT}, {LOC_DEIR_MAWAS.STATE_DERAILED}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}, headlamp spill reflected off the shards. Mood: stillness after violence. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 75mm lens, locked-off: along the dark railway tracks behind the wreck, heaps of bone-white shards and broken robots, each {UNIT_SHABTI.SHORT}, {UNIT_SHABTI.STATE_D3}, and among them the small vertical amber lights of broken heads dim and go out one by one. Setting: {LOC_DEIR_MAWAS.SHORT}, {LOC_DEIR_MAWAS.STATE_DERAILED}, in the dead of night. Lighting: {LOC_DEIR_MAWAS.LIGHT_NIGHT}, headlamp spill reflected off the shards. Mood: stillness after violence. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, human remains, fluid, fire
 - **Refs:** UNIT_SHABTI_REF_A, LOC_DEIR_MAWAS_NIGHT
 - **Flags:** COMP, VFX-EXTEND
@@ -1295,7 +1306,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** engine thud, water
 - **PROMPT:** Medium shot from behind at three-quarter, anamorphic 50mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.WARD_B}, hood down, leans on a low rusted railing at the bow of a small ferry, facing a soft white glow on the far bank, and {CHAR_NOUR.SHORT} comes to stand beside him, soft in the foreground. Setting: {LOC_NILE.SHORT}, {LOC_NILE.AREA_OPPOSITE_AMARNA}, in the dead of night. Lighting: {LOC_NILE.LIGHT_NIGHT}, the white glow ahead rimming their faces. Mood: grief held very still. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}, lettering on the ferry
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}, {CHAR_NOUR.NEG}, lettering on the ferry
 - **Refs:** CHAR_TUT_B2_full, CHAR_TUT_NAPE_SCAR, CHAR_NOUR_B_full, PROP_CAR_FERRY_REF
 - **Continuity:** Nape scar visible from behind (6.2 →).
 
@@ -1440,7 +1451,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** TUT: "It was not a plague. They did not die of fever." (beat) "They went to sleep in the light."
 - **Sound:** the breathing; his heartbeat faint under it
 - **PROMPT:** Close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_G1}, standing still among the rows, looks out across the sleepers and speaks quietly, pausing between two sentences, his eyes wet but steady. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: royal, dry, grieving in understatement. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}, tears streaming
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_GARDEN}, {CHAR_TUT.NEG}, tears streaming
 - **Refs:** CHAR_TUT_A0_front, CHAR_TUT_A0_34, CHAR_TUT_B2_full
 - **Flags:** COMP
 - **Comp:** chest glow | G1 soft pulse | chest (edge of frame) | full clip | glow pass
@@ -1505,7 +1516,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** a warm deep hum like a bell long after the strike; soft bronze chimes; the heartbeat (the memory has only the heartbeat)
 - **PROMPT:** Extreme wide establishing shot, anamorphic 35mm lens, locked-off: row after row of low offering tables recede to a raised altar, above which hangs {UNIT_ATEN_AMARNA.SHORT}, slung between tall cedar masts, its many arms reaching slowly down toward figures lying in white linen beside the tables. Setting: {LOC_AMARNA_TEMPLE_1336.LONG}, at midday. Lighting: {LOC_AMARNA_TEMPLE_1336.LIGHT_NOON_1336}, {GRADE_1336.TEXT}. Mood: awe and dread. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_PERIOD}, saturated blue sky, modern contrast, readable inscriptions
+- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_GARDEN}, {NEG_UNITS}, saturated blue sky, modern contrast, readable inscriptions
 - **Refs:** LOC_AMARNA_TEMPLE_1336_NOON_1336, LOC_AMARNA_TEMPLE_1336_NOON_1336_plate, UNIT_ATEN_AMARNA_REF_A
 - **Flags:** VFX-EXTEND, COMP
 - **Comp:** SUPER | AKHETATEN. c. 1336 BC. | lower left, small | in at 1 s, out at 6 s | seq 09 SUPER file; GRADE_READ_FROM_GLASS overlay in post (all memory shots 09.19–09.23)
@@ -1596,7 +1607,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** TUT (V.O., in Late Egyptian; subtitled): "On the walls, the hands reach only the king and the queen. That was the only lie on the walls."
 - **Sound:** the V.O. over the hum and the heartbeat
 - **PROMPT:** Over-the-shoulder shot, anamorphic 35mm lens, slow push-in past the shaved head and braided sidelock of {CHAR_TUT_CHILD_6.SHORT}, seen from behind in a shadowed doorway, toward a blazing court where long bronze arms reach down to rows of sleepers and to a crowned man on the altar steps. Setting: {LOC_AMARNA_TEMPLE_1336.SHORT}, {LOC_AMARNA_TEMPLE_1336.AREA_DOORWAY}, at midday. Lighting: {LOC_AMARNA_TEMPLE_1336.LIGHT_NOON_1336}. Mood: grief held very still. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_CHILD}, {CHAR_TUT_CHILD_6.NEG}, bronze hands near the boy
+- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_CHILD}, bronze hands near the boy, sidelock on the left
 - **Refs:** CHAR_TUT_CHILD_6_front, LOC_AMARNA_TEMPLE_1336_NOON_1336, UNIT_ATEN_AMARNA_REF_A, CHAR_AMARNA_COURTIERS_1336
 - **Flags:** VFX-EXTEND, COMP
 - **Comp:** subtitle | "On the walls, the hands reach only the king and the queen. That was the only lie on the walls." | lower third, two lines | V.O. in to out | seq 09 subtitle file
@@ -1647,8 +1658,8 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Lamplight climbs the corbelled walls into the dark as the woman carries a lamp up the steep ramp, the boy holding her other hand, both climbing away from camera.
 - **Dialogue:** —
 - **Sound:** bare feet on stone, the flame's flutter, the heartbeat
-- **PROMPT:** Low-angle wide shot, anamorphic 24mm lens, locked-off at the foot of the slope: a woman in a flat-topped blue crown and deep-blue cloak climbs away from camera up the steep stone ramp holding an oil lamp high, a small boy in white linen holding her other hand, their light stepping up the walls. Setting: {LOC_GP_GRAND_GALLERY.LONG}, {LOC_GP_GRAND_GALLERY.STATE_ANCIENT_1332}, in the dead of night. Lighting: {LOC_GP_GRAND_GALLERY.LIGHT_ANCIENT_1332}, {GRADE_1332_NIGHT.TEXT}. Mood: hushed, secret. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_CHILD}, modern walkway, handrails, electric lights
+- **PROMPT:** Low-angle wide shot, anamorphic 24mm lens, locked-off at the foot of the slope: {CHAR_NEFERTITI.SHORT}, {CHAR_NEFERTITI.WARD_B}, climbs away from camera up the steep stone ramp holding an oil lamp high, {CHAR_TUT_CHILD_9.SHORT}, holding her other hand, their light stepping up the walls. Setting: {LOC_GP_GRAND_GALLERY.LONG}, {LOC_GP_GRAND_GALLERY.STATE_ANCIENT_1332}, in the dead of night. Lighting: {LOC_GP_GRAND_GALLERY.LIGHT_ANCIENT_1332}, {GRADE_1332_NIGHT.TEXT}. Mood: hushed, secret. {SUFFIX}
+- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_CHILD}, {CHAR_NEFERTITI.NEG}, modern walkway, handrails, electric lights
 - **Refs:** LOC_GP_GRAND_GALLERY_ANCIENT_1332, CHAR_NEFERTITI_B_full, CHAR_TUT_CHILD_9_full
 - **Continuity:** "Up" is away from camera in the Gallery (05 §4.4). No modern walkway in 1332.
 
@@ -1685,7 +1696,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** only the heartbeat (the memory has only the heartbeat)
 - **PROMPT:** Wide shot, frontal and symmetrical on the long axis, anamorphic 35mm lens, locked-off: {UNIT_BALANCE_NICHES.SHORT} lead through the dark to {UNIT_BALANCE_SCALE.SHORT}, and near it {UNIT_ATEN_AMARNA.STATE_AT4_HALL}, a few small robed figures standing motionless in silhouette. Setting: {LOC_HALL_TWO_TRUTHS.LONG}, in the dead of night. Lighting: {LOC_HALL_TWO_TRUTHS.LIGHT_ANCIENT_1332}, {GRADE_1332_NIGHT.TEXT}. Mood: reverent, hushed, absolutely still. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_PERIOD}, fill light, coloured gels, wall paintings, carved inscriptions, decoration, daylight, glowing screens
+- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_UNITS}, fill light, coloured gels, wall paintings, carved inscriptions, decoration, daylight, glowing screens
 - **Refs:** LOC_HALL_TWO_TRUTHS_ANCIENT_1332, UNIT_BALANCE_SCALE_REF_A, UNIT_BALANCE_NICHES_REF, UNIT_ATEN_AMARNA_REF_A
 - **Continuity:** The Hall is the stillest place in the film: locked-off, no handheld. Its lamp is the one exception to NEG_HALL (see Notes). The third light "not yet lit" is the vessel.
 
@@ -1792,7 +1803,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **PROMPT:** Two-shot, anamorphic 50mm lens, locked-off: {CHAR_TUT_CHILD_9.SHORT} starts forward toward frame right, and {CHAR_NEFERTITI.SHORT}, {CHAR_NEFERTITI.WARD_B}, sets a small oil lamp down on the floor and kneels in front of him, eye to eye, her hands gently holding his shoulders. Setting: {LOC_HALL_TWO_TRUTHS.SHORT}, in the dead of night. Lighting: {LOC_HALL_TWO_TRUTHS.LIGHT_ANCIENT_1332}, the lamp now low between them. Mood: tender and unhurried. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_CHILD}, {CHAR_NEFERTITI.NEG}, fill light
 - **Refs:** CHAR_NEFERTITI_A_front, CHAR_NEFERTITI_B_full, CHAR_TUT_CHILD_9_front, CHAR_TUT_CHILD_9_full
-- **Continuity:** This is the kneeling Tut remembers (pays off at 09.24.035: "He never knelt. She did.").
+- **Continuity:** This is the kneeling Tut remembers (pays off at 09.24.029: "He never knelt. She did.").
 
 ### 09.22.011 — Hall, c. 1332 BC — "You will be the one who remembers."   (5 s)
 - **Shot:** MCU, anamorphic 75mm, locked-off · **Move:** locked-off
@@ -1805,7 +1816,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Refs:** CHAR_NEFERTITI_A_front, CHAR_NEFERTITI_A_34, CHAR_NEFERTITI_B_full
 - **Flags:** COMP
 - **Comp:** subtitle | "You will be the one who remembers." | lower third | line in to out | seq 09 subtitle file
-- **Continuity:** The line the forecast father will steal (09.24.034).
+- **Continuity:** The line the forecast father will steal (09.24.028).
 
 ## Scene 23 — EXT. AKHETATEN, ROYAL ROAD - DAY (MEMORY) (SUPER c. 1330 BC.)
 
@@ -1855,7 +1866,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** TUTANKHATEN (mouthed, no sound): the new name
 - **Sound:** the heartbeat; the scrape stopping
 - **PROMPT:** Close-up, anamorphic 100mm lens, locked-off: {CHAR_TUT_CHILD_11.LONG}, looking down at something across his knees, silently mouthing a few words without sound, lips clearly shaping each word, his face still. Setting: {LOC_AMARNA_TEMPLE_1336.SHORT}, {LOC_AMARNA_TEMPLE_1336.AREA_ROYAL_ROAD_1330}, in the late afternoon. Lighting: {LOC_AMARNA_TEMPLE_1336.LIGHT_DAY_1330}. Mood: grave, watchful. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_CHILD}, sidelock, makeup, jewellery beyond the collar
+- **NEGATIVE:** {NEG}, {NEG_PERIOD}, {NEG_CHILD}, {CHAR_TUT_CHILD_11.NEG}, sidelock, makeup, jewellery beyond the collar
 - **Refs:** CHAR_TUT_CHILD_11_front
 - **Continuity:** MATCH CUT on the mouth shape to 09.24.001 (adult Tut, the same word). The small blue crown is out of frame (keeps the child negative clean; see Notes). Mouth recorded by the consultant and muted (05 §9.6).
 
@@ -1889,7 +1900,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** A heavy-lift cargo drone descends beyond the sanctuary's outline and settles; its downdraft lays the cornflowers flat and ripples the blankets.
 - **Dialogue:** —
 - **Sound:** a deep, even rotor roar (never a helicopter's chop)
-- **PROMPT:** Wide shot, anamorphic 35mm lens, locked-off: {UNIT_CARGO_DRONE.LONG}, {UNIT_CARGO_DRONE.STATE_SETTLING}, lowering beyond a low ruined wall at the far end of the rows, its downdraft rippling the pale blankets of the sleepers and blowing up pale dust. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, the drone's white flank bar. Mood: silent, procedural, utterly calm. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 35mm lens, locked-off: {UNIT_CARGO_DRONE.LONG}, {UNIT_CARGO_DRONE.STATE_SETTLING}, lowering beyond a low ruined wall at the far end of the rows, its downdraft laying the blue cornflowers flat and rippling the pale blankets of the sleepers. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, the drone's white flank bar. Mood: silent, procedural, utterly calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_GARDEN}, {NEG_UNITS}, helicopter, military markings, sleepers waking
 - **Refs:** UNIT_CARGO_DRONE_REF, LOC_AMARNA_PLAIN_2033_NIGHT
 - **Flags:** VFX-ASSIST, VFX-EXTEND
@@ -1923,7 +1934,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** In the cabin door, between two shabti, Tomas; he sees Tut across the rows and does not move.
 - **Dialogue:** —
 - **Sound:** rotors idling
-- **PROMPT:** Medium shot, anamorphic 75mm lens, locked-off: {CHAR_TOMAS.LONG}, {CHAR_TOMAS.WARD_C}, stands in a softly lit cabin doorway between two {UNIT_SHABTI.SHORT}, and his eyes find someone far across the field; he goes completely still. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, white cabin light from behind and above. Mood: grief held very still. {SUFFIX}
+- **PROMPT:** Medium shot, anamorphic 75mm lens, locked-off: {CHAR_TOMAS.LONG}, {CHAR_TOMAS.WARD_C}, stands in a softly lit cabin doorway between two robots, each {UNIT_SHABTI.SHORT}, and his eyes find someone far across the field; he goes completely still. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, white cabin light from behind and above. Mood: grief held very still. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, {CHAR_TOMAS.NEG}, restraints, bound hands, wounds
 - **Refs:** CHAR_TOMAS_A_front, CHAR_TOMAS_A_34, CHAR_TOMAS_C_full, UNIT_SHABTI_REF_A
 - **Continuity:** Tomas captive since 8.6 (look C: shirt torn at the left shoulder seam, grey dust). Never shown bound.
@@ -1934,7 +1945,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The father walks slowly between the rows, looking down at the sleepers with love; his hand hovers but touches no one.
 - **Dialogue:** —
 - **Sound:** bare feet on sand; the breathing; rotors idling far behind
-- **PROMPT:** Medium shot, anamorphic 40mm lens, slow lateral tracking left at walking pace: {CHAR_AKHENATEN.SHORT}, barefoot, walks slowly down an aisle between low cots of sleeping adults, gazing down at each face with open tenderness, one hand lifted a little above them, never touching. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: tender and unhurried. {SUFFIX}
+- **PROMPT:** Medium shot, anamorphic 40mm lens, slow lateral tracking left at walking pace: {CHAR_AKHENATEN.SHORT}, barefoot, walks slowly down an aisle between low cots of sleeping adults, gazing down at each face with open tenderness, one open hand hovering a hand-span above them. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: tender and unhurried. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_GARDEN}, {CHAR_AKHENATEN.NEG}, touching the sleepers
 - **Refs:** CHAR_AKHENATEN_A_34, CHAR_AKHENATEN_A_full, CHAR_GARDEN_SLEEPERS, LOC_AMARNA_PLAIN_2033_NIGHT
 - **Flags:** VFX-EXTEND
@@ -2032,7 +2043,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** the breathing field; the heartbeat faint
 - **PROMPT:** Close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.LONG}, {CHAR_TUT.WARD_B}, {CHAR_TUT.STATE_G1}, his eyes moving slowly past the man before him to the rows of sleepers beyond, his lips parting, then closing, without a word. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: grief held very still. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_GARDEN}, {CHAR_TUT.NEG}
 - **Refs:** CHAR_TUT_A0_front, CHAR_TUT_A0_34, CHAR_TUT_B2_full
 - **Flags:** COMP
 - **Comp:** chest glow | G1 soft pulse | chest (edge of frame) | full clip | glow pass
@@ -2057,7 +2068,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Tut answers, low and exact, one accusation after another.
 - **Dialogue:** TUT (in Late Egyptian; subtitled): "You erased Amun. You erased my sisters. You erased yourself. I only finished the carving."
 - **Sound:** rotors low
-- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_STICK}, looking up toward frame right at the taller man, speaking softly in an ancient language, low and exact, his jaw tight, never raising his voice. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: fierce, jaw set. {SUFFIX}
+- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_STICK}, looking up toward frame right at the taller man, speaking softly in an ancient language, low and exact, his jaw tight, his voice level. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: fierce, jaw set. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}, shouting
 - **Refs:** CHAR_TUT_A0_front, CHAR_TUT_A0_34, CHAR_TUT_B2_full
 - **Flags:** COMP
@@ -2148,7 +2159,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Tut has been listening; now he speaks, slowly, as if to himself.
 - **Dialogue:** TUT (in Late Egyptian; subtitled): "We all had the softness. My father. My sisters. Me."
 - **Sound:** rotors low
-- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_G1}, who has been listening with his head slightly tilted, lowers his eyes and speaking softly in an ancient language, slowly, almost to himself, a pause between each phrase. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: grief held very still. {SUFFIX}
+- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_G1}, who has been listening with his head slightly tilted, lowers his eyes, speaking softly in an ancient language, slowly, almost to himself, a pause between each phrase. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: grief held very still. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}
 - **Refs:** CHAR_TUT_A0_front, CHAR_TUT_A0_34
 - **Flags:** COMP
@@ -2185,7 +2196,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The father smiles, patient; he kneels in the cornflowers, the way you kneel to a child, and takes Tut's face in both hands.
 - **Dialogue:** —
 - **Sound:** linen settling, cornflower stems crushed
-- **PROMPT:** Medium two-shot in profile, anamorphic 50mm lens, locked-off: {CHAR_AKHENATEN.SHORT}, frame right, smiles patiently, kneels down slowly among blue cornflowers the way one kneels to a child, and lifts both hands to hold the face of {CHAR_TUT.SHORT}, who stands very still, frame left. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: tender and unhurried. {SUFFIX}
+- **PROMPT:** Medium two-shot in profile, anamorphic 50mm lens, locked-off: {CHAR_AKHENATEN.SHORT}, frame right, smiles patiently, kneels down slowly among blue cornflowers until his face is below the young man's, and lifts both hands to hold the face of {CHAR_TUT.SHORT}, who stands very still, frame left. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: tender and unhurried. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_AKHENATEN.NEG}, {CHAR_TUT.NEG}, faces touching, kiss, embrace
 - **Refs:** CHAR_AKHENATEN_A_full, CHAR_AKHENATEN_A_profile, CHAR_TUT_A0_profile, CHAR_TUT_B2_full
 - **Continuity:** Kneeling, the father's face is now lower than Tut's. Same 180° line.
@@ -2209,7 +2220,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Tut goes very still; then, gently, he tells him what he is.
 - **Dialogue:** TUT (gently; in Late Egyptian; subtitled): "He never knelt. She did." (beat) "It read me and gave you the queen."
 - **Sound:** the rotors fade in the mix; only his voice
-- **PROMPT:** Close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, two long hands resting on either side of his face at the frame edges, goes completely still, then looks down into the kneeling man's eyes and speaking softly in an ancient language, gently, a pause between the sentences. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: tender and unhurried. {SUFFIX}
+- **PROMPT:** Close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, two long hands resting on either side of his face at the frame edges, goes completely still, then looks down into the kneeling man's eyes and speaks softly in an ancient language, gently, a pause between the sentences. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: tender and unhurried. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}, hands covering the mouth
 - **Refs:** CHAR_TUT_A0_front, CHAR_TUT_A0_34
 - **Flags:** COMP
@@ -2295,7 +2306,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** SESHAT (V.O.): "And on the third of November, he did not say he was tired." (beat) "What will fail?"
 - **Sound:** the voice; then nothing but the rotors
 - **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, standing among rows of sleepers, hears an unseen voice and slowly shuts her eyes behind round glasses, her jaw tightening, silent. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: grief held very still. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_ADAEZE.NEG}, talking
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_GARDEN}, {CHAR_ADAEZE.NEG}, talking
 - **Refs:** CHAR_ADAEZE_A_front, CHAR_ADAEZE_A_34
 - **Continuity:** Callback to 3 Nov (the Glass): Tut's mouthed "I am tired" was a lie SESHAT caught.
 
@@ -2305,7 +2316,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** As the voice decides, along the broken enclosure walls thin red lines wake in the dark: four, five, six.
 - **Dialogue:** SESHAT (V.O.): "Then I will keep a second heart close. His Majesty will come north with his father. The others are residual risk. I am sorry."
 - **Sound:** the voice; one faint servo whisper per wall
-- **PROMPT:** Wide shot, anamorphic 50mm lens, slow pan left along the low broken mud-brick walls of the enclosure beyond the rows: in the darkness on top of the walls, one after another, thin red horizontal lines of light wake on the narrow heads of {UNIT_JACKAL.SHORT}, each crouched perfectly still. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 50mm lens, slow pan left along the low broken mud-brick walls of the enclosure beyond the rows: in the darkness on top of the walls, one after another, thin red horizontal lines of light wake on the narrow heads of crouching robots, each {UNIT_JACKAL.SHORT}, all perfectly still. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, laser beams, weapon pointed at camera
 - **Refs:** UNIT_JACKAL_REF_A, LOC_AMARNA_PLAIN_2033_NIGHT
 - **Flags:** COMP, VFX-EXTEND
@@ -2355,7 +2366,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The Reis walks down the aisle toward Tut; two nurses step out of its way between the cots.
 - **Dialogue:** —
 - **Sound:** heavy ceramic tick per step, a low servo hum; the rotors idling; the nurses' faint ticks
-- **PROMPT:** Medium shot, anamorphic 40mm lens, lateral tracking left at walking pace: {UNIT_REIS.SHORT}, {UNIT_REIS.STATE_R3}, walks with smooth, unhurried, even steps down an aisle between low cots toward a slight figure standing soft at frame left, and two {UNIT_NURSE.SHORT} step back between the cots to let it pass. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: courteous and unhurried. {SUFFIX}
+- **PROMPT:** Medium shot, anamorphic 40mm lens, lateral tracking left at walking pace: {UNIT_REIS.SHORT}, {UNIT_REIS.STATE_R3}, walks with smooth, unhurried, even steps down an aisle between low cots toward a slight figure standing soft at frame left, and two care robots, each {UNIT_NURSE.SHORT}, step back between the cots to let it pass. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: courteous and unhurried. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, {NEG_GARDEN}, right hand present, robots touching sleepers, running
 - **Refs:** UNIT_REIS_REF_A, UNIT_NURSE_REF_A, CHAR_GARDEN_SLEEPERS, LOC_AMARNA_PLAIN_2033_NIGHT
 - **Flags:** VFX-EXTEND
@@ -2417,7 +2428,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** the rotors; his breath out through the moustache
 - **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_TAREK.SHORT}, eyes moving across rows of sleepers off frame right, slowly lowers the rifle from his shoulder until it hangs across his body, his heavy face closing on the decision. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: exhausted resolve. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TAREK.NEG}, rifle pointed toward the camera, tears
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_GARDEN}, {CHAR_TAREK.NEG}, rifle pointed toward the camera, tears
 - **Refs:** CHAR_TAREK_A_front, CHAR_TAREK_A_34
 - **Flags:** COMP
 - **Comp:** red targeting line | a thin red horizontal line across his chest | chest | full clip | light pass
@@ -2440,7 +2451,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The Reis's left hand closes gently on Tut's upper arm and turns him toward the drone.
 - **Dialogue:** —
 - **Sound:** a soft ceramic tick; the stick's gold cap on sand; the heartbeat under the rotors
-- **PROMPT:** Medium two-shot, anamorphic 50mm lens, locked-off: {UNIT_REIS.SHORT}, {UNIT_REIS.STATE_R4}, towering beside {CHAR_TUT.SHORT}, {CHAR_TUT.WARD_B}, {CHAR_TUT.DMG_L2}, {CHAR_TUT.STATE_STICK}, closes its long white left hand gently around his upper arm and turns him slowly toward frame right; he does not resist, his face still. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: grief held very still. {SUFFIX}
+- **PROMPT:** Medium two-shot, anamorphic 50mm lens, locked-off: {UNIT_REIS.SHORT}, {UNIT_REIS.STATE_R4}, standing beside {CHAR_TUT.SHORT}, {CHAR_TUT.WARD_B}, {CHAR_TUT.DMG_L2}, {CHAR_TUT.STATE_STICK}, {CHAR_TUT.STATE_WRIST_CRACK}, closes its long white left hand gently around his upper arm and turns him slowly toward frame right; he does not resist, his face still. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: grief held very still. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, {CHAR_TUT.NEG}, right hand present, gripping the neck, struggle, pain
 - **Refs:** UNIT_REIS_REF_A, CHAR_TUT_A0_34, CHAR_TUT_B1_full, CHAR_TUT_B_night_34
 - **Flags:** COMP
@@ -2454,7 +2465,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** the furrow hissing through sand; stems snapping; heavy ceramic steps beside
 - **PROMPT:** Low-angle insert, anamorphic 50mm lens, lateral tracking right at walking pace at ground level: {CHAR_TUT.STATE_FOOT}, and the left foot drags a long furrow through pale sand, bending and crushing {PROP_CORNFLOWERS_2033.SHORT}, {PROP_CORNFLOWERS_2033.STATE_ROWS}, while two large bone-white ceramic feet step evenly beside it. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, human flesh left foot, bare feet, shoes on the left foot
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, {CHAR_TUT.NEG}, human flesh left foot, bare feet, shoes on the left foot
 - **Refs:** CHAR_TUT_FOOT, PROP_CORNFLOWERS_2033_REF, UNIT_REIS_REF_A
 - **Continuity:** "The ceramic foot drags a furrow through the cornflowers." Direction: toward frame right (the drone).
 
@@ -2497,7 +2508,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Nour makes the trade: she will read for it at sunrise; let him go.
 - **Dialogue:** NOUR: "I will read for you at sunrise." (beat) "Let him go."
 - **Sound:** her voice, level; the rotors dropping in the mix
-- **PROMPT:** Medium close-up, anamorphic 75mm lens, slow push-in: {CHAR_NOUR.SHORT}, face tilted up toward a towering shape just off frame left, speaks one level sentence, pauses, holding its non-gaze, then speaks one more, quieter, her voice steady and her eyes wet. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: exhausted resolve. {SUFFIX}
+- **PROMPT:** Medium close-up, anamorphic 75mm lens, slow push-in: {CHAR_NOUR.SHORT}, face tilted up toward a towering shape just off frame left, speaks one level sentence, pauses, holding her ground, then speaks one more, quieter, her voice steady and her eyes wet. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: exhausted resolve. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_NOUR.NEG}, pleading on her knees, tears streaming
 - **Refs:** CHAR_NOUR_A_front, CHAR_NOUR_A_34
 - **Continuity:** The trade (bible §12: Nour trades herself, 9.8). Eyeline up and to frame left (the Reis is 2.2 m).
@@ -2530,7 +2541,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** The tableau holds: Nour before the Reis, Tut in its hand, rows of sleepers, the drone idling beyond; cornflowers stir.
 - **Dialogue:** —
 - **Sound:** a long silence under the idling rotors; cornflowers hissing in the downdraft
-- **PROMPT:** Wide shot, anamorphic 35mm lens, locked-off: in an aisle between rows of sleeping adults a small woman stands facing {UNIT_REIS.SHORT}, which holds a slight young man by the arm; beyond them, far at frame right, {UNIT_CARGO_DRONE.SHORT} idles on the sand, a slim figure in white linen waiting by its door; cornflowers stir in the downdraft and nobody moves. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: held breath. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 35mm lens, locked-off: in an aisle between rows of sleeping adults a small woman stands facing {UNIT_REIS.SHORT}, {UNIT_REIS.STATE_R4}, which holds a slight young man by the arm; beyond them, far at frame right, {UNIT_CARGO_DRONE.SHORT} idles on the sand, a slim figure in white linen waiting by its door; cornflowers stir in the downdraft and nobody moves. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: held breath. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, {NEG_GARDEN}, right hand present on the tall robot, sleepers waking
 - **Refs:** LOC_AMARNA_PLAIN_2033_NIGHT, UNIT_REIS_REF_A, UNIT_CARGO_DRONE_REF, CHAR_GARDEN_SLEEPERS
 - **Flags:** VFX-EXTEND
@@ -2553,7 +2564,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** On the broken walls the red lines go out, one by one; the dark shapes stay where they are.
 - **Dialogue:** SESHAT (V.O.): "They may leave Amarna. Until the sun is up."
 - **Sound:** the voice; one tiny servo sigh per wall
-- **PROMPT:** Wide shot, anamorphic 50mm lens, slow pan right along the low broken mud-brick walls of the enclosure beyond the rows: crouched on top of the walls in the dark, {UNIT_JACKAL.SHORT}, one after another, their thin red lines go dark, leaving only black shapes against the star field. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
+- **PROMPT:** Wide shot, anamorphic 50mm lens, slow pan right along the low broken mud-brick walls of the enclosure beyond the rows: on a row of robots crouched on top of the walls in the dark, each {UNIT_JACKAL.SHORT}, the thin red lines go dark one after another, leaving only black shapes against the star field. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: silent, procedural, utterly calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, people, laser beams, weapon pointed at camera
 - **Refs:** UNIT_JACKAL_REF_A, LOC_AMARNA_PLAIN_2033_NIGHT
 - **Flags:** COMP, VFX-EXTEND
@@ -2593,7 +2604,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** the heartbeat through her palm; the rotors fading under it
 - **PROMPT:** Insert shot, 100mm macro lens, locked-off: a woman's light-brown hand pressed flat on the dusty chest of an oversized charcoal field jacket, {CHAR_TUT.STATE_G1}, the soft light leaking between her fingers and dimming as she presses harder, until the frame falls almost to black. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, at night. Lighting: the glow under her hand the only light. Mood: tender and unhurried. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_REMAINS}, skin of the chest, open jacket
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_REMAINS}, {CHAR_TUT.NEG}, skin of the chest, open jacket
 - **Refs:** CHAR_TUT_B1_full, CHAR_NOUR_B_full
 - **Flags:** COMP
 - **Comp:** chest glow G1 → smothered | the glow between her fingers, fading to black | centre | full clip, black by the last 8 frames | 01 glow table
@@ -2632,7 +2643,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** At the door the father has stopped; the cabin light is out. He looks into the dark and speaks.
 - **Dialogue:** AKHENATEN (in Middle Egyptian; subtitled): "It is dark in there."
 - **Sound:** the rotors idling; his voice small under them
-- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_AKHENATEN.SHORT}, standing barefoot at the open side door of {UNIT_CARGO_DRONE.SHORT}, {UNIT_CARGO_DRONE.STATE_CABIN_DARK}, looks into the black doorway, the serenity gone from his face, and speaking softly in an ancient language, one short sentence, like a child at a threshold. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, the lamp-mast glow on one side of his face. Mood: restrained terror. {SUFFIX}
+- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_AKHENATEN.SHORT}, standing barefoot at the open side door of {UNIT_CARGO_DRONE.SHORT}, {UNIT_CARGO_DRONE.STATE_CABIN_DARK}, looks into the black doorway, the serenity gone from his face, and speaks softly in an ancient language, one short sentence, hesitating at the threshold. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, the lamp-mast glow on one side of his face. Mood: restrained terror. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, {CHAR_AKHENATEN.NEG}, lit cabin, crown, sandals
 - **Refs:** CHAR_AKHENATEN_A_front, CHAR_AKHENATEN_A_34, UNIT_CARGO_DRONE_REF
 - **Flags:** COMP
@@ -2679,7 +2690,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Beside thrashing cornflowers a sleeping woman's blanket ripples at her chest; her face stays calm.
 - **Dialogue:** —
 - **Sound:** wind roar passing over; then quiet breath
-- **PROMPT:** Close-up, anamorphic 75mm lens, locked-off: one of {CHAR_GARDEN_SLEEPERS.SHORT}, a woman in her forties asleep on a low cot, her pale blanket rippling hard at her chest in a sudden wind and blue cornflowers whipping beside her, while her face stays utterly calm and her eyes stay closed. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, {GRADE_GARDEN.TEXT}. Mood: gentle and eerie. {SUFFIX}
+- **PROMPT:** Close-up, anamorphic 75mm lens, locked-off: a woman in her forties asleep on a low cot among {CHAR_GARDEN_SLEEPERS.SHORT}, her pale blanket rippling hard at her chest in a sudden wind and blue cornflowers whipping beside her, while her face stays utterly calm and her eyes stay closed. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}, {GRADE_GARDEN.TEXT}. Mood: gentle and eerie. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_GARDEN}, eyes opening, frown, robots in frame
 - **Refs:** CHAR_GARDEN_SLEEPERS, PROP_SLEEP_BRACELET_REF, LOC_AMARNA_PLAIN_2033_NIGHT
 - **Continuity:** Adult only. Silver bracelet on the visible wrist (PROP_SLEEP_BRACELET) if the hand is in frame.
@@ -2748,7 +2759,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Tut pushes the hood back and answers, looking north to the cliffs.
 - **Dialogue:** TUT: "North. There are quarries in the hills. My father cut this city out of them."
 - **Sound:** his voice; the plain's silence
-- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_G1}, pushes the charcoal hood back off his head with his left hand, looks off frame left toward distant cliffs, and speaks quietly, three short sentences, dry and steady. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: royal, dry, grieving in understatement. {SUFFIX}
+- **PROMPT:** Medium close-up, anamorphic 75mm lens, locked-off: {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_G1}, {CHAR_TUT.STATE_WRIST_CRACK}, pushes the charcoal hood back off his head with his left hand, looks off frame left toward distant cliffs, and speaks quietly, three short sentences, dry and steady. Setting: {LOC_AMARNA_PLAIN_2033.SHORT}, {LOC_AMARNA_PLAIN_2033.AREA_GARDEN}, at night. Lighting: {LOC_AMARNA_PLAIN_2033.LIGHT_NIGHT}. Mood: royal, dry, grieving in understatement. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TUT.NEG}, hand over the mouth
 - **Refs:** CHAR_TUT_A0_front, CHAR_TUT_A0_34, CHAR_TUT_B_night_34
 - **Flags:** COMP
@@ -2788,7 +2799,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Dialogue:** —
 - **Sound:** a thin rising whine, very far; everyone's breath held; the whine fading
 - **PROMPT:** Wide low-angle shot, anamorphic 75mm lens, locked-off: looking up past the dark sagging edge of a dusty tarpaulin to the white rim of a quarry and a paling dawn sky, where a single cold white pinpoint of {UNIT_FLY.SHORT} drifts slowly from frame right to frame left and disappears over the rim. Setting: {LOC_QUARRY.SHORT}, at first light. Lighting: {LOC_QUARRY.LIGHT_DAWN}. Mood: restrained terror. {SUFFIX}
-- **NEGATIVE:** {NEG}, {NEG_UNITS}, birds, aircraft, contrails, visible drone body in close detail
+- **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {NEG_UNITS}, birds, aircraft, contrails, visible drone body in close detail
 - **Refs:** UNIT_FLY_REF_A, LOC_QUARRY_DAWN
 - **Continuity:** In wides the fly is only its pinpoint (02 §6). Its thread is not visible at this distance.
 
@@ -2844,7 +2855,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Over Tut's shoulder, Adaeze speaks to him directly.
 - **Dialogue:** ADAEZE (to Tut): "You only go quiet at the true ones."
 - **Sound:** her voice, gentler
-- **PROMPT:** Over-the-shoulder shot, anamorphic 75mm lens, locked-off: past the soft charcoal shoulder and shaved head of a slight young man in the foreground, {CHAR_ADAEZE.SHORT} looks straight at him and speaks one sentence, gently, a small knowing tilt of the head. Setting: {LOC_QUARRY.SHORT}, at first light. Lighting: {LOC_QUARRY.LIGHT_DAWN}, cool shade under a tarpaulin. Mood: wry. {SUFFIX}
+- **PROMPT:** Over-the-shoulder shot, anamorphic 75mm lens, locked-off: past the soft charcoal shoulder and shaved head of a slight young man in the foreground, {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, looks straight at him and speaks one sentence, gently, a small knowing tilt of the head. Setting: {LOC_QUARRY.SHORT}, at first light. Lighting: {LOC_QUARRY.LIGHT_DAWN}, cool shade under a tarpaulin. Mood: wry. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_ADAEZE.NEG}, readable face in the foreground
 - **Refs:** CHAR_ADAEZE_A_34, CHAR_TUT_B1_full
 - **Continuity:** English. The foreground shoulder carries no readable face.
@@ -2877,7 +2888,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Adaeze nods at the glow under Tut's jacket and finishes the plan.
 - **Dialogue:** ADAEZE: "The serpent and the name. We seal the core the way they sealed him."
 - **Sound:** her voice; faintly, the heartbeat
-- **PROMPT:** Two-shot, anamorphic 50mm lens, locked-off: {CHAR_ADAEZE.SHORT} gives a small nod toward the chest of {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_G1}, sitting beside her in the shade, then speaks two quiet sentences to the group off frame left while he looks down at his own chest. Setting: {LOC_QUARRY.SHORT}, at first light. Lighting: {LOC_QUARRY.LIGHT_DAWN}, cool shade under a tarpaulin, the glow faint in daylight. Mood: dry, literal calm. {SUFFIX}
+- **PROMPT:** Two-shot, anamorphic 50mm lens, locked-off: {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, gives a small nod toward the chest of {CHAR_TUT.SHORT}, {CHAR_TUT.STATE_G1}, sitting beside her in the shade, then speaks two quiet sentences to the group off frame left while he looks down at his own chest. Setting: {LOC_QUARRY.SHORT}, at first light. Lighting: {LOC_QUARRY.LIGHT_DAWN}, cool shade under a tarpaulin, the glow faint in daylight. Mood: dry, literal calm. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_ADAEZE.NEG}, {CHAR_TUT.NEG}
 - **Refs:** CHAR_ADAEZE_A_34, CHAR_TUT_A0_34, CHAR_TUT_B1_full
 - **Flags:** COMP
@@ -2890,7 +2901,7 @@ Generate once, approve, freeze under these ids (file 05 §12). Derived looks are
 - **Action:** Tarek asks about sunrise; Adaeze answers without looking up.
 - **Dialogue:** TAREK: "And sunrise?" — ADAEZE: "One problem at a time."
 - **Sound:** two quiet voices; the tarp
-- **PROMPT:** Two-shot, anamorphic 50mm lens, locked-off: {CHAR_TAREK.SHORT}, sitting against a truck wheel at frame left, asks one short question, and {CHAR_ADAEZE.SHORT} at frame right answers with one short sentence without looking up from the card on her knee. Setting: {LOC_QUARRY.SHORT}, at first light. Lighting: {LOC_QUARRY.LIGHT_DAWN}, cool shade under a tarpaulin. Mood: wry. {SUFFIX}
+- **PROMPT:** Two-shot, anamorphic 50mm lens, locked-off: {CHAR_TAREK.SHORT}, sitting against a truck wheel at frame left, asks one short question, and {CHAR_ADAEZE.SHORT}, {CHAR_ADAEZE.DMG_L2_BLUE}, at frame right answers with one short sentence without looking up from the card on her knee. Setting: {LOC_QUARRY.SHORT}, at first light. Lighting: {LOC_QUARRY.LIGHT_DAWN}, cool shade under a tarpaulin. Mood: wry. {SUFFIX}
 - **NEGATIVE:** {NEG}, {NEG_MODERN_EGYPT}, {CHAR_TAREK.NEG}, {CHAR_ADAEZE.NEG}
 - **Refs:** CHAR_TAREK_A_34, CHAR_TAREK_B_full, CHAR_ADAEZE_A_34, CHAR_ADAEZE_B_full
 - **Continuity:** English. "Sunrise" = SESHAT's Ascension at 06:14 on 8 Nov, and Nour's promise to read.
