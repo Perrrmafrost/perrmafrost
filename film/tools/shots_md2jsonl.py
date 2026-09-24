@@ -5,6 +5,7 @@ Usage: shots_md2jsonl.py shots/seq_NN_shots.md [--out shots/seq_NN_shots.jsonl]
 
 Tokens (expanded verbatim, so every prompt carries the production bible's exact wording):
   {SUFFIX}          global style suffix (05 §1.1)           -- PROMPT must end with it
+  {SUFFIX_COMPACT}  compact suffix (05 §1.2)                 -- used only in the derived motion prompt
   {NEG}             global negative prompt (05 §2.1)        -- NEGATIVE must start with it
   {NEG_XXX}         negative add-on (05 §2.2)
   {TOKEN.FIELD}     any entry of production_bible/locks.json, e.g. {CHAR_NOUR.SHORT}, {LOC_KARNAK_HYPOSTYLE.LONG}
@@ -22,12 +23,16 @@ Shot block format (one per shot):
   - **Flags:** COMP, VFX-EXTEND, EXTEND:07.03.011   (optional)
   - **Comp:** ...                (optional; overlay text/graphics for COMP shots)
   - **Continuity:** ...
+Each row also carries "motion_prompt" (05 §5.5), derived from the tokenized PROMPT: every LONG lock
+becomes its SHORT lock, wardrobe (WARD_*) and damage (DMG_*) phrases are dropped, and {SUFFIX} becomes
+{SUFFIX_COMPACT}. Image-to-video renders send this instead of the master prompt.
 Exit code 1 on any validation error (all errors are printed).
 """
 import json, re, sys, pathlib
 
 HERE = pathlib.Path(__file__).parent
 PB = HERE.parent / "production_bible"
+MOTION_CAP = 1500  # characters (05 §5.3)
 
 
 def load_fixed():
@@ -36,7 +41,7 @@ def load_fixed():
         i = style.index(heading)
         m = re.search(r"^> (.+)$", style[i:], flags=re.M)
         return m.group(1).strip()
-    fixed = {"SUFFIX": quote_after("### 1.1"), "NEG": quote_after("### 2.1")}
+    fixed = {"SUFFIX": quote_after("### 1.1"), "SUFFIX_COMPACT": quote_after("### 1.2"), "NEG": quote_after("### 2.1")}
     for tok, text in re.findall(r"^\| `(NEG_[A-Z0-9_]+)` \| [^|]+ \| ([^|]+) \|", style, flags=re.M):
         fixed[tok] = text.strip()
     locks_path = PB / "locks.json"
@@ -45,6 +50,13 @@ def load_fixed():
 
 
 TOKEN = re.compile(r"\{([A-Z][A-Z0-9_]*)(?:\.([A-Za-z0-9_]+))?\}")
+
+
+def motion_source(prompt):
+    """05 §5.5 steps 2, 3 and 5, done on the tokens so no lock wording is edited by hand."""
+    p = re.sub(r"\{([A-Z][A-Z0-9_]*)\.LONG\}", r"{\1.SHORT}", prompt)
+    p = re.sub(r",?\s*\{[A-Z][A-Z0-9_]*\.(?:WARD|DMG)_[A-Za-z0-9_]+\}", "", p)
+    return p.replace("{SUFFIX}", "{SUFFIX_COMPACT}")
 
 
 def expand(text, fixed, locks, errors, where):
@@ -99,7 +111,7 @@ def main():
     out = pathlib.Path(sys.argv[sys.argv.index("--out") + 1]) if "--out" in sys.argv else src.with_suffix(".jsonl")
     fixed, locks = load_fixed()
     shots = parse(src.read_text())
-    errors, seen = [], set()
+    errors, warnings, seen = [], [], set()
     rows = []
     for s in shots:
         w = s["id"]
@@ -110,6 +122,8 @@ def main():
         if not (2 <= s["duration_s"] <= 10): errors.append(f"{w}: duration {s['duration_s']} outside 2-10 s")
         shot, move = (s.get("shot", "").split("· **Move:**") + [""])[:2]
         prompt = expand(s.get("prompt", ""), fixed, locks, errors, w)
+        motion = expand(motion_source(s.get("prompt", "")), fixed, locks, [], w)
+        if len(motion) > MOTION_CAP: warnings.append(f"{w}: motion prompt {len(motion)} chars > {MOTION_CAP}")
         negative = expand(s.get("negative", ""), fixed, locks, errors, w)
         if not prompt.rstrip().endswith(fixed["SUFFIX"]): errors.append(f"{w}: PROMPT does not end with {{SUFFIX}}")
         if not negative.startswith(fixed["NEG"]): errors.append(f"{w}: NEGATIVE does not start with {{NEG}}")
@@ -119,7 +133,7 @@ def main():
             "id": w, "scene": s["scene"], "title": s["title"], "duration_s": s["duration_s"],
             "shot": shot.strip().rstrip("·").strip(), "move": move.strip(), "in_frame": s.get("in_frame", ""),
             "action": s.get("action", ""), "dialogue": s.get("dialogue", "—"), "sound": s.get("sound", ""),
-            "prompt": prompt, "negative": negative,
+            "prompt": prompt, "motion_prompt": motion, "negative": negative,
             "refs": [x.strip() for x in s.get("refs", "").split(",") if x.strip()],
             "flags": flags, "comp": s.get("comp", ""), "continuity": s.get("continuity", ""),
             "resolution": "1920x1080", "aspect": "16:9", "fps": 24,
@@ -128,9 +142,11 @@ def main():
         for r in rows:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
     total = sum(r["duration_s"] for r in rows)
-    print(f"{src.name}: {len(rows)} shots, {total/60:.1f} min, {len(errors)} errors -> {out.name}")
+    print(f"{src.name}: {len(rows)} shots, {total/60:.1f} min, {len(errors)} errors, {len(warnings)} warnings -> {out.name}")
     for e in errors[:200]:
         print("  ERR", e)
+    for e in warnings[:200]:
+        print("  WARN", e)
     sys.exit(1 if errors else 0)
 
 

@@ -1,0 +1,50 @@
+{
+ "1": {
+  "class_type": "VHS_LoadVideoPath",
+  "_meta": {
+   "title": "Approved take"
+  },
+  "inputs": {
+   "video": "",
+   "force_rate": 24,
+   "custom_width": 0,
+   "custom_height": 0,
+   "frame_load_cap": 0,
+   "skip_first_frames": 0,
+   "select_every_nth": 1,
+   "format": "None"
+  }
+ },
+ "2": {
+  "class_type": "RTXVideoSuperResolution",
+  "inputs": {
+   "images": [
+    "1",
+    0
+   ],
+   "resize_type": "target dimensions",
+   "resize_type.width": 1920,
+   "resize_type.height": 1088,
+   "quality": "ULTRA"
+  }
+ },
+ "3": {
+  "class_type": "VHS_VideoCombine",
+  "inputs": {
+   "images": [
+    "2",
+    0
+   ],
+   "frame_rate": 24,
+   "loop_count": 0,
+   "filename_prefix": "HEREAMI_1080/take",
+   "format": "video/h264-mp4",
+   "pingpong": false,
+   "save_output": true,
+   "pix_fmt": "yuv420p",
+   "crf": 14,
+   "save_metadata": true,
+   "trim_to_audio": false
+  }
+ }
+}
