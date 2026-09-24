@@ -27,7 +27,7 @@ Exit code 1 on any validation error (all errors are printed).
 import json, re, sys, pathlib
 
 HERE = pathlib.Path(__file__).parent
-PB = HERE / "production_bible"
+PB = HERE.parent / "production_bible"
 
 
 def load_fixed():
