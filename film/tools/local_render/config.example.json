@@ -1,0 +1,24 @@
+{
+  "comfy_url": "http://127.0.0.1:8188",
+  "workflow_file": "workflow_api.json",
+  "output_dir": "renders",
+  "stills_dir": "stills",
+
+  "render_width": 832,
+  "render_height": 480,
+  "model_fps": 16,
+  "frame_rule": "4n+1",
+  "max_frames": 81,
+
+  "nodes": {
+    "positive": "6.text",
+    "negative": "7.text",
+    "seed": "3.seed",
+    "width": "40.width",
+    "height": "40.height",
+    "length": "40.length",
+    "filename_prefix": "50.filename_prefix",
+    "start_image": ""
+  },
+  "_help": "Each entry is '<node id>.<input name>' from YOUR exported workflow_api.json. Leave a key empty if your workflow has no such input. Set start_image (e.g. '52.image') for image-to-video from reference stills. The values above are placeholders, not your real node IDs."
+}

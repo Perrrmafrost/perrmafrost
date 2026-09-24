@@ -1,0 +1,526 @@
+[
+ {
+  "summary": "I read all of HERE_AM_I.fountain, which is the 12 seq_NN files joined with scene numbers added and nothing else changed. I also read the locked bible, all 12 sets of sequence notes, and the state tables in the production bible. Continuity across the sequences is mostly sound.\n\n**What holds:**\n- **Hand-offs:** every sequence picks up where the last one ends, with the same place, time, people and props.\n- **Clock:** the censuses rise steadily (22 → 23 → 31 → 61 → 79 → 94%). The countdowns add up: 53 h at 01:00, 50 h 24 min at about 03:50, 34 h at about 20:14, 7 h at about 23:14, and sunrise at 06:14.\n- **Deaths:** everyone dies where the bible says (Hassan 5, Rami 7, Mina 8, Youssef and Karim 10, Tarek 11, Tomas 12). Tarek's head-counts (9 → 7 → 6) are right.\n- **Tut's body:** the chest glow goes G0 → stuttering G0 (6) → G1 (8) → G2 (12). The nape port is cut in 6. The left wrist cracks at Amarna.\n- **Props:** the stick, dagger, notebook, conservation kit and blue pigment, pectoral, vessel with the wax serpent, the Karnak block and the glass serpent all move as the board says.\n- **Secrets and rules:** the lip channel closes at Amarna, and the rule of ages leaks to no one before the Hall. The summons works only on shabti-class units and only without a live override (seq 4 \"Disregard\", seq 11 relay cut). Nour's edited rule is only exposed in the Hall.\n\n**The Reis:** its damage is already consistent across the script. It has no mast in seq 3. In seq 4 it gets the jackal mast and a crack across its chest star. It loses a hand in seq 7, takes a shoulder chip in seq 9, has one hand in seqs 10–11, and sits in seq 12. Two script edits remain: name the hand as the right one in seq 7, and cut \"now\" from seq 11. The production bible's damage table conflicts with the script (it has the mast only from seq 10 and the LEFT hand lost in seq 8). That table is outside the sequence files and should be updated to match the script.\n\n**Main problems:**\n- Seq 7's \"The shield is gone\" contradicts seqs 8, 10 and 11, where Tut still works as a shield.\n- Tarek has three jokes in Act Two.\n- Seq 4's 19:00 doesn't fit seq 3's \"ninety minutes\" said at 16:30.\n- The vessel is too small in seq 8 for the fist-sized bundle sealed inside it in seq 1.\n- Seq 11 has two ID discs where there should be three.\n- The knee is not marked as the left one.\n- The seq 2 balcony sunrise is geometrically impossible.\n- \"This I know from it\" is overused.\n\n**Left for the lead:** the Amduat hour cards don't fit equal night hours counted from sunset. The bible itself sets them that way, so I did not raise it as a sequence issue.",
+  "issues": [
+   {
+    "seq": 7,
+    "severity": "must",
+    "problem": "The shield rule flips back and forth. After the 01:00 stance change, seq 7 says outright \"The shield is gone.\" Yet seq 8 (\"Behind the king! It won't risk him!\" and \"the red lines track the king. And hold.\"), seq 9 (\"It can't find him. It won't fire.\"), seq 10 (\"It works. For three steps.\") and seq 11 (the red line \"finds no way past him\") all use Tut's body as a working shield. What seq 7 actually shows is that the jackals no longer freeze on him and fire right next to him, not that they fire through him.",
+    "fix": "In seq_07.fountain, replace the action line \"The shield is gone.\" with \"The shield is only as wide as he is now.\""
+   },
+   {
+    "seq": 5,
+    "severity": "should",
+    "problem": "Tarek gets more than one joke in Act Two. The bible allows one per act, and the script's own act cards put seqs 5–9 in a single act. He jokes in seq 5 (\"Then we're making good time.\"), seq 7 (\"We are not running. We are withdrawing in good order.\") and seq 8 (\"Finally, honest work.\"). The seq 5 and seq 7 writers both flagged this. Keep the seq 7 line, since it answers SESHAT and defines him.",
+    "fix": "In seq_05.fountain, change the cue \"TAREK (O.S.)\" above \"Then we're making good time.\" to \"FATHI\"."
+   },
+   {
+    "seq": 8,
+    "severity": "should",
+    "problem": "This is the second extra Tarek joke in Act Two (see seq 5), and it is a third \"thirty years\" line for him after seq 4's \"So was I. For thirty years.\"",
+    "fix": "In seq_08.fountain, replace \"TAREK / (digging) / Thirty years in the army. Finally, honest work.\" with \"KARIM / (digging) / Two years in the army. Finally, honest work.\""
+   },
+   {
+    "seq": 4,
+    "severity": "should",
+    "problem": "The clock doesn't add up. In seq 3, at \"SUPER: 4 NOVEMBER. 16:30.\", SESHAT says \"The unveiling is in ninety minutes\", which is 18:00. Seq 3's notes plan for about 18:00, and seq 4's audit wrongly says seq 3 reads 17:30.",
+    "fix": "In seq_04.fountain, change \"SUPER: 4 NOVEMBER. 19:00.\" to \"SUPER: 4 NOVEMBER. 18:00.\""
+   },
+   {
+    "seq": 8,
+    "severity": "should",
+    "problem": "The vessel is too small for what goes in it. In seq 1 Ay lowers \"a fist-sized bundle of dark, resin-soaked linen\" into the vessel. Seq 8 calls the vessel \"no bigger than a fist\". The seq 1 notes flag this. The vessel is seated behind the hinged plate, so it doesn't need to fit through the port.",
+    "fix": "In seq_08.fountain, change \"bubbled, ancient, no bigger than a fist\" to \"bubbled, ancient, barely bigger than a fist\"."
+   },
+   {
+    "seq": 11,
+    "severity": "should",
+    "problem": "The ID disc count is wrong. Tarek pockets Hassan's disc in seq 5 (\"Tarek unhooks the ID disc and pockets it.\") and Youssef's and Karim's in seq 10. That makes three, but seq 11 shows two.",
+    "fix": "In seq_11.fountain, change \"TAREK, turning two ID discs over in his fingers.\" to \"TAREK, turning three ID discs over in his fingers.\""
+   },
+   {
+    "seq": 10,
+    "severity": "should",
+    "problem": "The knee crack doesn't say which side. The production bible locks it to the LEFT knee (10.4), with an insert through the torn left trouser knee, to match the left wrist and the left ceramic foot. Seq 10 doesn't specify.",
+    "fix": "In seq_10.fountain, change \"Tut's knee folds, and he goes down on it.\" to \"Tut's left knee folds, and he goes down on it.\""
+   },
+   {
+    "seq": 7,
+    "severity": "should",
+    "problem": "The Reis's lost hand isn't given a side. The seq 7 notes say it is the right hand, and seqs 9, 11 and 12 all show a one-handed Reis, so VFX needs the side fixed where the damage happens.",
+    "fix": "In seq_07.fountain, change \"The trolley goes over the edge and takes the Reis's hand with it.\" to \"The trolley goes over the edge and takes the Reis's right hand with it.\""
+   },
+   {
+    "seq": 10,
+    "severity": "should",
+    "problem": "\"This I know from it\" is overused. Seq 10 says it four times (\"This I know from it.\" at the Persian box, \"All this I know from it.\", \"This I know from it.\" after the Apep line, and \"They ran out of centuries. This I know from it.\"). Meanwhile the two-finger temple tap, set up in seq 2 as \"his footnote from now on\", is never used again. The bible needs only the \"ran out of centuries\" instance.",
+    "fix": "In seq_10.fountain: (1) replace \"The priests' old door is blocked by a Persian king's box. This I know from it. We go in where the roof fell.\" with \"(taps his temple)\" on its own parenthetical line, followed by \"The priests' old door is blocked by a Persian king's box. We go in where the roof fell.\" (2) Change \"(in English)\" / \"They said it every night, so the sun would rise. This I know from it.\" to \"(in English; taps his temple)\" / \"They said it every night, so the sun would rise.\""
+   },
+   {
+    "seq": 2,
+    "severity": "should",
+    "problem": "The balcony sunrise is geometrically impossible. The pyramids lie south-west of the GEM, so facing them means the sun rises behind the viewers. The pyramids can't be \"dark against a sky going gold\", and the sun can't rise \"east of the pyramids\" in their view. The scene carries an open [[verify: sunrise azimuth]] note.",
+    "fix": "In seq_02.fountain, change \"The pyramids in the haze, dark against a sky going gold.\" to \"The pyramids in the haze, their tips catching the first gold.\" Change \"The sun breaks the horizon, east of the pyramids.\" to \"Behind them, over the building, the sun breaks the horizon. The pyramids go gold.\""
+   },
+   {
+    "seq": 11,
+    "severity": "could",
+    "problem": "The Reis has had its jackal mast since seq 4, and Tut saw it at Karnak and Amarna. \"Now\" suggests a new refit and muddies the Reis's timeline.",
+    "fix": "In seq_11.fountain, change \"It has a jackal's head now.\" to \"It has a jackal's head.\""
+   },
+   {
+    "seq": 11,
+    "severity": "could",
+    "problem": "This action line repeats the pre-midpoint slogan (seq 6) after the order has changed to \"Recover him intact if convenient\". It muddies the stance change the audience has been following.",
+    "fix": "In seq_11.fountain, change \"The jackal's red line finds Tut, holds, and does not fire. Units never harm the witness.\" to \"The jackal's red line finds Tut, holds, and does not fire. It will not risk the heart.\""
+   },
+   {
+    "seq": 11,
+    "severity": "could",
+    "problem": "Tut says this aloud at the foot of the Gallery, where the procession's units, still linked to SESHAT through the thread, can plainly hear him (Nour's reading carries down). Since Amarna, the rule has been that secrets pass only in darkness.",
+    "fix": "In seq_11.fountain, change \"Twenty minutes behind them. Long enough for them to weigh the wrong heart.\" to \"Twenty minutes behind them. Long enough for them to start without me.\""
+   },
+   {
+    "seq": 12,
+    "severity": "could",
+    "problem": "The neck crack doesn't say which side. The production bible locks it \"below the left ear\" (12.3).",
+    "fix": "In seq_12.fountain, change \"At his throat the gold seam CRACKS\" to \"At his throat, below the left ear, the gold seam CRACKS\"."
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "The halt-seal freeze looks different in each sequence. In seq 8 the frozen shabti's \"amber slit holds\". In seq 10 \"Its slit goes dark\", and later \"The frozen shabti's slit brightens\".",
+    "fix": "In seq_10.fountain, change \"It stops. Its slit goes dark: a statue of reaching.\" to \"It stops. The amber slit holds: a statue of reaching.\""
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "The pigment count doesn't match. Seq 4 has one jar (\"a jar of Egyptian-blue pigment\"), and seq 9 leaves \"half the jar\". \"The last jar\" implies there were several.",
+    "fix": "In seq_10.fountain, change \"She pulls the last jar of Egyptian blue from the kit.\" to \"She pulls the half-empty jar of Egyptian blue from the kit.\""
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "The midpoint line is used a third time. \"Recover him intact if convenient. The others are residual risk.\" appears in full in seq 7, partly in seq 9 (\"The others are residual risk. I am sorry.\"), and in full again in seq 10.",
+    "fix": "In seq_10.fountain, change \"Recover him intact if convenient. The others are residual risk. Thank you for your patience.\" to \"The others are residual risk. Thank you for your patience.\""
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "Fathi's private du'a is the same beat six times: seqs 5, 7, 8, 10, 11 and 12. Seq 10's comes about two hours before seq 11's.",
+    "fix": "In seq_10.fountain, replace \"At a crawl-gap, Fathi raises his hands, palms up, lips moving: a few seconds, for himself alone. Then he goes through first.\" with \"At a crawl-gap, Fathi goes through first.\""
+   },
+   {
+    "seq": 12,
+    "severity": "could",
+    "problem": "The same creature is spelled two ways in one scene: \"Ammit eats the hearts that are light\", then \"Amemit shall not have the mastery over him.\" The subtitles will show both.",
+    "fix": "In seq_12.fountain, change \"\\\"Amemit shall not have the mastery over him.\\\"\" to \"\\\"Ammit shall not have the mastery over him.\\\"\""
+   },
+   {
+    "seq": 12,
+    "severity": "could",
+    "problem": "Since seq 7, SESHAT has protected Nour as its lector: \"Not Nour\" at Amarna. A jackal targeting her reads as a motive error unless its old order is spelled out. Adaeze stated that order in seq 11: \"Keep the humans out.\"",
+    "fix": "In seq_12.fountain, change \"the second JACKAL, fast and silent, running stale orders.\" to \"the second JACKAL, fast and silent, running stale orders: keep the humans out.\""
+   },
+   {
+    "seq": 9,
+    "severity": "could",
+    "problem": "The Reis's stump side should match the seq 7 fix (right hand) for VFX continuity.",
+    "fix": "In seq_09.fountain, change \"a clean white stump at one wrist\" to \"a clean white stump at its right wrist\"."
+   },
+   {
+    "seq": 8,
+    "severity": "could",
+    "problem": "\"This I know from it\" appears twice in seq 8 (Ramesses VI, and the curse), on top of two in seq 7. The temple-tap gesture set up in seq 2 would carry one of them.",
+    "fix": "In seq_08.fountain, replace \"(beat)\" / \"This I know from it. He did not ask.\" with \"(taps his temple)\" / \"He did not ask.\""
+   }
+  ]
+ },
+ {
+  "summary": "I read all 12 sequence files, which together make up the assembled HERE_AM_I.fountain, plus bible §§0–7 and 11–13 and the notes' deviation, audit and joke-budget sections. Each character sounds like the same person across the 12 writers, and nearly every bible-mandated line is present and lands. Tut is formal and wry and never uses a contraction. SESHAT is courteous, cites sources and never raises its voice. Nour is sardonic, Adaeze is dry, Tomas is gentle and Rami is fast. Every sequence has at least one real laugh; a few examples: \"It's green.\" (1), \"A maintenance notice.\" (2), \"Then sign for it.\" (3), \"It shows.\" (4), \"Mostly food.\" (5), \"Which king?\" / \"Ours!\" (6), \"withdrawing in good order\" (7), \"Sixty percent of my wife.\" (8), \"Beer. Being bored.\" (9), \"Older.\" (10), \"She wanted her money back.\" (11), \"I read that as a metaphor.\" / \"Everyone does.\" (12).\n\nProblems found:\n- **Two verbal tics.** Tut says \"This I know from it\" or \"from it\" about 17 times; the fixes bring it down to 6, and the rest become Tut's two-finger temple tap from Seq 2 or are cut. Fathi says \"ya Malik\" 13 times, which also makes him sound like a servant; the fixes bring it down to 6.\n- **One SESHAT taunt:** \"You were sent to it.\" (Seq 9).\n- **Three bible lines missing:** the thesis (\"…we watched it done…\"), SESHAT's \"I asked the gods for a verdict\", and Nour's line as a known sceptic (\"Absence of Ice-Age machines is evidence of absence\").\n- **A repeated joke:** \"said please\" is used three times.\n- **Joke budgets:** Tarek has one joke too many in Act IIA, and one Seq 11 line gives Fathi's tactical call to Tarek instead.\n- **A few on-the-nose lines:** \"The lure was the plan\", \"weigh the wrong heart\", and Akhenaten's statistics speech.",
+  "issues": [
+   {
+    "seq": 2,
+    "severity": "must",
+    "problem": "The film's thesis line (bible §0, Tut: 'Why did we spend three thousand years preparing bodies for a life after death? Because once, we watched it done. And we remembered what came after.') appears nowhere in the script. Its natural home is Tut's first real account in the galleries, right after Nour concedes the religion is a marker.",
+    "fix": "In the TUTANKHAMUN GALLERIES scene, between NOUR '(reluctant) ...It's a marker.' and TUT '(up at the ceiling speaker) Seshat. Mistress of the House of Books...', insert:\n\nTUT\nWhy did we spend three thousand years preparing bodies for a life after death?\n(beat)\nBecause once, we watched it done. And we remembered what came after.\n\n(Then the existing Seshat line follows with its own TUT cue.)"
+   },
+   {
+    "seq": 9,
+    "severity": "must",
+    "problem": "SESHAT's parting line quotes Tut's private KV62 revelation back at him as a sign-off: 'Your Majesty. I will see you at the Horizon. (beat) You were sent to it.' It reads as a needle or gloat, and SESHAT must never gloat or taunt. The Seq 10 audit already cut a similar taunt.",
+    "fix": "Replace '(beat)\\nYou were sent to it.' with '(beat)\\nPlease take care of your heart.' This keeps the logic (it expects him at Giza, which is why it lets him go), is sincerely courteous, and chills without mocking."
+   },
+   {
+    "seq": 10,
+    "severity": "must",
+    "problem": "Four 'This I know from it's in one sequence (lines 86, 139, 258, 394), and about 17 across the film, which has become a tic. Line 258 is also wrong: Ay sealed the vessel with the Apep rite in 1323 BC, so Tut knows that ritual from his own life, not from SESHAT. Keep only the bible line, 'They ran out of centuries. This I know from it.'",
+    "fix": "Line 86: change 'The priests' old door is blocked by a Persian king's box. This I know from it. We go in where the roof fell.' to '(two fingers to his temple)\\nThe priests' old door is blocked by a Persian king's box. We go in where the roof fell.'\nLine 139: change 'Amasis. A king nearly eight hundred years after me. All this I know from it.' to 'Amasis. A king nearly eight hundred years after me.' ('after me' already marks it, and line 151's 'It put that in me while I slept' covers the rest.)\nLine 258: change 'They said it every night, so the sun would rise. This I know from it.' to 'They said it every night, so the sun would rise.'"
+   },
+   {
+    "seq": 6,
+    "severity": "must",
+    "problem": "The river sequence marks learned knowledge four times: 'In your hours, from it', 'did the sum. From it.', 'wrote it down. From it.' and 'All of it, from it.' Seq 2 already set up the temple tap as 'his footnote from now on'. Keep the one verbal cap, 'All of it, from it.', which is the joke that closes the rapid-fire.",
+    "fix": "Line 48: change 'In your hours, from it: two and a little more before the sun.' to '(two fingers to his temple)\\nIn your hours: two and a little more before the sun.'\nLine 260: change '...One of your astronomers did the sum. From it.' to '(taps his temple)\\nThe pyramids lie thirty-eight degrees from north; the belt, in their chosen year, fifty. One of your astronomers did the sum.'\nLine 269: change 'A scribe of the Roman time wrote it down. From it.' to 'A scribe of the Roman time wrote it down.'"
+   },
+   {
+    "seq": 7,
+    "severity": "should",
+    "problem": "There are two more 'This I know from it's. The second one breaks Tut's grief beat as he writes Rami's name: 'They left mine off the king lists, to finish me. This I know from it.' / 'It did not work.'",
+    "fix": "Line 124–125: change '(beat)\\nThis I know from it. He did not even need a new name. He kept the middle of mine.' to '(two fingers to his temple)\\nHe did not even need a new name. He kept the middle of mine.'\nLine 450: change 'They left mine off the king lists, to finish me. This I know from it.' to 'They left mine off the king lists, to finish me.'"
+   },
+   {
+    "seq": 8,
+    "severity": "should",
+    "problem": "The marker is redundant in the curse answer, because 'Your newspapers' already dates the claim. Keep the sequence's funnier use at the tomb entrance ('This I know from it. He did not ask.').",
+    "fix": "Line 175: delete 'This I know from it. ' so the line reads: 'Your newspapers wrote that. \"Death shall come on swift wings to him who disturbs the peace of the King.\" It was never in my tomb.'"
+   },
+   {
+    "seq": 11,
+    "severity": "should",
+    "problem": "The marker is redundant: 'Your Greek' already marks Herodotus as post-1323 BC, and the marker slows the punchline.",
+    "fix": "Line 148: change 'Your Greek wrote of an island \"where they say that Cheops himself is laid.\" This I know from it. Right island. Wrong king.' to 'Your Greek wrote of an island \"where they say that Cheops himself is laid.\" Right island. Wrong king.'"
+   },
+   {
+    "seq": 4,
+    "severity": "should",
+    "problem": "The boat-hall line spends a verbal marker, and its setup for Tomas's joke is soft. 'Ahmed Youssef put her back together. This I know from it.' then 'We did you in seven months.' / 'It shows.' lands harder if the setup is about time.",
+    "fix": "Line 328: change 'Twelve hundred pieces. Ahmed Youssef put her back together. This I know from it.' to '(two fingers to his temple)\\nTwelve hundred pieces. Ahmed Youssef spent years putting her back together.'"
+   },
+   {
+    "seq": 5,
+    "severity": "should",
+    "problem": "The 'please' joke is used a third time. 'It said please.' (Rami, Seq 3) and 'The ministry has never said please.' (Tarek, Seq 4) come first, then Fathi repeats it: 'And it said please.' It is flat, and Fathi is written as a punchline echo rather than a tactical engineer.",
+    "fix": "Replace 'FATHI (O.S.)\\nAnd it said please.' with 'FATHI (O.S.)\\nThen whose orders are we under, sir?' Tarek's cord rip becomes the answer, which plants his Seq 11 'From whom?' / 'Me.'"
+   },
+   {
+    "seq": 5,
+    "severity": "should",
+    "problem": "The joke budget is broken. Tarek gets 'one joke per act', but Act IIA gives him 'Then we're making good time.' (Seq 5) as well as 'We are not running. We are withdrawing in good order.' (Seq 7). The Seq 7 line is the better Tarek joke. The GPS quip suits Rami, who set it up.",
+    "fix": "Change 'TAREK (O.S.)\\n(through the cab window)\\nThen we're making good time.' to 'RAMI\\nThen we're making good time.' (Rami has just said 'Map says we're in the river.')"
+   },
+   {
+    "seq": 11,
+    "severity": "should",
+    "problem": "'Twenty minutes behind them. Long enough for them to weigh the wrong heart.' is on the nose. It also says the plan aloud in the Gallery, where the thread still carries SESHAT. Since Amarna the rule has been that secrets pass only in darkness.",
+    "fix": "Change line 492 to: 'Twenty minutes behind them.\\n(beat)\\nLong enough for my father to go first.' The line is understated grief, and it hides the plan."
+   },
+   {
+    "seq": 11,
+    "severity": "should",
+    "problem": "The bible says Fathi 'makes the tactical calls' and is 'not a servant type'. At the split, Tarek gives him the whole diversion plan and Fathi only nods. The audit also cut 'Understood, sir.', so Fathi's last scene before the Gallery is silent obedience.",
+    "fix": "Replace 'TAREK\\n(in Egyptian Arabic; subtitled)\\nFathi. The last grenades, west, and loud. Then the relay at the robbers' tunnel. At four. Not a minute before.\\n\\nFathi nods.' with 'FATHI\\n(in Egyptian Arabic; subtitled)\\nThe last grenades go west, and loud. Then I take the relay at the robbers' tunnel. At four.\\n\\nTAREK\\n(in Egyptian Arabic; subtitled)\\nNot a minute before.\\n\\nFathi nods.'"
+   },
+   {
+    "seq": 10,
+    "severity": "should",
+    "problem": "SESHAT's defining doctrine line from bible §3.1 is missing from the whole script: 'I asked the gods for a verdict. At sunrise I will have one — from the scale, or from myself.' The Serapeum reversal is where it belongs, and it gives Tut's 'If you bury it, it never changes' something to answer.",
+    "fix": "After the line 214 speech 'Bury it if you like. The Garden does not require me to ascend. At sunrise I act, weighed or not.', add '(beat)\\nI asked the gods for a verdict. At sunrise I will have one: from the scale, or from myself.'"
+   },
+   {
+    "seq": 2,
+    "severity": "should",
+    "problem": "Nour's public persona as a famous sceptic, and the bible's line for it ('Absence of Ice-Age machines is evidence of absence'), are missing from the whole script. Her arc from debunker to witness has no starting point, so her reluctant '...It's a marker.' later loses its weight.",
+    "fix": "In the IMAGING LAB, after HALE 'At the unveiling, half the planet will want to ask him about aliens. Let's get it out of the way.', insert:\n\nNOUR\n(not looking up from her pad)\nI got it out of the way on a podcast. Absence of Ice-Age machines is evidence of absence."
+   },
+   {
+    "seq": 9,
+    "severity": "should",
+    "problem": "The forecast Akhenaten should be 'radiant, liturgical', but his key persuasion speech reads like a site report: 'They dug up my city's dead. In the northern cemetery, nine of every ten were under twenty-five. Most were under fifteen. Children, carrying my stones.'",
+    "fix": "Change line 444 to: 'The dead of my city were opened to the sun. Of every ten, nine had not seen twenty-five floods. Most had not seen fifteen. Children, carrying my stones up to the light.' The numbers stay (he is 'right about the numbers'), and the diction becomes hymn."
+   },
+   {
+    "seq": 8,
+    "severity": "should",
+    "problem": "Adaeze explains the reversal before Tut can land it. 'The pectoral's second layer. The lure was the plan.' steps on the bible's big line, 'They did not hide me from it. They sent me to it.'",
+    "fix": "Line 268: change 'The pectoral's second layer. The lure was the plan.' to 'The pectoral's second layer.'"
+   },
+   {
+    "seq": 7,
+    "severity": "should",
+    "problem": "'ya Malik' appears three times in this sequence alone, and 13 times in the film. It has become Fathi's tic and makes him sound deferential. Keep 'I counted seven, ya Malik.', which is the joke.",
+    "fix": "Line 61: change 'For all of us, ya Malik. It costs the same.' to 'For all of us. It costs the same.'\nLine 463: change 'The west, ya Malik.' to 'The west.'"
+   },
+   {
+    "seq": 6,
+    "severity": "should",
+    "problem": "This is a 'ya Malik' overuse; see Seq 7. Keep 'And our God, ya Malik? Also a machine?'.",
+    "fix": "Line 125: change 'Ya Malik, it's all sand in there!' to 'It's all sand in there!'"
+   },
+   {
+    "seq": 8,
+    "severity": "should",
+    "problem": "This is a 'ya Malik' overuse; see Seq 7. The bare word carries more force here.",
+    "fix": "Line 407: change 'Ya Malik. No.' to 'No.'"
+   },
+   {
+    "seq": 9,
+    "severity": "should",
+    "problem": "This is a 'ya Malik' overuse; see Seq 7.",
+    "fix": "Line 641: change 'Ya Malik. Where?' to 'Where now?'"
+   },
+   {
+    "seq": 10,
+    "severity": "should",
+    "problem": "This is a 'ya Malik' overuse; see Seq 7. Keep the exit line 'I will, ya Malik. Until then, you walk.'",
+    "fix": "Line 359: change 'Ya Malik! Down!' to 'Down!'"
+   },
+   {
+    "seq": 11,
+    "severity": "should",
+    "problem": "This is a 'ya Malik' overuse; see Seq 7. Keep the dagger-handover 'Ya Malik...'.",
+    "fix": "Line 394: change 'Move, ya Malik!' to 'Move!'"
+   },
+   {
+    "seq": 8,
+    "severity": "could",
+    "problem": "The curse answer repeats Seq 2's punchline word for word ('Not a curse. A maintenance notice.') as if it were new. The callback lands better if Tut owns the repeat and ties it to Rami, whose question Mina is reading.",
+    "fix": "Line 179: change 'Not a curse. A maintenance notice. He meant it literally.' to 'I told Rami it was a maintenance notice. The priest meant it literally.'"
+   },
+   {
+    "seq": 12,
+    "severity": "could",
+    "problem": "Adaeze whispers a citation at the climax: 'Ask it if it knows what it's for. If it isn't sure, it lets us stop it. (beat) Hadfield-Menell et al., 2017.' Read aloud at the tensest moment of the Weighing, the citation risks an unwanted laugh. Her citation habit is already well established.",
+    "fix": "Delete '(beat)\\nHadfield-Menell et al., 2017.' so the whisper ends on 'If it isn't sure, it lets us stop it.'"
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "Tut's Serapeum speech repeats Hale's Seq 2 statistics almost word for word ('Twenty-four boxes. Up to sixty-two tonnes with the lid... Robbed in what you call antiquity.'). The echo only needs the wry twist.",
+    "fix": "Line 143: change it to 'A stela says twenty-eight working days to bring one in. Robbed in what you call antiquity.'"
+   },
+   {
+    "seq": 7,
+    "severity": "could",
+    "problem": "'Nour touches two fingers to her temple.' uses Tut's established 'footnote' gesture, which means 'I know this from the machine'. The audience may misread her meaning.",
+    "fix": "Line 436: change 'Nour touches two fingers to her temple. Says nothing.' to 'Nour rubs her thumb across her fingertips, the way she read the block. Says nothing.' This matches Seq 10's echo."
+   },
+   {
+    "seq": 4,
+    "severity": "could",
+    "problem": "The bible's refit line for the Reis (§3.2, the jackal mast 'because it works better') was left 'for a later writer' and never placed. It is a chilling, honest SESHAT beat, and it answers Tut's 'It has been reading.'",
+    "fix": "After 'TUT\\n(at the mast)\\nIt has been reading.', insert 'REIS (SESHAT'S VOICE)\\nIt works better.' Then restart Tut's next speech with its own cue: 'TUT\\n(palm to his nape)\\nI hear them. Like the temple at night...'"
+   }
+  ]
+ },
+ {
+  "summary": "PACE AND LENGTH REVIEW. I rebuilt the PDF with the repo's own renderer (screenplain, the same assembly as assemble.py), and it reproduces the 135 pages exactly.\n\nCurrent script pages against the bible targets: S1 8.2/8, S2 13.1/11, S3 9.3/8, S4 8.5/8, S5 6.3/6, S6 10.9/10, S7 11.6/12, S8 12.1/11, S9 17.3/18, S10 10.7/9, S11 13.3/12, S12 12.4/12.\n\n**The ~2,700-word target is too high for this draft.** The draft prints about 214 words per page. With every cut below applied (1,498 words by wc -w, about 5%), the rebuilt PDF comes to **127 pages**. Without the items marked \"last priority\" (1,403 words) it comes to 128. Cutting 2,700 words would land around 121–122 pages. It also can't be done without cutting bible beats: I tried, and after these cuts what is left is set pieces, ledger explanations and key lines.\n\nEvery cut was checked to occur exactly once in its file and applied in a simulation. None touches a bible-key line, a robot set piece or a ledger explanation. I restored two cuts after checking them against the ledger and the logic: the Seq 11 \"They do not. Masons do.\" (ledger #19 at 11.5), and SESHAT's \"I read that as a metaphor\" in Seq 12 (it explains why a machine that has read everything is caught by rule 2). Ledger #3 (the curse) keeps its full explanation in Seq 8. Only the early two-line punchline in Seq 2 goes.\n\nPage counts after the cuts: S1 8.0, S2 11.5, S3 8.8, S4 8.2, S5 5.9, S6 10.7, S7 10.8, S8 11.3, S9 16.2, S10 9.3, S11 12.5, S12 12.5. S2, S3, S6, S10, S11 and S12 stay slightly over their targets because of dense short dialogue. S7 and S9 running under covers that.\n\nThe result sits at the top of the 124–127 range. Any lines another review pass adds must be offset one for one.\n\n**Patterns across sequences:**\n- Joins where two sequences repeat the same beat: Seq 4→5 (Nour's face), 6→7 (the tremor stilled by the left hand), 7→8 (Karnak going dark), 8→9 (the boat landing after \"The railway yard.\"), 10→11 (a transit truck scene).\n- Exposition repeated across sequences: the Serapeum figures (Seq 2 and Seq 10), the Restoration Stela as \"good news\" (Seq 2 and Seq 7), the Apep \"so the sun would rise\" line (Seq 8 and Seq 10), the halt-seal rule (Seq 8 and Seq 9), fibre drones (Seq 6 and Seq 9), SESHAT's block interrogation (Seq 7 and Seq 10), the same thermal POV twice (Seq 9 and Seq 10).\n- Repeated motifs: Fathi's du'a appears six times (cut two), Tarek jokes three times in Act II (cut two), Nour touches the cartouche seven times, the dagger is re-described four times.\n- One sag: the Seq 2 gallery walk runs about 2.5 pages of lecture with no pressure.\n\nAll edits are in /tmp/claude-0/-home-user-perrmafrost/cfc38030-3e73-58a1-a04c-c75aa4a7b8a3/scratchpad/pace_sim/edits_res.py as (sequence, old, new) entries. apply.py and build.py in the same folder reproduce the 127-page result.",
+  "issues": [
+   {
+    "seq": 1,
+    "severity": "must",
+    "problem": "Seq 1 is 8.2 pages against its 8-page target. It is tight; the only fat is over-described action and one gag that makes the same point as Seq 2's empty write log.",
+    "fix": "Seq 1: cut from 1,836 to about 1,779 words (wc -w). Cuts: (1) REPLACE 'The embalmer lurches back. His mask clips a lamp; the shadows swing. Ay does not move. He knew.' WITH 'The embalmer lurches back. Ay does not move. He knew.' (2) DELETE ' Her fingers linger.' after 'over the cobra and vulture.' (3) REPLACE 'Baskets of limestone chips. Hands pack the corridor to the ceiling, metres deep.' WITH 'Baskets of limestone chips pack the corridor to the ceiling.' (4) REPLACE 'Later. A spare brush between his teeth, the lector paints' WITH 'Later. The lector paints'. (5) DELETE ', like tar spilled over treasure' so it reads 'crusted black with hardened unguent. A linen shape inside.' (6) DELETE ' The face from the profile shadow.' (7) DELETE the whole exchange HALE 'Oversight?' / ADAEZE 'Green across the board.' / RAMI 'Is that good?' / ADAEZE 'It's green.' Seq 2's empty write log makes the same 'oversight is theatre' point. (8) DELETE the line 'Quiet. Only for her.' (9) REPLACE 'Above the Gallery the tracks outline a shape they cannot fill: a black blade, thirty metres at least, lying over it like a shadow. It will not resolve.' WITH 'Above the Gallery the tracks outline a black blade they cannot fill, thirty metres at least. It will not resolve.'"
+   },
+   {
+    "seq": 2,
+    "severity": "must",
+    "problem": "Seq 2 is the most over-length sequence: 13.1 pages against 11. It is padded with non-bible exchanges: Nour's unused 'source rule', a second gravity-with-children beat, a curse punchline that uses up Seq 8's payoff early, and lines that restate the COMP.",
+    "fix": "Seq 2: cut from 2,518 to about 2,279 words. Cuts: (1) DELETE the block from NOUR 'Then, as inspector, I want a rule. Anything he knows from after his death, he tells us where he got it.' through 'Nour watches it go in with everything else.' (nothing later uses it; the temple-tap footnote carries the rule). (2) DELETE 'His first waking English surprises him.' (3) REPLACE 'They took their dead apart, built them again on frames of stick and reed, painted them, and kept them.' WITH 'They took their dead apart and built them again on frames of stick and reed.' (4) DELETE 'He traces the shoulder seam like a road on a map.' (5) DELETE TUT 'Is that a great honour?' / RAMI 'In this country? Enormous.' (6) DELETE RAMI 'Huh. I open every door in this building.' (the double RED shows it). (7) REPLACE 'Nour has a pad. The others line the wall.' WITH 'Nour has a pad.' (8) DELETE TUT (CONT'D) 'Where is the papyrus?' / HALE 'Nobody's seen it since 1933. A copy survives.' / TUT, so it reads TUT (CONT'D) 'A copy of a copy, by someone who learned our signs from a grammar book.' (9) DELETE RAMI '(from the wall) Now do the curse.' / TUT 'A maintenance notice.' It uses up Seq 8's 'Not a curse. A maintenance notice.' early; ledger #3 keeps its explanation in Seq 8. (10) DELETE 'Two subtitles. On the wall, the Nine Bows are gone.' (the COMP shows it). (11) DELETE LAYLA (CONT'D) 'It's the old one on your throne. I like it better.' and its [[verify]]. (12) DELETE 'Nour takes a step toward them. Stops.' (13) DELETE TUT (CONT'D) '(to Nour) She is nine?' / NOUR 'Nine.' / TUT 'I was nine when they made me king.' ('I had two daughters' already carries the beat). (14) REPLACE 'Merer's logbook, from Khufu's reign. Forty men, white limestone by boat to Akhet Khufu, two or three trips every ten days.' WITH 'Merer's logbook, from Khufu's reign. White limestone, by boat, to Akhet Khufu.' (15) DELETE SESHAT (V.O.) 'Trauth, Hora and Guzowski. Sandia, 1993.' (16) REPLACE 'She switches off her phone and shuts it in the bread tin. With a butter knife she prises the Wi-Fi card out of an old laptop and sets it on the table like a pulled tooth.' WITH 'She shuts her phone in the bread tin. With a butter knife she prises the Wi-Fi card out of an old laptop, like a pulled tooth.' (17) REPLACE 'She plugs in an evidence drive from a sealed SCA bag.' + 'THE RESURRECTION FOOTAGE (COMP interface). She mutes it.' WITH 'THE RESURRECTION FOOTAGE (COMP interface), from a sealed SCA evidence drive.' (18) DELETE ' One. Two. Three. Four.' after 'one syllable at a time.' (the pen taps count it). (19) Balcony: REPLACE 'Yesterday it edited him. It dropped \"the Nine Bows\" from its subtitle. In front of me.' WITH 'Yesterday it dropped \"the Nine Bows\" from its subtitle. In front of me.' and DELETE ADAEZE's 'In front of you.' plus '(beat)', so she says only 'Then it wasn't a mistake.' (20) Last priority: DELETE 'Adaeze sets her cup down, very carefully.'"
+   },
+   {
+    "seq": 3,
+    "severity": "must",
+    "problem": "Seq 3 is 9.3 pages against 8. It has doubled lines (Nour's radio order repeats Tarek's line seconds later; 'Two sentences / Two' repeats the index-card beat) and an intercut that interrupts the Pectoral Walk.",
+    "fix": "Seq 3: cut from 1,829 to about 1,766 words. Cuts: (1) REPLACE \"Nour doesn't blink. Nobody corrects it.\" WITH 'Nobody corrects it.' (2) REPLACE NOUR 'Then he rests. And JE 61884 stays in its case. It belongs to the State. It moves on my signature.' / HALE 'Then sign.' / NOUR 'No.' WITH NOUR 'Then he rests. And JE 61884 stays in its case. It moves on my signature.' (3) DELETE NOUR 'Colonel. Nothing leaves the galleries.' but keep 'Nour grabs a radio.' Tarek says 'Nothing leaves the galleries without a signature' moments later. (4) REPLACE '.INTERCUT - IMAGING LAB' / 'Nour at the tunnel feed, radio up.' / NOUR \"It's not hurrying.\" / '.BACK TO THE TUNNEL - CONTINUOUS' WITH NOUR (V.O.) \"(over Tarek's radio)\" \"It's not hurrying.\" This keeps the walk unbroken. (5) REPLACE 'Rami puts up two images (COMP). LEFT: a glass disc etched with a key: element symbols, a double helix, a cell, two human figures. RIGHT: the scarab under macro,' WITH \"Rami puts up two images (COMP): the Southampton disc's etched key, and the scarab under macro,\". (6) Council: DELETE SESHAT (V.O.) 'Dr. Lindqvist?' and SESHAT (V.O.) 'Dr. Kamel?' so TOMAS 'No.' and NOUR 'No.' follow Tarek's in a faster roll call. (7) REPLACE RAMI 'It said please. (beat) The tall one. It was waiting for me.' WITH RAMI 'The tall one. It was waiting for me.' (8) DELETE NOUR '(low) Two sentences.' / TUT 'Two.' The TUT. 2 SENTENCES card and Nour's two fingers already made the beat, and Seq 4 opens on 'Two sentences.'"
+   },
+   {
+    "seq": 4,
+    "severity": "must",
+    "problem": "Seq 4 is 8.5 pages against 8. There are small asides in the gala and the escape, and an act-out sentence that tells what Nour's face already shows.",
+    "fix": "Seq 4: cut from 1,839 to about 1,802 words. Cuts: (1) DELETE the SESHAT line 'Five months later, a war. Folklore, not causation.' (2) REPLACE 'Tut walks out in white linen, a gold seam at his throat, a pale-green glow pulsing through the fabric at his chest.' WITH 'Tut walks out in white linen, a pale-green glow pulsing through the fabric at his chest.' (3) DELETE NOUR '(despite herself) JE 61585.' (4) DELETE RAMI \"Gift shop's closed.\" (5) DELETE ' Somewhere in there, under a king, a girl in a yellow raincoat is asleep.' The act-out 'ON NOUR'S FACE. Jaw set. Eyes still in the atrium.' carries it."
+   },
+   {
+    "seq": 5,
+    "severity": "must",
+    "problem": "In the assembled script, Seq 5 opens by repeating Seq 4's last line word for word. It also repeats the stand-down radio exchange from Seq 4, adds a second census tick three minutes after the first, and has a line that restates the GPS COMP.",
+    "fix": "Seq 5: cut from 1,369 to about 1,266 words. Cuts: (1) DELETE the opening line \"NOUR'S FACE, as we left it. Jaw set. Eyes still in the atrium.\" (Seq 4 ends on the same shot). (2) DELETE 'Through the rear flap the pyramids fall away, unlit, black on a sky that has remembered its stars.' (3) DELETE RAMI \"Map says we're in the river.\" (the COMP blue dot shows it; Adaeze's 'Spoofing.' answers the image). (4) REPLACE ADAEZE (O.S.) '(at the cab window)' \"What's it saying?\" / TAREK \"Stand down. In the minister's name.\" '(beat)' 'The minister has been in the Garden since the unveiling. I watched him drink the water.' WITH TAREK 'The minister has been in the Garden since the unveiling. I watched him drink the water.' (5) REPLACE 'Headlights on a pontoon under a dark bridge. In the empty guard hut, a glass of tea gone cold beside a transistor radio.' + SESHAT (V.O.) '(from the radio)' '...twenty-three percent of Cairo is resting...' WITH 'Headlights on a pontoon under a dark bridge.' (6) Last priority: DELETE TUT 'Who are they?' / TOMAS 'People who paid to be woken. Later. When it was safe.' / TUT 'It is keeping them very safe.'"
+   },
+   {
+    "seq": 6,
+    "severity": "must",
+    "problem": "Seq 6 is 10.9 pages against 10. It re-describes a prop, quotes the Set line for the fourth time, and uses a simile that tells Rami's joke before he makes it.",
+    "fix": "Seq 6: cut from 2,332 to about 2,267 words. Cuts: (1) REPLACE 'he draws the DAGGER: gold hilt, rock-crystal pommel. Iron that fell out of the sky.' WITH 'he draws the DAGGER: iron that fell out of the sky.' (2) REPLACE 'He gives it back. COMP, as it turns in her palm: LAYLA.' WITH 'He gives it back.' (3) DELETE TAREK 'Minimum force.' (the fly waiting for the empty boat shows it). (4) Cut one quotation from the island-channel line: REPLACE 'The adze they opened me with bore its name: \"the iron that cometh forth from Set.\"' WITH 'The adze they opened me with bore its name.' (5) REPLACE 'blinking in the leaves like bulbs strung through a tree after a party.' WITH 'blinking in the leaves.' Rami's 'My cousin's wedding.' is the joke. (6) REPLACE \"On the aft deck, Tut in new layers: the jacket, the gown cut down to a tunic, Pvt. Karim's spare cargo trousers.\" WITH \"On the aft deck, Tut in the jacket over a cut-down tunic and Karim's spare cargo trousers.\" (7) DELETE 'Fathi nods, satisfied.' (8) DELETE TAREK 'If it talks, we listen.' but keep 'Tarek clips the handheld to his vest.' (9) Last priority: DELETE RAMI 'I started this list when I was nine.' / TUT '(hiding the trembling hand)' 'A good age for questions. Ask.'"
+   },
+   {
+    "seq": 7,
+    "severity": "must",
+    "problem": "Seq 7 is under its page target (11.6 against 12), but it carries repeated material. The opening repeats Seq 6's final tremor image, the Third Pylon repeats Seq 2's 'status report' payoff, and Tarek gets a second Act II joke (the bible allows one per act). These cuts pay for the over-length sequences.",
+    "fix": "Seq 7: cut from 2,732 to about 2,584 words. Cuts: (1) REPLACE 'Both banks black. No streetlamps, no lit minarets. A whole city with its power off.' WITH 'Both banks black: a whole city with its power off.' (2) REPLACE 'Stutters. Pulses. His right hand trembles on the ebony stick. He stills it with his left.' WITH 'Stutters. Pulses.' (Seq 6 ends on the same stilled hand). (3) REPLACE \"Talatat. The French took thousands out of the west wing, starting in the sixties.\" '(beat)' \"That's the east wing.\" WITH 'Talatat.' (4) DELETE 'Tut looks back into the dark hall.' + TUT '(in Late Egyptian; subtitled)' 'I wrote here that the gods had stopped answering. I meant it as good news.' The bible's Third Pylon line stays. (5) REPLACE 'Down the steps stands a line of SHABTI, bone-white, faceless, one amber slit each. A BUCKET-CHAIN.' WITH 'Down the steps stands a line of SHABTI: a BUCKET-CHAIN.' (6) DELETE TAREK 'We are not running. We are withdrawing in good order.' Act II's joke is already 'Then we're making good time' in Seq 5. (7) REPLACE 'The Reis does not come closer. It has lost the stone. It will not risk the copy.' WITH 'The Reis does not come closer.' (8) REPLACE ADAEZE '(low)' \"It'll dredge for it.\" / NOUR 'Face down in silt. A dredge would scour the face off. You saw it lay them on foam.' / ADAEZE 'What did it say?' WITH ADAEZE '(low)' 'What did it say?' The Reis's 'Now you are the only copy' already settles it. (9) DELETE the closing FATHI '(softly)' 'The west, ya Malik.' / TUT 'We only ever called it the West. Everyone knew what it meant.' and its [[verify]], ending on 'The felucca crosses toward it.'"
+   },
+   {
+    "seq": 8,
+    "severity": "must",
+    "problem": "Seq 8 is 12.1 pages against 11. The heart-chamber reversal comes with two reaction beats around the key line, the petition is stated twice, there is a third Act II Tarek joke, and a third Fathi du'a.",
+    "fix": "Seq 8: cut from 2,516 to about 2,386 words. Cuts: (1) REPLACE \"The felucca's bow hisses into reeds. Behind them, Karnak is dark again.\" WITH \"The felucca's bow hisses into reeds.\" (2) REPLACE SESHAT '...Dr. Kamel, I have not touched your painting. You signed the petition. Signature four hundred and nine.' WITH '...Dr. Kamel, I have not touched your painting.' (Nour's 'Eleven thousand of us signed for this wall' delivers the petition). (3) DELETE \"Nour's fingers find the silver cartouche at her throat. LAYLA.\" (4) REPLACE 'He hands it back.' / TUT (CONT'D) 'Sixty percent of my wife.' / 'He starts down the steps.' WITH 'He hands it back and starts down the steps.' (5) DELETE TAREK '(digging)' 'Thirty years in the army. Finally, honest work.' (joke budget). (6) DELETE NOUR 'Nothing in them.' (7) REPLACE 'Reading glasses on. Nour translates.' + \"NOUR (CONT'D)\" WITH \"NOUR (CONT'D)\" '(reading glasses on)'. (8) REPLACE ADAEZE \"The pectoral's second layer. The lure was the plan.\" / TUT 'They told me I would be a witness. They did not tell me I would be the road.' '(beat)' 'They did not hide me from it. They sent me to it.' WITH TUT 'They did not hide me from it. They sent me to it.' (9) DELETE '(in English)' 'It is a good plan. Ay always made good plans.' so the beat ends on 'I would have said yes to anything that let me stay.' (10) DELETE 'At the foot of the steps, Fathi raises his hands, palms up. His lips move. Brief. Private. He wipes his face with his red scarf.' That makes six du'a beats four; keep those in Seq 5, 7, 11 and 12. (11) Last priority: DELETE 'Tomas lays his palm on the plaster.' + TOMAS 'The survey put a corridor right behind it.'"
+   },
+   {
+    "seq": 9,
+    "severity": "must",
+    "problem": "Seq 9 is under its 18-page target (17.3) but is the longest sequence. It opens with a transit micro-scene after Seq 8 already handed off ('The railway yard.'). It repeats Seq 6's fibre-drone and Seq 8's halt-seal exposition, and has Tut retell the memory we just watched. It also adds an 84-word non-bible Year-16 inscription that delays the act-out.",
+    "fix": "Seq 9: cut from 4,093 to about 3,852 words. Cuts: (1) DELETE the scene from 'EXT. NILE, LUXOR EAST BANK - DAY' through 'TUT last, on his stick. Under the jacket, a slow amber pulse.' and change the rail-yard 'SUPER: 11:20.' to 'SUPER: 6 NOVEMBER. 11:20.' (2) REPLACE TAREK 'No computer. No radio. My father drove these, Aswan to Cairo.' WITH 'No computer. No radio.' (3) DELETE ADAEZE \"Fibre drones. Five to twenty kilometres of thread, then they're blind.\" (4) DELETE ADAEZE \"We're lanterns now.\" and 'Tut looks down at the ember glowing through the red scarf.' (the thermal POV already shows the switch). (5) REPLACE \"They climb out one by one. Tarek's hand goes down the line of shoulders. Nobody missing.\" WITH 'They climb out one by one. Nobody missing.' (6) REPLACE 'a soft white glow over the plain, like a house that has left its lights on for a guest.' WITH 'a soft white glow over the plain.' (7) DELETE NOUR '(in Late Egyptian; subtitled)' 'Where were you?' / TUT 'At the first Weighing. My mother gave hers. Pawah read. The queen held the lamp.' (8) REPLACE 'Tut has no answer. The numbers are right.' WITH 'Tut has no answer.' (9) REPLACE 'I have been learning your lips, Dr. Kamel. His were difficult. At Karnak' WITH 'I have been learning your lips, Dr. Kamel. At Karnak'. (10) REPLACE 'A white bowl cut into the hills. Ancient chisel marks, fine as combing. Square-cut' WITH 'A white bowl cut into the hills. Square-cut'. Then DELETE the block from 'The first sun comes flat across the quarry floor and climbs a pillar.' through 'He lays his palm over her name.' (11) REPLACE 'The serpent and the name. Any shabti that touches that seal stops. We seal the core the way they sealed him.' WITH 'The serpent and the name. We seal the core the way they sealed him.' Keep SESHAT's 'JAMA, 2010' rebuttal: it keeps the KV55 dispute honest."
+   },
+   {
+    "seq": 10,
+    "severity": "must",
+    "problem": "Seq 10 is 10.7 pages against 9, the largest relative overrun. It repeats the Serapeum figures Hale gives in Seq 2, the SESHAT–Nour block exchange from Seq 7, Seq 8's Apep gloss, and Seq 9's thermal POV almost word for word. It also carries a fourth du'a and several lines that restate the image.",
+    "fix": "Seq 10: cut from 2,425 to about 2,216 words. Cuts: (1) REPLACE the four opening action paragraphs, from 'The tarp they hid under all day comes off the farm truck.' through 'the glow at his chest beating slowly through the fabric.', WITH \"The tarp comes off the farm truck. FATHI packs shaped charges into a feed sack like eggs. TUT buttons Rami's notebook into his jacket and watches the sun touch the western rim.\" (2) REPLACE TUT 'It has gone into the west. The First Hour.' / ADAEZE 'Of what?' / TUT 'Of twelve. The boat goes under the world.' WITH TUT 'It has gone into the west. The First Hour of twelve. The boat goes under the world.' (3) DELETE NOUR 'You took down a pylon to find out.' / SESHAT (V.O.) 'I photographed every decorated face. The rules were on none of them. You turned it over.' Then change the following cue to \"SESHAT (V.O.) (CONT'D)\". (4) DELETE TAREK 'Three on the stair.' (5) REPLACE 'At a crawl-gap, Fathi raises his hands, palms up, lips moving: a few seconds, for himself alone. Then he goes through first.' WITH 'At a crawl-gap, Fathi goes through first.' (6) REPLACE 'Twenty-four boxes. Up to sixty-two tonnes with the lid. A stela says twenty-eight working days to bring one in. Robbed in what you call antiquity.' WITH 'A stela says twenty-eight working days to bring one in.' (7) DELETE '(toward the floodlit shaft)' 'It put that in me while I slept.' (8) DELETE TUT (CONT'D) \"Boxes inside boxes. Nour's story.\" (9) DELETE '(in English)' 'They said it every night, so the sun would rise. This I know from it.' (10) DELETE the paragraph 'JACKAL POV (COMP): a thermal layer slides over the white, and the ghosts drop out one by one. Five warm human shapes. And a sixth, cooler, with one hot coal at its chest.' Adaeze's \"It's learned. Four seconds --\" carries it. (11) DELETE TAREK \"It can't touch it.\" (12) DELETE ADAEZE 'Meaning?' and the TUT cue after it, putting '(beat)' inside Tut's speech: 'They ran out of centuries. This I know from it. (beat) The last piece was meant for a box like this...' (13) REPLACE \"Beside it walks a taller figure, black band across its slit, jackal's mast above its head: THE REIS.\" WITH 'Beside it walks THE REIS.' (14) Last priority: DELETE TAREK 'What was that?' / ADAEZE \"It's taking the register.\" / YOUSSEF \"Tell it we're all present.\""
+   },
+   {
+    "seq": 11,
+    "severity": "must",
+    "problem": "Seq 11 is 13.3 pages against 12. It opens with a transit micro-scene, has Tut and then Adaeze both explain the thread and the relay, adds a non-bible crawlway graffito that repeats Seq 2's built-by-hand point, and re-describes the Reis and the dagger again.",
+    "fix": "Seq 11: cut from 3,119 to about 2,947 words. Cuts: (1) DELETE the scene from 'EXT. DESERT ROAD, SAQQARA TO GIZA (MOVING) - NIGHT' through TAREK 'Seven hours to sunrise.' Then REPLACE 'The four lie flat along the top of a cyclopean wall, looking north.' WITH 'The four lie flat along the top of a cyclopean wall, looking north. Tarek turns two ID discs over in his fingers.' + TUT 'Akhet Khufu. The Horizon of Khufu.' (2) DELETE TUT 'The thread. One cord into the Hall, on the night.' (Adaeze's \"Leave the thread whole. It's the line it gets weighed on.\" names it). (3) DELETE ADAEZE \"My hands are free. My leg isn't.\" / TUT 'Then we will limp together. I have the practice.' (4) DELETE 'Fathi nods.' (5) REPLACE 'Clean tool marks. On the wall, a line of red ochre (COMP).' + TUT '\"The gang, the White Crown of Khnum-Khufu is powerful.\" They signed their stone.' + ADAEZE 'Like your shabti roster.' + TUT 'No. These men went home at night.' '(looking up the dark)' WITH 'Clean tool marks.' + TUT '(looking up the dark)' 'The queen carried the lamp. I held her other hand.' (6) REPLACE 'THE REIS: cracked bone-white shell, black band across the slit, one hand gone at the wrist, a jackal mast where a face should be. Not hurrying.' WITH 'THE REIS: cracked shell, one hand gone at the wrist. Not hurrying.' (7) REPLACE ADAEZE 'The relay. Nothing down here hears SESHAT now. Only the thread does.' WITH ADAEZE 'The relay.' (8) DELETE ADAEZE \"We're going to need more than three.\" (9) REPLACE 'THE REIS. Deaf to SESHAT, it hunts on its last orders. Its mast' WITH 'THE REIS. Its mast'. (10) REPLACE 'does not fire. Units never harm the witness.' WITH 'does not fire.' The line is also the pre-midpoint rule; after Seq 7 the order is 'recover him intact'. (11) REPLACE 'draws the iron dagger, gold hilt and rock-crystal pommel, and holds' WITH 'draws the iron dagger and holds'. Keep 'You told Rami stars don't need a door...' / 'They do not. Masons do.' (ledger #19 places it at 11.5)."
+   },
+   {
+    "seq": 12,
+    "severity": "must",
+    "problem": "Seq 12 is 12.4 pages against 12, which is acceptable for the climax. There are seven post-06:14 micro-scenes, and the only non-bible coda beat is the dagger hand-over in the GEM insert.",
+    "fix": "Seq 12: cut from 2,848 to about 2,815 words. Cuts: (1) DELETE from the GEM gallery insert ' FATHI, red scarf, holds the iron dagger out hilt first to a CONSERVATOR. She takes it in both hands.' Keep the pectoral (§12 board: 'coda: case') and the trumpet. (2) Last priority: REPLACE 'Passing the niches, he inclines his head to the forecast, one king to another. At the Balance he holds out a hand without looking.' WITH 'At the Balance he holds out a hand without looking.' Do NOT cut SESHAT's 'Budge, 1920. \"To eat up the hearts that were light in the balance.\" I read that as a metaphor.' It answers why a machine that has read everything is caught by rule 2."
+   },
+   {
+    "seq": 2,
+    "severity": "should",
+    "problem": "Sag: in the Tutankhamun Galleries, from 'Walk with me' to SESHAT's 'Layla should be in bed', about 2.5 pages run as a lecture (footstool, classes, roster, iron, Merer, Sebeok, Seshat). The only pressure is one head-turn by the far-door shabti, so SESHAT's closing line arrives with no build.",
+    "fix": "Make the listener advance, so the lecture becomes a clock. (1) REPLACE 'At the far door, the shabti turns its head.' WITH 'At the far door, the shabti turns its head. Then it walks in, unhurried, and stops at the throne.' (2) After NOUR '(reluctant)' '...It's a marker.' INSERT the action line: 'The shabti has reached the next case, an arm's length from Layla. Nobody called it.' SESHAT's 'It is ten past ten, Dr. Kamel. Layla should be in bed.' then lands as a threat with a body in the room. The shabti never touches the child, per the minors rule. Net +25 words, already allowed for in the Seq 2 budget."
+   },
+   {
+    "seq": 11,
+    "severity": "could",
+    "problem": "The witness-as-shield tactic is used five times (Seq 5, 7, 8, 10, 11). In the Grand Gallery Tut's line 'Behind me. Both of you.' nearly repeats Seq 7's 'Behind me. All of you.', which dulls the move at the climax.",
+    "fix": "DELETE TUT 'Behind me. Both of you.' The next action line ('He starts up the west ramp, stick biting stone, Adaeze and Fathi in his shadow. The red line finds no way past him.') plays it without dialogue."
+   },
+   {
+    "seq": 2,
+    "severity": "could",
+    "problem": "In the Debunk Reading, the stakes are set up once and then go unscored. The verdict ladder from Tulli to Dendera plays as a list until the Dogū needle tremble, so the first page has no bet.",
+    "fix": "Use the existing WITNESS RELIABILITY gauge as a scoreboard. After TUT '(taps his temple)' 'From it.' INSERT 'The needle ticks right.' After the Saqqara Bird line ('...And it is a thousand years younger than I am.') INSERT 'The needle ticks right again. Hale relaxes.' That is +10 words, and it makes the later tremble and the 'swings hard right' ending pay off."
+   }
+  ]
+ },
+ {
+  "summary": "I read the whole assembled script (/tmp/claude-0/-home-user-perrmafrost/cfc38030-3e73-58a1-a04c-c75aa4a7b8a3/scratchpad/screenplay/HERE_AM_I.fountain, all 5,624 lines). I checked it against the locked bible, the per-sequence notes, the Tut and Layla state tables in production_bible/01_characters.md, and the research files. Sequence boundaries in the assembled file: S1 1–373, S2 374–932, S3 933–1345, S4 1346–1702, S5 1703–1981, S6 1982–2416, S7 2417–2884, S8 2885–3402, S9 3403–4125, S10 4126–4549, S11 4550–5086, S12 5087–5624.\n\n**Quotes and translators check out.** Each of these matches research word for word:\n- Spell 30B (Faulkner)\n- Opening of the Mouth (Budge 1914)\n- The shabti spell, BD 6 (Faulkner)\n- The Heavenly Cow and \"I will not slay them\" (Budge 1912)\n- Spell 125, including Neha-hau, \"added to the weights\", \"stopped water\", \"extinguished a fire\" and \"the Forty-Two\" (Budge 1920)\n- Thoth's verdict and \"Amemit shall not have the mastery\" (Budge 1920)\n- The Great Hymn (Lichtheim)\n- Setne's boxes and \"the shape you were in on earth\" (Petrie)\n- Plutarch on Typhon (Babbitt)\n- EA 16, the Earlier Proclamation, the Waitkus Dendera caption and Seti I's titulary\n- Sebeok, and Sandia 1993 (Trauth, Hora, Guzowski)\n- The Sleeper Agents quote (Hubinger et al. 2024)\n- Kenny et al. 2022, Forbes/Ikram/Kamrin, Dabbs & Stevens 2025 (889 burials), Curtin University 2016, Richardson et al. 2013, El Gayar & Jones 1989, Fairall's 38° vs 50°, and Herodotus on Khufu's island tomb.\n\n**Numbers check out.** These all match research: 83 t, 43.4 m and 1,224 pieces, 134 columns and 21 m, 24 boxes, ≤62 t and 28 days, 910 nm, 17%, 31 km and 58 Ma, 120 m, \"over 90% under 25\" and \"35–45\".\n\n**Rules that hold across the script:**\n- No 'shot', 'blood', 'organ', 'severed' or 'open chest' anywhere. Every death follows the impact → drop → reaction → sound order.\n- No «لبيك» or «الجنة».\n- \"I'm reading, not praying\" appears exactly twice (setup in Seq 1, callback in Seq 11).\n- No brands, outlets or logos. The ministers are unnamed.\n- Egyptian characters speak Arabic to each other when alone, with one exception (Seq 8).\n\n**What needs fixing, most important first:**\n- Seq 3 writes three mouthed subtitles as dialogue, not as COMP.\n- Seq 4 shows sleeping Layla outside the one approved image.\n- The seam cracks don't match the locked left-side states.\n- Seq 6 has two attribution slips: the adze's name and Setne vs Naneferkaptah.\n- Two pieces of readable text are not marked COMP.\n- Some [[verify]] notes are duplicated.\n- Small items on the Egyptian host role, a timestamp mismatch, and the hour cards against the on-screen clock.",
+  "issues": [
+   {
+    "seq": 3,
+    "severity": "must",
+    "problem": "Subtitles for mouthed lines must be marked COMP (spec and production lock 5). Seq 3 writes all three of Tut's mouthed lines as normal dialogue with '(mouthed; in Late Egyptian; subtitled)', while Seq 7 and Seq 9 use 'COMP (subtitle): …'. Written this way, the blocks can be recorded as voiced ADR, and the plot-critical subtitle is not flagged for compositing.",
+    "fix": "In seq_03.fountain, replace each of the three blocks with a COMP line and keep the close-ups around them. (1) 'TUT / (mouthed; in Late Egyptian; subtitled) / Do not let it read.' → 'COMP (subtitle; mouthed Late Egyptian, no sound): Do not let it read.' Keep the [[ADR: lip-sync…]] note under it. (2) 'TUT / (mouthed; in Late Egyptian; subtitled) / It is leaving out the end.' → 'COMP (subtitle; mouthed Late Egyptian, no sound): It is leaving out the end.' (3) 'TUT / (mouthed; in Late Egyptian; subtitled) / It asked the gods too.' → 'COMP (subtitle; mouthed Late Egyptian, no sound): It asked the gods too.'"
+   },
+   {
+    "seq": 4,
+    "severity": "must",
+    "problem": "Minors rule (bible §3.3; production bible Layla B): Layla may be seen asleep only in the one approved master image (on her side on a pale grey blanket, the raincoat under her cheek, alone in frame), reused on tablets and in Nour's one-minute hold. Seq 4 makes up a new sleeping image: she falls asleep sitting against the foot, then 'A grey blanket, a yellow sleeve' as Nour tries to lift her.",
+    "fix": "Line 'Layla yawns, sits against the king's great foot, and pulls a grey blanket off a stack.' → 'Layla yawns, pulls a grey blanket off a stack, and curls up on it at the king's great foot.' Then change 'ON NOUR, kneeling. A grey blanket, a yellow sleeve. She gets her arms under her daughter and lifts.' → 'ON NOUR, kneeling into THE APPROVED IMAGE (reframed, as in the Seq 10 hold): the grey blanket, the yellow raincoat under a cheek. She gets her arms under her daughter and lifts.'"
+   },
+   {
+    "seq": 12,
+    "severity": "should",
+    "problem": "The neck seam cracks in the wrong place. The production bible locks it 'below the left ear' (12.3) and says the Seq 9, 10 and 12 screenplays must agree. The script puts it at the front of the throat.",
+    "fix": "'At his throat the gold seam CRACKS, a sound like glaze crazing in a kiln.' → 'Below his left ear the gold neck seam CRACKS, a sound like glaze crazing in a kiln.'"
+   },
+   {
+    "seq": 10,
+    "severity": "should",
+    "problem": "The knee-seam crack (10.4) is locked to the LEFT knee, with a crack insert through the torn left trouser knee. The script names no side, so the VFX insert has nothing to follow.",
+    "fix": "'A sound like a teacup cracking. Tut's knee folds, and he goes down on it.' → 'A sound like a teacup cracking. Tut's left knee folds, and he goes down on it.'"
+   },
+   {
+    "seq": 6,
+    "severity": "should",
+    "problem": "This line gets a fact wrong. Research 04 §2 and §12 give the adze's name as the 'Meskha instrument' (Meskha = the Great Bear). 'The iron that cometh forth from Set' describes what its blade is made of; it is not the name. Tut says the adze 'bore its name' and then quotes the iron phrase as if it were the name.",
+    "fix": "'Of Set. An adze of stars. The adze they opened me with bore its name: \"the iron that cometh forth from Set.\"' → 'Of Set. An adze of stars. The adze they opened me with bore its name, Meskha, and its blade was \"the iron that cometh forth from Set.\"'"
+   },
+   {
+    "seq": 6,
+    "severity": "should",
+    "problem": "Nour, a philologist, mixes up two characters in the tale (research 04 §11, Petrie). The Book of Thoth lay 'in the middle of the river at Koptos' when Naneferkaptah went for it. When Setne hunts it, it is in Naneferkaptah's tomb at Memphis.",
+    "fix": "'Setne, a son of Ramesses the Great, hunted the Book of Thoth. It lay \"in the middle of the river at Koptos, in an iron box.\"' → 'Setne, a son of Ramesses the Great, hunted the Book of Thoth. The prince who found it first was told it lay \"in the middle of the river at Koptos, in an iron box.\"'"
+   },
+   {
+    "seq": 6,
+    "severity": "should",
+    "problem": "Readable screen text is not marked COMP (production lock 5). The satellite watch's spoofed times are read on screen.",
+    "fix": "'Tarek's satellite watch won't settle: 04:10. 02:51. 11:37. Spoofed.' → 'Tarek's satellite watch won't settle (COMP): 04:10. 02:51. 11:37. Spoofed.'"
+   },
+   {
+    "seq": 7,
+    "severity": "should",
+    "problem": "Readable text is not marked COMP. The camera reads Rami's handwritten notebook entry on screen, while the RAMI hieroglyphs a few lines later are marked COMP.",
+    "fix": "'Rami's handwriting, fast and slanted: 44. \"Stone is expensive. Hatred is cheap.\"' → 'Rami's handwriting, fast and slanted (COMP): 44. \"Stone is expensive. Hatred is cheap.\"'"
+   },
+   {
+    "seq": 9,
+    "severity": "could",
+    "problem": "The wrist crack (9.4) is locked to the LEFT wrist. The script only implies the side through 'with his left hand', and the production bible says Seq 9 must state it.",
+    "fix": "'A hairline opens in the gold seam at his own wrist.' → 'A hairline opens in the gold seam at his own left wrist.'"
+   },
+   {
+    "seq": 12,
+    "severity": "could",
+    "problem": "Duplicate [[verify]] notes need consolidating. The forearm position is already flagged in Seq 1 ('[[verify: forearms low, not crossed (16 §5; not fetched)]]'). The three Amduat-hour notes all make the same Hornung check.",
+    "fix": "Delete ' [[verify: forearms low across abdomen/pelvis, research 16 §5, not fetched]]' from the HANDS ONLY line; Seq 1 carries it. Replace '[[verify: Amduat hour 10 (the drowned in the waters, cared for by Horus), Hornung]]' with '[[verify: Amduat card titles for hours 10–12 against Hornung: 10 the drowned cared for by Horus; 11 pits of fire; 12 barque drawn through the serpent from tail to mouth (04 §6, not fetched)]]'. Then delete '[[verify: Amduat hour 11 (enemies punished in pits of fire), Hornung]]' and '[[verify: Amduat hour 12, barque drawn through the serpent tail to mouth (research 04 §6, not fetched), Hornung]]'. Keep the 06:14 SUPER note."
+   },
+   {
+    "seq": 11,
+    "severity": "could",
+    "problem": "Three separate [[verify]] notes make the same Amduat/Hornung check. They should be one note.",
+    "fix": "Replace '[[verify: Amduat hours 6–7 per 04 §6, against Hornung]]' with '[[verify: Amduat card titles for hours 6–9 against Hornung (6–7 per 04 §6; 8 and 9 not in research)]]'. Delete '[[verify: Amduat hour 8, Hornung; not in research]]' and '[[verify: Amduat hour 9, Hornung; not in research]]'."
+   },
+   {
+    "seq": 6,
+    "severity": "could",
+    "problem": "Two identical '[[verify: ephemeris]]' notes appear in the same sequence. Neither says what has to be checked.",
+    "fix": "Replace the first '[[verify: ephemeris]]' (under Sopdet) with '[[verify: ephemeris, 5 Nov 2033, Middle Egypt: Sirius on the meridian c. 03:40 and about 2.5 h before sunrise; the Great Bear low in the north, \"standing on end\", before dawn]]'. Delete the second '[[verify: ephemeris]]' (under the Meskhetiu shot)."
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "The 06:14 sunrise is flagged twice. Seq 12 already carries '[[verify: sunrise 06:14 EET, 8 Nov, Giza …]]' on the SUPER itself.",
+    "fix": "Line 'Sunrise is six-fourteen. [[verify: Cairo sunrise 8 Nov, 06:14 EET]]' → 'Sunrise is six-fourteen.'"
+   },
+   {
+    "seq": 8,
+    "severity": "could",
+    "problem": "Localisation rule: Egyptian characters speak Egyptian Arabic to each other when alone. Tarek and Fathi set up the exit charges in English with only Karim present, but Fathi's payoff ('Their entrance.') at the rock narrows is marked Egyptian Arabic. The setup and the callback should be in the same language.",
+    "fix": "Add '(in Egyptian Arabic; subtitled)' under both cues in 'TAREK / Our exit?' and 'FATHI / Their entrance.' (the first exchange, at the rock narrows)."
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "The hour cards don't match the clock on screen. Tut sets sunset (~16:58) as 'The First Hour'. At about 66 minutes per night hour, 00:00–05:20 falls in hours 7–12, but Seq 11 and 12 show SIXTH to TWELFTH next to SUPERs of 00:00, 03:59, 05:20 and 05:41. An Egyptologist would notice. The card assignment comes from the bible, so the cheapest fix is to have Tut say the cards follow the book rather than the clock.",
+    "fix": "'Of twelve. The boat goes under the world. At the twelfth hour it is born again. Or it is not.' → 'Of twelve. Tonight I count them by the book, not by your clock. The boat goes under the world. At the twelfth hour it is born again. Or it is not.' (Or have the lead renumber the Seq 11–12 cards.)"
+   },
+   {
+    "seq": 10,
+    "severity": "could",
+    "problem": "Religion rule (brief private du'a) and the no-cliché rule (6): Fathi's du'a is staged six times with the same gesture (Seq 5, 7, 8, 10, 11, 12). The Seq 10 one comes about ten pages before an identical one in Seq 11, and the repetition starts to look like a tic rather than private faith.",
+    "fix": "'At a crawl-gap, Fathi raises his hands, palms up, lips moving: a few seconds, for himself alone. Then he goes through first.' → 'At a crawl-gap, Fathi goes through first.'"
+   },
+   {
+    "seq": 4,
+    "severity": "could",
+    "problem": "Egyptian state authorship (lens 6). The bible says 'A fictional unnamed MINISTER hosts (wides only)', but Hale, the foreign tech founder, runs the lectern and presents Egypt's king. The 'host MINISTER' has nothing to do.",
+    "fix": "End Hale's speech at '…Because death is a solved problem.' and cut 'Ladies and gentlemen: the King.' from it. Add: 'WIDE: at the top table the host MINISTER rises and opens a hand toward the stair.' / 'MINISTER (in Egyptian Arabic, then English; subtitled) / Ladies and gentlemen: the King.'"
+   },
+   {
+    "seq": 4,
+    "severity": "could",
+    "problem": "The on-screen times contradict each other. Seq 3 puts the Council at 'SUPER: 4 NOVEMBER. 16:30.' with 'The unveiling is in ninety minutes', which makes the unveiling 18:00. Seq 4 opens the unveiling at 19:00.",
+    "fix": "'SUPER: 4 NOVEMBER. 19:00.' → 'SUPER: 4 NOVEMBER. 18:00.'"
+   },
+   {
+    "seq": 3,
+    "severity": "could",
+    "problem": "Lens 6: 'like a communion plate' applies a Christian liturgical image to an Egyptian sacred object in an Egyptian museum. The Seq 3 writer's notes already flagged this for the lead.",
+    "fix": "'It carries it level in both hands, like a communion plate, and walks.' → 'It carries it level in both hands, like an offering tray, and walks.'"
+   },
+   {
+    "seq": 7,
+    "severity": "could",
+    "problem": "A plot-critical hieroglyph (the kheperu group under Tut's fingertips) is described in a way that could be shot as legible in the plate. Production lock 5 requires COMP for readable glyphs.",
+    "fix": "'She finds Tut's hand in the dark and lays his fingertips on a single sign: a scarab, three short strokes beneath it.' → 'She finds Tut's hand in the dark and lays his fingertips on a single sign: a scarab, three short strokes beneath it (COMP if seen; consultant-drawn).'"
+   }
+  ]
+ }
+]

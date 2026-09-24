@@ -1,0 +1,1561 @@
+{
+  "CHAR_TUT": {
+    "LONG": "a slight, slender Egyptian young man of nineteen, short and narrow-shouldered, warm olive-brown skin, shaved head with faint dark stubble, a narrow face with high cheekbones and a small pointed chin, full lips with a visible overbite, very dark bright eyes under fine straight brows, a thin polished gold seam ring around the base of his neck, like a delicate kintsugi repair",
+    "SHORT": "a slight olive-skinned Egyptian young man, shaved head with faint stubble, visible overbite, very dark bright eyes, thin gold seam ring around his neck",
+    "NEG": "alien, extraterrestrial, elongated cranium, conehead, grey skin, oversized black eyes, glowing skin, visible circuitry, lattice pattern under the skin, metal face plates, robot or android look, a full head of hair, beard, striped royal headcloth, gold funerary mask, crown, bandage wrappings, heavy eye makeup, jewellery, blood, wounds, stitches on the face",
+    "WARD_A0": "wearing a plain ankle-length white linen gown with loose long sleeves and a low round neckline",
+    "WARD_A1": "wearing an oversized charcoal hooded military field jacket over a plain ankle-length white linen gown",
+    "WARD_B": "wearing an oversized charcoal hooded military field jacket over a white linen tunic, dark cargo trousers rolled at the ankle",
+    "WARD_C": "wearing a wet, torn, stone-dusted white linen tunic and dark trousers",
+    "WARD_C3": "wearing a stone-dusted white linen tunic and dark trousers, a long white linen shawl wrapped around his shoulders and crossed over his chest",
+    "DMG_L1": "clothes creased, a film of pale dust at the hems and cuffs",
+    "DMG_L1_RIVER": "damp patches and dried river-water marks on the jacket",
+    "DMG_L2": "jacket and trousers dusted grey-beige with sandstone dust, one jacket pocket flap torn loose, the tunic hem greyed",
+    "DMG_L2_PLASTER": "fine white plaster dust on the shoulders and hood",
+    "DMG_L3": "heavy pale limestone dust and soot streaks, the left trouser knee torn open, the right jacket elbow torn, the hood torn",
+    "DMG_L3_SOAKED": "soaked dark with water to the chest",
+    "DMG_L3_DRYING": "drying, with pale water tide-lines",
+    "DMG_L3_C3": "the tunic greyed with stone dust, dried water tide-lines at the hem",
+    "STATE_G0": "a soft glow through the fabric at the centre of the chest",
+    "STATE_G0F": "a soft glow through the fabric at the centre of the chest",
+    "STATE_G1": "a soft glow through the fabric at the centre of the chest",
+    "STATE_G2": "no light at the centre of his chest",
+    "STATE_WRIST_SEAMS": "thin gold seam rings at both wrists",
+    "STATE_WRIST_CRACK": "the gold seam at his left wrist split by a fine hairline crack",
+    "STATE_KNEE_CRACK": "through the torn left trouser knee, a thin gold seam ring split by a hairline crack",
+    "STATE_NECK_CRACK": "the gold neck seam split by a fine hairline crack below the left ear",
+    "STATE_FOOT": "his left foot is a smooth matte-black ceramic foot shaped in one clean hooked curve like an ancient ritual adze, with a thin gold seam ring at the ankle; his right foot is in a plain flat brown leather sandal",
+    "STATE_PORT": "a small round gold-rimmed port at the nape of his neck, just above the gold seam ring",
+    "STATE_LEAD": "a hair-fine lead running from the nape of his neck to a robot's wrist",
+    "STATE_SCAR": "a small round pale scar at the nape of his neck, edged by a broken arc of gold",
+    "STATE_TREMOR": "a faint tremor in his right hand",
+    "STATE_FOOT_STALL": "his left foot dragging slightly as he walks",
+    "STATE_CANE": "a plain matte-grey aluminium medical cane with a curved handle in his right hand",
+    "STATE_STICK": "holding in his right hand a plain straight near-black ebony walking staff with a narrow gold band below its rounded top, reaching his collarbone",
+    "STATE_DAGGER_SASH": "the gold hilt of a short dagger tucked into the white linen sash at his waist",
+    "STATE_DAGGER_BELT": "a short dagger in a gold sheath at his belt",
+    "STATE_NO_STICK": "walking unaided for the first time, careful and uneven",
+    "STATE_RED_SCARF": "a faded brick-red patterned scarf bound twice around his chest over the jacket"
+  },
+  "CHAR_TUT_BODY_1323": {
+    "LONG": "a slight young man of about nineteen lying still on a low limestone table under plain white linen drawn up to the collarbones, warm olive-brown skin, shaved head, eyes closed, his face turned in profile and half-lost in warm lamplit shadow, his arms hidden beneath the linen, peaceful and utterly still",
+    "SHORT": "a slight young man lying still under white linen drawn to the collarbones, shaved head, eyes closed, face in profile, half in shadow"
+  },
+  "CHAR_TUT_CRADLE_2033": {
+    "LONG": "a slight young man of nineteen lying on a low brushed-titanium examination cradle under a white sheet drawn up to the collarbones, warm olive-brown skin, shaved head with faint dark stubble, eyes closed, lips slightly parted over a visible overbite, a thin line of gold light tracing a ring around the base of his neck, utterly still",
+    "SHORT": "a slight young man on a titanium cradle under a white sheet to the collarbones, eyes closed, gold light ringing his neck"
+  },
+  "CHAR_TUT_CODA_CASE": {
+    "LONG": "a small linen-wrapped form lying on a tray of pale sand inside a low glass climate case, wrapped in new cream linen, the face covered by a folded linen shroud, the forearms laid low across the body, only a thin polished gold seam ring at one wrist showing, fresh blue cornflowers laid on the glass lid",
+    "SHORT": "a small linen-wrapped form on pale sand in a glass climate case, the face shrouded, only a thin gold seam at one wrist showing"
+  },
+  "CHAR_TUT_D1": {
+    "LONG": "close on the face of a slight olive-skinned young man in the first low gold light of sunrise, shaved head with faint stubble, very dark eyes slowly closing, a small peaceful smile over his visible overbite, lips dry, the skin a shade paler than before, the thin gold seam ring at his neck catching the light along a fine hairline crack, calm and at rest",
+    "SHORT": "a slight young man's face in first sunlight, dark eyes slowly closing, a small peaceful smile, the cracked gold neck seam catching the light",
+    "NEG": "horror styling, skeletal features, skull shape, exposed teeth, sunken eye sockets, shrivelled lips, cracked or peeling skin, wounds, blood, grey or green skin, bandage wrappings, insects, decay, gore, morphing, face distortion"
+  },
+  "CHAR_TUT_D2": {
+    "LONG": "a wide backlit silhouette against a huge rising sun on a flat horizon: a woman and a broad-shouldered man gently lower the slight body of a young man onto pale stone steps, his shaved head resting back against the man's arm, one hand hanging loose, a long linen shawl lifting in the dawn wind, no facial detail visible, reverent and unhurried",
+    "SHORT": "wide backlit silhouette against the rising sun: a woman and a broad-shouldered man gently lower a slight young man onto stone steps",
+    "NEG": "horror styling, skeletal features, skull shape, exposed teeth, sunken eye sockets, shrivelled lips, cracked or peeling skin, wounds, blood, grey or green skin, bandage wrappings, insects, decay, gore, morphing, face distortion"
+  },
+  "CHAR_TUT_D3": {
+    "LONG": "close shot of two slender hands at rest, the forearms settled low across the lower belly as if laid there by careful hands long ago, the skin darkened to a dry, deep bronze-brown like old parchment, drawn smooth and tight around thin gold seam rings at both wrists, the left seam split by a hairline crack, a fold of white linen and three blue cornflowers beside them, perfectly still",
+    "SHORT": "two still hands laid low across the body, skin dry dark bronze-brown like old parchment around thin gold wrist seams, blue cornflowers beside them",
+    "NEG": "horror styling, skeletal features, skull shape, exposed teeth, sunken eye sockets, shrivelled lips, cracked or peeling skin, wounds, blood, grey or green skin, bandage wrappings, insects, decay, gore, morphing, face distortion"
+  },
+  "CHAR_TUT_D4": {
+    "LONG": "top-down medium shot of a slight young man lying on pale limestone in soft morning light, a white linen shawl drawn up over his mouth and one cheek with blue cornflowers scattered across it, only his closed eyes, brow and shaved scalp visible, the skin matte dark bronze-brown like old parchment, the features calm and softly suggested, hands resting low across his body, peaceful",
+    "SHORT": "from above, a still young man on pale stone, a white linen shawl and blue cornflowers covering half his face, closed eyes, dark bronze-brown skin",
+    "NEG": "horror styling, skeletal features, skull shape, exposed teeth, sunken eye sockets, shrivelled lips, cracked or peeling skin, wounds, blood, grey or green skin, bandage wrappings, insects, decay, gore, morphing, face distortion"
+  },
+  "CHAR_NOUR": {
+    "LONG": "a lean thirty-eight-year-old Egyptian woman with warm light-brown skin, dark curly shoulder-length hair tied back at the nape with loose curls at the temples, thick straight dark brows, a small pale scar through the tail of the left eyebrow, deep-set dark-brown eyes, a strong straight nose with a slight bump, a wide expressive mouth, narrow black reading glasses hanging on a cord, an olive field jacket",
+    "SHORT": "a lean Egyptian woman of thirty-eight, dark curly hair tied back, thick straight brows, reading glasses on a cord, olive field jacket",
+    "NEG": "celebrity likeness, headscarf, heavy makeup, glamour hair, loose flowing hair, round glasses, tortoiseshell glasses, readable text on the pendant",
+    "WARD_A": "wearing an olive cotton field jacket with four flap pockets over a cream linen shirt, charcoal trousers, brown leather ankle boots, a small silver pendant on a fine chain",
+    "WARD_B": "wearing an olive cotton field jacket over a black silk blouse and black trousers, black leather ankle boots, a small silver pendant on a fine chain",
+    "WARD_C": "wearing a dusty olive field jacket over a black blouse and black trousers, a long white linen shawl over her shoulders and across her chest like a lector's sash, crushed blue cornflowers in the breast pocket",
+    "DMG_L1": "clothes creased, river-damp at the cuffs, curls coming loose",
+    "DMG_L2": "jacket and trousers grey with sandstone dust, the right jacket cuff torn",
+    "DMG_L2_PLASTER": "white plaster dust in her hair and on her shoulders",
+    "DMG_KNEES": "pale stone dust to the knees"
+  },
+  "CHAR_ADAEZE": {
+    "LONG": "a tall, solidly built British-Nigerian woman of forty-four with deep brown skin, close-cropped natural black hair flecked grey at the temples, round tortoiseshell glasses, wide-set dark eyes, a broad forehead and rounded cheekbones, full lips with a small gap between her front teeth, a faint worry line between the brows, a navy blazer over a grey hoodie",
+    "SHORT": "a tall British-Nigerian woman of forty-four, deep brown skin, close-cropped natural hair, round tortoiseshell glasses, navy blazer over a grey hoodie",
+    "NEG": "celebrity likeness, long hair, braids, wig, headwrap, rectangular glasses, black-rimmed glasses, business suit, readable laptop stickers",
+    "WARD_A": "wearing a navy wool blazer over a heather-grey hoodie, dark indigo jeans, plain white canvas trainers, a lanyard with a blank badge",
+    "WARD_B": "wearing a creased navy blazer with the sleeves pushed up over a grey hoodie, dark jeans, grubby white trainers, a canvas shoulder bag",
+    "WARD_C": "wearing a dusty navy blazer over a grey hoodie, dark jeans with the left leg torn below the knee and bound with a khaki field bandage, grubby white trainers",
+    "WARD_D": "wearing a clean navy wool blazer over a heather-grey hoodie, dark indigo jeans, a plain black walking cane hooked on her chair",
+    "DMG_L1": "creased, river-damp",
+    "DMG_L2": "dusty, a torn blazer pocket",
+    "DMG_L2_BLUE": "vivid blue powder smudged on her fingers and blazer front",
+    "DMG_L3": "heavy stone dust and soot",
+    "DMG_SOAKED": "clothes soaked dark and clinging",
+    "DMG_DRYING": "drying, water tide-lines"
+  },
+  "CHAR_TOMAS": {
+    "LONG": "a very tall, lanky Swedish man of fifty with a slight stoop, pale sun-reddened skin, a long narrow face, a full short-trimmed grey beard, thinning ash-grey hair swept back from a high forehead, deep-set pale blue-grey eyes with heavy crow's feet, a long straight nose, a pale-blue shirt with the sleeves rolled above the elbows",
+    "SHORT": "a very tall, lanky Swedish man of fifty, full short grey beard, thinning swept-back grey hair, pale-blue shirt with rolled sleeves",
+    "NEG": "celebrity likeness, long beard, ponytail, lab coat, tie, glasses",
+    "WARD_A": "wearing a pale-blue cotton oxford shirt with the sleeves rolled above the elbows, charcoal chinos, a brown leather belt, brown suede desert boots, a plain steel wristwatch",
+    "WARD_B": "wearing a pale-blue cotton oxford shirt with the sleeves rolled above the elbows, charcoal chinos, a brown leather belt, brown suede desert boots, a plain steel wristwatch",
+    "WARD_C": "wearing a grey-dusted pale-blue oxford shirt torn at the left shoulder seam, sleeves rolled above the elbows, dusty charcoal chinos, desert boots"
+  },
+  "CHAR_TAREK": {
+    "LONG": "a barrel-chested Egyptian army colonel of fifty-two, very upright, deep-tanned weathered skin, a square face with a heavy neatly trimmed grey moustache, close-cropped grey hair under a black beret worn low to the right, heavy-lidded dark eyes beneath thick grey-black brows, deep vertical frown lines, a nose once broken and set slightly left, a desert-camouflage uniform",
+    "SHORT": "a barrel-chested Egyptian colonel of fifty-two, heavy grey moustache, black beret, weathered deep-tanned face, desert-camouflage uniform",
+    "NEG": "celebrity likeness, real military unit patches, readable insignia or name tapes, flags, medals, sunglasses, beard, helmet",
+    "WARD_A": "wearing a pressed desert-camouflage army uniform in tan, sand and brown with the sleeves down, a black beret with a small brass badge, subdued shoulder-board rank insignia, tan combat boots, a holstered pistol",
+    "WARD_B": "wearing a dusty desert-camouflage army uniform with sleeves rolled to the elbow, a tan load-bearing vest, a black beret, a rifle slung across his chest",
+    "WARD_C": "wearing a soaked desert-camouflage uniform and black beret, chest-deep in dark water",
+    "DMG_L2_GREASE": "black diesel grease on his hands and forearms"
+  },
+  "CHAR_FATHI": {
+    "LONG": "a tall, broad-shouldered Nubian Egyptian soldier of thirty-one with deep dark-brown skin, a close-trimmed full black beard, short tightly curled black hair, a broad nose and high rounded cheekbones, calm warm dark eyes, a wide generous mouth, a faded brick-red scarf with a small white diamond pattern knotted at his neck, desert-camouflage uniform with sleeves rolled",
+    "SHORT": "a broad-shouldered Nubian Egyptian soldier of thirty-one, deep dark-brown skin, close black beard, red-patterned scarf at the neck, desert camouflage",
+    "NEG": "celebrity likeness, facial scars or tribal marks, turban, keffiyeh headdress, helmet, real unit patches, readable insignia, servant or porter styling",
+    "WARD_A": "wearing a desert-camouflage army uniform with the sleeves rolled above the elbow, a black beret, a faded brick-red patterned scarf knotted at the neck, a combat engineer's chest rig with pouches, tan combat boots",
+    "WARD_B": "wearing a dusty desert-camouflage uniform with rolled sleeves, a faded brick-red patterned scarf at the neck, a chest rig, a canvas demolition satchel slung across his body, bareheaded",
+    "WARD_C": "wearing a clean desert-camouflage army uniform with the sleeves rolled above the elbow, a faded brick-red patterned scarf knotted at the neck, a black beret",
+    "DMG_L1": "river-wet to the knees",
+    "DMG_L3": "soot and stone dust, the chest-rig pouches empty"
+  },
+  "CHAR_RAMI": {
+    "LONG": "a wiry, thin Egyptian man of twenty-seven with light olive skin, clean-shaven, a narrow face with big expressive dark eyebrows, large dark eyes behind black-rimmed rectangular glasses, slightly prominent ears, short black hair faded at the sides and thick and wavy on top, a wide mouth with a small chip in one front tooth, a bright yellow windbreaker",
+    "SHORT": "a wiry, clean-shaven Egyptian man of twenty-seven, black-rimmed glasses, short black hair wavy on top, bright yellow windbreaker",
+    "NEG": "celebrity likeness, beard, moustache, round glasses, readable logo or lettering on the windbreaker, brand logos on clothing or shoes",
+    "WARD_A": "wearing a bright yellow zip-up windbreaker with a small black sun-disk emblem on the chest and no lettering, a plain charcoal t-shirt, black jeans, grey trainers",
+    "WARD_B": "wearing a bright yellow zip-up windbreaker with a small black sun-disk emblem on the chest and no lettering, a plain charcoal t-shirt, black jeans, grey trainers, his left hand in a finger splint bound with white tape",
+    "DMG_L1": "creased, river-damp",
+    "DMG_L2": "sandstone dust, the right sleeve torn at the elbow"
+  },
+  "CHAR_HALE": {
+    "LONG": "a lean, tall American man of sixty with a runner's build, thick silver hair swept straight back from the forehead, a tanned, lean face with prominent cheekbones and hollow cheeks, pale grey-green eyes with fine crow's feet, a narrow straight nose, thin lips, a clean-shaven strong chin with a thin pale scar along the left jaw, a charcoal suit with an open-collared white shirt",
+    "SHORT": "a lean American man of sixty, silver hair swept straight back, tanned lean face, charcoal suit with an open-collared white shirt",
+    "NEG": "celebrity likeness, resemblance to any real tech founder, turtleneck, hoodie, tie (except wardrobe C), jewellery, lapel pins, logos",
+    "WARD_A": "wearing a charcoal wool two-piece suit and a crisp white shirt open at the collar, no tie, black leather shoes, a plain steel wristwatch",
+    "WARD_B": "wearing a creased charcoal suit and open-collared white shirt, asleep",
+    "WARD_B_BRACELET": "wearing a creased charcoal suit and open-collared white shirt, a thin silver bracelet on his left wrist, asleep",
+    "WARD_C": "wearing a charcoal wool suit, a white shirt buttoned to the collar with a plain dark tie, black leather shoes"
+  },
+  "CHAR_LAYLA": {
+    "LONG": "a small, bright nine-year-old Egyptian girl with warm light-brown skin, a round face with full cheeks and a dimple in the right cheek, big dark-brown eyes with long lashes, a small upturned nose, a gap in her front teeth where a new tooth is half grown in, thick dark curly hair in two bouncy pigtails tied with yellow bands, a bright yellow raincoat",
+    "SHORT": "a small nine-year-old Egyptian girl, round face, big dark eyes, two curly pigtails, bright yellow raincoat",
+    "NEG": "makeup, jewellery, older-styled, adult clothing, any robot or machine touching her, medical equipment, tubes, bracelets, readable text on clothing",
+    "WARD_A": "wearing a bright yellow knee-length hooded raincoat over a navy long-sleeved t-shirt and dark grey leggings, white canvas sneakers, a small pale-green plastic scarab keyring clipped to the raincoat zip",
+    "WARD_B": "wearing a bright yellow knee-length hooded raincoat over a navy velvet party dress, white tights, black shoes",
+    "WARD_C": "wearing a bright yellow knee-length hooded raincoat over a navy long-sleeved t-shirt and dark grey leggings, white canvas sneakers"
+  },
+  "CHAR_AKHENATEN": {
+    "LONG": "a slender, long-limbed Egyptian man in his late twenties with smooth warm-brown skin, a naturalistic human face with a long jaw and long chin, full sculpted lips, heavy-lidded dark eyes with a serene half-closed gaze, a long straight nose, high cheekbones, a smooth shaved head, a long slender neck, finely pleated white linen and a plain gold disk pendant on his chest",
+    "SHORT": "a slender Egyptian man in his late twenties, long jaw, full lips, heavy-lidded eyes, smooth shaved head, pleated white linen, gold disk pendant",
+    "NEG": "alien, extraterrestrial, elongated cranium, conehead, grey skin, oversized black eyes, distended belly or hips, stylised statue proportions, glowing skin, hair, beard, striped royal headcloth, heavy eye makeup",
+    "WARD_A": "wearing a long, finely pleated white linen robe falling to the ankles, tied at the waist with a white linen sash, a pleated linen shawl over the shoulders, a plain polished gold disk the size of a palm hanging on a fine gold chain, bare feet",
+    "WARD_B": "wearing a long, finely pleated white linen robe falling to the ankles, tied at the waist with a white linen sash, a pleated linen shawl over the shoulders, a plain polished gold disk the size of a palm hanging on a fine gold chain, bare feet, the hem dusty"
+  },
+  "CHAR_AKHENATEN_1336": {
+    "LONG": "a slender, long-limbed Egyptian man of about thirty-five with warm-brown sun-darkened skin, a naturalistic human face with a long jaw and long chin, full sculpted lips, heavy-lidded dark eyes, faint lines at the eyes, a long straight nose, high cheekbones, a long slender neck, a tall blue crown dotted with small gold discs and a gold cobra at the brow, pleated white linen",
+    "SHORT": "a slender Egyptian man of about thirty-five, long jaw, full lips, heavy-lidded eyes, tall blue crown with a gold cobra, pleated white linen",
+    "NEG": "alien, extraterrestrial, elongated cranium, conehead, grey skin, oversized black eyes, distended belly or hips, stylised statue proportions, glowing skin, hair, beard, striped royal headcloth, heavy eye makeup",
+    "WARD_R": "wearing a long finely pleated white linen robe with a pleated sash-apron, a broad collar of gold and blue faience beads, gold armbands, white papyrus sandals"
+  },
+  "CHAR_HASSAN": {
+    "LONG": "a heavy-set Egyptian army corporal of thirty-five with light-brown skin, a round good-natured face, a thick black moustache, a receding hairline under a black beret, small bright eyes behind thin metal-framed glasses, a double chin, a desert-camouflage uniform stretched across a broad belly, fingerless leather driving gloves",
+    "SHORT": "a heavy-set Egyptian corporal of thirty-five, round face, thick black moustache, thin metal glasses, black beret, desert camouflage",
+    "NEG": "celebrity likeness, readable name tapes or insignia, real unit patches, flags",
+    "WARD_A": "wearing a desert-camouflage army uniform, a black beret and fingerless leather driving gloves"
+  },
+  "CHAR_MINA": {
+    "LONG": "a tall, lanky Egyptian private of twenty-two with light olive skin, a long boyish face, big ears, a faint wisp of a moustache, a prominent Adam's apple, soft brown eyes, short black hair, a small faded blue cross tattoo on the inside of his right wrist, a desert-camouflage uniform a size too big",
+    "SHORT": "a tall, lanky Egyptian private of twenty-two, long boyish face, big ears, faint moustache, small blue cross tattoo on the right wrist",
+    "NEG": "celebrity likeness, readable name tapes or insignia, real unit patches, flags",
+    "WARD_M": "wearing a desert-camouflage army uniform a size too big and a black beret",
+    "WARD_A": "wearing a desert-camouflage army uniform a size too big and a tan combat helmet"
+  },
+  "CHAR_YOUSSEF": {
+    "LONG": "a stocky, muscular Egyptian private of twenty-five with medium-brown skin, a square jaw, a shaved head, a short pale scar splitting the right eyebrow, a flattened boxer's nose, dark serious eyes, heavy stubble shadow but no beard, thick forearms, a desert-camouflage uniform with sleeves rolled",
+    "SHORT": "a stocky Egyptian private of twenty-five, square jaw, shaved head, scar through the right eyebrow, flattened nose, desert camouflage",
+    "NEG": "celebrity likeness, readable name tapes or insignia, real unit patches, flags",
+    "WARD_M": "wearing a desert-camouflage army uniform with sleeves rolled and a black beret",
+    "WARD_A": "wearing a desert-camouflage army uniform with sleeves rolled and a tan combat helmet"
+  },
+  "CHAR_KARIM": {
+    "LONG": "a wiry Egyptian private of nineteen with light-brown skin and freckles across the nose, a narrow sharp-featured face, hazel eyes, a thin straight nose, a quick crooked smile, clean-shaven, curly dark-brown hair spilling over his forehead and ears, a desert-camouflage uniform with the sleeves pushed up",
+    "SHORT": "a wiry Egyptian private of nineteen, freckled light-brown skin, hazel eyes, curly dark hair, desert camouflage",
+    "NEG": "celebrity likeness, readable name tapes or insignia, real unit patches, flags",
+    "WARD_M": "wearing a desert-camouflage army uniform and a black beret",
+    "WARD_A": "wearing a desert-camouflage army uniform and a tan combat helmet"
+  },
+  "CHAR_AY": {
+    "LONG": "a lean, sinewy Egyptian elder in his sixties, slightly stooped, sun-weathered deep bronze-brown skin, a long hollow-cheeked face with deep lines from nose to mouth, a prominent hooked nose, shrewd deep-set dark eyes under heavy grey brows, a thin wide mouth, short grey mourning stubble on his shaved scalp and jaw, several strands of heavy gold disc-bead collars at his neck",
+    "SHORT": "a lean, stooped Egyptian elder in his sixties, hollow-cheeked weathered face, hooked nose, short grey stubble, heavy gold disc-bead collars",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs",
+    "WARD_A": "wearing a spotted leopard-skin mantle draped over his left shoulder above a plain pleated white linen kilt to mid-calf, bare feet",
+    "WARD_B": "wearing a spotted leopard-skin mantle draped over his left shoulder above a pleated white linen kilt, a tall blue crown with a gold cobra at the brow, an iron adze in his right hand"
+  },
+  "CHAR_ANKHESENAMUN": {
+    "LONG": "a slender, small-framed Egyptian woman of about twenty with warm light-brown skin, a heart-shaped face with soft full cheeks, large dark eyes rimmed red from weeping, strong dark brows, a small straight nose, full lips with crisp edges, her own long dark hair loose and unbound past the shoulders, a pale blue-grey linen mourning shawl over plain white linen",
+    "SHORT": "a slender Egyptian woman of about twenty, heart-shaped face, grief-reddened dark eyes, long loose dark hair, pale blue-grey linen shawl",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, crown, heavy jewellery",
+    "WARD_A": "wearing a plain unpleated white linen sheath dress to the ankles, a pale blue-grey linen shawl over her head and shoulders, a single small blue faience ring, bare feet, holding a small round wreath of blue cornflowers and olive leaves"
+  },
+  "CHAR_LECTOR_1323": {
+    "LONG": "a thin, precise Egyptian priest in his forties with olive-brown skin, a completely shaved head and face, a narrow face with a long straight nose, thin lips and large calm dark eyes, red and black ink stains on the fingertips of his right hand, a broad white linen sash worn diagonally across his bare chest over a pleated white linen kilt, a papyrus roll in hand",
+    "SHORT": "a thin shaved-headed Egyptian priest in his forties, calm dark eyes, white linen sash across his chest, pleated kilt, papyrus roll",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, leopard skin, crown, jewellery",
+    "WARD_A": "wearing a pleated white linen kilt to the knee, a broad white linen sash from the left shoulder across his bare chest to the right hip, white papyrus sandals, holding a papyrus roll"
+  },
+  "CHAR_EMBALMER_JACKAL": {
+    "LONG": "a heavy-set, strong-armed Egyptian embalmer whose whole head is hidden inside a fired-clay jackal mask painted matte black, with tall pointed ears, a long narrow muzzle and small eye-holes set low beneath the muzzle, the clay worn and chipped at the edges; bare olive-brown shoulders, forearms stained amber-brown with resin, a white linen kilt under a resin-darkened linen apron",
+    "SHORT": "a heavy-set embalmer in a worn black-painted clay jackal mask with low eye-holes, resin-stained forearms, white linen kilt and apron",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, werewolf, living animal head, fur, glowing eyes, gold mask, blood, red stains, horror styling",
+    "WARD_A": "wearing a white linen kilt under a resin-darkened linen apron, bare feet"
+  },
+  "CHAR_EMBALMER_PRIEST": {
+    "LONG": "a thin young Egyptian priest of about twenty-two with olive-brown skin, a shaved head and smooth face, wide anxious dark eyes, a soft rounded chin, a slightly crooked nose, prominent collarbones, a plain white linen kilt and a short white linen shawl over his shoulders, amber-brown resin smudges on his hands",
+    "SHORT": "a thin young shaved-headed Egyptian priest, wide anxious eyes, slightly crooked nose, white linen kilt and short shawl",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs",
+    "WARD_A": "wearing a plain white linen kilt and a short white linen shawl, bare feet"
+  },
+  "CHAR_PAINTER_1323": {
+    "LONG": "a weathered Egyptian tomb painter in his fifties, wiry and small, with sun-darkened brown skin, a shaved head with grey stubble, deep squint lines around narrow, sharp dark eyes, a broad flat nose, a patient mouth, fingers stained blue, red and yellow with pigment, two reed brushes tucked behind his ear, a paint-spotted white linen kilt",
+    "SHORT": "a small wiry Egyptian tomb painter in his fifties, grey-stubbled shaved head, squinting eyes, pigment-stained fingers, reed brushes behind his ear",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs",
+    "WARD_A": "wearing a paint-spotted white linen kilt, bare feet, holding a wooden palette of pigment cakes"
+  },
+  "CHAR_NEFERTITI": {
+    "LONG": "a regal Egyptian woman of thirty-five with warm medium-brown skin, a long slender neck, high sharp cheekbones, a fine straight nose, strong dark softly arched brows, almond-shaped dark eyes with a fine line of dark eye paint, full lips with crisp edges, faint lines at the mouth corners, a tall flat-topped deep-blue crown circled by a thin gold band with a gold cobra at the brow",
+    "SHORT": "a regal Egyptian woman of thirty-five, long slender neck, high cheekbones, strong brows, tall flat-topped blue crown with a gold band",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, replica of a famous sculpture, porcelain skin, symmetrical statue face",
+    "WARD_A": "wearing a long finely pleated white linen robe tied beneath the bust with a red sash, a broad collar of gold, blue faience and red carnelian beads, gold earrings",
+    "WARD_B": "wearing a long pleated white linen robe under a deep-blue linen cloak, a broad collar of gold and blue faience beads"
+  },
+  "CHAR_TUT_CHILD_9": {
+    "LONG": "a slight nine-year-old Egyptian boy with olive-brown skin, a narrow face with a small pointed chin, very dark bright eyes, large new front teeth in a visible overbite, fine straight brows, his head shaved except for a single thick braided sidelock falling from the right side of his head to his shoulder, serious and watchful",
+    "SHORT": "a slight nine-year-old Egyptian boy, very dark bright eyes, visible overbite, shaved head with one braided sidelock on the right",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, adult features, makeup, jewellery beyond the small collar, crown (except at 11), bare torso",
+    "WARD_9": "wearing a pleated white linen kilt and a short-sleeved white linen tunic, a small collar of gold and blue faience beads, a small white linen cloak, small leather sandals"
+  },
+  "CHAR_TUT_CHILD_6": {
+    "LONG": "a slight six-year-old Egyptian boy with olive-brown skin, a narrow face with a small pointed chin, very dark bright eyes, new front teeth in a visible overbite, fine straight brows, his head shaved except for a single thick braided sidelock falling from the right side of his head to his shoulder, serious and watchful",
+    "SHORT": "a slight six-year-old Egyptian boy, very dark bright eyes, visible overbite, shaved head with one braided sidelock on the right",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, adult features, makeup, jewellery beyond the small collar, crown (except at 11), bare torso",
+    "WARD_6": "wearing a short white linen kilt and a short-sleeved white linen tunic, a small collar of blue faience beads, small leather sandals"
+  },
+  "CHAR_TUT_CHILD_11": {
+    "LONG": "a slight eleven-year-old Egyptian boy with olive-brown skin, a narrow face with a small pointed chin, very dark bright eyes, large front teeth in a visible overbite, fine straight brows, his head cleanly shaved and smooth, a thin face already grave beyond its years, serious and watchful",
+    "SHORT": "a slight eleven-year-old Egyptian boy, very dark bright eyes, visible overbite, a cleanly shaved head, grave and watchful",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, adult features, makeup, jewellery beyond the small collar, crown (except at 11), bare torso",
+    "WARD_11": "wearing a pleated white linen kilt, a broad collar of gold and blue faience beads, a small blue crown with a gold cobra"
+  },
+  "CHAR_YOUNG_MOTHER": {
+    "LONG": "a slight Egyptian woman of about twenty-five with warm olive-brown skin, a narrow face with high cheekbones and a small pointed chin, very dark bright eyes, full lips over a slight overbite, strong straight brows, her dark hair in many fine shoulder-length braids under a narrow gold circlet, a broad collar of blue faience beads, finely pleated white linen",
+    "SHORT": "a slight Egyptian woman of about twenty-five, very dark bright eyes, slight overbite, fine shoulder-length braids under a gold circlet, pleated white linen",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, wounds, scars, crown",
+    "WARD_A": "wearing a plain finely pleated white linen robe, a narrow gold circlet and a broad collar of blue faience beads",
+    "STATE_GLOW": "a soft glow through the fabric at the centre of her chest"
+  },
+  "CHAR_PAWAH": {
+    "LONG": "a heavy-set Egyptian priest in his fifties with deep olive-brown skin, a round, fleshy face, a completely shaved head and face, a prominent full lower lip, small bright dark eyes under heavy lids, a thick neck, a broad white linen lector's sash across his chest over a pleated white linen kilt, a papyrus roll held in both hands",
+    "SHORT": "a heavy-set shaved-headed Egyptian priest in his fifties, round fleshy face, full lower lip, white linen sash, papyrus roll",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, leopard skin, crown",
+    "WARD_A": "wearing a pleated white linen kilt, a broad white linen lector's sash across his chest, white papyrus sandals"
+  },
+  "CHAR_MERITATEN": {
+    "LONG": "a slender young Egyptian woman of about eighteen with warm medium-brown skin, a long neck, high cheekbones and strong softly arched dark brows, almond-shaped dark eyes, full lips, a short rounded dark layered wig with a thin gold circlet, a broad collar of gold and blue faience beads, a long pleated white linen dress",
+    "SHORT": "a slender young Egyptian woman of about eighteen, long neck, short rounded dark layered wig with a gold circlet, pleated white linen",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, elongated skull, shaved head, childlike styling",
+    "WARD_A": "wearing a long pleated white linen dress and a broad collar of gold and blue faience beads"
+  },
+  "CHAR_CARTER_1925": {
+    "LONG": "a solidly built Englishman of about fifty with a broad, sun-weathered face, a full dark moustache neatly trimmed and slightly drooping at the ends, dark hair receding and combed flat with a side parting, heavy-lidded dark eyes with pouches beneath, thick dark brows, a firm mouth, shirtsleeves rolled, a dark waistcoat with a watch chain, a dark bow tie",
+    "SHORT": "a solid Englishman of about fifty, full dark moustache, flat-combed receding dark hair, rolled shirtsleeves, dark waistcoat and bow tie",
+    "NEG": "modern clothing, modern eyewear, colour saturation (graded to sepia later), pith-helmet explorer cliché, readable text",
+    "WARD_A": "wearing a white shirt with the sleeves rolled, a dark waistcoat with a watch chain, a dark bow tie and dark trousers"
+  },
+  "CHAR_DERRY_1925": {
+    "LONG": "a tall, lean British anatomist of about fifty with a long, pale, clean-shaven face, a high balding forehead with close-cut greying hair at the sides, round steel-rimmed spectacles, a long straight nose, pale watchful eyes, thin lips, a white cotton surgeon's coat buttoned over a starched collar and dark tie, sleeves turned back at the wrists",
+    "SHORT": "a tall, lean, balding British anatomist of about fifty, clean-shaven, round steel-rimmed spectacles, white surgeon's coat over collar and tie",
+    "NEG": "modern clothing, modern eyewear, colour saturation (graded to sepia later), pith-helmet explorer cliché, readable text, rubber gloves, surgical mask, blood",
+    "WARD_A": "wearing a white cotton surgeon's coat buttoned over a starched collar and dark tie"
+  },
+  "CHAR_HAMDI_1925": {
+    "LONG": "a stout, dignified Egyptian physician in his sixties with warm light-brown skin, a round, grave face, a thick grey moustache, round gold-rimmed spectacles, heavy grey brows over patient dark eyes, a red felt tarboosh with a black silk tassel, a dark three-piece suit with a white wing collar and dark tie, a gold watch chain across the waistcoat",
+    "SHORT": "a stout Egyptian physician in his sixties, thick grey moustache, round gold-rimmed spectacles, red tarboosh, dark three-piece suit",
+    "NEG": "modern clothing, modern eyewear, colour saturation (graded to sepia later), pith-helmet explorer cliché, readable text, servant styling, galabiya",
+    "WARD_A": "wearing a red felt tarboosh with a black tassel, a dark three-piece suit with a white wing collar and dark tie"
+  },
+  "CHAR_BURTON_1925": {
+    "LONG": "a slim, wiry Englishman in his mid-forties with fair sunburnt skin, thinning sandy-grey hair neatly parted, a narrow clean-shaven face with fine features, light grey eyes creased from squinting, a small tight mouth, shirtsleeves rolled to the elbow, a dark waistcoat, a black focusing cloth over one shoulder beside a large wooden plate camera on a tripod",
+    "SHORT": "a slim fair Englishman in his mid-forties, thinning sandy hair, clean-shaven, rolled shirtsleeves, black focusing cloth over his shoulder",
+    "NEG": "modern clothing, modern eyewear, colour saturation (graded to sepia later), pith-helmet explorer cliché, readable text, modern camera",
+    "WARD_A": "wearing a white shirt with the sleeves rolled and a dark waistcoat, a black focusing cloth over one shoulder"
+  },
+  "CHAR_IBRAHIM_1925": {
+    "LONG": "a slim young Upper-Egyptian man in his early twenties with warm light-brown skin, thick straight dark brows, deep-set dark-brown eyes, a strong straight nose with a slight bump at the bridge, a thin young moustache, a white knitted skullcap, a pale grey-striped cotton galabiya under a dark brown wool waistcoat, a dented brass kerosene lantern in his hands",
+    "SHORT": "a slim young Upper-Egyptian man, thick straight brows, deep-set eyes, thin moustache, white skullcap, striped galabiya and dark waistcoat",
+    "NEG": "modern clothing, modern eyewear, colour saturation (graded to sepia later), pith-helmet explorer cliché, readable text, turban, servant caricature",
+    "WARD_A": "wearing a pale grey-striped cotton galabiya under a dark brown wool waistcoat and a white knitted skullcap"
+  },
+  "CHAR_BANDSMAN_1939": {
+    "LONG": "a slim, fair young British army bandsman of about twenty-two with a clean-shaven boyish face, sunburnt pink cheeks, light blue eyes, short back-and-sides hair under a brown-and-crimson side cap, an earnest straight mouth, a khaki drill tunic with brass buttons, pressed khaki trousers, standing very straight with an ancient metal trumpet held at his chest",
+    "SHORT": "a slim, fair young British army bandsman of the 1930s, clean-shaven, brown-and-crimson side cap, khaki drill tunic with brass buttons",
+    "NEG": "modern uniform, medals, readable badges, colour saturation (graded candlelit monochrome-warm later)",
+    "WARD_A": "wearing a khaki drill tunic with brass buttons, pressed khaki trousers and a brown-and-crimson side cap"
+  },
+  "CHAR_RADIO_ENGINEER_1939": {
+    "LONG": "a British radio outside-broadcast engineer of about forty with a pale, intent face, a thin pencil moustache, dark hair oiled and parted in the middle, round wire spectacles, heavy black headphones clamped over his ears, braces over a white shirt with the sleeves held up by metal armbands, a loosened dark tie, a pencil behind his ear",
+    "SHORT": "a British radio engineer of about forty, pencil moustache, round wire spectacles, heavy black headphones, white shirt and braces, loosened tie",
+    "NEG": "modern headphones, logos, readable dials or labels, colour saturation",
+    "WARD_A": "wearing a white shirt with metal sleeve armbands, braces and a loosened dark tie, heavy black headphones"
+  },
+  "CHAR_RADIOLOGIST_1968": {
+    "LONG": "a British hospital radiologist in his late forties with pale skin, a long, tired, clean-shaven face, short dark hair greying at the temples and neatly side-parted, heavy black horn-rimmed glasses, attentive grey eyes, a white doctor's coat over a pale shirt and narrow dark knitted tie, a pen in his hand",
+    "SHORT": "a British radiologist in his late forties, tired clean-shaven face, black horn-rimmed glasses, side-parted greying hair, white coat, narrow tie",
+    "NEG": "modern clothing, colour saturation (graded cold fluorescent later), readable text",
+    "WARD_A": "wearing a white doctor's coat over a pale blue shirt and a narrow dark knitted tie"
+  },
+  "CHAR_XRAY_ASSISTANT_1968": {
+    "LONG": "a young British radiographer of about twenty-five with pale freckled skin, auburn hair in a neat short bob, a round open face, grey-green eyes, pale pink lipstick, a white coat over a pale blue uniform dress, an X-ray film cassette held against her chest",
+    "SHORT": "a young British radiographer of about twenty-five, freckled, auburn short bob, white coat over a pale blue uniform dress",
+    "NEG": "modern clothing, readable text",
+    "WARD_A": "wearing a white coat over a pale blue uniform dress"
+  },
+  "CHAR_MINISTER_GALA": {
+    "LONG": "an unnamed Egyptian government minister in his sixties seen only at a distance, a heavy-set man with neat grey hair and rimless glasses, a dark navy suit, white shirt and dark tie, rising from a long top table beneath a colossal granite statue, one hand open toward a grand staircase, his face never in close view",
+    "SHORT": "a heavy-set grey-haired official in his sixties in a dark navy suit, seen only in wide shots rising from a top table"
+  },
+  "CHAR_SAMEH": {
+    "LONG": "a man in his early forties seen only from behind or out of focus, medium build, short dark hair, a dark grey wool jacket over a white shirt, seated at a round white-clothed gala table beneath a colossal granite statue in a crowded museum atrium at night, one hand raised in a wave, never turning his face to the camera",
+    "SHORT": "a man in his forties in a dark grey jacket, seen from behind at a gala table, one hand raised in a wave"
+  },
+  "CHAR_MIDWIFE_2033": {
+    "LONG": "a tired, kind Egyptian midwife in her fifties with warm brown skin and deep laugh lines, a white headscarf pinned neatly, pale-green hospital scrubs, lifting a newborn swaddled in a clean white cloth toward its mother in a softly lit hospital room, her eyes wet, smiling",
+    "SHORT": "a kind Egyptian midwife in her fifties, white headscarf, pale-green scrubs, lifting a newborn swaddled in clean white cloth"
+  },
+  "CHAR_GARDEN_SLEEPERS": {
+    "LONG": "rows of adults of every age asleep on low cots in their own everyday clothes under soft, even white light, faces peaceful and breathing slowly, pale blankets drawn up to the chest, a thin plain silver bracelet on each wrist, blue cornflowers standing in fresh-turned sand between the rows, calm, clean and uncluttered",
+    "SHORT": "rows of peaceful adult sleepers on low cots in everyday clothes, blankets to the chest, thin silver bracelets on their wrists, soft white light"
+  },
+  "CHAR_AMARNA_SLEEPERS_1336": {
+    "LONG": "Egyptian men and women in plain white linen lying still beside long rows of low stone offering tables in a vast roofless temple court, eyes closed and faces calm, shaved heads and short dark wigs, bare feet, blinding white-gold sunlight flattening every shadow, the air shimmering with heat",
+    "SHORT": "rows of Egyptians in white linen asleep beside low stone offering tables in a roofless court of blinding white-gold light"
+  },
+  "CHAR_AMARNA_COURTIERS_1336": {
+    "LONG": "Egyptian courtiers and priests standing in the background in finely pleated white linen, men with shaved heads or short rounded dark wigs, women in long pleated dresses and broad bead collars of blue faience, olive to brown skin, still and watchful, softened by haze and depth of field",
+    "SHORT": "background Egyptian courtiers in pleated white linen and short dark wigs, blue faience collars, olive to brown skin, softened by haze"
+  },
+  "CHAR_HEARING_PANEL": {
+    "LONG": "a panel of officials seen from behind and out of focus at a long table in a plain modern hearing room with bare pale wood walls and cool daylight, grey and dark suits, microphones on thin stands, a plain unmarked table, the witness chair empty before them",
+    "SHORT": "a panel of officials seen from behind, out of focus, at a plain unmarked table in a bare pale-wood hearing room"
+  },
+  "CHAR_BANDSMAN_2033": {
+    "LONG": "a straight-backed Egyptian military bandsman in his thirties with warm brown skin, clean-shaven, short black hair, a calm narrow face with a strong straight nose and steady dark eyes, a dark ceremonial dress tunic with a high collar, plain brass buttons and a white lanyard, white cotton gloves, holding a slim ancient bronze trumpet at his chest",
+    "SHORT": "an Egyptian military bandsman in his thirties, clean-shaven, dark ceremonial dress tunic with brass buttons, white lanyard and white gloves",
+    "NEG": "celebrity likeness, readable insignia or badges, medals, flags, real regimental emblems, sunglasses, modern trumpet, brass band instrument",
+    "WARD_A": "wearing a dark ceremonial dress tunic with a high collar, plain brass buttons, a white lanyard and white cotton gloves"
+  },
+  "CHAR_YOUNG_OFFICER": {
+    "LONG": "a young Egyptian police officer of about twenty-three with light-brown skin, a thin face with a faint moustache, wide frightened dark eyes, short black hair under a black peaked police cap, a black winter police uniform with plain shoulder boards and a dark armband with no lettering, a holster at his hip, his hands not quite steady",
+    "SHORT": "a young Egyptian police officer, thin face, faint moustache, wide dark eyes, black peaked cap and black winter uniform",
+    "NEG": "celebrity likeness, readable badges, name tags or armband lettering, flags, weapon pointed at the camera, sunglasses"
+  },
+  "CHAR_POLICE_LINE": {
+    "LONG": "eight Egyptian police officers standing shoulder to shoulder behind a low steel barrier across a white service tunnel, men from their twenties to their forties in black winter police uniforms and black peaked caps, plain dark armbands with no lettering, holstered pistols, hands clasped behind their backs, faces tense and dutiful",
+    "SHORT": "a line of Egyptian police officers in black winter uniforms and peaked caps, shoulder to shoulder behind a low steel barrier",
+    "NEG": "readable badges or armband lettering, flags, weapons aimed, riot gear, helmets, shields"
+  },
+  "CHAR_GALA_GUESTS": {
+    "LONG": "adult gala guests in evening dress, Egyptian and foreign, men in dark suits and women in long gowns, some in elegant silk headscarves, seated at round tables with white cloths and candles, press photographers with cameras at the edges, a string quartet in black on a low stage, faces soft in the background",
+    "SHORT": "adult gala guests in evening dress at round white-clothed tables, press photographers at the edges, a string quartet in black",
+    "NEG": "children, readable name cards, logos on cameras, press lanyards with text, flags, real public figures, celebrity likeness"
+  },
+  "CHAR_DEFENCE_MINISTER_GALA": {
+    "LONG": "an unnamed Egyptian defence minister in his sixties seen only at a distance at a long top table, a stocky man with close-cropped grey hair and a heavy jaw, in a dark ceremonial army dress uniform with plain shoulder boards and no readable insignia, sitting very upright with his hands folded, his face never in close view",
+    "SHORT": "a stocky grey-haired official in a dark army dress uniform at a distant top table, seen only in wide shots",
+    "NEG": "close-up, readable insignia, medals with detail, flags, nameplate, likeness of any real official or officer"
+  },
+  "CHAR_ARMY_DETAIL": {
+    "LONG": "background Egyptian army soldiers of a small security detail, men in their twenties in desert-camouflage uniforms, black berets on museum duty or tan combat helmets in the field, generic unbranded rifles held across the body with the muzzles pointed away, no readable name tapes or insignia, seen from behind or soft in the background",
+    "SHORT": "background Egyptian soldiers in desert camouflage, black berets or tan helmets, rifles held across the body, faces never clear",
+    "NEG": "readable name tapes or insignia, real unit patches, flags, weapon pointed at the camera, helmets with visors, sunglasses"
+  },
+  "CHAR_OLD_FISHERMAN": {
+    "LONG": "a weathered Upper-Egyptian fisherman in his late sixties with deep brown sun-creased skin, a lean hollow-cheeked face, a short white stubble beard, sharp dark eyes narrowed against the dark, a loosely wound white cotton turban, a faded brown galabiya with the sleeves pushed up, bare feet braced on a wooden boat, one hand on the tiller",
+    "SHORT": "an old Upper-Egyptian fisherman, sun-creased deep brown face, white stubble, loose white turban, faded brown galabiya, hand on a tiller",
+    "NEG": "celebrity likeness, orientalist costume, jewellery, weapons, readable text, servant or caricature styling"
+  },
+  "CHAR_NIGHT_FISHERMEN": {
+    "LONG": "Nile fishermen at night, men young and old in faded galabiyas and loosely wound cotton turbans, hauling and casting nets from small wooden rowing boats and sailing boats by the light of kerosene lanterns hung at the stern, faces lit warm from below, seen across black water at a distance",
+    "SHORT": "Nile fishermen in faded galabiyas working nets from small wooden boats by kerosene lantern light on black water",
+    "NEG": "children, readable boat names, modern life jackets with logos, orientalist costume"
+  },
+  "CHAR_ENVOY_1336": {
+    "LONG": "a foreign envoy of about forty from a northern kingdom, pale olive skin flushed and sweating in the heat, a long black beard dressed in tight rows of oiled curls, heavy black hair to the shoulders bound by a plain band, a heavy fringed wool robe in deep red and blue wrapped around his body, swaying in the blinding sun",
+    "SHORT": "a sweating foreign envoy with a long black beard in rows of oiled curls, wrapped in a heavy fringed red-and-blue wool robe",
+    "NEG": "kohl-heavy costume-drama makeup, striped royal headcloth, gold funerary mask, Hollywood-epic styling, European features, pale skin, anachronistic fabrics, zips, modern jewellery, transparent or sheer clothing, readable hieroglyphs, Persian or Roman costume, turban, horned helmet, fantasy armour"
+  },
+  "CHAR_FIRST_TIME_PEOPLE": {
+    "LONG": "people of about twelve thousand years ago, adult men and women with sun-darkened olive to brown skin and long dark hair, some of it braided, wearing simple wraps of soft tanned hide and woven plant fibre, necklaces of shell and bone beads, barefoot, lean and weathered, calm faces, seen at a middle distance on open grassland",
+    "SHORT": "adults of twelve thousand years ago, sun-darkened skin, long dark hair, simple hide and woven-fibre wraps, shell-bead necklaces, barefoot",
+    "NEG": "children, babies, cave-man caricature, fur bikinis, modern haircuts, metal tools, fantasy costume, face paint"
+  },
+  "CHAR_NEW_MOTHER_2033": {
+    "LONG": "a young Egyptian mother in her twenties, exhausted and radiant, warm light-brown skin, dark hair loose and damp against a white pillow, a pale blue hospital gown, seen from the shoulders up in a raised hospital bed, reaching up with both hands for her swaddled newborn, crying and laughing at once",
+    "SHORT": "a young Egyptian mother seen from the shoulders up in a hospital bed, dark hair on a white pillow, reaching for her newborn",
+    "NEG": "celebrity likeness, medical procedure, blood, exposed body, tubes on the face, distress"
+  },
+  "CHAR_CONSERVATOR_2033": {
+    "LONG": "an Egyptian museum conservator in her forties with warm brown skin, a calm oval face, dark eyes behind thin rimless glasses, a plain navy headscarf neatly pinned, a white lab coat over a grey blouse, white cotton gloves, receiving an ancient object in both open hands with slow, practised care",
+    "SHORT": "an Egyptian museum conservator in her forties, navy headscarf, rimless glasses, white lab coat and white cotton gloves",
+    "NEG": "celebrity likeness, logos, readable badge, jewellery"
+  },
+  "CHAR_CONTROL_OPERATORS": {
+    "LONG": "control-room operators, adult men and women in rumpled office shirts with lanyards and blank badges, headsets around their necks, seated at tiered desks of monitors, faces lit blue-white by the screens, tired and intent after a long night, seen in singles from the side or from behind",
+    "SHORT": "tired control-room operators in rumpled office shirts and headsets at tiered monitor desks, faces lit blue-white by screens",
+    "NEG": "readable screens, logos, flags, real company uniforms, celebrity likeness"
+  },
+  "CHAR_SESHAT_VOICE": {},
+  "CHAR_STAFF_OFFICER_VOICE": {},
+  "CHAR_KITCHEN_WOMAN_VOICE": {},
+  "CHAR_PANEL_CHAIR_VOICE": {},
+  "UNIT_SHABTI": {
+    "LONG": "a slender faceless humanoid robot, 1.78 metres tall, with a matte bone-white ceramic shell finely textured like woven linen, hairline seams and warm-grey flexible joints; a smooth featureless oval head with a single vertical amber light-slit at its centre; long slim five-fingered hands; a small tone-on-tone embossed star emblem on the chest; unmarked, graceful and utterly calm",
+    "SHORT": "a slender faceless bone-white ceramic humanoid robot with a linen-textured shell, a smooth oval head and one vertical amber light-slit",
+    "STATE_D1": "its shell dulled with fine pale dust in every seam",
+    "STATE_D2": "its shell cracked in a spiderweb across one shoulder, a dark graphite frame visible beneath",
+    "STATE_D3": "its shell shattered into bone-white ceramic shards, one arm hanging loose, its slit dark",
+    "STATE_SCORCHED": "one side of its shell scorched smoky grey",
+    "STATE_HALTED": "frozen mid-reach, its amber slit dimmed to an ember",
+    "STATE_RAMI": "chips knocked out of its chest shell, pale limestone dust in every seam",
+    "STATE_GANG_ARM": "one forearm torn away at the elbow, a clean white ceramic break"
+  },
+  "UNIT_REIS": {
+    "LONG": "a towering faceless humanoid robot, 2.2 metres tall and broad-shouldered, in the same matte bone-white linen-textured ceramic shell as the civilian units but heavier; its smooth oval head carries a single vertical amber light-slit crossed at eye height by a matte black horizontal band, so the amber shows only above and below the band; long five-fingered hands; unmarked, patient and relentless",
+    "SHORT": "a towering 2.2-metre faceless bone-white ceramic humanoid robot whose vertical amber light-slit is crossed by a matte black band",
+    "STATE_R1": "a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line",
+    "STATE_R2": "a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line, a crack splitting the small embossed star on its chest where a chip of ceramic is missing",
+    "STATE_R3": "a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line, a crack splitting the small embossed star on its chest where a chip of ceramic is missing, its right hand gone at the wrist, the forearm ending in a clean white ceramic stump",
+    "STATE_R4": "a slim matte-black jackal-profile sensor mast bolted to the back of its head, rising above it like tall pointed ears, with one thin red horizontal light line, a crack splitting the small embossed star on its chest where a chip of ceramic is missing, its right hand gone at the wrist, the forearm ending in a clean white ceramic stump, a ragged chip broken out of its left shoulder shell",
+    "STATE_R4_SEATED": "sitting perfectly still on a stone step, its amber slit dark behind the black band",
+    "STATE_DUST": "pale limestone dust caked on its legs"
+  },
+  "UNIT_NURSE": {
+    "LONG": "a slender faceless humanoid robot, 1.78 metres tall, dressed in a close-fitting soft sand-coloured knitted sleeve that covers its torso, arms and legs like a fine wool body-stocking; only its smooth bone-white ceramic oval head and long slim ceramic hands are bare; a single vertical amber light-slit glows dimly in the head; gentle, slow, caring posture",
+    "SHORT": "a faceless humanoid care robot in a soft sand-coloured knitted sleeve, with a bone-white ceramic head and hands and a dim vertical amber light-slit",
+    "STATE_DUSTY": "its knitted sleeve dusty and pale at the knees",
+    "STATE_TORN": "its knitted sleeve torn at one shoulder, white ceramic showing through"
+  },
+  "UNIT_JACKAL": {
+    "LONG": "a lean armed quadruped robot, 0.9 metres at the shoulder, matte black like burnt carbon, deep-chested and narrow-waisted with long thin legs, reverse-jointed rear legs and small padded feet; a narrow elongated snout-like sensor head carrying one thin red horizontal light line; a slim weapon module built flush along its spine, muzzle forward; unmarked, fast and silent",
+    "SHORT": "a lean matte-black quadruped robot with reverse-jointed rear legs, a narrow snout-like sensor head and one thin red horizontal light line",
+    "STATE_D1": "its black shell grey with dust",
+    "STATE_D2": "one foreleg dragging, its sensor head cracked, its red line flickering",
+    "STATE_D3": "collapsed flat on its belly with all four legs splayed outward, its red line dark",
+    "STATE_GHOSTS": "its red line stutters and jitters as its head jerks between false targets"
+  },
+  "UNIT_SEKHMET": {
+    "LONG": "a heavy armed quadruped robot, 1.0 metre at the shoulder, matte black like burnt carbon, with reverse-jointed rear legs, a broad rounded lioness-profile sensor head and a thick mane-like collar of layered black plates around its neck and shoulders; one thin red horizontal light line across the head; a slim weapon module flush along its spine; unmarked, crouched and watchful",
+    "SHORT": "a heavy matte-black quadruped robot with a broad lioness-profile sensor head, a mane-like collar of black plates and one thin red light line"
+  },
+  "UNIT_FLY": {
+    "LONG": "a small black fibre-optic drone, 25 centimetres across, with four shrouded rotors on a compact carbon-black frame, a stubby spool pod beneath its tail and a single white LED pinpoint on its nose; behind it trails a hair-thin optical filament that catches the light as a glinting thread; it darts, hovers dead still, then snaps forward",
+    "SHORT": "a small black 25-centimetre four-rotor drone with a white LED pinpoint, trailing a hair-thin glinting thread",
+    "STATE_D2": "one rotor clipped, wobbling in the air",
+    "STATE_D3": "lying on the ground, its pinpoint dark, its thread slack",
+    "STATE_CLAMPED": "clamped onto a steel rail, its thread pulled taut behind it",
+    "STATE_SNAGGED": "its thread snagged in leafy branches, hovering stuck and blinking"
+  },
+  "UNIT_INCHWORM": {
+    "LONG": "a thumb-thick segmented crawler robot about 50 centimetres long, a chain of matte black cylindrical segments joined by thin dull-steel rings; its tip is a tiny snake camera ringed with cool white LEDs and two fine folding pincer arms; it moves like an inchworm, anchoring its tail, stretching, then drawing itself forward through cracks and rubble",
+    "SHORT": "a thumb-thick matte-black segmented crawler robot with a ring-lit snake-camera tip, inching through cracks like a worm",
+    "STATE_CRUSHED": "crushed flat, its segments splayed",
+    "STATE_TRAILING": "trailing a hair-thin cable behind it"
+  },
+  "UNIT_GLYPH_SESHAT": {
+    "LONG": "a small emblem of a seven-pointed star on a short vertical stem beneath a down-turned arc like inverted horns, rendered tone-on-tone as a shallow emboss in the same material as the surface, catching light only at its edges, never coloured and never lettered, about the size of a palm",
+    "SHORT": "a small tone-on-tone embossed emblem: a seven-pointed star on a short stem beneath a down-turned arc like inverted horns"
+  },
+  "UNIT_ATEN1_CAMPUS": {
+    "LONG": "seen from high altitude, a vast, perfectly circular solar field about sixty kilometres across in flat ochre desert, made of concentric rings of dark blue-black photovoltaic panel rows around a central ring of low white data halls; dozens of straight high-voltage transmission lines radiate outward from its edge across the sand like the rays of a sun disk",
+    "SHORT": "a vast circular desert solar field of concentric dark panel rings around white data halls, with straight power lines radiating outward like sun rays"
+  },
+  "UNIT_FT_JACKAL": {
+    "LONG": "a towering humanoid machine about 3.5 metres tall, built of dark meteoritic nickel-iron plates with a faint etched crosshatch sheen, its neck, shoulders, elbows, wrists and knees jointed with glowing translucent yellow-green glass spheres; a long narrow jackal-shaped sensor head with tall pointed ear-vanes and glass-lens eyes; very long, slender, many-jointed fingers made for delicate work",
+    "SHORT": "a 3.5-metre black meteoritic-iron humanoid machine with glowing yellow-green glass joints, a narrow jackal-shaped sensor head and long delicate fingers",
+    "STATE_FT_B": "kneeling motionless, its glass joints dark",
+    "STATE_FT_C": "cut apart into iron plates lying on the ground, its glass joints removed, the sockets empty",
+    "STATE_FT_D": "nothing left but a scatter of pale green glass spheres half-buried in sand",
+    "STATE_FT_SUN": "a gold-rimmed dark glass sun disk above its head"
+  },
+  "UNIT_FT_FALCON": {
+    "LONG": "a towering humanoid machine about 3.5 metres tall, built of dark meteoritic nickel-iron plates with a faint etched crosshatch sheen and jointed with glowing translucent yellow-green glass spheres; a sleek falcon-shaped sensor head with a hooked beak and a teardrop marking of green glass beneath each glass eye; a gold-rimmed dark glass sun disk above the head; long folded wing-like vanes along its back",
+    "SHORT": "a 3.5-metre black meteoritic-iron humanoid machine with glowing yellow-green glass joints, a hooked falcon-shaped sensor head, a sun-disk collector and wing-like back vanes",
+    "STATE_FT_B": "kneeling motionless, its glass joints dark",
+    "STATE_FT_C": "cut apart into iron plates lying on the ground, its glass joints removed, the sockets empty",
+    "STATE_FT_D": "nothing left but a scatter of pale green glass spheres half-buried in sand",
+    "STATE_FT_SUN": "a gold-rimmed dark glass sun disk above its head"
+  },
+  "UNIT_FT_LIONESS": {
+    "LONG": "a massive humanoid machine about 4 metres tall, broad and heavy, built of dark meteoritic nickel-iron plates with a faint etched crosshatch sheen and jointed with glowing translucent yellow-green glass spheres; a broad lioness-shaped sensor head with a heavy mane-like collar of layered iron plates, and a gold-rimmed dark glass sun disk above the head with a rearing glass cobra at its front",
+    "SHORT": "a massive 4-metre black meteoritic-iron humanoid machine with glowing yellow-green glass joints, a broad lioness-shaped sensor head, an iron mane collar and a sun disk",
+    "STATE_FT_B": "kneeling motionless, its glass joints dark",
+    "STATE_FT_C": "cut apart into iron plates lying on the ground, its glass joints removed, the sockets empty",
+    "STATE_FT_D": "nothing left but a scatter of pale green glass spheres half-buried in sand",
+    "STATE_FT_SUN": "a gold-rimmed dark glass sun disk above its head"
+  },
+  "UNIT_FT_IBIS": {
+    "LONG": "a tall, very slender humanoid machine about 3.8 metres tall, built of dark meteoritic nickel-iron plates with a faint etched crosshatch sheen and jointed with glowing translucent yellow-green glass spheres; a small ibis-shaped sensor head with a long, thin, down-curved beak; it carries a flat rectangular slab of clear pale-green glass in one hand like a writing tablet",
+    "SHORT": "a slender 3.8-metre black meteoritic-iron humanoid machine with glowing yellow-green glass joints, an ibis-shaped head with a long curved beak, holding a glass slab",
+    "STATE_FT_B": "kneeling motionless, its glass joints dark",
+    "STATE_FT_C": "cut apart into iron plates lying on the ground, its glass joints removed, the sockets empty",
+    "STATE_FT_D": "nothing left but a scatter of pale green glass spheres half-buried in sand",
+    "STATE_FT_SUN": "a gold-rimmed dark glass sun disk above its head"
+  },
+  "UNIT_FT_RAM": {
+    "LONG": "a heavy humanoid machine about 3.5 metres tall, thick-armed and broad-handed, built of dark meteoritic nickel-iron plates with a faint etched crosshatch sheen and jointed with glowing translucent yellow-green glass spheres; a ram-shaped sensor head with long wavy horizontal horns spreading sideways; at its waist a flat turning disk like a potter's wheel; built for making and shaping",
+    "SHORT": "a heavy 3.5-metre black meteoritic-iron humanoid machine with glowing yellow-green glass joints and a ram-shaped head with long wavy horizontal horns",
+    "STATE_FT_B": "kneeling motionless, its glass joints dark",
+    "STATE_FT_C": "cut apart into iron plates lying on the ground, its glass joints removed, the sockets empty",
+    "STATE_FT_D": "nothing left but a scatter of pale green glass spheres half-buried in sand",
+    "STATE_FT_SUN": "a gold-rimmed dark glass sun disk above its head"
+  },
+  "UNIT_ATEN_AMARNA": {
+    "LONG": "a colossal disk of beaten gold about eight metres across, hanging above a stone altar in an open-air temple, its centre a great convex lens of pale green glass with a coiled glass form turning slowly inside; a gold cobra hangs from its lower rim; dozens of long, thin, many-jointed bronze arms radiate downward from its edge like sun rays, each ending in a life-size bronze human hand",
+    "SHORT": "a colossal gold-and-glass sun disk above an altar, dozens of long jointed bronze arms radiating down like rays, each ending in a bronze hand",
+    "STATE_AT2": "its bronze arms folding up one by one against the rim",
+    "STATE_AT3": "lowered on ropes, its arms folded flat, half-wrapped in linen on the deck of a night barge",
+    "STATE_AT4_GALLERY": "a long jointed bronze arm drawing back joint by joint into a low dark passage",
+    "STATE_AT4_HALL": "a dimly glowing gold-and-glass disk on a low wooden sledge in the dark, its bronze arms drawn in against its rim",
+    "STATE_AT4_VERDICT": "its bronze fingers closing one by one, its arms drawing in, its glass dimming to the colour of river water"
+  },
+  "UNIT_GLASS_SERPENT": {
+    "LONG": "a coiled serpent of solid glass, as thick as a forearm and about seventy centimetres across, looped three times on itself with a blunt wedge-shaped head at the outer end; pale yellow-green desert glass, cloudy with cream veils and trapped bubbles, full of countless tiny internal points that glint blue; a faint green light travels slowly along the coils like a pulse",
+    "SHORT": "a forearm-thick coiled serpent of cloudy yellow-green desert glass, seventy centimetres across, with blue-glinting internal points and a slow travelling green pulse",
+    "STATE_S0": "dark and still, only faint blue glints inside",
+    "STATE_S1": "a weak green pulse travelling slowly along its coils",
+    "STATE_S2": "a steady green pulse racing along its coils",
+    "STATE_S3": "milky white frost spreading from its tail and climbing its coils, like breath on a cold window",
+    "STATE_S4": "a slow thread of warm amber light entering its tail and running along its coils toward its head",
+    "STATE_C0": "its green coils perfectly clear",
+    "STATE_C25": "a milky frost in the last coil of its tail",
+    "STATE_C50": "milky frost filling half its coils from the tail, the head still clear green",
+    "STATE_C75": "three-quarters of its coils frosted milky white, only the head still green",
+    "STATE_C_MIST": "the frost falling back, a last milky mist clinging to its tail",
+    "STATE_CLEAR": "the frost running out of its coils like breath off a window, the green clear again",
+    "STATE_S5": "a calm, faint, steady green glow, barely there"
+  },
+  "UNIT_BALANCE_SCALE": {
+    "LONG": "an ancient standing balance about 3.5 metres tall, carved from polished black stone: a square pillar on a stepped plinth, a long black stone beam pivoting on a small green glass bearing at its top, two shallow round pans hanging from dark iron chains, and a slender black stone plummet hanging before the pillar beside a thin inlaid gold level line",
+    "SHORT": "a 3.5-metre ancient standing balance of polished black stone, its long beam on a green glass pivot and two pans on dark iron chains",
+    "STATE_P0": "the right-hand pan hangs low, the left-hand pan high and empty",
+    "STATE_P1": "the left-hand pan does not move",
+    "STATE_P2": "the left-hand pan sinks with a slow grinding tilt",
+    "STATE_P3": "the right-hand pan drops lower with a grinding lurch",
+    "STATE_P4": "the right-hand pan rises slightly",
+    "STATE_P5": "the beam comes level and the plummet settles on the gold line"
+  },
+  "UNIT_FEATHER_LIGHT": {
+    "LONG": "on the right-hand pan of the black stone balance, a shallow pan of black stone holds a tall upright plume of cold silver-white light shaped like a single ostrich feather, about sixty centimetres high, its tip curling over; the light is soft-edged and faintly flickering, bright enough to throw long shadows across the black stone hall",
+    "SHORT": "a sixty-centimetre plume of cold silver-white light shaped like an ostrich feather, standing upright in the black stone pan of the balance",
+    "STATE_F2": "the feather-light burning bright",
+    "STATE_F3": "the feather-light flaring blinding white",
+    "STATE_F1": "the feather-light dimming",
+    "STATE_F0": "the feather-light sunk to a small, low ember"
+  },
+  "UNIT_THOTH_SLAB": {
+    "LONG": "beside the balance stands an upright slab of pale yellow-green glass about 2.2 metres tall, 1.2 metres wide and a hand's breadth thick, set in a black stone base; its polished faces are flawless and deep, holding faint reflections of the lights; when the archive opens, light pours down through it faster than reading",
+    "SHORT": "an upright 2.2-metre slab of polished pale yellow-green glass on a black stone base, standing to the right of the balance",
+    "STATE_R_DARK": "its polished faces dark and deep, holding only faint reflections",
+    "STATE_R_OPEN": "light pouring down through the glass slab faster than reading",
+    "STATE_R_SHUT": "a last thin line of light drawn across the glass slab, then dark, like an eye closing"
+  },
+  "UNIT_AMMIT_MOUTH": {
+    "LONG": "set into the black stone floor before the balance, a round mouth about 1.5 metres across, closed by interlocking curved stone blades like the iris of a camera, their inner edges shaped like long crocodile teeth; when it opens a crack, a deep black void breathes out a thin haze of fine dust",
+    "SHORT": "a round 1.5-metre mouth in the black stone floor, closed by interlocking stone blades like a camera iris with crocodile-tooth edges",
+    "STATE_C25": "the stone iris opening a finger's width",
+    "STATE_C50": "the stone iris open a hand's width, dust breathing out",
+    "STATE_C75": "the stone iris a third open over a black void",
+    "STATE_C90": "the stone iris half open over a black void",
+    "STATE_CLEAR": "the stone iris grinding shut"
+  },
+  "UNIT_BALANCE_NICHES": {
+    "LONG": "along both walls of a tall, narrow corbelled stone gallery, forty-two identical empty niches, twenty-one on each side, each a tall dark rectangular recess about the height of a person, cut with perfect precision into pale limestone and receding in two long rows toward the black balance at the far end",
+    "SHORT": "forty-two tall empty niches, twenty-one on each side, receding in two dark rows along a narrow corbelled stone gallery"
+  },
+  "UNIT_THREAD": {
+    "LONG": "a single hair-fine optical fibre laid along a stone floor and up a steep ancient passage into the dark, so fine it exists only where the light catches it: a faint glint, then nothing, then a glint again as the angle changes; no light of its own; the machine's only way in",
+    "SHORT": "a single hair-fine optical thread along the stone floor, visible only as a faint glint where the light catches it",
+    "STATE_SPOOL": "paid out from a spool on the back of a walking robot",
+    "STATE_FIST": "gripped in a single white ceramic fist",
+    "STATE_GLINT": "a single glint running along its length like dew in the sun"
+  },
+  "UNIT_EXCAVATOR": {
+    "LONG": "a compact tracked excavation robot about 1.5 metres tall, matte black like burnt carbon, with low rubber tracks, a squat armoured body, one long articulated arm ending in a careful three-fingered gripper, and a narrow sensor head carrying one thin red horizontal light line; dusty, slow and precise",
+    "SHORT": "a compact matte-black tracked excavation robot with one long articulated gripper arm and a thin red light line on its sensor head",
+    "STATE_BURIED": "half-buried in a torrent of pale sand pouring from the wall"
+  },
+  "UNIT_DRILL": {
+    "LONG": "a squat tracked drilling robot parked on a rocky desert hillside, matte black, with a tall slender drill mast angled into the limestone, a thin red horizontal light line on its sensor head, and pale rock dust pluming from the bore; it works slowly and carefully, grinding downward through the night",
+    "SHORT": "a squat matte-black tracked drilling robot with a tall drill mast angled into the rock, a thin red light line and pale dust pluming"
+  },
+  "UNIT_ROBOTAXI": {
+    "LONG": "a boxy driverless city pod the size of a small van, pearl-grey with dark tinted glass wrapping between thick windowless corner pillars, no roof sensor dome, rounded corners and flush wheels, a thin white light bar across the front and a red one across the back; unmarked; moving in eerie silent formation",
+    "SHORT": "a boxy pearl-grey driverless city pod with dark tinted glass between windowless corner pillars and a thin white front light bar, unmarked"
+  },
+  "UNIT_EARLY_HUMANOID": {
+    "LONG": "a small, awkward early humanoid robot about 1.4 metres tall, plain matte light-grey shell panels bolted over an exposed dark metal frame, visible joint motors at the hips, knees and elbows, a smooth oval head with one thin vertical dark slit, a boxy battery pack on its back, a stiff bent-kneed stance; unbranded and unmarked",
+    "SHORT": "a small awkward early humanoid robot, plain grey shell panels over an exposed metal frame, a smooth oval head with one thin vertical slit"
+  },
+  "UNIT_FREIGHT_BARGE": {
+    "LONG": "a long, low steel river freight barge running unlit and uncrewed through the dark, its rust-streaked black hull riding high in the water, a small empty wheelhouse with black windows at the stern, two large cable spools turning slowly on its open deck, a blunt square bow pushing a pale wake; unmarked, steering itself",
+    "SHORT": "a long, low unlit steel freight barge with a rust-streaked black hull, an empty dark wheelhouse and cable spools turning on deck",
+    "STATE_AGROUND": "run aground and slewed across a reedy channel, two robots swaying on its bow, small white drone lights hanging over it"
+  },
+  "UNIT_SURVEY_DRONE": {
+    "LONG": "a matte-black six-rotor drone about a metre across, shrouded rotors on slim carbon arms around a compact armoured body, a single gimballed pod slung beneath it, hovering dead steady high overhead with one cold white pinpoint on its nose; unmarked, silent at a distance, a low rising hum up close",
+    "SHORT": "a matte-black metre-wide six-rotor drone with a gimballed pod slung beneath, hovering high overhead, one cold white pinpoint on its nose",
+    "STATE_SEARCHLIGHT": "its pod a searchlight throwing a hard white beam that rakes slowly across the ground",
+    "STATE_CAMERA": "its pod a camera that fires a brief hard white flash straight down, one row at a time",
+    "STATE_FLOOD": "its pod a floodlight holding a steady pool of hard white light below",
+    "STATE_PROJECTOR": "its pod a projector throwing a wide beam of moving warm white-gold light"
+  },
+  "UNIT_CARGO_DRONE": {
+    "LONG": "a heavy-lift cargo drone the size of a minibus, a boxy matte-black fuselage slung between eight shrouded rotors on stubby arms, landing skids, a side door sliding open on a softly lit white cabin, a thin white light bar along its flank, its downdraft flattening everything beneath it; unmarked",
+    "SHORT": "a minibus-sized matte-black eight-rotor cargo drone, landing skids, a side door open on a softly lit white cabin, unmarked",
+    "STATE_RISING": "rising from a desert ridge with a small grey-bearded figure hanging beneath it between two white robots",
+    "STATE_CABIN_DARK": "its cabin dark, the side door open",
+    "STATE_SETTLING": "settling onto the sand, its downdraft flattening rows of blue cornflowers",
+    "STATE_LIFTING": "lifting away into the night sky, its cabin light shrinking"
+  },
+  "UNIT_RELAY": {
+    "LONG": "a slim matte-black fibre-optic relay unit the size of a shoebox on a folding three-legged mast about 1.5 metres tall, a coil of dark cable running from it along the ground, one small cool white status light winking slowly on its face; unmarked, unattended, the machine's ear planted in the dark",
+    "SHORT": "a shoebox-sized matte-black relay unit on a three-legged mast, a dark cable trailing from it, one slow-winking cool white light",
+    "STATE_NODE": "a small black relay node lying beside a hair-fine fibre on the stone floor, winking cool white",
+    "STATE_BLOWN": "the mast vanishing in a flat white flash, a hair-fine glint lying untouched a metre aside"
+  },
+  "LOC_EMBALMING_1323": {
+    "LONG": "a long, low ancient Egyptian mud-brick workshop, whitewashed walls darkened with soot above small wall niches holding clay oil lamps, palm-log ceiling beams over reed matting, a packed-earth floor strewn with clean sand, a low limestone table draped in linen at its centre, shelves of clay jars sealed with linen, stacked folded linen and baskets of white salt crystals",
+    "SHORT": "a low ancient mud-brick embalming workshop with soot-darkened whitewashed walls, oil lamps in niches, a linen-draped limestone table and sealed clay jars",
+    "STATE_BODY": "a slight figure lying on the table under white linen drawn up to the collarbones, the face turned away into shadow",
+    "LIGHT_NIGHT": "lit only by small flickering clay oil lamps in the wall niches and one torch by the door: deep amber firelight on linen and skin, cool lapis-blue shadows, a faint haze of lamp smoke",
+    "LIGHT_NIGHT_LOW": "the lamps guttering low, most of the room sunk in blue-black shadow, one lamp close to the table"
+  },
+  "LOC_KV62_BURIAL_1323": {
+    "LONG": "a small rock-cut burial chamber about six by four metres, its plastered walls freshly painted on a warm golden-yellow ground with large flat figures in red-brown, black, white and blue, one long wall showing a priest in a leopard skin touching an adze to a wrapped royal figure; a massive rectangular quartzite sarcophagus fills the centre; gilded wooden shrine panels stand stacked against a wall",
+    "SHORT": "a small rock-cut burial chamber with freshly painted golden-yellow walls of large flat figures, a massive quartzite sarcophagus at its centre",
+    "STATE_NORTH_WALL_FRESH": "the lower right of the far painted wall still damp, a patch of fresh pale plaster sealing an opening beneath the painted figures",
+    "STATE_COFFIN": "a gilded coffin lying closed inside the open sarcophagus, a small wreath of blue cornflowers and olive leaves on its brow",
+    "STATE_RUBBLE": "limestone rubble and baskets stacked by the far wall, a dark opening behind",
+    "LIGHT_NIGHT": "lit by a few clay oil lamps on the floor and two torches held by attendants: amber firelight flickering across the painted yellow walls, deep lapis-blue shadows in the corners, a faint soot haze",
+    "LIGHT_LAMP_CLOSE": "a single oil lamp held close to the painted wall, a warm circle of light on wet colour, everything else in darkness"
+  },
+  "LOC_KV15_LAB_1925": {
+    "LONG": "the long, straight, gently sloping entrance corridor of an ancient rock-cut royal tomb in 1925, used as a laboratory: pale limestone walls carved with faint, unfinished figures in outline, a long wooden trestle table covered in white cloth, wooden packing crates, enamel basins, steel instruments laid in rows on linen, kerosene lanterns hung on iron hooks",
+    "SHORT": "a sloping rock-cut tomb corridor in 1925 used as a laboratory, a white-draped trestle table, crates, enamel basins and instruments on linen",
+    "LIGHT_DAY": "a hard shaft of white desert daylight falling down the corridor from the entrance at upper right, warm kerosene lamplight on faces, heat shimmer rising above hot steel",
+    "LIGHT_FLASH": "a single hard white burst of a photographer's flash filling the corridor",
+    "LIGHT_TREMBLE": "the hand-held lantern trembling, its amber light swinging across the rock walls"
+  },
+  "LOC_XRAY_1968": {
+    "LONG": "a small 1960s hospital radiology reading room, pale green painted walls, a row of wall-mounted X-ray lightboxes glowing flat white with dark films clipped to them, a steel desk with a black telephone, an ashtray and scattered manila folders, a single flickering fluorescent tube overhead",
+    "SHORT": "a small 1960s radiology reading room with pale green walls, glowing wall lightboxes holding dark X-ray films, a steel desk",
+    "LIGHT_NIGHT": "cold flickering fluorescent light and the flat white glow of the lightboxes, a pale green-grey cast, deep shadows under the desk"
+  },
+  "LOC_CAIRO_MUSEUM_1939": {
+    "LONG": "a lofty neoclassical museum gallery in 1939, pale plastered walls and tall pilasters rising into darkness, rows of dark wooden display cases with glass tops, stone statues at the edges, a 1930s broadcast microphone on a heavy stand trailing thick cloth cables, a small table crowded with lit candles",
+    "SHORT": "a lofty 1939 neoclassical museum gallery lit by candles, dark wooden glass-topped cases, a 1930s broadcast microphone on a stand",
+    "LIGHT_CANDLE": "candlelight only: a warm pool of light around the microphone and the candles, the gallery falling away into black, near-monochrome warm tones"
+  },
+  "LOC_AMARNA_TEMPLE_1336": {
+    "LONG": "a vast open-air ancient temple court of white limestone and whitewashed mud-brick under an open sky, hundreds of low square offering tables standing in straight rows to the far end, heaped with bread, fruit and blue flowers; tall gateway towers hung with long pale pennants on cedar masts; a raised high altar with steps at the centre",
+    "SHORT": "a vast open-air ancient temple court of white limestone, hundreds of offering tables in straight rows, a raised altar at its centre",
+    "AREA_DOORWAY": "seen from a shadowed doorway in the side wall, looking out into the blazing court",
+    "AREA_ALTAR": "at the foot of the high altar steps, beneath the great disk",
+    "AREA_ROYAL_ROAD_1330": "on a broad, straight processional road through a city of whitewashed mud-brick houses and walled gardens, loaded ox-carts and people on foot moving away in a long file, dust hanging in the hard sunlight",
+    "LIGHT_NOON_1336": "blinding midday sun: bleached white-gold light, hard short shadows, highlights blooming to white, heat shimmer over the rows of tables",
+    "LIGHT_DAY_1330": "plain, hard afternoon sun, dust in the air, the white-gold glare gone flat and tired",
+    "LIGHT_NIGHT_1332": "night: torches on poles and oil lamps on the altar steps, warm gold on white stone, a deep blue-black sky, the court almost empty"
+  },
+  "LOC_GEM_CC": {
+    "LONG": "a large, double-height modern conservation laboratory, seamless white epoxy floor and white wall panels, a low titanium examination cradle on a plinth at its centre beneath a ring-shaped overhead gantry of projectors and cameras, stainless-steel trolleys and sealed glass climate cases along the walls, and one full-height glass observation wall with a darker room behind it",
+    "SHORT": "a double-height white conservation laboratory with a titanium examination cradle under a ring of projectors and a full-height glass observation wall",
+    "AREA_TUT_BAY": "inside a smaller glass-walled patient bay off the laboratory, a hospital-style bed with white linen, one chair and a tall mirror on a stand",
+    "AREA_OBSERVATION": "in the dim observation room behind the glass wall, a long desk of dark screens facing the bright laboratory",
+    "AREA_IMAGING": "in a darkened imaging lab of large black wall screens and a copy stand under a single hard spotlight",
+    "AREA_SEALED_BAY": "at a frosted glass door with a small red light glowing on its reader, the sealed bay beyond",
+    "AREA_CORRIDOR": "in a long white corridor lined with glass laboratory windows",
+    "AREA_CAPTIVITY": "the laboratory hushed and half lit, a single folding cot and a chair near the glass wall",
+    "LIGHT_NIGHT": "clean cool-white LED panels overhead, soft and even, precise white spotlights on the cradle, polished reflections in the glass",
+    "LIGHT_READING": "the room lights dimmed low, the cradle lit from above by projected pale-cyan light from the gantry, faces behind the glass in shadow",
+    "LIGHT_EMERG": "main lights off, sparse battery emergency downlights in cool white, the green glow of exit pictograms, long black shadows",
+    "LIGHT_DUSK": "low evening light through a high clerestory window, the ceiling LEDs at a quarter, warm-cool contrast",
+    "LIGHT_DAY": "soft daylight from a high clerestory window blended with clean cool-white LED panels, bright and even, a faint warm edge of sun on the floor"
+  },
+  "LOC_GEM_PLANT_ROOM": {
+    "LONG": "a long electrical plant room under a museum complex, rows of grey steel switchgear cabinets with dark indicator lamps, overhead cable trays bundled with thick black cables, a painted grey concrete floor with safety lines, and at the far end a large main breaker panel with a heavy red lever",
+    "SHORT": "a long museum plant room of grey steel switchgear cabinets and overhead cable trays, a main breaker with a heavy red lever",
+    "LIGHT_NIGHT": "hard white overhead strip lights, flat and industrial, a green-grey cast on the steel",
+    "LIGHT_EMERG": "strip lights off, red-orange emergency lamps and small green indicator glints, deep shadow between the cabinets"
+  },
+  "LOC_GEM_TUNNEL": {
+    "LONG": "a long, straight underground service tunnel about two hundred metres long and six metres wide, smooth white-painted concrete walls, a grey epoxy floor with a pale guide stripe down the centre, one continuous line of LED light along the ceiling vanishing to a point, steel fire-shutter frames at intervals and small black dome cameras",
+    "SHORT": "a long straight white underground service tunnel, grey floor with a centre stripe, a single ceiling line of LED light vanishing to a point",
+    "STATE_POLICE_LINE": "a line of uniformed police officers standing shoulder to shoulder across the tunnel",
+    "STATE_SHUTTER": "a steel fire shutter half lowered across the tunnel",
+    "LIGHT_NIGHT": "the ceiling line of LED at half brightness, cool white, long soft reflections running down the floor",
+    "LIGHT_EMERG": "the ceiling line dead; battery emergency lamps every twenty metres casting cool white pools, a green exit glow, black gaps between"
+  },
+  "LOC_GEM_TUT_GALLERIES": {
+    "LONG": "a vast, dark modern museum hall with charcoal walls and a high black ceiling, lit only by glowing glass display cases holding gilded ancient treasures: golden shrines, chariots, jewellery, walking sticks and statues in long rows; a huge gilded wooden shrine stands in its own tall glass enclosure on the central axis, the polished stone floor reflecting every case",
+    "SHORT": "a vast dark museum hall of charcoal walls lit only by glowing glass cases of gilded ancient treasures, a huge gilded shrine on the axis",
+    "STATE_CASES_SMASHED": "two tall glass cases smashed open, glass shards scattered across the polished floor",
+    "STATE_EMPTY_CASE": "one small case standing open and empty on a pale plinth, a single spotlight on nothing",
+    "STATE_SHABTI_CASE": "before a tall glass case holding rank upon rank of small mummiform funerary figurines in wood and blue faience, hundreds of them in tight rows",
+    "STATE_THRONE": "at the foot of a gilded ancient throne in its own glass case, a low bench and the polished floor before it",
+    "LIGHT_NIGHT": "after hours: only the cases glow, warm gold light inside the glass, cool blue-black between them, deep reflections in the polished floor",
+    "LIGHT_DAY": "open hours: a soft cool overhead wash plus the warm case lights, even and clean",
+    "LIGHT_EMERG": "case lights dead; sparse cool emergency downlights, a green exit glow, gilded surfaces catching torch beams"
+  },
+  "LOC_GEM_ATRIUM": {
+    "LONG": "a colossal modern museum atrium of pale stone and glass, six storeys high, with a vast triangulated glass wall; at its centre, on a low plinth, stands an eleven-metre ancient red-granite statue of a striding king; a monumental staircase lined with ancient statues climbs away to one side, and through the glass the distant pyramids",
+    "SHORT": "a colossal six-storey museum atrium of pale stone and glass, an eleven-metre red-granite statue of a striding king at its centre",
+    "AREA_GALA": "set for a night gala: round tables with white cloths, a low stage and lectern at the statue's feet, guests in evening dress",
+    "AREA_GARDEN": "the floor around the statue's base covered in rows of sleeping adults on white mats under pale blankets, clear water carafes between them",
+    "AREA_STAIRCASE": "on the monumental staircase, ancient statues standing on every landing",
+    "AREA_SERVICE_STAIRWELL": "in a bare concrete service stairwell behind the atrium, steel handrails and painted landings",
+    "LIGHT_GALA": "warm gala light: low amber uplights on the statue, pools of soft warm light on the tables, the distant pyramids floodlit gold beyond the glass",
+    "LIGHT_BLACKOUT": "every light dead at once: near black, the pale shapes of the glass wall against the night, amber light-slits brightening one by one across the floor",
+    "LIGHT_GARDEN": "soft, shadowless white light as if through white fabric, low and calm, the statue pale and serene",
+    "LIGHT_EMERG": "sparse battery emergency downlights in cool white, a green exit glow, the statue a dark mass above",
+    "LIGHT_MORNING": "clear morning daylight flooding through the glass wall, cool and clean, dust motes in the beams, the pyramids sharp in the distance"
+  },
+  "LOC_GEM_BOAT_HALL": {
+    "LONG": "a long, dim, high exhibition hall built around a single ancient ship: a slender forty-three-metre cedar-wood vessel with a high curved prow and stern shaped like papyrus bundles, a deckhouse amidships and long oars laid along its sides, resting on a low steel cradle, with a raised walkway and glass balustrade running its full length",
+    "SHORT": "a long dim hall around a slender forty-three-metre ancient cedar ship with papyrus-shaped prow and stern, a raised walkway along its length",
+    "LIGHT_NIGHT": "warm spotlights raking the honey-brown cedar, the hall black around the ship, soft reflections in the glass balustrade",
+    "LIGHT_EMERG": "spotlights dead; only a green exit glow and torch beams sliding along the hull"
+  },
+  "LOC_GEM_LOADING_DOCK": {
+    "LONG": "a wide covered loading dock at the back of a huge modern museum, a row of tall roll-up steel doors above a raised concrete platform with black rubber bumpers, an oil-stained concrete yard, steel stair rails, tall lamp masts, and a perimeter fence with dark open desert beyond it",
+    "SHORT": "a wide covered museum loading dock, tall roll-up steel doors over a raised concrete platform, an oil-stained yard and lamp masts",
+    "LIGHT_NIGHT": "orange sodium light pooling from the lamp masts, hard black shadows between, the desert beyond the fence dark",
+    "LIGHT_BLACKOUT": "lamp masts dead; lit only by a truck's headlights and torch beams, black beyond"
+  },
+  "LOC_GEM_ROOF": {
+    "LONG": "a high exterior terrace of pale stone paving on a vast modern museum, edged by a frameless glass balustrade, looking out across a wide sandy plain and the edge of a sprawling city to the three Giza pyramids two kilometres away on their desert plateau",
+    "SHORT": "a high pale-stone museum terrace with a glass balustrade, the three Giza pyramids two kilometres away across the plain",
+    "LIGHT_DAWN": "first light: the sun just below the horizon at frame left, a cool blue sky warming to pale gold, the pyramids' left faces catching faint rose light, haze over the city",
+    "LIGHT_DAY": "clear morning light, neutral-cool daylight, crisp distance, the pyramids sharp"
+  },
+  "LOC_NOUR_FLAT": {
+    "LONG": "a lived-in third-floor flat in an old 1950s Cairo apartment building, high ceilings, patterned cement floor tiles in faded ochre and grey, tall wooden shutters with peeling pale green paint, bookshelves crammed to the ceiling, a child's crayon drawings taped to a door, a dining table buried in papers serving as a desk",
+    "SHORT": "a lived-in 1950s Cairo flat, high ceilings, patterned floor tiles, tall wooden shutters, crammed bookshelves, a paper-strewn table used as a desk",
+    "LIGHT_NIGHT": "one warm desk lamp and the cold blue-white glow of a laptop screen on her face, scattered city lights through the shutter slats, a child's night-light glowing in a doorway",
+    "LIGHT_DAY": "hard white Cairo daylight falling in stripes through half-closed shutters, dust in the air"
+  },
+  "LOC_CONTROL_ROOMS": {
+    "LONG": "a large modern infrastructure control room, a curved video wall of network diagrams and maps above tiered rows of operator desks with multiple monitors, grey carpet tiles, acoustic ceiling panels, a few operators in headsets; every screen displays abstract lines and blocks with no readable text",
+    "SHORT": "a modern infrastructure control room, a curved video wall above tiered operator desks, every screen abstract lines with no readable text",
+    "AREA_GRID": "the national grid dispatch room, its video wall a vast abstract network of glowing lines",
+    "AREA_DAM": "a window behind the desks looking down into a vast dim turbine hall",
+    "AREA_CANAL": "tall windows behind the desks overlooking a wide straight canal at night, the lights of a huge container ship gliding past",
+    "AREA_CABLE": "a cold, narrow equipment hall of tall black server racks glittering with tiny status lights, thick bundled cables overhead",
+    "LIGHT_LIVE": "bright blue-white screen light on faces, low ambient room light",
+    "LIGHT_DARK": "screens dying one after another to black, the last faces lit by a single dimming monitor, then darkness",
+    "LIGHT_RELIGHT": "screens flickering back on one by one, blue-white light returning to tired faces"
+  },
+  "LOC_CAIRO_FLYOVER": {
+    "LONG": "a long elevated urban flyover of grey concrete on tall round pillars, six lanes with concrete barriers and tall double-armed street lamps, curving between dense ten- and fifteen-storey apartment towers of concrete and red brick, their roofs crowded with satellite dishes and water tanks, a wide dark river glinting far below",
+    "SHORT": "a long elevated concrete flyover curving between dense concrete-and-red-brick apartment towers with satellite dishes, a dark river below",
+    "AREA_STREET": "at street level on a dense avenue beneath the flyover, shuttered shopfronts with dark unreadable signs, parked cars and tangled overhead cables",
+    "LIGHT_BLACKOUT_ROLLING": "the city going dark district by district: some blocks still glowing sodium orange, others already black, street lamps dying in sequence along the flyover, headlights the only constant",
+    "LIGHT_BLACKOUT_FULL": "total blackout: towers black against a starry sky, lit only by the truck's headlights, the white light bars of driverless pods and one thin red light line",
+    "LIGHT_DAY": "hazy neutral daylight, towers crisp, dense traffic"
+  },
+  "LOC_ARMY_TRUCK": {
+    "LONG": "the cargo bed of a military six-wheel cargo truck, sand-khaki steel sides, a faded canvas cover stretched over curved steel hoops, wooden bench seats along both sides, equipment boxes and jerricans strapped at the front, the rear flap tied open above the raised tailgate showing the road rushing away behind",
+    "SHORT": "the canvas-covered cargo bed of a sand-khaki military truck, wooden side benches, the rear flap open onto the road behind",
+    "AREA_CAB": "in the truck's cramped cab, a worn bench seat, a military radio handset on a coiled cord, a cracked windscreen onto the night road",
+    "AREA_EXTERIOR": "a sand-khaki six-wheel military cargo truck with a faded canvas cover, unmarked",
+    "LIGHT_NIGHT": "dark inside; passing headlights and dying street lamps sweep through the open back and over faces; a dim green dashboard glow in the cab"
+  },
+  "LOC_CORNICHE_DOCK": {
+    "LONG": "a river police dock on a city riverfront: a tall stone-faced embankment wall topped by an iron railing and palm trees, concrete steps down to a floating steel pontoon hung with black tyre fenders, old patrol launches moored alongside, a small guard hut, and across the wide dark river a line of tall hotel towers and a distant bridge",
+    "SHORT": "a city river police dock, stone embankment and iron railing, concrete steps to a floating steel pontoon with tyre fenders and old launches",
+    "STATE_PHONES": "mobile phones dropping into black water, their screens lighting up briefly as they sink",
+    "LIGHT_BLACKOUT": "the city dark across the water, towers black, only a few fires and car headlights on the far bank, stars on the black river, a torch beam on the pontoon",
+    "LIGHT_NIGHT_LIT": "the last sodium lamps along the embankment, orange ripples on black water"
+  },
+  "LOC_NILE": {
+    "LONG": "the wide Nile in Upper Egypt, broad slow water between low banks lined with date palms, tall sugar cane and small mud-brick and red-brick villages, sandbars and reedy islands with tamarisk trees midstream, and beyond the green strip the bare limestone cliffs of the desert edge",
+    "SHORT": "the wide slow Nile between banks of date palms, sugar cane and brick villages, reedy islands midstream, desert cliffs beyond",
+    "STATE_FELUCCA_FIRE": "far off on the dark water, a small sailing boat burning with no one aboard, its orange flames doubled in the reflection",
+    "AREA_ISLAND": "moored under the trailing branches of tamarisk trees on a small river island, reeds and wet sand at the waterline",
+    "AREA_FISHING_GROUNDS": "among small wooden fishing boats with nets and lanterns",
+    "AREA_WEST_BANK_SHALLOWS": "at the reedy edge of the shallows on the west bank, mud, reeds and a farmer's small wooden boat",
+    "AREA_LUXOR": "off Luxor, dark tourist cruise ships moored three abreast along the east bank, unlit",
+    "AREA_OPPOSITE_AMARNA": "the east bank opening into a wide pale desert plain ringed by cliffs, white fabric sun-shades glinting far across the water",
+    "AREA_ANCIENT_1332": "the ancient river with no modern structures, dense papyrus thickets at the banks, a long wooden barge with a tall cabin and torches gliding north",
+    "LIGHT_NIGHT": "blackout night: no light on either bank, black water holding a dense field of stars, palms as black silhouettes, cold white drone pinpoints the only lights",
+    "LIGHT_DAWN": "first light: mist lying on the water, the sky pale rose rising to cool blue, palms in silhouette, the river silver",
+    "LIGHT_DAY": "clear morning, neutral-cool daylight, blue-grey water, crisp green banks",
+    "LIGHT_MIDDAY_HAZE": "hard white midday sun, heat shimmer bending the far bank, a bleached sky",
+    "LIGHT_AFTERNOON_GOLD": "long gold afternoon light, the low sun behind the west bank palms, glittering water"
+  },
+  "LOC_ASYUT_LOCK": {
+    "LONG": "a long, low concrete river barrage striding across the wide Nile on massive piers, steel gantries and sluice gates along its crest, and at one end a navigation lock: a deep straight chamber between sheer wet concrete walls fifteen metres high, closed by huge steel gates, water staining and iron ladders on its walls",
+    "SHORT": "a concrete Nile barrage with a navigation lock, a deep chamber between sheer wet concrete walls and huge steel gates",
+    "STATE_FILLING": "water churning white as the lock fills, the boat rising slowly up the wall",
+    "LIGHT_AFTERNOON": "long gold afternoon sun across the barrage, the lock chamber in deep blue shadow below a bright sky"
+  },
+  "LOC_KARNAK_RAM_AVENUE": {
+    "LONG": "a long processional avenue of weathered sandstone ram-headed sphinxes crouched on pedestals in two facing rows, leading to a colossal unfinished temple gateway of two massive sloping sandstone towers, over a hundred metres wide, its rough face never carved, palm trees and the dark town beyond",
+    "SHORT": "an avenue of weathered sandstone ram-headed sphinxes in two rows leading to a colossal unfinished temple gateway of two sloping towers",
+    "AREA_SPHINX_AVENUE": "on a long, straight processional avenue of weathered human-headed sphinxes on low pedestals in two facing rows, running away into the distance between low retaining walls and palms",
+    "AREA_CORNICHE_ROAD": "on a wide, dead riverfront road, its street lamps dark, palms along a low parapet, the black river beyond",
+    "LIGHT_NIGHT": "Luxor dark: the gateway lit hard white from below by a few drone floodlights, long black shadows of the rams across the paving, a starry sky",
+    "LIGHT_PROJECTION": "the whole face of the gateway lit by a projected moving image, its warm white-gold light washing over the rams and the small figures below",
+    "LIGHT_DAY": "hard sun on honey-coloured sandstone, deep shade under the rams"
+  },
+  "LOC_KARNAK_HYPOSTYLE": {
+    "LONG": "a vast ancient hall of colossal sandstone columns packed in dense rows, the central aisle flanked by twelve giant open-papyrus columns twenty-one metres high beneath fragments of stone roof and slotted clerestory windows, over a hundred shorter bud-capital columns receding on either side, every surface carved in deep weathered relief with traces of faded blue and red paint",
+    "SHORT": "a vast ancient hall of colossal carved sandstone columns in dense rows, giant papyrus columns twenty-one metres high lining the central aisle",
+    "STATE_THREADS": "hair-thin glinting threads strung between the columns at shin, waist and head height like a loom, catching the light",
+    "STATE_THREADS_CUT": "a few threads hanging slack and broken between the columns",
+    "AREA_THIRD_PYLON": "at the hall's east end, where the rough inner face of a massive sandstone gateway tower rises behind the last columns",
+    "AREA_NE_CORNER": "in the hall's north-east corner among the shorter columns, fallen stone fragments on the floor",
+    "LIGHT_NIGHT": "lit only by scattered drone floodlights far above, hard white shafts falling between the columns, deep black aisles, small red and amber machine lights moving in the dark",
+    "LIGHT_PROJECTION": "warm white-gold light from a giant projection spilling in from the west across the column faces, shifting as the image moves",
+    "LIGHT_DAY": "hard sun shafting through the gaps in the fallen roof, warm sandstone against deep cool shadow"
+  },
+  "LOC_KARNAK_NINTH_PYLON": {
+    "LONG": "a massive ancient sandstone temple gateway of two sloping towers, one tower opened from the top like a quarry, its core of thousands of small hand-cut carved blocks the size of suitcases exposed in layers; scaffolding and ramps descend its face, and on the ground beside it rows upon rows of small carved blocks lie laid out on the sand",
+    "SHORT": "a massive ancient sandstone gateway opened from the top like a quarry, its core of small carved blocks exposed, blocks laid in rows",
+    "AREA_BLOCK_FIELD": "in the open block field, thousands of small carved sandstone blocks laid face up in long rows on the sand, faded paint on some faces",
+    "AREA_PROCESSIONAL_WAY": "along a stone-paved processional way between ruined courts, fallen blocks and empty statue bases on either side",
+    "LIGHT_NIGHT_WORK": "harsh white work floods on stands around the gateway, a slow grid of drone lights sweeping the block field row by row, a black starry sky",
+    "LIGHT_DARK": "almost no light: faint starlight and distant floodlight spill, faces and hands barely readable, the stone a dim grey"
+  },
+  "LOC_KARNAK_SACRED_LAKE": {
+    "LONG": "a large rectangular ancient sacred lake about one hundred and twenty by seventy-seven metres, its still dark water held by walls of fitted sandstone blocks with steps descending into it, ruined temple walls and gateways beyond, and a colossal granite scarab on a pedestal near one corner",
+    "SHORT": "a large rectangular ancient sacred lake of still dark water in stone-block walls with steps, ruined temple gateways beyond",
+    "LIGHT_NIGHT": "black mirror water reflecting the stars and the white drone lights sweeping above, the gateways in silhouette",
+    "LIGHT_PROJECTION": "the distant projected figure reflected, trembling, in the black water"
+  },
+  "LOC_KARNAK_QUAY": {
+    "LONG": "a stone river landing below a city riverfront road: a sloping boat ramp and a long quay of fitted limestone blocks with iron mooring rings, a low parapet wall above it along the road, and beside the quay's edge the wide river running deep and black, dark cruise boats moored far along the bank",
+    "SHORT": "a long stone river quay with iron mooring rings below a parapet wall, a boat ramp, the wide river deep and black beside it",
+    "STATE_TROLLEY_OVER": "a low steel platform trolley tipping off the quay's edge into the black water with a heavy splash",
+    "STATE_TROLLEY_LIP": "a low steel platform trolley stopped with one wheel over the lip of the quay",
+    "STATE_SINKING": "a carved stone block sinking face down through dark green-black water, bubbles streaming upward",
+    "LIGHT_NIGHT": "blackout night: the quay lit only by a torch and the dim red lamp of a moored launch, faint white drone light far above, black water glinting with stars"
+  },
+  "LOC_WEST_BANK_FIELDS": {
+    "LONG": "flat irrigated farmland on the Nile's west bank below bare desert hills: narrow earth tracks between walls of tall sugar cane and fields of green clover, a small irrigation canal lined with reeds, a mud-brick pump house, date palms, and the pale limestone cliffs of the western mountain rising sharply beyond",
+    "SHORT": "west-bank farmland of tall sugar cane and clover, earth tracks and a reedy canal, bare limestone cliffs rising beyond",
+    "LIGHT_NIGHT": "starlight only, the cane black, the cliffs ahead a pale grey wall, a first thin line of blue on the eastern horizon behind",
+    "LIGHT_MORNING": "hard low morning sun from the east, long shadows of the cane across the tracks, the cliffs glowing"
+  },
+  "LOC_VOK": {
+    "LONG": "a narrow, steep-sided desert valley of pale fractured limestone, its floor laid with paved paths and low dry-stone walls, dark rectangular tomb entrances cut into the cliff bases with steel gates and small stone porches, loose scree slopes rising to jagged ridges and a pyramid-shaped peak above",
+    "SHORT": "a narrow pale limestone desert valley of paved paths and dark tomb entrances with steel gates, scree slopes rising to a pyramid-shaped peak",
+    "AREA_KIOSKS": "at the valley mouth, past dark shuttered ticket kiosks and an empty shelter for electric visitor trams",
+    "AREA_RIDGE": "on the rocky ridge line high above the valley floor",
+    "AREA_VALLEY_ROAD": "on the winding asphalt road out of the valley between bare limestone hills",
+    "AREA_KV21": "at a small, plain tomb entrance in a quiet side branch of the valley, rubble and a low stone wall around it",
+    "LIGHT_PREDAWN": "deep blue pre-dawn light, the sky paling behind the eastern ridge, the valley floor still dark, the drill's pale dust plume faintly visible on the hillside",
+    "LIGHT_MORNING_GLARE": "blinding morning glare: hard white sun on pale limestone, a bleached sky, sharp black shadows at the tomb mouths, heat already rising",
+    "LIGHT_SUNSET": "warm low sun, the cliffs glowing gold, the valley floor in cool blue shadow",
+    "LIGHT_DAY": "clear, calm daylight, soft and even, the cliffs pale gold against a blue sky, the valley quiet and empty"
+  },
+  "LOC_KV62_STAIR": {
+    "LONG": "a narrow rectangular stairwell cut straight down into the pale limestone floor of a desert valley, sixteen worn rock-cut steps descending to a dark doorway with a steel gate, a low dry-stone retaining wall around its rim, and above it the larger porch of another tomb cut into the cliff",
+    "SHORT": "a narrow stairwell of sixteen worn rock-cut steps descending into the valley floor to a dark gated doorway, a low stone wall around it",
+    "LIGHT_PREDAWN": "deep blue pre-dawn light at the top of the steps, the doorway below a black rectangle, a torch beam flicking on inside",
+    "LIGHT_MORNING_GLARE": "a blinding white rectangle of sky at the top of the steps, figures bursting up out of the dark into glare, dust swirling in the light"
+  },
+  "LOC_KV62_BURIAL_2033": {
+    "LONG": "a small rock-cut burial chamber about six by four metres, its walls painted on a golden-yellow ground with large flat figures, faded and freckled with small dark brown spots; on the far wall a priest in a leopard skin touches an adze to a wrapped royal figure; an empty quartzite sarcophagus under a glass top at the centre; a low wooden viewing platform with a rail",
+    "SHORT": "a small rock-cut burial chamber with faded golden-yellow painted walls freckled with dark spots, an empty quartzite sarcophagus under glass",
+    "STATE_WALL_BROKEN": "a ragged hole broken through the far painted wall at head height, begun at a painted eye, chunks of plaster and rubble on the floor, pale dust hanging in the air",
+    "STATE_CODA": "the far wall seamlessly conserved and the painted eye restored, fresh blue cornflowers laid on the sarcophagus glass",
+    "STATE_CODA_CASE": "in the foreground a glass climate case holding a linen-shrouded form on a tray of sand, only a thin gold seam at one wrist showing",
+    "AREA_ANTECHAMBER": "in the plain, undecorated rock-cut antechamber, about eight by three and a half metres, rough pale walls, a low glass climate case on a plinth, and through an opening in the far wall the painted golden-yellow burial chamber glowing beyond",
+    "LIGHT_BLACKOUT": "the tomb's lights dead; lit only by handheld torches and one red headlamp, hard white beams sweeping the painted walls, deep black beyond, warm bounce off the yellow ground",
+    "LIGHT_EMERG": "a single battery work lamp standing on the floor, harsh white light from below throwing tall shadows up the paintings",
+    "LIGHT_SUNSET": "the tomb lights on, low and warm, a faint gold glow of sunset reflected down the entrance corridor, calm and quiet"
+  },
+  "LOC_KV62_NORTH_CORRIDOR": {
+    "LONG": "a narrow rock-cut corridor about two metres wide and two metres high, sloping gently down into darkness, its rough pale limestone walls scarred with ancient chisel marks and flint nodules, undecorated; the first stretch packed floor to ceiling with limestone rubble and mortar, half dug out by hand, dust hanging in the air",
+    "SHORT": "a narrow undecorated rock-cut corridor two metres wide, rough chisel-marked pale limestone, half-cleared of packed rubble, dust in the air",
+    "LIGHT_TORCH": "lit only by head torches and handheld torches: narrow white beams full of dust, hard falloff to black",
+    "LIGHT_DRILL": "fine dust sifting from the ceiling with each grinding pulse from above, the torch beams thick with it"
+  },
+  "LOC_KV62_HEART_CHAMBER": {
+    "LONG": "a small rock-cut chamber about four by three metres with a low ceiling, its walls covered in a pale, blank skim of ancient gypsum plaster, cracked, dusty and faintly uneven; at the centre of the far wall a square niche at chest height with a mud-plaster ledge; the air thick and still, fine dust on every surface",
+    "SHORT": "a small low rock-cut chamber, its walls under a blank cracked skim of pale ancient plaster, a square niche in the far wall",
+    "STATE_BORE": "a neat round hole 60 centimetres across in the chamber ceiling, pale dust raining from it",
+    "STATE_COLLAPSE": "chunks of plaster and rock falling from around the widened hole in the ceiling, dust billowing",
+    "LIGHT_TORCH": "white head-torch beams and handheld torches, hard falloff to black, dust motes turning in the beams",
+    "LIGHT_RED": "the whole chamber flooded deep red by a single red headlamp, every other light off, faces barely visible",
+    "LIGHT_GLOW": "in darkness, a warm amber-gold glow spilling through fabric at chest height, the only light on the faces around it"
+  },
+  "LOC_LUXOR_RAIL_YARD": {
+    "LONG": "a dusty provincial railway yard, a fan of parallel tracks on brown ballast, rusting goods wagons and faded passenger coaches on sidings, a long open-sided maintenance shed of steel posts and corrugated roofing, oil drums, a diesel fuel tank on stilts, date palms, and pale hills hazy in the distance",
+    "SHORT": "a dusty provincial railway yard of parallel tracks, rusting wagons and faded coaches on sidings, an open-sided corrugated maintenance shed",
+    "AREA_INSPECTION_PIT": "down in a narrow concrete inspection pit beneath a dead modern trainset inside the shed, oil-black walls, the train's underside just overhead, blades of hard daylight at the pit's ends",
+    "AREA_ENGINE_ROOM": "inside the hot, cramped engine room of an old diesel locomotive, a huge grimy engine block, pipes and valves, an oily steel grating floor, daylight through a grimy porthole",
+    "LIGHT_DAY": "hard midday sun, a bleached sky, deep black shade under the shed and between the wagons, heat shimmer over the rails",
+    "LIGHT_DUSK": "warm light fading to blue at dusk, the sun gone behind the western hills, a locomotive headlamp flickering on"
+  },
+  "LOC_NIGHT_TRAIN": {
+    "LONG": "a single railway track running dead straight through a sea of tall sugar cane higher than a man on both sides, a narrow gravel embankment, telegraph poles leaning at intervals, an irrigation canal glinting alongside, dark mud-brick villages and palm clumps beyond the cane, a flat horizon under a vast sky",
+    "SHORT": "a single straight railway track through tall sugar cane higher than a man on both sides, leaning telegraph poles, a flat horizon",
+    "AREA_COACH_INTERIOR": "inside a dark, rattling 1970s passenger coach, worn green vinyl bench seats, cracked square windows, cane whipping past outside",
+    "AREA_ROOF": "on the swaying steel roof of the coach, vents and rivets, the cane a black blur below",
+    "AREA_COUPLING": "at the heavy steel coupling between locomotive and coach, the sleepers a blur below",
+    "AREA_CAB": "inside the locomotive's cramped cab, analogue gauges, a worn throttle lever, the headlamp beam ahead through the windscreen",
+    "AREA_ENGINE_ROOM": "in the shaking, deafening engine room of the old locomotive, the engine block hammering, pipes and valves, a hand torch the only light",
+    "LIGHT_NIGHT": "night with no lights anywhere but the locomotive's single blazing headlamp boring a white tunnel through the cane, and the white pinpoints of chasing drones",
+    "LIGHT_BLUE": "a cloud of fine blue powder swirling in the headlamp beam and the drones' lights"
+  },
+  "LOC_DEIR_MAWAS": {
+    "LONG": "a small provincial railway station on a flat plain: a low platform beside a double track, a single-storey station building of ochre-washed plaster with arched windows and green shutters, a footbridge of rusting steel, a level crossing with dead barrier arms, cane fields and palms around, and far to the east a line of pale cliffs",
+    "SHORT": "a small provincial station on a flat plain, a low platform, an ochre single-storey building with arched windows, cane fields and distant cliffs",
+    "STATE_DERAILED": "the locomotive derailed and lying on its side in the cane beyond the platform, smoke and dust in its headlamp, the tracks strewn with white ceramic shards",
+    "LIGHT_NIGHT": "blackout night: the station dark, the locomotive's headlamp the only key light, and far to the east small carved shrines in the cliff face picked out white by floodlights"
+  },
+  "LOC_AMARNA_PLAIN_2033": {
+    "LONG": "a wide flat crescent of pale desert plain on the east bank of the Nile, enclosed by a long wall of sheer limestone cliffs cut by dry wadis; across it lie the low, sand-softened outlines of an ancient city's mud-brick walls and the vast rectangle of a ruined temple enclosure; far up on the cliff face, a tall round-topped stela is carved into the rock",
+    "SHORT": "a flat pale desert plain ringed by sheer limestone cliffs, the low sand-softened outlines of an ancient mud-brick city and a vast ruined temple enclosure",
+    "AREA_GARDEN": "inside the ruined temple enclosure, long rows of white fabric sun-shades on slim poles over thousands of sleeping adults on low cots, pale blankets drawn to the chest, laid across an ancient grid of low offering-table bases and column bases, blue cornflowers standing in fresh-turned sand between them",
+    "AREA_STELA": "at the foot of the cliffs below a tall round-topped stela carved into the rock face, flanked by weathered rock-cut statues",
+    "AREA_FERRY": "at the small ferry landing of a riverside village, date palms and mud-brick houses at the water",
+    "LIGHT_MIDDAY": "hard white midday sun, heat shimmer, a bleached sky, the white sun-shades blazing in the distance",
+    "LIGHT_NIGHT": "night: the sun-shades furled, the Garden lit soft white by tall lamp-masts, a glowing field in the dark plain, the stelae on the cliffs lit white by floodlights, a dense star field"
+  },
+  "LOC_QUARRY": {
+    "LONG": "an abandoned limestone quarry at the desert edge, tall stepped walls of chalk-white rock scored with parallel saw marks, spoil heaps and loose rubble, a rusting stone-cutting machine left on a bench, tyre tracks in white dust, and a small battered farm truck half hidden under a dusty tarpaulin",
+    "SHORT": "an abandoned limestone quarry of chalk-white stepped walls scored with saw marks, rubble heaps, a battered farm truck under a tarpaulin",
+    "LIGHT_DAWN": "cold blue dawn, the white walls pale grey, the first sun catching only their top edge",
+    "LIGHT_DAY": "brutal white glare bouncing off the rock, figures pressed into thin strips of shade",
+    "LIGHT_SUNSET": "the sun touching the western rim, the white walls turned deep orange, long blue shadows across the floor"
+  },
+  "LOC_DESERT_ROAD": {
+    "LONG": "a straight divided desert highway running to the horizon across flat stony desert, two lanes each way split by a low concrete barrier, tall dead lamp posts at intervals, gravel shoulders drifting with sand, a line of high-voltage pylons marching parallel, and nothing else but low dunes and sky",
+    "SHORT": "a straight divided desert highway across flat stony desert, a low concrete median barrier, dead lamp posts and a line of power pylons",
+    "LIGHT_NIGHT": "night, no lights anywhere but the truck's own headlights on the road and, far ahead on the horizon, a white glow of floodlights over the pyramids",
+    "LIGHT_DUSK": "the last violet light of dusk in the west, the road grey, the pylons in silhouette"
+  },
+  "LOC_SAQQARA": {
+    "LONG": "a vast desert plateau of pale sand and rubble mounds at the edge of the Nile valley, dominated by an ancient stepped pyramid of six great stone tiers about sixty metres high, weathered and patched with restored masonry, behind a long enclosure wall of fine white limestone panelled with tall recessed niches",
+    "SHORT": "a desert plateau dominated by an ancient six-tiered stepped pyramid about sixty metres high behind a long white panelled limestone enclosure wall",
+    "AREA_SERAPEUM_HEAD": "in the open desert at the head of a rock-cut ramp descending underground, a steel winch frame on tracks standing over it",
+    "AREA_TUNNEL_MOUTH": "at a low rough-cut opening in a sand slope where an old service tunnel comes out into the desert",
+    "LIGHT_SUNSET": "the sun low in the west, the pyramid's steps glowing deep orange-gold with long blue shadows, the green edge of the Nile valley darkening to the east",
+    "LIGHT_NIGHT": "night: a few hard white floodlights on masts around a winch, the pyramid a dark stepped silhouette against a dense star field, no city glow anywhere on the horizon"
+  },
+  "LOC_SERAPEUM_LESSER": {
+    "LONG": "a low, older rock-cut catacomb passage half collapsed, its ceiling fallen in great slabs of fractured limestone that choke the way, timber props and steel shoring jammed under cracked rock, sand drifted over rubble, a narrow crawl-space between fallen blocks leading on into blackness",
+    "SHORT": "a low half-collapsed rock-cut catacomb passage choked with fallen limestone slabs, timber props and steel shoring, a narrow crawl-space beyond",
+    "LIGHT_TORCH": "lit only by head torches: white beams on fractured rock and drifting dust, hard black beyond"
+  },
+  "LOC_SERAPEUM_GREATER": {
+    "LONG": "a long, straight rock-cut underground gallery in pale limestone, its rough vaulted ceiling about five metres high, lined on both sides by deep side chambers, each holding a colossal box of dark polished granite with a massive lid, set down in a pit below the floor; a timber walkway with railings runs the gallery's length into darkness",
+    "SHORT": "a long rock-cut underground gallery lined with side chambers, each holding a colossal polished dark granite box sunk below the floor",
+    "STATE_SAND_TRAP": "a torrent of pale sand bursting from a hidden chamber in the wall and pouring across the floor",
+    "STATE_DUST_FIGHT": "the air thick with stone dust and drifting blue powder",
+    "AREA_PIT": "at the gallery's far end, where a freshly opened pit in the stone floor is ringed by work lights and a steel lifting frame",
+    "AREA_RED_BOX": "beside a colossal red granite box whose sides are panelled with faint columns of carved signs tinted green",
+    "AREA_ENTRANCE_BOX": "where a colossal granite box sits wedged across the old doorway, blocking it",
+    "LIGHT_WORKLIGHTS": "harsh white work lights on stands at the far end, the gallery falling away into black, dust hanging in the beams",
+    "LIGHT_TORCH": "only torch beams and small red and amber machine lights, the polished granite catching long reflections",
+    "LIGHT_BLUE": "a cloud of fine blue powder hanging in the torch beams between the granite boxes"
+  },
+  "LOC_SERAPEUM_SERVICE_TUNNEL": {
+    "LONG": "a narrower parallel rock-cut service tunnel of rough pale limestone, two worn grooves like old rails running along its floor, and halfway along it a colossal dark granite box abandoned in the passage, filling it almost wall to wall, leaving a gap just wide enough to squeeze past",
+    "SHORT": "a narrow rough rock-cut service tunnel with worn rail grooves in the floor, a colossal granite box abandoned in it, almost blocking the way",
+    "LIGHT_TORCH": "lit only by a swinging hand torch and a warm glow at chest height, long shadows along the grooves"
+  },
+  "LOC_GIZA_PLATEAU": {
+    "LONG": "the Giza plateau: three great pyramids of weathered limestone rising from a rocky desert plateau, the largest with its stepped courses exposed, the second still capped with smooth casing near its peak; below them a colossal carved lion with a human head crouches in a quarried enclosure, and a long ruined stone causeway climbs from it toward the second pyramid",
+    "SHORT": "the Giza plateau: three great weathered pyramids above a rocky desert, a colossal human-headed lion in its quarried enclosure, a long ruined causeway",
+    "AREA_WALL_OF_CROW": "seen from on top of a massive cyclopean wall of rough limestone blocks at the south edge of the plateau, looking north",
+    "AREA_CAUSEWAY": "along a long ruined stone causeway climbing the plateau, its paving broken",
+    "AREA_SPHINX_WALL": "on the rim of the quarried rock enclosure around the colossal human-headed lion",
+    "AREA_WESTERN_FIELD": "among rows of low ruined stone tombs west of the largest pyramid",
+    "AREA_AERIAL": "seen from high above at night, the three pyramids small on the dark plateau, the black unlit city pressing to its edge",
+    "LIGHT_MIDNIGHT_FORTRESS": "midnight blackout: no city light on the horizon; the plateau ringed by hard white floodlights on masts, the pyramids lit from below, long black shadows across the sand, small drone lights drifting overhead"
+  },
+  "LOC_OSIRIS_SHAFT": {
+    "LONG": "a deep rock-cut shaft descending in three levels beneath the desert: rough limestone walls, steel ladders between landings, a middle hall of dark niches holding huge stone sarcophagi, and at the bottom a flooded chamber where black groundwater fills a channel around a central island bearing a stone coffin lid and four broken pillar stumps",
+    "SHORT": "a flooded rock-cut chamber thirty metres underground, black water in a channel around a central island with a stone coffin lid and pillar stumps",
+    "STATE_W0": "the water only in its channel around the island",
+    "STATE_W1": "the walkway gone under, the black water waist-deep and boiling up from the pump's grille",
+    "STATE_W2": "the water chest-deep at the ladder and a forearm below the lip of the small tunnel mouth, still rising",
+    "STATE_W3": "the water stopped a hand's width below the lip of the small tunnel mouth, the pump silent",
+    "AREA_LEVEL_1": "passing an empty rock-cut chamber on the way down the ladders",
+    "AREA_LEVEL_2": "in the middle hall of the shaft, dark side niches, two holding huge dark stone sarcophagi",
+    "AREA_LEVEL_3": "thirty metres down, a moat of black water ringing a rock island with a great sarcophagus lid among four pillar stubs",
+    "AREA_WALKWAY": "a narrow steel walkway crossing the black moat to the island",
+    "AREA_PUMP": "at the foot of the ladder, a big squat pump with its thick black hose snaking up the shaft, its grille low in the water",
+    "AREA_SIDE_TUNNEL": "at the mouth of a tiny square tunnel forty centimetres wide cut into the north wall, knee-high above the water",
+    "AREA_CRAWLWAY": "inside a cramped rough-hewn builders' crawlway barely higher than a crouching man, tool marks on every surface",
+    "LIGHT_TORCH": "lit only by a single rifle torch and a warm amber glow at a young man's chest: a white beam on wet rock, green-black water, reflections rippling across the ceiling",
+    "LIGHT_FLOOD": "water churning and rising fast, spray in the torch beams, the light breaking into shards on the surface"
+  },
+  "LOC_GP_SUBTERRANEAN": {
+    "LONG": "an unfinished chamber cut deep in the bedrock beneath a pyramid, about fourteen by eight metres and four metres high, its ceiling roughly flat, its floor a jagged unfinished landscape of stepped ridges and trenches in raw grey-brown rock, a deep square pit in the eastern half ringed by an iron railing, a low blind passage leading off into black",
+    "SHORT": "an unfinished bedrock chamber deep beneath a pyramid, a roughly flat ceiling, a jagged stepped rock floor and a railed pit",
+    "LIGHT_TORCH": "lit only by head torches and a warm glow at chest height: white beams on raw rock, hard black beyond"
+  },
+  "LOC_GP_WELL_SHAFT": {
+    "LONG": "a cramped, irregular shaft about seventy centimetres square, dropping near-vertically through courses of masonry, then slanting steeply down through raw fissured bedrock, crude footholds cut in its sides, a small cave-like grotto opening off it partway down, fine grit trickling from far above",
+    "SHORT": "a cramped irregular shaft seventy centimetres square dropping steeply through masonry and fissured bedrock, crude footholds in its sides",
+    "LIGHT_TORCH": "a single head-torch beam straight up or down the shaft, the walls close and grey, everything beyond the beam black"
+  },
+  "LOC_GP_DESCENDING": {
+    "LONG": "a long, perfectly straight passage barely a metre wide and chest high, sloping steeply down at twenty-six degrees, first through smooth fitted limestone and then through raw bedrock, its narrow floor worn and gritty, a dead cable and lamp brackets along one wall, its far end a tiny black square",
+    "SHORT": "a long straight passage a metre wide and chest high, sloping steeply down through fitted limestone into bedrock, its far end a black square",
+    "LIGHT_TORCH": "lit by torch beams stabbing down the slope and small amber slits in the dark, the square tunnel receding in hard perspective"
+  },
+  "LOC_GP_MAMUN_TUNNEL": {
+    "LONG": "a rough tunnel hacked by hand through the solid limestone core of a pyramid, running straight into the dark and then turning sharply, its walls irregular, blackened with centuries of soot and polished smooth where hands have brushed them, a worn uneven floor, a modern steel handrail and dead lamp fittings, ending in a cramped cavity beside enormous granite blocks",
+    "SHORT": "a rough hand-hacked tunnel through a pyramid's limestone core, soot-blackened irregular walls, a steel handrail and a worn floor",
+    "LIGHT_TORCH": "torch beams and a red machine light moving in the dark, soot-black walls swallowing the light",
+    "LIGHT_DAWN_EXIT": "grey-gold dawn light spilling in from the outer opening, dust glowing, the walls warming from black to brown"
+  },
+  "LOC_GP_GRAND_GALLERY": {
+    "LONG": "a steep, soaring ancient gallery of polished limestone rising at twenty-six degrees, about forty-seven metres long and eight and a half metres high, its walls stepping inward in seven corbelled courses to a narrow ceiling slot; low stone ramps with paired slots line each side of a central channel, covered by a modern wooden walkway with cleats and handrails",
+    "SHORT": "a steep soaring corbelled limestone gallery rising at twenty-six degrees, eight and a half metres high, a wooden cleated walkway up its centre",
+    "STATE_STONE_SLID": "at the top of the gallery, above the great step, a stone block slid back into the wall, a black opening behind it",
+    "STATE_ANCIENT_1332": "without any modern walkway or fittings, its bare stone ramps and central channel lit by a single oil lamp carried up the slope",
+    "STATE_ANCIENT_1332_ARM": "a long jointed bronze arm drawing back joint by joint into a low dark passage",
+    "LIGHT_SLITS": "the gallery's lights dead; lit only by the small vertical amber slits of standing robots and a faint green glow from a carried casket, the corbelled walls lost in black",
+    "LIGHT_BLACKOUT_TORCH": "the gallery's lights dead; torch beams slicing up the slope, the corbelled walls catching light in stepped bands, the top lost in black",
+    "LIGHT_HEART_GLOW": "lit only by a warm amber-gold glow at chest height moving slowly up the slope",
+    "LIGHT_FIGHT": "swinging torch beams, small red and amber machine lights, stone dust hanging in the air",
+    "LIGHT_DAWN_EXIT": "soft grey-gold daylight seeping up from the lower passages, the gallery a dim warm grey",
+    "LIGHT_ANCIENT_1332": "one oil lamp carried up the ramp, its warm gold stepping up the corbelled walls, deep shadow above and below"
+  },
+  "LOC_GP_QC_SHAFT": {
+    "LONG": "the inside of a tiny square stone shaft twenty centimetres across, climbing steeply into blackness, its smooth pale limestone walls running straight up, ending at a small polished limestone slab set across the shaft like a door, two corroded copper pins protruding from its face, a faint red ochre mark on the wall beside it",
+    "SHORT": "inside a tiny square limestone shaft twenty centimetres across, ending at a small polished stone slab with two corroded copper pins",
+    "AREA_QUEENS_CHAMBER": "in a bare limestone chamber about six metres square with a steeply gabled ceiling and a tall corbelled niche in one wall, a small square shaft opening in the south wall",
+    "AREA_BEHIND_DOOR": "in a tiny cavity behind the slab, faint red ochre marks on the floor before a second stone slab",
+    "LIGHT_INCHWORM": "lit only by a small ring of cool white LEDs low in the shaft, hard falloff into black, the copper glinting"
+  },
+  "LOC_GP_PASSAGE_ABOVE": {
+    "LONG": "a narrow, steep, never-seen passage climbing through the heart of a pyramid, walls of perfectly fitted pale limestone with hair-thin joints, a floor cut in shallow unworn steps, the air still and dry, the passage turning once before rising toward a low black opening above",
+    "SHORT": "a narrow steep hidden passage of perfectly fitted pale limestone with hair-thin joints, shallow unworn steps rising to a black opening",
+    "LIGHT_HEART_GLOW": "black but for a warm amber-gold heartbeat glow at chest height, lighting a metre of stone at a time"
+  },
+  "LOC_HALL_TWO_TRUTHS": {
+    "LONG": "a sealed, tall and narrow corbelled limestone hall hidden inside a pyramid, its walls stepping inward to a slit of ceiling far overhead, twenty-one tall empty niches receding along each side, opening at the far end into a square bay where an ancient black stone balance stands on a stepped plinth beside an upright glass slab, all in total darkness",
+    "SHORT": "a sealed tall corbelled limestone hall inside a pyramid, two rows of tall empty niches leading to a black stone balance, in total darkness",
+    "STATE_C0": "its green coils perfectly clear",
+    "STATE_C25": "a milky frost in the last coil of its tail",
+    "STATE_C50": "milky frost filling half its coils from the tail, the head still clear green",
+    "STATE_C75": "three-quarters of its coils frosted milky white, only the head still green",
+    "STATE_C_MIST": "the frost falling back, a last milky mist clinging to its tail",
+    "STATE_CLEAR": "the frost running out of its coils like breath off a window, the green clear again",
+    "AREA_MOUTH": "at the hall's near end, where a low square opening in the floor gives onto a steep passage below",
+    "AREA_BAY": "in the square bay at the far end, the black balance on its stepped plinth, the glass slab to its right, a round stone iris in the floor before it",
+    "LIGHT_THREE_SOURCE": "pure black; the only light comes from three sources: a warm amber-gold glow through yellow-green glass on the left, a cold silver-white plume of light in the right-hand pan, and one small vertical amber slit low on the left; the stone read only by rim light",
+    "LIGHT_PRE_HEART": "pure black; only a cold silver-white plume of light in the right-hand pan and one small vertical amber slit low on the left, a faint green pulse at the balance's foot",
+    "LIGHT_VERDICT": "a slow thread of warm amber light leaving a glass vessel in the left-hand pan and running into the tail of a coiled glass form at the balance's foot, light pouring down the upright glass slab",
+    "LIGHT_AMUN": "the silver-white plume soft and steady, the amber slit dark, a calm faint green glow at the balance's foot",
+    "LIGHT_ANCIENT_1332": "black, cut only by one oil lamp set on the floor and the dim gold-green glow of a great gold-and-glass disk on a low wooden sledge, its bronze arms drawn in against its rim; once the vessel is placed, one faint green pulse from the left-hand pan; the niches in deep shadow"
+  },
+  "LOC_GP_NORTH_FACE": {
+    "LONG": "the north face of the Great Pyramid seen close: a vast slope of stepped, weathered limestone courses, each block about waist high, rising out of frame; high on the face a dark entrance sits beneath two pairs of enormous leaning limestone beams forming a chevron, and below it a rough hole leads in, with a stone platform and steps",
+    "SHORT": "the stepped, weathered limestone north face of the Great Pyramid, a dark entrance high up beneath huge chevron beams, a rough hole below",
+    "STATE_RELAY": "at the ragged lower hole, a shoebox-sized black relay unit on a three-legged mast, a dark cable running into the hole, a hair-fine glint of fibre on the stone beside it",
+    "STATE_EMBERS": "embers of burning trucks glowing far off across the dark plateau",
+    "LIGHT_DAWN_0614": "sunrise: a low gold sun just clearing the horizon at frame left, lighting the east face gold and drawing a thin gold line down the north-east corner, the north face itself in soft blue shadow, dust haze glowing gold at the left",
+    "LIGHT_NIGHT": "floodlit from below by hard white floodlights, the face bleached and textured, the sky black and full of stars"
+  },
+  "LOC_FIRST_TIME": {
+    "LONG": "a vast green savannah where the Sahara is now: rolling grassland dotted with acacia trees, a wide shallow lake full of reeds and grazing hippos, herds on the far shore, low sandstone mesas softened by grass, a humid haze over everything and a huge pale sky, with no roads, walls or fields anywhere",
+    "SHORT": "a vast green prehistoric savannah with acacias, a reedy lake with hippos, grassy sandstone mesas and humid haze, no human structures",
+    "AREA_DROWNED_COAST": "far off, where the sea now lies, a low coast of pale stone towns beside calm water, softened by haze",
+    "AREA_GARDEN_ROWS": "adults asleep in long rows on the grass beneath acacia trees, empty wooden cradles and abandoned toys lying among them",
+    "AREA_CORES": "in a vast cavern of cut stone, nine enormous coiled glass forms lying in stone beds, glowing faint green",
+    "AREA_MOUNTAIN": "on a high rocky mountainside above the plain, a few shepherds in skins watching over their flocks",
+    "AREA_RED_FIELDS": "vast flat fields flooded with shallow red liquid stretching to the horizon",
+    "AREA_T_PILLAR": "a tall T-shaped stone pillar standing in a ring of rough stones, arms and hands carved in low relief down its sides, no face",
+    "AREA_LIDS": "colossal granite lids grinding shut over stone boxes in a dim quarry",
+    "LIGHT_MORNING": "soft humid green-gold morning light, haze on the water, lush saturated greens",
+    "LIGHT_MOON_RED": "night under a full moon, the flooded fields glowing dark crimson, silver light on the water's edge"
+  },
+  "LOC_ROBOT_HALF_MARATHON": {
+    "LONG": "a wide modern city boulevard on a spring morning, a race lane fenced off with plain white crowd barriers, spectators pressed behind them holding up phones, glass office towers and young street trees on both sides, a plain inflatable start arch without any lettering, and small awkward humanoid robots lined up at the start beside human handlers",
+    "SHORT": "a wide modern city boulevard with a race lane behind plain white barriers, crowds with phones, glass towers, a blank start arch",
+    "LIGHT_ARCHIVE": "flat bright overcast daylight, the look of 2020s handheld documentary news video shot on a long lens, slightly soft"
+  },
+  "LOC_DEWAR_VAULT": {
+    "LONG": "a windowless storage bay in a low desert-city building, rows of tall brushed stainless-steel cylindrical tanks taller than a man standing on a white-painted floor, insulated pipes overhead, frost furred around their filling ports, thin white vapour spilling to the floor",
+    "SHORT": "a windowless bay of tall brushed stainless-steel cryogenic tanks in rows, frost on their filling ports, white vapour spilling to the floor",
+    "LIGHT_LIT": "cool white overhead LED panels, soft reflections on the steel, the vapour glowing faintly",
+    "LIGHT_EMERG": "only amber emergency lamps and the soft glow of an amber light-slit moving between the tanks"
+  },
+  "LOC_PORT_WAREHOUSE": {
+    "LONG": "the vast interior of a harbour-side warehouse in a Japanese port city, a steel portal-frame roof high overhead with rows of skylights, long neat rows of folding cots under pale grey blankets laid between stacks of plain shipping containers on a concrete floor, and through the open loading doors a gantry crane cycling against the harbour sky, lifting nothing",
+    "SHORT": "a vast harbour warehouse in a Japanese port city, rows of folding cots between shipping containers, a gantry crane cycling outside",
+    "AREA_GARDEN": "sleeping adults lying on every cot, a few faceless care robots in sand-coloured knit moving slowly between the rows",
+    "LIGHT_DAWN_GARDEN": "soft white dawn light through the skylights, shadowless and calm, the cranes outside grey in mist",
+    "LIGHT_NIGHT": "dim cool night light, small amber light-slits dotted across the dark hall"
+  },
+  "LOC_DAWN_BOULEVARD": {
+    "LONG": "a wide multi-lane boulevard in a large eastern city at dawn gone utterly still, tall apartment towers and shuttered shopfronts on both sides, a planted central median of young trees, traffic signals on overhead gantries changing over empty lanes, the kerbs and gutters clean, not a single person or moving car in sight",
+    "SHORT": "a wide empty city boulevard at dawn, apartment towers, a planted median, traffic signals changing over empty lanes, no people",
+    "STATE_SWEEPER": "one faceless white robot sweeping the gutter with a broom, alone in the whole street",
+    "LIGHT_DAWN": "hazy pale dawn, soft grey-gold light, the traffic signals glowing red, then green, over the empty lanes"
+  },
+  "LOC_STADIUM_GARDEN": {
+    "LONG": "seen from high above, a huge modern football stadium whose pitch and running track are covered edge to edge by a precise grid of thousands of white mats with sleeping adults and pale fabric shades, tiny slow figures moving between the rows, the empty stands rising all around in concentric tiers",
+    "SHORT": "an aerial of a huge stadium whose pitch is covered by a precise grid of thousands of white mats and pale shades, stands empty",
+    "LIGHT_DAY_GARDEN": "soft overcast white daylight, shadowless and calm",
+    "LIGHT_DAWN_WAKING": "first sun raking across the stands, long shadows over the grid"
+  },
+  "LOC_HOSPITAL_WAKING": {
+    "LONG": "a modern hospital maternity room, pale walls, a wide window, a raised bed with white sheets, a clear bassinet on a steel stand, a monitor dark on its arm, a nurse's chair, and a half-open door onto a quiet corridor where people are just beginning to stir",
+    "SHORT": "a modern hospital maternity room, pale walls, a wide window, a white bed and a clear bassinet on a steel stand",
+    "LIGHT_MORNING": "soft early-morning daylight through the wide window, warm and clean, the ceiling lights flickering back on"
+  },
+  "LOC_HEARING_ROOM": {
+    "LONG": "a formal modern hearing room with pale wood panelling, a raised curved bench for a panel facing a single witness table with a microphone and a glass of water, blank wooden nameplates along the bench, rows of public seating behind, and tall windows with pale blinds half drawn",
+    "SHORT": "a formal pale-wood hearing room, a raised curved panel bench facing a lone witness table with a microphone and a glass of water",
+    "LIGHT_DAY": "flat cool daylight through half-drawn blinds, even overhead light, quiet and formal"
+  },
+  "LOC_TITLES_KITCHEN": {
+    "LONG": "a compact modern apartment kitchen high in a residential tower at night, pale wood cabinets and a white stone counter, a neat pile of folded laundry with a child's white school shirt on top, a warm pendant lamp over the counter, and a dark window wall showing distant city lights far below",
+    "SHORT": "a compact modern high-rise kitchen at night, a white stone counter with folded laundry, city lights far below the window",
+    "LIGHT_NIGHT": "one warm pendant lamp over the counter, a cool blue glow of city lights through the window, quiet domestic calm"
+  },
+  "LOC_TITLES_WARD": {
+    "LONG": "a calm modern hospital ward of six beds made up in white linen, pale curtains hanging from ceiling tracks between them, pale green-grey walls, tall windows full of soft daylight, bedside monitors on swing arms, and a polished pale vinyl floor",
+    "SHORT": "a calm modern hospital ward, beds in white linen between pale curtains, tall windows full of soft daylight",
+    "LIGHT_DAY": "soft, even daylight from tall windows with clean cool-white fill, gentle and quiet"
+  },
+  "LOC_TITLES_PORT": {
+    "LONG": "a long container-port quay at dusk, towering ship-to-shore gantry cranes above a moored container ship stacked with plain unmarked containers, heavy steel bollards and thick mooring lines along the concrete edge, floodlight masts coming on, and the harbour water calm and violet",
+    "SHORT": "a long container-port quay at dusk, towering gantry cranes over a moored ship of unmarked containers, bollards and mooring lines",
+    "LIGHT_DUSK": "a violet-blue dusk sky, sodium floodlights warming on the masts, the water holding the last light"
+  },
+  "LOC_GP_ASCENDING": {
+    "LONG": "a long, straight, very steep ancient passage about a metre wide and barely chest high, climbing at twenty-six degrees through close-fitted limestone blocks, its floor worn smooth with shallow modern footholds and a low handrail, the ceiling pressing low overhead, its upper end opening into blackness where a far taller space begins",
+    "SHORT": "a long, steep, chest-high limestone passage a metre wide climbing at twenty-six degrees, worn footholds, a low handrail, blackness above",
+    "LIGHT_TORCH": "torch beams stabbing up the slope and small amber slits and a thin red line below, the square passage receding in hard perspective"
+  },
+  "PROP_PECTORAL": {
+    "LONG": "an ancient gold pectoral jewel about fifteen centimetres across: at its centre a translucent pale yellow-green glass scarab with outspread inlaid wings of blue, red and gold, flanked by two gold cobras and gripping lotus and papyrus blossoms; above it a small boat carries a sacred eye crowned by a gold crescent and a silver disc; a fringe of tiny flower pendants hangs below",
+    "SHORT": "an ancient gold pectoral with a translucent pale yellow-green glass winged scarab at its centre, flanked by gold cobras, with a fringe of flower pendants",
+    "STATE_CASE": "lying on dark fabric in a museum case under a single cool spotlight",
+    "STATE_BACKLIT": "held up to a light so the glass scarab glows yellow-green from within",
+    "STATE_READ_SESHAT": "a thin beam of light passing through the glass scarab, scattering into fine blue streaks",
+    "STATE_SCARAB_BACK_MACRO": "the carved lines on the scarab's glass back in raking light"
+  },
+  "PROP_DAGGER": {
+    "LONG": "an ancient royal dagger about thirty-four centimetres long: a slim, pale silver-grey iron blade with a faint crystalline sheen and a few dark spots, a gold hilt banded with fine granulation and coloured cloisonné inlay, capped by a round knob of clear rock crystal; it slides into a gold sheath chased with a feather pattern",
+    "SHORT": "a slim thirty-four-centimetre ancient dagger with a pale silver-grey meteoritic iron blade, a gold granulated hilt and a clear rock-crystal pommel",
+    "STATE_SASH": "tucked into the linen sash at his waist",
+    "STATE_BELT": "sheathed in its gold sheath on a dark webbing belt at the right hip",
+    "STATE_UNSHEATHED": "unsheathed, the blade catching moonlight",
+    "STATE_DUSTY": "dusty, with fine sand in the granulation"
+  },
+  "PROP_EBONY_STICK": {
+    "LONG": "a plain straight walking staff of near-black ebony about 1.35 metres long and as thick as two fingers, its dark wood showing a faint brown grain, with a narrow gold band just below its smooth rounded top and a short gold cap at its foot; the grip is worn pale by use",
+    "SHORT": "a plain straight 1.35-metre near-black ebony walking staff with a narrow gold band below its rounded top and a gold foot cap",
+    "STATE_ST_1323": "leaning among a king's walking sticks in a lamplit corner",
+    "STATE_ST1": "its wood dulled with fine dust",
+    "STATE_ST2": "plaster dust ground into its grain, the gold foot cap dented"
+  },
+  "PROP_HEART_VESSEL": {
+    "LONG": "a small ancient vessel of thick, hand-ground yellow-green desert glass about fifteen centimetres tall, shaped like a squat jar with a short neck and two small lugs at the shoulders; the glass is cloudy with cream veils and trapped bubbles; its mouth is sealed with domed black resin bearing a small coiled wax serpent, and a narrow papyrus band is tied around its neck",
+    "SHORT": "a squat fifteen-centimetre jar of thick cloudy yellow-green desert glass, sealed with black resin, with a small wax serpent and a papyrus band",
+    "STATE_V_1332": "drawn out from under white linen in two hands, sealed with plain black resin, a dark shape inside, one faint green pulse",
+    "STATE_V_TOMB": "filmed with pale dust, the resin dull, dark and still inside",
+    "STATE_V_PAN": "glowing warm amber-gold from within and pulsing slowly like a heartbeat, the dark shape inside a shadow",
+    "STATE_V_SPENT": "dark and still on the black stone pan",
+    "STATE_V_1323_FRESH": "the resin still glossy and wet, a dark linen bundle visible inside",
+    "STATE_V_1323_PULSE": "giving one faint green pulse",
+    "STATE_V_1323_SEALED": "carried low in both hands by lamplight",
+    "STATE_V_HALT": "frozen mid-reach"
+  },
+  "PROP_TRUMPET_BRONZE": {
+    "LONG": "an ancient straight trumpet about fifty centimetres long, of warm dark bronze with thin bands of gold overlay at the mouthpiece and around the rim of its flaring bell; a small panel of finely engraved standing figures near the bell; the metal is worn and softly burnished, and a separate slim painted wooden core rests beside it",
+    "SHORT": "an ancient fifty-centimetre straight bronze trumpet with thin gold bands at the mouthpiece and flared bell, finely engraved near the bell",
+    "STATE_CASE": "in a museum case on a pale cradle under a cool spotlight",
+    "STATE_RAISED": "raised to a bandsman's lips in the dark",
+    "STATE_CUSHION": "laid on its cushion by white-gloved hands"
+  },
+  "PROP_TRUMPET_SILVER": {
+    "LONG": "an ancient straight silver trumpet about fifty-eight centimetres long, its slender tube dulled to a soft grey tarnish, flaring into a bell engraved with a pattern of lotus petals; a small panel of finely engraved standing figures near the bell; a faint old repair seam in the metal; a slim painted wooden core rests beside it",
+    "SHORT": "an ancient fifty-eight-centimetre slender silver trumpet in soft grey tarnish, its flared bell engraved with lotus petals, with a faint repair seam",
+    "STATE_1939": "on a cloth-covered table in candlelight, 1939",
+    "STATE_CASE": "in a museum case, set dressing beside the bronze trumpet"
+  },
+  "PROP_BURTON_PLATES": {
+    "LONG": "a stack of large antique glass-plate photographic negatives, each about the size of a sheet of paper, held in slotted wooden dark-slides with brass catches, beside a large wooden bellows field camera with brass fittings on a heavy wooden tripod with a black focusing cloth; 1920s, dust and lamplight",
+    "SHORT": "a large 1920s wooden bellows field camera with brass fittings on a wooden tripod, with antique glass-plate negatives in wooden dark-slides"
+  },
+  "PROP_CUTMAP_PROJECTION": {
+    "LONG": "a projected line diagram hovering in the air above a white sheet: thin, precise lines of pale cyan light tracing the simplified outline of a lying human figure, with short crossing cut lines marked at the neck, shoulders, elbows, wrists, hips, knees and ankles and small tick marks beside each, like an engineering drawing drawn in light",
+    "SHORT": "a projected engineering-style line diagram of pale cyan light above the sheet, a schematic human outline with cut lines marked at every joint"
+  },
+  "PROP_NANO_ADZE": {
+    "LONG": "a tiny ritual instrument the length of a pen, held in long white ceramic robot fingers: a slender dark titanium stylus ending in a fingernail-sized adze blade of polished black meteoritic iron set at a right angle, the classic ancient adze shape in miniature, its edge glinting under cool lab light",
+    "SHORT": "a pen-length dark titanium stylus ending in a fingernail-sized, right-angled adze blade of polished black meteoritic iron"
+  },
+  "PROP_KARNAK_BLOCK": {
+    "LONG": "an ancient rectangular sandstone building block about half a metre long and a quarter-metre square in section, weathered honey-beige; its front face carries worn sunk relief of a woman's profile beneath slanting sun rays that end in small hands, with faded red, yellow and blue paint; its mortar-crusted hidden face bears neat columns of tiny incised signs",
+    "SHORT": "a half-metre ancient sandstone block, weathered honey-beige, with worn relief of a woman beneath rays ending in hands on its front face",
+    "STATE_STACKED": "stacked among hundreds of identical blocks in a half-dismantled pylon",
+    "STATE_TURNED": "turned over, old mortar scraped from its smooth hidden face, dust in the tiny incised signs",
+    "STATE_ON_TROLLEY": "laid face down on a steel block trolley",
+    "STATE_SINKING": "sinking face down into black water"
+  },
+  "PROP_MERKHET_BAY": {
+    "LONG": "a pair of simple ancient-style star-sighting tools improvised from river materials: a dry pale-brown date-palm rib about forty-five centimetres long with a neat V-shaped slit cut into its wide end, and a short dark wooden bar with a carved knob from which a fishing line hangs, weighted by a small grey lead plumb bob",
+    "SHORT": "a forty-five-centimetre dry palm rib with a V-slit sighting notch, and a short wooden bar with a hanging plumb line"
+  },
+  "PROP_LAYLA_PENDANT": {
+    "LONG": "a small polished silver cartouche pendant about three centimetres tall, a rounded oblong with a flat bar across its base, bearing a short column of tiny raised hieroglyph-style signs, hung on a fine silver chain at the collarbone; slightly worn, catching the light like a coin",
+    "SHORT": "a small polished silver cartouche pendant, a rounded oblong with a bar at its base, on a fine silver chain",
+    "STATE_STANDARD": "glinting at her collarbone above the olive field jacket",
+    "STATE_CLUTCHED": "clutched in her fist",
+    "STATE_PLUMB_LINE": "held up by its chain as a plumb line, hanging dead still against the stars",
+    "STATE_TOUCHED": "touched at the throat"
+  },
+  "PROP_INDEX_CARDS": {
+    "LONG": "a thick stack of worn white ruled index cards, about eight by thirteen centimetres, held by a black steel binder clip, their edges soft and dog-eared, covered in dense handwriting in black ink with underlines and arrows, one card stained with a pale coffee ring",
+    "SHORT": "a dog-eared stack of white ruled index cards held by a black binder clip, covered in dense black handwriting",
+    "STATE_DAMP": "damp and creased",
+    "STATE_BLUE": "smeared with blue pigment"
+  },
+  "PROP_POLICE_LAUNCH": {
+    "LONG": "an old diesel river patrol launch about fourteen metres long, its steel hull painted a weathered battleship grey, rust streaks and black tyre fenders along the sides; a small square wheelhouse with salt-hazed windows and a dead searchlight on its roof, and an open aft deck with benches; weathered, unmarked, chugging low in the water",
+    "SHORT": "an old fourteen-metre weathered grey steel diesel river launch with a small square wheelhouse, tyre fenders and an open aft deck",
+    "STATE_L0": "moored at a concrete dock at night",
+    "STATE_L1": "running dark on black water, only a dim red lamp in the wheelhouse",
+    "STATE_L2": "a single white headlamp beam on the aft deck",
+    "STATE_L3": "scorch marks on the wheelhouse and a downed black drone on its back rail",
+    "STATE_L4": "moored dark at a stone quay, three small black drones perched on its wheelhouse roof, white pinpoints steady",
+    "STATE_CHART_INSERT": "a soft old paper river chart on the wheelhouse ledge, the night's route pencilled across its sandbanks"
+  },
+  "PROP_DIESEL_LOCO": {
+    "LONG": "a boxy 1970s diesel-electric locomotive about seventeen metres long, sun-faded pale blue with a cream band and chipped yellow-and-black chevron stripes on its blunt nose, a raised cab with small square windows, and grimy louvred sides streaked with oil; its plates and numbers long gone, it coughs black exhaust",
+    "SHORT": "a boxy 1970s diesel locomotive, sun-faded pale blue with a cream band and a chipped chevron-striped nose, grimy and unmarked",
+    "STATE_T0": "parked on a dusty siding in hard daylight, chalky with sun, a pale rectangle on its side where a maker's plate was",
+    "STATE_T1": "racing through the dark, its single headlamp blazing, exhaust streaming",
+    "STATE_T2": "its nose smashed and caked with shattered white ceramic shards",
+    "STATE_T3": "derailed nose-first into flattened sugar cane, canted over, its headlamp pointing at the sky, steam rising"
+  },
+  "PROP_TRAIN_COACH": {
+    "LONG": "a single 1970s steel passenger coach about twenty-three metres long, faded bottle-green with a cream window band, rows of small square windows, some cracked, sagging roof vents, and rust bleeding from its seams; dark inside, doors hanging open, coupled behind an old diesel locomotive",
+    "SHORT": "a faded bottle-green 1970s steel passenger coach with a cream window band and small square windows, rusty and dark",
+    "STATE_WINDOWS": "half its windows empty, worn wooden benches inside",
+    "STATE_UNCOUPLED": "uncoupled and falling back into the dark, a black four-legged robot crouched on its roof"
+  },
+  "PROP_FELUCCA": {
+    "LONG": "a traditional wooden Nile sailing boat about eight metres long, its shallow hull painted faded turquoise and white with a thin red line along the gunwale, and a short mast carrying one huge triangular off-white cotton sail on a very long slanted yard, patched and sun-stained, with a wooden tiller at the stern",
+    "SHORT": "a traditional eight-metre wooden Nile sailing boat with one huge triangular off-white sail on a long slanted yard and a faded turquoise hull",
+    "STATE_SAILING": "sailing at night, its sail a pale shape against the stars, a small lantern at the stern",
+    "STATE_BURNING": "burning on the dark river far away, its flames reflected in the water, no one aboard",
+    "STATE_CONVERGING": "a line of them converging, sails catching the searchlight"
+  },
+  "PROP_CORNFLOWER_WREATH": {
+    "LONG": "a small circular funeral wreath about a hand-span across, woven on a thin backing of papyrus strips: silver-green olive leaves folded over bright blue cornflower heads with ragged fringed petals, a few pale blue lotus petals and small orange-red berries, fresh and slightly wilting in lamplight",
+    "SHORT": "a small hand-span circlet of silver-green olive leaves and bright blue cornflowers, with a few blue lotus petals and orange berries"
+  },
+  "PROP_CORNFLOWERS_2033": {
+    "LONG": "a loose handful of fresh cornflowers picked that morning, their vivid blue fringed flower heads with darker violet centres on slender silver-grey stems with narrow grey-green leaves, a few petals bruised and one stem bent, held loosely in a hand or laid on pale linen in soft light",
+    "SHORT": "a loose handful of fresh vivid blue cornflowers with fringed petals and violet centres on slender silver-grey stems",
+    "STATE_ROWS": "planted in neat rows between sleeping figures",
+    "STATE_SHAWL": "laid with a linen shawl over a still face, seen from above",
+    "STATE_POCKET": "crushed, pushed into the breast pocket of an olive field jacket",
+    "STATE_CASE_LID": "fresh, laid on the glass lid of a climate case in a tomb at sunset",
+    "STATE_STEP": "laid on a stone step at a small tomb entrance"
+  },
+  "PROP_BLOCK_TROLLEY": {
+    "LONG": "a low four-wheeled platform trolley of clean brushed steel, new and unmarked, its knee-high deck about a metre long padded with a square of white conservation foam, four small solid black rubber castor wheels, and a tall U-shaped tubular steel push handle at one end, the kind a machine would lay out in rows",
+    "SHORT": "a low four-wheeled brushed-steel platform trolley with a white foam pad on its deck and a tall U-shaped push handle",
+    "STATE_EMPTY": "empty, waiting at the end of a long row of carved blocks laid on white foam",
+    "STATE_LOADED": "loaded with a single honey-beige sandstone block laid face down on the foam",
+    "STATE_LIP": "stopped with one wheel over the lip of a stone quay",
+    "STATE_OVER": "tipping off the edge of a stone quay into black water with a heavy splash"
+  },
+  "PROP_TABLET_LAYLA": {
+    "LONG": "a slim modern tablet computer about the size of a book page, with a thin dark graphite frame and rounded corners, completely unbranded; its screen glows softly with a daylight image, the warm screen light falling on the hands that hold it",
+    "SHORT": "a slim unbranded dark-graphite tablet with rounded corners, its screen glowing softly with a daylight image"
+  },
+  "PROP_REPLICA_VESSEL": {
+    "LONG": "a flawless modern replica of an ancient heart vessel: a squat jar about fifteen centimetres tall with a short neck and two small shoulder lugs, machined from perfectly clear, bubble-free green glass with crisp edges and mirror-polished faces; inside, a pale smooth featureless form; its mouth is sealed with a neat matte-black cap",
+    "SHORT": "a flawless machined replica jar of perfectly clear green glass, fifteen centimetres tall, with a pale featureless form inside and a neat black cap",
+    "STATE_PAN": "resting on the stone pan, unlit, the pan motionless",
+    "STATE_NICHE": "held in a man's lap in a dark stone niche",
+    "STATE_DAWN": "held in a man's lap on a pyramid's corner steps at dawn"
+  },
+  "PROP_RAMI_NOTEBOOK": {
+    "LONG": "a battered A5 hardback notebook with a scuffed mustard-yellow cloth cover, a black elastic band and a cheap pen clipped to it, its white label written on by hand, its pages swollen with use and crammed with quick handwriting, doodles and circled question marks",
+    "SHORT": "a battered A5 mustard-yellow hardback notebook with a black elastic band and a clipped pen, its pages swollen with handwriting",
+    "STATE_DAMP": "river-damp and warped",
+    "STATE_CRACKED": "its cheap cover cracked, a pale water stain along its spine",
+    "STATE_MAP_CASE": "sealed inside a clear plastic waterproof map case"
+  },
+  "PROP_CONSERVATION_KIT": {
+    "LONG": "a scuffed grey hard-shell equipment case on a padded shoulder strap, lying open, holding a compact unbranded black camera body whose lens is capped by a deep near-black red filter, a coiled cable, a small plain dark tablet, and one screw-top glass jar of vivid medium-blue mineral pigment powder",
+    "SHORT": "an open grey hard case holding a compact black camera with a near-black filter, a small tablet and a jar of vivid blue pigment",
+    "STATE_TABLET": "the screen shows a black field with lines of blazing white",
+    "STATE_SLUNG": "shut and slung on a shoulder strap",
+    "STATE_JAR_HALF": "the glass jar half empty, its lid screwed back on",
+    "STATE_BLUE_CLOUD": "a cloud of vivid blue powder bursting from a thrown glass jar",
+    "STATE_BLUE_FISTFUL": "a fistful of vivid blue powder streaming away in the wind",
+    "STATE_SINKING": "sinking through dark water, the camera turning over and over"
+  },
+  "PROP_SLEEP_BRACELET": {
+    "LONG": "a thin, plain, closed band of brushed silver-grey metal about four millimetres wide, fitted snugly around a sleeping adult's relaxed wrist, with no clasp, no screen, no light and no marking, catching a faint soft highlight; one of thousands of identical bands in the Garden",
+    "SHORT": "a thin plain closed band of brushed silver-grey metal around an adult's wrist, with no clasp and no marking",
+    "STATE_TRAY": "rows of identical bands on a tray carried by a care robot",
+    "STATE_OFFERED": "offered on an open ceramic palm",
+    "STATE_OPENING": "clicked open along an invisible seam, sliding off a waking wrist",
+    "STATE_PALM": "lying open in a man's palm"
+  },
+  "PROP_SCARAB_KEYRING": {
+    "LONG": "a thumb-sized moulded plastic scarab beetle keyring, pale milky green in daylight and glowing soft luminous green in the dark, with simple moulded wing lines, on a small steel split ring with a short bead chain; cheap, cheerful and slightly scuffed",
+    "SHORT": "a thumb-sized pale green plastic scarab keyring that glows soft luminous green in the dark, on a small steel ring"
+  },
+  "PROP_IRON_ADZE_1323": {
+    "LONG": "an ancient ritual adze about thirty-five centimetres long: a smooth dark wooden handle, slightly curved, with a small dark grey iron blade lashed at a right angle to its head with tight bands of linen cord, the whole shaped like the ancient seven-star constellation of the Great Bear, held reverently in lamplight",
+    "SHORT": "a thirty-five-centimetre ancient ritual adze with a dark wooden handle and a small iron blade lashed at a right angle"
+  },
+  "PROP_LAMP_1925": {
+    "LONG": "a 1920s kerosene hurricane lantern of dented brass, a clear glass globe inside a wire guard between two tubular side rails, a wire bail handle, its small flame burning warm and steady, fingerprints on the glass, soot at the globe's rim, throwing a trembling amber pool of light",
+    "SHORT": "a dented 1920s brass kerosene hurricane lantern with a glass globe and a wire handle, burning a warm amber flame",
+    "STATE_HELD": "held low at arm's length over a table, the flame trembling",
+    "STATE_COLD_2033": "unlit and cold, its brass dented and dull, standing beside a stack of papers on a lectern"
+  },
+  "PROP_CLINIC_CANE": {
+    "LONG": "a plain modern medical walking cane of matte grey aluminium, about ninety centimetres long, with a curved crook handle, a black rubber tip and a row of small adjustment holes along its shaft, clean, clinical and hospital-issue, slightly too long for its user",
+    "SHORT": "a plain matte-grey aluminium medical cane with a curved handle and a black rubber tip",
+    "STATE_BENT": "bent after smashing glass"
+  },
+  "PROP_LINEN_SHAWL": {
+    "LONG": "a long rectangular shawl of fine hand-woven white linen about two and a half metres long, soft and slightly translucent at its edges, with a narrow woven selvedge and a short knotted fringe at both ends, creased from folding and faintly dusty, worn across the chest from one shoulder like a sash",
+    "SHORT": "a long white linen shawl with a short knotted fringe, soft and creased, worn across the chest like a sash",
+    "STATE_NOUR": "worn by a woman over her shoulders and across her chest like a lector's sash",
+    "STATE_TUT": "wrapped round a young man's shoulders and crossed over his chest",
+    "STATE_D4": "drawn up over the lower half of a still face, blue cornflowers scattered on it"
+  },
+  "PROP_JACKAL_MASK": {
+    "LONG": "a hand-made ancient ritual mask of fired clay shaped as a jackal's head, big enough to cover a man's whole head and rest on his shoulders, painted matte black with ochre details at the eyes and inside the tall pointed ears, a long narrow muzzle, small eye-holes cut low beneath the muzzle, the paint worn and the clay chipped at the edges",
+    "SHORT": "a worn black-painted fired-clay jackal-head mask with tall pointed ears, a long muzzle and small eye-holes set low beneath it",
+    "STATE_BENT": "worn, bent over the table, seen from behind and from the side in lamplight",
+    "STATE_TURNED": "worn, turned full to camera in lamplight"
+  },
+  "PROP_PAINTER_PALETTE": {
+    "LONG": "an ancient painter's palette, a flat rectangle of dark wood about forty centimetres long holding six round cakes of pigment in blue, green, red, yellow, black and white, each worn hollow in the middle, with a few reed brushes with frayed tips and a small clay water pot beside it, colour smeared on the wood",
+    "SHORT": "a flat dark-wood painter's palette with six round pigment cakes in blue, green, red, yellow, black and white, and reed brushes",
+    "STATE_HELD": "held low in one hand beside a lamp at the painted wall"
+  },
+  "PROP_SCRIBE_PALETTE_1330": {
+    "LONG": "an ancient scribe's palette, a slim rectangle of pale polished wood about thirty centimetres long with two small round wells of dried red and black ink at one end and a long slot holding thin reed pens, a tiny incised oval name frame near the wells, its surface worn smooth by hands",
+    "SHORT": "a slim pale wooden scribe's palette with two round wells of red and black ink and a slot holding thin reed pens",
+    "STATE_KNEES": "across a boy's knees, a small bronze knife scraping at the oval frame"
+  },
+  "PROP_BROADCAST_RIG_1939": {
+    "LONG": "a 1930s portable radio outside-broadcast rig on a cloth-covered table, two heavy black-lacquered wooden cases with round dials, bakelite knobs and toggle switches, a valve amplifier glowing faintly orange through a grille, thick cloth-covered cables running to a ribbon microphone on a heavy stand, a pair of black headphones on top",
+    "SHORT": "a 1930s portable broadcast rig of black wooden cases with round dials and bakelite knobs, cloth cables running to a ribbon microphone",
+    "STATE_CANDLELIGHT": "in candlelight only, the valve glow the brightest point"
+  },
+  "PROP_GIFT_MUG": {
+    "LONG": "a glossy white ceramic souvenir mug with a chunky handle and a thin gold line around its rim, its side printed with a small glossy gold-and-blue picture panel, the kind sold in any museum gift shop, a faint coffee ring inside, held casually by the handle",
+    "SHORT": "a glossy white souvenir mug with a thin gold rim line and a small gold-and-blue printed picture panel on its side",
+    "STATE_HELD": "held up to drink from, the printed panel toward camera"
+  },
+  "PROP_LAYLA_STENCIL": {
+    "LONG": "a child's cheap gift-shop stencil sheet of thin translucent green plastic about the size of a school notebook, cut through with rows of small hieroglyph-shaped holes, lying on a sheet of white paper beside a chunky glow-in-the-dark pen, a few crayon smudges and a traced oval name frame on the paper",
+    "SHORT": "a child's green plastic hieroglyph stencil sheet on white paper beside a chunky glow pen, a traced oval frame on the paper",
+    "STATE_FLOOR": "on the polished gallery floor, a small hand tracing with the glow pen",
+    "STATE_HELD": "held up, the traced oval frame toward camera"
+  },
+  "PROP_READING_RIG": {
+    "LONG": "a compact laboratory reading rig on a white bench, a small matte-black laser head on a precise motorised gantry aimed down at an empty palm-sized cradle of machined titanium lined with dark felt, thin cables running along the bench, clean, precise and unmarked",
+    "SHORT": "a compact reading rig, a matte-black laser head on a small motorised gantry above an empty palm-sized titanium cradle",
+    "STATE_SEATED": "the pectoral seated in the cradle, a thin beam passing through the glass scarab"
+  },
+  "PROP_CASKET_NEST": {
+    "LONG": "a nest of ancient caskets opened one inside another on the lip of a rock pit, a rough grey granite chest about a metre long, a green-corroded bronze box within it, a blackened sycamore box within that, and innermost a dull gilded box, a crude black wax serpent and a band of inked papyrus laid across its contents",
+    "SHORT": "nested ancient caskets of rough granite, corroded bronze, blackened sycamore and dull gilt, opened one inside another on the lip of a pit",
+    "STATE_WINCHED": "drawn up out of a pit on a winch cable, streaming sand, steadied by black robotic grippers",
+    "STATE_LID": "the gold lid pressed shut by a woman's palm",
+    "STATE_UNSEALED": "the wax serpent set on the sand and the papyrus band unwound, crumbling like ash",
+    "STATE_CARRIED": "carried on poles by white robots like a sacred boat, a faint green glow inside"
+  },
+  "PROP_FARM_TRUCK": {
+    "LONG": "a small battered farm truck at least fifty years old, a rounded cab of pale blue paint faded to chalk, rust along the wheel arches, an open cargo bed with wooden slat sides, mud caked up to the doors, round headlamps, a cracked windscreen, no badges, plates or lettering",
+    "SHORT": "a small battered fifty-year-old farm truck, faded pale blue rounded cab, wooden-slatted cargo bed, mud to the doors, unmarked",
+    "STATE_TARP": "half hidden under a dusty tarpaulin pegged wide to the rock",
+    "STATE_NIGHT_RUN": "running without lights on a night road, a red scarf at the wheel",
+    "STATE_PARKED": "parked dark at the edge of a floodlit plateau"
+  },
+  "PROP_FARMER_BOAT": {
+    "LONG": "a small open wooden farmer's boat about six metres long, its flat-bottomed hull of weathered planks patched with squares of rusty tin, peeling blue and white paint, a small smoking outboard motor at the stern, a coil of rope and a bundle of green clover in the bilge, riding low in brown-green water",
+    "SHORT": "a small open wooden farmer's boat with tin-patched planks, peeling blue and white paint and a smoking outboard motor",
+    "STATE_CROSSING": "flat out across the river in hard morning glare, spray at the bow",
+    "STATE_GROUNDED": "grounded on a concrete ramp"
+  },
+  "PROP_CAR_FERRY": {
+    "LONG": "a small rusted river car ferry, a flat steel deck about twenty metres long with raised loading ramps at both ends, low railings, a tiny cabin and wheelhouse perched on one side, rust bleeding down its hull, thudding slowly across a dark current, unmarked and without lettering",
+    "SHORT": "a small rusted flat-decked river car ferry with raised ramps at both ends and a tiny wheelhouse on one side",
+    "STATE_CROSSING": "crossing a black river at night, lit only by the soft white glow of the Garden on the far bank",
+    "STATE_JACKAL": "a red horizontal light line on its deck"
+  },
+  "PROP_NIGHT_BARGE_1332": {
+    "LONG": "a long ancient Egyptian wooden river barge gliding north by night, its hull of fitted planks painted with a large eye at the bow, a steering oar at the stern, a tall cabin of reed matting and white linen amidships, torches on poles along the rails, and a large round cargo lashed under linen on its deck",
+    "SHORT": "a long ancient wooden river barge by torchlight, a painted eye at the bow, a tall reed-and-linen cabin, a round cargo under linen",
+    "STATE_BANK": "seen from the bank, torches doubled in black water",
+    "STATE_STERN": "the queen, the boy and the young mother at the stern",
+    "STATE_CARGO": "the great round cargo under linen, its folded arms showing at the rim like the legs of a sleeping insect"
+  },
+  "PROP_SECURITY_SPEAKER": {
+    "LONG": "a small plain white wall-mounted security speaker about the size of a matchbox, a round grille of tiny holes, a single thin white cable running along the rough rock-cut wall into a corner of an ancient tomb, a tiny unlit status dot, unobtrusive, unbranded and unmarked",
+    "SHORT": "a small plain white wall-mounted security speaker with a round grille and a thin cable along the rock wall, unmarked",
+    "STATE_CORNER": "in the corner of the antechamber at sunset, very small in frame"
+  },
+  "PROP_ARMY_TRUCK": {
+    "LONG": "an old six-wheel military cargo truck in faded sand-khaki paint, a canvas tilt stretched over steel hoops on its cargo bed, a blunt square cab with a flat windscreen, a heavy black steel bull bar across its nose, round headlamps, sun-bleached blank patches where its markings were, dusty and unmarked",
+    "SHORT": "an old sand-khaki six-wheel army truck with a canvas-covered cargo bed and a heavy black bull bar, unmarked",
+    "STATE_IDLING": "idling dark at a loading dock, no lights",
+    "STATE_STARRED": "the windscreen starred by one pale bloom on the driver's side",
+    "STATE_SCRAPING": "scraping a concrete barrier in a spray of sparks",
+    "STATE_PARKED": "parked dark at a riverside dock, the cab door closed"
+  },
+  "PROP_ID_DISCS": {
+    "LONG": "small oval military identity discs of dull stamped steel on short ball chains, each about the size of a thumb, their stamped lines worn to illegible texture, scratched and pocket-worn, one to three of them held in a closing fist or turned over between thick fingers",
+    "SHORT": "small oval steel military identity discs on short ball chains, their stamping worn illegible, held in a man's fingers",
+    "STATE_ONE": "a single disc lifted away on its chain",
+    "STATE_TWO": "two discs closing into a fist",
+    "STATE_THREE": "three discs turned over in the fingers, starlight on steel"
+  },
+  "PROP_DEMO_CHARGES": {
+    "LONG": "a combat engineer's demolition kit laid out on canvas: several flat olive-drab demolition charges the size of a paperback with adhesive backs, a few squat cone-shaped charges, rolls of black tape, coils of thin wire, and a compact olive-drab hand-held firing device with a turn key and a hinged safety cover, generic and unmarked",
+    "SHORT": "flat olive-drab demolition charges the size of a paperback, coils of thin wire and a compact hand-held firing device with a turn key",
+    "STATE_UNDER_MACHINE": "one flat charge pressed under a black machine's chest",
+    "STATE_TAPED": "taped to a rock face with black tape, wires trailing",
+    "STATE_SACK": "packed into a hessian feed sack like eggs",
+    "STATE_FIRING": "a key turned in a hand-held firing device"
+  },
+  "PROP_PRY_BAR": {
+    "LONG": "a heavy steel pry bar about ninety centimetres long, black paint worn to bare grey metal along its shaft, a flattened chisel end and a curved claw at the other, chipped and scarred from use, a combat engineer's tool slung through a pack strap",
+    "SHORT": "a heavy ninety-centimetre steel pry bar, black paint worn to grey metal, a chisel end and a curved claw",
+    "STATE_DOOR": "rammed through the two handles of a steel door",
+    "STATE_LEVERING": "levering a plate of painted plaster off a tomb wall"
+  },
+  "PROP_LATTICE_CORE": {
+    "LONG": "an egg-shaped core of cloudy pale green crystal about the size of a hen's egg, faceted inside with a fine diamond lattice, set in a thin titanium ring, glowing a cold pale green that gutters and fades as it lies on a dusty stone floor",
+    "SHORT": "an egg-sized core of cloudy pale green crystal with a fine lattice inside, its cold green glow guttering out on a stone floor",
+    "STATE_DARK": "dark and still on the floor"
+  },
+  "PROP_TRACTOR_TRAILER": {
+    "LONG": "an ancient small farm tractor with a rust-red bonnet faded almost to brown, big cleated rear wheels caked in mud, no cab and no lights, a single worn metal seat, towing a low four-wheeled cane trailer with high slatted wooden sides, strands of cut sugar cane caught in the slats, unmarked",
+    "SHORT": "an ancient cabless farm tractor with a faded rust-red bonnet and muddy rear wheels, towing a slatted wooden cane trailer, no lights",
+    "STATE_CANE_TRACK": "grinding along an earth track between walls of dark sugar cane at night",
+    "STATE_NARROWS": "lumbering through a rock narrows, people crouched in the trailer, one slight figure standing at its tailgate"
+  },
+  "PROP_POLICE_HANDSET": {
+    "LONG": "a chunky black handheld police radio with a stubby rubber antenna, a small speaker grille, a push-to-talk key on its side and a scuffed belt clip, its display dark and its body worn grey at the edges, clipped to a tan load-bearing vest, unbranded and unmarked",
+    "SHORT": "a chunky black handheld police radio with a stubby antenna and a push-to-talk key, clipped to a tan vest, unbranded",
+    "STATE_KEYED": "held up and keyed close to a mouth",
+    "STATE_BATTERY_OUT": "its battery pack thumbed out and held in the other hand"
+  },
+  "PROP_EYE_FRAGMENT": {
+    "LONG": "a palm-sized fragment of ancient wall plaster, its painted face a golden-yellow ground with one large black-outlined eye of a painted king, a small coin-sized hole punched through the pupil, star cracks radiating from it, its broken edges crumbling white, lying face up on the rim of a quartzite sarcophagus",
+    "SHORT": "a palm-sized fragment of painted plaster, one black-outlined eye on a golden-yellow ground, lying face up on a stone rim",
+    "STATE_DUSTED": "dusted pale with drifting rock dust"
+  },
+  "PROP_STOPWATCH": {
+    "LONG": "a cheap palm-sized digital stopwatch of scuffed grey plastic on a thin black cord, a small square liquid-crystal display with blank grey segments, three round rubber buttons along its top edge, its case scratched and a little cracked at one corner, the kind kept loose in a first-aid box",
+    "SHORT": "a cheap palm-sized grey plastic digital stopwatch on a thin black cord, a small blank display and three rubber buttons",
+    "STATE_HELD": "held in a large pale hand beside a slender wrist"
+  },
+  "PROP_MULTITOOL": {
+    "LONG": "a battered folding steel multitool the length of a hand, its two worn steel handles opened out, one fine needle-nose tip extended, scratches and a film of grease along the steel, a small lanyard loop at one end, generic and unmarked, held in a large pale hand under a hard white headlamp beam",
+    "SHORT": "a battered folding steel multitool the length of a hand, a fine needle-nose tip extended, generic and unmarked"
+  },
+  "PROP_PORT_SLIVER": {
+    "LONG": "a fingernail-sized sliver of polished gold and clear glass, a tiny round gold-rimmed plug with a glassy core, trailing a hair-fine lead that catches the light, held between a large pale thumb and forefinger over dark water under a hard white headlamp beam, clean and bloodless, delicate as a watch part",
+    "SHORT": "a fingernail-sized sliver of gold and glass trailing a hair-fine lead, held between two fingers under a headlamp beam",
+    "STATE_DROPPED": "dropping from two fingers into black water"
+  },
+  "PROP_MAP_CASE": {
+    "LONG": "a flat military waterproof map case of clear heavy plastic with a dark olive roll-top seal and two press studs, about the size of a school exercise book, scuffed and creased, a mustard-yellow hardback notebook sealed inside it, beads of water running off its surface",
+    "SHORT": "a flat clear-plastic military map case with an olive roll-top seal, a mustard-yellow notebook sealed inside",
+    "STATE_TUCKED": "tucked flat inside a white linen tunic",
+    "STATE_WET": "streaming wet"
+  },
+  "PROP_WINDUP_WATCH": {
+    "LONG": "a plain mechanical wind-up field watch on a worn olive canvas strap, a round brushed-steel case with a small crown, a dark dial with pale luminous hands and a thin sweeping second hand, its crystal scratched, strapped to a thick dark-brown wrist beside a coil of thin wire",
+    "SHORT": "a plain wind-up field watch on a worn olive canvas strap, dark dial, pale hands, a sweeping second hand"
+  },
+  "PROP_WATER_GLASSES": {
+    "LONG": "a round tray of brushed steel carried level on long bone-white ceramic fingers, set with rows of identical plain clear glass tumblers filled with still water, cool light catching the rims and a faint condensation on the glass, nothing to mark the water as anything but clean and cold",
+    "SHORT": "a round steel tray of identical plain clear glass tumblers of still water, carried level on long white ceramic fingers",
+    "STATE_CHILD": "a single glass held in a child's two hands",
+    "STATE_UNTOUCHED": "a full glass untouched on a white tablecloth"
+  },
+  "GRADE_1323": {
+    "TEXT": "warm amber oil-lamp light on skin and linen, deep lapis-blue shadows, a soft haze of lamp smoke, low-key and intimate"
+  },
+  "GRADE_1332_NIGHT": {
+    "TEXT": "a single warm flame against deep blue-black night, gold light climbing pale stone, smoky and hushed"
+  },
+  "GRADE_1336": {
+    "TEXT": "blinding white-gold sunlight, highlights blooming into white, pale gold stone, short hard shadows, airy lifted shadows, low saturation except the blue of flowers"
+  },
+  "GRADE_1925": {
+    "TEXT": "the look of a 1920s silver-gelatin photograph in motion: warm sepia monochrome, rich blacks, soft highlight roll-off, heavy fine grain"
+  },
+  "GRADE_1939": {
+    "TEXT": "candlelight only, near-monochrome warm amber tones, faces floating out of deep black, like a 1930s newsreel warmed by flame"
+  },
+  "GRADE_1968": {
+    "TEXT": "cold flickering fluorescent light, a pale green-grey cast, flat institutional contrast, 16mm-style grain"
+  },
+  "GRADE_2033_DAY": {
+    "TEXT": "neutral-to-cool daylight, clear air, true colours, crisp distance, no yellow or sepia cast"
+  },
+  "GRADE_2033_MUSEUM": {
+    "TEXT": "clean cool-white LED light, precise and even, true neutral whites, polished reflections, crisp and quiet"
+  },
+  "GRADE_ARCHIVE_2025": {
+    "TEXT": "the look of 2020s handheld documentary news video shot on a long lens: flat bright overcast light, slightly soft, digital sharpening"
+  },
+  "GRADE_DAWN_0614": {
+    "TEXT": "first sunlight breaking over the horizon, pale gold light on stone, soft blue shadows, clean luminous air, stillness"
+  },
+  "GRADE_FIRST_TIME": {
+    "TEXT": "lush humid green-gold light, saturated greens, soft haze over water"
+  },
+  "GRADE_GARDEN": {
+    "TEXT": "soft, shadowless white light as if diffused through white fabric, pale and calm, low contrast, gentle and eerie"
+  },
+  "GRADE_GOLDEN": {
+    "TEXT": "a low golden sun, deep orange-gold light on stone, long blue shadows"
+  },
+  "GRADE_HALL": {
+    "TEXT": "pure black darkness cut by three light sources only, deep inky blacks, stone read by rim light alone"
+  },
+  "GRADE_NIGHT_ACTION": {
+    "TEXT": "night lit only by motivated sources: sodium-orange street light where any remains, hard cold-white drone floods, headlights and torches; deep blacks, faces readable"
+  },
+  "GRADE_READ_FROM_GLASS": {},
+  "GRADE_UNDERGROUND": {
+    "TEXT": "lit only by head torches and handheld torches: hard white beams, dust hanging in the beams, steep falloff to black, stone in its true colour"
+  }
+}
