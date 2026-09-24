@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+film/tools/local_render/renders/
+film/tools/local_render/stills/
+film/tools/local_render/config.json
+*.mp4
+*.mov
+*.mkv
+*.safetensors
+*.gguf
+*.ckpt
