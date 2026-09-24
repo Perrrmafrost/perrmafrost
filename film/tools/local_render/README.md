@@ -34,7 +34,7 @@ The scan lists free space on every drive and names the fixed drive with the most
 ## 1. Realistic plan for an RTX 3060 + 32 GB RAM
 - The 3060 usually has **12 GB VRAM** (some are 8 GB — the scan shows which). Native 1080p video with the largest open models will not fit comfortably.
 - **Render small, deliver at 1080p:** generate at 848×480 (or 1280×720 if it fits), then `assemble_film.py` scales to 1920×1080. An AI upscaler pass in ComfyUI before assembly gives a sharper result.
-- **Pick a model that fits 12 GB:** a small or quantized (GGUF) open video model with an image-to-video mode. Test one 5-second clip first and note the time; that number × ~1,200 shots × takes = your render budget. Expect days to weeks of GPU time for the full film on this card — start with one sequence.
+- **Pick a model that fits 12 GB:** a small or quantized (GGUF) open video model with an image-to-video mode. Test one 5-second clip first and note the time; that number × 1,781 shots × takes = your render budget. Expect days to weeks of GPU time for the full film on this card — start with one sequence.
 - **Consistency comes from stills:** generate the reference stills from `production_bible/` first (characters, units, locations), approve them, save them in `stills/` named by token (e.g. `CHAR_NOUR_A_front.png`), and use an image-to-video workflow so every shot starts from an approved face.
 
 ## 2. The workflows (shipped, validated against ComfyUI)
